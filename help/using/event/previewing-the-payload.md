@@ -1,0 +1,38 @@
+---
+title: 預覽裝載
+description: 瞭解如何預覽裝載
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+
+---
+
+
+
+# 預覽裝載 {#concept_jgf_4yk_4fb}
+
+裝載預覽可讓您驗證裝載定義。
+
+>[!NOTE]
+>
+>當您建立事件時，在檢視裝載預覽之前，請先儲存事件並重新開啟它。 需要此步驟，才能在裝載中產生事件ID。
+
+1. 按一下 **[!UICONTROL View Payload]**圖示，預覽系統預期的裝載。
+
+   ![](../assets/journey13.png)
+
+   您可以注意到選取的欄位會顯示。
+
+   ![](../assets/journey14.png)
+
+1. 勾選預覽以驗證裝載定義。
+
+1. 然後，您可以將裝載預覽共用給負責事件傳送的人員。 此負載可協助他設計推動「歷程協調」的活動設定。 參見[](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
