@@ -1,0 +1,48 @@
+---
+title: startWithIgnoreCase
+description: 瞭解函式startWithIgnoreCase
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+
+---
+
+
+# startWithIgnoreCase {#startWithIgnoreCase}
+
+如果第二個參數是第一個參數的前置詞而不考慮大小寫，則返回true。
+
+## 類別
+
+字串
+
+## 函式語法
+
+`startWithIgnoreCase(<parameters>)`
+
+## 參數
+
+| 參數 | 類型 |
+|-------------|--------|
+| 字串 | 字串 |
+| 前置詞 | 字串 |
+
+## 簽名和傳回的類型
+
+`startWithIgnoreCase(<string>,<string>)`
+
+傳回布林值。
+
+## 範例
+
+`startWith("rowing is great', "RO")`
+
+傳回true。
