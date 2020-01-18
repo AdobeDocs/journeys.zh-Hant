@@ -1,0 +1,41 @@
+---
+title: 隨機
+description: 瞭解隨機函式
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+
+---
+
+
+# 隨機 {#random}
+
+產生0到1之間的隨機數。
+
+## 類別
+
+數學
+
+## 函式語法
+
+`random(<parameters>)`
+
+## 簽名和傳回的類型
+
+`random()`
+
+傳回小數。
+
+## 範例
+
+`#{MarltonReservation.statistics.successRatio, defaultValue : random() * 100}`
+
+說明：如果成功率沒有值/is null，則會套用預設值，且會是0到1 * 100（意指0到100）之間的隨機數。
