@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
+source-git-commit: 6e7d89f4a9cb56b7b87cfc73ad7a9c7c4dc323a3
 
 ---
 
@@ -20,6 +20,11 @@ source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
 
 本頁列出Journey Orchestration的所有檔案更新。
 您也可以參閱歷程協調發 [行說明](../release-notes/release-notes.md)。
+
+## 2020年1月 {#january-2020}
+
+* 已新增體驗事件和 [區段的擷](../datasource/adobe-experience-platform-data-source.md) 取 [限制](../functions/functioninsegment.md)。
+* getBestSendTime [檔案已](../functions/functiongetbestsendtime.md) 更新。
 
 ## 2019年12月 {#december-2019}
 
@@ -32,4 +37,3 @@ source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
 * [條件式說明](../expression/conditional-instruction.md) 和 [「系列管理](../expression/collection-management-functions.md) 」區段已移動和更新。
 * 函 [數區](../expression/functions.md) 已更新為新範例。
 * toDateTime [函式檔案已更新](../functions/functiontodatetime.md) ，以反映時區語法的變更。
-
