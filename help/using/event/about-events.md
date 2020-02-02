@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # 關於事件 {#concept_gfj_fqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_events&quot;
+>title=&quot;關於事件&quot;
+>abstract=&quot;事件會連結至個人。 它與人的行為有關（例如，某人購買產品、造訪商店、退出網站等）或是某個人所發生的事（例如，一個人達到10,000個忠誠點）。 這是Journey Orchestration在歷程中所聽到的，以協調下一個最佳動作。」
 
 事件會連結至人員。 它與人的行為有關（例如，某人購買產品、造訪商店、退出網站等）或是某個人所發生的事（例如，一個人達到10,000個忠誠點）。 這是Journey Orchestration在歷程中所聽到的，以協調下一個最佳動作。
 
