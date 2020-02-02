@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # 關於動作 {#about_actions}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_actions&quot;
+>title=&quot;關於動作&quot;
+>abstract=&quot;這是您定義與系統的連接，以發送消息的位置。 此處定義的動作會顯示在旅程的左側浮動視窗中，位於「動作」類別中。」
 
 自訂動作的設定一律由技術使用者 **執行**。
 
