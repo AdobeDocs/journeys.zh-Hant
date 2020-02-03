@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d018072f2cbf2b8804c5c678f84cc8e25e3e86f4
+source-git-commit: fed9033310bf37535796638eda3b0846f1ed52c6
 
 ---
 
@@ -34,3 +34,5 @@ source-git-commit: d018072f2cbf2b8804c5c678f84cc8e25e3e86f4
 如果您有Adobe Campaign Standard，則需要設定立即可用的動作。 請參閱[](../action/working-with-adobe-campaign.md)。
 
 如果您使用協力廠商系統來傳送訊息，則需要新增及設定自訂動作。 請參閱[](../action/about-custom-action-configuration.md)。
+
+這是個考驗。
