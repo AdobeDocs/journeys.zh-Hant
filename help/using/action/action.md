@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
+source-git-commit: d018072f2cbf2b8804c5c678f84cc8e25e3e86f4
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 >[!CONTEXTUALHELP]
 >id=&quot;jo_actions&quot;
 >title=&quot;關於動作&quot;
->abstract=&quot;這是您定義與系統的連接，以發送消息的位置。 此處定義的動作會顯示在旅程的左側浮動視窗中，位於「動作」類別中。」
+>abstract=&quot;這是您定義與系統的連接，以發送消息的位置。 然後，在「動作」類別的旅程左側浮動視窗中，就可使用此處定義的動作。 &quot;
 
 自訂動作的設定一律由技術使用者 **執行**。
 
