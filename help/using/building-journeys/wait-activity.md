@@ -11,14 +11,14 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
 
 # 等待活動{#section_rlm_nft_dgb}
 
-如果要在路徑中執行下一個活動之前等待，可以使用活 **[!UICONTROL Wait]**動。 它可讓您定義執行下一個活動的時間。 有四個選項可供使用：
+如果要在路徑中執行下一個活動之前等待，可以使用活 **[!UICONTROL Wait]** 動。 它可讓您定義執行下一個活動的時間。 有四個選項可供使用：
 
 * [持續時間](#duration)
 * [固定日期](#fixed_date)
@@ -37,7 +37,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 >
 >等待時間上限為30天。
 >
->在測試模式中，所有等待活動都會自動設為最後5秒。 這可讓您快速存取測試結果。
+>在測試模式中，「 **在測試中等待時間** 」參數允許您定義每個等待活動的持續時間。 預設時間為10秒。 這可確保您快速取得測試結果。 See [](../building-journeys/testing-the-journey.md)
 
 ## 持續等待{#duration}
 
@@ -75,10 +75,10 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 >
 >您旅程的第一個事件必須有命名空間。
 >
->此功能僅在活動後才可 **[!UICONTROL Email]**用。 您必須擁有Adobe Campaign Standard。
+>此功能僅在活動後才可 **[!UICONTROL Email]** 用。 您必須擁有Adobe Campaign Standard。
 
-1. 在欄位 **[!UICONTROL Amount of time]**中，定義要考慮最佳化電子郵件傳送的小時數。
-1. 在欄位中 **[!UICONTROL Optimization type]**，選擇最佳化應增加點按還是開啟。
+1. 在欄位 **[!UICONTROL Amount of time]** 中，定義要考慮最佳化電子郵件傳送的小時數。
+1. 在欄位中 **[!UICONTROL Optimization type]** ，選擇最佳化應增加點按還是開啟。
 1. 在「預 **設時間** 」欄位中，定義預設傳送時間分數不可用時的預設等待時間。
 
    >[!NOTE]
