@@ -21,20 +21,6 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 本頁列出Journey Orchestration的所有檔案更新。
 您也可以參閱歷程協調發 [行說明](../release-notes/release-notes.md)。
 
-## 2020年3月 {#march-2020}
-
-* 多個事件的觸發已新增至「測試模式」區段閱 [讀更多](../building-journeys/testing-the-journey.md#firing_events)
-* 已更新「測試模式」區段，其中包含新的「 **測試中等待時間** 」參數。 [閱讀更多資訊](../building-journeys/testing-the-journey.md)
-* 「測試記錄」區段已更新為外部呼叫錯誤碼和回應。 [閱讀更多資訊](../building-journeys/testing-the-journey.md#viewing_logs)
-* 時區管理現在集中在歷程屬性面板中。 在這裡和 [這裡](../building-journeys/changing-properties.md#timezone) ，閱讀更 [多](../building-journeys/timezone-management.md)
-* 「歷程設計人員」區段已更新，以反映最近的增強功能。 [閱讀更多資訊](../building-journeys/using-the-journey-designer.md)
-* 介面說明已更新，其中包含內容相關說明的資訊。 [閱讀更多資訊](../about/user-interface.md#section_ksq_zr1_ffb)
-* 瀏覽 **XDM欄位時**，現在會顯示好記名稱。 相關章節已更新。 [閱讀更多資訊](../event/defining-the-payload-fields.md)
-
-## 2020年2月 {#february-2020}
-
-* 已更新快捷方式部分。 使用 **C** 鍵盤快速鍵，您可以在所有清單畫面中建立新項目。 [閱讀更多資訊](../about/user-interface.md#section_ksq_zr1_ffb)
-
 ## 2020年1月 {#january-2020}
 
 * 已新增體驗事件和 [區段的擷](../datasource/adobe-experience-platform-data-source.md) 取 [限制](../functions/functioninsegment.md)。
