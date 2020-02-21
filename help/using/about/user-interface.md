@@ -20,7 +20,7 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;關於旅程清單&quot;
->abstract=&quot;歷程清單可讓您一次檢視所有歷程、查看其狀態並執行基本動作。 您可以複製、停止或刪除您的歷程。 視歷程而定，某些動作可能無法使用。 例如，您無法停止或刪除已完成的歷程。 您也可以使用搜尋列來搜尋旅程。」
+>abstract=&quot;歷程清單可讓您一次檢視所有歷程、查看其狀態並執行基本動作。 您可以複製、停止或刪除您的歷程。 視歷程而定，某些動作可能無法使用。 例如，您無法停止或刪除停止的歷程。 您也可以使用搜尋列來搜尋旅程。」
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Watch demo video&quot;
 
 
@@ -40,13 +40,9 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ![](../assets/journey1bis.png)
 
-頂級功能表可讓您瀏覽歷程協調的不同功能： **[!UICONTROL Home]**（旅程）**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**
+主要功能表可讓您瀏覽歷程協調的不同功能： **[!UICONTROL Home]**（旅程）**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**
 
 ![](../assets/journey2.png)
-
-按一 ![](../assets/icon-context.png) 下畫面右上角的圖示，以顯示內容相關說明。 它可跨不同的「歷程協調」清單畫面（歷程、活動、動作和資料來源）使用。 這可讓您檢視目前功能的快速說明，並存取相關文章和影片。
-
-![](../assets/journey2bis.png)
 
 ## 搜尋和篩選{#section_lgm_hpz_pgb}
 
