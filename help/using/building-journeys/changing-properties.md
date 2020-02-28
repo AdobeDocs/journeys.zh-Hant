@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: 76369cd714c513e0038278ad058bf1ba43fcd240
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 按一下右上角的鉛筆圖示，以存取歷程的屬性。
 
-您可以變更旅程的名稱、新增說明、允許重新進入、選擇開始和結束日期，並定義持 **[!UICONTROL Timeout and error]**續時間（如果您是管理員）。
+您可以變更旅程的名稱、新增說明、允許重新進入、選擇開始和結束日期，並定義持 **[!UICONTROL Timeout and error]** 續時間（如果您是管理員）。
 
 ![](../assets/journey32.png)
 
@@ -37,7 +37,7 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 授權值介於1到30秒之間。
 
-如果您的旅程對時間很敏感， **[!UICONTROL Timeout and error]**建議您定義一個非常短的值(例如：回應人員的即時位置)，因為您無法將動作延遲超過幾秒。 如果您的歷程對時間不太敏感，您可以使用較長的值，為呼叫傳送有效回應的系統提供更多時間。
+如果您的旅程對時間很敏感， **[!UICONTROL Timeout and error]** 建議您定義一個非常短的值(例如：回應人員的即時位置)，因為您無法將動作延遲超過幾秒。 如果您的歷程對時間不太敏感，您可以使用較長的值，為呼叫傳送有效回應的系統提供更多時間。
 
 Journey Orchestration也使用全域逾時。 請參閱下 [一節](#global_timeout)。
 
@@ -50,3 +50,11 @@ Journey Orchestration也使用全域逾時。 請參閱下 [一節](#global_time
 >歷程協調不會直接回應隱私權選擇退出、存取或刪除要求。 不過，全域逾時可確保個人在任何行程中不會停留超過30天。
 
 由於30天的行程逾時，當行程重新進入不允許時，我們無法確保重新進入的阻擋作用超過30天。 事實上，由於我們刪除了所有有關在他們進入旅程30天後進入旅程的資訊，因此我們無法知道在30天前進入的人。
+
+## 時區和描述檔時區 {#timezone}
+
+時區是在歷程層級定義。
+
+您可以輸入固定時區或使用體驗平台設定檔來定義旅程時區。
+
+有關時區管理的詳細資訊，請參見 [](../building-journeys/timezone-management.md)。
