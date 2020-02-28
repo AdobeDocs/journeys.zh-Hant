@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
+source-git-commit: 538b350165365479caef499a74346381643033d5
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ## 關於條件活動 {#about_condition}
 
-如果 **[!UICONTROL Add a path]**要定義幾個條件，請按一下。 對於每個條件，在活動後的畫布中都會新增新路徑。
+如果 **[!UICONTROL Add a path]** 要定義幾個條件，請按一下。 對於每個條件，在活動後的畫布中都會新增新路徑。
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ![](../assets/journey48.png)
 
-您可以勾選，為不符合定義條件的對象建立其他路徑 **[!UICONTROL Show path for other cases than the one(s) above]**。 請注意，此選項不適用於分割條件。 請參閱[百分比分割](#percentage_split)。
+您可以勾選，為不符合定義條件的對象建立其他路徑 **[!UICONTROL Show path for other cases than the one(s) above]**。 請注意，此選項不適用於分割條件。 請參閱 [百分比分割](#percentage_split)。
 
 簡單模式允許您基於欄位的組合執行簡單查詢。 所有可用欄位都會顯示在畫面的左側。 將欄位拖放至主區域。 若要結合不同的元素，請將它們互相互連結，以建立不同的群組和／或群組層級。 然後，您可以選取邏輯運算子來組合同一層級的元素：
 
@@ -58,7 +58,11 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ## 時間條件{#time_condition}
 
-這可讓您根據一天中的某小時和／或一週中的某天執行不同的動作。 例如，您可以決定在白天傳送SMS訊息，在工作日的晚上傳送電子郵件。 您可以為此條件定義特定時區。 參見[](../building-journeys/timezone-management.md)。
+這可讓您根據一天中的某小時和／或一週中的某天執行不同的動作。 例如，您可以決定在白天傳送SMS訊息，在工作日的晚上傳送電子郵件。
+
+>[!NOTE]
+>
+>時區不再是特定於某個條件，現在會在歷程屬性的歷程層級定義。 參見[](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey51.png)
 
@@ -75,6 +79,10 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ## 日期條件 {#date_condition}
 
-這可讓您根據日期定義不同的流程。 例如，如果人員在「銷售」期間進入步驟，您會傳送特定訊息給他。 今年剩下的時間，你會再傳個資訊。 定義日期條件時，必須指定時區。 參見[](../building-journeys/timezone-management.md)。
+這可讓您根據日期定義不同的流程。 例如，如果人員在「銷售」期間進入步驟，您會傳送特定訊息給他。 今年剩下的時間，你會再傳個資訊。
+
+>[!NOTE]
+>
+>時區不再是特定於某個條件，現在會在歷程屬性的歷程層級定義。 參見[](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey53.png)
