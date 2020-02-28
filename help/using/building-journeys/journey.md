@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
 
 ---
 
@@ -29,13 +29,13 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 以下是建立和發佈歷程的主要步驟。
 
-1. 在頂端功能表中，按一下標 **[!UICONTROL Home]**簽。
+1. 在頂端功能表中，按一下標 **[!UICONTROL Home]** 簽。
 
    將顯示歷程清單。 有關 [](../building-journeys/using-the-journey-designer.md) 介面的詳細資訊，請參閱。
 
    ![](../assets/journey30.png)
 
-1. 按一 **[!UICONTROL Create]**下以建立新的歷程。
+1. 按一 **[!UICONTROL Create]** 下以建立新的歷程。
 
    ![](../assets/journey31.png)
 
@@ -44,7 +44,6 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
    ![](../assets/journey32.png)
 
 1. 首先，從浮動視窗拖放事件活動至畫布。 您也可以連按兩下活動，將其新增至畫布。
-
 
    ![](../assets/journey33.png)
 
@@ -56,7 +55,7 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
    ![](../assets/journey36.png)
 
-## 結束旅程{#ending_a_journey}
+## 結束旅程 {#ending_a_journey}
 
 結束旅程有兩種方式：
 
@@ -64,4 +63,3 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 * 該人員到達條件活動（或具有條件的等待活動），且不符合任何條件。
 
 如果允許重新入場，人就可以重新進入旅程。 參見[](../building-journeys/changing-properties.md)。
-
