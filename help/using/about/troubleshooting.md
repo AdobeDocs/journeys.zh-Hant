@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -25,6 +25,10 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 錯誤會出現，而警告符號會顯示在畫布上的活動本身。 將游標置於驚嘆號上，以顯示錯誤訊息。 如果您按一下活動，應該會看到錯誤的行並出現警告。 例如，如果強制欄位為空，則會顯示錯誤。
 
 ![](../assets/journey63.png)
+
+例如，在畫布中，當兩個活動中斷連線時，會顯示警告。
+
+![](../assets/canvas-disconnected.png)
 
 在切換和 **[!UICONTROL Test]** 按鈕旁 **[!UICONTROL Publish]** 邊，會顯示警告符號。 此警告符號會顯示系統偵測到的錯誤，並防止測試模式啟動或發佈歷程。 大多數情況下，系統檢測到的錯誤會連結到活動上可見的錯誤，但有時會連結到其他問題。 在這種情況下，您可以顯示問題，嘗試使用錯誤說明來識別問題。 如果您無法識別問題，可以複製詳細資訊並傳送給管理員或支援。 請注意，阻止測試的錯誤和阻止發佈的錯誤是類似的。
 
