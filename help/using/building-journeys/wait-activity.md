@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 >
 >等待時間上限為30天。
 >
->在測試模式中，所有等待活動都會自動設為最後5秒。 這可讓您快速存取測試結果。
+>在測試模式中，「 **在測試中等待時間** 」參數允許您定義每個等待活動的持續時間。 預設時間為10秒。 這可確保您快速取得測試結果。 See [](../building-journeys/testing-the-journey.md)
 
 ## 持續等待{#duration}
 
@@ -47,19 +47,19 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ## 固定日期等待{#fixed_date}
 
-選擇下一活動的執行日期。 定義固定日期時，必須指定時區。 參見[](../building-journeys/timezone-management.md)。
+選擇下一活動的執行日期。
 
 ![](../assets/journey56.png)
 
 ## 自訂等待{#custom}
 
-此選項可讓您使用根據事件或資料來源產生的欄位的進階運算式，來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 參見[](../expression/expressionadvanced.md)。如需dateTimeOnly格式的詳細資訊，請參閱 [](../expression/data-types.md)
+此選項可讓您使用根據事件或資料來源產生的欄位的進階運算式，來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 參見[](../expression/expressionadvanced.md)。有關dateTimeOnly格式的詳細資訊，請參見 [](../expression/data-types.md)。
 
 >[!NOTE]
 >
 >您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06。
 >
->自 **訂等待設定窗格** ，時區應該位於其他位置。 因此，今天無法從介面直接指向完全ISO-8601時間戳記混合時間與時區偏移，例如2016-08-12T09:46:06.982-05。 參見[](../building-journeys/timezone-management.md)。
+>您 **的旅程** ，時區是必要的。 因此，今天無法從介面直接指向完全ISO-8601時間戳記混合時間與時區偏移，例如2016-08-12T09:46:06.982-05。 參見[](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 
