@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 translation-type: tm+mt
 
 ---
@@ -20,7 +20,7 @@ translation-type: tm+mt
 
 ## 參與者授權合約
 
-所有第三方對本項目的捐款都必須附上簽署的捐款者授權協定。 這可授予 Adobe 在專案中重新使用您稿件的權限。[簽署我們的CLA](http://opensource.adobe.com/cla.html)。 您只需提交一次Adobe CLA，因此如果您先前已提交過一個CLA，您就可以了！
+所有第三方對本項目的捐款都必須附上簽署的捐款者授權協定。 這可授予 Adobe 在專案中重新使用您稿件的權限。[簽署我們的CLA](https://opensource.adobe.com/cla.html)。 您只需提交一次Adobe CLA，因此如果您先前已提交過一個CLA，您就可以了！
 
 ## 程式碼審核
 
