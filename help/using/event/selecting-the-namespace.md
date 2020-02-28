@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 411ecf0ec4dc6a87c4e129b40f2918799bef54bf
 
 ---
 
@@ -22,7 +22,12 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 您可以使用其中一個預先定義的名稱空間，或使用Identity Namespace服務建立新的名稱空間。 Refer to this [page](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md).
 
-如果選擇具有主標識的方案，則預 **[!UICONTROL Key]**填充**[!UICONTROL Namespace]** 和欄位。 如果未定義任何識別，我們會選 _擇identityMap > id_ (id)作為主要金鑰。 然後，您必須選取命名空間，然後使用identityMap > id預先填入 **[!UICONTROL Namespace]**索引&#x200B;_鍵（在欄位下）_。
+如果選擇具有主標識的方案，則預 **[!UICONTROL Key]** 填充 **[!UICONTROL Namespace]** 和欄位。 如果未定義任何識別，我們會選 _擇identityMap > id_ (id)作為主要金鑰。 然後，您必須選取命名空間，然後使用identityMap > id預先填入 **[!UICONTROL Namespace]** 索引 _鍵（在欄位下）_。
+
+選擇欄位時，標籤主標識欄位。
+
+![](../assets/primary-identity.png)
+
 
 從下拉式清單中選取命名空間。
 
