@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
+source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 
 ---
 
@@ -73,18 +73,15 @@ source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
 
 ![](../assets/journey4.png)
 
-## 顯示XDM欄位名稱{#friendly-names-display}
+## 瀏覽資料平台欄位 {#friendly-names-display}
 
-XDM欄位名稱是在方案中定義的欄位名稱和顯示名稱，用於定義事 [件裝載](../event/defining-the-payload-fields.md)、 [欄位組裝載](../datasource/field-groups.md) ，以及在表達式編輯器中選 [擇欄位](../expression/expressionadvanced.md)。
-選擇欄位時，會顯示其技術名稱以及更易於用戶使用的欄位名稱。
+定義事 [件裝載](../event/defining-the-payload-fields.md)、欄位群組裝載 [，以及在運算式編輯器中選取欄位時](../datasource/field-groups.md)[](../expression/expressionadvanced.md)，除了欄位名稱外，還會顯示顯示名稱。 此資訊會從「體驗資料模型」的架構定義中擷取。
 
-在設定結構以定義將替換顯示名稱的友好名稱時，可以提供描述符，如&quot;xdm:alternateDisplayInfo&quot;。 它還允許您修改架構欄位的「標題」和「說明」值。
-
-如果有好記名稱，則欄位會顯示為 `<friendly-name>(<name>)`。 例如，如果沒有友好名稱可用，將顯示名稱 `<display-name>(<name>)`。 如果未定義這些欄位，則只顯示欄位的技術名稱 `<name>`。
-
-您可以透過API呼叫來設定好記名稱描述子。 如需詳細資訊，請參閱 [Schema Registry開發人員指南](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)。
+如果在設定結構時提供了&quot;xdm:alternateDisplayInfo&quot;之類的描述符，則用戶友好的名稱將替換顯示名稱。 在使用「eVars」和一般欄位時，它特別有用。您可以透過API呼叫來設定好記名稱描述子。 如需詳細資訊，請參閱 [Schema Registry開發人員指南](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)。
 
 ![](../assets/xdm-from-descriptors.png)
+
+如果有好記名稱，則欄位會顯示為 `<friendly-name>(<name>)`。 例如，如果沒有友好名稱可用，將顯示名稱 `<display-name>(<name>)`。 如果未定義這些欄位，則只顯示欄位的技術名稱 `<name>`。
 
 >[!NOTE]
 >
