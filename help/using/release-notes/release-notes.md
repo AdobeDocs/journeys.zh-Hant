@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 ---
 
@@ -79,7 +79,7 @@ source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
 <td>
 <p>旅程 <strong>設計人員</strong>（在旅程設計人員左側）的旅程浮動視窗已增強：</p>
 <ul>
-<li>在**Search**列旁有新圖示，可讓您隱藏或顯示浮動視窗中不可用的元素，例如使用不同於歷程中所用名稱空間的事件。 依預設，無法使用的項目會隱藏。</li>
+<li>「搜尋」列旁有新圖示，可讓您隱藏或顯示浮動視窗中不可用的元素，例如使用與歷程中不同名稱空間的事件。 <strong></strong> 依預設，無法使用的項目會隱藏。</li>
 <li>使用「搜 <strong>尋</strong> 」欄位時，現在會顯示每個畫布活動類別的結果數。</li>
 <li>已改善不同活動類別之間的導覽。</li>
 </ul>
