@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 ---
 
@@ -64,7 +64,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 **函式&quot;all(`<condition>`)&quot;**
 
-此函 **[!UICONTROL all]**數可使用布林運算式，來定義指定系列上的篩選器。
+此函 **[!UICONTROL all]** 數可使用布林運算式，來定義指定系列上的篩選器。
 
 ```
 <listExpression>.all(<condition>)
@@ -72,11 +72,11 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 例如，在所有應用程式使用者中，您都可以取得使用IOS 13的使用者（布林運算式&quot;app used == IOS 13&quot;）。 此函式的結果是包含與布爾表達式匹配的項目的篩選清單(例如：app user 1、app user 34、app user 432)。
 
-在「資料來源條件」活動中，您可以檢查函式的結 **[!UICONTROL all]**果是否為null。 您也可以將此函式與**[!UICONTROL all]** 其他函式結合，例如 **[!UICONTROL count]**。 如需詳細資訊，請參閱「[資料來源條件」活動](../building-journeys/condition-activity.md#data_source_condition)。
+在「資料來源條件」活動中，您可以檢查函式的結 **[!UICONTROL all]** 果是否為null。 您也可以將此函式與 **[!UICONTROL all]** 其他函式結合，例如 **[!UICONTROL count]**。 如需詳細資訊，請參閱「 [資料來源條件」活動](../building-journeys/condition-activity.md#data_source_condition)。
 
 **範例1:**
 
-我們想檢查使用者是否已安裝特定版本的應用程式。 為此，我們會取得與版本為1.0的行動應用程式相關的所有推播通知Token。然後，利用函式進行條件檢 **[!UICONTROL count]**查返回的Token清單是否包含至少一個元素。
+我們想檢查使用者是否已安裝特定版本的應用程式。 為此，我們會取得與版本為1.0的行動應用程式相關的所有推播通知Token。然後，利用函式進行條件檢 **[!UICONTROL count]** 查返回的Token清單是否包含至少一個元素。
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -86,7 +86,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 **範例2:**
 
-在這裡，我們使 **[!UICONTROL count]**用函式來檢查系列中是否有推播通知Token。
+在這裡，我們使 **[!UICONTROL count]** 用函式來檢查系列中是否有推播通知Token。
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -130,7 +130,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 **範例3:**
 
-在此，我們會檢查過去24小時內是否有個人收到任何通訊。 我們會使用兩個基於系列兩個元素的運算式，來篩選從ExperiencePlatform資料來源擷取的體驗事件集合。 尤其是，事件的時間戳記會與函式傳回的dateTime作比 **[!UICONTROL nowWithDelta]**較。
+在此，我們會檢查過去24小時內是否有個人收到任何通訊。 我們會使用兩個基於系列兩個元素的運算式，來篩選從ExperiencePlatform資料來源擷取的體驗事件集合。 尤其是，事件的時間戳記會與函式傳回的dateTime作比 **[!UICONTROL nowWithDelta]** 較。
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -152,7 +152,6 @@ count(
 )._id}) > 0
 ```
 
-
 <!--**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
 
 `count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
@@ -171,12 +170,14 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]**僅在控制事件集合和currentDataPackField時**&#x200B;可用&#x200B;**>控制資料來源集合時。 當處理系列時**[!UICONTROL all]**, **[!UICONTROL first]**我**[!UICONTROL last]**們
->逐個循環顯示系列的每個元素。 **[!UICONTROL currentEventField]**和** currentDataPackField **>對應於所循環的元素。
+>**[!UICONTROL currentEventField]** 僅在控制事件集合和currentDataPackField時 **可用**
+>控制資料來源集合時。 當處理系列時 **[!UICONTROL all]**, **[!UICONTROL first]** 我 **[!UICONTROL last]**們
+>逐個循環顯示系列的每個元素。 **[!UICONTROL currentEventField]** 和 **currentDataPackField**
+>對應於所循環的元素。
 
 **函式&quot;first(`<condition>`)&quot;和&quot;last(`<condition>`)&quot;**
 
-和 **[!UICONTROL first]**函**[!UICONTROL last]** 數也可啟用系列上篩選的定義，同時傳回符合篩選的清單的第一個／最後一個元素。
+和 **[!UICONTROL first]** 函 **[!UICONTROL last]** 數也可啟用系列上篩選的定義，同時傳回符合篩選的清單的第一個／最後一個元素。
 
 _`<listExpression>.first(<condition>)`_
 
@@ -205,8 +206,8 @@ _`<listExpression>.last(<condition>)`_
 >[!NOTE]
 >
 >體驗事件是從Experience platform擷取為依時間順序倒排的系列，因此：
->* **[!UICONTROL first]**函式會傳回最近的事件
->* **[!UICONTROL last]**函式會傳回最舊的函式。
+>* **[!UICONTROL first]** 函式會傳回最近的事件
+>* **[!UICONTROL last]** 函式會傳回最舊的函式。
 
 
 **範例3:**
@@ -220,7 +221,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函式&quot;at(`<index>`)&quot;**
 
-此函 **[!UICONTROL at]**數可讓您根據索引參考系列中的特定元素。
+此函 **[!UICONTROL at]** 數可讓您根據索引參考系列中的特定元素。
 索引0是系列的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_
