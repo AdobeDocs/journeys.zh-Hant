@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
+source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 ---
 
@@ -47,7 +47,6 @@ source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
 
 預設值可與欄位名稱關聯。 語法如下：
 
-
 ```
 // event field
 @{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
@@ -71,7 +70,9 @@ source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-**引用映射中定義的欄位**&#x200B;為了檢索映射中的元素，我們使用帶有給定鍵的條目函式。 例如，根據所選的命名空間定義事件的索引鍵時，會使用它。 請參閱選擇命名空間。 For more information, see [](../event/selecting-the-namespace.md).
+**映射中定義的欄位的引用**
+
+為了檢索映射中的元素，我們使用帶有給定鍵的輸入函式。 例如，根據所選的命名空間定義事件的索引鍵時，會使用它。 請參閱選擇命名空間。 For more information, see [](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
