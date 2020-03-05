@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 # 外部資料來源 {#concept_t2s_kqt_52b}
 
-外部資料來源可讓您定義與協力廠商系統的連線，例如，如果您使用飯店訂房系統來檢查該人是否已註冊房間。 與內建的Experience platform資料來源不同，您可以建立所需數量的外部資料來源。
+外部資料來源可讓您定義與協力廠商系統的連線，例如，如果您使用飯店訂房系統來檢查該人是否已註冊房間。 與內建的Experience Platform資料來源不同，您可以視需要建立盡可能多的外部資料來源。
 
 支援使用POST或GET和傳回JSON的REST API。 支援API金鑰、基本和自訂驗證模式。
 
@@ -34,7 +34,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 以下是建立和設定新外部資料來源的主要步驟：
 
-1. 從資料來源清單中，按一下 **[!UICONTROL Add]**以建立新的外部資料來源。
+1. 從資料來源清單中，按一下 **[!UICONTROL Add]** 以建立新的外部資料來源。
 
    ![](../assets/journey25.png)
 
@@ -57,7 +57,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
    ![](../assets/journey27.png)
 
-1. 根據外部服務配置配置身份驗證： **[!UICONTROL No authentication]**、**[!UICONTROL Basic]****[!UICONTROL Custom]**或**[!UICONTROL API key]**。 有關自定義身份驗證模式的詳細資訊，請參見 [](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。 在我們的例子中，我們選擇：
+1. 根據外部服務配置配置身份驗證： **[!UICONTROL No authentication]**、 **[!UICONTROL Basic]****[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。 有關自定義身份驗證模式的詳細資訊，請參見 [](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。 在我們的例子中，我們選擇：
 
 
    * **[!UICONTROL Type]**:&quot;API金鑰&quot;
@@ -70,20 +70,20 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 對於「long/lat」參數集，我們會建立包含下列資訊的欄位群組：
 
-* **[!UICONTROL Used in]**:顯示使用欄位群組的歷程次數。 您可以按一下**[!UICONTROL View journeys]** 圖示，顯示使用此欄位群組的歷程清單。
+* **[!UICONTROL Used in]**:顯示使用欄位群組的歷程次數。 您可以按一下 **[!UICONTROL View journeys]** 圖示，顯示使用此欄位群組的歷程清單。
 * **[!UICONTROL Method]**:選擇POST或GET方法。 在本例中，我們選擇了GET方法。
 * **[!UICONTROL Cache duration]**:以我們為例，我們希望將天氣快取10分鐘。
-* **[!UICONTROL Response Payload]**:在欄位內**[!UICONTROL Payload]** 按一下，並貼上呼叫傳回之裝載的範例。 例如，我們使用氣象API網站上找到的裝載。 驗證欄位類型是否正確。 每次呼叫API時，系統都會擷取裝載範例中包含的所有欄位。 請注意，如果您想要變 **[!UICONTROL Paste a new payload]**更目前傳遞的裝載，可以按一下。
+* **[!UICONTROL Response Payload]**:在欄位內 **[!UICONTROL Payload]** 按一下，並貼上呼叫傳回之裝載的範例。 例如，我們使用氣象API網站上找到的裝載。 驗證欄位類型是否正確。 每次呼叫API時，系統都會擷取裝載範例中包含的所有欄位。 請注意，如果您想要變 **[!UICONTROL Paste a new payload]** 更目前傳遞的裝載，可以按一下。
 * **[!UICONTROL Dynamic Values]**:在本例中輸入以&quot;long,lat&quot;分隔的不同參數。 由於參數值取決於執行上下文，因此它們將在歷程中定義。 參見[](../expression/expressionadvanced.md)。
 * **[!UICONTROL Sent Payload]**:本欄位不會出現在我們的範例中。 只有選擇POST方法時，才可使用它。 貼上將傳送至協力廠商系統的裝載。
 
-在需要參數的GET呼叫中，您會在欄位中輸入參數，並 **[!UICONTROL Parameters]**在呼叫結束時自動新增這些參數。 若是POST呼叫，您需要：
+在需要參數的GET呼叫中，您會在欄位中輸入參數，並 **[!UICONTROL Parameters]** 在呼叫結束時自動新增這些參數。 若是POST呼叫，您需要：
 
-* 在欄位中列出呼叫時傳遞的參 **[!UICONTROL Parameter]**數(在以下範例中：「識別碼」)。
+* 在欄位中列出呼叫時傳遞的參 **[!UICONTROL Parameter]** 數(在以下範例中：「識別碼」)。
 * 在已傳送裝載的正文中，也使用完全相同的語法來指定它們。 若要這麼做，您必須新增：&quot;param&quot;:&quot;name of your parameter&quot;(在以下範例中：「識別碼」)。 請遵循下列語法：
 
    ```
-   {“id”:{“param”:“identifier”}}
+   {"id":{"param":"identifier"}}
    ```
 
 ![](../assets/journey29.png)
@@ -124,7 +124,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 * authorizationType:定義在動作的HTTP呼叫中必須插入產生的存取Token的方式。 可能的值包括：
 
-   * 載體：指出存取Token必須插入授權標題中，例如：授 _權：Bearer &lt;存取Token>_
+   * 載體：指出存取Token必須插入授權標題，例如：授 _權：Bearer &lt;存取Token>_
    * 頁首：指出存取Token必須插入為標題（由屬性tokenTarget定義的標題名稱）。 例如，若tokenTarget是myHeader，存取Token會以下列方式插入為標題： _myHeader:&lt;access token>_
    * queryParam:指出存取Token必須插入為queryParam，即由屬性tokenTarget定義的查詢參數名稱。 例如，若tokenTarget是myQueryParam，則動作呼叫的URL將是： _&lt;url>?myQueryParam=&lt;access token>_
 
@@ -141,7 +141,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
     (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
-    (optional) "headers: {
+    (optional) "headers": {
         "<header name>": "<header value>",
         ...
     },
