@@ -4,7 +4,7 @@ solution: Journeys
 title: 歷程協調產品檔案
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
+source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
 
 ## 開始使用
 
-* **[什麼是歷程協調？](using/action/working-with-adobe-campaign.md)**<br/>進一步瞭解歷程協調。
+* **[什麼是歷程協調？](using/about/about-journey-orchestration.md)**<br/>進一步瞭解歷程協調。
 
 * **[建立您的第一個歷](using/about/get-started.md)**<br/>程探索設定「歷程協調」的主要步驟，並建立您的第一個歷程。
 
@@ -34,7 +34,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/about/troubleshooting.md"><strong>疑難排解</strong></a>
     </div>
-    <em></em>瞭解您可用來疑難排解歷程的各種工具。
+    <em>瞭解您可用來疑難排解歷程的各種工具。</em>
     <br>
   </td>
   <td valign="top">
@@ -44,7 +44,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>使用案例</strong></a>
     </div>
-    <em></em>瞭解如何逐步建立進階的歷程。
+    <em>瞭解如何逐步建立進階的歷程。</em>
     <br>
   </td>
   <td valign="top">
