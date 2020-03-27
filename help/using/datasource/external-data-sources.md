@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
 
 ---
 
@@ -93,6 +93,11 @@ source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 資料來源現在已設定好，可供您在歷程中使用，例如在您的條件中或個人化電子郵件。 如果溫度高於30°C，您可以決定傳送特定通訊。
 
 ## 自訂驗證模式{#section_wjp_nl5_nhb}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_authentication_payload&quot;
+>title=&quot;關於自訂驗證&quot;
+>abstract=&quot;自訂驗證模式用於複雜驗證，以呼叫API封裝通訊協定，例如OAuth2。 動作執行是兩個步驟的程式。 首先，執行對端點的調用以生成訪問令牌。 接著，存取Token會插入動作的HTTP要求中。」
 
 此驗證模式用於複雜驗證，常用來呼叫OAuth2等API封裝通訊協定，以擷取要插入實際HTTP要求中的存取Token，以執行動作。
 
