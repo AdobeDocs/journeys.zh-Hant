@@ -1,5 +1,5 @@
 ---
-title: 文檔更新
+title: 文件更新
 description: 瞭解檔案更新
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,18 +11,22 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
 
 ---
 
 
-# 文檔更新
+# 文件更新
 
 本頁列出Journey Orchestration的所有檔案更新。
 您也可以參閱歷程協調發 [行說明](../release-notes/release-notes.md)。
 
 ## 2020年3月 {#march-2020}
 
+* 歷程中使用的自訂動作限制已更新。 您也可以修改 **URL欄位** ，以及 **Authentication參數** 。 [閱讀更多資訊](../action/about-custom-action-configuration.md)
+* 已新增內容說明項目。 自訂驗證裝載窗格（在動作和資料來源中）現在包含連結至此區段的說明 [圖示](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
+* 完成的旅程現在可以停止。 [閱讀更多資訊](../building-journeys/using-the-journey-designer.md)
+* 介面說明部分已重新組織。 [閱讀更多資訊](../about/user-interface.md)
 * 多個事件的觸發已新增至「測試模式」區段閱 [讀更多](../building-journeys/testing-the-journey.md#firing_events)
 * 已更新「測試模式」區段，其中包含新的「 **測試中等待時間** 」參數。 [閱讀更多資訊](../building-journeys/testing-the-journey.md)
 * 「測試記錄」區段已更新為外部呼叫錯誤碼和回應。 [閱讀更多資訊](../building-journeys/testing-the-journey.md#viewing_logs)
