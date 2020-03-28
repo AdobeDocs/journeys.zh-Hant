@@ -1,5 +1,5 @@
 ---
-title: 發行說明 年
+title: 發行說明
 description: 瞭解版本注意事項
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
+source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 ## 第1季發行- 2020年3月 {#q1-release---march-2020}
 
-**新增功能？**
+**新增功能?**
 
 <table>
 <thead>
@@ -59,7 +59,7 @@ source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 <p>時區管理現在集中在歷程屬性面板中。 在歷程屬性中新增了兩個參數：</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
-<li>「 <strong>時區</strong> 」下拉式清單可讓您選取特定時區。 依預設，會使用瀏覽器的時區。</li>
+<li>「 <strong>時區</strong> 」下拉式清單可讓您選取特定時區。 依預設，會使用瀏覽器的時區。 </li>
 <li>「描 <strong>述檔時區</strong> 」核取方塊可讓您使用進入歷程之人員的「體驗平台描述檔」時區（如果有的話）。 否則，會使用下拉式清單中定義的時區。 此功能與使用沒有命名空間之事件的歷程不相容。</li>
 </ul>
 <p>如需詳細資訊，請參閱「變更 <a href="../building-journeys/changing-properties.md#timezone">屬性</a> 」和「 <a href="../building-journeys/timezone-management.md">時區管理</a> 」區段。</p>
@@ -127,9 +127,10 @@ source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 運用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。
 
-Journey Orchestration可讓您即時協調，並運用來自活動的情境式資料、來自Adobe Experience Platform的資訊或來自協力廠商API服務的資料。 應用程式會根據消費者的描述檔和行為，在稱為歷程的多步驟流程中，決定下一個消費者專屬的最佳動作。 這包括最佳時機和動作類型，例如透過Adobe Campaign standard交易訊息功能（需要Adobe Campaign Standard）向消費者傳送推播通知或通知協力廠商系統。 這些決定是根據規則和Sensei得分做出的。
+Journey Orchestration可讓您即時協調，並運用來自活動的情境式資料、來自Adobe Experience Platform的資訊或來自協力廠商API服務的資料。 應用程式會根據消費者的描述檔和行為，在稱為歷程的多步驟流程中，決定下一個消費者專屬的最佳動作。 這包括最佳時機和動作類型，例如透過Adobe Campaign Standard交易訊息功能（需要Adobe Campaign Standard）向消費者傳送推播通知或通知協力廠商系統。 這些決定是根據規則和Sensei得分做出的。
 
-[進一步瞭解](../action/working-with-adobe-campaign.md) 「歷程協調」。
+[](../action/working-with-adobe-campaign.md)
+進一步瞭解歷程協調。
 
 其他資源：
 
