@@ -1,5 +1,5 @@
 ---
-title: 測試旅程
+title: 測試歷程
 description: '瞭解歷程測試 '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,12 +11,12 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
 
-# 測試旅程{#testing_the_journey}
+# 測試歷程{#testing_the_journey}
 
 您必須先解決所有錯誤（如果有），才能測試您的旅程。 參見[](../about/troubleshooting.md#section_h3q_kqk_fhb)。
 
@@ -86,7 +86,9 @@ source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 * _currentstep_:個體在旅程中所處的階段。 我們建議將標籤新增至您的活動，以便更輕鬆地識別。
 * _currentstep_ > phase:個人歷程的狀態（執行、完成、錯誤或逾時）。 請參閱下方以取得詳細資訊。
 * _currentstep_ > _extraInfo_:錯誤的描述和其他上下文資訊。
+* _currentstep_ > _fetchErrors_:此步驟中發生的讀取資料錯誤的資訊。
 * _externalKeys_:在事件中定義的鍵公式值。
 * _豐富的資料_:旅程使用資料來源時所擷取的資料。
 * _transitionHistory_:個人遵循的步驟清單。 對於事件，會顯示裝載。
+* _actionExecutionErrors_ :錯誤的相關資訊。
 
