@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
+source-git-commit: 0bf8ce5974b7be684a156d5c5445dca122213237
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
 
 ## 2020年3月 {#march-2020}
 
-* 已新增測試記錄 _區段中actionExecutionErrors__和fetchErrors_ 的參數說明。 [閱讀更多資訊](../action/testing-the-journey.md#viewing_logs)
+* 已新增測試記錄 _區段中actionExecutionErrors__和fetchErrors_ 的參數說明。 [閱讀更多資訊](../building-journeys/testing-the-journey.md#viewing_logs)
 * 歷程中使用的自訂動作限制已更新。 您也可以修改 **URL欄位** ，以及 **Authentication參數** 。 [閱讀更多資訊](../action/about-custom-action-configuration.md)
 * 已新增內容說明項目。 自訂驗證裝載窗格（在動作和資料來源中）現在包含連結至此區段的說明 [圖示](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
 * 完成的旅程現在可以停止。 [閱讀更多資訊](../building-journeys/using-the-journey-designer.md)
