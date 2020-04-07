@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -35,10 +35,10 @@ source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
 ## 探索介面{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;關於旅程清單&quot;
->abstract=&quot;歷程清單可讓您一次檢視所有歷程、查看其狀態並執行基本動作。 您可以複製、停止或刪除您的歷程。 視歷程而定，某些動作可能無法使用。 例如，您無法刪除或重新開始完成的歷程。 您可以從中建立新版本或加以複製。 您也可以使用搜尋列來搜尋旅程。」
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Watch demo video&quot;
+>id="jo_home"
+>title="關於歷程清單"
+>abstract="歷程清單可讓您一次檢視所有歷程、查看其狀態並執行基本動作。 您可以複製、停止或刪除您的歷程。 視歷程而定，某些動作可能無法使用。 例如，您無法刪除或重新開始完成的歷程。 您可以從中建立新版本或加以複製。 您也可以使用搜尋列來搜尋旅程。"
+>additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="觀看示範影片"
 
 頂級功能表可讓您瀏覽歷程協調的不同功能： **[!UICONTROL Home]**（旅程）**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**
 
@@ -78,7 +78,7 @@ source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
 
 定義事 [件裝載](../event/defining-the-payload-fields.md)、欄位群組裝載 [，以及在運算式編輯器中選取欄位時](../datasource/field-groups.md)[](../expression/expressionadvanced.md)，除了欄位名稱外，還會顯示顯示名稱。 此資訊會從「體驗資料模型」的架構定義中擷取。
 
-如果在設定結構時提供了&quot;xdm:alternateDisplayInfo&quot;之類的描述符，則用戶友好的名稱將替換顯示名稱。 在使用「eVars」和一般欄位時，它特別有用。您可以透過API呼叫來設定好記名稱描述子。 如需詳細資訊，請參閱 [Schema Registry開發人員指南](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)。
+如果在設定結構時提供了&quot;xdm:alternateDisplayInfo&quot;之類的描述符，則用戶友好的名稱將替換顯示名稱。 在使用「eVars」和一般欄位時，它特別有用。您可以透過API呼叫來設定好記名稱描述子。 如需詳細資訊，請參閱 [Schema Registry開發人員指南](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)。
 
 ![](../assets/xdm-from-descriptors.png)
 
