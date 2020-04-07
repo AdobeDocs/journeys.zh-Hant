@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 您可以檢查您透過這些工具傳送的API呼叫是否正確傳送。 如果您收到錯誤回覆，表示您的呼叫有問題。 再次檢查裝載、標題（尤其是組織ID）和目標URL。 您可以詢問管理員要點擊的正確URL。
 
-活動不會直接從來源推送至歷程協調。 事實上，Journey Orchestration仰賴Experience platform的串流擷取API。 因此，若發生事件相關問題，您可參閱本頁以取得「串 [流擷取](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingestion_FAQ.md) API」疑難排解。
+活動不會直接從來源推送至歷程協調。 事實上，Journey Orchestration仰賴Experience Platform的串流擷取API。 因此，若發生事件相關問題，您可參閱本頁以取得「串 [流擷取](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) API」疑難排解。
 
 ## 檢查是否有人進入旅程{#section_x4v_zzs_dgb}
 
@@ -56,7 +56,7 @@ source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 以下是一些事項，管理員應檢查：
 
-* 您確定傳入事件的旅程是處於測試模式還是即時？
+* 您確定要傳入事件的歷程是處於測試模式還是即時？
 * 在從裝載預覽複製裝載之前，您是否已儲存您的事件？
 * 您的事件裝載是否包含事件ID?
 * 您點擊正確的URL了嗎？
