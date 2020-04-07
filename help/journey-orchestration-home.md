@@ -3,8 +3,8 @@ keywords: Journeys;home;popular topics
 solution: Journeys
 title: 歷程歷程協調產品文件
 topic: Premium
-translation-type: ht
-source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
+translation-type: tm+mt
+source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 ---
 
@@ -22,6 +22,8 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 * **[設定事件](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>瞭解如何設定您的歷程將監聽的事件。
 
 * **[授與歷程協調的存取權](using/about/access-management.md)**<br/>瞭解如何使用產品設定檔和權限來管理使用者的存取權。
+
+* **[探索新增功能了](using/release-notes/release-notes.md)**<br/>解最新發行的詳細資訊。
 
 ## 熱門頁面
 
@@ -62,9 +64,9 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ## 其他資源
 
-* [Experience Platform](https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html)
-* [即時客戶個人檔案](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
-* [Experience Cloud XDM 欄位定義](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
-* [身分命名空間](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
-* [串流擷取 API](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Adobe Campaign Standard 交易訊息](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Experience Platform檔案](https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html)
+* [即時客戶個人檔案檔案](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+* [Experience Cloud XDM 欄位定義](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
+* [Identity Namespace檔案](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
+* [串流擷取 API](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
+* [Campaign Standard交易訊息檔案](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
