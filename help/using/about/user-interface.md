@@ -10,6 +10,9 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+workflow-type: tm+mt
+source-wordcount: '995'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 >abstract="歷程清單可讓您一次檢視所有歷程、查看其狀態並執行基本動作。 您可以複製、停止或刪除您的歷程。 視歷程而定，某些動作可能無法使用。 例如，您無法刪除或重新開始完成的歷程。 您可以從中建立新版本或加以複製。 您也可以使用搜尋列來搜尋旅程。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="觀看示範影片"
 
-頂級功能表可讓您瀏覽歷程協調的不同功能： **[!UICONTROL Home]**（旅程）**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**
+頂級功能表可讓您瀏覽歷程協調的不同功能： **[!UICONTROL Home]**（旅程）**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**。
 
 ![](../assets/journey2.png)
 
