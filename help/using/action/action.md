@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 3%
 
 ---
 
@@ -19,9 +22,9 @@ source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
 # 關於動作 {#about_actions}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_actions&quot;
->title=&quot;關於動作&quot;
->abstract=&quot;這是您定義與系統的連接，以發送消息的位置。 然後，在「動作」類別的旅程左側浮動視窗中，就可使用此處定義的動作。 &quot;
+>id="jo_actions"
+>title="關於動作"
+>abstract="在此處，您定義將發送消息的系統連接。 然後，在「動作」類別的旅程左側浮動視窗中，就可使用此處定義的動作。 "
 
 動作是您提供個人化即時體驗的連結，透過這些連結，您可以向客戶傳遞推播通知、電子郵件、簡訊或您在業務中使用的任何其他數位互動方式。
 
