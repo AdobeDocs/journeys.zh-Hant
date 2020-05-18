@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 3%
 
 ---
 
@@ -19,9 +22,9 @@ source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 # 關於資料來源 {#concept_s1s_dqt_52b}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_datasources&quot;
->title=&quot;關於資料來源&quot;
->abstract=&quot;資料來源組態一律由技術使用者執行。 資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊，例如：條件定義、參數和個人化動作資料、自訂等待定義、自訂時區定義。」
+>id="jo_datasources"
+>title="關於資料來源"
+>abstract="資料源配置始終由技術用戶執行。 資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊，例如： 條件定義、參數和個人化動作資料、自定義等待定義、自定義時區定義。"
 
 資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊，例如：
 
@@ -34,12 +37,12 @@ source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 
 資料來源有兩種類型：
 
-* 預先設定的Experience platform資料來源，定義即時客戶個人檔案服務的連線。 這是內建的資料來源。 參見[](../datasource/adobe-experience-platform-data-source.md)。
+* 預先設定的Experience Platform資料來源，定義即時客戶個人檔案服務的連線。 這是內建的資料來源。 參見[](../datasource/adobe-experience-platform-data-source.md)。
 * 可讓您定義外部系統連線的外部資料來源。 您可以建立這些。 參見[](../datasource/external-data-sources.md)。
 
 對於每個資料源，您定義要使用欄位組檢索的資訊。 欄位群組是可從資料來源擷取的欄位集。 參見[](../datasource/field-groups.md)。
 
-如需如何設定Experience platform資料來源和外部資料來源以及如何在歷程中尋找和使用資料的詳細資訊，請觀看本教學 [課程影片](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html)。
+如需如何設定Experience Platform資料來源和外部資料來源以及如何在歷程中尋找和使用資料的詳細資訊，請觀看本教學 [課程影片](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html)。
 
 以下是主要的資料來源設定步驟：
 
