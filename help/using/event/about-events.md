@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 1%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="關於事件"
->abstract="事件會連結至人員。 它與人的行為有關（例如，某人購買產品、造訪商店、退出網站等）或是某個人所發生的事（例如，一個人達到10,000個忠誠點）。 這是Journey Orchestration在歷程中所聽到的，以協調下一個最佳動作。"
+>abstract="事件會連結至人員。 它與人的行為有關（例如，某人購買產品、造訪商店、退出網站等） 或是某個人所發生的事（例如，一個人達到10,000個忠誠點）。 這是Journey Orchestration在歷程中所聽到的，以協調下一個最佳動作。"
 
-事件會連結至人員。 它與人的行為有關（例如，某人購買產品、造訪商店、退出網站等）或是某個人所發生的事（例如，一個人達到10,000個忠誠點）。 這是Journey Orchestration在歷程中所聽到的，以協調下一個最佳動作。
+事件會連結至人員。 它與人的行為有關（例如，某人購買產品、造訪商店、退出網站等） 或是某個人所發生的事（例如，一個人達到10,000個忠誠點）。 這是Journey Orchestration在歷程中所聽到的，以協調下一個最佳動作。
 
 此組態是必 **備的**，因為Journey Orchestration是設計來監聽活動，而且一律由技術使用者 **執行**。
 
@@ -60,10 +63,10 @@ Pipeline會篩選由Journey Orchestration提供且包含事件裝載的裝載，
    >請勿使用空格或特殊字元。 請勿使用超過30個字元。
 
 1. 新增說明至您的活動。 此步驟為可選步驟。
-1. 定義架構和裝載欄位：在這裡，您可以選擇Journey Orchestration預期會收到的活動資訊（通常稱為負載）。 然後，您就可以在您的旅程中使用這項資訊。 參見[](../event/defining-the-payload-fields.md)。
+1. 定義架構和裝載欄位： 在這裡，您可以選擇Journey Orchestration預期會收到的活動資訊（通常稱為負載）。 然後，您就可以在您的旅程中使用這項資訊。 參見[](../event/defining-the-payload-fields.md)。
 1. 使用此事件的歷程次數會顯示在欄位 **[!UICONTROL Used in]** 中。 您可以按一下 **[!UICONTROL View journeys]** 圖示，顯示使用此事件的歷程清單。
 1. 新增命名空間。 此步驟為可選步驟，但建議您新增命名空間，以便您運用即時客戶個人檔案服務中儲存的資訊。 它定義事件具有的密鑰類型。 參見[](../event/selecting-the-namespace.md)。
-1. 定義索引鍵：從裝載欄位選擇欄位，或定義公式以識別與事件關聯的人員。 如果您選取命名空間，此索引鍵會自動設定（但仍可編輯）。 事實上，Journey Orchestration會挑選應該對應於命名空間的索引鍵（例如，如果您選取電子郵件命名空間，則會選取電子郵件索引鍵）。 參見[](../event/defining-the-event-key.md)。
+1. 定義索引鍵： 從裝載欄位選擇欄位，或定義公式以識別與事件關聯的人員。 如果您選取命名空間，此索引鍵會自動設定（但仍可編輯）。 事實上，Journey Orchestration會挑選應該對應於命名空間的索引鍵（例如，如果您選取電子郵件命名空間，則會選取電子郵件索引鍵）。 參見[](../event/defining-the-event-key.md)。
 1. 新增條件。 此步驟為可選步驟。 這可讓系統僅處理符合條件的事件。 條件只能根據事件中包含的資訊。 參見[](../event/adding-a-condition.md)。
 1. 按一下 **[!UICONTROL Save]**.
 
