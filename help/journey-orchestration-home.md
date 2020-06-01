@@ -1,10 +1,13 @@
 ---
 keywords: Journeys;home;popular topics
 solution: Journeys
-title: 歷程歷程協調產品文件
+title: Journey Orchestration 產品文件
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
+workflow-type: ht
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
 
@@ -15,15 +18,15 @@ source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 ## 開始使用
 
-* **[何謂歷程協調？](using/about/about-journey-orchestration.md)**<br/>進一步瞭解歷程協調。
+* **[何謂 Journey Orchestration？](using/about/about-journey-orchestration.md)**<br/>進一步瞭解 Journey Orchestration。
 
-* **[建立您的第一個歷程](using/about/get-started.md)**<br/>探索設定「歷程協調」的主要步驟，並建立您的第一個歷程。
+* **[建立您的第一個歷程](using/about/get-started.md)**<br/>探索設定 Journey Orchestration 的主要步驟，並建立您的第一個歷程。
 
 * **[設定事件](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>瞭解如何設定您的歷程將監聽的事件。
 
-* **[授與歷程協調的存取權](using/about/access-management.md)**<br/>瞭解如何使用產品設定檔和權限來管理使用者的存取權。
+* **[授與 Journey Orchestration 的存取權](using/about/access-management.md)**<br/>瞭解如何使用產品設定檔和權限來管理使用者的存取權。
 
-* **[探索新增功能了](using/release-notes/release-notes.md)**<br/>解最新發行的詳細資訊。
+* **[探索新增功能](using/release-notes/release-notes.md)**<br/>瞭解最新發行的詳細資訊。
 
 ## 熱門頁面
 
@@ -64,9 +67,9 @@ source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 ## 其他資源
 
-* [Experience Platform檔案](https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html)
-* [即時客戶個人檔案檔案](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
-* [Experience Cloud XDM 欄位定義](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
-* [Identity Namespace檔案](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
-* [串流擷取 API](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
-* [Campaign Standard交易訊息檔案](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Experience Platform 文件](https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html)
+* [即時客戶個人檔案文件](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)
+* [Experience Cloud XDM 欄位定義](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/home.html)
+* [識別命名空間文件](https://docs.adobe.com/content/help/zh-Hant/experience-platform/identity/home.html)
+* [串流擷取 API](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/streaming/overview.html)
+* [Campaign Standard 交易訊息文件](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
