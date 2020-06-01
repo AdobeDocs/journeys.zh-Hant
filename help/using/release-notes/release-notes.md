@@ -1,6 +1,6 @@
 ---
 title: 發行說明
-description: 瞭解版本注意事項
+description: 瞭解發行說明
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,18 +10,21 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
+workflow-type: ht
+source-wordcount: '758'
+ht-degree: 100%
 
 ---
 
 
-# 發行說明 {#release-notes}
+# 發行說明{#release-notes}
 
-本頁列出Journey Orchestration的所有新功能和改進。
-您也可以參閱「檔案 [更新」](../release-notes/documentation-updates.md)。
+本頁面列出 Journey Orchestration 的所有新功能和改善項目。
+您也可以參閱[文件更新](../release-notes/documentation-updates.md)。
 
-## 第1季發行- 2020年3月 {#q1-release---march-2020}
+## 第 1 季發行 - 2020 年 3 月{#q1-release---march-2020}
 
 **新增功能?**
 
@@ -36,10 +39,10 @@ source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
 <td>
 <p>測試模式已進行下列增強：</p>
 <ul>
-<li>當旅程使用數個事件時，您現在可以在測試模式的「事件設定」畫面中，從下拉式清單中個別觸發每個事件 <strong></strong> 。 <a href="../building-journeys/testing-the-journey.md#firing_events">閱讀更多資訊</a></p></li>
-<li><p>當在歷程中使 <strong>用一或多個</strong> 「等待」活動時，您現在可以定義每個活動在測試模式中的持續時間。 預設時間為10秒。 您可以使用左下角的 <strong>「在測試中等待時間</strong> 」參數來變更此項。 <a href="../building-journeys/testing-the-journey.md">閱讀更多資訊</a></p><img src="../assets/rn-test.png"/>
+<li>如果歷程使用數個事件，您現在可以在測試模式的<strong>「事件設定」</strong>畫面中，從下拉式清單中個別觸發每個事件。<a href="../building-journeys/testing-the-journey.md#firing_events">詳細內容</a></p></li>
+<li><p>如果歷程中使用一或多個<strong>「等待」</strong>活動，您現在可以定義每個活動在測試模式中的持續時間。預設時間為 10 秒。您可以使用左下角的<strong>「測試等待時間」</strong>參數來變更此項目。<a href="../building-journeys/testing-the-journey.md">詳細內容</a></p><img src="../assets/rn-test.png"/>
 </li>
-<li>在測 <strong>試記錄</strong>，如果呼叫協力廠商系統（資料來源或動作）時發生錯誤，現在會顯示錯誤碼和錯誤回應。 <a href="../building-journeys/testing-the-journey.md#viewing_logs">閱讀更多資訊</a>
+<li>在<strong>測試記錄</strong>中，如果在呼叫協力廠商系統 (資料來源或動作) 時發生錯誤，現在會顯示錯誤代碼和錯誤回應。<a href="../building-journeys/testing-the-journey.md#viewing_logs">詳細內容</a>
 </li>
 </ul>
 </td>
@@ -50,19 +53,19 @@ source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
 <table>
 <thead>
 <tr>
-<th><strong>集中的時區管理</strong><br/></th>
+<th><strong>集中式時區管理</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr> 
 <td>
-<p>時區管理現在集中在歷程屬性面板中。 在歷程屬性中新增了兩個參數：</p>
+<p>時區管理現已集中在歷程屬性面板中。已在歷程屬性中新增兩個參數：</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
-<li>「 <strong>時區</strong> 」下拉式清單可讓您選取特定時區。 依預設，會使用瀏覽器的時區。 </li>
-<li>「描 <strong>述檔時區</strong> 」核取方塊可讓您使用進入歷程之人員的「體驗平台描述檔」時區（如果有的話）。 否則，會使用下拉式清單中定義的時區。 此功能與使用沒有命名空間之事件的歷程不相容。</li>
+<li><strong>「時區」</strong>下拉式清單可讓您選取特定時區。依預設，系統會使用瀏覽器的時區。 </li>
+<li><strong>「設定檔時區」</strong>核取框可讓您使用進入歷程之人員的 Experience Platform 設定檔時區 (若有)。否則，系統會使用下拉式清單中定義的時區。此功能與使用沒有命名空間之事件的歷程不相容。</li>
 </ul>
-<p>如需詳細資訊，請參閱「變更 <a href="../building-journeys/changing-properties.md#timezone">屬性</a> 」和「 <a href="../building-journeys/timezone-management.md">時區管理</a> 」區段。</p>
+<p>如需詳細資訊，請參見<a href="../building-journeys/changing-properties.md#timezone">變更屬性</a>和<a href="../building-journeys/timezone-management.md">時區管理</a>章節。</p>
 </td>
 </tr>
 </tbody>
@@ -71,22 +74,22 @@ source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
 <table>
 <thead>
 <tr>
-<th><strong>歷程設計人員增強功能</strong><br/></th>
+<th><strong>歷程設計器增強功能</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr> 
 <td>
-<p>旅程 <strong>設計人員</strong>（在旅程設計人員左側）的旅程浮動視窗已增強：</p>
+<p>已增強歷程設計器左側的<strong>浮動視窗</strong>：</p>
 <ul>
-<li>「搜尋」列旁有新圖示，可讓您隱藏或顯示浮動視窗中不可用的元素，例如使用與歷程中不同名稱空間的事件。 <strong></strong> 依預設，無法使用的項目會隱藏。</li>
-<li>使用「搜 <strong>尋</strong> 」欄位時，現在會顯示每個畫布活動類別的結果數。</li>
-<li>已改善不同活動類別之間的導覽。</li>
+<li><strong>搜尋</strong>列旁的新圖示可讓您隱藏或顯示浮動視窗中無法使用的元素，例如使用與歷程所用不同之命名空間的事件。依預設，系統會隱藏無法使用的項目。</li>
+<li>使用<strong>搜尋</strong>欄位時，現在會顯示每個畫布活動類別的結果數量。</li>
+<li>改善不同活動類別之間的導覽。</li>
 </ul>
-<p>在歷程設計人員中，您現在可以檢查您是否正在存取歷程的最新版本。 此資訊會顯示在版本號碼旁邊。</p>
-<p>在歷程畫 <strong>布中</strong>，當兩個活動中斷連線時，現在會顯示警告訊息。</p>
+<p>在歷程設計器中，您現在可以檢查自己是否存取最新的歷程版本。此資訊會顯示在版本編號旁邊。</p>
+<p>在歷程<strong>畫布</strong>中，當兩個活動中斷連結時，現在會顯示警告訊息。</p>
 <img src="../assets/rn-canvas.png"/>
-<p>如需詳細資訊，請參閱詳 <a href="../building-journeys/using-the-journey-designer.md">細檔案</a>。</p>
+<p>如需詳細資訊，請參見<a href="../building-journeys/using-the-journey-designer.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -95,42 +98,41 @@ source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
 <table>
 <thead>
 <tr>
-<th><strong>內容相關說明</strong><br/></th>
+<th><strong>內容說明</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在，不同的「歷程協調」清單畫面（歷程、事件、動作和資料來源）都提供內容相關的說明。 這可讓您檢視目前功能的快速說明，並存取相關文章和影片。</p>
-<p>若要顯示內容相關說明，請 <img src="../assets/icon-context.png"/> 按一下畫面右上角的圖示。 </p>
+<p>不同的 Journey Orchestration 清單畫面 (歷程、事件、動作和資料來源) 現在都會提供內容說明。這可讓您檢視目前功能的快速說明，並存取相關文章和影片。</p>
+<p>若要顯示內容說明，請按一下畫面右上角的 <img src="../assets/icon-context.png"/>圖示。 </p>
 <img src="../assets/rn-context.png"/>
 </td>
 </tr>
 </tbody>
 </table>
 
-**其他改進**
+**其他改善項目**
 
-* 除了美國以外，Journeys Orchestration現在在 **EMEA提供**。 應用程式和檔案提供法文和德文版。
+* 除了美國以外，Journeys Orchestration 現在已於&#x200B;**歐洲、中東及非洲**&#x200B;推出。應用程式和文件提供法文和德文版。
 
-* Experience League現在已整合至產品中。 這可簡化對相關內容的存取，並協助您充份運用Experience Cloud。 直接存取Journey Orchestration檔案，位於「說明」標籤底部。 此外，按一下「說明>意見回應」以報告問題，或與Adobe分享您的想法。
+* Experience League 現在已整合至產品中。這可簡化對相關內容的存取，並協助您充分運用 Experience Cloud 的功能。可在「說明」標籤底部直接存取 Journey Orchestration 文件。此外，按一下「說明 > 意見回饋」即可報告問題，或與 Adobe 分享您的想法。
 
-* 現在 **所有清單畫面都可使用C** 鍵盤快速鍵，讓您建立新項目：歷程、資料來源、動作和事件。 [閱讀更多資訊](../about/user-interface.md#section_ksq_zr1_ffb)
+* 現在，所有清單畫面 (歷程、資料來源、動作和事件) 都可以使用 **C** 鍵盤快速鍵來建立新項目。[詳細內容](../about/user-interface.md#section_ksq_zr1_ffb)
 
-* 您現在可以刪 **除已停** 止的歷程。 與這些已刪除的歷程相關聯的報告將不可用。
+* 您現在可以&#x200B;**刪除**&#x200B;已停止的歷程。系統不會再提供與這些已刪除歷程相關聯的報告。
 
-* 瀏覽「資 **料平台」欄位** （XDM格式）時，您現在除了看到欄位名稱外，還會看到顯示名稱。 此資訊會從「體驗資料模型」的架構定義中擷取。 當可用時，將顯示替代顯示名稱。 此使用者友好的說明（在eVar欄位中特別有用）可讓您更輕鬆地識別欄位。 [閱讀更多資訊](../about/user-interface.md#friendly-names-display)
+* 瀏覽 **Data Platform 欄位** (XDM 格式) 時，您現在除了看到欄位名稱外，還會看到顯示名稱。此資訊會從「Experience 資料模型」的結構定義中擷取。當可用時，畫面就會出現替代顯示名稱。這種容易理解的說明在 eVar 欄位中特別有用，可讓您更輕鬆地識別欄位。[詳細內容](../about/user-interface.md#friendly-names-display)
 
-## 正式發行- 2019年12月 {#ga-release---december-2019}
+## 正式發行 - 2019 年 12 月{#ga-release---december-2019}
 
-歷程協調現在正式推出。
+Journey Orchestration 現在已正式推出。
 
-運用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。
+善用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。
 
-Journey Orchestration可讓您即時協調，並運用來自活動的情境式資料、來自Adobe Experience Platform的資訊或來自協力廠商API服務的資料。 應用程式會根據消費者的描述檔和行為，在稱為歷程的多步驟流程中，決定下一個消費者專屬的最佳動作。 這包括最佳時機和動作類型，例如透過Adobe Campaign Standard交易訊息功能（需要Adobe Campaign Standard）向消費者傳送推播通知或通知協力廠商系統。 這些決定是根據規則和Sensei得分做出的。
+Journey Orchestration 允許以事件中的情境資料、Adobe Experience Platform 的資訊或來自協力廠商 API 服務的資料，進行即時協調。應用程式會根據消費者的個人檔案和行為，在稱為歷程的多步驟流程中，決定對該消費者來說下一個最佳的動作。這包括最佳時機和動作類型，例如透過 Adobe Campaign Standard 交易訊息功能 (需要有 Adobe Campaign Standard) 向消費者傳送推播通知或來自協力廠商系統的通知。這些決定是根據規則和 Sensei 分數所得。
 
-[](../action/working-with-adobe-campaign.md)
-進一步瞭解歷程協調。
+[進一步瞭解](../action/working-with-adobe-campaign.md) Journey Orchestration。
 
 其他資源：
 
