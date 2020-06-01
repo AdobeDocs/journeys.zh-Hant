@@ -1,6 +1,6 @@
 ---
 title: 使用者介面
-description: 進一步瞭解使用者介面
+description: 深一步瞭解使用者介面
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->為了充份運用Journey Orchestration，我們建議您使用Chrome做為網際網路瀏覽器。
+>若要充分利用 Journey Orchestration 的功能，我們建議使用 Chrome 做為網際網路瀏覽器。
 >
->本檔案會經常更新，以反映產品的最近變更。 不過，有些螢幕擷取畫面可能會與產品的介面稍有不同。
+>本文件會經常更新以反映產品最近的異動。不過，有些螢幕擷取畫面可能會與產品的介面稍有不同。
 
-## 存取歷程協調{#accessing_journey_orchestration}
+## 存取 Journey Orchestration{#accessing_journey_orchestration}
 
-若要存取Journey Orchestration的介面，請按一下右 **[!UICONTROL App Selector]** 上角的圖示。 然後按 **[!UICONTROL Journey Orchestration]**&#x200B;一下「體驗平台」下方的右側。
+若要存取 Journey Orchestration 的介面，請按一下右上角的&#x200B;**[!UICONTROL App Selector]**&#x200B;圖示，再按一下右側「Experience Platform」下方的「**[!UICONTROL Journey Orchestration]**」。
 
 ![](../assets/journey1.png)
 
-您也可以從Experience Cloud首頁的「歷程協調」區段中存 **[!UICONTROL Quick access]** 取。
+您也可以從 Experience Cloud 首頁的 **[!UICONTROL Quick access]**&#x200B;區段存取 Journey Orchestration。
 
 ![](../assets/journey1bis.png)
 
@@ -40,102 +40,102 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="關於歷程清單"
->abstract="歷程清單可讓您一次檢視所有歷程、查看其狀態並執行基本動作。 您可以複製、停止或刪除您的歷程。 視歷程而定，某些動作可能無法使用。 例如，您無法刪除或重新開始完成的歷程。 您可以從中建立新版本或加以複製。 您也可以使用搜尋列來搜尋旅程。"
+>abstract="歷程清單可讓您一次檢視所有歷程、查看其狀態並執行基本動作。您可以複製、停止或刪除您的歷程。視歷程而定，某些動作可能無法使用。例如，您無法刪除或重新開始已完成的歷程。您可以從中建立新版本或加以複製，也可以使用搜尋列來搜尋歷程。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="觀看示範影片"
 
-頂級功能表可讓您瀏覽歷程協調的不同功能： **[!UICONTROL Home]**（旅程）**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**。
+頂端選單可讓您瀏覽 Journey Orchestration 的不同功能：**[!UICONTROL Home]**(歷程)、**[!UICONTROL Data Sources]**、**[!UICONTROL Events]**、**[!UICONTROL Actions]**。
 
 ![](../assets/journey2.png)
 
-按一 ![](../assets/icon-context.png) 下畫面右上角的圖示，以顯示內容相關說明。 它可跨不同的「歷程協調」清單畫面（歷程、活動、動作和資料來源）使用。 這可讓您檢視目前功能的快速說明，並存取相關文章和影片。
+按一下畫面右上角的![](../assets/icon-context.png)圖示以顯示內容說明，它會顯示在不同的 Journey Orchestration 清單畫面中 (歷程、事件、動作和資料來源)。這可讓您檢視目前功能的快速說明，並存取相關文章和影片。
 
 ![](../assets/journey2bis.png)
 
 ## 搜尋和篩選{#section_lgm_hpz_pgb}
 
-在、 **[!UICONTROL Home]****[!UICONTROL Data Sources]**、和 **[!UICONTROL Events]****[!UICONTROL Actions]** 清單中，搜索欄允許您搜索項目。
+在&#x200B;**[!UICONTROL Home]**、**[!UICONTROL Data Sources]**、**[!UICONTROL Events]**&#x200B;和&#x200B;**[!UICONTROL Actions]**&#x200B;清單中，搜尋列可讓您搜尋項目。
 
-按 **[!UICONTROL Filters]** 一下清單左上方的篩選圖示即可存取。 篩選器菜單允許您根據不同的條件篩選顯示的元素。 您可以選擇只顯示特定類型或狀態的元素、您建立的元素或最近30天內修改的元素。
+按一下清單左上方的篩選圖示，即可存取&#x200B;**[!UICONTROL Filters]**。篩選選單可讓您根據不同的條件篩選顯示的元素。您可以選擇僅顯示某一類型或狀態的元素、您建立的元素，或者在過去 30 天內修改的元素。
 
-在和列 **[!UICONTROL Data Sources]**&#x200B;表中 **[!UICONTROL Events]** ，使 **[!UICONTROL Actions]** 用「建立」篩選器 **** ，以篩選建立日期和用戶。 例如，您可以選擇只顯示您在過去30天內建立的事件。
+在&#x200B;**[!UICONTROL Data Sources]**、**[!UICONTROL Events]**&#x200B;和&#x200B;**[!UICONTROL Actions]**&#x200B;中，使用&#x200B;**建立篩選器**&#x200B;以篩選建立日期和使用者。舉例來說，您可以選擇只顯示您在過去 30 天內建立的事件。
 
-在歷程清單(在 **[!UICONTROL Home]**&#x200B;下)中，除了 **[!UICONTROL Creation filters]**，您也可以根據其狀態和版本(**[!UICONTROL Status and version filters]**)篩選顯示的歷程。 您也可以選擇只顯示使用特定事件、欄位群組或動作(**[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]**)的歷程記錄。 **[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。 例如，您可以選擇只顯示昨天發佈之即時歷程的最新版本。 參見[](../building-journeys/using-the-journey-designer.md)。
+在歷程清單 (在 **[!UICONTROL Home]**&#x200B;下) 中，除了 **[!UICONTROL Creation filters]** 外，您還可以根據其狀態和版本 (**[!UICONTROL Status and version filters]**) 篩選顯示的歷程。您也可以選擇只顯示使用特定事件、欄位群組或動作 (**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**) 的歷程記錄。**[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。請參見[](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
->請注意，顯示的欄可使用清單右上角的設定按鈕進行個人化。 個人化會儲存給每個使用者。
+>請注意，顯示的欄可使用清單右上角的設定按鈕進行個人化。系統會為每位使用者儲存個人化設定。
 
-透過 **[!UICONTROL Last update]** 和 **[!UICONTROL Last update by]** 欄，您可顯示您上次發生歷程更新的時間，以及操作歷程的使用者。
+「**[!UICONTROL Last update]**」和「**[!UICONTROL Last update by]**」欄可讓您顯示上次出現歷程更新的時間，以及操作歷程的使用者。
 
 ![](../assets/journey74.png)
 
-在事件、資料來源和動作設定窗格中，欄 **[!UICONTROL Used in]** 位會顯示使用該特定事件、欄位群組或動作的歷程次數。 您可以按一下按 **[!UICONTROL View journeys]** 鈕，以顯示對應歷程的清單。
+在事件、資料來源和動作設定窗格中，「**[!UICONTROL Used in]**」欄位會顯示使用該特定事件、欄位群組或動作的歷程次數。您可以按一下 **[!UICONTROL View journeys]**&#x200B;按鈕以顯示對應歷程的清單。
 
 ![](../assets/journey3bis.png)
 
-在不同的清單中，您可以對每個元素執行基本動作。 例如，您可以複製或刪除項目。
+在不同的清單中，您可以對每個元素執行基本動作。例如，您可以複製或刪除項目。
 
 ![](../assets/journey4.png)
 
-## 瀏覽資料平台欄位 {#friendly-names-display}
+## 瀏覽 Data Platform 欄位{#friendly-names-display}
 
-定義事 [件裝載](../event/defining-the-payload-fields.md)、欄位群組裝載 [，以及在運算式編輯器中選取欄位時](../datasource/field-groups.md)[](../expression/expressionadvanced.md)，除了欄位名稱外，還會顯示顯示名稱。 此資訊會從「體驗資料模型」的架構定義中擷取。
+定義[事件裝載](../event/defining-the-payload-fields.md)、[欄位群組裝載](../datasource/field-groups.md)，以及在[運算式編輯器](../expression/expressionadvanced.md)中選取欄位時，除了欄位名稱外，還會顯示顯示名稱。此資訊會從「Experience 資料模型」的結構定義中擷取。
 
-如果在設定結構時提供了&quot;xdm:alternateDisplayInfo&quot;之類的描述符，則用戶友好的名稱將替換顯示名稱。 在使用「eVars」和一般欄位時，它特別有用。您可以透過API呼叫來設定好記名稱描述子。 如需詳細資訊，請參閱 [Schema Registry開發人員指南](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)。
+如果在設定結構時提供了「xdm:alternateDisplayInfo」之類的描述元，則好記的名稱會取代顯示名稱。它在使用「eVars」和一般欄位時特別有用。您可以透過 API 呼叫來設定好記的名稱描述元。如需詳細資訊，請參見 [Schema Registry 開發人員指南](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/api/getting-started.html)。
 
 ![](../assets/xdm-from-descriptors.png)
 
-如果有好記名稱，則欄位會顯示為 `<friendly-name>(<name>)`。 例如，如果沒有友好名稱可用，將顯示名稱 `<display-name>(<name>)`。 如果未定義這些欄位，則只顯示欄位的技術名稱 `<name>`。
+如果有好記的名稱，欄位便會顯示為`<friendly-name>(<name>)`。如果沒有好記的名稱，則會顯示顯示名稱`<display-name>(<name>)`。如果未定義這些欄位，則只會顯示欄位的技術名稱 `<name>`。
 
 >[!NOTE]
 >
->從結合的方案中選擇欄位時，不檢索好記名稱。
+>從結合結構選取欄位時並不會擷取好記名稱。
 
 ## 使用不同的捷徑{#section_ksq_zr1_ffb}
 
-以下是「歷程協調」介面中提供的不同捷徑。
+以下是 Journey Orchestration 介面提供的不同捷徑。
 
 _在歷程、動作、資料來源或事件清單中：_
 
-* 按下 **c** ，以建立新的歷程、動作、資料來源或活動。
+* 按下 **C 鍵** 以建立新的歷程、動作、資料來源或事件。
 
 _在歷程中設定活動時：_
 
-畫布會自動儲存。 您可以在畫布的左上角看到儲存狀態。
+畫布會自動儲存。您可以在畫布的左上角看到儲存狀態。
 
-* 按 **Escape** 關閉配置窗格並放棄所做的更改。 這等同於按 **[!UICONTROL Cancel]** 鈕。
-* 按或 **[!UICONTROL Enter]** 按一下窗格外部以關閉配置窗格。 更改將保存。 這等同於按 **[!UICONTROL Ok]** 鈕。
-* 如果您按 **[!UICONTROL Delete]** 或 **空格**，則可以按 **[!UICONTROL Enter]** 確認刪除。
+* 按下 **ESC 鍵** 以關閉設定窗格並捨棄所做的變更，此功能與 **[!UICONTROL Cancel]**&#x200B;按鈕相同。
+* 按下&#x200B;**[!UICONTROL Enter]**&#x200B;或按一下窗格外部以關閉設定窗格，系統便會儲存變更。此功能與 **[!UICONTROL Ok]**&#x200B;按鈕相同。
+* 如果您按下 **[!UICONTROL Delete]**&#x200B;或 **退格鍵**，可以再按下 **[!UICONTROL Enter]** 以確認刪除。
 
 _在快顯視窗中：_
 
-* 按 **Escape** 以關閉它(相當於 **Cancel** 按鈕)。
-* 按 **[!UICONTROL Enter]** 以儲存或確認(相當於 **[!UICONTROL Ok]** 或 **[!UICONTROL Save]** 按鈕)。
+* 按下 **ESC 鍵** 以將其關閉 (等於&#x200B;**取消**&#x200B;按鈕)。
+* 按下 **[!UICONTROL Enter]**&#x200B;以儲存或確認 (等於 **[!UICONTROL Ok]** 或 **[!UICONTROL Save]** 按鈕)。
 
-_在事件中，資料源或操作配置窗格：_
+_在事件、資料來源或動作設定窗格中：_
 
-* 按 **Escape** 關閉配置窗格而不保存。
-* 按以 **[!UICONTROL Enter]** 保存修改並關閉配置窗格。
-* 按 **Tab** ，在不同欄位間跳轉以進行設定。
+* 按下 **ESC 鍵** 以關閉設定窗格而不儲存。
+* 按下 **[!UICONTROL Enter]**&#x200B;以儲存修改內容並關閉設定窗格。
+* 按下 **Tab 鍵**&#x200B;以在不同欄位之間跳轉並進行設定。
 
 _在簡單運算式編輯器中_
 
-* 連按兩下左側的欄位，以新增查詢（相當於拖放）。
+* 在左側欄位上連按兩下以新增查詢 (等於拖放)。
 
-_瀏覽XDM欄位時：_
+_瀏覽 XDM 欄位時：_
 
-* 勾選&quot;node&quot;將選擇該節點的所有欄位。
+* 勾選「node」即會選取該節點的所有欄位。
 
 _在所有文字區域：_
 
-* 使用 **Ctrl/Command + A鍵組合** ，選取文字。 在裝載預覽中，它會選取裝載。
+* 使用 **Ctrl/Command + A**&#x200B;鍵組合以選取文字。在裝載預覽中，系統會選取裝載。
 
-_在具有搜索欄的螢幕中：_
+_在含有搜尋列的畫面中：_
 
-* 使用 **Ctrl/Command + F鍵組合** ，選擇搜索欄。
+* 使用 **Ctrl/Command + F** 鍵組合以選取搜尋列。
 
-_在旅程的畫布中：_
+_在歷程的畫布中：_
 
-* 使用 **Ctrl/Command + A鍵組合** ，選擇所有活動。
-* 選取一或多個活動時，按 **[!UICONTROL Delete]** 或 **空格** 以刪除。 然後，您可 **[!UICONTROL Enter]** 以按確認彈出式視窗中的確認。
-* 從左側浮動視窗按兩下活動，即可在第一個可用位置（從上到下）加入活動。
+* 使用 **Ctrl/Command + A** 鍵組合以選取所有動作。
+* 選取一或多個活動時，按下 **[!UICONTROL Delete]**&#x200B;或 **空格鍵**&#x200B;以刪除，在確認快顯視窗中按下 **[!UICONTROL Enter]**&#x200B;以確認。
+* 在左側浮動視窗中，在活動上按兩下，以在第一個可用位置 (從上到下) 新增活動。
