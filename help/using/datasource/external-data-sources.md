@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -22,22 +22,22 @@ ht-degree: 0%
 
 # 外部資料來源 {#concept_t2s_kqt_52b}
 
-外部資料來源可讓您定義與協力廠商系統的連線，例如，如果您使用飯店訂房系統來檢查該人是否已註冊房間。 與內建的Experience Platform資料來源不同，您可以視需要建立盡可能多的外部資料來源。
+外部資料來源可讓您定義與協力廠商系統的連線，例如使用飯店訂房系統來檢查某人是否已登記客房。與內建的 Experience Platform 資料來源不同，您可以視需要建立儘量建立外部資料來源。
 
-支援使用POST或GET和傳回JSON的REST API。 支援API金鑰、基本和自訂驗證模式。
+支援使用 POST 或 GET 以及傳回 JSON 的 REST API。支援 API 金鑰、基本和自訂驗證模式。
 
-讓我們舉一個氣象API服務的例子，我想用它來根據即時氣象資料來自訂旅程的行為。
+我們以一個氣象 API 服務為例，我想利用它根據即時氣象資料來自訂歷程的行為。
 
-以下是API呼叫的兩個範例：
+以下是 API 呼叫的兩個範例：
 
 * _https://api.adobeweather.org/weather?city=London,uk&amp;appid=1234_
 * _https://api.adobeweather.org/weather?lat=35&amp;lon=139&amp;appid=1234_
 
-此呼叫由主要URL(_https://api.adobeweather.org/weather_)、兩個參數集（城市為「城市」，經緯度為「lat/long」）和API金鑰(appid)組成。
+此呼叫由主要 URL (_https://api.adobeweather.org/weather_)、兩個參數集 (「city」代表城市、「lat/long」代表經緯度) 和 API 金鑰 (appid) 組成。
 
 以下是建立和設定新外部資料來源的主要步驟：
 
-1. 從資料來源清單中，按一下 **[!UICONTROL Add]** 以建立新的外部資料來源。
+1. 從資料來源清單中，按一下「**[!UICONTROL Add]**」以建立新的外部資料來源。
 
    ![](../assets/journey25.png)
 
@@ -49,41 +49,41 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >請勿使用空格或特殊字元。 請勿使用超過30個字元。
+   >請勿使用空格或特殊字元。請勿使用超過 30 個字元。
 
-1. 新增說明至您的資料來源。 此步驟為可選步驟。
-1. 新增外部服務的URL。 在我們的例子中： _https://api.adobeweather.org/weather_.
+1. 新增說明至您的資料來源，此步驟為選填。
+1. 新增外部服務的 URL。在我們的範例中：_https://api.adobeweather.org/weather_。
 
    >[!CAUTION]
    >
-   >我們強烈建議您基於安全原因使用HTTPS。 另請注意，我們不允許使用非公開的Adobe位址和IP位址。
+   >基於安全考量，我們強烈建議您使用 HTTPS。另請注意，我們不允許使用非公開的 Adobe 網址和 IP 位址。
 
    ![](../assets/journey27.png)
 
-1. 根據外部服務配置配置身份驗證： **[!UICONTROL No authentication]**、 **[!UICONTROL Basic]**&#x200B;或 **[!UICONTROL Custom]****[!UICONTROL API key]**。 有關自定義身份驗證模式的詳細資訊，請參見 [](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。 在我們的例子中，我們選擇：
+1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。如需自訂身份驗證模式的詳細資訊，請參見[](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。在我們的範例中，我們選擇：
 
 
-   * **[!UICONTROL Type]**: &quot;API金鑰&quot;
-   * **[!UICONTROL Value]**: &quot;1234&quot;（這是我們API金鑰的值）
-   * **[!UICONTROL Name]**: &quot;appid&quot;（這是API金鑰參數名稱）
-   * **[!UICONTROL Location]**: &quot;查詢參數&quot;（API金鑰位於URL中）
+   * **[!UICONTROL Type]**：「API 金鑰」
+   * **[!UICONTROL Value]**：「1234」(這是我們 API 金鑰的值)
+   * **[!UICONTROL Name]**：「appid」(這是 API 金鑰參數名稱)
+   * **[!UICONTROL Location]**：「查詢參數」(API 金鑰位於 URL)
    ![](../assets/journey28.png)
 
-1. 按一下，為每個API參數集新增欄位群組 **[!UICONTROL Add a New Field Group]**。 請勿在欄位群組名稱中使用空格或特殊字元。 在我們的範例中，我們需要建立兩個欄位群組，每個參數集各一個（城市和長/lat）。
+1. 按一下「**[!UICONTROL Add a New Field Group]**」以為每個 API 參數集新增欄位群組。請勿在欄位群組名稱中使用空格或特殊字元。在我們的範例中，我們需要建立兩個欄位群組，每個群各有一個參數集 (「city」和「long/lat」）。
 
-對於「long/lat」參數集，我們會建立包含下列資訊的欄位群組：
+在「long/lat」參數集中，我們會建立包含下列資訊的欄位群組：
 
-* **[!UICONTROL Used in]**: 顯示使用欄位群組的歷程次數。 您可以按一下 **[!UICONTROL View journeys]** 圖示，顯示使用此欄位群組的歷程清單。
-* **[!UICONTROL Method]**: 選擇POST或GET方法。 在本例中，我們選擇了GET方法。
-* **[!UICONTROL Cache duration]**: 以我們為例，我們希望將天氣快取10分鐘。
-* **[!UICONTROL Response Payload]**: 在欄位內 **[!UICONTROL Payload]** 按一下，並貼上呼叫傳回之裝載的範例。 例如，我們使用氣象API網站上找到的裝載。 驗證欄位類型是否正確。 每次呼叫API時，系統都會擷取裝載範例中包含的所有欄位。 請注意，如果您想要變 **[!UICONTROL Paste a new payload]** 更目前傳遞的裝載，可以按一下。
-* **[!UICONTROL Dynamic Values]**: 在本例中輸入以&quot;long,lat&quot;分隔的不同參數。 由於參數值取決於執行上下文，因此它們將在歷程中定義。 參見[](../expression/expressionadvanced.md)。
-* **[!UICONTROL Sent Payload]**: 本欄位不會出現在我們的範例中。 只有選擇POST方法時，才可使用它。 貼上將傳送至協力廠商系統的裝載。
+* **[!UICONTROL Used in]**：顯示使用欄位群組的歷程數量。您可以按一下 **[!UICONTROL View journeys]**&#x200B;圖示，以顯示使用此欄位群組的歷程清單。
+* **[!UICONTROL Method]**：選取 POST 或 GET 方法。在本例中，我們選取 GET 方法。
+* **[!UICONTROL Cache duration]**：在本例中，我們希望每 10 分鐘快取氣象一次。
+* **[!UICONTROL Response Payload]**：在「**[!UICONTROL Payload]**」欄位內按一下，並貼上呼叫傳回之裝載的範例。例如，我們使用了氣象 API 網站上找到的裝載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取裝載範例中包含的所有欄位。請注意，您可以按一下「**[!UICONTROL Paste a new payload]**」以變更目前已傳遞的裝載。
+* **[!UICONTROL Dynamic Values]**：在本例中，輸入以逗號分隔的不同參數，即「long,lat」。由於參數值視執行內容而定，因此它們會在歷程中定義。請參見[](../expression/expressionadvanced.md)。
+* **[!UICONTROL Sent Payload]**：我們的範例不會出現此欄位，只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的裝載。
 
-在需要參數的GET呼叫中，您會在欄位中輸入參數，並 **[!UICONTROL Parameters]** 在呼叫結束時自動新增這些參數。 若是POST呼叫，您需要：
+若是 GET 呼叫所需的參數，您會在「**[!UICONTROL Parameters]**」欄位中輸入參數，系統就會在呼叫結束時自動新增這些參數。若是 POST 呼叫，您需要：
 
-* 在欄位中列出呼叫時傳遞的參 **[!UICONTROL Parameter]** 數(在以下範例中： 「識別碼」)。
-* 在已傳送裝載的正文中，也使用完全相同的語法來指定它們。 若要這麼做，您必須新增： &quot;param&quot;: &quot;name of your parameter&quot;(在以下範例中： 「識別碼」)。 請遵循下列語法：
+* 在「**[!UICONTROL Parameter]**」欄位中列出呼叫時要傳遞的參數 (在以下範例中：“identifier”)。
+* 在已傳送裝載的正文中，也使用完全相同的語法指定它們。若要這麼做，您必須新增：&quot;param&quot;: “name of your parameter” (在以下範例中：“identifier”)。請遵循下列語法：
 
    ```
    {"id":{"param":"identifier"}}
@@ -91,54 +91,54 @@ ht-degree: 0%
 
 ![](../assets/journey29.png)
 
-按一下 **[!UICONTROL Save]**.
+按一下「**[!UICONTROL Save]**」。
 
-資料來源現在已設定好，可供您在歷程中使用，例如在您的條件中或個人化電子郵件。 如果溫度高於30°C，您可以決定傳送特定通訊。
+資料來源現在已設定完畢，且可供您在歷程中使用，例如在您的條件或個人化電子郵件中。如果溫度超過 30°C，您可以決定傳送特定通訊。
 
 ## 自訂驗證模式{#section_wjp_nl5_nhb}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="關於自訂驗證"
->abstract="自訂驗證模式用於複雜驗證，以呼叫API封裝通訊協定，例如OAuth2。 動作執行是兩個步驟的程式。 首先，執行對端點的調用以生成訪問令牌。 接著，存取Token會插入動作的HTTP請求中。"
+>abstract="自訂驗證模式會用於複雜驗證，以呼叫 OAuth2 這類 API 封裝通訊協定。動作執行是兩個步驟的流程。首先，系統會執行端點呼叫以產生存取權杖。接著，存取權杖會插入到動作的 HTTP 要求中。"
 
-此驗證模式用於複雜驗證，常用來呼叫OAuth2等API封裝通訊協定，以擷取要插入實際HTTP要求中的存取Token，以執行動作。
+此驗證模式會用於複雜驗證，常用來呼叫 OAuth2 這類 API 封裝通訊協定，以擷取要插入到動作之實際 HTTP 要求中的存取權杖。
 
-當您設定自訂驗證時，可以按一下下方的按鈕，檢查自訂驗證裝載是否已正確設定。
+當您設定自訂驗證時，可以按一下下方的按鈕，以檢查自訂驗證裝載是否已正確設定。
 
 ![](../assets/journey29-bis.png)
 
-如果測試成功，按鈕會變成綠色。
+如果測試成功，按鈕就會變成綠色。
 
 ![](../assets/journey29-ter.png)
 
-使用此驗證時，動作執行是兩個步驟的程式：
+使用此驗證的話，動作執行會是兩個步驟的流程：
 
-1. 呼叫端點以產生存取Token。
-1. 以正確的方式注入存取Token，以呼叫REST API。
+1. 呼叫端點以產生存取權仗。
+1. 以正確的方式插入存取權仗來呼叫 REST API。
 
-此驗證分為兩部分。
+此驗證分為兩個部分。
 
-要調用的端點定義以生成訪問令牌：
+要呼叫的端點定義，用於產生存取權仗：
 
-* 端點： 用於產生端點的URL
-* 端點（GET或POST）上HTTP請求的方法
-* 標題： 鍵／值配對，視需要在此呼叫中插入為標題
-* body: 說明呼叫的主體（如果方法為POST）。 我們支援限定的主體結構，定義在bodyParams（key/value對）中。 bodyType說明呼叫中內文的格式和編碼：
-   * &#39;form&#39;: 這表示內容類型將是application/x-www-form-urlencoded(charset UTF-8)，而金鑰／值配對將依序序列化： key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;: 這表示內容類型將是application/json(charset UTF-8)，而索引鍵值配對將依原樣序列化為json物件： _{ &quot;key1&quot;: &quot;value1&quot;、&quot;key2&quot;: &quot;value2&quot;, ...}_
+* 端點：用於產生端點的 URL
+* 端點上的 HTTP 要求方法 (GET 或 POST)
+* 標題：在此呼叫中插入做為標題的金鑰/值配對 (若有需要)
+* 正文：說明方法為 POST 時呼叫的正文。我們支援有限的正文結構，如 bodyParams (金鑰/值配對) 中所定義。bodyType 說明了呼叫內正文的格式和編碼：
+   * &#39;form&#39;：表示內容類型將會是 application/x-www-form-urlencoded (字元集 UTF-8)，而金鑰/值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
+   * &#39;json&#39;：表示內容類型將會是 application/json (字元集 UTF-8)，而金鑰/值配對將會序列化為 JSON 物件，如下所示：_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
-在動作的HTTP要求中必須插入存取Token的方式定義：
+存取權杖插入動作之 HTTP 要求必須採用的方法定義：
 
-* authorizationType: 定義在動作的HTTP呼叫中必須插入產生的存取Token的方式。 可能的值包括：
+* authorizationType：定義如何將產生的存取權杖插入到動作的 HTTP 要求。可能的值包括：
 
-   * 載體： 指出存取Token必須插入授權標題，例如： _授權： Bearer &lt;存取Token>_
-   * 頁首： 指出存取Token必須插入為標題（由屬性tokenTarget定義的標題名稱）。 例如，若tokenTarget是myHeader，存取Token會以下列方式插入為標題： _myHeader: &lt;access token>_
-   * queryParam: 指出存取Token必須插入為queryParam，即由屬性tokenTarget定義的查詢參數名稱。 例如，若tokenTarget是myQueryParam，則動作呼叫的URL將是： _&lt;url>?myQueryParam=&lt;access token>_
+   * bearer：表示存取權杖必須插入到「授權」標題，例如：_Authorization: Bearer &lt;access token>_
+   * header：表示存取權杖必須插入為標題，而標題的名稱會用屬性 tokenTarget 定義。舉例來說，若 tokenTarget 是 myHeader，則存取權杖會插入為標題，如下所示：_myHeader: &lt;access token>_
+   * queryParam：表示存取權杖必須插入為 queryParam，而查詢參數的名稱會由屬性 tokenTarget 定義。舉例來說，若 tokenTarget 是 myQueryParam，則動作呼叫的 URL 將會是：_&lt;url>?myQueryParam=&lt;access token>_
 
-* tokenInResponse: 指出如何從驗證呼叫擷取存取Token。 此屬性可以是：
-   * &#39;response&#39;: 指出HTTP回應是存取Token
-   * json中的選擇器（假設回應是json，我們不支援其他格式，例如XML）。 此選擇器的格式為 _json://&lt;存取Token屬性的路徑>_。 例如，如果呼叫的回應是： _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656_}tokenInResponse將是： _json: //access_token_
+* tokenInResponse：表示如何從驗證呼叫中擷取存取權杖。此屬性可以是：
+   * &#39;response&#39;：表示 HTTP 回應就是存取權杖
+   * JSON 的選擇器 (假設回應為 JSON，我們不支援 XM 等其他格式)。此選擇器的格式為 _json://&lt;path to the access token property>_。舉例來說，若呼叫的回應是：_{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_，tokenInResponse 將會是：_json: //access_token_
 
 此驗證的格式為：
 
