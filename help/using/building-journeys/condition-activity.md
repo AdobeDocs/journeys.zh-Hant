@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 538b350165365479caef499a74346381643033d5
+source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
+workflow-type: tm+mt
+source-wordcount: '677'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +36,7 @@ source-git-commit: 538b350165365479caef499a74346381643033d5
 
 ![](../assets/journey47.png)
 
-請注意，歷程的設計會對功能產生影響。 在條件後定義多個路徑時，僅會執行第一個符合條件的路徑。 這表示，您可以將路徑置於彼此之上或之下，以改變路徑的優先順序。 例如，如果第一個路徑的條件是「人員是VIP」，而第二個路徑的條件是「人員是男性」。 如果符合兩個條件的人員（男性為VIP）通過此步驟，即使他也符合第二個路徑的資格，也會選擇第一個路徑，因為第一個路徑是「高於」。 若要變更此優先順序，請依另一個垂直順序移動活動。
+請注意，歷程設計會對功能產生影響。 在條件後定義多個路徑時，僅會執行第一個符合條件的路徑。 這表示，您可以將路徑置於彼此之上或之下，以改變路徑的優先順序。 例如，如果第一個路徑的條件是「人員是VIP」，而第二個路徑的條件是「人員是男性」。 如果符合兩個條件的人員（男性為VIP）通過此步驟，即使他也符合第二個路徑的資格，也會選擇第一個路徑，因為第一個路徑是「高於」。 若要變更此優先順序，請依另一個垂直順序移動活動。
 
 ![](../assets/journey48.png)
 
@@ -41,18 +44,21 @@ source-git-commit: 538b350165365479caef499a74346381643033d5
 
 簡單模式允許您基於欄位的組合執行簡單查詢。 所有可用欄位都會顯示在畫面的左側。 將欄位拖放至主區域。 若要結合不同的元素，請將它們互相互連結，以建立不同的群組和／或群組層級。 然後，您可以選取邏輯運算子來組合同一層級的元素：
 
-* AND:兩個准則的交集。 只會考慮符合所有准則的元素。
-* 或：兩個標準的結合。 考慮匹配兩個准則中至少一個的元素。
+* AND: 兩個准則的交集。 只會考慮符合所有准則的元素。
+* 或： 兩個標準的結合。 考慮匹配兩個准則中至少一個的元素。
 
 ![](../assets/journey64.png)
 
+如果您使用平台划 [分服務來建立細分](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ，您可以在歷程中運用這些細分。 請參閱在 [條件中使用區段](../segment/using-a-segment.md)。
+
+
 >[!NOTE]
 >
->您無法使用簡單編輯器對時間序列執行查詢（例如購買清單、訊息的點按次數）。 為此，您將需要使用進階編輯器。 參見[](../expression/expressionadvanced.md)。
+>您無法使用簡單編輯器對時間序列執行查詢（例如購買清單、訊息的點按次數）。 為此，您將需要使用進階編輯器。 請參見[](../expression/expressionadvanced.md)。
 
 ## 資料源條件 {#data_source_condition}
 
-這可讓您根據資料來源的欄位或先前位於歷程中的事件來定義條件。 要瞭解如何使用表達式編輯器，請參見 [](../expression/expressionadvanced.md)。 使用進階運算式編輯器，您可以設定更進階的條件來控制系列，或使用需要傳遞參數的資料來源。 參見[](../datasource/external-data-sources.md)。
+這可讓您根據資料來源的欄位或先前位於歷程中的事件來定義條件。 要瞭解如何使用表達式編輯器，請參見 [](../expression/expressionadvanced.md)。 使用進階運算式編輯器，您可以設定更進階的條件來控制系列，或使用需要傳遞參數的資料來源。 請參見[](../datasource/external-data-sources.md)。
 
 ![](../assets/journey50.png)
 
@@ -62,7 +68,7 @@ source-git-commit: 538b350165365479caef499a74346381643033d5
 
 >[!NOTE]
 >
->時區不再是特定於某個條件，現在會在歷程屬性的歷程層級定義。 參見[](../building-journeys/timezone-management.md)。
+>時區不再是特定於某個條件，現在會在歷程屬性的歷程層級定義。 請參見[](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey51.png)
 
@@ -83,6 +89,6 @@ source-git-commit: 538b350165365479caef499a74346381643033d5
 
 >[!NOTE]
 >
->時區不再是特定於某個條件，現在會在歷程屬性的歷程層級定義。 參見[](../building-journeys/timezone-management.md)。
+>時區不再是特定於某個條件，現在會在歷程屬性的歷程層級定義。 請參見[](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey53.png)
