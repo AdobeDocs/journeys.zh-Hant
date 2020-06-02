@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 
@@ -44,7 +47,7 @@ source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
 
 如果旅程的登入事件具有命名空間，表示旅程可以到達資料平台的即時客戶個人檔案服務，則時區會預先定義為在旅程中流入的個人個人檔案中指定的時區。
 
-如果在Experience platform設定檔中定義時區，則可在歷程中擷取時區。
+如果在Experience Platform設定檔中定義時區，則可在歷程中擷取時區。
 
 如果個人的描述檔不包含時區，則擷取的時區將是時區欄位中定義的時區。
 
@@ -53,7 +56,5 @@ source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
 ![](../assets/journey72.png)
 
 ## 在運算式中使用時區 {#timezone-in-expressions}
-
-時區是用進階運算式編輯器來建立運算式。 在這種情況下，將使用表達式編輯器來選擇希望系統獲取此資訊的位置。 參見[](../expression/expressionadvanced.md)。
 
 旅程的開始和結束日期無法連結至特定時區。 它們會自動關聯至例項的時區。
