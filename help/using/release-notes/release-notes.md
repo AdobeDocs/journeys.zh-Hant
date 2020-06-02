@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 72%
 
 ---
 
@@ -23,6 +23,72 @@ ht-degree: 100%
 
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱[文件更新](../release-notes/documentation-updates.md)。
+
+## 第2季度發行- 2020年6月 {#q2-release---june-2020}
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Platform整合增強功能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>已進行下列平台整合增強：</p>
+<ul>
+<li><p>新活動可讓監聽平台區段入口／出口，讓人們進入或前進旅程。 <a href="../building-journeys/event-activities.md#segment-qualification">詳細內容</a></p>
+<img src="../assets/rn-segment7.png"/>
+</li>
+<li><p>有了新的「區段」索引標籤，您現在不需離開「歷程協調」介面，就可建立和編輯 <strong>平台</strong> 區段。 有效的可用性： 2020年6月15日。 <a href="../segment/about-segments.md">詳細內容</a></p>
+<img src="../assets/rn-segment1.png"/>
+</li>
+<li><p>在簡單運算式編輯器中，平台區段現在會直接列在導覽樹狀結構中，以方便設定條件，例如「此人是否屬於區段A?」。 <a href="../segment/using-a-segment.md">詳細內容</a></p>
+<img src="../assets/rn-segment4.png"/>
+</li>
+<li><p>Journey Orchestration現在會自動傳遞至Adobe資料平台，讓個人在歷程中遵循步驟。 這包括可能遇到的錯誤。 此資訊可用於分析或區段用途。 <a href="../building-journeys/sharing-overview.md">詳細內容</a></p>
+<img src="../assets/rn-sharing.png"/>
+</li>
+<li><p>現在，「歷程協調」可連接至製作和非製作的平台沙盒。 有效的可用性： 2020年6月15日。 <a href="../about/access-management.md#sandboxes">詳細內容</a></p>
+</li>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>歷程設計與測試模式增強功能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>歷程設計人員和測試模式已進行下列增強：</p>
+<ul>
+<li><p>您現在可以將貼上活動從一個歷程複製到另一個歷程，選擇1或N個歷程活動。 <a href="../building-journeys/using-the-journey-designer.md#copy-paste">詳細內容</a></p>
+<img src="../assets/rn-copy-paste1.png"/>
+</li>
+<li><p>在觸發事件以讓測試描述檔進入歷程後，您現在可以透過彩色的視覺流程，看到歷程中的進度。 在旅程中發生錯誤時，也會顯示錯誤的詳細資訊。 <a href="../building-journeys/testing-the-journey.md#firing_events">詳細內容</a></p>
+<img src="../assets/rn-journeytest6.png"/>
+</li>
+<li>「完 <strong>成的旅程</strong> 」狀態已更名為「 <strong>關閉（無入口）</strong> 」，以更好地反映此狀態的含義。</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+**其他改善項目**
+
+為避免傳送過多的API呼叫至協力廠商系統，我們推出新的公用API來設定「限制」規則。 封閉規則允許定義每毫秒對API端點的最大調用數。 [詳細內容](../api/capping.md)
+
+存取控制現在允許使用者存取管理更精細。 有效的可用性： 2020年6月15日。 [詳細內容](../about/access-management.md#create-product-profile)
+
+Journey Orchestration現在已在APAC（澳洲資料中心）提供。 有效的可用性： 2020年6月15日
+
+Journey Orchestration介面提供日文版。
 
 ## 第 1 季發行 - 2020 年 3 月{#q1-release---march-2020}
 
