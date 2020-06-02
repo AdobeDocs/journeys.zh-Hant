@@ -11,26 +11,29 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
+source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 1%
 
 ---
 
 
 # 測試歷程{#testing_the_journey}
 
-您必須先解決所有錯誤（如果有），才能測試您的旅程。 參見[](../about/troubleshooting.md#section_h3q_kqk_fhb)。
+您必須先解決所有錯誤（如果有），才能測試您的旅程。 請參見[](../about/troubleshooting.md#section_h3q_kqk_fhb)。
 
 您有可能在發佈之前，使用測試設定檔來測試您的旅程。 這可讓您分析個人在歷程中的流程，並在發佈前進行疑難排解。
 
 若要使用測試模式，請依照下列步驟進行：
 
-1. 在測試您的歷程之前，請先確認其有效且無錯誤。 您將無法針對有錯誤的歷程進行測試。 參見[](../about/troubleshooting.md#section_h3q_kqk_fhb)。出現錯誤時會顯示警告符號。
+1. 在測試您的歷程之前，請先確認其有效且無錯誤。 您將無法針對有錯誤的歷程進行測試。 請參見[](../about/troubleshooting.md#section_h3q_kqk_fhb)。出現錯誤時會顯示警告符號。
 
 1. 若要啟動測試模式，請按一下位 **[!UICONTROL Test]** 於右上角的切換。
 
    ![](../assets/journeytest1.png)
 
-1. 使用左 **下角的「在測試中等待時間** 」參數，定義每個等待活動在測試模式下的持續時間。 預設時間為10秒。 這可確保您快速取得測試結果。 只有在您的歷程中丟棄了一個或多個等待活動時，才會顯示此參數。
+1. 使用左 **下角的「在測試中等待時間** 」參數，定義每個等待活動在測試模式下的持續時間。 預設時間為 10 秒。這可確保您快速取得測試結果。 只有在您的歷程中丟棄了一個或多個等待活動時，才會顯示此參數。
 
    ![](../assets/journeytest_wait.png)
 
@@ -42,7 +45,7 @@ source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
    ![](../assets/journeyuctest2.png)
 
-1. 如果有任何錯誤，請停用測試模式、修改您的歷程並再次測試。 當測試結果確定時，您就可以發佈您的旅程。 參見[](../building-journeys/publishing-the-journey.md)。
+1. 如果有任何錯誤，請停用測試模式、修改您的歷程並再次測試。 當測試結果確定時，您就可以發佈您的旅程。 請參見[](../building-journeys/publishing-the-journey.md)。
 
 ## 重要附註 {#important_notes}
 
@@ -70,6 +73,16 @@ source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 技術使用者也可以使用此介面來合成事件負載並觸發事件，而不需使用協力廠商工具。
 
+按一下「傳 **送** 」按鈕時，測試開始。 個體在歷程中的進展由視覺流量表示。 當個人在旅程中移動時，路徑會逐漸變綠。 如果發生錯誤，警告符號會顯示在對應的步驟上。 您可以將游標置於其上，以顯示有關錯誤的更多資訊，並存取完整的詳細資料（如果有）。
+
+![](../assets/journeytest6.png)
+
+當您在事件設定畫面中選取不同的測試設定檔並再次執行測試時，會清除視覺化流程並顯示新個人的路徑。
+
+在測試中開啟歷程時，顯示的路徑會對應於上次執行的測試。
+
+只有在事件設定畫面中定義傳送至歷程的事件時，才會顯示視覺流程。 如果事件是在外部定義的，例如使用Postman，則不會顯示視覺流程。
+
 ## 查看日誌 {#viewing_logs}
 
 按 **[!UICONTROL Show log]** 鈕可讓您檢視測試結果。 此頁面以JSON格式顯示歷程的目前資訊。 一個按鈕允許您複製整個節點。 您需要手動重新整理頁面，以更新歷程的測試結果。
@@ -82,13 +95,19 @@ source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 此時會顯示目前在歷程中的個人（技術上稱為例項）數量。 以下是每個個人顯示的有用資訊：
 
-* _Id_:歷程中個人的內部ID。 這可用於除錯用途。
-* _currentstep_:個體在旅程中所處的階段。 我們建議將標籤新增至您的活動，以便更輕鬆地識別。
-* _currentstep_ > phase:個人歷程的狀態（執行、完成、錯誤或逾時）。 請參閱下方以取得詳細資訊。
-* _currentstep_ > _extraInfo_:錯誤的描述和其他上下文資訊。
-* _currentstep_ > _fetchErrors_:此步驟中發生的讀取資料錯誤的資訊。
-* _externalKeys_:在事件中定義的鍵公式值。
-* _豐富的資料_:旅程使用資料來源時所擷取的資料。
-* _transitionHistory_:個人遵循的步驟清單。 對於事件，會顯示裝載。
-* _actionExecutionErrors_ :錯誤的相關資訊。
+* _Id_: 歷程中個人的內部ID。 這可用於除錯用途。
+* _currentstep_: 個體在旅程中所處的階段。 我們建議將標籤新增至您的活動，以便更輕鬆地識別。
+* _currentstep_ > phase: 個人歷程的狀態（執行、完成、錯誤或逾時）。 請參閱下方以取得詳細資訊。
+* _currentstep_ > _extraInfo_: 錯誤的描述和其他上下文資訊。
+* _currentstep_ > _fetchErrors_: 此步驟中發生的讀取資料錯誤的資訊。
+* _externalKeys_: 在事件中定義的鍵公式值。
+* _豐富的資料_: 旅程使用資料來源時所擷取的資料。
+* _transitionHistory_: 個人遵循的步驟清單。 對於事件，會顯示裝載。
+* _actionExecutionErrors_ : 錯誤的相關資訊。
 
+以下是個人旅程的不同狀態：
+
+* _正在運行_: 這個人目前正在旅程中。
+* _完成_: 個人正處於旅程的盡頭。
+* _錯誤_: 由於錯誤，個人在旅途中被停止。
+* _超時_: 由於一個步驟花了太多時間，這個人在旅途中被攔住了。
