@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 2%
 
 ---
 
@@ -30,11 +33,10 @@ _進階運算式編輯器介面_
 進階運算式編輯器可用於：
 
 * 建立 [資料來源](../building-journeys/condition-activity.md#about_condition) 、事件資訊的進階條件
-* 在日期條 [件中定義自訂時區](../building-journeys/timezone-management.md) 、固定日期等待活動、自訂等待活動
 * 定義自訂 [等待活動](../building-journeys/wait-activity.md#custom)
 * 定義動作參數映射
 
-如果可能，可以使用／按鈕在兩種模 **[!UICONTROL Advanced mode]**式之**[!UICONTROL Simple mode]** 間切換。 此處介紹了簡單 [模式](../building-journeys/condition-activity.md#about_condition)。
+如果可能，可以使用／按鈕在兩種模 **[!UICONTROL Advanced mode]** 式之 **[!UICONTROL Simple mode]** 間切換。 此處介紹了簡單 [模式](../building-journeys/condition-activity.md#about_condition)。
 
 >[!NOTE]
 >
@@ -42,7 +44,7 @@ _進階運算式編輯器介面_
 >
 >操作參數可通過選擇欄位或通過高級表達式編輯器來定義。 他們會根據其運算式傳回特定的資料類型。
 
-## 訪問高級表達式編輯器 {#section_fdz_4nj_cjb}
+## Accessing the advanced expression editor {#section_fdz_4nj_cjb}
 
 您可以以不同方式訪問高級表達式編輯器：
 
@@ -50,7 +52,7 @@ _進階運算式編輯器介面_
 
    ![](../assets/journeyuc2_33.png)
 
-* 當您建立自訂時區或自訂計時器時，會直接顯示進階編輯器。
+* 當您建立自訂計時器時，會直接顯示進階編輯器。
 * 映射操作參數時，按一下 **[!UICONTROL Advanced mode]**。
 
 ## 探索介面{#section_otq_tnj_cjb}
@@ -61,9 +63,9 @@ _進階運算式編輯器介面_
 
 在畫面的左側會顯示可用欄位和函式：
 
-* **[!UICONTROL Events]**:選擇從入站事件接收的欄位之一。 顯示的事件欄位清單是內容相關的，並會根據歷程中新增的事件而有所不同。
-* **[!UICONTROL Data Sources]**:從資料來源欄位群組中的可用欄位清單中選擇。
-* **[!UICONTROL Functions]**:從可執行複雜篩選的內建函式清單中選擇。 功能依類別組織。
+* **[!UICONTROL Events]**: 選擇從入站事件接收的欄位之一。 顯示的事件欄位清單是內容相關的，並會根據歷程中新增的事件而有所不同。
+* **[!UICONTROL Data Sources]**: 從資料來源欄位群組中的可用欄位清單中選擇。
+* **[!UICONTROL Functions]**: 從可執行複雜篩選的內建函式清單中選擇。 功能依類別組織。
 
 ![](../assets/journey65.png)
 
