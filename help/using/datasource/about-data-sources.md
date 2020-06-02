@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 88%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="關於資料來源"
->abstract="資料來源設定一律會由技術使用者執行。資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊，例如：條件定義、動作中的參數和個人化資料、自定等待定義、自訂時區定義。"
+>abstract="資料來源設定一律會由技術使用者執行。資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊，例如： 條件定義、參數和動作中的個人化資料、自訂等待定義、時區定義。"
 
 資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊，例如：
 
 * [條件定義](../building-journeys/condition-activity.md)
 * [動作](../action/action.md)中的參數和個人化資料
 * [自定等待定義](../building-journeys/wait-activity.md#custom)
-* [自定時區定義](../building-journeys/timezone-management.md)
+* [時區定義](../building-journeys/timezone-management.md)
 
 如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。例如，如果您的歷程由事件組成，接著會以僅使用來自事件資料的電子郵件活動，則不需要設定資料來源。
 
