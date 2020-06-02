@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0bf8ce5974b7be684a156d5c5445dca122213237
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3b19e771b6fa3a679a36398c12417b190ee7ff18
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 77%
 
 ---
 
@@ -24,12 +24,24 @@ ht-degree: 100%
 本頁面列出 Journey Orchestration 的所有文件更新。
 您也可以參閱 Journey Orchestration [發行說明](../release-notes/release-notes.md)。
 
+## 2020年6月 {#june-2020}
+
+* 已新增有關如何變更自訂驗證資料來源之Token的快取持續時間的資訊。 [詳細內容](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* 更新螢幕擷取畫面和文字，以反映已變更為「 **Finished** 」（已結束）的 **「Finished**」（已完成）歷程狀態重新命名。
+* 已新增如何為介面定義語言的資訊。 [詳細內容](../about/user-interface.md)
+* 個人歷程的狀態清單已移至「測試模式記錄 [」區段](../building-journeys/testing-the-journey.md#viewing_logs) 。
+
+## 2020年4月 {#april-2020}
+
+* 已新增體驗事件結構定義的新區段，以協助使用者設定其第一個事件。 [詳細內容](../event/experience-event-schema.md)
+* 「歷程協調」檔案的首頁已更新，並附上其他有用的連結。 [詳細內容](../../journey-orchestration-home.md)
+
 ## 2020 年 3月{#march-2020}
 
 * 已新增測試記錄區段中 _actionExecutionErrors_ 和 _fetchErrors_ 的參數說明。[詳細內容](../building-journeys/testing-the-journey.md#viewing_logs)
 * 已更新歷程中使用的自訂動作限制。您也可以修改 **URL** 欄位和 **Authentication** 參數。[詳細內容](../action/about-custom-action-configuration.md)
 * 已新增內容說明項目。自訂驗證裝載窗格 (在動作和資料來源中) 現已包含連結至此[章節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)的說明圖示。
-* 現在可以停止已完成的歷程。[詳細內容](../building-journeys/using-the-journey-designer.md)
+* 現在可以停止封閉的旅程。 [詳細內容](../building-journeys/using-the-journey-designer.md)
 * 已重新組織介面說明章節。[詳細內容](../about/user-interface.md)
 * 已將多個事件的觸發條件新增至「測試模式」章節[詳細內容](../building-journeys/testing-the-journey.md#firing_events)
 * 已更新「測試模式」章節中關於全新&#x200B;**「測試等待時間」**&#x200B;的參數。[詳細內容](../building-journeys/testing-the-journey.md)
@@ -39,10 +51,10 @@ ht-degree: 100%
 * 已更新介面說明中內容說明的資訊。[詳細內容](../about/user-interface.md#section_ksq_zr1_ffb)
 * 瀏覽 **XDM 欄位**&#x200B;時現在會顯示好記的名稱。已更新相關章節。[詳細內容](../about/user-interface.md#friendly-names-display)
 
-
 ## 2020 年 2 月{#february-2020}
 
 * 已更新快速鍵章節。**C** 鍵盤快速鍵可讓您在所有清單畫面中建立新項目。[詳細內容](../about/user-interface.md#section_ksq_zr1_ffb)
+* 資料 [來源](../datasource/about-data-sources.md)[和動作概](../action/action.md) 述頁面已改良。
 
 ## 2020 年 1 月{#january-2020}
 
