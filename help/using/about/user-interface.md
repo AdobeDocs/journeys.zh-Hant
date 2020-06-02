@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
-workflow-type: ht
-source-wordcount: '995'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
+workflow-type: tm+mt
+source-wordcount: '1021'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->若要充分利用 Journey Orchestration 的功能，我們建議使用 Chrome 做為網際網路瀏覽器。
+>若要充分利用 Journey Orchestration 的功能，我們建議使用 Chrome 做為網際網路瀏覽器。介面以IMS中定義的語言顯示。 如果您的IMS語言不受Journey Orchestration支援，介面會以英文顯示。
 >
 >本文件會經常更新以反映產品最近的異動。不過，有些螢幕擷取畫面可能會與產品的介面稍有不同。
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="關於歷程清單"
->abstract="歷程清單可讓您一次檢視所有歷程、查看其狀態並執行基本動作。您可以複製、停止或刪除您的歷程。視歷程而定，某些動作可能無法使用。例如，您無法刪除或重新開始已完成的歷程。您可以從中建立新版本或加以複製，也可以使用搜尋列來搜尋歷程。"
+>abstract="歷程清單可讓您一次檢視所有歷程、查看其狀態並執行基本動作。您可以複製、停止或刪除您的歷程。視歷程而定，某些動作可能無法使用。例如，您無法刪除或重新啟動已關閉的歷程。 您可以從中建立新版本或加以複製，也可以使用搜尋列來搜尋歷程。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="觀看示範影片"
 
 頂端選單可讓您瀏覽 Journey Orchestration 的不同功能：**[!UICONTROL Home]**(歷程)、**[!UICONTROL Data Sources]**、**[!UICONTROL Events]**、**[!UICONTROL Actions]**。
