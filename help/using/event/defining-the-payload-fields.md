@@ -11,14 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 6%
 
 ---
 
 
 # 定義裝載欄位 {#concept_yrw_3qt_52b}
 
-有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯的人員的金鑰。 裝載是以Experience Cloud XDM欄位定義為基礎。 有關XDM的更多資訊，請參閱本 [頁](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)。
+有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯的人員的金鑰。 裝載是以Experience Cloud XDM欄位定義為基礎。 有關XDM的更多資訊，請參閱本 [頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/home.html)。
 
 1. 從清單中選擇一個XDM方案，然後按一下 **[!UICONTROL Payload]** 欄位或表徵圖 **[!UICONTROL Edit]** 上。
 
@@ -28,7 +31,7 @@ source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
    >[!NOTE]
    >
-   >請確定您已將「協調」混合加入XDM架構。 這將確保您的架構包含使用Journey Orchestration所需的所有資訊。
+   >請確定您已將「協調」混合加入XDM架構。 這將確保您的架構包含所有需要使用的資訊 [!DNL Journey Orchestration]。
 
    ![](../assets/journey9.png)
 
@@ -38,7 +41,7 @@ source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
    >[!NOTE]
    >
-   >欄位 **[!UICONTROL eventID]** 會自動新增至選取欄位清單中，讓「歷程協調」能夠識別事件。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 參見[](../event/previewing-the-payload.md)。
+   >欄位 **[!UICONTROL eventID]** 會自動新增至選取欄位清單中，以便 [!DNL Journey Orchestration] 識別事件。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 請參見[](../event/previewing-the-payload.md)。
 
 1. 選擇完所需欄位後，按一下或 **[!UICONTROL Save]** 按 **[!UICONTROL Enter]**。
 
