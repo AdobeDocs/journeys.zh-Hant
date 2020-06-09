@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '139'
 ht-degree: 5%
 
 ---
@@ -22,9 +22,7 @@ ht-degree: 5%
 
 # 建立區段 {#creating-a-segment}
 
->「歷程協調」中的區段標籤和區段的建立／修改將於6月15日推出。
-
-您可以使用「平台劃分服務」 [來建立區段](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ，或直接在「歷程編排」中存取和建立區段。
+您可以使用「平台區段服務」 [建立區段](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ，或直接在中存取和建立區段 [!DNL Journey Orchestration]。
 
 1. 在頂端選單中，按一下「**[!UICONTROL Segments]**」標籤。隨即顯示平台區段清單。 您可以在清單中搜尋特定區段。
 
