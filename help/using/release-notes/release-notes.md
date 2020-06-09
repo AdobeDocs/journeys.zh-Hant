@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
+source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 71%
+source-wordcount: '1098'
+ht-degree: 70%
 
 ---
 
@@ -40,16 +40,17 @@ ht-degree: 71%
 <li><p>新活動可讓監聽平台區段入口／出口，讓人們進入或前進旅程。 <a href="../building-journeys/event-activities.md#segment-qualification">詳細內容</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>有了新的「區段」索引標籤，您現在不需離開「歷程協調」介面，就可建立和編輯 <strong>平台</strong> 區段。 有效的可用性： 2020年6月15日。 <a href="../segment/about-segments.md">詳細內容</a></p>
+<li><p>有了新的「區段」索引標籤，您現在不需離開「歷程協調」介面，就可建立和編輯 <strong>平台</strong> 區段。<a href="../segment/about-segments.md">詳細內容</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>在簡單運算式編輯器中，平台區段現在會直接列在導覽樹狀結構中，以方便設定條件，例如「此人是否屬於區段A?」。 <a href="../segment/using-a-segment.md">詳細內容</a></p>
+<li><p>在簡單運算式編輯器中，平台區段現在會直接列在導覽樹狀結構中，以方便設定條件，例如「此人是否屬於區段A?」。<a href="../segment/using-a-segment.md">詳細內容</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>Journey Orchestration現在會自動傳遞至Adobe Data Platform，讓您在歷程中執行的步驟。 這包括可能遇到的錯誤。 此資訊可用於執行特定旅程或所有旅程之旅程步驟事件的查詢，以建立報告和疑難排解。 <a href="../building-journeys/sharing-overview.md">詳細內容</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>現在，「歷程協調」可連接至製作和非製作的平台沙盒。 有效的可用性： 2020年6月15日。 <a href="../about/access-management.md#sandboxes">詳細內容</a></p>
+</li>
+<li><p>現在，「歷程協調」可連接至製作和非製作的平台沙盒。 請注意，沙盒是測試版功能。 有效的可用性： 2020年6月30日。 <a href="../about/access-management.md#sandboxes">詳細內容</a></p>
 </li>
 </td>
 </tr>
@@ -84,9 +85,9 @@ ht-degree: 71%
 
 為避免傳送過多的API呼叫至協力廠商系統，我們推出新的公用API來設定「限制」規則。 封閉規則允許定義每毫秒對API端點的最大調用數。 [詳細內容](../api/capping.md)
 
-存取控制現在允許使用者存取管理更精細。 有效的可用性： 2020年6月15日。 [詳細內容](../about/access-management.md#create-product-profile)
+存取控制現在允許使用者存取管理更精細。 有效的可用性： 2020年6月30日。 [詳細內容](../about/access-management.md#create-product-profile)
 
-Journey Orchestration現在已在APAC（澳洲資料中心）提供。 有效的可用性： 2020年6月15日
+Journey Orchestration現在已在APAC（澳洲資料中心）提供。 有效的可用性： 2020年6月30日
 
 Journey Orchestration介面提供日文版。
 
