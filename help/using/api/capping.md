@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9f28bdc0e74359ff9f8d84961769b84973ae3f39
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## 簡介
 
-Journey Orchestration的API支援5000個事件／秒，但某些外部系統或API的總處理能力無法相同。 因此，Journey Orchestration隨附一個稱為Capping API的專屬功能，可監控並限制我們對外部系統的速率。
+[!DNL Journey Orchestration]s API支援5000個事件／秒，但某些外部系統或API無法具有相同的總處理能力。 這就是為什麼 [!DNL Journey Orchestration] 隨附一個稱為「封頂API」的專用功能，可監控並限制我們對外部系統的速率。
 
 在資料來源設定期間，您將定義系統連線，以擷取將用於歷程的其他資訊，或是用於動作定義，您將設定協力廠商系統連線，以傳送訊息或API呼叫。 每次由Journey執行API呼叫時，即會查詢封頂API，呼叫會透過API引擎。 如果已定義限制，則拒絕調用，外部系統不會過載。
 
@@ -30,9 +30,9 @@ Journey Orchestration的API支援5000個事件／秒，但某些外部系統或A
 
 ## 資源
 
-Journey Orchestration Capping API是在此處提供的Swagger檔案中 [說明](https://adobedocs.github.io/JourneyAPI/docs/)。
+此處 [!DNL Journey Orchestration] 提供的Swagger檔案中說明了「封閉API [」](https://adobedocs.github.io/JourneyAPI/docs/)。
 
-若要將此API與您的Journey Orchestration例項搭配使用，您必須使用AdobeIO Console。 您可以先遵循本「Adobe Developer Console [快速入門」](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) ，然後使用本頁中的章節。
+若要將此API與您的 [!DNL Journey Orchestration] 例項搭配使用，您必須使用AdobeIO Console。 您可以先遵循本「Adobe Developer Console [快速入門」](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) ，然後使用本頁中的章節。
 
 若要測試並準備整合，此處提供Postman [系列](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
@@ -40,14 +40,14 @@ Journey Orchestration Capping API是在此處提供的Swagger檔案中 [說明](
 
 ### 設定 API 存取
 
-Journey Orchestration API存取權是透過下列步驟設定。 這些步驟在 [Adobe IO檔案中有詳細說明](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)。
+[!DNL Journey Orchestration] API存取權是透過下列步驟設定。 這些步驟在 [Adobe IO檔案中有詳細說明](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)。
 
 >[!CAUTION]
 >
 >若要在Adobe IO中管理憑證，請確定您在「管理控制台」中 <b>擁有組織或開發人</b> 員帳戶的系統管 <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">理員</a> 權限。
 
 1. **檢查您是否有數位憑證**，或視需要建立憑證。 在下列步驟中，需要隨憑證提供的公開金鑰和私密金鑰。
-1. **在Adobe IO中建立與Journey Orchestration Service的新整合** ，並加以設定。 Journey Orchestration和Adobe Experience Platform需要產品設定檔存取。 然後會產生您的認證（API金鑰、用戶端密碼……）。
+1. **在Adobe IO中建立與[!DNL Journey Orchestration]Service** 的新整合併加以設定。 產品設定檔存取是Adobe Experience Platform [!DNL Journey Orchestration] 的必要條件。 然後會產生您的認證（API金鑰、用戶端密碼……）。
 1. **從先前產生的認證建立JSON Web Token(JWT)** ，並使用您的私密金鑰簽名。 JWT會對Adobe驗證您的身分並授與您API存取權所需的所有身分與安全資訊進行編碼。 本節將詳述此步 [驟](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **透過POST要求或透過Developer Console介面** ，將您的JWT交換為存取Token。 此存取Token必須用於API請求的每個標題中。
 
@@ -67,7 +67,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ACCESS_TOKEN>**: 透過POST請求交換JWT時擷取的個人存取Token。
 
-* **&lt;API_KEY>**: 您的個人API金鑰。 在建立與Journey Orchestration Service的全新整合後，Adobe I/O中就提供了它。
+* **&lt;API_KEY>**: 您的個人API金鑰。 在建立與服務的新整合後，Adobe I/O中就提供此 [!DNL Journey Orchestration] 功能。
 
 
 
@@ -164,14 +164,14 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 ## 使用案例
 
-在本節中，您將會找到在「歷程協調」中管理上限設定時可執行的五個主要使用案例。
+在本節中，您將會找到在中管理封閉配置時可執行的五個主要使用案例 [!DNL Journey Orchestration]。
 
 為協助您進行測試和設定，此處提供Postman [系列](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
 此Postman Collection已設定為共用透過 __[Adobe I/O Console的「整合](https://console.adobe.io/integrations)>試用>下載Postman」產生的Postman Variable集合，而Postman__&#x200B;會產生具有選取整合值的Postman Environment檔案。
 
 下載並上傳至Postman後，您需要新增兩個變數： `{JO_HOST}` 和 `{Base_Path}`。
-* `{JO_HOST}` : 歷程協調閘道URL
+* `{JO_HOST}` : [!DNL Journey Orchestration] 閘道URL
 * `{BASE_PATH}` : API的入口點。 值為&#39;/authoring&#39;
 
 
