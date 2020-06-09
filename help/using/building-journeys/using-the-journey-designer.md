@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7bdba1be0b5fe95417038c0d6788e76b155104aa
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1339'
 ht-degree: 4%
 
 ---
@@ -65,7 +65,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 當您 **在浮動視窗中按一下活動** ，就會顯示活動設定窗格。 填寫必填欄位。 按一下圖 **[!UICONTROL Delete]** 示以刪除活動。 按一下 **[!UICONTROL Cancel]** 以取消修改或 **[!UICONTROL Ok]** 確認。 要刪除活動，還可以選擇一個活動（或多個活動），然後按背空格鍵。 按轉義鍵將關閉活動配置窗格。
 
-在畫布中，您的動作和事件活動會以圖示來表示，其下會顯示事件或動作的名稱。 在活動配置窗格中，可以使用 **[!UICONTROL Label]** 欄位為活動名稱添加尾碼。 這些標籤將協助您將事件和動作的使用情境化，尤其是當您在歷程中多次使用相同的事件或動作時。 您也可以看到在「歷程協調」報表中新增的標籤。
+在畫布中，您的動作和事件活動會以圖示來表示，其下會顯示事件或動作的名稱。 在活動配置窗格中，可以使用 **[!UICONTROL Label]** 欄位為活動名稱添加尾碼。 這些標籤將協助您將事件和動作的使用情境化，尤其是當您在歷程中多次使用相同的事件或動作時。 您也可以看到您在報表中新增的標 [!DNL Journey Orchestration] 簽。
 
 ![](../assets/journey59bis.png)
 
