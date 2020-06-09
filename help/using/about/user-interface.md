@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 96%
+source-wordcount: '1007'
+ht-degree: 88%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->若要充分利用 Journey Orchestration 的功能，我們建議使用 Chrome 做為網際網路瀏覽器。介面以IMS中定義的語言顯示。 如果您的IMS語言不受Journey Orchestration支援，介面會以英文顯示。
+>To get the best out of [!DNL Journey Orchestration], we recommend using Chrome as your Internet browser. 介面以IMS中定義的語言顯示。 如果您的IMS語言不受支援， [!DNL Journey Orchestration]介面會以英文顯示。
 >
 >本文件會經常更新以反映產品最近的異動。不過，有些螢幕擷取畫面可能會與產品的介面稍有不同。
 
-## 存取 Journey Orchestration{#accessing_journey_orchestration}
+## 存取 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-若要存取 Journey Orchestration 的介面，請按一下右上角的&#x200B;**[!UICONTROL App Selector]**&#x200B;圖示，再按一下右側「Experience Platform」下方的「**[!UICONTROL Journey Orchestration]**」。
+To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. 再按一下右側「Experience Platform」下方的「**[!UICONTROL Journey Orchestration]**」。
 
 ![](../assets/journey1.png)
 
-您也可以從 Experience Cloud 首頁的 **[!UICONTROL Quick access]**&#x200B;區段存取 Journey Orchestration。
+You can also access [!DNL Journey Orchestration] from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
 
 ![](../assets/journey1bis.png)
 
@@ -43,11 +43,11 @@ ht-degree: 96%
 >abstract="歷程清單可讓您一次檢視所有歷程、查看其狀態並執行基本動作。您可以複製、停止或刪除您的歷程。視歷程而定，某些動作可能無法使用。例如，您無法刪除或重新啟動已關閉的歷程。 您可以從中建立新版本或加以複製，也可以使用搜尋列來搜尋歷程。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="觀看示範影片"
 
-頂端選單可讓您瀏覽 Journey Orchestration 的不同功能：**[!UICONTROL Home]**(歷程)、**[!UICONTROL Data Sources]**、**[!UICONTROL Events]**、**[!UICONTROL Actions]**。
+The top menus allow you to navigate through the different functionalities of [!DNL Journey Orchestration]: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
-按一下畫面右上角的![](../assets/icon-context.png)圖示以顯示內容說明，它會顯示在不同的 Journey Orchestration 清單畫面中 (歷程、事件、動作和資料來源)。這可讓您檢視目前功能的快速說明，並存取相關文章和影片。
+按一下畫面右上角的![](../assets/icon-context.png)圖示以顯示內容說明，It is available across the different [!DNL Journey Orchestration] list screens (journeys, events, actions and data sources). 這可讓您檢視目前功能的快速說明，並存取相關文章和影片。
 
 ![](../assets/journey2bis.png)
 
@@ -93,7 +93,7 @@ ht-degree: 96%
 
 ## 使用不同的捷徑{#section_ksq_zr1_ffb}
 
-以下是 Journey Orchestration 介面提供的不同捷徑。
+Here are the different shortcuts available in the [!DNL Journey Orchestration]&#39;s interface.
 
 _在歷程、動作、資料來源或事件清單中：_
 
