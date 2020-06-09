@@ -11,28 +11,31 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 3%
 
 ---
 
 
 
-# 傳送活動至歷程協調的其他步驟 {#concept_xrz_n1q_y2b}
+# Additional steps to send events to [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
 
 >[!NOTE]
 >
->當建立活動時，Journey Orchestration會自動為此活動產生ID。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 參見[](../event/previewing-the-payload.md)。
+>建立事件時，會 [!DNL Journey Orchestration] 自動產生此事件的ID。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 請參見[](../event/previewing-the-payload.md)。
 
-若要設定要傳送至 **[!UICONTROL Streaming Ingestion APIs]** Journey Orchestration並用於Journey Orchestration中的事件，您必須遵循下列步驟：
+要配置要發送到和要用 **[!UICONTROL Streaming Ingestion APIs]** 於的事件， [!DNL Journey Orchestration]您需要執行以下步驟：
 
-1. 從資料平台API取得引入URL(請參閱 [串流擷取API](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html))。
-1. 從功能表的裝載預覽複製裝 **[!UICONTROL Event]** 載。 參見[](../event/defining-the-payload-fields.md)。
+1. 從資料平台API取得引入URL(請參閱 [串流擷取API](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/streaming/overview.html))。
+1. 從功能表的裝載預覽複製裝 **[!UICONTROL Event]** 載。 請參見[](../event/defining-the-payload-fields.md)。
 
 然後，您需要設定資料系統，使用您複製的裝載將事件推送至串流擷取API:
 
 1. 設定串流擷取API URL的POST API呼叫（稱為入口網站）。
-1. 使用您從API呼叫Streaming Ingestion API的內文（「資料區段」）中，從Journey Orchestration複製的負載。 請參閱下方的範例
-1. 確定要在何處取得裝載中所有變數。 範例：如果事件應傳達地址，貼上的裝載將顯示「地址」:「字串」。 &quot;string&quot;應由變數取代，變數會自動填入正確值，即要傳送訊息給之人員的電子郵件。 請注意，在裝載預覽中，在區 **[!UICONTROL Header]** 段中，我們會自動填入許多值，以方便您工作。
+1. 使用您從API呼叫 [!DNL Journey Orchestration] 至串流擷取API的內文（「資料區段」）中複製的裝載。 請參閱下方的範例
+1. 確定要在何處取得裝載中所有變數。 範例： 如果事件應傳達地址，貼上的裝載將顯示「地址」: 「字串」。 &quot;string&quot;應由變數取代，變數會自動填入正確值，即要傳送訊息給之人員的電子郵件。 請注意，在裝載預覽中，在區 **[!UICONTROL Header]** 段中，我們會自動填入許多值，以方便您工作。
 1. 選取「application/json」作為內文類型。
 1. 使用索引鍵&quot;x-gw-ims-org-id&quot;，將您的IMS組織ID傳入頁首。 若為值，請使用您的IMS組織ID(「XXX@AdobeOrg」)。
 
