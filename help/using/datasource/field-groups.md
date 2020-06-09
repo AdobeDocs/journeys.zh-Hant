@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 0%
 
 ---
 
@@ -27,13 +30,13 @@ source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 
 例如，您可以建立包含電話號碼、電子郵件、名字和描述檔位址的欄位群組。 然後，您就可以在歷程中使用這些資料來創造條件。 例如，您只有在描述檔的電話號碼不為空時，才可決定傳送SMS。 如果空白，您可以傳送電子郵件。
 
-即使會自動新增預設名稱，我們仍建議您為欄位群組指定名稱。 事實上，Journey Orchestration中的其他使用者會看到欄位群組名稱。 為欄位群組指定相關名稱是最佳作法。
+即使會自動新增預設名稱，我們仍建議您為欄位群組指定名稱。 事實上，欄位群組名稱會顯示給其他使用者 [!DNL Journey Orchestration]。 為欄位群組指定相關名稱是最佳作法。
 
 在歷程中使用資料來源欄位時，系統會擷取為該欄位群組定義的所有欄位。 因此，只選擇您歷程所需的欄位是最佳實務。 這將減少您歷程中的請求延遲，進而提高效能。 請注意，您稍後可以輕鬆在欄位群組中新增更多欄位。
 
 **[!UICONTROL Cache duration]** 也很重要，因為它將幫助您優化效能。 快取持續時間表示在歷程中，如果從欄位群組擷取資料一次，系統就會暫時快取。 如果同一行程的稍後需要相同的資料，系統不會對資料來源提出其他要求。 快取持續時間的配置應適用於每個使用案例。 如果您需要擷取即時資料，例如飯店訂房狀態、氣象資訊或忠誠度點數，您會將包含這些欄位的欄位群組與短快取持續時間（例如1秒）產生關聯。 對於更新頻率較低的欄位（名稱、性別），您將建立快取持續時間較長的第二個欄位群組（例如5天）。
 
-使用欄位群組的歷程次數會顯示在欄位 **[!UICONTROL Used in]** 中。 您可以按一下 **[!UICONTROL View journeys]** 按鈕，顯示使用此欄位群組的歷程清單。
+The number of journeys that use a field group is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of journeys using this field group.
 
 >[!NOTE]
 >
