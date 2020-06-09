@@ -8,20 +8,20 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 84%
 
 ---
 
 
 # 開始使用{#concept_y4b_4qt_52b}
 
-Journey Orchestration 中有兩種使用者，每一種都負責執行特定工作，他們分別是&#x200B;**技術使用者**&#x200B;和&#x200B;**業務使用者**。使用者存取權限可透過產品設定檔和權限進行管理。請參見[](../about/access-management.md)，以瞭解如何設定使用者存取權限。
+In [!DNL Journey Orchestration], there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. 使用者存取權限可透過產品設定檔和權限進行管理。請參見[](../about/access-management.md)，以瞭解如何設定使用者存取權限。
 
-以下是設定和使用 Journey Orchestration 的主要步驟：
+Here are the main steps to configure and use [!DNL Journey Orchestration]:
 
 1. **設定事件**
 
@@ -41,7 +41,7 @@ Journey Orchestration 中有兩種使用者，每一種都負責執行特定工�
 
 1. **設定動作**
 
-   如果您使用協力廠商系統傳送訊息，需要使用 Journey Orchestration 來設定其連線。請參見[](../action/about-custom-action-configuration.md)。
+   If you&#39;re using a third-party system to send your messages, you need to configure its connection with [!DNL Journey Orchestration]. 請參見[](../action/about-custom-action-configuration.md)。
 
    如果您使用 Adobe Campaign Standard 傳送訊息，需要設定內建動作。請參見[](../action/working-with-adobe-campaign.md)。
 
