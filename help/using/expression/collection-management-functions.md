@@ -1,5 +1,5 @@
 ---
-title: 收集管理功能
+title: 收集管理函式
 description: 瞭解收集管理功能中的資料類型
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,12 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 1%
 
 ---
 
 
-# 收集管理功能 {#collection-management-functions}
+# 收集管理函式 {#collection-management-functions}
 
 運算式語言也提供一組函式來查詢系列。
 
@@ -70,13 +73,13 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 <listExpression>.all(<condition>)
 ```
 
-例如，在所有應用程式使用者中，您都可以取得使用IOS 13的使用者（布林運算式&quot;app used == IOS 13&quot;）。 此函式的結果是包含與布爾表達式匹配的項目的篩選清單(例如：app user 1、app user 34、app user 432)。
+例如，在所有應用程式使用者中，您都可以取得使用IOS 13的使用者（布林運算式&quot;app used == IOS 13&quot;）。 此函式的結果是包含與布爾表達式匹配的項目的篩選清單(例如： app user 1、app user 34、app user 432)。
 
 在「資料來源條件」活動中，您可以檢查函式的結 **[!UICONTROL all]** 果是否為null。 您也可以將此函式與 **[!UICONTROL all]** 其他函式結合，例如 **[!UICONTROL count]**。 如需詳細資訊，請參閱「 [資料來源條件」活動](../building-journeys/condition-activity.md#data_source_condition)。
 
 **範例1:**
 
-我們想檢查使用者是否已安裝特定版本的應用程式。 為此，我們會取得與版本為1.0的行動應用程式相關的所有推播通知Token。然後，利用函式進行條件檢 **[!UICONTROL count]** 查返回的Token清單是否包含至少一個元素。
+我們想檢查使用者是否已安裝特定版本的應用程式。 為此，我們會取得與版本為1.0的行動應用程式相關的所有推播通知Token。 然後，利用函式進行條件檢 **[!UICONTROL count]** 查返回的Token清單是否包含至少一個元素。
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -114,7 +117,7 @@ Note that when the condition in the **all()** function is empty, the filter will
 
 In both cases, the result of the expression is **3**.
 
-A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which Journey Orchestration sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
+A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which [!DNL Journey Orchestration] sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
 earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
@@ -205,7 +208,7 @@ _`<listExpression>.last(<condition>)`_
 
 >[!NOTE]
 >
->體驗事件是從Experience platform擷取為依時間順序倒排的系列，因此：
+>體驗事件是從Experience Platform擷取為依時間順序倒排的系列，因此：
 >* **[!UICONTROL first]** 函式會傳回最近的事件
 >* **[!UICONTROL last]** 函式會傳回最舊的函式。
 
