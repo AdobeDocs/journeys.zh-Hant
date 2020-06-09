@@ -11,15 +11,18 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 12%
 
 ---
 
 
 # 關於自訂動作組態 {#concept_sxy_bzs_dgb}
 
-如果您使用協力廠商系統來傳送訊息，或是希望Journey Orchestration將API呼叫傳送至協力廠商系統，您就可在此設定其與Journey Orchestration的連線。 然後，技術使用者定義的自訂動作就會出現在您旅程的左側浮動視窗中，位於類別中( **[!UICONTROL Action]** 請參閱 [](../building-journeys/about-action-activities.md))。 以下是一些您可以使用自訂動作來連接的系統範例：Epsilon、Facebook、Adobe.io、Firebase等
-限制列在此處： [](../action/custom-action-limitations.md)。
+如果您使用協力廠商系統來傳送訊息，或如果您要傳送 [!DNL Journey Orchestration] API呼叫至協力廠商系統，您就可在此設定其連線 [!DNL Journey Orchestration]。 然後，技術使用者定義的自訂動作就會出現在您旅程的左側浮動視窗中，位於類別中( **[!UICONTROL Action]** 請參閱 [](../building-journeys/about-action-activities.md))。 以下是一些您可以使用自訂動作來連接的系統範例： Epsilon、Facebook、Adobe.io、Firebase等
+限制列在此處： [](../action/custom-action-limitations.md).
 
 以下是設定自訂動作所需的主要步驟：
 
@@ -31,16 +34,16 @@ source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
    >[!NOTE]
    >
-   >請勿使用空格或特殊字元。 請勿使用超過30個字元。
+   >請勿使用空格或特殊字元。請勿使用超過 30 個字元。
 
-1. 將描述新增至您的動作。 此步驟為可選步驟。
-1. 使用此動作的歷程次數會顯示在欄位 **[!UICONTROL Used in]** 中。 您可以按一下按 **[!UICONTROL View journeys]** 鈕，使用此動作顯示歷程清單。
-1. 定義不同 **[!UICONTROL URL Configuration]** 參數。 參見[](../action/url-configuration.md)。
-1. 設定區 **[!UICONTROL Authentication]** 段。 此設定與資料來源的設定相同。  參見[](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
-1. 定義 **[!UICONTROL Message parameters]**。 參見[](../action/defining-the-message-parameters.md)。
-1. 按一下 **[!UICONTROL Save]**.
+1. 將描述新增至您的動作。 此步驟為選填。
+1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
+1. 定義不同 **[!UICONTROL URL Configuration]** 參數。 請參見[](../action/url-configuration.md)。
+1. 設定區 **[!UICONTROL Authentication]** 段。 此設定與資料來源的設定相同。  請參見[](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
+1. 定義 **[!UICONTROL Message parameters]**。 請參見[](../action/defining-the-message-parameters.md)。
+1. 按一下「**[!UICONTROL Save]**」。
 
-   自訂動作現在已設定好，可供您在歷程中使用。 參見[](../building-journeys/about-action-activities.md)。
+   自訂動作現在已設定好，可供您在歷程中使用。 請參見[](../building-journeys/about-action-activities.md)。
 
    >[!NOTE]
    >
