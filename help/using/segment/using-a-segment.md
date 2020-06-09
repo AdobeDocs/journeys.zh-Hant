@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 
 # 在條件中使用區段 {#using-a-segment}
-
->「歷程協調」中的區段標籤和區段的建立／修改將於6月15日推出。
 
 本節說明如何在歷程條件中使用區段。
 若要瞭解如何在您的歷程中 **使用區段資格** ，請參閱 [活動](../building-journeys/event-activities.md#segment-qualification)。
