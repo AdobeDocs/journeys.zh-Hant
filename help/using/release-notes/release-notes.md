@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
+source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 72%
+source-wordcount: '1094'
+ht-degree: 71%
 
 ---
 
@@ -46,8 +46,8 @@ ht-degree: 72%
 <li><p>在簡單運算式編輯器中，平台區段現在會直接列在導覽樹狀結構中，以方便設定條件，例如「此人是否屬於區段A?」。 <a href="../segment/using-a-segment.md">詳細內容</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration現在會自動傳遞至Adobe資料平台，讓個人在歷程中遵循步驟。 這包括可能遇到的錯誤。 此資訊可用於分析或區段用途。 <a href="../building-journeys/sharing-overview.md">詳細內容</a></p>
-<img src="../assets/rn-sharing.png"/>
+<li><p>Journey Orchestration現在會自動傳遞至Adobe Data Platform，讓您在歷程中執行的步驟。 這包括可能遇到的錯誤。 此資訊可用於執行特定旅程或所有旅程之旅程步驟事件的查詢，以建立報告和疑難排解。 <a href="../building-journeys/sharing-overview.md">詳細內容</a></p>
+<img src="../assets/rn-journeystepevent.png"/>
 </li>
 <li><p>現在，「歷程協調」可連接至製作和非製作的平台沙盒。 有效的可用性： 2020年6月15日。 <a href="../about/access-management.md#sandboxes">詳細內容</a></p>
 </li>
