@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 >
 >當您建立事件時，在檢視裝載預覽之前，請先儲存事件並重新開啟它。 需要此步驟，才能在裝載中產生事件ID。
 
-1. 按一下 **[!UICONTROL View Payload]**圖示，預覽系統預期的裝載。
+1. 按一下 **[!UICONTROL View Payload]** 圖示，預覽系統預期的裝載。
 
    ![](../assets/journey13.png)
 
@@ -35,4 +38,4 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 1. 勾選預覽以驗證裝載定義。
 
-1. 然後，您可以將裝載預覽共用給負責事件傳送的人員。 此負載可協助他設計推動「歷程協調」的活動設定。 參見[](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+1. 然後，您可以將裝載預覽共用給負責事件傳送的人員。 此裝載可協助他設計推送至之事件的設定 [!DNL Journey Orchestration]。 請參見[](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
