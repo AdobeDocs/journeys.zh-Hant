@@ -9,14 +9,17 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '1004'
+ht-degree: 0%
 
 ---
 
 
 # 疑難排解{#concept_nlv_bcv_2fb}
 
-在本節中，您會先找到如何疑難排解測試或發佈之前的歷程。 下列所有檢查皆可在歷程處於測試模式或歷程即時時執行。 建議您在測試模式中進行下列所有檢查，然後繼續發佈。 參見[](../building-journeys/testing-the-journey.md)。
+在本節中，您會先找到如何疑難排解測試或發佈之前的歷程。 下列所有檢查皆可在歷程處於測試模式或歷程即時時執行。 建議您在測試模式中進行下列所有檢查，然後繼續發佈。 請參見[](../building-journeys/testing-the-journey.md)。
 
 ## 測試前檢查錯誤{#section_h3q_kqk_fhb}
 
@@ -32,7 +35,7 @@ source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 在切換和 **[!UICONTROL Test]** 按鈕旁 **[!UICONTROL Publish]** 邊，會顯示警告符號。 此警告符號會顯示系統偵測到的錯誤，並防止測試模式啟動或發佈歷程。 大多數情況下，系統檢測到的錯誤會連結到活動上可見的錯誤，但有時會連結到其他問題。 在這種情況下，您可以顯示問題，嘗試使用錯誤說明來識別問題。 如果您無法識別問題，可以複製詳細資訊並傳送給管理員或支援。 請注意，阻止測試的錯誤和阻止發佈的錯誤是類似的。
 
-系統檢測到兩種問題：錯誤和警告。 錯誤會封鎖發佈和測試啟動。 警告指出未封鎖測試啟動或發佈的潛在問題。 您將看到問題的說明和ERR_XXX_XXX類型的問題日誌ID。 這將有助於技術支援找出問題。
+系統檢測到兩種問題： 錯誤和警告。 錯誤會封鎖發佈和測試啟動。 警告指出未封鎖測試啟動或發佈的潛在問題。 您將看到問題的說明和ERR_XXX_XXX類型的問題日誌ID。 這將有助於技術支援找出問題。
 
 切換按鈕旁的符號上可顯示兩種 **[!UICONTROL Test]** 不同的 **[!UICONTROL Publish]** 顏色。 出現錯誤時，符號會以紅色顯示。 警告時顯示為橙色。
 
@@ -46,21 +49,21 @@ source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 您可以檢查您透過這些工具傳送的API呼叫是否正確傳送。 如果您收到錯誤回覆，表示您的呼叫有問題。 再次檢查裝載、標題（尤其是組織ID）和目標URL。 您可以詢問管理員要點擊的正確URL。
 
-活動不會直接從來源推送至歷程協調。 事實上，Journey Orchestration仰賴Experience Platform的串流擷取API。 因此，若發生事件相關問題，您可參閱本頁以取得「串 [流擷取](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) API」疑難排解。
+事件不會直接從來源推送至 [!DNL Journey Orchestration]。 事實上， [!DNL Journey Orchestration] Experience Platform的串流擷取API是靠的。 因此，若發生事件相關問題，您可參閱本頁以取得「串 [流擷取](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) API」疑難排解。
 
 ## 檢查是否有人進入旅程{#section_x4v_zzs_dgb}
 
-「歷程協調」報告可即時測量旅程中的人員入口。
+[!DNL Journey Orchestration] 報導會即時測量旅程中的人口入口。
 
 如果您成功傳送活動，但在旅程中看不到任何入口，表示在傳送活動和在旅程中接收活動之間發生錯誤。
 
 以下是一些事項，管理員應檢查：
 
-* 您確定要傳入事件的歷程是處於測試模式還是即時？
+* 您確定傳入事件的旅程是處於測試模式還是即時？
 * 在從裝載預覽複製裝載之前，您是否已儲存您的事件？
 * 您的事件裝載是否包含事件ID?
 * 您點擊正確的URL了嗎？
-* 您是否使用事件設定窗格中的裝載結構預覽，遵循串流擷取API的裝載結構？ 參見[](../event/previewing-the-payload.md)。
+* 您是否使用事件設定窗格中的裝載結構預覽，遵循串流擷取API的裝載結構？ 請參見[](../event/previewing-the-payload.md)。
 * 您在事件標題中是否使用了正確的索引鍵／值配對？
 
    ```
@@ -70,7 +73,7 @@ source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ## 檢查人們如何瀏覽旅程{#section_l5y_yzs_dgb}
 
-「歷程協調」報告會測量旅程中個人的進度。 很容易就能找出人在何處被攔住，為什麼被攔住。
+[!DNL Journey Orchestration] 報告會測量旅程中個人的進度。 很容易就能找出人在何處被攔住，為什麼被攔住。
 
 以下是一些要檢查的事項：
 
