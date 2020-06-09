@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 26246bd44407a818afba8b80513cb62da9cf6ebd
+source-git-commit: a6a98eca551bf5fc46ebd3a6d0d11486e3fbe06b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,12 @@ Journey Orchestration會針對個人在歷程中的每個步驟，自動將必�
 >根據預設，即時設定檔服務不會開啟資料集。 如果您想要在描述檔服務中建立資料集，您必須開啟它(描述檔&#x200B;**切換** )。 請注意，大量事件將佔用您的配額中的儲存空間。 在啟用資料集以取得描述檔之前，請謹慎進行
 >
 >![](../assets/sharing4.png)
+
+>[!]
+>
+>旅程也能決定是否將「旅程步驟描述檔」活動傳送至平台。  Journeys會透過技術切換來決定這個問題。
+>
+>![](../assets/techtoggle.png)
 
 歷程會以串流方式在資料發生時傳送資料。 您可以使用查詢服務查詢此資料。 您可以連線至客戶歷程分析或其他BI工具，以檢視與這些步驟相關的資料。
 
