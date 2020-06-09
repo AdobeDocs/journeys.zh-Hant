@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a6a98eca551bf5fc46ebd3a6d0d11486e3fbe06b
+source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 # 歷程步驟分享概觀{#sharing-overview}
 
-Journey Orchestration會自動將體驗資料傳送至Adobe Experience Platform，以便與其他資料結合以用於分析。
+[!DNL Journey Orchestration] 自動傳送歷程績效資料至Adobe Experience Platform，以便與其他資料結合以進行分析。
 
-例如，您已設定傳送多封電子郵件的歷程。 這項功能可讓您將「歷程協調」資料與下游事件資料結合，例如發生多少轉換、網站上發生多少互動，或在商店中發生多少交易。 旅程資訊可與平台上的資料結合，不論是來自其他數位屬性或離線屬性，以提供更完整的效能檢視。
+例如，您已設定傳送多封電子郵件的歷程。 這項功能可讓您將資料與 [!DNL Journey Orchestration] 下游事件資料結合，例如發生多少轉換、網站上發生多少參與，或在商店中發生多少交易。 旅程資訊可與平台上的資料結合，不論是來自其他數位屬性或離線屬性，以提供更完整的效能檢視。
 
-Journey Orchestration會針對個人在歷程中的每個步驟，自動將必要的架構和串流建立至Platform的資料集。 步驟事件對應於在歷程中從一個節點移動到另一個節點的個人。 例如，在具有事件、條件和動作的歷程中，會傳送三個步驟事件至平台。
+[!DNL Journey Orchestration] 自動將個人在歷程中每個步驟的必要架構和串流建立至Platform的資料集。 步驟事件對應於在歷程中從一個節點移動到另一個節點的個人。 例如，在具有事件、條件和動作的歷程中，會傳送三個步驟事件至平台。
 
 傳遞的XDM欄位清單是完整的。 有些包含系統產生的程式碼，有些則有人類可讀的好記名稱。 範例包括歷程活動的標籤或步驟狀態： 動作逾時或錯誤結束的次數。
 
@@ -45,9 +45,9 @@ Journey Orchestration會針對個人在歷程中的每個步驟，自動將必�
 
 將建立以下結構：
 
-* 歷程協調的歷程步驟描述檔事件模式——體驗活動，以取得歷程中的步驟，以及用於對應至個別歷程參與者的身分地圖。
-* 歷程協調的歷程步驟事件架構——與歷程中繼資料相關的歷程步驟事件。
-* 使用歷程欄位(Journey Fields for Journey Orchestration)的歷程模式——描述歷程的歷程中繼資料。
+* 歷程步驟描述檔事 [!DNL Journey Orchestration] 件結構——體驗事件，以瞭解在歷程中執行的步驟以及用於對應至個別歷程參與者的身分地圖。
+* 旅程步驟事 [!DNL Journey Orchestration] 件架構——系結至歷程中繼資料的歷程步驟事件。
+* 使用Journey Fields for [!DNL Journey Orchestration] - Journey Metadata描述Journeys的旅程架構。
 
 ![](../assets/sharing1.png)
 
@@ -55,7 +55,7 @@ Journey Orchestration會針對個人在歷程中的每個步驟，自動將必�
 
 傳遞下列資料集：
 
-* 歷程步驟描述檔事件架構，以協調歷程
+* Journey Step Profile Event架構 [!DNL Journey Orchestration]
 * 歷程步驟活動
 * 旅程
 
