@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
+source-git-commit: 96c84047952eed8835879b1375bce6326c55fd35
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -35,9 +35,9 @@ ht-degree: 0%
 >
 >![](../assets/sharing4.png)
 
->[!]
+>[!NOTE]
 >
->旅程也能決定是否將「旅程步驟描述檔」活動傳送至平台。  Journeys會透過技術切換來決定這個問題。
+>Journeys也可以決定是否傳送「Journey Step Profile」（歷程步驟描述檔）活動至平台。 Journeys會透過技術切換來決定這個問題。
 >
 >![](../assets/techtoggle.png)
 
