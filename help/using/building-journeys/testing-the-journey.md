@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 在測試中開啟歷程時，顯示的路徑會對應於上次執行的測試。
 
-只有在事件設定畫面中定義傳送至歷程的事件時，才會顯示視覺流程。 如果事件是在外部定義的，例如使用Postman，則不會顯示視覺流程。
+無論事件是透過介面觸發還是從外部觸發（例如使用Postman），視覺流程都能運作。
 
 ## 查看日誌 {#viewing_logs}
 
