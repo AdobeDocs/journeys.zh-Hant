@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1084'
 ht-degree: 1%
 
 ---
@@ -30,11 +30,13 @@ ht-degree: 1%
 
 ## 資源
 
-此處 [!DNL Journey Orchestration] 提供的Swagger檔案中說明了「封閉API [」](https://adobedocs.github.io/JourneyAPI/docs/)。
+>[!NOTE]
+>
+>此處 [!DNL Journey Orchestration] 提供的Swagger檔案中說明了「封閉API [」](https://adobedocs.github.io/JourneyAPI/docs/)。
 
 若要將此API與您的 [!DNL Journey Orchestration] 例項搭配使用，您必須使用AdobeIO Console。 您可以先遵循本「Adobe Developer Console [快速入門」](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) ，然後使用本頁中的章節。
 
-若要測試並準備整合，此處提供Postman [系列](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
+若要測試並準備整合，此處提供Postman [系列](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
 ## 驗證
 
@@ -44,7 +46,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->若要在Adobe IO中管理憑證，請確定您在「管理控制台」中 <b>擁有組織或開發人</b> 員帳戶的系統管 <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">理員</a> 權限。
+>若要在Adobe IO中管理憑證，請確定您在「管理控制台」中 <b>擁有組織或開發人</b> 員帳戶的系統管 [理員](https://helpx.adobe.com/enterprise/using/manage-developers.html) 權限。
 
 1. **檢查您是否有數位憑證**，或視需要建立憑證。 在下列步驟中，需要隨憑證提供的公開金鑰和私密金鑰。
 1. **在Adobe IO中建立與[!DNL Journey Orchestration]Service** 的新整合併加以設定。 產品設定檔存取是Adobe Experience Platform [!DNL Journey Orchestration] 的必要條件。 然後會產生您的認證（API金鑰、用戶端密碼……）。
@@ -166,7 +168,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 在本節中，您將會找到在中管理封閉配置時可執行的五個主要使用案例 [!DNL Journey Orchestration]。
 
-為協助您進行測試和設定，此處提供Postman [系列](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
+為協助您進行測試和設定，此處提供Postman [系列](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
 此Postman Collection已設定為共用透過 __[Adobe I/O Console的「整合](https://console.adobe.io/integrations)>試用>下載Postman」產生的Postman Variable集合，而Postman__&#x200B;會產生具有選取整合值的Postman Environment檔案。
 
@@ -174,7 +176,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * `{JO_HOST}` : [!DNL Journey Orchestration] 閘道URL
 * `{BASE_PATH}` : API的入口點。 值為&#39;/authoring&#39;
 
-
+在下節中，您會找到Rest API呼叫排序清單以執行使用案例。
 
 使用案例n°1: **建立和部署新的封閉組態**
 
