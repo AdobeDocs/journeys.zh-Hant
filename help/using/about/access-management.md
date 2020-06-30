@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
+source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '782'
 ht-degree: 1%
 
 ---
@@ -70,11 +70,15 @@ ht-degree: 1%
 
 1. 在「管理控制台」中，選取 **[!UICONTROL Journey Orchestration]**。 在標籤 **[!UICONTROL Product profile]** 中按一下 **[!UICONTROL New Profile]**。
 
+   ![](../assets/user_management_5.png)
+
 1. 新增 **[!UICONTROL Profile Name]** 和 **[!UICONTROL Description]** 新產品設定檔。 如果您希望您的個人檔案 **[!UICONTROL Display name]** 不同，請取消勾 **[!UICONTROL Same as Profile Name]** 選並輸入 **[!UICONTROL Display name]**。
 
 1. 在類別 **[!UICONTROL User Notifications]** 中，選擇當使用者從此產品設定檔新增或移除時，是否會收到電子郵件通知。
 
 1. 完成後，按一下 **[!UICONTROL Done]**。 您的新產品設定檔現在已建立。
+
+   ![](../assets/user_management_6.png)
 
 1. 選擇您的新產品設定檔，開始管理權限。 在標籤 **[!UICONTROL Users]** 中，將使用者新增至您的產品設定檔。 For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
@@ -82,17 +86,20 @@ ht-degree: 1%
 
 1. 從標 **[!UICONTROL Permissions]** 簽中，選擇兩個類別中的一個， **[!UICONTROL Sandbox]** 或 **[!UICONTROL Authoring]** 者開啟頁面，並添 **[!UICONTROL Edit Permissions]** 加或移除產品配置檔案的權限。
 
-1. 在權限 **[!UICONTROL Sandbox]** 類別中，選擇要指派給您產品設定檔的沙盒。 在下 **[!UICONTROL Available Permissions Items]**&#x200B;方，按一下加號(+)圖示，將沙盒指派給您的描述檔。
+   ![](../assets/user_management_7.png)
 
-   >[!NOTE]
-   >
-   >平台沙盒是測試版功能。
-   <br>有關沙盒的詳細資訊，請參閱本 [節](../about/access-management.md#sandboxes)。
+1. 在權限 **[!UICONTROL Sandbox]** 類別中，選擇要指派給您產品設定檔的沙盒。 在下 **[!UICONTROL Available Permissions Items]**&#x200B;方，按一下加號(+)圖示，將沙盒指派給您的描述檔。 For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
+
+   ![](../assets/user_management_8.png)
 
 1. 如有需要，請在 **[!UICONTROL Included Permission Items]**&#x200B;下方按一下移除您產品設定檔權限旁的X圖示。
 
+   ![](../assets/user_management_9.png)
+
 1. 在權限 **[!UICONTROL Authoring]** 類別中，執行與上述步驟相同的步驟，以新增您產品設定檔的權限。
    <br>有關權利與其不同功能之間的權 [!DNL Journey Orchestration]利和相容性的詳細資訊，請參閱本 [節](../about/access-management.md#about-access-management)。
+
+   ![](../assets/user_management_10.png)
 
 1. 完成後，按一下 **[!UICONTROL Save]**。
 
@@ -126,10 +133,6 @@ ht-degree: 1%
 然後，您的使用者應會收到重新導向至您實例的 [!DNL Journey Orchestration] 電子郵件。
 
 ## 使用沙盒 {#sandboxes}
-
->[!NOTE]
->
->平台沙盒是測試版功能。
 
 [!DNL Journey Orchestration] 允許您將實例分區到名為沙盒的獨立虛擬環境中。
 沙盒會透過管理控制台中的產品設定檔來指派。 如需如何指派沙盒的詳細資訊，請參閱本 [節](../about/access-management.md#create-product-profile)。
