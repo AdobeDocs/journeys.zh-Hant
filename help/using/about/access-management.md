@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 1%
@@ -78,7 +78,7 @@ ht-degree: 1%
 
 1. 完成後，按一下 **[!UICONTROL Done]**。 您的新產品設定檔現在已建立。
 
-   ![](../assets/user_management_6.png)
+   ![](../assets/user_management_1.png)
 
 1. 選擇您的新產品設定檔，開始管理權限。 在標籤 **[!UICONTROL Users]** 中，將使用者新增至您的產品設定檔。 For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
    ![](../assets/user_management_7.png)
 
-1. 在權限 **[!UICONTROL Sandbox]** 類別中，選擇要指派給您產品設定檔的沙盒。 在下 **[!UICONTROL Available Permissions Items]**&#x200B;方，按一下加號(+)圖示，將沙盒指派給您的描述檔。 For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
+1. 在權限 **[!UICONTROL Sandboxes]** 類別中，選擇要指派給您產品設定檔的沙盒。 在下 **[!UICONTROL Available Permissions Items]**&#x200B;方，按一下加號(+)圖示，將沙盒指派給您的描述檔。 For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
    ![](../assets/user_management_8.png)
 
