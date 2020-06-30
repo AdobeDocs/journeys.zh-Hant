@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 556dbe88d2717a387e5f0ce8795c9fa02a45ac6f
+source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 70%
+source-wordcount: '1095'
+ht-degree: 71%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 70%
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>現在，「歷程協調」可連接至製作和非製作的平台沙盒。 請注意，沙盒是測試版功能。 有效的可用性： 2020年6月30日。 <a href="../about/access-management.md#sandboxes">詳細內容</a></p>
+<li><p>現在，「歷程協調」可連接至製作和非製作的平台沙盒。 請注意，沙盒是測試版功能。 <a href="../about/access-management.md#sandboxes">詳細內容</a></p>
 </li>
 </td>
 </tr>
