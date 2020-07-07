@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
+source-git-commit: 14c8828a8c8e223b58b3512f02f2ee06136b98c5
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -29,6 +29,6 @@ ht-degree: 0%
 
 * 存取平台區段清單。 請參閱 [建立區段](../segment/creating-a-segment.md)。
 * 使用區段服務 [!DNL Journey Orchestration] 直接以建立區段的相同方式建立區段。 請參閱 [建立區段](../segment/creating-a-segment.md)。
-* 使用簡單或進階運算式編輯器，在您的歷程條件中運用區段。 請參 [閱在條件中使用區段](../segment/using-a-segment.md)。
+* 使用簡單或進階的運算式編輯器，在歷程的條件中運用區段。 請參 [閱在條件中使用區段](../segment/using-a-segment.md)。
 * 將區段 **資格** 事件新增至您的歷程中，以便聆聽平台區段中設定檔的入口和出口。 請參閱 [事件活動](../building-journeys/event-activities.md#segment-qualification)。
 
