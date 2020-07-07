@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5d92b9d70a70700026a4715c6cb6a6c4ba565ba5
+source-git-commit: 18364d6e93b48e065b21bbaddee33e7ba4d9274d
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 59%
+source-wordcount: '657'
+ht-degree: 58%
 
 ---
 
@@ -28,13 +28,13 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * 已新增Alpha功能的章節，這些功能會在有限的客戶群中進行測試。 [詳細內容](../alpha/alpha-overview.md)
 * 已新增與智慧型服務整合的章節。 [詳細內容](../ai-services/ai-services-overview.md)
-* 已新增測試描述檔建立的新區段。 [詳細內容](../building-journeys/testing-the-journey.md#create-test-profile)。
-* 已新增有關如何在歷程條 **件或動作中** ，使用SegmentQualification節點的資訊。 [詳細內容](../building-journeys/event-activities.md#segment-qualification)。
-* 已在促銷活動交易訊息和事件發佈中新增附註。 請參閱 [](../action/working-with-adobe-campaign.md) 和 [](../building-journeys/using-adobe-campaign-actions.md)。
+* 已新增測試描述檔建立的新區段。 [詳細內容](../building-journeys/testing-the-journey.md#create-test-profile)
+* 已新增有關如何在歷程條 **件或動作中** ，使用SegmentQualification節點的資訊。 [詳細內容](../building-journeys/event-activities.md#segment-qualification)
+* 已在促銷活動交易訊息和事件發佈中新增附註。 請參 [閱使用Adobe Campaign](../action/working-with-adobe-campaign.md)[和使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-actions.md)。
 * 已新增資訊至測試「促銷活動標準」例項URL時所執行的檢查。 [詳細內容](../action/working-with-adobe-campaign.md)
 * 已新增有關與AWS或Azure伺服器上裝載的Campaign Standard例項相容的反應事件資訊。 [詳細內容](../building-journeys/event-activities.md#section_dhx_gss_dgb)
 * 已新增附註，說明使用「促銷活動標準」交易訊息時需要設定上限規則。 [詳細內容](../action/working-with-adobe-campaign.md)
-* 在使用測試模式觸發事件時，產生重新事件時已新增附註。 [詳細內容](../building-journeys/testing-the-journey.md#firing_events)
+* 使用測試模式觸發事件時，產生實際事件時已新增附註。 [詳細內容](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2020年6月 {#june-2020}
 
