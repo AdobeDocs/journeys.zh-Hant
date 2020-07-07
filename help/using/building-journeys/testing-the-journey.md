@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
+source-git-commit: 0c7a9d679e2bf20c58aaea81e134c41b401e11ac
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1151'
 ht-degree: 1%
 
 ---
@@ -50,16 +50,74 @@ ht-degree: 1%
 ## 重要附註 {#important_notes}
 
 * 提供一個介面，可將事件觸發至測試的歷程，但事件也可由第三方系統（例如Postman）傳送。
-* 只有在即時客戶個人檔案服務中標示為「測試個人檔案」的個人才能進入測試的歷程。 建立測試描述檔的程式與在資料平台中建立描述檔的程式相同。 您只需要確定測試描述檔標幟為真即可。 您可以使用「資料平台」介面中的「區段」區段，在「資料平台」中建立測試設定檔的區段，並查看非完整的清單。 目前無法顯示完整清單。
+* 只有在即時客戶個人檔案服務中標示為「測試個人檔案」的個人才能進入測試的歷程。 請參見[](../building-journeys/testing-the-journey.md#create-test-profile)。
 * 測試模式僅適用於使用命名空間的草稿歷程。 事實上，測試模式需要檢查進入旅程的人員是否是測試設定檔，因此必須能夠到達資料平台。
 * 在測試階段作業中，測試描述檔的最大數量可超過進入歷程的次數為100。
 * 當您停用測試模式時，它會佔用過去或目前已進入測試模式的所有人員的歷程。
 * 您可以視需要多次啟用／停用測試模式。
 * 您無法在啟動測試模式時修改歷程。 在測試模式中，您可以直接發佈歷程，而不需先停用測試模式。
 
+## 建立測試設定檔{#create-test-profile}
+
+建立測試描述檔的程式與在Experience Platform中建立描述檔的程式相同。 它是透過API呼叫來執行。 請參閱此 [頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)
+
+您必須使用包含「描述檔測試詳細資訊」混合的描述檔結構。 事實上，testProfile旗標是此混音的一部分。
+
+建立描述檔時，請務必傳遞值： testprofile = true。
+
+請注意，您也可以更新現有的描述檔，將其testProfile標幟變更為&quot;true&quot;。
+
+以下是建立測試設定檔的API呼叫範例：
+
+```
+curl -X POST \
+'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+-H 'Cache-Control: no-cache' \
+-H 'Content-Type: application/json' \
+-H 'Postman-Token: xxxxx' \
+-H 'cache-control: no-cache' \
+-H 'x-api-key: xxxxx' \
+-H 'x-gw-ims-org-id: xxxxx' \
+-d '{
+"header": {
+"msgType": "xdmEntityCreate",
+"msgId": "xxxxx",
+"msgVersion": "xxxxx",
+"xactionid":"xxxxx",
+"datasetId": "xxxxx",
+"imsOrgId": "xxxxx",
+"source": {
+"name": "Postman"
+},
+"schemaRef": {
+"id": "https://example.adobe.com/mobile/schemas/xxxxx",
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"body": {
+"xdmMeta": {
+"schemaRef": {
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"xdmEntity": {
+"_id": "xxxxx",
+"_mobile":{
+"ECID": "xxxxx"
+},
+"testProfile":true
+}
+}
+}'
+```
+
 ## 觸發事件 {#firing_events}
 
 按 **[!UICONTROL Trigger an event]** 鈕可讓您設定事件，讓人員進入歷程。
+
+>[!NOTE]
+>
+>當您在測試模式中觸發事件時，會產生實際事件，這表示它也會點擊其他聆聽此事件的歷程。
 
 作為先決條件，您必須知道哪些描述檔在「資料平台」中被標幟為測試描述檔。 事實上，測試模式僅允許在歷程中使用這些描述檔，而且事件必須包含ID。 預期的ID取決於事件設定。 例如，它可以是ECID。
 
