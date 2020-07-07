@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+source-git-commit: d0630be5b82d681a94eebe2e9a7196081717ec9d
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 4%
+source-wordcount: '886'
+ht-degree: 3%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 4%
 >為此，您需要配置內置操作。 請參閱[](../action/working-with-adobe-campaign.md)。
 
 針對這些通道，您選擇Adobe Campaign Standard交易訊息范 **本**。 事實上， [!DNL Journey Orchestration] 這並不是傳遞資訊的解決方案。 對於內建的電子郵件、簡訊和推播通道，我們依賴交易式訊息來執行訊息傳送。 這表示，如果您想在歷程中使用特定訊息範本，您必須在Adobe Campaign Standard中發佈。 請參閱本 [頁](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) ，瞭解如何使用此功能。
+
+>[!NOTE]
+>
+>必須發佈Campaign Standard交易訊息及其相關事件，才能用於歷程協調。 如果活動已發佈但訊息未發佈，則「歷程協調」介面將無法顯示。 如果訊息已發佈，但其相關事件未發佈，則會在「歷程協調」介面中顯示，但無法使用。
 
 ![](../assets/journey59.png)
 
