@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 957e72de7feccb33684523e26b2bdccb2074e4ca
+source-git-commit: 3937f92035651fca5ddd7f54c9b650d050f2587f
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '1027'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 請注意，您只能在畫布中使用之前有電子郵件、推播或SMS活動的反應活動。
 
-請參見[](../building-journeys/about-action-activities.md)。
+See [About action activities](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey45.png)
 
@@ -58,11 +58,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
+>反應事件可與Adobe Campaign Standard搭配運作，不論其部署在AWS或Azure伺服器上。
+>
 >反應事件無法追蹤在不同歷程中發生的電子郵件、簡訊或推播動作。
 >
 >反應事件會追蹤「追蹤」類型連結的點按次數(請參閱 [本頁](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls))。 未考慮取消訂閱和鏡像頁面連結。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Gmail等電子郵件用戶端允許封鎖影像。 開啟的電子郵件會使用電子郵件中包含的0像素影像來追蹤。 如果影像遭到封鎖，則不會考慮開啟的電子郵件。
 
@@ -97,6 +99,12 @@ ht-degree: 1%
 * 行為（入口、出口）
 * 資格的時間戳記
 * 區段ID
+
+在「區段限定」活動之後的條件或動作中使用運算式編輯器時 **，您可以存取「** SegmentQualification **** 」節點。 您可以選擇「上次 **限定時間** 」和 **狀態** （進入或退出）。
+
+請參閱 [條件活動](../building-journeys/condition-activity.md#about_condition)。
+
+![](../assets/segment8.png)
 
 ## 進階使用： 並行等待的事件{#section_vxv_h25_pgb}
 
