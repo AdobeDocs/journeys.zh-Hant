@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Journey Orchestration 說明
 index: true
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 85%
+source-wordcount: '373'
+ht-degree: 80%
 
 ---
 
@@ -162,6 +162,10 @@ ht-degree: 85%
    + [關於歷程報告](using/reporting/about-journey-reports.md)
    + [建立您的歷程報告](using/reporting/creating-your-journey-reports.md)
    + [量度與維度](using/reporting/metrics-and-dimensions.md)
++ 與智慧型服務整合{#use-case-advanced}
+   + [關於AI整合](using/ai-services/ai-services-overview.md)
+   + [運用Journey AI](using/ai-services/leveraging-fatigue-scores.md)
+   + [運用客戶人工智慧](using/ai-services/leveraging-customer-ai.md)
 + 使用案例{#use-cases-journeys}
    + 簡單使用案例{#use-case-simple}
       + [關於簡單使用案例](using/usecase/about-the-simple-use-case.md)
@@ -173,7 +177,11 @@ ht-degree: 85%
       + [設定事件](using/usecase/configuring-the-events.md)
       + [設定資料來源](using/usecase/configuring-the-data-sources.md)
       + [建立歷程](using/usecase/building-the-journey.md)
-   + [運用疲勞分數](using/usecase/leveraging-fatigue-scores.md)
 + 使用 API{#working-with-apis}
    + [設定API上限](using/api/capping.md)
++ Alpha功能 {#alpha}
+   + [Alpha功能概觀](using/alpha/alpha-overview.md)
+   + [使用者介面](using/alpha/alpha-interface.md)
+   + [區段觸發器活動](using/alpha/alpha-segment-trigger.md)
+   + [規則型事件](using/alpha/alpha-events.md)
 
