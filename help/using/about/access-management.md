@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
+source-git-commit: 94ef4e30d16b7d23dc029863fcd2d9f34173c433
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 0%
 
 ---
 
@@ -25,6 +25,11 @@ ht-degree: 1%
 
 管理員可以存取管理控制台。 有關管理控制台的詳細資訊，請參閱本 [檔案](https://helpx.adobe.com/enterprise/managing/user-guide.html)。
 
+若要存取， [!DNL Journey Orchestration]使用者必須：
+
+* 與權限關 [!DNL Journey Orchestration] 聯 **[!UICONTROL product profile]** 的一 [!DNL Journey Orchestration] 部分。
+* 屬於 [!DNL Adobe Experience Platform]**[!UICONTROL product profile]**。 沒有強制性的許可。 使用者應具有 **[!UICONTROL profile management]** 從介面建立和編輯平台區段的 [!DNL Journey Orchestration] 權限。 For more on this, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html#adobe-admin-console).
+
 在「管理控制台」中，您可以指派下列其中一個現成可用的產品設定檔給您的使用者：
 
 * **[!UICONTROL Limited Access User]**: 具有歷程和報告唯讀存取權的使用者。 此產品設定檔包含下列權限：
@@ -36,6 +41,7 @@ ht-degree: 1%
    * 發佈歷程
    * 管理事件、資料來源和動作
    * 管理報表
+
    >[!NOTE]
    >
    >**[!UICONTROL Administrators]** 是唯一允許在Adobe Campaign Standard中建立、編輯和發佈交易訊息（或訊息範本）的產品設定檔。 如果您使用Adobe Campaign Standard在歷程中傳送訊息，就需要此產品設定檔。
@@ -46,7 +52,7 @@ ht-degree: 1%
    * 管理報表
 
 如果現成可用的設定檔不足以管理使用者，您也可以建立自己的產品設定檔。
-使用者必須永遠連結至產品設定檔，以便您指派特定的內建權限，例如：
+使用者必須永遠連結至產品設定檔，讓您指派特定的內建權限，例如：
 
 * **[!UICONTROL Read journeys]**
 * **[!UICONTROL Read reports]**
@@ -56,7 +62,7 @@ ht-degree: 1%
 * **[!UICONTROL Publish journeys]**
 * **[!UICONTROL Manage reports]**
 
-您可以在下面找到權限與不同功 [!DNL Journey Orchestration]能之間的相容性。
+您可以在下方找到權限與不同功 [!DNL Journey Orchestration]能之間的相容性。
 
 ![](../assets/journey_permission.png)
 
@@ -96,8 +102,8 @@ ht-degree: 1%
 
    ![](../assets/user_management_9.png)
 
-1. 在權限 **[!UICONTROL Authoring]** 類別中，執行與上述步驟相同的步驟，以新增您產品設定檔的權限。
-   <br>有關權利與其不同功能之間的權 [!DNL Journey Orchestration]利和相容性的詳細資訊，請參閱本 [節](../about/access-management.md#about-access-management)。
+1. 在權限 **[!UICONTROL Authoring]** 類別中，執行與上述步驟相同的步驟，將權限新增至您的產品設定檔。
+   <br>有關權限和權限與不同功能之間的 [!DNL Journey Orchestration]相容性的詳細資訊，請參 [閱本節](../about/access-management.md#about-access-management)。
 
    ![](../assets/user_management_10.png)
 
