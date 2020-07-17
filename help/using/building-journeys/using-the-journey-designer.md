@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1335'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 >[!NOTE]
 >
->若要在不同的瀏覽器標籤中開啟旅程的畫布，請按住 **Control** 或 **Command鍵** ，然後按一下旅程。
+>若要在不同的瀏覽器標籤中開啟旅程的畫布，請按住 **Control** 或 **Command** 鍵，然後按一下旅程。
 
 ## 浮動視窗 {#palette}
 
@@ -49,9 +49,9 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 ![](../assets/journey38.png)
 
-左上 **角的「顯示停用的項目** 」圖示可讓您隱藏或顯示浮動視窗中不可用的元素，例如使用與歷程中使用的不同名稱空間的事件。 依預設，系統會隱藏無法使用的項目。如果您選擇顯示，則會顯示為灰色。
+The **[!UICONTROL Show disabled items]** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. 依預設，系統會隱藏無法使用的項目。如果您選擇顯示，則會顯示為灰色。
 
-使用「搜 **尋** 」欄位時，會顯示每個畫布活動類別的結果數。
+使用欄位 **[!UICONTROL Search]** 時，會顯示每個畫布活動類別的結果數。
 
 ![](../assets/palette-filter.png)
 
