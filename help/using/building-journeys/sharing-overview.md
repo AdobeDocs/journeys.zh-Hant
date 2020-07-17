@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4335cf1f94172fabed1099d3772bc539adb02ef
+source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,15 @@ ht-degree: 0%
 
 [!DNL Journey Orchestration] 自動傳送歷程績效資料至Adobe Experience Platform，以便與其他資料結合以進行分析。
 
-例如，您已設定傳送多封電子郵件的歷程。 這項功能可讓您將資料與 [!DNL Journey Orchestration] 下游事件資料結合，例如發生多少轉換、網站上發生多少參與，或在商店中發生多少交易。 旅程資訊可與平台上的資料結合，不論是來自其他數位屬性或離線屬性，以提供更完整的效能檢視。
+例如，您已設定傳送多封電子郵件的歷程。 這項功能可讓您將資料與 [!DNL Journey Orchestration] 下游事件資料結合，例如發生多少轉換、網站上發生多少參與，或在商店中發生多少交易。 旅程資訊可與Adobe Experience Platform上的資料結合，不論是來自其他數位屬性或離線屬性，以提供更全面的效能檢視。
 
-[!DNL Journey Orchestration] 自動將個人在歷程中每個步驟的必要架構和串流建立至Platform的資料集。 步驟事件對應於在歷程中從一個節點移動到另一個節點的個人。 例如，在具有事件、條件和動作的歷程中，會傳送三個步驟事件至平台。
+[!DNL Journey Orchestration] 針對個人在歷程中每個步驟，自動將必要的架構和串流建立至Adobe Experience Platform的資料集。 步驟事件對應於在歷程中從一個節點移動到另一個節點的個人。 例如，在具有事件、條件和動作的歷程中，會傳送三個步驟的事件至Adobe Experience Platform。
 
 傳遞的XDM欄位清單是完整的。 有些包含系統產生的程式碼，有些則有人類可讀的好記名稱。 範例包括歷程活動的標籤或步驟狀態： 動作逾時或錯誤結束的次數。
 
 >[!CAUTION]
 >
->無法為即時配置檔案服務開啟資料集。 請確定「設定檔」 **切換** 已關閉
+>無法為即時配置檔案服務開啟資料集。 請確定已關 **[!UICONTROL Profile]** 閉切換
 
 歷程會以串流方式在資料發生時傳送資料。 您可以使用查詢服務查詢此資料。 您可以連線至客戶歷程分析或其他BI工具，以檢視與這些步驟相關的資料。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ![](../assets/sharing3.png)
 
-傳遞至平台的XDM欄位清單詳列如下：
+傳遞至Adobe Experience Platform的XDM欄位清單詳列如下：
 
 * [journeySteps事件常見欄位](../building-journeys/sharing-common-fields.md)
 * [journeyStep事件動作執行欄位](../building-journeys/sharing-execution-fields.md)
@@ -61,3 +61,4 @@ ht-degree: 0%
 * [journeyStep事件識別欄位](../building-journeys/sharing-identity-fields.md)
 * [旅程欄位](../building-journeys/sharing-journey-fields.md)
 
+如需有關向Adobe Experience Platform報告步驟事件的詳細資訊，請觀看本教學課 [程影片](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)。
