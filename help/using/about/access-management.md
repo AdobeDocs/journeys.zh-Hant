@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 94ef4e30d16b7d23dc029863fcd2d9f34173c433
+source-git-commit: 829f6cdb11aa9b1529607f409e53616a2b809f84
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ ht-degree: 0%
 [!DNL Journey Orchestration] 允許您將實例分區到名為沙盒的獨立虛擬環境中。
 沙盒會透過管理控制台中的產品設定檔來指派。 如需如何指派沙盒的詳細資訊，請參閱本 [節](../about/access-management.md#create-product-profile)。
 
-[!DNL Journey Orchestration] 反映為指定組織建立的平台沙盒。
-您可以從Adobe Experience Platform實例建立或重設平台沙盒。 如需詳細步 [驟，請參閱](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) 「沙盒」使用指南。
+[!DNL Journey Orchestration] 反映為特定組織所建立的Adobe Experience Platform沙盒。
+您可以從Adobe Experience Platform實例建立或重設Adobe Experience Platform沙盒。 如需詳細步 [驟，請參閱](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) 「沙盒」使用指南。
 
 您可在螢幕左上方找到沙盒切換器控制項。 若要從一個沙盒切換至另一個沙盒，請按一下切換器中目前作用中的沙盒，然後從下拉式清單中選取另一個沙盒。
