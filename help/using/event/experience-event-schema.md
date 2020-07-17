@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 [!DNL Journey Orchestration] 事件是透過串流擷取傳送至Adobe Experience Platform的XDM Experience Events。
 
-因此，設定事件的重要先決條件是您熟悉平台的體驗資料模型（或XDM），以及如何組成XDM體驗事件結構描述，以及如何將XDM格式的資料串流至平台。 [!DNL Journey Orchestration]
+因此，設定事件的重要先決條件是您熟悉 [!DNL Journey Orchestration] Adobe Experience Platform的「體驗資料模型」（或XDM），以及如何組成XDM體驗事件結構，以及如何將XDM格式的資料串流至Adobe Experience Platform。
 
 ## 事件的架構需 [!DNL Journey Orchestration] 求
 
-設定事件的第一步是確 [!DNL Journey Orchestration] 保您已定義XDM架構來代表事件，並建立資料集來記錄平台上的事件例項。 您並不需要為事件建立資料集，但是將事件傳送至特定資料集可讓您維護使用者的事件歷史記錄，以供日後參考和分析，因此這永遠是個好主意。 如果您尚未擁有適合事件的架構和資料集，這兩項工作都可以在平台網頁介面中完成。
+設定事件的第一步是確 [!DNL Journey Orchestration] 保您已定義XDM架構來代表事件，並建立資料集來記錄Adobe Experience Platform上的事件例項。 您並不需要為事件建立資料集，但是將事件傳送至特定資料集可讓您維護使用者的事件歷史記錄，以供日後參考和分析，因此這永遠是個好主意。 如果您尚未擁有適合事件的架構和資料集，這兩項工作都可在Adobe Experience Platform網頁介面中完成。
 
 ![](../assets/schema1.png)
 
