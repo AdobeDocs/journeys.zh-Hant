@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e2e95090df708d72ade6366a62ea42eff3ac7f2
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 95%
+source-wordcount: '1271'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 # 外部資料來源 {#concept_t2s_kqt_52b}
 
-外部資料來源可讓您定義與協力廠商系統的連線，例如使用飯店訂房系統來檢查某人是否已登記客房。與內建的 Experience Platform 資料來源不同，您可以視需要建立儘量建立外部資料來源。
+外部資料來源可讓您定義與協力廠商系統的連線，例如使用飯店訂房系統來檢查某人是否已登記客房。與內建的Adobe Experience Platform資料來源不同，您可以建立所需數量的外部資料來源。
 
 支援使用 POST 或 GET 以及傳回 JSON 的 REST API。支援 API 金鑰、基本和自訂驗證模式。
 
@@ -67,6 +67,7 @@ ht-degree: 95%
    * **[!UICONTROL Value]**：「1234」(這是我們 API 金鑰的值)
    * **[!UICONTROL Name]**：「appid」(這是 API 金鑰參數名稱)
    * **[!UICONTROL Location]**：「查詢參數」(API 金鑰位於 URL)
+
    ![](../assets/journey28.png)
 
 1. 按一下「**[!UICONTROL Add a New Field Group]**」以為每個 API 參數集新增欄位群組。請勿在欄位群組名稱中使用空格或特殊字元。在我們的範例中，我們需要建立兩個欄位群組，每個群各有一個參數集 (「city」和「long/lat」）。
