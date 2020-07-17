@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 88%
+source-wordcount: '356'
+ht-degree: 74%
 
 ---
 
@@ -37,12 +37,12 @@ ht-degree: 88%
 
 資料來源有兩種類型：
 
-* 預先設定的 Experience Platform 資料來源可定義「即時客戶個人檔案服務」的連線，這是內建的資料來源。請參見[](../datasource/adobe-experience-platform-data-source.md)。
+* 預先設定的Adobe Experience Platform資料來源，定義即時客戶個人檔案服務的連線。 這是內建的資料來源。請參見[](../datasource/adobe-experience-platform-data-source.md)。
 * 外部資料來源可讓您定義外部系統的連線，這些是您可以建立的資料來源。請參見[](../datasource/external-data-sources.md)。
 
 對於每個資料來源，您會使用欄位群組來定義要擷取的資訊。欄位群組是可從資料來源擷取的欄位集。請參見[](../datasource/field-groups.md)。
 
-如需如何設定 Experience Platform 資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html)。
+For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
 
 以下是主要的資料來源設定步驟：
 
