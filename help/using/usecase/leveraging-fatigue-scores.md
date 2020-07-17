@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '236'
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 執行以下步驟以選擇內置資料源中的疲勞分數欄位：
 
-1. 在頂端功能表中，按一 **[!UICONTROL Data Sources]** 下標籤並選取內建的Experience Platform資料來源。
+1. 在頂端功能表中，按一 **[!UICONTROL Data Sources]** 下標籤並選取內建的Adobe Experience Platform資料來源。
 
    ![](../assets/journey23.png)
 
@@ -52,7 +52,7 @@ ht-degree: 6%
 
 在我們的使用案例中，我們運用了此 **[!UICONTROL fatigueLevel]** 欄位。 您也可以使用欄 **[!UICONTROL fatigueScore]** 位。
 
-執行下列步驟，以運用您歷程中的疲勞程度：
+執行下列步驟，以利用歷程中的疲勞程度：
 
 1. 在歷程中新增事件和條件。
 
