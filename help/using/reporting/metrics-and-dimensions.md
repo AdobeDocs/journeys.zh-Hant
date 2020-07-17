@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 | 維度 | 定義 |
 |--- |--- |
 | **動作** | 歷程中使用的每個動&#x200B;**作(動作名稱——動作標籤**)清單，例如推送——結帳確認、電子郵件——獎勵完整性。 |
-| **資料來源** | 用於豐富歷程中&#x200B;**資料的資料來源(資料來源名稱**)清單，例如體驗平台、訂房系統。 |
+| **資料來源** | 用於豐富歷程中資&#x200B;**料的資料來源(資料來源名稱**)清單，例如Adobe Experience平台、訂房系統。 |
 | **[!UICONTROL Event]** | 歷程中使用的每個&#x200B;**事件(事件名稱——事件標籤**)清單，例如Geometrixx事件-Geometrixx結帳。 |
 | **欄位群組** | 用於豐富歷程中資&#x200B;**料的欄位群組(欄位群組名稱**)清單，例如描述檔欄位群組、Geometrixx保留系統。 |
 | **旅程** | 在測試模式和即時(**例如**「購物車放棄」、「飯店訂房」通知)中的每個旅程（旅程名稱）的清單。 |
