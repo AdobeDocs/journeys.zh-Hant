@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6685565797a6cdc43b9c8fc39c9354ae6d213f1f
+source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 2%
@@ -52,7 +52,7 @@ ht-degree: 2%
    >* 與此Adobe Campaign Standard實例關聯的ORG與Journey Orchestration的ORG相同。
 
 
-在設計您的歷程時，類別中會提供三個動 **[!UICONTROL Action]** 作： **[!UICONTROL Email]**、、 **[!UICONTROL Push]**(請 **[!UICONTROL SMS]** 參 [閱使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-actions.md))。 **Reactions事件** 也可讓您對訊息點按、開啟等做出反應。 (請參 [閱「反應事件](../building-journeys/event-activities.md#section_dhx_gss_dgb)」)。
+在設計您的歷程時，類別中會提供三個動 **[!UICONTROL Action]** 作： **[!UICONTROL Email]**、、 **[!UICONTROL Push]**(請 **[!UICONTROL SMS]** 參 [閱使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-actions.md))。 **Reactions事件** 也可讓您對訊息點按、開啟等做出反應。 (請參 [閱「反應事件](../building-journeys/reaction-events.md)」)。
 
 ![](../assets/journey58.png)
 
