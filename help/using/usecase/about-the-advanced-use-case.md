@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
 
 ## 目的 {#purpose}
 
-我們以一個叫馬爾頓的酒店品牌為例， 在他們的酒店裡，他們把信標設備放在了所有戰略區域附近：大堂、地板、餐廳、健身房、游泳池等。
+我們以一個叫馬爾頓的酒店品牌為例， 在他們的酒店裡，他們把信標設備放在了所有戰略區域附近： 大堂、地板、餐廳、健身房、游泳池等。
 
 >[!NOTE]
 >
@@ -46,14 +49,14 @@ source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
 
 我們需要設定兩個資料來源的連線(請參 [](../usecase/configuring-the-data-sources.md)閱):
 
-* 內建的Experience platform資料來源，可擷取我們兩個條件的資訊（忠誠度會籍和上次聯絡日期）以及訊息個人化資訊。
+* 內建的Adobe Experience Platform資料來源，可擷取我們兩個條件（忠誠會籍和上次聯絡日期）的資訊以及訊息個人化資訊。
 * 該飯店訂房系統，用以擷取該訂房狀態資訊。
 
 ## 先決條件 {#prerequisites}
 
-針對我們的使用案例，我們設計了三個Adobe Campaign standard交易訊息範本。 我們使用事件交易式訊息範本。 Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+針對我們的使用案例，我們設計了三個Adobe Campaign Standard交易訊息範本。 我們使用事件交易式訊息範本。 Refer to this [page](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
-Adobe Campaign standard已設定為傳送電子郵件和推播通知。
+Adobe Campaign Standard已設定為傳送電子郵件和推播通知。
 
 Experience Cloud ID是用來識別飯店訂房系統中客戶的金鑰。
 
