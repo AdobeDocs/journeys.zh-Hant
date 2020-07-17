@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 提供將電子郵件傳送至個人的最佳時機預測時間。
 
-此函式使用在平台中計算的分數。 分數會根據過去的行為，計算日後點按或開啟電子郵件的傾向。 請注意，計算分數的演算法需要一定數量的資料才能運作。 因此，當資料不足時，將會套用預設時間。 For more information, see [](../building-journeys/wait-activity.md).
+此函式使用在Adobe Experience Platform中計算的分數。 分數會根據過去的行為，計算日後點按或開啟電子郵件的傾向。 請注意，計算分數的演算法需要一定數量的資料才能運作。 因此，當資料不足時，將會套用預設時間。 For more information, see [](../building-journeys/wait-activity.md).
 
 若要使用此函式，則需 [要命](../event/selecting-the-namespace.md) 名空間。
 
@@ -40,7 +43,7 @@ Adobe Experience Platform
 
 | 參數 | 說明 | 類型 |
 |--- |--- |--- |
-| 時間量 | 從目前時間開始考慮的小時數(最大：168)以最佳化電子郵件傳送 | `<integer>` |
+| 時間量 | 從目前時間開始考慮的小時數(最大： 168)以最佳化電子郵件傳送 | `<integer>` |
 | 優化類型 | 「開啟」或「按一下」 | `<string>` |
 | 預設等待時間（以小時為單位） | 萬一預測性傳送時間分數不可用 | `<integer>` |
 
