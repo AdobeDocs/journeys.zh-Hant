@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +40,7 @@ source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 >
 >等待時間上限為30天。
 >
->在測試模式中，「 **在測試中等待時間** 」參數允許您定義每個等待活動的持續時間。 預設時間為10秒。 這可確保您快速取得測試結果。 See [](../building-journeys/testing-the-journey.md)
+>在測試模式中， **[!UICONTROL Wait time in test]** 參數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這可確保您快速取得測試結果。 See [](../building-journeys/testing-the-journey.md)
 
 ## 持續等待{#duration}
 
@@ -53,13 +56,13 @@ source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 
 ## 自訂等待{#custom}
 
-此選項可讓您使用根據事件或資料來源產生的欄位的進階運算式，來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 參見[](../expression/expressionadvanced.md)。有關dateTimeOnly格式的詳細資訊，請參見 [](../expression/data-types.md)。
+此選項可讓您使用根據事件或資料來源產生的欄位的進階運算式，來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參見[](../expression/expressionadvanced.md)。有關dateTimeOnly格式的詳細資訊，請參見 [](../expression/data-types.md)。
 
 >[!NOTE]
 >
->您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06。
+>您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如： toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06。
 >
->您 **的旅程** ，時區是必要的。 因此，今天無法從介面直接指向完全ISO-8601時間戳記混合時間與時區偏移，例如2016-08-12T09:46:06.982-05。 參見[](../building-journeys/timezone-management.md)。
+>時 **區是** 您旅程的屬性。 因此，今天無法從介面直接指向完全ISO-8601時間戳記混合時間與時區偏移，例如2016-08-12T09:46:06.982-05。 請參見[](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 
@@ -69,7 +72,7 @@ source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 >
 >電子郵件傳送時間最佳化功能僅適用於使用Adobe Campaign標準資料服務功能的客戶。
 
-這種等待類型使用在平台中計算的分數。 分數會根據過去的行為，計算日後點按或開啟電子郵件的傾向。 請注意，計算分數的演算法需要一定數量的資料才能運作。 因此，當資料不足時，將會套用預設等待時間。 在出版時，將會通知您預設時間已套用。
+此類等待會使用在Adobe Experience Platform中計算的分數。 分數會根據過去的行為，計算日後點按或開啟電子郵件的傾向。 請注意，計算分數的演算法需要一定數量的資料才能運作。 因此，當資料不足時，將會套用預設等待時間。 在出版時，將會通知您預設時間已套用。
 
 >[!NOTE]
 >
@@ -79,7 +82,7 @@ source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 
 1. 在欄位 **[!UICONTROL Amount of time]** 中，定義要考慮最佳化電子郵件傳送的小時數。
 1. 在欄位中 **[!UICONTROL Optimization type]** ，選擇最佳化應增加點按還是開啟。
-1. 在「預 **設時間** 」欄位中，定義預設傳送時間分數不可用時的預設等待時間。
+1. 在欄位 **[!UICONTROL Default time]** 中，定義預測性傳送時間分數不可用時的預設等待時間。
 
    >[!NOTE]
    >
