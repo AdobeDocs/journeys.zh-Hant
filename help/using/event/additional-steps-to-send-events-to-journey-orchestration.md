@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a71378264e6cd8a13c616bb867723f827d6dca69
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '319'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 要配置要發送到和要用 **[!UICONTROL Streaming Ingestion APIs]** 於的事件， [!DNL Journey Orchestration]您需要執行以下步驟：
 
-1. 從資料平台API取得引入URL(請參閱 [串流擷取API](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/streaming/overview.html))。
+1. 從Adobe Experience Platform API取得入口URL(請參閱串 [流擷取API](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/streaming/overview.html))。
 1. 從功能表的裝載預覽複製裝 **[!UICONTROL Event]** 載。 請參見[](../event/defining-the-payload-fields.md)。
 
 然後，您需要設定資料系統，使用您複製的裝載將事件推送至串流擷取API:
