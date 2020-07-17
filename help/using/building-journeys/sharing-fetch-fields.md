@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## fetchTypeInError
 
-定義讀取錯誤是在平台上還是在自定義資料源上。
+定義擷取錯誤是在Adobe Experience Platform上還是在自訂資料來源上。
 
 類型： 字串
 
@@ -93,13 +93,13 @@ ht-degree: 0%
 
 ## fetchPlatformTotalTime
 
-從「資料平台」擷取資料所花費的總時間（以百萬計）。 備注： 該時間量從引擎將富集事件發送到富集服務並接收響應的時間開始計算。
+從Adobe Experience Platform擷取資料所花費的總時間（以百萬計）。 備注： 該時間量從引擎將富集事件發送到富集服務並接收響應的時間開始計算。
 
 類型： long
 
 ## fetchPlatformCount
 
-從平台擷取資料的次數。
+從Adobe Experience Platform擷取資料的次數。
 
 類型： long
 
