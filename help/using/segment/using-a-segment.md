@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2dbcdae1284ef5932a8313d7ef169bc7073741f
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -21,18 +21,18 @@ ht-degree: 0%
 
 # 在條件中使用區段 {#using-a-segment}
 
-本節說明如何在歷程條件中使用區段。 若要瞭解如何在您的歷程中 **使用區段資格** ，請參閱 [活動](../building-journeys/event-activities.md#segment-qualification)。
+本節說明如何在歷程條件中使用區段。 若要瞭解如何在歷程中 **[!UICONTROL Segment qualification]** 使用活動，請參閱活 [動活動](../building-journeys/segment-qualification-events.md)。
 
 若要在歷程條件中使用區段，請遵循下列步驟：
 
-1. 開啟歷程、放下「條 **件** 」活動，然後選擇「 **資料來源條件」**。
+1. 開啟歷程、放下活動 **[!UICONTROL Condition]** 並選擇「資 **料來源條件」**。
    ![](../assets/journey47.png)
 
-1. 按一 **下「新增所需每** 個額外路徑的路徑」。 對於每個路徑，按一下「表 **達式** 」欄位。
+1. 按一 **[!UICONTROL Add a path]** 下所需的每個額外路徑。 對於每個路徑，按一下該 **[!UICONTROL Expression]** 欄位。
 
    ![](../assets/segment3.png)
 
-1. 在左側，展開「區 **段** 」節點。 拖放您要用於條件的區段。 依預設，區段上的條件為true。
+1. 在左側，展開節 **[!UICONTROL Segments]** 點。 拖放您要用於條件的區段。 依預設，區段上的條件為true。
 
    ![](../assets/segment4.png)
 
