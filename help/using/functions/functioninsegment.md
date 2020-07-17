@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
 
 區段名稱必須是字串常數。 它不能是欄位引用或表達式。
 
-區段是在 [Adobe Experience platform中定義](https://platform.adobe.com/segment/overview)。 運算式編輯器提供自動完成的區段清單。
+區段是在 [Adobe Experience Platform中定義](https://platform.adobe.com/segment/overview)。 運算式編輯器提供自動完成的區段清單。
 
 >[!NOTE]
 >
@@ -54,4 +57,4 @@ Adobe Experience Platform
 
 說明：
 
-如果歷程例 **[!UICONTROL true]**項中的個人是名為&quot;men over 50&quot;的平台區段的一部分，則函式會傳回**[!UICONTROL false]** 。
+如果歷程例 **[!UICONTROL true]** 項中的個人屬於名為「50歲以上的男性」的Adobe Experience Platform區段，則函式會傳回 **[!UICONTROL false]** 。
