@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 2%
 
 ## 使用描述檔來定義旅程時區 {#timezone-from-profiles}
 
-如果旅程的登入事件具有命名空間，表示旅程可以到達資料平台的即時客戶個人檔案服務，則時區會預先定義為在旅程中流入的個人個人檔案中指定的時區。
+如果旅程的登入事件具有命名空間，表示旅程可以到達Adobe Experience Platform的即時客戶個人檔案服務，則時區會預先定義為在旅程中流入的個人個人檔案中指定的時區。
 
-如果在Experience Platform設定檔中定義時區，則可在歷程中擷取時區。
+如果Adobe Experience Platform設定檔中已定義時區，則可在歷程中擷取時區。
 
 如果個人的描述檔不包含時區，則擷取的時區將是時區欄位中定義的時區。
 
