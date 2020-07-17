@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 69809da5cb96099baa20ea130a3cf7650b26c094
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 * 功能表從介面的上方移至左側，
 * 將管理功能分組為單一儀表板。
 
-本節將介紹如何使用和導覽介面（搜尋和篩選、瀏覽資料平台欄位、快速鍵）的全域 [概念](../about/user-interface.md)。
+本節會提供如何在介面中使用和導覽的全域概念（搜尋和篩選、瀏覽Adobe Experience Platform欄位、快速鍵） [](../about/user-interface.md)。
 
 ## 存取功 [!DNL Journey Orchestration] 能 {#accessing-journey-orchestration-functionalities}
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ![](../assets/interface-journeys.png)
 
-功能 **[!UICONTROL Segments]** 表可讓您存取和建立Experience Platform區段。 請參閱 [關於平台區段](../segment/about-segments.md)。
+功能 **[!UICONTROL Segments]** 表可讓您存取和建立Adobe Experience Platform區段。 請參 [閱關於Adobe Experience Platform區段](../segment/about-segments.md)。
 
 ![](../assets/interface-segments.png)
 
