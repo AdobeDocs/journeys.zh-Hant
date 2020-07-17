@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,15 @@ ht-degree: 0%
 
 與旅程相關的全域錯誤和警告會首先出現在清單中。 與特定活動相關的錯誤和警告會依活動順序或從左到右歷程中的外觀列出。 此按 **[!UICONTROL Copy details]** 鈕會複製支援團隊可用來疑難排解的歷程相關技術資訊。
 
+當動作或條件發生錯誤時，個別的歷程就會停止。 唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 請參見[](../building-journeys/using-the-journey-designer.md#paths)。
+
 ## 檢查事件是否正確發送{#section_rqz_11t_dgb}
 
 旅程的起點永遠是一件大事。 您可以使用Postman等工具執行測試。
 
 您可以檢查您透過這些工具傳送的API呼叫是否正確傳送。 如果您收到錯誤回覆，表示您的呼叫有問題。 再次檢查裝載、標題（尤其是組織ID）和目標URL。 您可以詢問管理員要點擊的正確URL。
 
-事件不會直接從來源推送至 [!DNL Journey Orchestration]。 事實上， [!DNL Journey Orchestration] Experience Platform的串流擷取API是靠的。 因此，若發生事件相關問題，您可參閱本頁以取得「串 [流擷取](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) API」疑難排解。
+事件不會直接從來源推送至 [!DNL Journey Orchestration]。 事實上， [!DNL Journey Orchestration] Adobe Experience Platform的串流擷取API是靠它的。 因此，若發生事件相關問題，您可參閱本頁以取得「串 [流擷取](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) API」疑難排解。
 
 ## 檢查是否有人進入旅程{#section_x4v_zzs_dgb}
 
@@ -59,7 +61,7 @@ ht-degree: 0%
 
 以下是一些事項，管理員應檢查：
 
-* 您確定傳入事件的旅程是處於測試模式還是即時？
+* 您確定要傳入事件的歷程是處於測試模式還是即時？
 * 在從裝載預覽複製裝載之前，您是否已儲存您的事件？
 * 您的事件裝載是否包含事件ID?
 * 您點擊正確的URL了嗎？
