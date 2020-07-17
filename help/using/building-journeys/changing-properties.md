@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,6 @@ ht-degree: 0%
 
 時區是在歷程層級定義。
 
-您可以輸入固定時區或使用體驗平台設定檔來定義旅程時區。
+您可以輸入固定時區或使用Adobe Experience Platform設定檔來定義旅程時區。
 
 有關時區管理的詳細資訊，請參見 [](../building-journeys/timezone-management.md)。
