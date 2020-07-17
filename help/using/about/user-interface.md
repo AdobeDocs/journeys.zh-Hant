@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 88%
+source-wordcount: '1010'
+ht-degree: 77%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 88%
 
 ## 存取 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. 再按一下右側「Experience Platform」下方的「**[!UICONTROL Journey Orchestration]**」。
+To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
@@ -57,7 +57,7 @@ The top menus allow you to navigate through the different functionalities of [!D
 
 按一下清單左上方的篩選圖示，即可存取&#x200B;**[!UICONTROL Filters]**。篩選選單可讓您根據不同的條件篩選顯示的元素。您可以選擇僅顯示某一類型或狀態的元素、您建立的元素，或者在過去 30 天內修改的元素。
 
-在&#x200B;**[!UICONTROL Data Sources]**、**[!UICONTROL Events]**&#x200B;和&#x200B;**[!UICONTROL Actions]**&#x200B;中，使用&#x200B;**建立篩選器**&#x200B;以篩選建立日期和使用者。舉例來說，您可以選擇只顯示您在過去 30 天內建立的事件。
+In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **[!UICONTROL Creation filters]** to filter on the creation date and user. 舉例來說，您可以選擇只顯示您在過去 30 天內建立的事件。
 
 在歷程清單 (在 **[!UICONTROL Home]**&#x200B;下) 中，除了 **[!UICONTROL Creation filters]** 外，您還可以根據其狀態和版本 (**[!UICONTROL Status and version filters]**) 篩選顯示的歷程。您也可以選擇只顯示使用特定事件、欄位群組或動作 (**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**) 的歷程記錄。**[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。請參見[](../building-journeys/using-the-journey-designer.md)。
 
@@ -77,7 +77,7 @@ The top menus allow you to navigate through the different functionalities of [!D
 
 ![](../assets/journey4.png)
 
-## 瀏覽 Data Platform 欄位{#friendly-names-display}
+## 瀏覽Adobe Experience Platform欄位 {#friendly-names-display}
 
 定義[事件裝載](../event/defining-the-payload-fields.md)、[欄位群組裝載](../datasource/field-groups.md)，以及在[運算式編輯器](../expression/expressionadvanced.md)中選取欄位時，除了欄位名稱外，還會顯示顯示名稱。此資訊會從「Experience 資料模型」的結構定義中擷取。
 
@@ -104,18 +104,18 @@ _在歷程中設定活動時：_
 畫布會自動儲存。您可以在畫布的左上角看到儲存狀態。
 
 * 按下 **ESC 鍵** 以關閉設定窗格並捨棄所做的變更，此功能與 **[!UICONTROL Cancel]**&#x200B;按鈕相同。
-* 按下&#x200B;**[!UICONTROL Enter]**&#x200B;或按一下窗格外部以關閉設定窗格，系統便會儲存變更。此功能與 **[!UICONTROL Ok]**&#x200B;按鈕相同。
-* 如果您按下 **[!UICONTROL Delete]**&#x200B;或 **退格鍵**，可以再按下 **[!UICONTROL Enter]** 以確認刪除。
+* Press **Enter** or click outside the pane to close the configuration pane. 系統便會儲存變更。此功能與 **[!UICONTROL Ok]**&#x200B;按鈕相同。
+* If you press **Delete** or **backspace**, you can then press **Enter** to confirm the deletion.
 
 _在快顯視窗中：_
 
-* 按下 **ESC 鍵** 以將其關閉 (等於&#x200B;**取消**&#x200B;按鈕)。
-* 按下 **[!UICONTROL Enter]**&#x200B;以儲存或確認 (等於 **[!UICONTROL Ok]** 或 **[!UICONTROL Save]** 按鈕)。
+* Press **escape** to close it (equivalent of the **[!UICONTROL Cancel]** button).
+* Press **Enter** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
 
 _在事件、資料來源或動作設定窗格中：_
 
 * 按下 **ESC 鍵** 以關閉設定窗格而不儲存。
-* 按下 **[!UICONTROL Enter]**&#x200B;以儲存修改內容並關閉設定窗格。
+* Press **Enter** to save modifications and close the configuration pane.
 * 按下 **Tab 鍵**&#x200B;以在不同欄位之間跳轉並進行設定。
 
 _在簡單運算式編輯器中_
@@ -137,5 +137,5 @@ _在含有搜尋列的畫面中：_
 _在歷程的畫布中：_
 
 * 使用 **Ctrl/Command + A** 鍵組合以選取所有動作。
-* 選取一或多個活動時，按下 **[!UICONTROL Delete]**&#x200B;或 **空格鍵**&#x200B;以刪除，在確認快顯視窗中按下 **[!UICONTROL Enter]**&#x200B;以確認。
+* When one or several activities are selected, press **Delete** or **backspace** to delete them. Then you can press **Enter** to confirm in the confirmation pop-up.
 * 在左側浮動視窗中，在活動上按兩下，以在第一個可用位置 (從上到下) 新增活動。
