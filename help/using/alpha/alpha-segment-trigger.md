@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c8d28b51f14ba511a860874e45d341a6977c58fa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 ## 關於區段觸發器活動 {#about-segment-trigger-actvitiy}
 
-「區段觸發」活動可讓您讓屬於「體驗平台」區段的所有個人進入歷程。 進入旅程可以執行一次，也可以定期執行。
+「區段觸發」活動可讓您讓屬於Adobe Experience Platform區段的所有個人進入歷程。 進入旅程可以執行一次，也可以定期執行。
 
-假設您在Experience Platform上擁有金級客戶群。 透過「區段觸發」活動，您可以讓屬於黃金客戶區段的所有個人進入歷程，並讓他們進入個人化歷程，以運用所有歷程功能： 條件、計時器、事件、動作。
+假設您在Adobe Experience Platform上擁有金級客戶群。 透過「區段觸發」活動，您可以讓屬於黃金客戶區段的所有個人進入歷程，並讓他們進入個人化歷程，以運用所有歷程功能： 條件、計時器、事件、動作。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 0%
 
    ![](../assets/segment-trigger-schedule.png)
 
-1. 在欄位 **[!UICONTROL Segment]** 中，選擇將進入歷程的「體驗平台」區段，然後按一下 **[!UICONTROL Save]**。
+1. 在欄位 **[!UICONTROL Segment]** 中，選擇要進入歷程的Adobe Experience Platform區段，然後按一下 **[!UICONTROL Save]**。
 
    ![](../assets/segment-trigger-segment-selection.png)
 
@@ -69,6 +69,6 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >請記住，Experience Platform區段是每天計算一次(**批次** )或即時計算(串&#x200B;**流** 區段)。
+   >請記住，Adobe Experience Platform區段是每天計算一次(**批次** )或即時計算(串&#x200B;**流** 區段)。
    >
-   >如果選取的區段是串流的，屬於此區段的個人可能會即時進入歷程。 如果區段是批次，新符合此區段資格的人員可能會在Experience Platform上執行區段計算時進入歷程。
+   >如果選取的區段是串流的，屬於此區段的個人可能會即時進入歷程。 如果區段是批次，新符合此區段資格的人員可能會在Adobe Experience Platform上執行區段計算時進入歷程。
