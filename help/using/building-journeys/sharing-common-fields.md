@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 此混搭將由journeyStepEvent和journeyStepProfileEvent分享。
 
-這些是傳送至Adobe Data Platform [!DNL Journey Orchestration] 的常見XDM欄位。 在歷程中處理的每個步驟都會傳送常用欄位。 自訂動作和擴充會使用更多特定欄位。
+這些是傳送至Adobe Experience Platform的 [!DNL Journey Orchestration] 常見XDM欄位。 在歷程中處理的每個步驟都會傳送常用欄位。 自訂動作和擴充會使用更多特定欄位。
 
 其中有些欄位僅適用於特定處理模式（動作執行、資料擷取等） 以限制事件的大小。
 
