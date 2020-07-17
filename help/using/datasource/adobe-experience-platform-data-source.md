@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '350'
 ht-degree: 10%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 10%
 
 # Adobe Experience Platform 資料來源 {#concept_zrb_nqt_52b}
 
-Experience Platform資料來源定義即時客戶個人檔案服務的連線。 此資料來源已內建並預先設定。 無法刪除。 此資料來源的設計目的是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人是否為女性）。 它可讓您使用描述檔資料和體驗事件資料。 如需即時客戶個人檔案服務的詳細資訊，請參閱本 [頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)。
+Adobe Experience Platform資料來源定義即時客戶個人檔案服務的連線。 此資料來源已內建並預先設定。 無法刪除。 此資料來源的設計目的是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人是否為女性）。 它可讓您使用描述檔資料和體驗事件資料。 如需即時客戶個人檔案服務的詳細資訊，請參閱本 [頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)。
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Experience Platform資料來源定義即時客戶個人檔案服務的連線。 
 
 以下是將欄位群組新增至內建資料來源的主要步驟。
 
-1. 從資料來源清單中，選取內建的Experience Platform資料來源。
+1. 從資料來源清單中，選取內建的Adobe Experience Platform資料來源。
 
    這會開啟畫面右側的資料來源設定窗格。
 
@@ -43,7 +43,7 @@ Experience Platform資料來源定義即時客戶個人檔案服務的連線。 
 
    ![](../assets/journey24.png)
 
-1. 從下拉式清單 **[!UICONTROL Schema]** 中選取結構。 此欄位會列出平台中可用的描述檔和體驗事件結構。 在中不執行模式建立 [!DNL Journey Orchestration]。 它是在資料平台中執行。
+1. 從下拉式清單 **[!UICONTROL Schema]** 中選取結構。 此欄位會列出Adobe Experience Platform中的「設定檔」和「體驗事件」結構描述。 在中不執行模式建立 [!DNL Journey Orchestration]。 它是在Adobe Experience Platform中執行。
 1. 選取您要使用的欄位。
 1. 定義快取持續時間。
 1. 按一下 **[!UICONTROL Save]**。
