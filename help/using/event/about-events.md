@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 74%
+source-wordcount: '714'
+ht-degree: 71%
 
 ---
 
@@ -36,11 +36,11 @@ The event configuration allows you to define the information [!DNL Journey Orche
 
 ## 一般原則{#section_r1f_xqt_pgb}
 
-事件屬於 POST API 呼叫。事件會透過串流擷取 API 傳送至 Adobe Experience Cloud Data Platform。透過交易訊息 API 傳送的事件 URL 目的地稱為「入口」。事件的裝載遵從 XDM 格式。
+事件屬於 POST API 呼叫。事件會透過串流擷取 API 傳送至 Adobe Experience Platform。透過交易訊息 API 傳送的事件 URL 目的地稱為「入口」。事件的裝載遵從 XDM 格式。
 
 The payload contains information required by Streaming Ingestion APIs to work (in the header) and the information required by [!DNL Journey Orchestration] to work (the event ID, part of the payload body) and information to be used in journeys (in the body, for example, the amount of an abandoned cart). 串流擷取共有兩種模式，分別是驗證和未驗證。如需串流擷取 API 的詳細資訊，請參閱[此連結](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/api/getting-started.html)。
 
-在透過串流擷取 API 到達目的地之後，事件會流入名為 Pipeline 的內部服務，再流入 Data Platform。如果事件結構已啟用「即時客戶個人檔案服務」標幟，且資料集 ID 也具有「即時客戶個人檔案」標幟，就會流入「即時客戶個人檔案服務」。
+在透過串流擷取API到達後，事件會流入名為Pipeline的內部服務，然後流入Adobe Experience Platform。 如果事件結構已啟用「即時客戶個人檔案服務」標幟，且資料集 ID 也具有「即時客戶個人檔案」標幟，就會流入「即時客戶個人檔案服務」。
 
 The Pipeline filters events which have a payload containing [!DNL Journey Orchestration] eventIDs (see the event creation process below) provided by [!DNL Journey Orchestration] and contained in event payload. These events are listened by [!DNL Journey Orchestration] and the corresponding journey is triggered.
 
