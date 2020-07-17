@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0630be5b82d681a94eebe2e9a7196081717ec9d
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '888'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->當我們傳送即時交易訊息(rtEvent)，或當我們透過自訂動作傳送訊息給協力廠商系統時，系統需要特定的設定，才能進行疲勞、區塊清單或取消訂閱管理。 例如，如果「取消訂閱」屬性儲存在平台或協力廠商系統中，則必須在傳送訊息前新增條件，才能檢查此條件。
+>當我們傳送即時交易訊息(rtEvent)，或當我們透過自訂動作傳送訊息給協力廠商系統時，系統需要特定的設定，才能進行疲勞、區塊清單或取消訂閱管理。 例如，如果「取消訂閱」屬性儲存在Adobe Experience Platform或協力廠商系統中，則必須在傳送訊息前新增條件，才能檢查此條件。
 
 當您選擇範本時，訊息裝載中預期的所有欄位都會顯示在活動設定窗格的 **[!UICONTROL Address]** 和下 **[!UICONTROL Personalization Data]**。 您需要將每個欄位對應至您要使用的欄位，不論是來自事件或來自資料來源。 您也可以使用進階運算式編輯器手動傳遞值、對擷取的資訊執行資料控制（例如將字串轉換為大寫），或使用函式，例如&quot;if, then, else&quot;。 請參見[](../expression/expressionadvanced.md)。
 
