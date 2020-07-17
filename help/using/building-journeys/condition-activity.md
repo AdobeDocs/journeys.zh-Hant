@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '708'
 ht-degree: 1%
 
 ---
@@ -49,12 +49,15 @@ ht-degree: 1%
 
 ![](../assets/journey64.png)
 
-如果您使用平台划 [分服務來建立細分](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ，您可以在歷程中運用這些細分。 請參閱在 [條件中使用區段](../segment/using-a-segment.md)。
+如果您使用 [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ，來建立細分，您就可以在歷程中運用這些細分。 請參閱在 [條件中使用區段](../segment/using-a-segment.md)。
 
 
 >[!NOTE]
 >
 >您無法使用簡單編輯器對時間序列執行查詢（例如購買清單、訊息的點按次數）。 為此，您將需要使用進階編輯器。 請參見[](../expression/expressionadvanced.md)。
+
+
+當動作或條件發生錯誤時，個別的歷程就會停止。 唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 請參見[](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 資料源條件 {#data_source_condition}
 
