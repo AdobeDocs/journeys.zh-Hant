@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '141'
 ht-degree: 5%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 5%
 
 # 建立區段 {#creating-a-segment}
 
-您可以使用「平台區段服務」 [建立區段](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ，或直接在中存取和建立區段 [!DNL Journey Orchestration]。
+您可以使用 [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ，建立區段，也可以直接在中存取和建立區段 [!DNL Journey Orchestration]。
 
-1. 在頂端選單中，按一下「**[!UICONTROL Segments]**」標籤。隨即顯示平台區段清單。 您可以在清單中搜尋特定區段。
+1. 在頂端選單中，按一下「**[!UICONTROL Segments]**」標籤。此時會顯示Adobe Experience Platform區段的清單。 您可以在清單中搜尋特定區段。
 
 ![](../assets/segment1.png)
 
@@ -32,4 +32,4 @@ ht-degree: 5%
 
 ![](../assets/segment2.png)
 
-您的區段現在可用於您的歷程中，以建立條件或新增區 **段資格** 事件。 請參 [閱在條件和事件活動](../segment/using-a-segment.md) 中 [使用區段](../building-journeys/event-activities.md#segment-qualification)。
+您的區段現在可用於您的歷程中，以建立條件或新增事 **[!UICONTROL Segment qualification]** 件。 請參 [閱在條件和事件活動](../segment/using-a-segment.md) 中 [使用區段](../building-journeys/segment-qualification-events.md)。
