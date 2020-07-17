@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '390'
 ht-degree: 17%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 17%
 
 善用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。
 
-[!DNL Journey Orchestration] 是與Experience Platform整合的應用程式服務。
+[!DNL Journey Orchestration] 是與Adobe Experience Platform整合的應用程式服務。
 
 ![](../assets/journeydiagram.png)
 
