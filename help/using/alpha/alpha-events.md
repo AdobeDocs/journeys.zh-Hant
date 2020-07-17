@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f146a22cec5ffbbc61b51f8fc3c875078b2ee6bf
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 4%
+source-wordcount: '356'
+ht-degree: 6%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 4%
 
 這種新方法對用戶來說大多是透明的。 唯一的變更是事件定義畫面中的新欄位。
 
-1. 在左側功能表中，按一下「管 **理員** 」圖示，然後按一 **下「事件」**。 畫面隨即顯示事件清單。
+1. 在左側功能表中，按一下圖 **[!UICONTROL Admin]** 示，然後按一下 **[!UICONTROL Events]**。 畫面隨即顯示事件清單。
 
    ![](../assets/alpha-event1.png)
 
-1. Click **Add** to create a new event. 事件設定窗格會在畫面右側開啟。
+1. 按一下「**[!UICONTROL Add]**」以建立新事件。事件設定窗格會在畫面右側開啟。
 
    ![](../assets/alpha-event2.png)
 
@@ -39,29 +39,29 @@ ht-degree: 4%
 
    ![](../assets/alpha-event3.png)
 
-1. 在新的「事 **件ID類型** 」欄位中，選 **取「規則型」**。
+1. 在新欄位 **[!UICONTROL Event ID type]** 中，選取 **[!UICONTROL Rule Based]**。
 
    ![](../assets/alpha-event4.png)
 
    >[!NOTE]
    >
-   >「 **系統產生** 」類型是需要eventID的現有方法。 請參 [閱本節](../event/about-events.md)。
+   >類 **[!UICONTROL System Generated]** 型是需要eventID的現有方法。 請參 [閱本節](../event/about-events.md)。
 
-1. 定義方 **案** 和裝載 **欄位**。 請參 [閱本節](../event/defining-the-payload-fields.md)。
+1. 定義 **[!UICONTROL Schema]** 和裝載 **[!UICONTROL Fields]**。 請參 [閱本節](../event/defining-the-payload-fields.md)。
 
    ![](../assets/alpha-event5.png)
 
    >[!NOTE]
    >
-   >選擇「系統生 **成」類型時**，只有具有eventID類型混合的方案可用。 當您選取「規則 **型」類型** 時，所有「體驗事件」結構都可用。
+   >選擇時，只 **[!UICONTROL System Generated type]**&#x200B;有具有eventID類型混合的架構可用。 選擇類型時，所 **[!UICONTROL Rule Based]** 有「體驗事件」結構都可用。
 
-1. 在「事件 **ID條件」欄位內按一下** 。 使用簡單運算式編輯器，定義系統將用來識別將觸發您旅程的事件的條件。
+1. 按一下欄位 **[!UICONTROL Event ID condition]** 內。 使用簡單運算式編輯器，定義系統將用來識別將觸發您旅程的事件的條件。
 
    ![](../assets/alpha-event6.png)
 
-   在我們的例子中，我們根據個人檔案的城市寫了一個條件。 這表示每當系統收到符合此條件(**City** field和 **Paris** value)的事件時，就會將它傳送至Journey Orchestration。
+   在我們的例子中，我們根據個人檔案的城市寫了一個條件。 這表示每當系統收到符合此條件（欄位和值）的&#x200B;**[!UICONTROL City]** 事件時， **[!UICONTROL Paris]** 就會將它傳送至「歷程協調」。
 
-1. 定義 **Namespace** 和 **Key**。 請參 [閱選擇命名空間](../event/selecting-the-namespace.md)[和定義事件鍵](../event/defining-the-event-key.md)。
+1. 定義 **[!UICONTROL Namespace]** 和 **[!UICONTROL Key]**。 請參 [閱選擇命名空間](../event/selecting-the-namespace.md)[和定義事件鍵](../event/defining-the-event-key.md)。
 
    ![](../assets/alpha-event7.png)
 
