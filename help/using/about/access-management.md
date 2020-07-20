@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 829f6cdb11aa9b1529607f409e53616a2b809f84
+source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 您可以在下方找到權限與不同功 [!DNL Journey Orchestration]能之間的相容性。
 
-![](../assets/journey_permission.png)
+![](../assets/do-not-localize/journey_permission.png)
 
 ## 建立產品設定檔 {#create-product-profile}
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 1. 在「管理控制台」中，選取 **[!UICONTROL Journey Orchestration]**。 在標籤 **[!UICONTROL Product profile]** 中按一下 **[!UICONTROL New Profile]**。
 
-   ![](../assets/user_management_5.png)
+   ![](../assets/do-not-localize/user_management_5.png)
 
 1. 新增 **[!UICONTROL Profile Name]** 和 **[!UICONTROL Description]** 新產品設定檔。 如果您希望您的個人檔案 **[!UICONTROL Display name]** 不同，請取消勾 **[!UICONTROL Same as Profile Name]** 選並輸入 **[!UICONTROL Display name]**。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 1. 完成後，按一下 **[!UICONTROL Done]**。 您的新產品設定檔現在已建立。
 
-   ![](../assets/user_management_1.png)
+   ![](../assets/do-not-localize/user_management_1.png)
 
 1. 選擇您的新產品設定檔，開始管理權限。 在標籤 **[!UICONTROL Users]** 中，將使用者新增至您的產品設定檔。 For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
@@ -92,20 +92,20 @@ ht-degree: 0%
 
 1. 從標 **[!UICONTROL Permissions]** 簽中，選擇兩個類別中的一個， **[!UICONTROL Sandbox]** 或 **[!UICONTROL Authoring]** 者開啟頁面，並添 **[!UICONTROL Edit Permissions]** 加或移除產品配置檔案的權限。
 
-   ![](../assets/user_management_7.png)
+   ![](../assets/do-not-localize/user_management_7.png)
 
 1. 在權限 **[!UICONTROL Sandboxes]** 類別中，選擇要指派給您產品設定檔的沙盒。 在下 **[!UICONTROL Available Permissions Items]**&#x200B;方，按一下加號(+)圖示，將沙盒指派給您的描述檔。 For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
-   ![](../assets/user_management_8.png)
+   ![](../assets/do-not-localize/user_management_8.png)
 
 1. 如有需要，請在 **[!UICONTROL Included Permission Items]**&#x200B;下方按一下移除您產品設定檔權限旁的X圖示。
 
-   ![](../assets/user_management_9.png)
+   ![](../assets/do-not-localize/user_management_9.png)
 
 1. 在權限 **[!UICONTROL Authoring]** 類別中，執行與上述步驟相同的步驟，將權限新增至您的產品設定檔。
    <br>有關權限和權限與不同功能之間的 [!DNL Journey Orchestration]相容性的詳細資訊，請參 [閱本節](../about/access-management.md#about-access-management)。
 
-   ![](../assets/user_management_10.png)
+   ![](../assets/do-not-localize/user_management_10.png)
 
 1. 完成後，按一下 **[!UICONTROL Save]**。
 
@@ -120,21 +120,21 @@ ht-degree: 0%
 
 1. 在「管理控制台」中，選取 **[!UICONTROL Journey Orchestration]**。
 
-   ![](../assets/user_management.png)
+   ![](../assets/do-not-localize/user_management.png)
 
 1. 選擇新使用者將連結至的產品設定檔。
 
-   ![](../assets/user_management_2.png)
+   ![](../assets/do-not-localize/user_management_2.png)
 
 1. 按一下「**[!UICONTROL Add user]**」。
 
    您也可以將新使用者新增至使用者群組，以微調共用權限集。 For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
-   ![](../assets/user_management_3.png)
+   ![](../assets/do-not-localize/user_management_3.png)
 
 1. 輸入新使用者的電子郵件地址，然後按一下 **[!UICONTROL Save]**。
 
-   ![](../assets/user_management_4.png)
+   ![](../assets/do-not-localize/user_management_4.png)
 
 然後，您的使用者應會收到重新導向至您實例的 [!DNL Journey Orchestration] 電子郵件。
 
