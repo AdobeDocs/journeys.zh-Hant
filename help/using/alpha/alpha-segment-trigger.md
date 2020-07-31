@@ -1,6 +1,6 @@
 ---
 title: 區段觸發器活動
-description: 學習xxxx
+description: 進一步瞭解區段觸發器
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,19 @@ ht-degree: 0%
 
 ## 關於區段觸發器活動 {#about-segment-trigger-actvitiy}
 
+>[!NOTE]
+>
+>如果Adobe Campaign Standard的立即可用動作活動在出版時或測試模式啟動時出現在畫布中，則此歷程會在每秒13個入口處調節。 <br>如果在出版時或測試模式啟動時畫布中沒有Adobe Campaign Standard立即可用的動作活動，則此歷程會在每秒1000個事件時被調節。
+
 「區段觸發」活動可讓您讓屬於Adobe Experience Platform區段的所有個人進入歷程。 進入旅程可以執行一次，也可以定期執行。
 
 假設您在Adobe Experience Platform上擁有金級客戶群。 透過「區段觸發」活動，您可以讓屬於黃金客戶區段的所有個人進入歷程，並讓他們進入個人化歷程，以運用所有歷程功能： 條件、計時器、事件、動作。
 
+## 設定活動 {#configuring-segment-trigger-activity}
+
 >[!NOTE]
 >
 >由於區段匯出延遲，無法在1小時以內的較短時間內觸發以區段為基礎的歷程。
-
-## 設定活動 {#configuring-segment-trigger-activity}
 
 1. 展開類 **[!UICONTROL Orchestration]** 別並將活動拖 **[!UICONTROL Segment Trigger]** 放到畫布中。
 
