@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ## 類別
 
-字串
+String
 
 ## 函式語法
 
@@ -49,4 +52,4 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 說明：
 
-在這裡，您可檢查字串是否滿足規則運算式（java語法）:開頭為&quot;Hello&quot;，然後是任何字串，結尾為&quot;World&quot;。
+在這裡，您可檢查字串是否滿足規則運算式（java語法）: 開頭為&quot;Hello&quot;，然後是任何字串，結尾為&quot;World&quot;。
