@@ -1,5 +1,5 @@
 ---
-title: 序列化清單
+title: serializeList
 description: 瞭解函式serializeList
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,11 +12,14 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 15%
 
 ---
 
 
-# 序列化清單 {#serializeList}
+# serializeList {#serializeList}
 
 將第一個參數中給定的清單（任何類型）轉換為字串。 第二個參數代表要使用的分隔符號。 第三個參數是布林值，指出運算式的每個元素是否應包含引號。
 
@@ -32,7 +35,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 字串 | 字串 |
+| String | String |
 | 布林值 | 布林值 |
 | DateTimeOnly | DateTimeOnly |
 | 清單 | listString |
