@@ -44,7 +44,7 @@ ht-degree: 6%
 
    ![](../assets/journeyuc3_1.png)
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下 **[!UICONTROL Save]**。
 
 ## 建立歷程 {#section_uzm_pyy_wfb}
 
@@ -62,7 +62,7 @@ ht-degree: 6%
 
    ![](../assets/journeyuc3_2.png)
 
-1. 使用簡單的運算式編輯器，尋找欄位( **[!UICONTROL fatigueLevel]**_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_)，將它拖曳至右側並建立下列條件： &quot;fatigueLevel等於&quot;Low&quot;。 按一下「**[!UICONTROL Ok]**」。
+1. 使用簡單的運算式編輯器，尋找欄位( **[!UICONTROL fatigueLevel]**_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_)，將它拖曳至右側並建立下列條件： &quot;fatigueLevel等於&quot;Low&quot;。 按一下 **[!UICONTROL Ok]**。
 
    ![](../assets/journeyuc3_3.png)
 
