@@ -43,7 +43,7 @@ ht-degree: 14%
 
    ![](../assets/journeyuc2_7.png)
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下 **[!UICONTROL Save]**。
 
 我們還需要檢查該人是否在飯店訂房系統中有訂房。 技術 **使用者** ，需要設定第二個資料來源來擷取此欄位。
 
@@ -77,6 +77,6 @@ ht-degree: 14%
 
    ![](../assets/journeyuc2_11.png)
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下 **[!UICONTROL Save]**。
 
    資料來源現在已經設定好，可供您在歷程中使用。
