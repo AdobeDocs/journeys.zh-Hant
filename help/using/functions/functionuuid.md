@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '42'
+ht-degree: 9%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ## 類別
 
-字串
+String
 
 ## 函式語法
 
