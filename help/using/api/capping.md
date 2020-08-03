@@ -65,6 +65,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;ORGANIZATION>**: 這是您的個人組織ID,Adobe會針對每個例項提供一個組織ID:
 
    * &lt;ORGANIZATION> : 您的生產實例
+
    若要取得您的組織ID值，請洽詢您的管理員或Adobe技術聯絡人。 建立新整合時，您也可以在授權清單(請參閱 <a href="https://www.adobe.io/authentication.html">Adobe I/O檔案</a>)中擷取它至Adobe I/O。
 
 * **&lt;ACCESS_TOKEN>**: 透過POST請求交換JWT時擷取的個人存取Token。
@@ -114,7 +115,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 }
 ```
 
-### 例如：
+### 範例:
 
 ```
 `{
