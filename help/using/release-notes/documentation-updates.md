@@ -26,31 +26,31 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 ## 2020 年 7 月{#july-2020}
 
-* 已新增連結至新的教學課程影片，說明Adobe Experience Platform的步驟事件報告。 [詳細內容](../building-journeys/sharing-overview.md)
-* 事件活動區段已重新組織為每種事件類型的專屬子區段。 [詳細內容](../building-journeys/event-activities.md)
-* 已新增最佳實務，以避免區段品質過載。 [詳細內容](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* 已新增附註，說明如何在動作或條件發生錯誤後讓旅程繼續。 [詳細內容](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* 已新增Alpha功能的章節，這些功能會在有限的客戶群中進行測試。 [詳細內容](../alpha/alpha-overview.md)
-* 已新增與智慧型服務整合的章節。 [詳細內容](../ai-services/ai-services-overview.md)
-* 已新增測試描述檔建立的新區段。 [詳細內容](../building-journeys/testing-the-journey.md#create-test-profile)
-* 已新增如何在歷程條 **[!UICONTROL SegmentQualification]** 件或動作中使用節點的資訊。 [詳細內容](../building-journeys/segment-qualification-events.md)
+* 已新增連結至新的教學課程影片，說明Adobe Experience Platform的步驟事件報告。 [瞭解詳情](../building-journeys/sharing-overview.md)
+* 事件活動區段已重新組織為每種事件類型的專屬子區段。 [瞭解詳情](../building-journeys/event-activities.md)
+* 已新增最佳實務，以避免區段品質過載。 [瞭解詳情](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* 已新增附註，說明如何在動作或條件發生錯誤後讓旅程繼續。 [瞭解詳情](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* 已新增Alpha功能的章節，這些功能會在有限的客戶群中進行測試。 [瞭解詳情](../alpha/alpha-overview.md)
+* 已新增與智慧型服務整合的章節。 [瞭解詳情](../ai-services/ai-services-overview.md)
+* 已新增測試描述檔建立的新區段。 [瞭解詳情](../building-journeys/testing-the-journey.md#create-test-profile)
+* 已新增如何在歷程條 **[!UICONTROL SegmentQualification]** 件或動作中使用節點的資訊。 [瞭解詳情](../building-journeys/segment-qualification-events.md)
 * 已在促銷活動交易訊息和事件發佈中新增附註。 請參 [閱使用Adobe Campaign](../action/working-with-adobe-campaign.md)[和使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-actions.md)。
-* 已新增資訊至測試「促銷活動標準」例項URL時所執行的檢查。 [詳細內容](../action/working-with-adobe-campaign.md)
-* 已新增有關與AWS或Azure伺服器上裝載的Campaign Standard例項相容的反應事件資訊。 [詳細內容](../building-journeys/reaction-events.md)
-* 已新增附註，說明使用「促銷活動標準」交易訊息時需要設定上限規則。 [詳細內容](../action/working-with-adobe-campaign.md)
-* 使用測試模式觸發事件時，產生實際事件時已新增附註。 [詳細內容](../building-journeys/testing-the-journey.md#firing_events)
+* 已新增資訊至測試「促銷活動標準」例項URL時所執行的檢查。 [瞭解詳情](../action/working-with-adobe-campaign.md)
+* 已新增有關與AWS或Azure伺服器上裝載的Campaign Standard例項相容的反應事件資訊。 [瞭解詳情](../building-journeys/reaction-events.md)
+* 已新增附註，說明使用「促銷活動標準」交易訊息時需要設定上限規則。 [瞭解詳情](../action/working-with-adobe-campaign.md)
+* 使用測試模式觸發事件時，產生實際事件時已新增附註。 [瞭解詳情](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2020 年 6 月 {#june-2020}
 
-* 已新增有關如何變更自訂驗證資料來源之Token的快取持續時間的資訊。 [詳細內容](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* 已新增有關如何變更自訂驗證資料來源之Token的快取持續時間的資訊。 [瞭解詳情](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * 更新螢幕擷取畫面和文字，以反映已變 **[!UICONTROL Finished]** 更為的歷程狀態重新命名 **[!UICONTROL Closed (no entrance)]**。
-* 已新增如何為介面定義語言的資訊。 [詳細內容](../about/user-interface.md)
+* 已新增如何為介面定義語言的資訊。 [瞭解詳情](../about/user-interface.md)
 * 個人歷程的狀態清單已移至「測試模式記錄 [」區段](../building-journeys/testing-the-journey.md#viewing_logs) 。
 
 ## 2020 年 4 月{#april-2020}
 
-* 已新增體驗事件結構定義的新區段，以協助使用者設定其第一個事件。 [詳細內容](../event/experience-event-schema.md)
-* 檔案的首頁已 [!DNL Journey Orchestration] 經更新，提供其他有用的連結。 [詳細內容](../../journey-orchestration-home.md)
+* 已新增體驗事件結構定義的新區段，以協助使用者設定其第一個事件。 [瞭解詳情](../event/experience-event-schema.md)
+* 檔案的首頁已 [!DNL Journey Orchestration] 經更新，提供其他有用的連結。 [瞭解詳情](../../journey-orchestration-home.md)
 
 ## 2020 年 3月{#march-2020}
 
