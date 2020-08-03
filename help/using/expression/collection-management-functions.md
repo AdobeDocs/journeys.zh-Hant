@@ -229,7 +229,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 _`<listExpression>`.at(`<index>`)_
 
-**例如：**
+**範例:**
 
 此運算式會傳回清單的第二個推播通知Token。
 
