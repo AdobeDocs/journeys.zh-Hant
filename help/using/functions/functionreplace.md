@@ -1,5 +1,5 @@
 ---
-title: 替換
+title: replace
 description: 瞭解函式取代
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,11 +12,14 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 5%
 
 ---
 
 
-# 替換 {#replace}
+# replace {#replace}
 
 用基本字串中的取代字串取代第一個符合目標字串的出現點。
 
@@ -24,7 +27,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ## 類別
 
-字串
+String
 
 ## 函式語法
 
