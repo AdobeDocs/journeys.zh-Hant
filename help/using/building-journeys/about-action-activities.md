@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 ![](../assets/journey58.png)
 
-這些活動代表不同的可用通訊管道。 您可以合併這些項目，以建立跨通道藍本。
+這些活動代表不同的可用通訊通道。您可以合併這些項目，以建立跨通道藍本。
 
 如果您有Adobe Campaign Standard，則可使用下列現成可用的動作： **[!UICONTROL Email]**、 **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。 請參見[](../building-journeys/using-adobe-campaign-actions.md)。
 
