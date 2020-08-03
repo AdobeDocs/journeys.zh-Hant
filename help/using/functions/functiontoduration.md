@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 1%
 
 ---
 
@@ -35,9 +38,9 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 | 字串 | 基於ISO-8601持續時間格式PnDTnHnMn.nS的格式，其天數被認為恰好為24小時 |
 | 整數 | 毫秒數 |
 
-如果字串表達式：接受的格式基於ISO-8601持續時間格式PnDTnHnMn.nS，其天數被認為恰好為24小時。
+如果字串表達式： 接受的格式基於ISO-8601持續時間格式PnDTnHnMn.nS，其天數被認為恰好為24小時。
 
-字串以選用符號開頭，以ASCII負號或正號表示。 如果為負，則整個時段都會被否定。 ASCII字母&quot;P&quot;是大寫或小寫的下一個。 然後有四個部分，每個部分都由一個數字和一個尾碼組成。 區段的ASCII尾碼為&quot;D&quot;、&quot;H&quot;、&quot;M&quot;和&quot;S&quot;，以天、小時、分和秒為單位，以大寫或小寫為準。 尾碼必須按順序出現。 ASCII字母&quot;T&quot;必須發生在小時、分鐘或第二節的第一次出現（如果有）之前。 這四個區段中至少有一個必須存在，如果&quot;T&quot;存在，則&quot;T&quot;後面必須有至少一個區段。 每個部分的編號部分必須由一個或多個ASCII數字組成。 數字可以用ASCII負號或正號作為前置詞。 必須分析的天數、小時數和分鐘數。 秒數必須與可選分數一起解析。 小數點可以是點或逗號。 該小數部分可以具有從零到9位。
+字串以選用符號開頭，以ASCII負號或正號表示。 如果為負，則整個時段都會被否定。 ASCII字母&quot;P&quot;是大寫或小寫的下一個。 然後有四個部分，每個部分都由一個數字和一個尾碼組成。 區段的ASCII尾碼為&quot;D&quot;、&quot;H&quot;、&quot;M&quot;和&quot;S&quot;，以天、小時、分和秒為單位，以大寫或小寫為準。 尾碼必須按順序出現。 ASCII字母&quot;T&quot;必須發生在小時、分鐘或第二節的第一次出現（如果有）之前。 這四個區段中至少有一個必須存在，如果&quot;T&quot;存在，則&quot;T&quot;後面必須有至少一個區段。 每個部分的編號部分必須由一個或多個ASCII數字組成。 數字可以用ASCII負號或正號作為前置詞。 必須分析的天數、小時數和分鐘數。 秒數必須與可選分數一起解析。 小數點可以是點或逗號。 該小數部分可具有從零到9位的數字。
 
 ## 簽名和傳回類型
 
