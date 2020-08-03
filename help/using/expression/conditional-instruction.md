@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 進階編輯器支援條件式指令（若然，則為else）。 它允許定義更複雜的表達式。 它由下列元素組成：
 
-* **[!UICONTROL if]**:要先評估的條件。
-* **[!UICONTROL then]**:條件評估結果為真時要評估的表達式。
-* **[!UICONTROL else]**:條件評估結果為false時要評估的表達式。
+* **[!UICONTROL if]**: 要先評估的條件。
+* **[!UICONTROL then]**: 條件評估結果為真時要評估的表達式。
+* **[!UICONTROL else]**: 條件評估結果為false時要評估的表達式。
 
 >[!NOTE]
 >
