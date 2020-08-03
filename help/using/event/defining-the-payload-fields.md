@@ -21,7 +21,7 @@ ht-degree: 6%
 
 # 定義裝載欄位 {#concept_yrw_3qt_52b}
 
-有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯的人員的金鑰。 裝載是以Experience Cloud XDM欄位定義為基礎。 有關XDM的更多資訊，請參閱本 [頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/home.html)。
+有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯的人員的金鑰。 裝載是以Experience Cloud XDM欄位定義為基礎。 For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/home.html).
 
 1. 從清單中選擇一個XDM方案，然後按一下 **[!UICONTROL Payload]** 欄位或表徵圖 **[!UICONTROL Edit]** 上。
 
