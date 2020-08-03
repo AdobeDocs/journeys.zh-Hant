@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 771b2b35e0aba412e4eb9e12a5d57de3d4c7068c
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 * 兩項 **[!UICONTROL Event]** 活動： &quot;LobbyBeacon&quot;和&quot;RestaurantBeacon&quot;
 * 兩個活 **[!UICONTROL Condition]** 動
 * 3個 **[!UICONTROL Push]** 活動和1 **[!UICONTROL Email]** 個活動（使用Adobe Campaign Standard）
-* 活 **[!UICONTROL Wait]** 動
+* a **[!UICONTROL Wait]** activity
 * 四個活 **[!UICONTROL End]** 動
 
 >[!NOTE]
@@ -146,7 +146,7 @@ ht-degree: 0%
 
    ![](../assets/journeyuc2_23.png)
 
-1. 新增活 **[!UICONTROL Push]** 動，選取「餐費折扣」範本並定義 **[!UICONTROL Address]** 和欄 **[!UICONTROL Personalization]** 位。 新增活 **[!UICONTROL End]** 動。
+1. 新增活 **[!UICONTROL Push]** 動，選取「餐費折扣」範本並定義 **[!UICONTROL Address]** 和欄 **[!UICONTROL Personalization]** 位。 新增 **[!UICONTROL End]** 活動。
 
    ![](../assets/journeyuc2_24.png)
 
@@ -154,7 +154,7 @@ ht-degree: 0%
 
    ![](../assets/journeyuc2_31.png)
 
-1. 在遵循訂房條件的第二個路徑中（未預訂房間），添加活 **[!UICONTROL Push]** 動並選擇「房費」模板。 新增活 **[!UICONTROL End]** 動。
+1. 在遵循訂房條件的第二個路徑中（未預訂房間），添加活 **[!UICONTROL Push]** 動並選擇「房費」模板。 新增 **[!UICONTROL End]** 活動。
 
    ![](../assets/journeyuc2_25.png)
 
@@ -172,7 +172,7 @@ ht-degree: 0%
 
    ![](../assets/journeyuc2_28.png)
 
-1. 新增活 **[!UICONTROL End]** 動。
+1. 新增 **[!UICONTROL End]** 活動。
 
 按一下切 **[!UICONTROL Test]** 換並測試您的旅程。 如果有任何錯誤，請停用測試模式、修改您的歷程並再次測試。 有關測試模式的詳細資訊，請參閱 [](../building-journeys/testing-the-journey.md)。
 
