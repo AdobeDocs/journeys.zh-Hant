@@ -1,5 +1,5 @@
 ---
-title: 排序
+title: sort
 description: 瞭解函式排序
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,11 +12,14 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 10%
 
 ---
 
 
-# 排序 {#sort}
+# sort {#sort}
 
 按自然順序對值清單進行排序。 第一個引數是值的清單，第二個是布林值，指出排序是遞增(true)或遞減(false)。
 
