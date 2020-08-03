@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ## 類別
 
-字串
+String
 
 ## 函式語法
 
@@ -32,8 +35,8 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 字串 | 字串 |
-| 指定值 | 字串 |
+| 字串 | String |
+| 指定值 | String |
 
 ## 簽名和傳回的類型
 
