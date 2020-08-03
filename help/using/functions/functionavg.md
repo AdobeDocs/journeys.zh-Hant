@@ -1,5 +1,5 @@
 ---
-title: 平均
+title: avg
 description: 瞭解函式平均值
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,18 +12,21 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 8%
 
 ---
 
 
-# 平均 {#avg}
+# avg {#avg}
 
 傳回一組運算式中的平均值，以清單或兩個運算式的形式提供。 忽略空值。
 
 
 ## 類別
 
-聚合
+聚總
 
 ## 函式語法
 
