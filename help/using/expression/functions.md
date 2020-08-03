@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 60%
 
 ---
 
@@ -32,15 +35,15 @@ source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
 |-------------|-----------------------|
 | Adobe Experience Platform | [](../functions/functiongetbestsendtime.md) |
 | Adobe Experience Platform | [](../functions/functioninsegment.md) |
-| 聚合 | [](../functions/functionavg.md) |
-| 聚合 | [](../functions/functioncount.md) |
-| 聚合 | [](../functions/functioncountonlynull.md) |
-| 聚合 | [](../functions/functioncountwithnull.md) |
-| 聚合 | [](../functions/functiondistinctcount.md) |
-| 聚合 | [](../functions/functiondistinctcountwithnull.md) |
-| 聚合 | [](../functions/functionmax.md) |
-| 聚合 | [](../functions/functionmin.md) |
-| 聚合 | [](../functions/functionsum.md) |
+| 聚總 | [](../functions/functionavg.md) |
+| 聚總 | [](../functions/functioncount.md) |
+| 聚總 | [](../functions/functioncountonlynull.md) |
+| 聚總 | [](../functions/functioncountwithnull.md) |
+| 聚總 | [](../functions/functiondistinctcount.md) |
+| 聚總 | [](../functions/functiondistinctcountwithnull.md) |
+| 聚總 | [](../functions/functionmax.md) |
+| 聚總 | [](../functions/functionmin.md) |
+| 聚總 | [](../functions/functionsum.md) |
 | 轉換 | [](../functions/functiontobool.md) |
 | 轉換 | [](../functions/functiontodatetime.md) |
 | 轉換 | [](../functions/functiontodatetimeonly.md) |
@@ -69,25 +72,25 @@ source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
 | 清單 | [](../functions/functionsort.md) |
 | 數學 | [](../functions/functionrandom.md) |
 | 數學 | [](../functions/functionround.md) |
-| 字串 | [](../functions/functionconcat.md) |
-| 字串 | [](../functions/functioncontain.md) |
-| 字串 | [](../functions/functioncontainwithignorecase.md) |
-| 字串 | [](../functions/functionendwith.md) |
-| 字串 | [](../functions/functionendwithignorecase.md) |
-| 字串 | [](../functions/functionequalignorecase.md) |
-| 字串 | [](../functions/functionindexof.md) |
-| 字串 | [](../functions/functionisempty.md) |
-| 字串 | [](../functions/functionisnotempty.md) |
-| 字串 | [](../functions/functionlastindexof.md) |
-| 字串 | [](../functions/functionlength.md) |
-| 字串 | [](../functions/functionlower.md) |
-| 字串 | [](../functions/functionmatchregexp.md) |
-| 字串 | [](../functions/functionnotequalignorecase.md) |
-| 字串 | [](../functions/functionreplace.md) |
-| 字串 | [](../functions/functionreplaceall.md) |
-| 字串 | [](../functions/functionstartwith.md) |
-| 字串 | [](../functions/functionstartwithignorecase.md) |
-| 字串 | [](../functions/functionsubstr.md) |
-| 字串 | [](../functions/functiontrim.md) |
-| 字串 | [](../functions/functionupper.md) |
-| 字串 | [](../functions/functionuuid.md) |
+| String | [](../functions/functionconcat.md) |
+| String | [](../functions/functioncontain.md) |
+| String | [](../functions/functioncontainwithignorecase.md) |
+| String | [](../functions/functionendwith.md) |
+| String | [](../functions/functionendwithignorecase.md) |
+| String | [](../functions/functionequalignorecase.md) |
+| String | [](../functions/functionindexof.md) |
+| String | [](../functions/functionisempty.md) |
+| String | [](../functions/functionisnotempty.md) |
+| String | [](../functions/functionlastindexof.md) |
+| String | [](../functions/functionlength.md) |
+| String | [](../functions/functionlower.md) |
+| String | [](../functions/functionmatchregexp.md) |
+| String | [](../functions/functionnotequalignorecase.md) |
+| String | [](../functions/functionreplace.md) |
+| String | [](../functions/functionreplaceall.md) |
+| String | [](../functions/functionstartwith.md) |
+| String | [](../functions/functionstartwithignorecase.md) |
+| String | [](../functions/functionsubstr.md) |
+| String | [](../functions/functiontrim.md) |
+| String | [](../functions/functionupper.md) |
+| String | [](../functions/functionuuid.md) |
