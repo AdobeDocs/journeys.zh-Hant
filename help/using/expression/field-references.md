@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 * 場以數字字元開頭
 * 欄位開頭為&quot;-&quot;字元
-* 欄位包含下列項目以外的其他項目： _a-_ z _,_ A- _z-_ Z,-_0-_-9, _-,-____,-_
+* 欄位包含下列項目以外的其他項目： _a_-z _,_ A _-_ Z,0 _-Z_, _____9-Z,-Z,_
 
 例如，若您的欄位是 _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
@@ -58,13 +61,13 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 >[!NOTE]
 >
->欄位的類型和預設值必須相同。 例如，@{LobbyBeacon.endUserIDs。_experience.emailid.id, defaultValue :2}將無效，因為預設值是整數，而預期值應為字串。
+>欄位的類型和預設值必須相同。 例如，@{LobbyBeacon.endUserIDs。_experience.emailid.id, defaultValue : 2}將無效，因為預設值是整數，而預期值應為字串。
 
 **系列中欄位的參考**
 
 系列中定義的元素會使用特定函式all、first和last來參考。 For more information, see [](../expression/collection-management-functions.md).
 
-例如：
+範例 :
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
@@ -82,7 +85,7 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 **資料來源的參數值（資料來源動態值）**
 
-如果您從外部資料來源選取需要呼叫參數的欄位，右側會出現新標籤，讓您指定此參數。 參見[](../expression/expressionadvanced.md)。
+如果您從外部資料來源選取需要呼叫參數的欄位，右側會出現新標籤，讓您指定此參數。 請參見[](../expression/expressionadvanced.md)。
 
 對於更複雜的使用案例，如果您想將資料來源的參數包含在主運算式中，則可使用關鍵字參數來定義其 _值_。 參數可以是任何有效的運算式，即使是來自其他資料來源，也包含其他參數。
 
@@ -96,10 +99,10 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**:資料來源的第一個參數的確切名稱。
-* **`<params-1-value>`**:第一個參數的值。 它可以是任何有效的運算式。
+* **`<params-1-name>`**: 資料來源的第一個參數的確切名稱。
+* **`<params-1-value>`**: 第一個參數的值。 它可以是任何有效的運算式。
 
-例如：
+範例:
 
 ```
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
