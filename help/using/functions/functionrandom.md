@@ -1,5 +1,5 @@
 ---
-title: 隨機
+title: random
 description: 瞭解隨機函式
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,11 +12,14 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 5%
 
 ---
 
 
-# 隨機 {#random}
+# random {#random}
 
 產生0到1之間的隨機數。
 
@@ -38,4 +41,4 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `#{MarltonReservation.statistics.successRatio, defaultValue : random() * 100}`
 
-說明：如果成功率沒有值/is null，則會套用預設值，且會是0到1 * 100（意指0到100）之間的隨機數。
+說明： 如果成功率沒有值/is null，則會套用預設值，且會是0到1 * 100（意指0到100）之間的隨機數。
