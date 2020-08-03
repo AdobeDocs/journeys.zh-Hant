@@ -1,5 +1,5 @@
 ---
-title: 總和
+title: sum
 description: 瞭解函式總和
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,17 +12,20 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
 
-# 總和 {#sum}
+# sum {#sum}
 
 傳回一組運算式的值總和。 忽略空值。
 
 ## 類別
 
-聚合
+聚總
 
 ## 函式語法
 
