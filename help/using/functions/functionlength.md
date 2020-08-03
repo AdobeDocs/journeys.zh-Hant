@@ -1,5 +1,5 @@
 ---
-title: 長度
+title: length
 description: 瞭解函式長度
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,17 +12,20 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '34'
+ht-degree: 11%
 
 ---
 
 
-# 長度 {#length}
+# length {#length}
 
 傳回參數中字串運算式的字元數。
 
 ## 類別
 
-字串
+String
 
 ## 函式語法
 
