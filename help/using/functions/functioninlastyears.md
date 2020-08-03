@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 9%
 
 ---
 
 
 # inLastYears {#inLastYears}
 
-如果指定的date或dateTime介於現在和現在- delta年間，則傳回true。
+如果指定的date或dateTime介於現在和現在- delta年，則傳回true。
 
 ## 類別
 
