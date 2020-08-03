@@ -1,5 +1,5 @@
 ---
-title: 康卡特
+title: concat
 description: 瞭解函式概念
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,17 +12,20 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
 
-# 康卡特 {#concat}
+# concat {#concat}
 
 串連兩個字串參數或字串清單。
 
 ## 類別
 
-字串
+String
 
 ## 函式語法
 
