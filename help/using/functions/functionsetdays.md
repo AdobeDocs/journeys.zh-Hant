@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 5%
 
 ---
 
 
 # setDays {#setDays}
 
-僅設定日期時間或日期時間的日期。 例如，如果您想要等到當月的某一天，則可強制該天。
+僅設定日期時間或日期時間的日期。 例如，如果您想要等到當月的某一天，則可強制當天。
 
 ## 類別
 
