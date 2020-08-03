@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
@@ -34,7 +37,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 |--- |--- |
 | 字串 | 將字串值轉換為整數 |
 | dateTime | 將日期轉換為毫秒數（紀元毫秒） |
-| 小數點 | 通過刪除小數部分轉換為整數(例如：1.5變為1) |
+| 小數點 | 通過刪除小數部分轉換為整數(例如： 1.5變為1) |
 | 布林值 | 將布林值轉換為1（如果為true）,0（如果為false） |
 
 ## 簽名和傳回類型
