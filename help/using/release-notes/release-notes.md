@@ -37,20 +37,20 @@ ht-degree: 66%
 <td>
 <p>已進行下列Adobe Experience Platform整合增強：</p>
 <ul>
-<li><p>新活動可讓您監聽Adobe Experience Platform區段的入口／出口，讓人們在旅程中進入或前進。 <a href="../building-journeys/segment-qualification-events.md">詳細內容</a></p>
+<li><p>新活動可讓您監聽Adobe Experience Platform區段的入口／出口，讓人們在旅程中進入或前進。 <a href="../building-journeys/segment-qualification-events.md">瞭解詳情</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>有了新的「區段」索引標籤，您現在不需離開「歷程協調」介面，就可以建立和編輯Adobe Experience Platform <strong>區段</strong> 。<a href="../segment/about-segments.md">詳細內容</a></p>
+<li><p>有了新的「區段」索引標籤，您現在不需離開「歷程協調」介面，就可以建立和編輯Adobe Experience Platform <strong>區段</strong> 。<a href="../segment/about-segments.md">瞭解詳情</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>在簡單運算式編輯器中，Adobe Experience Platform區段現在會直接列在導覽樹狀結構中，以方便設定條件，例如「此人是否屬於區段A?」。<a href="../segment/using-a-segment.md">詳細內容</a></p>
+<li><p>在簡單運算式編輯器中，Adobe Experience Platform區段現在會直接列在導覽樹狀結構中，以方便設定條件，例如「此人是否屬於區段A?」。<a href="../segment/using-a-segment.md">瞭解詳情</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration現在會自動傳遞至Adobe Experience Platform，讓您在歷程中執行的步驟。 這包括可能遇到的錯誤。 此資訊可用於執行特定旅程或所有旅程之旅程步驟事件的查詢，以建立報告和疑難排解。 <a href="../building-journeys/sharing-overview.md">詳細內容</a></p>
+<li><p>Journey Orchestration現在會自動傳遞至Adobe Experience Platform，讓您在歷程中執行的步驟。 這包括可能遇到的錯誤。 此資訊可用於執行特定旅程或所有旅程之旅程步驟事件的查詢，以建立報告和疑難排解。 <a href="../building-journeys/sharing-overview.md">瞭解詳情</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>現在，「歷程協調」可以與製作和非製作的Adobe Experience Platform沙盒連接。 請注意，沙盒是測試版功能。 <a href="../about/access-management.md#sandboxes">詳細內容</a></p>
+<li><p>現在，「歷程協調」可以與製作和非製作的Adobe Experience Platform沙盒連接。 請注意，沙盒是測試版功能。 <a href="../about/access-management.md#sandboxes">瞭解詳情</a></p>
 </li>
 </td>
 </tr>
@@ -68,10 +68,10 @@ ht-degree: 66%
 <td>
 <p>歷程設計人員和測試模式已進行下列增強：</p>
 <ul>
-<li><p>您現在可以將貼上活動從一個歷程複製到另一個歷程，選擇1或N個歷程活動。 <a href="../building-journeys/using-the-journey-designer.md#copy-paste">詳細內容</a></p>
+<li><p>您現在可以將貼上活動從一個歷程複製到另一個歷程，選擇1或N個歷程活動。 <a href="../building-journeys/using-the-journey-designer.md#copy-paste">瞭解詳情</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>在觸發事件以讓測試描述檔進入歷程後，您現在可以透過彩色的視覺流程，看到歷程中的進度。 在旅程中發生錯誤時，也會顯示錯誤的詳細資訊。 <a href="../building-journeys/testing-the-journey.md#firing_events">詳細內容</a></p>
+<li><p>在觸發事件以讓測試描述檔進入歷程後，您現在可以透過彩色的視覺流程，看到歷程中的進度。 在旅程中發生錯誤時，也會顯示錯誤的詳細資訊。 <a href="../building-journeys/testing-the-journey.md#firing_events">瞭解詳情</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
 <li>「完 <strong>成的旅程</strong> 」狀態已更名為「 <strong>關閉（無入口）</strong> 」，以更好地反映此狀態的含義。</li>
@@ -83,9 +83,9 @@ ht-degree: 66%
 
 **其他改善項目**
 
-為避免傳送過多的API呼叫至協力廠商系統，我們推出新的公用API來設定「限制」規則。 封閉規則允許定義每毫秒對API端點的最大調用數。 [詳細內容](../api/capping.md)
+為避免傳送過多的API呼叫至協力廠商系統，我們推出新的公用API來設定「限制」規則。 封閉規則允許定義每毫秒對API端點的最大調用數。 [瞭解詳情](../api/capping.md)
 
-存取控制現在允許使用者存取管理更精細。 有效的可用性： 2020年6月30日。 [詳細內容](../about/access-management.md#create-product-profile)
+存取控制現在允許使用者存取管理更精細。 有效的可用性： 2020年6月30日。 [瞭解詳情](../about/access-management.md#create-product-profile)
 
 Journey Orchestration現在已在APAC（澳洲資料中心）提供。 有效的可用性： 2020年6月30日
 
