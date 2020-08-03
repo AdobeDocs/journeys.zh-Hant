@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 1%
 * 您可以視需要多次啟用／停用測試模式。
 * 您無法在啟動測試模式時修改歷程。 在測試模式中，您可以直接發佈歷程，而不需先停用測試模式。
 
-## 建立測試設定檔{#create-test-profile}
+## Creating a test profile{#create-test-profile}
 
 建立測試描述檔的程式與在Adobe Experience Platform中建立描述檔的程式相同。 它是透過API呼叫來執行。 請參閱此 [頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)
 
