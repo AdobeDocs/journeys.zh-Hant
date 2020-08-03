@@ -1,5 +1,5 @@
 ---
-title: 圓
+title: round
 description: 瞭解函式四捨五入
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,11 +12,14 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 7%
 
 ---
 
 
-# 圓 {#round}
+# round {#round}
 
 將最接近的整數值傳回至引數，並將四捨五入至正無窮大。
 
