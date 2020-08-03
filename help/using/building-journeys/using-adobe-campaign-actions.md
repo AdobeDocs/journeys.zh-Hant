@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 3%
 
 ## 推播 {#section_im3_hvf_nhb}
 
-在使用推播活動之前，您的行動應用程式必須與Campaign Standard一起設定，才能傳送推播通知。 使用本 [文](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) ，針對行動裝置採取必要的實作步驟。
+在使用推播活動之前，您的行動應用程式必須與Campaign Standard一起設定，才能傳送推播通知。 使用本 [文](https://helpx.adobe.com/tw/campaign/kb/integrate-mobile-sdk.html) ，針對行動裝置採取必要的實作步驟。
 
 首先，您必須從下拉式清單和交易式訊息中選擇行動應用程式。 請參見[](../building-journeys/about-action-activities.md)。
 
