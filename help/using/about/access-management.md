@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 0%
 
 [!DNL Journey Orchestration] 可讓您指派一組權限給您的使用者，以定義使用者可存取的介面部分。
 
-管理員可以存取管理控制台。 有關管理控制台的詳細資訊，請參閱本 [檔案](https://helpx.adobe.com/enterprise/managing/user-guide.html)。
+管理員可以存取管理控制台。 如需 Admin Console 的詳細資訊，請參閱本[文件](https://helpx.adobe.com/tw/enterprise/managing/user-guide.html)。
 
 若要存取， [!DNL Journey Orchestration]使用者必須：
 
 * 與權限關 [!DNL Journey Orchestration] 聯 **[!UICONTROL product profile]** 的一 [!DNL Journey Orchestration] 部分。
-* 屬於 [!DNL Adobe Experience Platform]**[!UICONTROL product profile]**。 沒有強制性的許可。 使用者應具有 **[!UICONTROL profile management]** 從介面建立和編輯平台區段的 [!DNL Journey Orchestration] 權限。 For more on this, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html#adobe-admin-console).
+* 屬於 [!DNL Adobe Experience Platform]**[!UICONTROL product profile]**。 沒有強制性的許可。 使用者應具有 **[!UICONTROL profile management]** 從介面建立和編輯平台區段的 [!DNL Journey Orchestration] 權限。 如需詳細資訊，請參閱此[頁面](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html#adobe-admin-console)。
 
 在「管理控制台」中，您可以指派下列其中一個現成可用的產品設定檔給您的使用者：
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 若要建立產品設定檔並指派一組權限和沙盒：
 
-1. 在「管理控制台」中，選取 **[!UICONTROL Journey Orchestration]**。 在標籤 **[!UICONTROL Product profile]** 中按一下 **[!UICONTROL New Profile]**。
+1. 在「管理控制台」中，選取 **[!UICONTROL Journey Orchestration]**。 From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
 
    ![](../assets/do-not-localize/user_management_5.png)
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
    ![](../assets/do-not-localize/user_management_1.png)
 
-1. 選擇您的新產品設定檔，開始管理權限。 在標籤 **[!UICONTROL Users]** 中，將使用者新增至您的產品設定檔。 For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
+1. 選擇您的新產品設定檔，開始管理權限。 在標籤 **[!UICONTROL Users]** 中，將使用者新增至您的產品設定檔。 如需詳細資訊，請參閱此[頁面](../about/access-management.md#assigning-product-profile)。
 
 1. 執行與上述步驟相同的步驟，以新增至 **[!UICONTROL Admin]** 您的產品設定檔。
 
@@ -126,9 +126,9 @@ ht-degree: 0%
 
    ![](../assets/do-not-localize/user_management_2.png)
 
-1. 按一下「**[!UICONTROL Add user]**」。
+1. 按一下 **[!UICONTROL Add user]**。
 
-   您也可以將新使用者新增至使用者群組，以微調共用權限集。 For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
+   您也可以將新使用者新增至使用者群組，以微調共用權限集。 如需詳細資訊，請參閱此[頁面](https://helpx.adobe.com/enterprise/using/user-groups.html)。
 
    ![](../assets/do-not-localize/user_management_3.png)
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 ## 使用沙盒 {#sandboxes}
 
 [!DNL Journey Orchestration] 允許您將實例分區到名為沙盒的獨立虛擬環境中。
-沙盒會透過管理控制台中的產品設定檔來指派。 如需如何指派沙盒的詳細資訊，請參閱本 [節](../about/access-management.md#create-product-profile)。
+沙盒會透過管理控制台中的產品設定檔來指派。 For more information on how to assign sandboxes, refer to this [section](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] 反映為特定組織所建立的Adobe Experience Platform沙盒。
 您可以從Adobe Experience Platform實例建立或重設Adobe Experience Platform沙盒。 如需詳細步 [驟，請參閱](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) 「沙盒」使用指南。
