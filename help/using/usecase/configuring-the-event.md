@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 2%
 
 ---
 
@@ -22,17 +25,17 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 有關事件配置的其他資訊，請參閱 [](../event/about-events.md)。
 
-1. 在頂端功能表中，按一下標 **[!UICONTROL Events]**簽，然後按一**[!UICONTROL Add]** 下以建立新事件。
+1. 在頂端功能表中，按一下標 **[!UICONTROL Events]** 簽，然後按一 **[!UICONTROL Add]** 下以建立新事件。
 
    ![](../assets/journeyuc1_1.png)
 
-1. 我們輸入不含空格或特殊字元的名稱：&quot;SpaBeacon&quot;。
+1. 我們輸入不含空格或特殊字元的名稱： &quot;SpaBeacon&quot;。
 
    ![](../assets/journeyuc1_2.png)
 
    <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
 
-1. 接著，我們選取架構並定義此事件預期的裝載。 從XDM標準化模型中選取所需欄位。 我們需要Experience Cloud ID來識別即時客戶個人檔案資料庫中的人員： _endUserIDs >體驗> mcid > id_。 系統會自動為此事件產生ID。 此ID會儲存在欄位 **[!UICONTROL eventID]**中(_體驗>促銷活動>協調> eventID_)。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 在我們的使用案例中，此ID用於識別信標位置。 每次有人走近Spa信標時，就會傳送包含此特定事件ID的事件。 這可讓系統知道觸發事件傳送的信標。
+1. 接著，我們選取架構並定義此事件預期的裝載。 從XDM標準化模型中選取所需欄位。 我們需要Experience Cloud ID來識別即時客戶個人檔案資料庫中的人員： _endUserIDs >體驗> mcid > id_。 系統會自動為此事件產生ID。 此ID會儲存在欄位 **[!UICONTROL eventID]** 中(_體驗>促銷活動>協調> eventID_)。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 在我們的使用案例中，此ID用於識別信標位置。 每次有人走近Spa信標時，就會傳送包含此特定事件ID的事件。 這可讓系統知道觸發事件傳送的信標。
 
    ![](../assets/journeyuc1_3.png)
 
@@ -48,10 +51,10 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
    ![](../assets/journeyuc1_5.png)
 
-1. 按一下 **[!UICONTROL Save]**.
+1. 按一下 **[!UICONTROL Save]**。
 
-1. 按一下 **[!UICONTROL View Payload]**圖示可預覽系統預期的裝載，並與負責事件傳送的人員共用。 此裝載必須在Mobile services管理控制台的回傳中設定。
+1. 按一下 **[!UICONTROL View Payload]** 圖示可預覽系統預期的裝載，並與負責事件傳送的人員共用。 此裝載必須在Mobile Services管理控制台的回傳中設定。
 
    ![](../assets/journeyuc1_7.png)
 
-   該活動已準備好供您的旅程使用。 您現在需要設定行動應用程式，以便將預期的負載傳送至串流擷取API端點。 參見[](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   該活動已準備好供您的旅程使用。 您現在需要設定行動應用程式，以便將預期的負載傳送至串流擷取API端點。 請參見[](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
