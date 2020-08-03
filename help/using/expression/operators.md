@@ -1,5 +1,5 @@
 ---
-title: 營運商
+title: 運算子
 description: 瞭解進階運算式中的運算元
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,14 +12,17 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '618'
+ht-degree: 4%
 
 ---
 
 
 
-# 營運商 {#concept_wd5_pj5_dgb}
+# 運算子 {#concept_wd5_pj5_dgb}
 
-運算子有兩種：一元運算子和二進位運算子。 有左手一元運算子和右手一元運算子。
+運算子有兩種： 一元運算子和二進位運算子。 有左手一元運算子和右手一元運算子。
 
 ```
     // left-hand unary operators
@@ -93,7 +96,7 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 <tr ><td>整數</td><td><p><pre>&lt;expression&gt;為整數</pre></p><p>運算式的類型為整數。</p></td><td><pre>@是整數</pre></td></tr>
 <tr ><td>小數點</td><td><p><pre>&lt;expression&gt;小數</pre></p><p>表達式的類型為十進位。</p></td><td><pre>@是小數</pre></td></tr>
 
-## 字串
+## String
 
 <table>
 <thead>
