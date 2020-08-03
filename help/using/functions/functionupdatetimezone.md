@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '41'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +33,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ## 參數
 
-* 時區ID:字串
+* 時區ID: 字串
 * dateTime
 
 ## 簽名和傳回的類型
