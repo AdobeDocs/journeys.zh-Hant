@@ -23,7 +23,7 @@ ht-degree: 0%
 
 與智慧型服務的整合可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用商業層級的組態來設定特定公司需求的預測，而不需要資料科學的專業知識。
 
-有關智慧服務的詳細資訊，請參閱文 [檔](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html)。
+For more information on Intelligent Services, refer to the [documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html).
 
 此整合可讓您運用：
 
