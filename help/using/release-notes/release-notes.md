@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '1107'
-ht-degree: 66%
+ht-degree: 85%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 66%
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱[文件更新](../release-notes/documentation-updates.md)。
 
-## 第2季度發行- 2020年6月 {#q2-release---june-2020}
+## 第 2 季度發行 - 2020 年 6 月{#q2-release---june-2020}
 
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Platform整合增強功能</strong><br/></th>
+<th><strong>Adobe Experience Platform 整合增強功能</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -37,20 +37,20 @@ ht-degree: 66%
 <td>
 <p>已進行下列Adobe Experience Platform整合增強：</p>
 <ul>
-<li><p>新活動可讓您監聽Adobe Experience Platform區段的入口／出口，讓人們在旅程中進入或前進。 <a href="../building-journeys/segment-qualification-events.md">瞭解詳情</a></p>
+<li><p>新活動可讓您監聽Adobe Experience Platform區段的入口／出口，讓人們在旅程中進入或前進。 <a href="../building-journeys/segment-qualification-events.md">詳細內容</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>有了新的「區段」索引標籤，您現在不需離開「歷程協調」介面，就可以建立和編輯Adobe Experience Platform <strong>區段</strong> 。<a href="../segment/about-segments.md">瞭解詳情</a></p>
+<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">詳細內容</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>在簡單運算式編輯器中，Adobe Experience Platform區段現在會直接列在導覽樹狀結構中，以方便設定條件，例如「此人是否屬於區段A?」。<a href="../segment/using-a-segment.md">瞭解詳情</a></p>
+<li><p>在簡單運算式編輯器中，Adobe Experience Platform區段現在會直接列在導覽樹狀結構中，以方便設定條件，例如「此人是否屬於區段A?」。<a href="../segment/using-a-segment.md">詳細內容</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration現在會自動傳遞至Adobe Experience Platform，讓您在歷程中執行的步驟。 這包括可能遇到的錯誤。 此資訊可用於執行特定旅程或所有旅程之旅程步驟事件的查詢，以建立報告和疑難排解。 <a href="../building-journeys/sharing-overview.md">瞭解詳情</a></p>
+<li><p>Journey Orchestration現在會自動傳遞至Adobe Experience Platform，讓您在歷程中執行的步驟。 這包含可能發生的錯誤。可藉由針對特定歷程或所有歷程的 Journey Step 事件執行查詢，而將此資訊用於實現報告及疑難排解。<a href="../building-journeys/sharing-overview.md">詳細內容</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>現在，「歷程協調」可以與製作和非製作的Adobe Experience Platform沙盒連接。 請注意，沙盒是測試版功能。 <a href="../about/access-management.md#sandboxes">瞭解詳情</a></p>
+<li><p>現在，「歷程協調」可以與製作和非製作的Adobe Experience Platform沙盒連接。 請注意，沙箱是測試版功能。<a href="../about/access-management.md#sandboxes">詳細內容</a></p>
 </li>
 </td>
 </tr>
@@ -60,21 +60,21 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>歷程設計與測試模式增強功能</strong><br/></th>
+<th><strong>歷程設計程式與測試模式增強功能</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>歷程設計人員和測試模式已進行下列增強：</p>
+<p>已對歷程設計程式和測試模式進行下列增強功能：</p>
 <ul>
-<li><p>您現在可以將貼上活動從一個歷程複製到另一個歷程，選擇1或N個歷程活動。 <a href="../building-journeys/using-the-journey-designer.md#copy-paste">瞭解詳情</a></p>
+<li><p>您現在可以選取 1 或 N 個歷程活動，而在歷程之間複製和貼上活動。<a href="../building-journeys/using-the-journey-designer.md#copy-paste">詳細內容</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>在觸發事件以讓測試描述檔進入歷程後，您現在可以透過彩色的視覺流程，看到歷程中的進度。 在旅程中發生錯誤時，也會顯示錯誤的詳細資訊。 <a href="../building-journeys/testing-the-journey.md#firing_events">瞭解詳情</a></p>
+<li><p>在觸發事件而讓測試設定檔進入歷程後，您現在可以透過彩色視覺流程，而瞭解其在歷程中的進度。在歷程中發生錯誤時，也會顯示錯誤的詳細資料。<a href="../building-journeys/testing-the-journey.md#firing_events">詳細內容</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
-<li>「完 <strong>成的旅程</strong> 」狀態已更名為「 <strong>關閉（無入口）</strong> 」，以更好地反映此狀態的含義。</li>
+<li>已將 <strong>Finished</strong> 歷程重新命名為 <strong>Closed (no entrance)</strong>，以便更妥善地反映此狀態代表的意義。</li>
 </ul>
 </td>
 </tr>
@@ -83,13 +83,13 @@ ht-degree: 66%
 
 **其他改善項目**
 
-為避免傳送過多的API呼叫至協力廠商系統，我們推出新的公用API來設定「限制」規則。 封閉規則允許定義每毫秒對API端點的最大調用數。 [瞭解詳情](../api/capping.md)
+為了避免傳送過多 API 呼叫至協力廠商系統，我們推出新的公用 API 來設定 &quot;capping&quot; 規則。上限規則可定義每毫秒對 API 端點的呼叫數量上限。[詳細內容](../api/capping.md)
 
-存取控制現在允許使用者存取管理更精細。 有效的可用性： 2020年6月30日。 [瞭解詳情](../about/access-management.md#create-product-profile)
+存取控制現在可以更精細地管理使用者的存取權限。生效日期：2020 年 6 月 30 日。[詳細內容](../about/access-management.md#create-product-profile)
 
-Journey Orchestration現在已在APAC（澳洲資料中心）提供。 有效的可用性： 2020年6月30日
+Journey Orchestration 現在已於 APAC（澳洲資料中心）推出。生效日期：2020 年 6 月 30 日
 
-Journey Orchestration介面提供日文版。
+Journey Orchestration　介面提供日文版。
 
 ## 第 1 季發行 - 2020 年 3 月{#q1-release---march-2020}
 
@@ -132,7 +132,7 @@ Journey Orchestration介面提供日文版。
 <li><strong>「時區」</strong>下拉式清單可讓您選取特定時區。依預設，系統會使用瀏覽器的時區。 </li>
 <li>The <strong>Profile Timezone</strong> checkbox allows you to use the Adobe Experience Platform Profile timezone of the person entering the journey, if available. 否則，系統會使用下拉式清單中定義的時區。此功能與使用沒有命名空間之事件的歷程不相容。</li>
 </ul>
-<p>如需詳細資訊，請參見<a href="../building-journeys/changing-properties.md#timezone">變更屬性</a>和<a href="../building-journeys/timezone-management.md">時區管理</a>章節。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/changing-properties.md#timezone">變更屬性</a>和<a href="../building-journeys/timezone-management.md">時區管理</a>區段。</p>
 </td>
 </tr>
 </tbody>
@@ -156,7 +156,7 @@ Journey Orchestration介面提供日文版。
 <p>在歷程設計器中，您現在可以檢查自己是否存取最新的歷程版本。此資訊會顯示在版本編號旁邊。</p>
 <p>在歷程<strong>畫布</strong>中，當兩個活動中斷連結時，現在會顯示警告訊息。</p>
 <img src="../assets/rn-canvas.png"/>
-<p>如需詳細資訊，請參見<a href="../building-journeys/using-the-journey-designer.md">詳細文件</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/using-the-journey-designer.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -171,8 +171,8 @@ Journey Orchestration介面提供日文版。
 <tbody>
 <tr>
 <td>
-<p>不同的 Journey Orchestration 清單畫面 (歷程、事件、動作和資料來源) 現在都會提供內容說明。這可讓您檢視目前功能的快速說明，並存取相關文章和影片。</p>
-<p>若要顯示內容說明，請按一下畫面右上角的 <img src="../assets/icon-context.png"/>圖示。 </p>
+<p>不同的 Journey Orchestration 清單畫面（歷程、事件、動作和資料來源）現在都會提供內容說明。這可讓您檢視目前功能的快速說明，並存取相關文章和影片。</p>
+<p>若要顯示內容說明，請按一下畫面右上方的 <img src="../assets/icon-context.png"/> 圖示。 </p>
 <img src="../assets/rn-context.png"/>
 </td>
 </tr>
@@ -181,11 +181,11 @@ Journey Orchestration介面提供日文版。
 
 **其他改善項目**
 
-* 除了美國以外，Journeys Orchestration 現在已於&#x200B;**歐洲、中東及非洲**&#x200B;推出。應用程式和文件提供法文和德文版。
+* 除了美國以外，Journeys Orchestration 現在已於&#x200B;**歐洲、中東及非洲**&#x200B;推出。應用程式和文件提供法文版和德文版。
 
-* Experience League 現在已整合至產品中。這可簡化對相關內容的存取，並協助您充分運用 Experience Cloud 的功能。可在「說明」標籤底部直接存取 Journey Orchestration 文件。此外，按一下「說明 > 意見回饋」即可報告問題，或與 Adobe 分享您的想法。
+* Experience League 現在已整合至產品中。這可簡化對相關內容的存取，並協助您充分運用 Experience Cloud 的功能。可在 Help 索引標籤底部直接存取 Journey Orchestration 文件。此外，按一下 Help > Feedback 即可報告問題，或與 Adobe 分享您的想法。
 
-* 現在，所有清單畫面 (歷程、資料來源、動作和事件) 都可以使用 **C** 鍵盤快速鍵來建立新項目。[詳細內容](../about/user-interface.md#section_ksq_zr1_ffb)
+* 現在，所有清單畫面（歷程、資料來源、動作和事件）都可以使用 **C** 鍵盤快速鍵來建立新項目。[詳細內容](../about/user-interface.md#section_ksq_zr1_ffb)
 
 * 您現在可以&#x200B;**刪除**&#x200B;已停止的歷程。系統不會再提供與這些已刪除歷程相關聯的報告。
 
@@ -197,11 +197,11 @@ Journey Orchestration 現在已正式推出。
 
 善用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。
 
-Journey Orchestration 允許以事件中的情境資料、Adobe Experience Platform 的資訊或來自協力廠商 API 服務的資料，進行即時協調。應用程式會根據消費者的個人檔案和行為，在稱為歷程的多步驟流程中，決定對該消費者來說下一個最佳的動作。這包括最佳時機和動作類型，例如透過 Adobe Campaign Standard 交易訊息功能 (需要有 Adobe Campaign Standard) 向消費者傳送推播通知或來自協力廠商系統的通知。這些決定是根據規則和 Sensei 分數所得。
+Journey Orchestration 能以事件中的情境資料、Adobe Experience Platform 的資訊或來自協力廠商 API 服務的資料，進行即時協調。應用程式會根據消費者的個人檔案和行為，在稱為歷程的多步驟流程中，決定對該消費者來說下一個最佳的動作。這包括最佳時機和動作類型，例如透過 Adobe Campaign Standard 交易訊息功能（需要有 Adobe Campaign Standard）向消費者傳送推播通知或來自協力廠商系統的通知。這些決定是依據規則和 Sensei 分數加以制定。
 
 [進一步瞭解](../action/working-with-adobe-campaign.md) Journey Orchestration。
 
 其他資源：
 
-* [教學課程](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [教學課程](https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
 * [社群](https://www.adobe.com/go/journeyorchestrationcommunity)
