@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 93%
 * _https://api.adobeweather.org/weather?city=London,uk&amp;appid=1234_
 * _https://api.adobeweather.org/weather?lat=35&amp;lon=139&amp;appid=1234_
 
-此呼叫由主要 URL (_https://api.adobeweather.org/weather_)、兩個參數集 (「city」代表城市、「lat/long」代表經緯度) 和 API 金鑰 (appid) 組成。
+此呼叫由主要 URL (_https://api.adobeweather.org/weather_)、兩個參數集 （&quot;city&quot; 代表城市、&quot;lat/long&quot; 代表經緯度）和 API 金鑰 (appid) 組成。
 
 以下是建立和設定新外部資料來源的主要步驟：
 
-1. 從資料來源清單中，按一下「**[!UICONTROL Add]**」以建立新的外部資料來源。
+1. 從資料來源清單中，按一下 **[!UICONTROL Add]** 以建立新的外部資料來源。
 
    ![](../assets/journey25.png)
 
@@ -51,7 +51,7 @@ ht-degree: 93%
    >
    >請勿使用空格或特殊字元。請勿使用超過 30 個字元。
 
-1. 新增說明至您的資料來源，此步驟為選填。
+1. 新增說明至您的資料來源。此步驟為選填。
 1. 新增外部服務的 URL。在我們的範例中：_https://api.adobeweather.org/weather_。
 
    >[!CAUTION]
@@ -60,31 +60,31 @@ ht-degree: 93%
 
    ![](../assets/journey27.png)
 
-1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。如需自訂身份驗證模式的詳細資訊，請參見[](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。在我們的範例中，我們選擇：
+1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。如需自訂身份驗證模式的詳細資訊，請參閱[](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。在我們的範例中，我們選擇：
 
 
-   * **[!UICONTROL Type]**：「API 金鑰」
-   * **[!UICONTROL Value]**：「1234」(這是我們 API 金鑰的值)
-   * **[!UICONTROL Name]**：「appid」(這是 API 金鑰參數名稱)
-   * **[!UICONTROL Location]**：「查詢參數」(API 金鑰位於 URL)
+   * **[!UICONTROL Type]**：&quot;API key&quot;
+   * **[!UICONTROL Value]**：&quot;1234&quot;（這是我們 API 金鑰的值）
+   * **[!UICONTROL Name]**：&quot;appid&quot;（這是 API 金鑰參數名稱）
+   * **[!UICONTROL Location]**：&quot;Query parameter&quot;（API 金鑰位於 URL）
 
    ![](../assets/journey28.png)
 
-1. 按一下「**[!UICONTROL Add a New Field Group]**」以為每個 API 參數集新增欄位群組。請勿在欄位群組名稱中使用空格或特殊字元。在我們的範例中，我們需要建立兩個欄位群組，每個群各有一個參數集 (「city」和「long/lat」）。
+1. 按一下 **[!UICONTROL Add a New Field Group]**，為每個 API 參數集新增欄位群組。請勿在欄位群組名稱中使用空格或特殊字元。在我們的範例中，我們需要建立兩個欄位群組，每個群各有一個參數集（city 及 long/lat）。
 
-在「long/lat」參數集中，我們會建立包含下列資訊的欄位群組：
+在 &quot;long/lat&quot; 參數集中，我們會建立包含下列資訊的欄位群組：
 
-* **[!UICONTROL Used in]**：顯示使用欄位群組的歷程數量。您可以按一下 **[!UICONTROL View journeys]**&#x200B;圖示，以顯示使用此欄位群組的歷程清單。
+* **[!UICONTROL Used in]**：顯示使用欄位群組的歷程數量。您可以按一下 **[!UICONTROL View journeys]** 圖示，以顯示使用此欄位群組的歷程清單。
 * **[!UICONTROL Method]**：選取 POST 或 GET 方法。在本例中，我們選取 GET 方法。
 * **[!UICONTROL Cache duration]**：在本例中，我們希望每 10 分鐘快取氣象一次。
-* **[!UICONTROL Response Payload]**：在「**[!UICONTROL Payload]**」欄位內按一下，並貼上呼叫傳回之裝載的範例。例如，我們使用了氣象 API 網站上找到的裝載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取裝載範例中包含的所有欄位。請注意，您可以按一下「**[!UICONTROL Paste a new payload]**」以變更目前已傳遞的裝載。
-* **[!UICONTROL Dynamic Values]**：在本例中，輸入以逗號分隔的不同參數，即「long,lat」。由於參數值視執行內容而定，因此它們會在歷程中定義。請參見[](../expression/expressionadvanced.md)。
-* **[!UICONTROL Sent Payload]**：我們的範例不會出現此欄位，只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的裝載。
+* **[!UICONTROL Response Payload]**：在 **[!UICONTROL Payload]** 欄位內按一下，並貼上呼叫傳回之有效負載的範例。例如，我們使用了氣象 API 網站上找到的有效負載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，您可以按一下 **[!UICONTROL Paste a new payload]**，以變更目前已傳遞的有效負載。
+* **[!UICONTROL Dynamic Values]**：在本例中，輸入以逗號分隔的不同參數，即 &quot;long,lat&quot;。由於參數值視執行內容而定，因此它們會在歷程中定義。請參閱[](../expression/expressionadvanced.md)。
+* **[!UICONTROL Sent Payload]**：我們的範例不會出現此欄位，只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的有效負載。
 
-若是 GET 呼叫所需的參數，您會在「**[!UICONTROL Parameters]**」欄位中輸入參數，系統就會在呼叫結束時自動新增這些參數。若是 POST 呼叫，您需要：
+若是 GET 呼叫所需的參數，您會在 **[!UICONTROL Parameters]** 欄位中輸入參數，系統就會在呼叫結束時自動新增這些參數。若是 POST 呼叫，您需要：
 
-* 在「**[!UICONTROL Parameter]**」欄位中列出呼叫時要傳遞的參數 (在以下範例中：“identifier”)。
-* 在已傳送裝載的正文中，也使用完全相同的語法指定它們。若要這麼做，您必須新增：&quot;param&quot;: “name of your parameter” (在以下範例中：“identifier”)。請遵循下列語法：
+* 在 **[!UICONTROL Parameter]** 欄位中列出呼叫時要傳遞的參數（在以下範例中：“identifier”）。
+* 在已傳送有效負載的正文中，也使用完全相同的語法指定它們。若要這麼做，您必須新增：&quot;param&quot;: “name of your parameter”（在以下範例中：“identifier”）。請遵循下列語法：
 
    ```
    {"id":{"param":"identifier"}}
@@ -92,7 +92,7 @@ ht-degree: 93%
 
 ![](../assets/journey29.png)
 
-按一下「**[!UICONTROL Save]**」。
+按一下 **[!UICONTROL Save]**。
 
 資料來源現在已設定完畢，且可供您在歷程中使用，例如在您的條件或個人化電子郵件中。如果溫度超過 30°C，您可以決定傳送特定通訊。
 
@@ -105,7 +105,7 @@ ht-degree: 93%
 
 此驗證模式會用於複雜驗證，常用來呼叫 OAuth2 這類 API 封裝通訊協定，以擷取要插入到動作之實際 HTTP 要求中的存取權杖。
 
-當您設定自訂驗證時，可以按一下下方的按鈕，以檢查自訂驗證裝載是否已正確設定。
+當您設定自訂驗證時，可以按一下下方的按鈕，以檢查自訂驗證有效負載是否已正確設定。
 
 ![](../assets/journey29-bis.png)
 
@@ -123,11 +123,11 @@ ht-degree: 93%
 要呼叫的端點定義，用於產生存取權仗：
 
 * 端點：用於產生端點的 URL
-* 端點上的 HTTP 要求方法 (GET 或 POST)
+* 端點上的 HTTP 要求方法（GET 或 POST）
 * 標題：在此呼叫中插入做為標題的金鑰/值配對 (若有需要)
 * 正文：說明方法為 POST 時呼叫的正文。我們支援有限的正文結構，如 bodyParams (金鑰/值配對) 中所定義。bodyType 說明了呼叫內正文的格式和編碼：
-   * &#39;form&#39;：表示內容類型將會是 application/x-www-form-urlencoded (字元集 UTF-8)，而金鑰/值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;：表示內容類型將會是 application/json (字元集 UTF-8)，而金鑰/值配對將會序列化為 JSON 物件，如下所示：_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+   * &#39;form&#39;：表示內容類型將會是 application/x-www-form-urlencoded（字元集 UTF-8），而金鑰/值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
+   * &#39;json&#39;：表示內容類型將會是 application/json（字元集 UTF-8），而金鑰/值配對將會序列化為 JSON 物件，如下所示：_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 存取權杖插入動作之 HTTP 要求必須採用的方法定義：
 
@@ -139,7 +139,7 @@ ht-degree: 93%
 
 * tokenInResponse：表示如何從驗證呼叫中擷取存取權杖。此屬性可以是：
    * &#39;response&#39;：表示 HTTP 回應就是存取權杖
-   * JSON 的選擇器 (假設回應為 JSON，我們不支援 XM 等其他格式)。此選擇器的格式為 _json://&lt;path to the access token property>_。舉例來說，若呼叫的回應是：_{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_，tokenInResponse 將會是：_json: //access_token_
+   * JSON 的選擇器（假設回應為 JSON，我們不支援 XML 等其他格式）。此選擇器的格式為 _json://&lt;path to the access token property>_。舉例來說，若呼叫的回應是：_{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_，tokenInResponse 將會是：_json: //access_token_
 
 此驗證的格式為：
 
@@ -166,7 +166,7 @@ ht-degree: 93%
 }
 ```
 
-您可以變更自訂驗證資料來源的代號快取持續時間。 以下是自訂驗證裝載的範例。 快取持續時間定義在&quot;cacheDuration&quot;參數中。 它指定在快取中生成的標籤的保留期。 設備可以是毫秒、秒、分鐘、小時、天、月、年。
+您可以針對自訂驗證資料來源變更權杖之快取期間的資訊。以下是自訂驗證有效負載的範例。會在　&quot;cacheDuration&quot;　參數中定義快取期間。其會指定快取中產生權杖的保留期間。單位可能是毫秒、秒、分鐘、小時、天、月、年。
 
 ```
 "authentication": {
