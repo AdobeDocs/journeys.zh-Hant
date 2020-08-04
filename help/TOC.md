@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 78%
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 78%
 + 新增功能 {#release-notes}
    + [發行說明](using/release-notes/release-notes.md)
    + [文件更新](using/release-notes/documentation-updates.md)
-+ Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
++ 開始使用 [!DNL Journey Orchestration] {#starting-with-journeys}
    + [關於 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [開始使用](using/about/get-started.md)
    + [使用者介面](using/about/user-interface.md)
@@ -46,8 +46,8 @@ ht-degree: 78%
       + [自訂動作限制](using/action/custom-action-limitations.md)
       + [URL 組態](using/action/url-configuration.md)
       + [定義訊息參數](using/action/defining-the-message-parameters.md)
-+ 使用平台區段 {#configuring-segment}
-   + [關於平台區段](using/segment/about-segments.md)
++ 使用 Platform 區段 {#configuring-segment}
+   + [關於 Platform 區段](using/segment/about-segments.md)
    + [建立區段](using/segment/creating-a-segment.md)
    + [在條件中使用區段](using/segment/using-a-segment.md)
 + 建立歷程 {#building-journeys}
@@ -77,11 +77,11 @@ ht-degree: 78%
    + [發佈歷程](using/building-journeys/publishing-the-journey.md)
    + 使用Adobe Experience Platform分享歷程步驟 {#sharing-journey-steps}
       + [歷程步驟分享概觀](using/building-journeys/sharing-overview.md)
-      + [journeySteps事件常見欄位](using/building-journeys/sharing-common-fields.md)
-      + [journeyStep事件動作執行欄位](using/building-journeys/sharing-execution-fields.md)
-      + [journeyStep事件資料擷取欄位](using/building-journeys/sharing-fetch-fields.md)
-      + [journeyStep事件識別欄位](using/building-journeys/sharing-identity-fields.md)
-      + [旅程欄位](using/building-journeys/sharing-journey-fields.md)
+      + [journeySteps 事件常見欄位](using/building-journeys/sharing-common-fields.md)
+      + [journeyStep 事件動作執行欄位](using/building-journeys/sharing-execution-fields.md)
+      + [journeyStep 事件資料擷取欄位](using/building-journeys/sharing-fetch-fields.md)
+      + [journeyStep 事件識別欄位](using/building-journeys/sharing-identity-fields.md)
+      + [歷程欄位](using/building-journeys/sharing-journey-fields.md)
 + 使用進階運算式編輯器 {#building-advanced-conditions-journeys}
    + [關於進階運算式編輯器](using/expression/expressionadvanced.md)
    + 語法 {#syntax}
@@ -97,7 +97,7 @@ ht-degree: 78%
       + Adobe Experience Platform {#adobe-experience-platform}
          + [getBestSendTime](using/functions/functiongetbestsendtime.md)
          + [inSegment](using/functions/functioninsegment.md)
-      + 聚總 {#aggregation}
+      + 彙總 {#aggregation}
          + [avg](using/functions/functionavg.md)
          + [count](using/functions/functioncount.md)
          + [countOnlyNull](using/functions/functioncountonlynull.md)
@@ -167,9 +167,9 @@ ht-degree: 78%
    + [建立您的歷程報告](using/reporting/creating-your-journey-reports.md)
    + [量度與維度](using/reporting/metrics-and-dimensions.md)
 + 與智慧型服務整合{#use-case-advanced}
-   + [關於AI整合](using/ai-services/ai-services-overview.md)
-   + [運用Journey AI](using/ai-services/leveraging-fatigue-scores.md)
-   + [運用客戶人工智慧](using/ai-services/leveraging-customer-ai.md)
+   + [關於 AI 整合](using/ai-services/ai-services-overview.md)
+   + [善用歷程 AI](using/ai-services/leveraging-fatigue-scores.md)
+   + [善用客戶 AI](using/ai-services/leveraging-customer-ai.md)
 + 使用案例{#use-cases-journeys}
    + 簡單使用案例{#use-case-simple}
       + [關於簡單使用案例](using/usecase/about-the-simple-use-case.md)
@@ -182,9 +182,9 @@ ht-degree: 78%
       + [設定資料來源](using/usecase/configuring-the-data-sources.md)
       + [建立歷程](using/usecase/building-the-journey.md)
 + 使用 API{#working-with-apis}
-   + [設定API上限](using/api/capping.md)
-+ Alpha功能 {#alpha}
-   + [Alpha功能概觀](using/alpha/alpha-overview.md)
+   + [設定 API 上限](using/api/capping.md)
++ Alpha 功能 {#alpha}
+   + [Alpha 功能概觀](using/alpha/alpha-overview.md)
    + [使用者介面](using/alpha/alpha-interface.md)
    + [區段觸發器活動](using/alpha/alpha-segment-trigger.md)
    + [規則型事件](using/alpha/alpha-events.md)
