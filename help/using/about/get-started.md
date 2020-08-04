@@ -12,22 +12,22 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
 
 # 開始使用{#concept_y4b_4qt_52b}
 
-In [!DNL Journey Orchestration], there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. 使用者存取權限可透過產品設定檔和權限進行管理。請參見[](../about/access-management.md)，以瞭解如何設定使用者存取權限。
+[!DNL Journey Orchestration] 中有兩種使用者，每一種都負責執行特定工作，他們分別是&#x200B;**技術使用者**&#x200B;和&#x200B;**業務使用者**。使用者存取權限可透過產品設定檔和權限進行管理。請參閱[](../about/access-management.md)，以瞭解如何設定使用者存取權限。
 
-Here are the main steps to configure and use [!DNL Journey Orchestration]:
+以下是設定和使用 [!DNL Journey Orchestration] 的主要步驟：
 
 1. **設定事件**
 
    您需要定義預期的資訊及其處理方式。此設定是強制性的。此步驟由&#x200B;**技術使用者**&#x200B;執行。
 
-   有關詳細資訊，請參見[](../event/about-events.md)。
+   有關詳細資訊，請參閱[](../event/about-events.md)。
 
    ![](../assets/journey7.png)
 
@@ -35,15 +35,15 @@ Here are the main steps to configure and use [!DNL Journey Orchestration]:
 
    您需要定義系統的連線，以擷取將用於歷程的其他資訊，例如在您的條件中。在布建時也會設定內建的Adobe Experience Platform資料來源。 如果您只會運用歷程中事件的資料，則不需要執行此步驟。此步驟由&#x200B;**技術使用者**&#x200B;執行。
 
-   有關詳細資訊，請參見[](../datasource/about-data-sources.md)。
+   有關詳細資訊，請參閱[](../datasource/about-data-sources.md)。
 
    ![](../assets/journey22.png)
 
 1. **設定動作**
 
-   If you&#39;re using a third-party system to send your messages, you need to configure its connection with [!DNL Journey Orchestration]. 請參見[](../action/about-custom-action-configuration.md)。
+   如果您使用協力廠商系統傳送訊息，需要使用 [!DNL Journey Orchestration] 來設定其連線。請參閱[](../action/about-custom-action-configuration.md)。
 
-   如果您使用 Adobe Campaign Standard 傳送訊息，需要設定內建動作。請參見[](../action/working-with-adobe-campaign.md)。
+   如果您使用 Adobe Campaign Standard 傳送訊息，需要設定內建動作。請參閱[](../action/working-with-adobe-campaign.md)。
 
    這些步驟由&#x200B;**技術使用者**&#x200B;執行。
 
@@ -53,7 +53,7 @@ Here are the main steps to configure and use [!DNL Journey Orchestration]:
 
    結合不同的事件、協調和動作活動，以建立您的多步驟跨管道情境。此步驟由&#x200B;**業務使用者**&#x200B;執行。
 
-   有關詳細資訊，請參見[](../building-journeys/journey.md)。
+   有關詳細資訊，請參閱[](../building-journeys/journey.md)。
 
    ![](../assets/journeyuc2_24.png)
 
@@ -61,7 +61,7 @@ Here are the main steps to configure and use [!DNL Journey Orchestration]:
 
    您需要驗證並啟用歷程。此步驟由&#x200B;**業務使用者**&#x200B;執行。
 
-   有關詳細資訊，請參見[](../building-journeys/testing-the-journey.md)和[](../building-journeys/publishing-the-journey.md)。
+   有關詳細資訊，請參閱[](../building-journeys/testing-the-journey.md)和[](../building-journeys/publishing-the-journey.md)。
 
    ![](../assets/journeyuc2_32bis.png)
 
@@ -69,7 +69,7 @@ Here are the main steps to configure and use [!DNL Journey Orchestration]:
 
    使用專屬的報告製作工具來衡量您歷程的成效。此步驟由&#x200B;**業務使用者**&#x200B;執行。
 
-   有關詳細資訊，請參見[](../reporting/about-journey-reports.md)。
+   有關詳細資訊，請參閱[](../reporting/about-journey-reports.md)。
 
    ![](../assets/dynamic_report_journey_12.png)
 
