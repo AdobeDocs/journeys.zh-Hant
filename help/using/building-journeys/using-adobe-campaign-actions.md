@@ -41,7 +41,7 @@ ht-degree: 4%
 >
 >當我們傳送即時交易訊息(rtEvent)，或當我們透過自訂動作傳送訊息給協力廠商系統時，系統需要特定的設定，才能進行疲勞、區塊清單或取消訂閱管理。 例如，如果「取消訂閱」屬性儲存在Adobe Experience Platform或協力廠商系統中，則必須在傳送訊息前新增條件，才能檢查此條件。
 
-當您選擇範本時，訊息裝載中預期的所有欄位都會顯示在活動設定窗格的 **[!UICONTROL Address]** 和下 **[!UICONTROL Personalization Data]**。 您需要將每個欄位對應至您要使用的欄位，不論是來自事件或來自資料來源。 您也可以使用進階運算式編輯器手動傳遞值、對擷取的資訊執行資料控制（例如將字串轉換為大寫），或使用函式，例如&quot;if, then, else&quot;。 請參見[](../expression/expressionadvanced.md)。
+當您選擇範本時，訊息裝載中預期的所有欄位都會顯示在活動設定窗格的 **[!UICONTROL Address]** 和下 **[!UICONTROL Personalization Data]**。 您需要將每個欄位對應至您要使用的欄位，不論是來自事件或來自資料來源。 您也可以使用進階運算式編輯器手動傳遞值、對擷取的資訊執行資料控制（例如將字串轉換為大寫），或使用函式，例如&quot;if, then, else&quot;。 請參閱[](../expression/expressionadvanced.md)。
 
 ![](../assets/journey60.png)
 
@@ -53,11 +53,11 @@ ht-degree: 4%
 >
 >對於電子郵件，如果您使用設定檔交易範本，取消訂閱機制會由Campaign Standard立即處理。 您只需在范 **[!UICONTROL Unsubscription link]** 本中新增內容區塊(了[解詳情](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html))。 如果您使用事件型範本(rtEvent)，您需要在訊息中新增將該人員的電子郵件傳遞至URL參數並指向取消訂閱登陸頁面的連結。 您必須建立此登陸頁面，並確定該人員取消訂閱的決定已傳送至Adobe。
 
-首先，您需要選擇事務性消息傳遞模板。 請參見[](../building-journeys/about-action-activities.md)。
+首先，您需要選擇事務性消息傳遞模板。 請參閱[](../building-journeys/about-action-activities.md)。
 
 有兩種類別可供使用： **[!UICONTROL Address]** 和 **[!UICONTROL Personalization Data]**。
 
-可以輕鬆定義在何處檢索 **[!UICONTROL Address]** 或使用 **[!UICONTROL Personalization Data]** 介面檢索。 您可以瀏覽事件和可用資料來源的欄位。 您也可以使用進階運算式編輯器，來處理更進階的使用案例，例如使用需要傳遞參數或執行操作的資料來源。 請參見[](../expression/expressionadvanced.md)。
+可以輕鬆定義在何處檢索 **[!UICONTROL Address]** 或使用 **[!UICONTROL Personalization Data]** 介面檢索。 您可以瀏覽事件和可用資料來源的欄位。 您也可以使用進階運算式編輯器，來處理更進階的使用案例，例如使用需要傳遞參數或執行操作的資料來源。 請參閱[](../expression/expressionadvanced.md)。
 
 **[!UICONTROL Address]**
 
@@ -83,7 +83,7 @@ ht-degree: 4%
 
 在使用推播活動之前，您的行動應用程式必須與Campaign Standard一起設定，才能傳送推播通知。 使用本 [文](https://helpx.adobe.com/tw/campaign/kb/integrate-mobile-sdk.html) ，針對行動裝置採取必要的實作步驟。
 
-首先，您必須從下拉式清單和交易式訊息中選擇行動應用程式。 請參見[](../building-journeys/about-action-activities.md)。
+首先，您必須從下拉式清單和交易式訊息中選擇行動應用程式。 請參閱[](../building-journeys/about-action-activities.md)。
 
 ![](../assets/journey62bis.png)
 
