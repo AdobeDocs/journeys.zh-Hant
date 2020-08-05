@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 
-# 運用Journey AI {#concept_dsh_1ry_wfb}
+# 善用歷程 AI {#concept_dsh_1ry_wfb}
 
 此使用案例將告訴您如何運用疲勞分數，以避免在您的歷程中過度招攬客戶。
 
@@ -52,7 +52,7 @@ ht-degree: 6%
 
 在我們的使用案例中，我們運用了此 **[!UICONTROL fatigueLevel]** 欄位。 您也可以使用欄 **[!UICONTROL fatigueScore]** 位。
 
-執行下列步驟，以利用歷程中的疲勞程度：
+執行下列步驟，以運用您歷程中的疲勞程度：
 
 1. 在歷程中新增事件和條件。
 
