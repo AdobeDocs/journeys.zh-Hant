@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 
 您可以使用 [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ，建立區段，也可以直接在中存取和建立區段 [!DNL Journey Orchestration]。
 
-1. 在頂端選單中，按一下「**[!UICONTROL Segments]**」標籤。此時會顯示Adobe Experience Platform區段的清單。 您可以在清單中搜尋特定區段。
+1. 在頂端功能表中，按一下 **[!UICONTROL Segments]** 索引標籤。此時會顯示Adobe Experience Platform區段的清單。 您可以在清單中搜尋特定區段。
 
 ![](../assets/segment1.png)
 
