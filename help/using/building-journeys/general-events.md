@@ -21,6 +21,6 @@ ht-degree: 2%
 
 # 一般事件 {#section_ofg_jss_dgb}
 
-對於此類型的事件，您只能添加標籤和說明。 無法編輯其餘的配置。 由技術使用者執行。 請參見[](../event/about-events.md)。
+對於此類型的事件，您只能添加標籤和說明。 無法編輯其餘的配置。 由技術使用者執行。 請參閱[](../event/about-events.md)。
 
 ![](../assets/general-events.png)
