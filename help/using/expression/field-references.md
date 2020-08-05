@@ -85,9 +85,9 @@ ht-degree: 1%
 
 **資料來源的參數值（資料來源動態值）**
 
-如果您從外部資料來源選取需要呼叫參數的欄位，右側會出現新標籤，讓您指定此參數。 請參見[](../expression/expressionadvanced.md)。
+如果您從外部資料來源選取需要呼叫參數的欄位，右側會出現新標籤，讓您指定此參數。 請參閱[](../expression/expressionadvanced.md)。
 
-對於更複雜的使用案例，如果您想將資料來源的參數包含在主運算式中，則可使用關鍵字參數來定義其 _值_。 參數可以是任何有效的運算式，即使是來自其他資料來源，也包含其他參數。
+For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. 參數可以是任何有效的運算式，即使是來自其他資料來源，也包含其他參數。
 
 >[!NOTE]
 >
