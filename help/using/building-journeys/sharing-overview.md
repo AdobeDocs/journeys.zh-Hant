@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -55,10 +55,10 @@ ht-degree: 0%
 
 傳遞至Adobe Experience Platform的XDM欄位清單詳列如下：
 
-* [journeySteps事件常見欄位](../building-journeys/sharing-common-fields.md)
-* [journeyStep事件動作執行欄位](../building-journeys/sharing-execution-fields.md)
-* [journeyStep事件資料擷取欄位](../building-journeys/sharing-fetch-fields.md)
-* [journeyStep事件識別欄位](../building-journeys/sharing-identity-fields.md)
-* [旅程欄位](../building-journeys/sharing-journey-fields.md)
+* [journeySteps 事件常見欄位](../building-journeys/sharing-common-fields.md)
+* [journeyStep 事件動作執行欄位](../building-journeys/sharing-execution-fields.md)
+* [journeyStep 事件資料擷取欄位](../building-journeys/sharing-fetch-fields.md)
+* [journeyStep 事件識別欄位](../building-journeys/sharing-identity-fields.md)
+* [歷程欄位](../building-journeys/sharing-journey-fields.md)
 
 如需有關向Adobe Experience Platform報告步驟事件的詳細資訊，請觀看本教學課 [程影片](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)。
