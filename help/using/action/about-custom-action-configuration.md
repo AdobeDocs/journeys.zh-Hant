@@ -38,12 +38,12 @@ ht-degree: 12%
 
 1. 將描述新增至您的動作。 此步驟為選填。
 1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
-1. Define the different **[!UICONTROL URL Configuration]** parameters. 請參見[](../action/url-configuration.md)。
-1. 設定區 **[!UICONTROL Authentication]** 段。 此設定與資料來源的設定相同。  請參見[](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
-1. 定義 **[!UICONTROL Message parameters]**。 請參見[](../action/defining-the-message-parameters.md)。
-1. 按一下「**[!UICONTROL Save]**」。
+1. Define the different **[!UICONTROL URL Configuration]** parameters. 請參閱[](../action/url-configuration.md)。
+1. 設定區 **[!UICONTROL Authentication]** 段。 此設定與資料來源的設定相同。  請參閱[](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
+1. 定義 **[!UICONTROL Message parameters]**。 請參閱[](../action/defining-the-message-parameters.md)。
+1. 按一下 **[!UICONTROL Save]**。
 
-   自訂動作現在已設定好，可供您在歷程中使用。 請參見[](../building-journeys/about-action-activities.md)。
+   自訂動作現在已設定好，可供您在歷程中使用。 請參閱[](../building-journeys/about-action-activities.md)。
 
    >[!NOTE]
    >
