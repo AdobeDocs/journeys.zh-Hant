@@ -61,4 +61,4 @@ ht-degree: 2%
 
    ![](../assets/journeyuc2_5.png)
 
-同樣地，請建立「RestaurantBeacon」事件。 您建立了兩個信標事件，現在可用於我們的歷程。 您現在需要設定行動應用程式，以便將預期的負載傳送至串流擷取API端點。 請參見[](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+同樣地，請建立「RestaurantBeacon」事件。 您建立了兩個信標事件，現在可用於我們的歷程。 您現在需要設定行動應用程式，以便將預期的負載傳送至串流擷取API端點。 請參閱[](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
