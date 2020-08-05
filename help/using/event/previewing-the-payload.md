@@ -38,4 +38,4 @@ ht-degree: 6%
 
 1. 勾選預覽以驗證裝載定義。
 
-1. 然後，您可以將裝載預覽共用給負責事件傳送的人員。 此裝載可協助他設計推送至之事件的設定 [!DNL Journey Orchestration]。 請參見[](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+1. 然後，您可以將裝載預覽共用給負責事件傳送的人員。 此裝載可協助他設計推送至之事件的設定 [!DNL Journey Orchestration]。 請參閱[](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
