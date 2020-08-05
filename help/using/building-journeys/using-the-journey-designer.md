@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1335'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 4%
 
 ## 旅程清單 {#journey_list}
 
-The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. 您可以複製、停止或刪除您的歷程。視歷程而定，某些動作可能無法使用。例如，您無法刪除或重新啟動已關閉的歷程。 您可以從中建立新版本、複製或停止。 也可以使用搜尋列來搜尋歷程。
+The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. 您可以複製、停止或刪除您的歷程。視歷程而定，某些動作可能無法使用。例如，您無法刪除或重新開始已關閉的歷程。您可以從中建立新版本、複製或停止。 也可以使用搜尋列來搜尋歷程。
 
-按一下清單左上方的篩選圖示，即可存取&#x200B;**[!UICONTROL Filters]**。「篩選」功能表可讓您根據不同的條件（狀態、您建立的、在過去30天內修改的、僅限最新版本等）來篩選顯示的歷程。 您也可以選擇僅顯示使用特定事件、欄位群組或動作的歷程。 清單上顯示的列可以配置。 所有篩選器和欄都會依使用者儲存。
+按一下清單左上方的篩選圖示，即可存取 **[!UICONTROL Filters]**。「篩選」功能表可讓您根據不同的條件（狀態、您建立的、在過去30天內修改的、僅限最新版本等）來篩選顯示的歷程。 您也可以選擇僅顯示使用特定事件、欄位群組或動作的歷程。 清單上顯示的列可以配置。 所有篩選器和欄都會依使用者儲存。
 
 ![](../assets/journey74.png)
 
-您所有歷程版本的版本都會出現在清單中，並附上版本號碼。 請參見[](../building-journeys/journey-versions.md)。
+您所有歷程版本的版本都會出現在清單中，並附上版本號碼。 請參閱[](../building-journeys/journey-versions.md)。
 
 ![](../assets/journey37.png)
 
@@ -83,7 +83,7 @@ The **[!UICONTROL Show disabled items]** icon in the top left corner allows you 
 
 各種活動（事件、動作、等待）可讓您在其後新增數個路徑。 若要這麼做，請將游標置於活動上，然後按一下&quot;+&quot;符號。 只能同時設定事件和等待活動。 如果同時設定多個事件，則選擇的路徑將是第一個發生的事件。
 
-監聽事件時，建議您不要無限期等待該事件。 這並非強制性的，只是最佳做法。 如果您只想在特定時間內監聽一或多個事件，則會並行放置一或多個事件和等待活動。 請參見[](../building-journeys/event-activities.md#section_vxv_h25_pgb)。
+監聽事件時，建議您不要無限期等待該事件。 這並非強制性的，只是最佳做法。 如果您只想在特定時間內監聽一或多個事件，則會並行放置一或多個事件和等待活動。 請參閱[](../building-journeys/event-activities.md#section_vxv_h25_pgb)。
 
 要刪除路徑，請將游標置於路徑上，然後按一下該 **[!UICONTROL Delete arrow]** 表徵圖。
 
