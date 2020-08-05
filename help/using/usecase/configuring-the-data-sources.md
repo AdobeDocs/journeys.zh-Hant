@@ -57,7 +57,7 @@ ht-degree: 14%
    >
    >基於安全考量，我們強烈建議您使用 HTTPS。
 
-1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。在我們的範例中，我們為類型選擇「基本」，並指定API呼叫的使用者名稱和密碼。
+1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。在我們的範例中，我們為類型選擇「基本」，並指定API呼叫的使用者名稱和密碼。
 
    ![](../assets/journeyuc2_10.png)
 
@@ -65,7 +65,7 @@ ht-degree: 14%
 
    * **[!UICONTROL Method]**：選取 POST 或 GET 方法。在本例中，我們選取 GET 方法。
    * **[!UICONTROL Cache duration]**: 這視API呼叫的頻率而定。 在我們的情況下，訂房系統每10分鐘更新一次。
-   * **[!UICONTROL Response Payload]**: 在欄位內 **[!UICONTROL Payload]** 按一下，然後貼上裝載範例。 確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取裝載範例中包含的所有欄位。在我們的範例中，裝載只包含保留狀態：
+   * **[!UICONTROL Response Payload]**: 在欄位內 **[!UICONTROL Payload]** 按一下，然後貼上裝載範例。 確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。在我們的範例中，裝載只包含保留狀態：
 
    ```
    {
