@@ -19,7 +19,7 @@ ht-degree: 0%
 ---
 
 
-# journeysteps事件常用欄位 {#sharing-common-fields}
+# journeysteps events common fields {#sharing-common-fields}
 
 此混搭將由journeyStepEvent和journeyStepProfileEvent分享。
 
