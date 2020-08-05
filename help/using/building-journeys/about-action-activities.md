@@ -27,7 +27,7 @@ ht-degree: 9%
 
 這些活動代表不同的可用通訊通道。您可以合併這些項目，以建立跨通道藍本。
 
-如果您有Adobe Campaign Standard，則可使用下列現成可用的動作： **[!UICONTROL Email]**、 **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。 請參見[](../building-journeys/using-adobe-campaign-actions.md)。
+如果您有Adobe Campaign Standard，則可使用下列現成可用的動作： **[!UICONTROL Email]**、 **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。 請參閱[](../building-journeys/using-adobe-campaign-actions.md)。
 
 如果您已設定自訂動作，這些動作也會出現在此處(請參 [](../building-journeys/using-custom-actions.md)閱)。
 
@@ -35,4 +35,4 @@ ht-degree: 9%
 
 ![](../assets/journey59bis.png)
 
-當動作或條件發生錯誤時，個別的歷程就會停止。 唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 請參見[](../building-journeys/using-the-journey-designer.md#paths)。
+當動作或條件發生錯誤時，個別的歷程就會停止。 唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 請參閱[](../building-journeys/using-the-journey-designer.md#paths)。
