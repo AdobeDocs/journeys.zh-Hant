@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->建立事件時，會 [!DNL Journey Orchestration] 自動產生此事件的ID。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 請參見[](../event/previewing-the-payload.md)。
+>建立事件時，會 [!DNL Journey Orchestration] 自動產生此事件的ID。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 請參閱[](../event/previewing-the-payload.md)。
 
 要配置要發送到和要用 **[!UICONTROL Streaming Ingestion APIs]** 於的事件， [!DNL Journey Orchestration]您需要執行以下步驟：
 
 1. 從Adobe Experience Platform API取得入口URL(請參閱串 [流擷取API](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/streaming/overview.html))。
-1. 從功能表的裝載預覽複製裝 **[!UICONTROL Event]** 載。 請參見[](../event/defining-the-payload-fields.md)。
+1. 從功能表的裝載預覽複製裝 **[!UICONTROL Event]** 載。 請參閱[](../event/defining-the-payload-fields.md)。
 
 然後，您需要設定資料系統，使用您複製的裝載將事件推送至串流擷取API:
 
@@ -98,4 +98,4 @@ ht-degree: 3%
 
 為方便識別貼上「資料」部分的位置，您可使用JSON視覺化工具，例如 [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-若要疑難排解串流擷取API，請參閱本 [頁](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html)。
+若要疑難排解串流擷取API，請參閱本 [頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/streaming/troubleshooting.html)。
