@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# 運用客戶人工智慧 {#customer-ai}
+# 善用客戶 AI {#customer-ai}
 
 客戶人工智慧是智慧型服務的一部分。 它有助於預測客戶可能做什麼。 請參閱 [檔案](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html)。
 
