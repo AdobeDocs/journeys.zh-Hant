@@ -56,13 +56,13 @@ ht-degree: 1%
 
 ## 自訂等待{#custom}
 
-此選項可讓您使用根據事件或資料來源產生的欄位的進階運算式，來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參見[](../expression/expressionadvanced.md)。有關dateTimeOnly格式的詳細資訊，請參見 [](../expression/data-types.md)。
+此選項可讓您使用根據事件或資料來源產生的欄位的進階運算式，來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱[](../expression/expressionadvanced.md)。有關dateTimeOnly格式的詳細資訊，請參見 [](../expression/data-types.md)。
 
 >[!NOTE]
 >
 >您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如： toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06。
 >
->時 **區是** 您旅程的屬性。 因此，今天無法從介面直接指向完全ISO-8601時間戳記混合時間與時區偏移，例如2016-08-12T09:46:06.982-05。 請參見[](../building-journeys/timezone-management.md)。
+>時 **區是** 您旅程的屬性。 因此，今天無法從介面直接指向完全ISO-8601時間戳記混合時間與時區偏移，例如2016-08-12T09:46:06.982-05。 請參閱[](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 
