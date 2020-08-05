@@ -27,7 +27,7 @@ ht-degree: 0%
 
 以下是提供區段 [!DNL Journey Orchestration] 的可能性：
 
-* 存取Adobe Experience Platform區段清單。 請參閱 [建立區段](../segment/creating-a-segment.md)。
-* 使用區段服務 [!DNL Journey Orchestration] 直接以建立區段的相同方式建立區段。 請參閱 [建立區段](../segment/creating-a-segment.md)。
-* 使用簡單或進階的運算式編輯器，在歷程的條件中運用區段。 請參 [閱在條件中使用區段](../segment/using-a-segment.md)。
+* 存取Adobe Experience Platform區段清單。 See [Creating a segment](../segment/creating-a-segment.md).
+* 使用區段服務 [!DNL Journey Orchestration] 直接以建立區段的相同方式建立區段。 See [Creating a segment](../segment/creating-a-segment.md).
+* 使用簡單或進階的運算式編輯器，在歷程的條件中運用區段。 See [Using segments in conditions](../segment/using-a-segment.md).
 * 將活動 **[!UICONTROL Segment qualification]** 新增至您的歷程，以便聆聽Adobe Experience Platform區段中的個人檔案入口和出口。 請參閱 [事件活動](../building-journeys/segment-qualification-events.md)。
