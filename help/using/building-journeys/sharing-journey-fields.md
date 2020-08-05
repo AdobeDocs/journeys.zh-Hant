@@ -1,6 +1,6 @@
 ---
-title: 旅程欄位
-description: 旅程欄位
+title: 歷程欄位
+description: 歷程欄位
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 
-# 旅程欄位 {#sharing-journey-fields}
+# 歷程欄位 {#sharing-journey-fields}
 
 此混音會用於歷程模式（與journeyStepEvent相關）。 它包含下列欄位：
 
