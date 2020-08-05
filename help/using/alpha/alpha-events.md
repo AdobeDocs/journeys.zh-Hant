@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 8%
 
    ![](../assets/alpha-event1.png)
 
-1. 按一下「**[!UICONTROL Add]**」以建立新事件。事件設定窗格會在畫面右側開啟。
+1. 按一下 **[!UICONTROL Add]** 以建立新事件。事件設定窗格會在畫面右側開啟。
 
    ![](../assets/alpha-event2.png)
 
