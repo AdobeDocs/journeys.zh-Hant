@@ -36,7 +36,7 @@ ht-degree: 5%
 
 ![](../assets/journey47.png)
 
-請注意，歷程設計會對功能產生影響。 在條件後定義多個路徑時，僅會執行第一個符合條件的路徑。 這表示，您可以將路徑置於彼此之上或之下，以改變路徑的優先順序。 例如，如果第一個路徑的條件是「人員是VIP」，而第二個路徑的條件是「人員是男性」。 如果符合兩個條件的人員（男性為VIP）通過此步驟，即使他也符合第二個路徑的資格，也會選擇第一個路徑，因為第一個路徑是「高於」。 若要變更此優先順序，請依另一個垂直順序移動活動。
+請注意，歷程的設計會對功能產生影響。 在條件後定義多個路徑時，僅會執行第一個符合條件的路徑。 這表示，您可以將路徑置於彼此之上或之下，以改變路徑的優先順序。 例如，如果第一個路徑的條件是「人員是VIP」，而第二個路徑的條件是「人員是男性」。 如果符合兩個條件的人員（男性為VIP）通過此步驟，即使他也符合第二個路徑的資格，也會選擇第一個路徑，因為第一個路徑是「高於」。 若要變更此優先順序，請依另一個垂直順序移動活動。
 
 ![](../assets/journey48.png)
 
@@ -54,14 +54,14 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->您無法使用簡單編輯器對時間序列執行查詢（例如購買清單、訊息的點按次數）。 為此，您將需要使用進階編輯器。 請參見[](../expression/expressionadvanced.md)。
+>您無法使用簡單編輯器對時間序列執行查詢（例如購買清單、訊息的點按次數）。 為此，您將需要使用進階編輯器。 請參閱[](../expression/expressionadvanced.md)。
 
 
-當動作或條件發生錯誤時，個別的歷程就會停止。 唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 請參見[](../building-journeys/using-the-journey-designer.md#paths)。
+當動作或條件發生錯誤時，個別的歷程就會停止。 唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 請參閱[](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 資料源條件 {#data_source_condition}
 
-這可讓您根據資料來源的欄位或先前位於歷程中的事件來定義條件。 要瞭解如何使用表達式編輯器，請參見 [](../expression/expressionadvanced.md)。 使用進階運算式編輯器，您可以設定更進階的條件來控制系列，或使用需要傳遞參數的資料來源。 請參見[](../datasource/external-data-sources.md)。
+這可讓您根據資料來源的欄位或先前位於歷程中的事件來定義條件。 要瞭解如何使用表達式編輯器，請參見 [](../expression/expressionadvanced.md)。 使用進階運算式編輯器，您可以設定更進階的條件來控制系列，或使用需要傳遞參數的資料來源。 請參閱[](../datasource/external-data-sources.md)。
 
 ![](../assets/journey50.png)
 
@@ -71,7 +71,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->時區不再是特定於某個條件，現在會在歷程屬性的歷程層級定義。 請參見[](../building-journeys/timezone-management.md)。
+>時區不再是特定於某個條件，現在會在歷程屬性的歷程層級定義。 請參閱[](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey51.png)
 
@@ -92,6 +92,6 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->時區不再是特定於某個條件，現在會在歷程屬性的歷程層級定義。 請參見[](../building-journeys/timezone-management.md)。
+>時區不再是特定於某個條件，現在會在歷程屬性的歷程層級定義。 請參閱[](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey53.png)
