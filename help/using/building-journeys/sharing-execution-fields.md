@@ -1,6 +1,6 @@
 ---
-title: journeyStep事件動作執行欄位
-description: journeyStep事件動作執行欄位
+title: journeyStep 事件動作執行欄位
+description: journeyStep 事件動作執行欄位
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# journeyStep事件動作執行欄位 {#sharing-execution-fields}
+# journeyStep 事件動作執行欄位 {#sharing-execution-fields}
 
 此混搭將由journeyStepEvent和journeyStepProfileEvent分享。
 
