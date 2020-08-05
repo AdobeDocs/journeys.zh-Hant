@@ -35,15 +35,15 @@ ht-degree: 60%
 |-------------|-----------------------|
 | Adobe Experience Platform | [](../functions/functiongetbestsendtime.md) |
 | Adobe Experience Platform | [](../functions/functioninsegment.md) |
-| 聚總 | [](../functions/functionavg.md) |
-| 聚總 | [](../functions/functioncount.md) |
-| 聚總 | [](../functions/functioncountonlynull.md) |
-| 聚總 | [](../functions/functioncountwithnull.md) |
-| 聚總 | [](../functions/functiondistinctcount.md) |
-| 聚總 | [](../functions/functiondistinctcountwithnull.md) |
-| 聚總 | [](../functions/functionmax.md) |
-| 聚總 | [](../functions/functionmin.md) |
-| 聚總 | [](../functions/functionsum.md) |
+| 彙總 | [](../functions/functionavg.md) |
+| 彙總 | [](../functions/functioncount.md) |
+| 彙總 | [](../functions/functioncountonlynull.md) |
+| 彙總 | [](../functions/functioncountwithnull.md) |
+| 彙總 | [](../functions/functiondistinctcount.md) |
+| 彙總 | [](../functions/functiondistinctcountwithnull.md) |
+| 彙總 | [](../functions/functionmax.md) |
+| 彙總 | [](../functions/functionmin.md) |
+| 彙總 | [](../functions/functionsum.md) |
 | 轉換 | [](../functions/functiontobool.md) |
 | 轉換 | [](../functions/functiontodatetime.md) |
 | 轉換 | [](../functions/functiontodatetimeonly.md) |
