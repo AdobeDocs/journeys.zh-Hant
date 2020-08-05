@@ -57,4 +57,4 @@ ht-degree: 2%
 
    ![](../assets/journeyuc1_7.png)
 
-   該活動已準備好供您的旅程使用。 您現在需要設定行動應用程式，以便將預期的負載傳送至串流擷取API端點。 請參見[](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   該活動已準備好供您的旅程使用。 您現在需要設定行動應用程式，以便將預期的負載傳送至串流擷取API端點。 請參閱[](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
