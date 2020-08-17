@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: ae0fb0a8560bbb00ed5be47abf7f42bae5015a7c
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '210'
 ht-degree: 3%
 
 ---
@@ -25,12 +25,13 @@ ht-degree: 3%
 
 在區 **[!UICONTROL Message parameters]** 段中，貼上JSON裝載的範例以傳送至外部服務。
 
-
 ![](../assets/customactionpayloadmessage.png)
 
-您可以定義參數類型是否正確(例如： 字串、整數等)。
+您可以定義參數類型(例如：字串、整數等)。
 
-您也可以選擇指定參數為常數或變數：
+您也可以選擇指定參數是常數還是變數：
 
 * 常數表示參數的值由技術人員在動作配置窗格中定義。 各個旅程的值一律相同。 在歷程中使用自訂動作時，不會有任何變化，行銷人員也不會看到。 例如，可能是協力廠商系統所預期的ID。 在這種情況下，切換常數／變數右側的欄位是傳遞的值。
 * 變數表示參數的值會有所不同。 在歷程中使用此自訂動作的行銷人員可自由傳遞所需值，或指定從何處擷取此參數值（例如從事件、從Adobe Experience Platform等）。 在這種情況下，切換常數／變數右側的欄位是行銷人員在命名此參數的歷程中所看到的標籤。
+
+![](../assets/customactionpayloadmessage2.png)
