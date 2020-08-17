@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
+source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 88%
+source-wordcount: '771'
+ht-degree: 80%
 
 ---
 
@@ -23,12 +23,18 @@ ht-degree: 88%
 
 本頁面列出 [!DNL Journey Orchestration] 的所有文件更新。您也可以參閱[!DNL Journey Orchestration][發行說明](../release-notes/release-notes.md)。
 
+## 2020 年 8 月{#august-2020}
+
+* 已新增有關如何排序及選擇要在區段清單中顯示的欄的資訊。 [顯示全文](../building-journeys/segment-qualification-events.md)
+* 已新增在選取區段後如何複製區段名稱和ID的資訊。 [顯示全文](../building-journeys/segment-qualification-events.md)
+* Experience Platform的發生情況已在不同頁面上協調一致。
+
 ## 2020 年 7 月{#july-2020}
 
-* 已新增連結至新的教學課程影片，說明Adobe Experience Platform的步驟事件報告。 [詳細內容](../building-journeys/sharing-overview.md)
-* 事件活動區段已重新組織為每種事件類型的專屬子區段。 [詳細內容](../building-journeys/event-activities.md)
-* 已新增最佳實務，以避免區段品質過載。 [詳細內容](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* 已新增附註，說明如何在動作或條件發生錯誤後讓旅程繼續。 [詳細內容](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* 已新增連結至新的教學課程影片，說明Adobe Experience Platform的步驟事件報告。 [顯示全文](../building-journeys/sharing-overview.md)
+* 事件活動區段已重新組織為每種事件類型的專屬子區段。 [顯示全文](../building-journeys/event-activities.md)
+* 已新增最佳實務，以避免區段品質過載。 [顯示全文](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* 已新增附註，說明如何在動作或條件發生錯誤後讓旅程繼續。 [顯示全文](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 已新增 Alpha 功能的區段，這些功能會在有限的客戶群中進行測試。[詳細內容](../alpha/alpha-overview.md)
 * 已新增與智慧型服務整合的區段。[詳細內容](../ai-services/ai-services-overview.md)
 * 已新增測試設定檔建立的區段。[詳細內容](../building-journeys/testing-the-journey.md#create-test-profile)
@@ -80,7 +86,7 @@ ht-degree: 88%
 
 * 已更新所有螢幕擷取畫面以反映介面的變更。
 * 已更新測試模式章節。[詳細內容](../building-journeys/testing-the-journey.md)
-* 已在[電子郵件傳送時間最佳化](../building-journeys/wait-activity.md)和[可預測的疲勞分數](../ai-services/leveraging-fatigue-scores.md)章節新增警告。這些功能僅適用於使用 Adobe Campaign Standard 資料服務功能的客戶。
+* 已在[電子郵件傳送時間最佳化](../building-journeys/wait-activity.md)和[可預測的疲勞分數](../ai-services/leveraging-fatigue-scores.md)章節新增警告。這些功能僅適用於使用 [Adobe Experience Platform Data Connector的客戶](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)。
 * 現在可刪除已停止的歷程。已更新相關文件頁面。
 * 在歷程中偵測到問題時，現在會顯示兩種顏色。紅色代表錯誤，橘色代表警告。[詳細內容](../about/troubleshooting.md)
 * 已更新進階運算式編輯器章節。[詳細內容](../expression/expressionadvanced.md)。
