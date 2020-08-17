@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
 workflow-type: tm+mt
 source-wordcount: '1107'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 85%
 <td>
 <p>已進行下列Adobe Experience Platform整合增強：</p>
 <ul>
-<li><p>新活動可讓您監聽Adobe Experience Platform區段的入口／出口，讓人們在旅程中進入或前進。 <a href="../building-journeys/segment-qualification-events.md">詳細內容</a></p>
+<li><p>新活動可讓您監聽Adobe Experience Platform區段的入口／出口，讓人們在旅程中進入或前進。 <a href="../building-journeys/segment-qualification-events.md">顯示全文</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">詳細內容</a></p>
+<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">顯示全文</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>在簡單運算式編輯器中，Adobe Experience Platform區段現在會直接列在導覽樹狀結構中，以方便設定條件，例如「此人是否屬於區段A?」。<a href="../segment/using-a-segment.md">詳細內容</a></p>
+<li><p>在簡單運算式編輯器中，Adobe Experience Platform區段現在會直接列在導覽樹狀結構中，以方便設定條件，例如「此人是否屬於區段A?」。<a href="../segment/using-a-segment.md">顯示全文</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>Journey Orchestration現在會自動傳遞至Adobe Experience Platform，讓您在歷程中執行的步驟。 這包含可能發生的錯誤。可藉由針對特定歷程或所有歷程的 Journey Step 事件執行查詢，而將此資訊用於實現報告及疑難排解。<a href="../building-journeys/sharing-overview.md">詳細內容</a></p>
@@ -181,7 +181,7 @@ Journey Orchestration　介面提供日文版。
 
 **其他改善項目**
 
-* 除了美國以外，Journeys Orchestration 現在已於&#x200B;**歐洲、中東及非洲**&#x200B;推出。應用程式和文件提供法文版和德文版。
+* In addition to US, Journey Orchestration is now available in **EMEA**. 應用程式和文件提供法文版和德文版。
 
 * Experience League 現在已整合至產品中。這可簡化對相關內容的存取，並協助您充分運用 Experience Cloud 的功能。可在 Help 索引標籤底部直接存取 Journey Orchestration 文件。此外，按一下 Help > Feedback 即可報告問題，或與 Adobe 分享您的想法。
 
