@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '245'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->預測性疲勞分數功能僅適用於使用Adobe Campaign標準資料服務功能的客戶。
+>預測性疲勞分數功能僅適用於使用 [Adobe Experience Platform Data Connector的客戶](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)。
 
 ## 設定事件 {#section_ptb_ws1_ffb}
 
@@ -62,7 +62,7 @@ ht-degree: 7%
 
    ![](../assets/journeyuc3_2.png)
 
-1. 使用簡單的運算式編輯器，尋找欄位( **[!UICONTROL fatigueLevel]**_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_)，將它拖曳至右側並建立下列條件： &quot;fatigueLevel等於&quot;Low&quot;。 按一下 **[!UICONTROL Ok]**。
+1. 使用簡單的運算式編輯器，尋找欄位( **[!UICONTROL fatigueLevel]**_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_)，將它拖曳至右側並建立下列條件：&quot;fatigueLevel等於&quot;Low&quot;。 按一下 **[!UICONTROL Ok]**。
 
    ![](../assets/journeyuc3_3.png)
 
