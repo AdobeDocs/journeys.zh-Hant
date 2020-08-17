@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78c486c3e43b0bbda666afba9cf36ba34b362a03
+source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,17 @@ ht-degree: 0%
 
 1. 按一下欄 **[!UICONTROL Segment]** 位並選取您要運用的區段。
 
+   >[!NOTE]
+   >
+   >請注意，您可以自訂清單中顯示的欄，並加以排序。
+
    ![](../assets/segment6.png)
+
+   新增區段後，按鈕 **[!UICONTROL Copy]** 可讓您複製其名稱和ID:
+
+   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-copy.png)
 
 1. 在欄位 **[!UICONTROL Behavior]** 中，選擇您要監聽區段入口、出口或兩者。
 
@@ -59,7 +69,7 @@ ht-degree: 0%
 
 ![](../assets/segment8.png)
 
-## 區段的最佳實務 {#best-practices-segments}
+## 最佳實務{#best-practices-segments}
 
 本活 **[!UICONTROL Segment Qualification]** 動可讓符合資格或被Adobe Experience Platform區段取消資格的個人在旅程中立即進入。
 
