@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 10c6406adb1473dcd150b43b5b5c8b178376f3ed
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ ht-degree: 0%
 
 ## 存取功 [!DNL Journey Orchestration] 能 {#accessing-journey-orchestration-functionalities}
 
+左側的功能表列可讓您存取不同的功能。 按一下圖示以存取對應的功能表。 您可以按一下左下方的箭頭，展開或收合功能表列。
+
+![](../assets/interface-journeys2.png)
+
 當您存取時， [!DNL Journey Orchestration]會顯 **[!UICONTROL Journeys]** 示功能表，讓您存取現有的歷程或建立新歷程。 See [Using the journey designer](../building-journeys/using-the-journey-designer.md).
 
 ![](../assets/interface-journeys.png)
@@ -43,3 +47,4 @@ ht-degree: 0%
 此功 **[!UICONTROL Admin]** 能表可供擁有管理員權限的所有使用者使用(請參閱 [存取管理](../about/access-management.md))。 它提供控制面板，可讓您設定 [資料來源](../datasource/about-data-sources.md)[、事件](../event/about-events.md)[和動作](../action/action.md)。
 
 ![](../assets/interface-admin-dashboard.png)
+
