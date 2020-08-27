@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Journey Orchestration 說明
 index: true
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '378'
 ht-degree: 95%
 
 ---
@@ -95,7 +95,6 @@ ht-degree: 95%
    + 函式 {#main-functions-journey}
       + [主要函式](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
-         + [getBestSendTime](using/functions/functiongetbestsendtime.md)
          + [inSegment](using/functions/functioninsegment.md)
       + 彙總 {#aggregation}
          + [avg](using/functions/functionavg.md)
@@ -168,7 +167,6 @@ ht-degree: 95%
    + [量度與維度](using/reporting/metrics-and-dimensions.md)
 + 與智慧型服務整合{#use-case-advanced}
    + [關於 AI 整合](using/ai-services/ai-services-overview.md)
-   + [善用歷程 AI](using/ai-services/leveraging-fatigue-scores.md)
    + [善用客戶 AI](using/ai-services/leveraging-customer-ai.md)
 + 使用案例{#use-cases-journeys}
    + 簡單使用案例{#use-case-simple}
