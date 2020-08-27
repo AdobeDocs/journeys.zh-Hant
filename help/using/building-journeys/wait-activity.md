@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
+source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 1%
+source-wordcount: '377'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,8 @@ ht-degree: 1%
 * [持續時間](#duration)
 * [固定日期](#fixed_date)
 * [自訂](#custom)
-* [電子郵件傳送時間最佳化](#email_send_time_optimization)
+
+<!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## 關於等待活動{#about_wait}
 
@@ -62,30 +63,30 @@ ht-degree: 1%
 >
 >您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06。
 >
->時 **區是** 您旅程的屬性。 因此，今天無法從介面直接指向完全ISO-8601時間戳記混合時間與時區偏移，例如2016-08-12T09:46:06.982-05。 請參閱[](../building-journeys/timezone-management.md)。
+>您 **的旅程** ，時區是必要的。 因此，今天無法從介面直接指向完全ISO-8601時間戳記混合時間與時區偏移，例如2016-08-12T09:46:06.982-05。 請參閱[](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 
-## 電子郵件傳送時間最佳化{#email_send_time_optimization}
+<!--## Email send time optimization{#email_send_time_optimization}
 
 >[!CAUTION]
 >
->電子郵件傳送時間最佳化功能僅適用於使用 [Adobe Experience Platform Data Connector的客戶](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)。
+>The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
-此類等待會使用在Adobe Experience Platform中計算的分數。 分數會根據過去的行為，計算日後點按或開啟電子郵件的傾向。 請注意，計算分數的演算法需要一定數量的資料才能運作。 因此，當資料不足時，將會套用預設等待時間。 在出版時，將會通知您預設時間已套用。
+This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
 >[!NOTE]
 >
->您旅程的第一個事件必須有命名空間。
+>The first event of your journey must have a namespace.
 >
->此功能僅在活動後才可 **[!UICONTROL Email]** 用。 您必須擁有Adobe Campaign Standard。
+>This capability is only available after an **[!UICONTROL Email]** activity. You need to have Adobe Campaign Standard.
 
-1. 在欄位 **[!UICONTROL Amount of time]** 中，定義要考慮最佳化電子郵件傳送的小時數。
-1. 在欄位中 **[!UICONTROL Optimization type]** ，選擇最佳化應增加點按還是開啟。
-1. 在欄位 **[!UICONTROL Default time]** 中，定義預測性傳送時間分數不可用時的預設等待時間。
+1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
+1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
+1. In the **[!UICONTROL Default time]** field, define the default time to wait if the predictive send time score is not available.
 
-   >[!NOTE]
-   >
-   >請注意，傳送時間分數可能無法使用，因為沒有足夠的資料來執行計算。 在此情況下，您會在發佈時收到預設時間的通知。
+    >[!NOTE]
+    >
+    >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)
+![](../assets/journey57bis.png)-->
