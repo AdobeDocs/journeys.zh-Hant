@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Journey Orchestration 說明
 index: true
 translation-type: tm+mt
-source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
+source-git-commit: 8a9c6e4f70ff88e60a85caff5e18a05070cf3f93
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 95%
@@ -184,6 +184,6 @@ ht-degree: 95%
 + Alpha 功能 {#alpha}
    + [Alpha 功能概觀](using/alpha/alpha-overview.md)
    + [使用者介面](using/alpha/alpha-interface.md)
-   + [區段觸發器活動](using/alpha/alpha-segment-trigger.md)
+   + [閱讀區段活動](using/alpha/alpha-segment-trigger.md)
    + [規則型事件](using/alpha/alpha-events.md)
 
