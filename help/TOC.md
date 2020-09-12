@@ -1,18 +1,18 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Journey Orchestration 說明
+user-guide-title: 歷程協調指南
 index: true
 translation-type: tm+mt
-source-git-commit: 8a9c6e4f70ff88e60a85caff5e18a05070cf3f93
+source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
 
-# [!DNL Journey Orchestration] 說明 {#using}
+# [!DNL Journey Orchestration] 指南 {#using}
 
 + [產品文件](journey-orchestration-home.md)
 + 新增功能 {#release-notes}
