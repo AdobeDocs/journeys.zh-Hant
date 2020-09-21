@@ -1,13 +1,13 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: 歷程協調指南
+user-guide-title: Journey Orchestration 指南
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 94%
          + [使用自訂動作](using/building-journeys/using-custom-actions.md)
    + [測試歷程](using/building-journeys/testing-the-journey.md)
    + [發佈歷程](using/building-journeys/publishing-the-journey.md)
-   + 使用Adobe Experience Platform分享歷程步驟 {#sharing-journey-steps}
+   + 使用 Adobe Experience Platform 分享歷程步驟 {#sharing-journey-steps}
       + [歷程步驟分享概觀](using/building-journeys/sharing-overview.md)
       + [journeySteps 事件常見欄位](using/building-journeys/sharing-common-fields.md)
       + [journeyStep 事件動作執行欄位](using/building-journeys/sharing-execution-fields.md)
