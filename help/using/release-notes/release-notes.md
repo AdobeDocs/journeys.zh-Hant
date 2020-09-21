@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1527'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 63%
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱[文件更新](../release-notes/documentation-updates.md)。
 
-## 2020年8月發行 {#august-release}
+## 2020 年 8 月發行 {#august-release}
 
-### GA更新{#august-ga-update}
+### GA 更新{#august-ga-update}
 
-「區段資格」事件的裝載現在包含下列上下文資訊，您可在條件和動作中使用：行為（入口、出口）、資格的時間戳記和區段ID。 [顯示全文](../building-journeys/segment-qualification-events.md)
+「區段資格」事件的裝載現在包含下列內容資訊，您可在條件和動作中使用：行為（入口、出口）、資格的時間戳記及區段 ID。[顯示全文](../building-journeys/segment-qualification-events.md)
 
-### Alpha更新{#august-alpha-update}
+### Alpha 更新{#august-alpha-update}
 
-若要探索Alpha的範圍，請參閱本 [節](../alpha/alpha-overview.md)。
+若要探索 Alpha 的範圍，請參閱本[節](../alpha/alpha-overview.md)。
 
 <table>
 <thead>
@@ -43,14 +43,14 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>「區段觸發器」活動已進行下列改良：
+<p>已對「區段觸發器」活動進行下列改良：
 </p>
 <ul>
-<li><p>活動的名稱已變更為「讀取區段」。 </p>
+<li><p>活動的名稱已變更為「閱讀區段」。 </p>
 </li>
-<li><p>歷程排程器的設定已從活動屬性中移除。 現在可直接從「歷程」的屬性存取，在專用區段中，當「讀取區段」活動已拖放至畫布中時，就會顯示。 </p>
+<li><p>已從活動屬性移除歷程排程器的設定。現在可直接從「歷程」的屬性存取，在專用區段中，將「閱讀區段」活動拖曳至畫布時，其就會顯示。 </p>
 </li>
-<li><p>您現在可以在單一描述檔上測試旅程，並使用視覺流量追蹤旅程的進度。</p>
+<li><p>您現在可以在單一設定檔上測試歷程，並使用視覺流量追蹤歷程的進度。</p>
 </li>
 </ul>
 <p>如需詳細資訊，請參閱<a href="../alpha/alpha-segment-trigger.md">相關的文件</a>，以瞭解詳情。</p>
@@ -71,11 +71,11 @@ ht-degree: 63%
 <p>已對規則型事件進行下列改良：
 </p>
 <ul>
-<li><p>您現在可以運用您已擷取並串流至平台的所有Adobe Analytics行為事件資料，以觸發歷程並自動化客戶體驗。 <a href="../alpha/alpha-events.md#analytics-data">顯示全文</a></p>
+<li><p>您現在可以運用您已擷取並串流至 Platform 的所有 Adobe Analytics 行為事件資料，以觸發歷程並自動化客戶體驗。<a href="../alpha/alpha-events.md#analytics-data">顯示全文</a></p>
 </li>
-<li><p>在測試模式中觸發規則型事件時，您現在可以直接檢視事件ID條件。 此外，規則評估的每個欄位旁已新增工具提示。 <a href="../alpha/alpha-events.md#configuring-rule-based">顯示全文</a></p>
+<li><p>在測試模式中觸發規則型事件時，您現在可以直接檢視事件 ID 條件。此外，規則評估的每個欄位旁都已新增工具提示。<a href="../alpha/alpha-events.md#configuring-rule-based">顯示全文</a></p>
 </li>
-<li><p>規則型事件定義畫面已重新整理，以改善體驗。 <a href="../alpha/alpha-events.md#test-rule-based">顯示全文</a></p>
+<li><p>規則型事件定義畫面已重新整理，進而改善體驗。<a href="../alpha/alpha-events.md#test-rule-based">顯示全文</a></p>
 </li>
 </ul>
 </td>
@@ -83,11 +83,11 @@ ht-degree: 63%
 </tbody>
 </table>
 
-## Alpha版- 2020年7月 {#alpha-release---july-2020}
+## Alpha 版- 2020 年 7 月 {#alpha-release---july-2020}
 
-Alpha計畫提供目前在有限客戶群中進行測試的功能。 這可讓我們根據收到的意見回饋，來改進產品。 並非所有Journey Orchestration客戶都能使用這些功能。
+Alpha 方案提供目前在有限客戶群中進行測試的功能。這可讓我們根據收到的意見回饋來改良產品。並非所有 Journey Orchestration 客戶都能使用這些功能。
 
-這些功能在專屬章節中 [說明](../alpha/alpha-overview.md)。
+這些功能會在專屬章節中[說明](../alpha/alpha-overview.md)。
 
 <table>
 <thead>
@@ -98,12 +98,12 @@ Alpha計畫提供目前在有限客戶群中進行測試的功能。 這可讓�
 <tbody>
 <tr>
 <td>
-<p>「歷程協調」功能表中的導覽已增強，以提供與Adobe Experience Platform一致的介面：
+<p>為了提供與 Adobe Experience Platform 一致的介面，已增強 Journey Orchestration 功能表中的導覽功能：
 </p>
 <ul>
-<li><p>功能表從介面的上方移至左側。 </p>
+<li><p>已將功能表從介面的上方移至左側。 </p>
 </li>
-<li><p>將管理功能分組為單一儀表板。</p>
+<li><p>將管理功能分組至單一儀表板。</p>
 </li>
 </ul>
 <p>如需詳細資訊，請參閱<a href="../alpha/alpha-interface.md">相關的文件</a>，以瞭解詳情。</p>
@@ -121,7 +121,7 @@ Alpha計畫提供目前在有限客戶群中進行測試的功能。 這可讓�
 <tbody>
 <tr>
 <td>
-<p>「區段觸發」活動可讓您讓屬於Adobe Experience Platform區段的所有個人進入歷程。 進入旅程可以執行一次，也可以定期執行。 <a href="../alpha/alpha-segment-trigger.md">顯示全文</a>
+<p>「區段觸發」活動可讓您將屬於 Adobe Experience Platform 區段的所有個人進入歷程。進入歷程可以執行一次，也可以定期執行。<a href="../alpha/alpha-segment-trigger.md">顯示全文</a>
 </p>
 </td>
 </tr>
@@ -137,7 +137,7 @@ Alpha計畫提供目前在有限客戶群中進行測試的功能。 這可讓�
 <tbody>
 <tr>
 <td>
-<p>我們已簡化您設定「體驗」活動的方式。 我們將推出不需要使用eventID的新方法。 當您在「歷程協調」中設定活動時，現在可以定義規則型活動。 <a href="../alpha/alpha-events.md">顯示全文</a>
+<p>我們已簡化設定 Experience 事件的方式。我們將推出不需要使用 eventID 的新方法。當您在 Journey Orchestration 中設定事件時，現在可以定義規則型活動。<a href="../alpha/alpha-events.md">顯示全文</a>
 </p>
 </td>
 </tr>
@@ -156,21 +156,21 @@ Alpha計畫提供目前在有限客戶群中進行測試的功能。 這可讓�
 <tbody>
 <tr>
 <td>
-<p>已進行下列Adobe Experience Platform整合增強：</p>
+<p>已進行下列 Adobe Experience Platform 整合增強功能：</p>
 <ul>
-<li><p>新活動可讓您監聽Adobe Experience Platform區段的入口／出口，讓人們在旅程中進入或前進。 <a href="../building-journeys/segment-qualification-events.md">顯示全文</a></p>
+<li><p>新活動可監聽 Adobe Experience Platform 區段入口/出口，以便讓人員進入歷程或是在歷程中前進。<a href="../building-journeys/segment-qualification-events.md">顯示全文</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">顯示全文</a></p>
+<li><p>由於新的 <strong>Segments</strong> 索引標籤，現在無需離開 Journey Orchestration 介面，即可建立及編輯 Adobe Experience Platform 區段。<a href="../segment/about-segments.md">顯示全文</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>在簡單運算式編輯器中，Adobe Experience Platform區段現在會直接列在導覽樹狀結構中，以方便設定條件，例如「此人是否屬於區段A?」。<a href="../segment/using-a-segment.md">顯示全文</a></p>
+<li><p>在簡單運算式編輯器中，Adobe Experience Platform 區段現在會直接列在導覽樹狀結構中，以方便設定 "does this person belong to segment A?" 等條件。<a href="../segment/using-a-segment.md">顯示全文</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration現在會自動傳遞至Adobe Experience Platform，讓您在歷程中執行的步驟。 這包含可能發生的錯誤。可藉由針對特定歷程或所有歷程的 Journey Step 事件執行查詢，而將此資訊用於實現報告及疑難排解。<a href="../building-journeys/sharing-overview.md">詳細內容</a></p>
+<li><p>Journey Orchestration 現在會自動傳遞至 Adobe Experience Platform，在歷程中執行的步驟。這包含可能發生的錯誤。可藉由針對特定歷程或所有歷程的 Journey Step 事件執行查詢，而將此資訊用於實現報告及疑難排解。<a href="../building-journeys/sharing-overview.md">詳細內容</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>現在，「歷程協調」可以與製作和非製作的Adobe Experience Platform沙盒連接。 請注意，沙箱是測試版功能。<a href="../about/access-management.md#sandboxes">詳細內容</a></p>
+<li><p>現在可將 Journey Orchestration 連線至生產及非生產 Adobe Experience Platform 沙箱。請注意，沙箱是測試版功能。<a href="../about/access-management.md#sandboxes">詳細內容</a></p>
 </li>
 </ul>
 </td>
@@ -251,7 +251,7 @@ Journey Orchestration　介面提供日文版。
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li><strong>「時區」</strong>下拉式清單可讓您選取特定時區。依預設，系統會使用瀏覽器的時區。 </li>
-<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Adobe Experience Platform Profile timezone of the person entering the journey, if available. 否則，系統會使用下拉式清單中定義的時區。此功能與使用沒有命名空間之事件的歷程不相容。</li>
+<li><strong>「設定檔時區」</strong>核取方塊可讓您使用進入歷程之人員的 Adobe Experience Platform 設定檔時區（若有）。否則，系統會使用下拉式清單中定義的時區。此功能與使用沒有命名空間之事件的歷程不相容。</li>
 </ul>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/changing-properties.md#timezone">變更屬性</a>和<a href="../building-journeys/timezone-management.md">時區管理</a>區段。</p>
 </td>
@@ -302,7 +302,7 @@ Journey Orchestration　介面提供日文版。
 
 **其他改善項目**
 
-* In addition to US, Journey Orchestration is now available in **EMEA**. 應用程式和文件提供法文版和德文版。
+* 除了美國以外，Journeys Orchestration 現在已於&#x200B;**歐洲、中東及非洲 (EMEA)**&#x200B;推出。應用程式和文件提供法文版和德文版。
 
 * Experience League 現在已整合至產品中。這可簡化對相關內容的存取，並協助您充分運用 Experience Cloud 的功能。可在 Help 索引標籤底部直接存取 Journey Orchestration 文件。此外，按一下 Help > Feedback 即可報告問題，或與 Adobe 分享您的想法。
 
@@ -310,7 +310,7 @@ Journey Orchestration　介面提供日文版。
 
 * 您現在可以&#x200B;**刪除**&#x200B;已停止的歷程。系統不會再提供與這些已刪除歷程相關聯的報告。
 
-* When browsing through **Adobe Experience Platform fields** (XDM format), you will now see the display name in addition to the field name. 此資訊會從「Experience 資料模型」的結構定義中擷取。當可用時，畫面就會出現替代顯示名稱。這種容易理解的說明在 eVar 欄位中特別有用，可讓您更輕鬆地識別欄位。[詳細內容](../about/user-interface.md#friendly-names-display)
+* 瀏覽 **Adobe Experience Platform 欄位**（XDM 格式）時，您現在除了看到欄位名稱外，還會看到顯示名稱。此資訊會從「Experience 資料模型」的結構定義中擷取。當可用時，畫面就會出現替代顯示名稱。這種容易理解的說明在 eVar 欄位中特別有用，可讓您更輕鬆地識別欄位。[詳細內容](../about/user-interface.md#friendly-names-display)
 
 ## 正式發行 - 2019 年 12 月{#ga-release---december-2019}
 
