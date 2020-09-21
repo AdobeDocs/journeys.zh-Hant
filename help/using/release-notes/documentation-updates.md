@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 83%
 
 ## 2020 年 8 月{#august-2020}
 
-* 已新增有關如何排序及選擇要在區段清單中顯示的欄的資訊。 [顯示全文](../building-journeys/segment-qualification-events.md)
-* 已新增在選取區段後如何複製區段名稱和ID的資訊。 [顯示全文](../building-journeys/segment-qualification-events.md)
-* Experience Platform的發生次數已在不同頁面上協調。
+* 已新增關於如何排序以及選擇要在區段清單中顯示欄的資訊。[顯示全文](../building-journeys/segment-qualification-events.md)
+* 已新增關於在選取區段後如何複製區段名稱及 ID 的資訊。[顯示全文](../building-journeys/segment-qualification-events.md)
+* 已在不同頁面上協調 Experience Platform 的發生次數。
 
 ## 2020 年 7 月{#july-2020}
 
-* 已新增連結至新的教學課程影片，說明Adobe Experience Platform的步驟事件報告。 [顯示全文](../building-journeys/sharing-overview.md)
-* 事件活動區段已重新組織為每種事件類型的專屬子區段。 [顯示全文](../building-journeys/event-activities.md)
-* 已新增最佳實務，以避免區段品質過載。 [顯示全文](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* 已新增附註，說明如何在動作或條件發生錯誤後讓旅程繼續。 [顯示全文](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* 已新增新教學課程影片的連結，其中說明向 Adobe Experience Platform 報告事件的步驟。[顯示全文](../building-journeys/sharing-overview.md)
+* 以針對每種類型的事件，將事件活動區段重新組織到專屬子區段。[顯示全文](../building-journeys/event-activities.md)
+* 已新增最佳實務，以避免區段資格過載。[顯示全文](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* 已新增附註，說明在動作或條件發生錯誤後，如何讓歷程繼續。[顯示全文](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 已新增 Alpha 功能的區段，這些功能會在有限的客戶群中進行測試。[詳細內容](../alpha/alpha-overview.md)
 * 已新增與智慧型服務整合的區段。[詳細內容](../ai-services/ai-services-overview.md)
 * 已新增測試設定檔建立的區段。[詳細內容](../building-journeys/testing-the-journey.md#create-test-profile)
@@ -48,7 +48,7 @@ ht-degree: 83%
 ## 2020 年 6 月 {#june-2020}
 
 * 已新增如何針對自訂驗證資料來源變更權杖的快取期間的資訊。[詳細內容](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-* 以更新螢幕擷取畫面及文字，以反映重新命名 **[!UICONTROL Finished]** 歷程狀態（其已變更為 **[!UICONTROL Closed (no entrance)]**)）。
+* 以更新螢幕擷取畫面及文字，以反映重新命名 **[!UICONTROL Finished]** 歷程狀態（其已變更為 **[!UICONTROL Closed (no entrance)]**)。
 * 已新增如何為介面定義語言的資訊。[詳細內容](../about/user-interface.md)
 * 個人歷程的狀態清單已移至[測試模式記錄](../building-journeys/testing-the-journey.md#viewing_logs)區段。
 
@@ -60,12 +60,12 @@ ht-degree: 83%
 ## 2020 年 3 月{#march-2020}
 
 * 已新增測試記錄區段中 _actionExecutionErrors_ 和 _fetchErrors_ 的參數說明。[詳細內容](../building-journeys/testing-the-journey.md#viewing_logs)
-* 已更新歷程中使用的自訂動作限制。You can also modify the **[!UICONTROL URL]** field and the **[!UICONTROL Authentication]** parameters. [詳細內容](../action/about-custom-action-configuration.md)
+* 已更新歷程中使用的自訂動作限制。您也可以修改 **[!UICONTROL URL]** 欄位和 **[!UICONTROL Authentication]** 參數。[詳細內容](../action/about-custom-action-configuration.md)
 * 已新增內容說明項目。自訂驗證裝載窗格 (在動作和資料來源中) 現已包含連結至此[章節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)的說明圖示。
 * 現在可以停止已關閉的歷程。[詳細內容](../building-journeys/using-the-journey-designer.md)
 * 已重新組織介面說明章節。[詳細內容](../about/user-interface.md)
 * 已將多個事件的觸發條件新增至「測試模式」章節[詳細內容](../building-journeys/testing-the-journey.md#firing_events)
-* 「測試模式」區段已更新，與新參 **[!UICONTROL Wait time in test]** 數有關。 [詳細內容](../building-journeys/testing-the-journey.md)
+* 與新的 **[!UICONTROL Wait time in test]** 參數相關的「測試」模式區段已更新。[詳細內容](../building-journeys/testing-the-journey.md)
 * 已更新「測試記錄」章節的外部呼叫錯誤代碼和回應。[詳細內容](../building-journeys/testing-the-journey.md#viewing_logs)
 * 時區管理現已集中在歷程屬性面板中。詳細內容請見[此處](../building-journeys/changing-properties.md#timezone)和[此處](../building-journeys/timezone-management.md)
 * 已更新「歷程設計器」章節以反映最近的增強功能。[詳細內容](../building-journeys/using-the-journey-designer.md)
