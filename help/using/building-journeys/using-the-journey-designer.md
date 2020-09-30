@@ -11,17 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 27cd94ec9da9e89d62ec8e4f471dab43d2e9e657
 workflow-type: tm+mt
-source-wordcount: '1335'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 使用歷程設計器 {#concept_m1g_5qt_52b}
 
-歷程首頁功能表可讓您檢視 **歷程清單**。 建立新的歷程，或按一下現有的歷程，以開啟歷程設 **計人員的介面**。 設計人員由下列區域組成： 浮動視窗、畫布和活動設定窗格。
+歷程首頁功能表可讓您檢視 **歷程清單**。 建立新的歷程，或按一下現有的歷程，以開啟歷程設 **計人員的介面**。 設計人員由下列區域組成：浮動視窗、畫布和活動設定窗格。
 
 ## 旅程清單 {#journey_list}
 
@@ -41,7 +41,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 ## 浮動視窗 {#palette}
 
-浮 **動視窗** 位於螢幕的左側。 所有可用活動都分為幾類： **[!UICONTROL Events]**、 **[!UICONTROL Orchestration]** 和 **[!UICONTROL Actions]**。 您可以按一下不同類別的名稱，以展開／收合這些類別。 若要在歷程中使用活動，請從浮動視窗拖放到畫布中。 您也可以在下一個步驟中，連按兩下浮動視窗中的活動，將它新增至畫布。 您必須先設定從浮動視窗新增的每個活動，才能發佈歷程。 如果您將活動拖放至畫布中，但未完成其設定，則活動會保留在畫布中，但是紅色警告會指出此活動的設定尚未完成。
+浮 **動視窗** 位於螢幕的左側。 所有可用活動都分為幾類： **[!UICONTROL Events]**、 **[!UICONTROL Orchestration]** 和 **[!UICONTROL Actions]**。 您可以按一下不同類別的名稱，以展開／收合這些類別。 若要在您的歷程中使用活動，請從浮動視窗拖放至畫布中。 您也可以在下一個步驟中，連按兩下浮動視窗中的活動，將它新增至畫布。 您必須先設定從浮動視窗新增的每個活動，才能發佈歷程。 如果您將活動拖放至畫布中，但未完成其設定，則活動會保留在畫布中，但是紅色警告會指出此活動的設定尚未完成。
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ The **[!UICONTROL Show disabled items]** icon in the top left corner allows you 
 
 當您 **在浮動視窗中按一下活動** ，就會顯示活動設定窗格。 填寫必填欄位。 按一下圖 **[!UICONTROL Delete]** 示以刪除活動。 按一下 **[!UICONTROL Cancel]** 以取消修改或 **[!UICONTROL Ok]** 確認。 要刪除活動，還可以選擇一個活動（或多個活動），然後按背空格鍵。 按轉義鍵將關閉活動配置窗格。
 
-在畫布中，您的動作和事件活動會以圖示來表示，其下會顯示事件或動作的名稱。 在活動配置窗格中，可以使用 **[!UICONTROL Label]** 欄位為活動名稱添加尾碼。 這些標籤將協助您將事件和動作的使用情境化，尤其是當您在歷程中多次使用相同的事件或動作時。 您也可以看到您在報表中新增的標 [!DNL Journey Orchestration] 簽。
+在畫布中，您的動作和事件活動會以圖示來表示，其下會顯示事件或動作的名稱。 在活動配置窗格中，可以使用 **[!UICONTROL Label]** 欄位為活動名稱添加尾碼。 這些標籤將協助您將事件和動作的使用情境化，尤其是當您在歷程中多次使用相同的事件或動作時。 您也可以看到您在報表中新增的標 [!DNL Journey Orchestration] 簽。 您也可以為條件活動定義標籤。
 
 ![](../assets/journey59bis.png)
 
