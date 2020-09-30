@@ -3,10 +3,10 @@ keywords: Journeys;home;popular topics
 title: Journey Orchestration 產品文件
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 13cc1fe1b35b570f893b4fc137d002ccf4a1b40c
+source-git-commit: 8d5a2538859d0438d8536c1e359f981d6ac179f0
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 
 * **[設定事件](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>瞭解如何設定您的歷程將監聽的事件。
 
-* **[授與 Journey Orchestration 的存取權](using/about/access-management.md)**<br/>瞭解如何使用產品設定檔和權限來管理使用者的存取權。
-
 * **[探索新增功能](using/release-notes/release-notes.md)**<br/>瞭解最新發行的詳細資訊。
+
+* **[Alpha功能](using/alpha/alpha-overview.md)**<br/>探索目前透過Alpha程式提供的功能。
 
 ## 熱門頁面
 
