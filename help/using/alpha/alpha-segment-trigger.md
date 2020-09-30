@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 967f453145dcf9af0e3efc5d52854d0c5c68c54f
+source-git-commit: b068429a0eb72c585de27faefe51ea2889be28f1
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >如果Adobe Campaign Standard的立即可用動作活動在出版時或測試模式啟動時出現在畫布中，則此歷程會在每秒13個入口處調節。 否則，每秒1000次的行程將被調節。
 
-「閱讀區段」活動可讓您讓屬於Adobe Experience Platform區段的所有個人進入歷程。 進入旅程可以執行一次，也可以定期執行。
+「閱讀區段」活動可讓您讓屬於Adobe Experience Platform區段的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
 
 假設您在Adobe Experience Platform上擁有金級客戶群。 透過「閱讀區段」活動，您可以讓屬於黃金客戶區段的所有個人進入歷程，並讓他們進入個人化歷程，以運用所有歷程功能：條件、計時器、事件、動作。
 
@@ -83,14 +83,20 @@ ht-degree: 0%
 
 ![](../assets/segment-trigger-test-modes.png)
 
-然後，您可以照常設定測試模式。 本節提供如何測試歷程的詳細 [步驟](../building-journeys/testing-the-journey.md)。
+然後，您可以照常設定並執行測試模式。 本節提供如何測試歷程的詳細 [步驟](../building-journeys/testing-the-journey.md)。
 
-請注意，一次使用最多100個描述檔來測試旅程，不允許您使用視覺流來追蹤個人在旅程中的進度。
+在測試執行後，按 **[!UICONTROL Show logs]** 鈕可讓您根據選取的測試選項查看測試結果：
+
+* **[!UICONTROL Single profile at a time]**:測試日誌顯示與使用統一測試模式時相同的資訊。 For more on this, refer to [this section](../building-journeys/testing-the-journey.md#viewing_logs)
+
+* **[!UICONTROL Up to 100 profiles at once]**:測試記錄可讓您追蹤從Adobe Experience Platform匯出區段的進度，以及所有進入歷程的人員的個別進度。
+
+   請注意，一次使用最多100個描述檔來測試旅程，不允許您使用視覺流來追蹤個人在旅程中的進度。
+
+   ![](../assets/read-segment-log.png)
 
 測試成功後，您就可以發佈您的歷程(請參 [閱發佈歷程](../building-journeys/publishing-the-journey.md))。 屬於此區段的個人將在行程屬性區段中指定的日期／時間輸入行程 **[!UICONTROL Scheduler]** 。
 
->[!IMPORTANT]
+>[!NOTE]
 >
->請記住，Adobe Experience Platform區段是每天計算一次(**批次** )或即時計算(串&#x200B;**流** 區段)。
->
->如果選取的區段串流化，屬於此區段的個人可能會即時進入歷程。 如果區段是批次，新符合此區段資格的人員可能會在Adobe Experience Platform上執行區段計算時進入歷程。
+>當執行不再重複的區段型歷程新版本（盡快開始或「一次」開始）時，所有先前進入歷程的個人在您發佈新版本時，將不會重新輸入新版本。 如果您想要允許他們重新進入，您應複製旅程。
