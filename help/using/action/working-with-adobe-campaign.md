@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
+source-git-commit: 4f7cc4da51a93019b5a296003c51d4bee6724498
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,10 +47,11 @@ ht-degree: 2%
    >
    >此測試可驗證：
    >
-   >* 主機為&quot;。campaign.adobe.com&quot;或&quot;。campaign-sandbox.adobe.com&quot;,
-   >* URL以https開頭，
-   >* 與此Adobe Campaign Standard實例關聯的ORG與Journey Orchestration的ORG相同。
-
+   >主機為&quot;。campaign.adobe.com&quot;或&quot;。campaign-sandbox.adobe.com&quot;,
+   >
+   >URL以https開頭，
+   >
+   >與此Adobe Campaign Standard實例關聯的ORG與Journey Orchestration的ORG相同。
 
 在設計您的歷程時，類別中會提供三個動 **[!UICONTROL Action]** 作： **[!UICONTROL Email]**、、 **[!UICONTROL Push]**(請 **[!UICONTROL SMS]** 參 [閱使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-actions.md))。 **Reactions事件** 也可讓您對訊息點按、開啟等做出反應。 (請參 [閱「反應事件](../building-journeys/reaction-events.md)」)。
 
