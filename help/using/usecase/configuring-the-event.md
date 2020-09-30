@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: db16f947e8c885167d289484cc2269dcee3bd646
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,15 +25,13 @@ ht-degree: 2%
 
 有關事件配置的其他資訊，請參閱 [](../event/about-events.md)。
 
-1. 在頂端功能表中，按一下標 **[!UICONTROL Events]** 簽，然後按一 **[!UICONTROL Add]** 下以建立新事件。
+1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
    ![](../assets/journeyuc1_1.png)
 
-1. 我們輸入不含空格或特殊字元的名稱： &quot;SpaBeacon&quot;。
+1. 我們輸入不含空格或特殊字元的名稱：&quot;SpaBeacon&quot;。
 
    ![](../assets/journeyuc1_2.png)
-
-   <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
 
 1. 接著，我們選取架構並定義此事件預期的裝載。 從XDM標準化模型中選取所需欄位。 我們需要Experience Cloud ID來識別即時客戶個人檔案資料庫中的人員： _endUserIDs >體驗> mcid > id_。 系統會自動為此事件產生ID。 此ID會儲存在欄位 **[!UICONTROL eventID]** 中(_體驗>促銷活動>協調> eventID_)。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 在我們的使用案例中，此ID用於識別信標位置。 每次有人走近Spa信標時，就會傳送包含此特定事件ID的事件。 這可讓系統知道觸發事件傳送的信標。
 
@@ -43,7 +41,7 @@ ht-degree: 2%
    >
    >欄位清單會依不同的架構而有所不同。 根據架構定義，某些欄位可能是必填和預選的。
 
-1. 我們需要選擇一個命名空間。 基於架構屬性預選命名空間。 您可以保持預選。 有關名稱空間的詳細資訊，請參見 [](../event/selecting-the-namespace.md)。
+1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。如需命名空間的詳細資訊，請參閱[](../event/selecting-the-namespace.md)。
 
    ![](../assets/journeyuc1_6.png)
 
