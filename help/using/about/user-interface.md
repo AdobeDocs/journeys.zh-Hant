@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
-workflow-type: ht
-source-wordcount: '1010'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 900b956799194e13ee01ca9aef3c786e9c5b04db
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## 存取 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-若要存取 [!DNL Journey Orchestration] 的介面，請按一下右上方的 **[!UICONTROL App Selector]** 圖示，再按一下 **[!UICONTROL Journey Orchestration]** 下方右側的 **[!UICONTROL Experience Platform]**。
+To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right, then click **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
