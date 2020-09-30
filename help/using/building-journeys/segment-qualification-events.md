@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
+source-git-commit: 69427556476b5a51e4557307227433cff25f4856
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,12 @@ ht-degree: 0%
 
 此類事件可定位為旅程的第一步或稍後步驟。
 
-如果區段是使用Adobe Experience Platform的「高頻率觀眾」選項串流，則會即時聆聽入口和出口。 如果區段未串流化，則會在區段計算時考慮入口和出口。
+>[!IMPORTANT]
+>
+>請記住，Adobe Experience Platform區段是使用Adobe Experience Platform的「高頻率觀眾」選項，每天計算一次(**批次區段** )或即時計算一次(串流&#x200B;**區段** )。
+>
+>如果選取的區段串流化，屬於此區段的個人可能會即時進入歷程。 如果區段是批次，新符合此區段資格的人員可能會在Adobe Experience Platform上執行區段計算時進入歷程。
+
 
 1. 展開類 **[!UICONTROL Events]** 別並將活動拖 **[!UICONTROL Segment qualification]** 放到畫布中。
 
