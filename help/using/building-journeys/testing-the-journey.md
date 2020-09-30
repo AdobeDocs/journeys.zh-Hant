@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed0934f141ade1e558131e9fad609844800dd46a
+source-git-commit: 7cac949f2428f29bef1d01122e152429a93d0b1b
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
    ![](../assets/journeyuctest2.png)
 
-1. 如果有任何錯誤，請停用測試模式、修改您的歷程並再次測試。 當測試結果確定時，您就可以發佈您的旅程。 請參閱[](../building-journeys/publishing-the-journey.md)。
+1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。當測試結果確定時，您就可以發佈您的旅程。 請參閱[](../building-journeys/publishing-the-journey.md)。
 
 ## 重要附註 {#important_notes}
 
@@ -169,3 +169,18 @@ curl -X POST \
 * _完成_:個人正處於旅程的盡頭。
 * _錯誤_:由於錯誤，個人在旅途中被停止。
 * _超時_:由於一個步驟花了太多時間，這個人在旅途中被攔住了。
+
+當使用測試模式觸發事件時，會以來源名稱自動產生資料集。
+
+當使用測試模式觸發事件時，會以來源名稱自動產生資料集。
+
+測試模式會自動建立「體驗事件」，並將其傳送至Adobe Experience Platform。 此體驗活動的來源名稱為「歷程協調測試活動」。
+
+若發生多個歷程觸發的多個事件
+
+當從多個歷程傳送多個事件時，會有不同的「結構描述」的情況。 Can n schema map to 1 dataset? 否則，我們將需要多個資料集。
+
+如果體驗事件中未包含目標資料集，則會自動建立和命名這些資料集。 這就是為什麼我們今天看到&quot;自動為旅行者建立資料集&quot;。
+
+我們來源的命名會推動自動建立。 如果我們有多個事件，我們應該串連並讓它成為「歷程協調測試事件——架構名稱」。 這會自動轉為「自動產生的歷程協調測試事件資料集——架構名稱」。
+
