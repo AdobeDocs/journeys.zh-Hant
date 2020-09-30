@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 25d3c3062bca2151faf10d11e9636799c1331f24
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +32,15 @@ ht-degree: 5%
 
 ## 關於條件活動 {#about_condition}
 
+在旅程中使用數個條件時，您可以為每個條件定義標籤，以便更輕鬆地識別。
+
 如果 **[!UICONTROL Add a path]** 要定義幾個條件，請按一下。 對於每個條件，在活動後的畫布中都會新增新路徑。
 
 ![](../assets/journey47.png)
 
-請注意，歷程的設計會對功能產生影響。 在條件後定義多個路徑時，僅會執行第一個符合條件的路徑。 這表示，您可以將路徑置於彼此之上或之下，以改變路徑的優先順序。 例如，如果第一個路徑的條件是「人員是VIP」，而第二個路徑的條件是「人員是男性」。 如果符合兩個條件的人員（男性為VIP）通過此步驟，即使他也符合第二個路徑的資格，也會選擇第一個路徑，因為第一個路徑是「高於」。 若要變更此優先順序，請依另一個垂直順序移動活動。
+請注意，歷程設計會對功能產生影響。 在條件後定義多個路徑時，僅會執行第一個符合條件的路徑。 這表示，您可以將路徑置於彼此之上或之下，以改變路徑的優先順序。
+
+例如，讓我們舉第一個路徑的條件「人是VIP」和第二個路徑的條件「人是男性」的例子。 如果符合兩個條件的人員（男性為VIP）通過此步驟，即使他也符合第二個路徑的資格，也會選擇第一個路徑，因為第一個路徑是「高於」。 若要變更此優先順序，請依另一個垂直順序移動活動。
 
 ![](../assets/journey48.png)
 
@@ -44,8 +48,8 @@ ht-degree: 5%
 
 簡單模式允許您基於欄位的組合執行簡單查詢。 所有可用欄位都會顯示在畫面的左側。 將欄位拖放至主區域。 若要結合不同的元素，請將它們互相互連結，以建立不同的群組和／或群組層級。 然後，您可以選取邏輯運算子來組合同一層級的元素：
 
-* AND: 兩個准則的交集。 只會考慮符合所有准則的元素。
-* 或： 兩個標準的結合。 考慮匹配兩個條件中至少一個的元素。
+* AND:兩個准則的交集。 只會考慮符合所有准則的元素。
+* 或：兩個標準的結合。 考慮匹配兩個條件中至少一個的元素。
 
 ![](../assets/journey64.png)
 
@@ -57,7 +61,7 @@ ht-degree: 5%
 >您無法使用簡單編輯器對時間序列執行查詢（例如購買清單、訊息的點按次數）。 為此，您將需要使用進階編輯器。 請參閱[](../expression/expressionadvanced.md)。
 
 
-當動作或條件發生錯誤時，個別的歷程就會停止。 唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 請參閱[](../building-journeys/using-the-journey-designer.md#paths)。
+當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 資料源條件 {#data_source_condition}
 
