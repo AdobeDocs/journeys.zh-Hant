@@ -11,21 +11,25 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c3b8f2d88646372e69ae4f24a5dbb5d45721c55
+source-git-commit: 9cdaa673dbe9247aa1e9c9aef58cfa003d014786
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 規則型事件{#simplified-events}
 
-我們已簡化您設定「體驗」活動的方式。 我們將推出不需要使用eventID的新方法。 當您在「歷程協調」中設定活動時，現在可以定義規則型活動。
+我們已簡化設定 Experience 事件的方式。我們將推出不需要使用 eventID 的新方法。當您在 Journey Orchestration 中設定事件時，現在可以定義規則型活動。
 
 這種新類型的事件不會產生eventID。 使用簡單運算式編輯器，您現在只需定義規則，系統將使用該規則來識別將觸發您歷程的相關事件。 此規則可以根據事件裝載中可用的任何欄位，例如描述檔位置或新增至描述檔購物車的項目數。
 
 這種新方法對用戶來說大多是透明的。 唯一的變更是事件定義畫面中的新欄位。
+
+>[!CAUTION]
+>
+>會為規則型事件定義上限規則。 它可將歷程處理的合格事件數限制為每分鐘400k。 如需詳細資訊，請洽詢您的Alpha計畫聯絡點。
 
 ## 運用Adobe Analytics資料{#analytics-data}
 
@@ -101,5 +105,5 @@ ht-degree: 5%
 
 ![](../assets/alpha-event8.png)
 
-有關如何使用測試模式的詳細資訊，請參閱 [](../building-journeys/testing-the-journey.md)。
+For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md).
 
