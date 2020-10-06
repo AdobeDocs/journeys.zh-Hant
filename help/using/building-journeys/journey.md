@@ -1,6 +1,6 @@
 ---
 title: 關於建立歷程
-description: 瞭解如何建構歷程
+description: 身為企業使用者，瞭解如何結合活動、協調和行動活動，以建立歷程。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 10%
+source-wordcount: '376'
+ht-degree: 13%
 
 ---
 
@@ -42,7 +42,7 @@ This step is performed by the **business user**. 這是您建立歷程的地方�
 
    ![](../assets/journey31.png)
 
-1. 在右側顯示的設定窗格中編輯歷程的屬性。 請參閱[](../building-journeys/changing-properties.md)。
+1. 在右側顯示的設定窗格中，編輯歷程的屬性。請參閱[](../building-journeys/changing-properties.md)。
 
    ![](../assets/journey32.png)
 
