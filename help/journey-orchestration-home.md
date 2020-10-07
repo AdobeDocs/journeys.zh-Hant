@@ -2,11 +2,11 @@
 keywords: Journeys;home;popular topics
 title: Journey Orchestration 產品文件
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d5a2538859d0438d8536c1e359f981d6ac179f0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '190'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 * **[探索新增功能](using/release-notes/release-notes.md)**<br/>瞭解最新發行的詳細資訊。
 
-* **[Alpha功能](using/alpha/alpha-overview.md)**<br/>探索目前透過Alpha程式提供的功能。
+* **[Alpha功能](using/alpha/alpha-overview.md)**<br/>解當前透過 Alpha 程式提供的功能。
 
 ## 熱門頁面
 
