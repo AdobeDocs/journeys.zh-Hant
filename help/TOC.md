@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -175,7 +175,7 @@ ht-degree: 97%
       + [設定事件](using/usecase/configuring-the-event.md)
       + [設定資料來源](using/usecase/configuring-the-data-source.md)
       + [建立歷程](using/usecase/simple-uc-building-the-journey.md)
-   + Building a cross-channel journey{#use-case-advanced}
+   + 構建跨管道之旅。{#use-case-advanced}
       + [關於進階使用案例](using/usecase/about-the-advanced-use-case.md)
       + [設定事件](using/usecase/configuring-the-events.md)
       + [設定資料來源](using/usecase/configuring-the-data-sources.md)
