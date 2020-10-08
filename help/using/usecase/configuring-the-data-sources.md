@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 14%
@@ -35,7 +33,7 @@ ht-degree: 14%
    * _person > name > lastName_
    * _個人電子郵件>地址_
 
-1. 按一下 **[!UICONTROL Add a New Field Group]**，選擇 **[!UICONTROL Profiles]** 方案，並為我們的條件添加 **「忠誠度成員** 」欄位。 「忠 **誠度成員** 」欄位是自訂欄位，已新增至XDM: &quot;_customer > marlton > loyaltyMember&quot;
+1. 按一下 **[!UICONTROL Add a New Field Group]**，選擇 **[!UICONTROL Profiles]** 方案，並為我們的條件添加 **「忠誠度成員** 」欄位。 「忠 **誠度成員** 」欄位是自訂欄位，已新增至XDM:&quot;_customer > marlton > loyaltyMember&quot;
 
    ![](../assets/journeyuc2_6.png)
 
@@ -64,8 +62,8 @@ ht-degree: 14%
 1. 按一 **[!UICONTROL Add a New Field Group]** 下以定義要擷取的資訊和API參數。 在我們的範例中，只有一個參數(id)，因此我們需要建立一個包含下列資訊的欄位群組：
 
    * **[!UICONTROL Method]**：選取 POST 或 GET 方法。在本例中，我們選取 GET 方法。
-   * **[!UICONTROL Cache duration]**: 這視API呼叫的頻率而定。 在我們的情況下，訂房系統每10分鐘更新一次。
-   * **[!UICONTROL Response Payload]**: 在欄位內 **[!UICONTROL Payload]** 按一下，然後貼上裝載範例。 確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。在我們的範例中，裝載只包含保留狀態：
+   * **[!UICONTROL Cache duration]**:這視API呼叫的頻率而定。 在我們的情況下，訂房系統每10分鐘更新一次。
+   * **[!UICONTROL Response Payload]**:在欄位內 **[!UICONTROL Payload]** 按一下，然後貼上裝載範例。 確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。在我們的範例中，裝載只包含保留狀態：
 
    ```
    {
@@ -73,7 +71,7 @@ ht-degree: 14%
    }
    ```
 
-   * **[!UICONTROL Dynamic Values]**: 在我們的範例中輸入與用來識別每個客戶的索引鍵相對應的參數「id」。 此參數的值將定義在歷程中。
+   * **[!UICONTROL Dynamic Values]**:在我們的範例中輸入與用來識別每個客戶的索引鍵相對應的參數「id」。 此參數的值將定義在歷程中。
 
    ![](../assets/journeyuc2_11.png)
 
