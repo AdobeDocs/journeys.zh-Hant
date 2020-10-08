@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 2%
@@ -21,13 +19,13 @@ ht-degree: 2%
 
 # 歷程版本{#concept_ldc_k55_zgb}
 
-在歷程清單中，所有歷程版本都會以版本號碼顯示。 請參閱[](../building-journeys/using-the-journey-designer.md)。當您搜尋歷程時，最新版本會在首次開啟應用程式時出現在清單頂端。 然後，您可以定義所要的排序方式，應用程式會將其保留為使用者偏好設定。 歷程版本也會顯示在歷程版本介面的上方畫布上。
+在歷程清單中，所有歷程版本都會以版本號碼顯示。 請參閱[](../building-journeys/using-the-journey-designer.md)。當您搜尋歷程時，最新版本會在首次開啟應用程式時出現在清單頂端。 然後，您可以定義所要的排序方式，應用程式會將其保留為使用者偏好設定。 旅程的版本也會顯示在旅程版本介面的頂端，位於畫布的上方。
 
 ![](../assets/journeyversions1.png)
 
 如果您需要修改為即時歷程，則必須建立新的歷程版本。
 
-1. 開啟您即時旅程的最新版本，按一下並 **[!UICONTROL Create a new version]** 確認。
+1. 開啟您的即時旅程最新版本，按一下並 **[!UICONTROL Create a new version]** 確認。
 
    ![](../assets/journeyversions2.png)
 
