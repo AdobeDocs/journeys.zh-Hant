@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 5%
@@ -21,7 +19,7 @@ ht-degree: 5%
 
 # setDays {#setDays}
 
-僅設定日期時間或日期時間的日期。 例如，如果您想要等到當月的某一天，則可強制當天。
+僅設定日期時間或日期時間的日期。 例如，如果您想要等到當月的某一天，則可強制該天。
 
 ## 類別
 
