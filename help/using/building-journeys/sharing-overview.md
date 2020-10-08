@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%
@@ -25,9 +23,9 @@ ht-degree: 7%
 
 例如，您已設定傳送多封電子郵件的歷程。 這項功能可讓您將資料與 [!DNL Journey Orchestration] 下游事件資料結合，例如發生多少轉換、網站上發生多少參與，或在商店中發生多少交易。 旅程資訊可與Adobe Experience Platform上的資料結合，不論是來自其他數位屬性或離線屬性，以提供更全面的效能檢視。
 
-[!DNL Journey Orchestration] 針對個人在歷程中每個步驟，自動將必要的架構和串流建立至Adobe Experience Platform的資料集。 步驟事件對應於在歷程中從一個節點移動到另一個節點的個人。 例如，在具有事件、條件和動作的歷程中，會傳送三個步驟的事件至Adobe Experience Platform。
+[!DNL Journey Orchestration] 自動將個人在歷程中每個步驟的必要架構和串流建立至Adobe Experience Platform的資料集。 步驟事件對應於在歷程中從一個節點移動到另一個節點的個人。 例如，在具有事件、條件和動作的歷程中，會傳送三個步驟的事件至Adobe Experience Platform。
 
-傳遞的XDM欄位清單是完整的。 有些包含系統產生的程式碼，有些則有人類可讀的好記名稱。 範例包括歷程活動的標籤或步驟狀態： 動作逾時或錯誤結束的次數。
+傳遞的XDM欄位清單是完整的。 有些包含系統產生的程式碼，有些則有人類可讀的好記名稱。 範例包括歷程活動的標籤或步驟狀態：動作逾時或錯誤結束的次數。
 
 >[!CAUTION]
 >
