@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 4%
@@ -73,7 +71,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->您無法在個人化資料中傳遞系列。 如果交易式電子郵件或SMS需要收藏集，則無法運作。 另請注意，個人化資料具有預期的格式(例如： 字串、小數等)。 您必須謹慎遵守這些預期格式。
+>您無法在個人化資料中傳遞系列。 如果交易式電子郵件或SMS需要收藏集，則無法運作。 另請注意，個人化資料具有預期的格式(例如：字串、小數等)。 您必須謹慎遵守這些預期格式。
 
 這些是Adobe Campaign Standard訊息所預期的欄位。 這些欄位可用來個人化訊息、套用條件式格式，或選擇特定的訊息變體。
 
@@ -107,6 +105,6 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->您無法在個人化資料中傳遞系列。 如果交易式推播需要系列，它將無法運作。 另請注意，個人化資料具有預期的格式(例如： 字串、小數等)。 您必須謹慎遵守這些預期格式。
+>您無法在個人化資料中傳遞系列。 如果交易式推播期望系列，則無法運作。 另請注意，個人化資料具有預期的格式(例如：字串、小數等)。 您必須謹慎遵守這些預期格式。
 
 這些是Adobe Campaign Standard訊息中使用的交易範本所預期的欄位。 這些欄位可用來個人化您的訊息、套用條件式格式，或選擇特定的訊息變體。
