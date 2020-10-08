@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 5%
@@ -23,7 +21,7 @@ ht-degree: 5%
 
 ## 目的 {#purpose}
 
-我們以一個叫馬爾頓的酒店品牌為例， 在他們的酒店裡，他們把信標設備放在了所有戰略區域附近： 大堂、地板、餐廳、健身房、游泳池等。
+我們以一個叫馬爾頓的酒店品牌為例， 在他們的酒店裡，他們把信標設備放在了所有戰略區域附近：大堂、地板、餐廳、健身房、游泳池等。
 
 >[!NOTE]
 >
@@ -38,7 +36,7 @@ ht-degree: 5%
 * 如果此人不是忠誠會員，我們會寄電子郵件給他以加入忠誠會籍優惠。
 * 如果此人已是忠誠會員，我們會檢查他是否有房間訂房：
    * 如果他沒有，我們會以房費寄推播通知給他。
-   * 如果他有，我們會寄歡迎推播通知給他。 如果他在接下來的6小時內進入餐廳，我們會給他發送一份推播通知，並在一頓餐後打折。
+   * 如果他有，我們會寄歡迎推播通知給他。 如果他在接下來的6小時內進入餐廳，我們會給他發送一份推播通知，並在一餐時給他打折扣。
 
 ![](../assets/journeyuc2_29.png)
 
@@ -50,7 +48,7 @@ ht-degree: 5%
 我們需要設定兩個資料來源的連線(請參 [](../usecase/configuring-the-data-sources.md)閱):
 
 * 內建的Adobe Experience Platform資料來源，可擷取我們兩個條件（忠誠會籍和上次聯絡日期）的資訊以及訊息個人化資訊。
-* 該飯店訂房系統，用以擷取該訂房狀態資訊。
+* 該飯店訂房系統用以擷取該訂房狀態資訊。
 
 ## 先決條件 {#prerequisites}
 
