@@ -8,53 +8,51 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 4%
+ht-degree: 42%
 
 ---
 
 
 # 建立歷程{#concept_eyw_mcy_w2b}
 
-商 **業使用者** ，現在可以建立歷程。 我們的旅程將僅包含一條路徑，其中包含下列活動：
+**商業使用者**&#x200B;現在可以建立歷程。我們的旅程將僅包含一條路徑，其中包含下列活動：
 
-* &quot;SpaBeacon&quot; **[!UICONTROL Event]**: 當一個人走在水療信標附近時，系統會收到一個活動，而旅程將開始。
+* &quot;SpaBeacon&quot; **[!UICONTROL Event]**:當一個人走在水療信標附近時，系統會收到一個活動，而旅程將開始。
 * 檢 **[!UICONTROL Condition]** 查此人是否為女性的活動
 * 活 **[!UICONTROL Email]** 動（使用Adobe Campaign Standard）
 * an **[!UICONTROL End]** activity
 
 >[!NOTE]
 >
->只有在 **[!UICONTROL Push]** 您有 **[!UICONTROL Email]** Adobe Campaign Standard時，浮動視窗才能使用和活動。
+>只有當您具有 Adobe Campaign Standard　時，浮動視窗才能使用　**[!UICONTROL Push]**　及 **[!UICONTROL Email]**　活動。
 
 如需如何建立歷程的詳細資訊，請參閱 [](../building-journeys/journey.md)。
 
-1. 在頂端功能表中，按一下 **[!UICONTROL Home]** 標籤並 **[!UICONTROL Create]** 建立新的歷程。
+1. 在頂端功能表中，按一下 **[!UICONTROL Home]** 索引標籤及 **[!UICONTROL Create]**，以建立新的歷程。
 
    ![](../assets/journey31.png)
 
-1. 在右側顯示的設定窗格中編輯歷程的屬性。 我們將它命名為&quot;Spa之旅&quot;，並設為持續一個月，從12月1日到31日。
+1. 在右側顯示的設定窗格中，編輯歷程的屬性。我們將它命名為&quot;Spa之旅&quot;，並設為持續一個月，從12月1日到31日。
 
    ![](../assets/journeyuc1_8.png)
 
-1. 從浮動視窗拖放「SpaBeacon」事件至畫布，開始設計您的旅程。 您也可以連按兩下浮動視窗中的事件，將它新增至畫布。
+1. 從浮動視窗拖放「SpaBeacon」事件至畫布，開始設計您的旅程。 您也可以連按兩下浮動視窗中的事件，將之新增至畫布。
 
    ![](../assets/journeyuc1_9.png)
 
-1. 現在，我們添加一個條件來檢查此人是否是女性。 將條件活動拖放至您的歷程中。
+1. 現在，我們添加一個條件來檢查此人是否是女性。 將條件活動拖放至歷程中。
 
    ![](../assets/journeyuc1_10.png)
 
-1. 選擇類 **[!UICONTROL Data Source Condition]** 型，然後在欄位中按一 **[!UICONTROL Expression]** 下。 您也可以定義條件標籤，該標籤將顯示在畫布的箭頭上。
+1. 選擇 **[!UICONTROL Data Source Condition]** 類型，然後按一下 **[!UICONTROL Expression]** 欄位。您也可以定義條件標籤，該標籤將顯示在畫布的箭頭上。
 
    ![](../assets/journeyuc1_11.png)
 
-1. 使用簡單的運算式編輯器，尋找性別欄位(_person > geder_)，並將其拖曳至右側，以建立下列條件： &quot;性別等於&quot;女性&quot;。
+1. 使用簡單的運算式編輯器，尋找性別欄位(_person > geder_)，並將其拖曳至右側，以建立下列條件：&quot;性別等於&quot;女性&quot;。
 
    ![](../assets/journeyuc1_12.png)
 
@@ -62,7 +60,7 @@ ht-degree: 4%
 
    ![](../assets/journeyuc1_13.png)
 
-1. 在欄位內按 **[!UICONTROL Email]** 一下，然後從資料來源選取電子郵件地址。
+1. Click inside the **[!UICONTROL Email]** field and select the email address from the data source.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -74,11 +72,11 @@ ht-degree: 4%
 
    ![](../assets/journeyuc1_17.png)
 
-1. 按一下切換 **[!UICONTROL Test]** 並使用測試描述檔測試您的歷程。 如果有任何錯誤，請停用測試模式、修改您的歷程並再次測試。 有關測試模式的詳細資訊，請參閱 [](../building-journeys/testing-the-journey.md)。
+1. 按一下切換 **[!UICONTROL Test]** 並使用測試描述檔測試您的歷程。 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。有關測試模式的詳細資訊，請參閱[](../building-journeys/testing-the-journey.md)。
 
    ![](../assets/journeyuc1_18bis.png)
 
-1. 當測試結果確定時，您可以從右上角的下拉式選單發佈您的旅程。
+1. 當測試結果確定時，您可以從右上角的下拉式功能表發佈您的歷程。
 
    ![](../assets/journeyuc1_18.png)
 
