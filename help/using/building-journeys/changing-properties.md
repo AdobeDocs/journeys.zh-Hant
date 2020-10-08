@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -40,7 +38,7 @@ ht-degree: 0%
 
 授權值介於1到30秒之間。
 
-如果您的旅程對時間很敏感， **[!UICONTROL Timeout and error]** 建議您定義一個非常短的值(例如： 回應人員的即時位置)，因為您無法將動作延遲超過幾秒。 如果您的歷程對時間不太敏感，您可以使用較長的值，為呼叫傳送有效回應的系統提供更多時間。
+如果您的旅程對時間很敏感， **[!UICONTROL Timeout and error]** 建議您定義一個非常短的值(例如：回應人員的即時位置)，因為您無法將動作延遲超過幾秒。 如果您的歷程對時間不太敏感，您可以使用較長的值，為呼叫傳送有效回應的系統提供更多時間。
 
 [!DNL Journey Orchestration] 也使用全域逾時。 請參閱下 [一節](#global_timeout)。
 
@@ -52,7 +50,7 @@ ht-degree: 0%
 >
 >[!DNL Journey Orchestration] 不會直接回應隱私權選擇退出、存取或刪除要求。 不過，全域逾時可確保個人在任何行程中不會停留超過30天。
 
-由於30天的行程逾時，當行程重新進入不允許時，我們無法確保重新進入的封鎖超過30天。 事實上，由於我們刪除了所有有關在他們進入旅程30天後進入旅程的資訊，因此我們無法知道在30天前進入的人。
+由於30天的行程逾時，當行程重新進入不允許時，我們無法確保重新進入的阻擋作用超過30天。 事實上，由於我們刪除了所有有關在他們進入旅程30天後進入旅程的資訊，因此我們無法知道在30天前進入的人。
 
 ## 時區和描述檔時區 {#timezone}
 
