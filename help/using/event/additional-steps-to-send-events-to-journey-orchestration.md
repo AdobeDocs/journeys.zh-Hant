@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 6%
@@ -35,7 +33,7 @@ ht-degree: 6%
 
 1. 設定串流擷取API URL的POST API呼叫（稱為入口網站）。
 1. 使用您從API呼叫 [!DNL Journey Orchestration] 至串流擷取API的內文（「資料區段」）中複製的裝載。 請參閱下方的範例
-1. 確定要在何處取得裝載中所有變數。 範例： 如果事件應傳達地址，貼上的裝載將顯示「地址」: 「字串」。 &quot;string&quot;應由變數取代，變數會自動填入正確值，即要傳送訊息給之人員的電子郵件。 請注意，在裝載預覽中，在區 **[!UICONTROL Header]** 段中，我們會自動填入許多值，以方便您工作。
+1. 確定要在何處取得裝載中所有變數。 範例：如果事件應傳達地址，貼上的裝載將顯示「地址」:「字串」。 &quot;string&quot;應由變數取代，變數會自動填入正確值，即要傳送訊息給之人員的電子郵件。 請注意，在裝載預覽中，在區 **[!UICONTROL Header]** 段中，我們會自動填入許多值，以方便您工作。
 1. 選取「application/json」作為內文類型。
 1. 使用索引鍵&quot;x-gw-ims-org-id&quot;，將您的IMS組織ID傳入頁首。 若為值，請使用您的IMS組織ID(「XXX@AdobeOrg」)。
 
