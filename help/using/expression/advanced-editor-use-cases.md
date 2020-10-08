@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 2%
@@ -29,7 +27,7 @@ ht-degree: 2%
 
 ## 建立體驗事件的條件
 
-進階運算式編輯器是對時間系列執行查詢（例如購買清單或過去點按訊息）的強制性。 此類查詢無法使用簡單編輯器執行。
+進階運算式編輯器是對時間系列執行查詢（例如購買清單或過去點按訊息）的強制性。 不能使用簡單編輯器執行此類查詢。
 
 體驗事件是從Adobe Experience Platform以反向時間順序擷取為系列，因此：
 
@@ -46,7 +44,7 @@ ht-degree: 2%
 
 `In (“addToCart”, #{field reference from experience event})`-->
 
-**此運算式會尋找此使用者在過去7天中指定的所有事件：**
+**此運算式會尋找此使用者在過去7天內指定的所有事件：**
 
 然後，它會選取所有未轉換為completePurchase的購物車事件。
 
@@ -117,7 +115,7 @@ ht-degree: 2%
     .name} == &quot;Arlington&quot;
     &quot;
 
-說明： 這是嚴格的字串比較（區分大小寫），等同於使用勾選的簡單模式 `equal to` 的查 `Is sensitive` 詢。
+說明：這是嚴格的字串比較（區分大小寫），等同於使用勾選的簡單模式 `equal to` 的查 `Is sensitive` 詢。
 
 在進階模式中， `Is sensitive` 取消選取的相同查詢將產生下列運算式：
 
@@ -148,6 +146,6 @@ ht-degree: 2%
     
     &quot;
 
-說明： 此範例使用 `substr` 和函 `lastIndexOf` 數來移除大括弧，此大括弧會括住隨行動應用程式啟動事件傳遞的CRM ID。
+說明：此範例使用 `substr` 和函 `lastIndexOf` 數來移除大括弧，此大括弧會括住隨行動應用程式啟動事件傳遞的CRM ID。
 
 如需如何使用進階運算式編輯器的詳細資訊，請觀看 [此影片](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
