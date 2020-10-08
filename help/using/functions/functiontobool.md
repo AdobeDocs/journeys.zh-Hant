@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 5%
@@ -23,8 +21,8 @@ ht-degree: 5%
 
 根據參數值的類型，將參數值轉換為布爾值。
 
-* 從字串： 嘗試將字串值轉換為布林值，如果字串值為&quot;true&quot;，則從&quot;true&quot;轉換為false
-* 從數值： 如果數值不等於0，則為true；否則為false
+* 從字串：嘗試將字串值轉換為布林值，如果字串值為&quot;true&quot;，則從&quot;true&quot;轉換為false
+* 從數值：如果數值不等於0，則為true；否則為false
 
 ## 類別
 
