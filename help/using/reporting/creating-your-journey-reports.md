@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b87de729f48c4624554eb19b6d418cb3cf70b805
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 2%
@@ -105,11 +103,11 @@ ht-degree: 2%
 
    其組 **[!UICONTROL Column settings]** 成包括：
 
-   * **[!UICONTROL Number]**: 可讓您顯示或隱藏欄中的摘要數字。
-   * **[!UICONTROL Percent]**: 可讓您顯示或隱藏欄中的百分比。
-   * **[!UICONTROL Interpret zero as no value]**: 可讓您在值等於零時顯示或隱藏。
-   * **[!UICONTROL Background]**: 可讓您顯示或隱藏儲存格中的水準進度列。
-   * **[!UICONTROL Include retries]**: 可讓您在結果中包含重試。 這僅適用於 **[!UICONTROL Sent]** 和 **[!UICONTROL Bounces + Errors]**。
+   * **[!UICONTROL Number]**:可讓您顯示或隱藏欄中的摘要數字。
+   * **[!UICONTROL Percent]**:可讓您顯示或隱藏欄中的百分比。
+   * **[!UICONTROL Interpret zero as no value]**:可讓您在值等於零時顯示或隱藏。
+   * **[!UICONTROL Background]**:可讓您顯示或隱藏儲存格中的水準進度列。
+   * **[!UICONTROL Include retries]**:可讓您在結果中包含重試。 這僅適用於 **[!UICONTROL Sent]** 和 **[!UICONTROL Bounces + Errors]**。
 
 1. 選取一或多列，然後按一下圖 **[!UICONTROL Visualize]** 示。 會新增視覺化以反映您選取的列。
 
@@ -129,9 +127,9 @@ ht-degree: 2%
 
    元件表分為三類：
 
-   * **[!UICONTROL Dimensions]**: 從傳送記錄檔取得詳細資訊，例如收件者的瀏覽器或網域，或傳送成功。
-   * **[!UICONTROL Metrics]**: 取得訊息狀態的詳細資訊。 例如，如果傳送訊息，且使用者將其開啟。
-   * **[!UICONTROL Time]**: 設定表格的時段。
+   * **[!UICONTROL Dimensions]**:從傳送記錄檔取得詳細資訊，例如收件者的瀏覽器或網域，或傳送成功。
+   * **[!UICONTROL Metrics]**:取得訊息狀態的詳細資訊。 例如，如果傳送訊息，且使用者將其開啟。
+   * **[!UICONTROL Time]**:設定表格的時段。
 
 1. 在面板中拖放元件，開始篩選資料。
 
@@ -152,13 +150,13 @@ ht-degree: 2%
 
 1. 按一下 **[!UICONTROL Visualization]** 設定按鈕，直接變更圖形類型或圖形上顯示的項目，例如：
 
-   * **[!UICONTROL Percentages]**: 以百分比顯示值。
-   * **[!UICONTROL Anchor Y Axis at Zero]**: 即使值範圍超過零，也強制y軸為零。
-   * **[!UICONTROL Legend visible]**: 可讓您隱藏圖例。
-   * **[!UICONTROL Normalization]**: 強制值相符。
-   * **[!UICONTROL Display Dual Axis]**: 將另一個軸添加到圖形中。
-   * **[!UICONTROL Limit Max Items]**: 限制顯示的圖形數。
-   * **[!UICONTROL Threshold]**: 可讓您設定圖形的臨界值。 它看起來像黑色的虛線。
+   * **[!UICONTROL Percentages]**:以百分比顯示值。
+   * **[!UICONTROL Anchor Y Axis at Zero]**:即使值範圍超過零，也強制y軸為零。
+   * **[!UICONTROL Legend visible]**:可讓您隱藏圖例。
+   * **[!UICONTROL Normalization]**:強制值相符。
+   * **[!UICONTROL Display Dual Axis]**:將另一個軸添加到圖形中。
+   * **[!UICONTROL Limit Max Items]**:限制顯示的圖形數。
+   * **[!UICONTROL Threshold]**:可讓您設定圖形的臨界值。 它看起來像黑色的虛線。
 
    ![](../assets/dynamic_report_visualization_3.png)
 
