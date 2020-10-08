@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 8%
@@ -27,28 +25,28 @@ ht-degree: 8%
 
 主要旅程的ID。
 
-類型： 字串
+類型：字串
 
 ## journeyVersionID
 
 歷程版本的ID。 此ID代表旅程的身分。
 
-類型： 字串
+類型：字串
 
 ## 名稱
 
 旅程的名稱。
 
-類型： 字串
+類型：字串
 
 ## 描述
 
 旅程說明。
 
-類型： 字串
+類型：字串
 
 ## 版本
 
 版本，表示為 `major`。`minor`
 
-類型： 字串
+類型：字串
