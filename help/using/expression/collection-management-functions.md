@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -73,13 +71,13 @@ ht-degree: 1%
 <listExpression>.all(<condition>)
 ```
 
-例如，在所有應用程式使用者中，您都可以取得使用IOS 13的使用者（布林運算式&quot;app used == IOS 13&quot;）。 此函式的結果是包含與布爾表達式匹配的項目的篩選清單(例如： app user 1、app user 34、app user 432)。
+例如，在所有應用程式使用者中，您都可以取得使用IOS 13的使用者（布林運算式&quot;app used == IOS 13&quot;）。 此函式的結果是包含與布爾表達式匹配的項目的篩選清單(例如：app user 1、app user 34、app user 432)。
 
 在「資料來源條件」活動中，您可以檢查函式的結 **[!UICONTROL all]** 果是否為null。 您也可以將此函式與 **[!UICONTROL all]** 其他函式結合，例如 **[!UICONTROL count]**。 如需詳細資訊，請參閱「 [資料來源條件」活動](../building-journeys/condition-activity.md#data_source_condition)。
 
 **範例1:**
 
-我們想檢查使用者是否已安裝特定版本的應用程式。 為此，我們會取得與版本為1.0的行動應用程式相關的所有推播通知Token。 然後，利用函式進行條件檢 **[!UICONTROL count]** 查返回的Token清單是否包含至少一個元素。
+我們想檢查使用者是否已安裝特定版本的應用程式。 為此，我們會取得與版本為1.0的行動應用程式相關的所有推播通知Token。然後，利用函式進行條件檢 **[!UICONTROL count]** 查返回的Token清單是否包含至少一個元素。
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -129,7 +127,7 @@ earlier timestamp) in order to only consider prior events.-->
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
-表達式的結果為 **3**。
+The result of the expression is **3**.
 
 **範例3:**
 
