@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 72a3fd98b7911a1b8f23ccfeb55b884926f795ce
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 4%
@@ -21,7 +19,7 @@ ht-degree: 4%
 
 # 結束歷程
 
-您可 **[!UICONTROL Stop]** 以 **[!UICONTROL Close to new entrances]** 使用和選項來終 **止即時** 歷程。 結束歷程需 **要阻止新客戶進入歷程** ，而且已進入歷程的客戶能夠體驗到最後。 這是結束旅程的最推薦方式，因為它為客戶提供最佳體驗。 旅途的阻止，是指已經踏上旅程的人，都被阻止在進程中。 旅程基本上被關閉了。
+您可 **[!UICONTROL Stop]** 以 **[!UICONTROL Close to new entrances]** 使用和選項來終 **止即時** 歷程。 結束歷程需 **要阻止新客戶進入歷程** ，而且已進入歷程的客戶能夠體驗到最終過程。 這是結束旅程的最推薦方式，因為它為客戶提供最佳體驗。 旅途的阻止，是指已經踏上旅程的人，都被阻止在進程中。 旅程基本上被關閉了。
 
 >[!NOTE]
 >
