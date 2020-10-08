@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 4%
@@ -22,7 +20,7 @@ ht-degree: 4%
 
 # 運算子 {#concept_wd5_pj5_dgb}
 
-運算子有兩種： 一元運算子和二進位運算子。 有左手一元運算子和右手一元運算子。
+運算子有兩種：一元運算子和二進位運算子。 有左手一元運算子和右手一元運算子。
 
 ```
     // left-hand unary operators
