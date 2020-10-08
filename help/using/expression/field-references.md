@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 1%
@@ -61,7 +59,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->欄位的類型和預設值必須相同。 例如，@{LobbyBeacon.endUserIDs。_experience.emailid.id, defaultValue : 2}將無效，因為預設值是整數，而預期值應為字串。
+>欄位的類型和預設值必須相同。 例如，@{LobbyBeacon.endUserIDs。_experience.emailid.id, defaultValue :2}將無效，因為預設值是整數，而預期值應為字串。
 
 **系列中欄位的參考**
 
@@ -99,8 +97,8 @@ For more complex use cases, if you want to include the parameters of the data so
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**: 資料來源的第一個參數的確切名稱。
-* **`<params-1-value>`**: 第一個參數的值。 它可以是任何有效的運算式。
+* **`<params-1-name>`**:資料來源的第一個參數的確切名稱。
+* **`<params-1-value>`**:第一個參數的值。 它可以是任何有效的運算式。
 
 範例:
 
