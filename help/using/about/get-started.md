@@ -1,6 +1,6 @@
 ---
 title: 開始使用
-description: 瞭解設定「歷程協調」的主要步驟，並建立您的第一個歷程。
+description: 探索設定 Journey Orchestration 的主要步驟，並構建您的第一個歷程。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
