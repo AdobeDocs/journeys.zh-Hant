@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7a4d67af88827dfc852a281a7877efb2853facf
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '420'
 ht-degree: 7%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 7%
 
 [!DNL Journey Orchestration] 自動傳送歷程績效資料至Adobe Experience Platform，以便與其他資料結合以進行分析。
 
+>[!NOTE]
+>
+>預設情況下，此功能不會在所有新部署的實例上激活。 啟動程式會依要求進行。
+
 例如，您已設定傳送多封電子郵件的歷程。 這項功能可讓您將資料與 [!DNL Journey Orchestration] 下游事件資料結合，例如發生多少轉換、網站上發生多少參與，或在商店中發生多少交易。 旅程資訊可與Adobe Experience Platform上的資料結合，不論是來自其他數位屬性或離線屬性，以提供更全面的效能檢視。
 
 [!DNL Journey Orchestration] 自動將個人在歷程中每個步驟的必要架構和串流建立至Adobe Experience Platform的資料集。 步驟事件對應於在歷程中從一個節點移動到另一個節點的個人。 例如，在具有事件、條件和動作的歷程中，會傳送三個步驟的事件至Adobe Experience Platform。
@@ -29,7 +33,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->無法為即時配置檔案服務開啟資料集。 請確定已關 **[!UICONTROL Profile]** 閉切換
+>無法為即時配置檔案服務開啟資料集。 請確定已關 **[!UICONTROL Profile]** 閉切換。
 
 歷程會以串流方式在資料發生時傳送資料。 您可以使用查詢服務查詢此資料。 您可以連線至客戶歷程分析或其他BI工具，以檢視與這些步驟相關的資料。
 
