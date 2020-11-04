@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: fe51a1600050a42c2070ad78f14490ea1813bd14
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 96%
+source-wordcount: '771'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 96%
 # 文件更新
 
 本頁面列出 [!DNL Journey Orchestration] 的所有文件更新。您也可以參閱[!DNL Journey Orchestration][發行說明](../release-notes/release-notes.md)。
+
+## 2020 年 10 月 {#october-2020}
+
+* 已新增有關如何設定事件逾時的資訊。 [顯示全文](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)。
 
 ## 2020 年 9 月{#september-2020}
 
