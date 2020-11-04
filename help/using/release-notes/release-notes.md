@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bdec7addcadabac614f703c4ad719c13d044465f
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 93%
+source-wordcount: '1733'
+ht-degree: 90%
 
 ---
 
@@ -21,6 +21,31 @@ ht-degree: 93%
 
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱[文件更新](../release-notes/documentation-updates.md)。
+
+## 2020年10月發行 {#october-release}
+
+### GA 更新{#october-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>事件逾時</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以設定事件的逾時，以便讓歷程僅在特定時間監聽事件。 您不再需要新增與事件路徑平行的「等待」活動來達成此目的。
+</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">相關的文件</a>，以瞭解詳情。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 其他改善項目{#october-other}
+
+* 當您發佈新版歷程時，舊版會自動結束並切換至「已關閉」狀態。 [顯示全文](../building-journeys/journey-versions.md)
 
 ## 2020年9月發行 {#september-release}
 
