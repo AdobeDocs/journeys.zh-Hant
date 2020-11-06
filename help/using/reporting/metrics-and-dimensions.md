@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 44b2da66d6621b18b13ff99e46af02eddcaac6b1
+source-git-commit: 93da470ae878ec3dcf4fcb435dab86c8bf0419d4
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -38,10 +38,8 @@ ht-degree: 0%
 | **動作** | 歷程中使用的每個動&#x200B;**作(動作名稱——動作標籤**)清單，例如推送——結帳確認、電子郵件——獎勵完整性。 |
 | **資料來源** | 用於豐富歷程中資&#x200B;**料的資料來源(資料來源名稱**)清單，例如Adobe Experience Platform, Reservation系統。 |
 | **[!UICONTROL Event]** | 歷程中使用的每個&#x200B;**事件(事件名稱——事件標籤**)清單，例如Geometrixx事件-Geometrixx結帳。 |
-| **[!UICONTROL Event origin]** | 依類別劃分的劃分事件： **[!UICONTROL Internal event]** 和 **[!UICONTROL External event]**。 For more information, refer to this [page](../building-journeys/jump.md). |
 | **欄位群組** | 用於豐富歷程中資&#x200B;**料的欄位群組(欄位群組名稱**)清單，例如描述檔欄位群組、Geometrixx保留系統。 |
 | **旅程** | 在測試模式和即時(**例如**：購物車放棄、飯店訂房通知)中的每個旅程（旅程名稱）清單。 |
-| **[!UICONTROL Journey origin]** | 依歷 **[!UICONTROL Internal event]**&#x200B;程劃分。 |
 | **歷程版本** | 歷程的每個發佈版本清單(**歷程名稱+版本編號**)，例如購物車放棄v1、飯店訂房通知v2。 |
 | **協調** | 歷程中定義和使用的每&#x200B;**個協調活動(條件、結束、等待**)的清單。 |
 
