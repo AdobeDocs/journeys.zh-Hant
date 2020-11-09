@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '418'
 ht-degree: 5%
 
 ---
@@ -40,12 +40,12 @@ ht-degree: 5%
 
 ![](../assets/journeyuc2_29.png)
 
-對於此使用案例，我們需要建立兩個事件(請參 [](../usecase/configuring-the-events.md)閱):
+對於此使用案例，我們需要建立兩個事件(請參 [閱本頁](../usecase/configuring-the-events.md)):
 
 * 當客戶進入酒店時，將推送至系統的大堂信標事件。
 * 當客戶進入餐廳時，會推送的餐廳信標事件。
 
-我們需要設定兩個資料來源的連線(請參 [](../usecase/configuring-the-data-sources.md)閱):
+我們需要設定兩個資料來源的連線(請參 [閱本頁](../usecase/configuring-the-data-sources.md)):
 
 * 內建的Adobe Experience Platform資料來源，可擷取我們兩個條件（忠誠會籍和上次聯絡日期）的資訊以及訊息個人化資訊。
 * 該飯店訂房系統用以擷取該訂房狀態資訊。
