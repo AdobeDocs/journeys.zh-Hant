@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 8%
+source-wordcount: '743'
+ht-degree: 10%
 
 ---
 
@@ -56,14 +56,13 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->您無法使用簡單編輯器對時間序列執行查詢（例如購買清單、訊息的點按次數）。 為此，您將需要使用進階編輯器。 請參閱[](../expression/expressionadvanced.md)。
+>您無法使用簡單編輯器對時間序列執行查詢（例如購買清單、訊息的點按次數）。 為此，您將需要使用進階編輯器。 請參閱[本頁](../expression/expressionadvanced.md)。
 
-
-當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[](../building-journeys/using-the-journey-designer.md#paths)。
+當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[本區段](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 資料源條件 {#data_source_condition}
 
-這可讓您根據資料來源的欄位或先前位於歷程中的事件來定義條件。 要瞭解如何使用表達式編輯器，請參見 [](../expression/expressionadvanced.md)。 使用進階運算式編輯器，您可以設定更進階的條件來控制系列，或使用需要傳遞參數的資料來源。 請參閱[](../datasource/external-data-sources.md)。
+這可讓您根據資料來源的欄位或先前位於歷程中的事件來定義條件。 要瞭解如何使用表達式編輯器，請參 [閱此頁](../expression/expressionadvanced.md)。 使用進階運算式編輯器，您可以設定更進階的條件來控制系列，或使用需要傳遞參數的資料來源。 請參閱[本頁](../datasource/external-data-sources.md)。
 
 ![](../assets/journey50.png)
 
@@ -73,7 +72,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->時區不再是特定於某個條件，現在會在歷程屬性的歷程層級定義。 請參閱[](../building-journeys/timezone-management.md)。
+>時區不再是特定於某個條件，現在會在歷程屬性的歷程層級定義。 請參見[此頁面](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey51.png)
 
@@ -85,7 +84,6 @@ ht-degree: 8%
 >
 >請注意，在百分比分割條件中沒有添加路徑的按鈕。 路徑數將取決於分割數。 在分割條件中，您無法為其他情況新增路徑，因為路徑不可能發生。 人們總是會走到一條分割的路上。
 
-
 ![](../assets/journey52.png)
 
 ## 日期條件 {#date_condition}
@@ -94,6 +92,6 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->時區不再是特定於某個條件，現在會在歷程屬性的歷程層級定義。 請參閱[](../building-journeys/timezone-management.md)。
+>時區不再是特定於某個條件，現在會在歷程屬性的歷程層級定義。 請參閱[本頁](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey53.png)
