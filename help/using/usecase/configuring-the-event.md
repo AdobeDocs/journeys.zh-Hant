@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 9%
+source-wordcount: '357'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 在我們的場景中，每當一個人走近位於spa旁的信標時，就需要收到一個活動。 技 **術使用者** ，需要設定系統在歷程中將監聽的事件。
 
-有關事件配置的其他資訊，請參閱 [](../event/about-events.md)。
+有關事件配置的其他資訊，請參 [閱此頁](../event/about-events.md)。
 
 1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
@@ -39,7 +39,7 @@ ht-degree: 9%
    >
    >欄位清單會依不同的架構而有所不同。 根據架構定義，某些欄位可能是必填和預選的。
 
-1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。如需命名空間的詳細資訊，請參閱[](../event/selecting-the-namespace.md)。
+1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc1_6.png)
 
@@ -53,4 +53,4 @@ ht-degree: 9%
 
    ![](../assets/journeyuc1_7.png)
 
-   該活動已準備好供您的旅程使用。 您現在需要設定行動應用程式，以便將預期的負載傳送至串流擷取API端點。 請參閱[](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   該活動已準備好供您的旅程使用。 您現在需要設定行動應用程式，以便將預期的負載傳送至串流擷取API端點。 請參閱[本頁](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
