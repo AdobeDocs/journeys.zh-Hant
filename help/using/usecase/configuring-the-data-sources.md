@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '459'
 ht-degree: 14%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 14%
 
 在我們的使用案例中，我們想要將個人化資料用於我們的訊息。 我們還需要檢查此人是否是忠誠會員，且在過去24小時內未與他聯繫。 此資訊會儲存在即時客戶個人檔案資料庫中。 技 **術使用者** ，必須設定Adobe Experience Platform資料來源以擷取這些欄位。
 
-有關資料源配置的其他資訊，請參閱 [](../datasource/about-data-sources.md)。
+有關資料源配置的其他資訊，請參 [閱此頁](../datasource/about-data-sources.md)。
 
 1. 在頂端功能表中，按一 **[!UICONTROL Data Sources]** 下標籤並選取內建的Adobe Experience Platform資料來源。
 
