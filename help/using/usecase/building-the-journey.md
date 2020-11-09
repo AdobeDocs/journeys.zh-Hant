@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '847'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 >
 >只有當您具有 Adobe Campaign Standard　時，浮動視窗才能使用　**[!UICONTROL Push]**　及 **[!UICONTROL Email]**　活動。
 
-如需如何建立歷程的詳細資訊，請參閱 [](../building-journeys/journey.md)。
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 ## 第一步{#section_ntb_ws1_ffb}
 
@@ -81,7 +81,7 @@ ht-degree: 100%
    >
    >在運算式的第二部分中，「設定檔」是選填欄位。
 
-1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。如需命名空間的詳細資訊，請參閱[](../event/selecting-the-namespace.md)。
+1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
 在我們的使用案例中，我們只想對這兩種情況做出反應，所以不需要核取方塊 **[!UICONTROL Show path for other cases than the one(s) above]**。
 
@@ -106,7 +106,7 @@ ht-degree: 100%
 
    ![](../assets/journeyuc2_18.png)
 
-1. 當您從外部資料來源選取欄位時，畫面的右側會顯示設定外部資料來源時所定義的參數清單（請參閱[](../usecase/configuring-the-data-sources.md)）。在範例中，按一下參數名稱並定義訂房系統索引鍵 (Experience Cloud ID) 的值：
+1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [this page](../usecase/configuring-the-data-sources.md)). 在範例中，按一下參數名稱並定義訂房系統索引鍵 (Experience Cloud ID) 的值：
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -172,7 +172,7 @@ ht-degree: 100%
 
 1. 新增 **[!UICONTROL End]** 活動。
 
-按一下 **[!UICONTROL Test]** 切換並測試您的歷程。如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。有關測試模式的詳細資訊，請參閱[](../building-journeys/testing-the-journey.md)。
+按一下 **[!UICONTROL Test]** 切換並測試您的歷程。如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
 ![](../assets/journeyuc2_32bis.png)
 
