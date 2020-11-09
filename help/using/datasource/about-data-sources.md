@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '370'
+ht-degree: 88%
 
 ---
 
@@ -35,10 +35,10 @@ ht-degree: 100%
 
 資料來源有兩種類型：
 
-* 預先設定的 Adobe Experience Platform 資料來源可定義「即時客戶個人檔案服務」的連線，這是內建的資料來源。請參閱[](../datasource/adobe-experience-platform-data-source.md)。
-* 外部資料來源可讓您定義外部系統的連線，這些是您可以建立的資料來源。請參閱[](../datasource/external-data-sources.md)。
+* 預先設定的 Adobe Experience Platform 資料來源可定義「即時客戶個人檔案服務」的連線，這是內建的資料來源。請參閱[本頁](../datasource/adobe-experience-platform-data-source.md)。
+* 外部資料來源可讓您定義外部系統的連線，這些是您可以建立的資料來源。請參閱[本頁](../datasource/external-data-sources.md)。
 
-對於每個資料來源，您會使用欄位群組來定義要擷取的資訊。欄位群組是可從資料來源擷取的欄位集。請參閱[](../datasource/field-groups.md)。
+對於每個資料來源，您會使用欄位群組來定義要擷取的資訊。欄位群組是可從資料來源擷取的欄位集。請參閱[本頁](../datasource/field-groups.md)。
 
 如需如何設定 Adobe Experience Platform 資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/configure-data-sources.html)。
 
@@ -50,11 +50,11 @@ ht-degree: 100%
 
 1. 在頂端功能表中，按一下 **[!UICONTROL Data Sources]** 索引標籤。
 
-   畫面隨即顯示資料來源。請參閱[](../about/user-interface.md)以瞭解介面的詳細資訊。
+   畫面隨即顯示資料來源。See [this page](../about/user-interface.md) for more information on the interface.
 
    ![](../assets/journey18.png)
 
-1. 然後，您就可以將欄位群組新增至內建的資料來源（請參閱[](../datasource/adobe-experience-platform-data-source.md)），或建立新的外部資料來源（請參閱[](../datasource/external-data-sources.md)）和相關聯的欄位群組（請參閱[](../datasource/field-groups.md)）。
+1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 
