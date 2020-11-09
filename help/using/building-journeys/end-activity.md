@@ -9,16 +9,16 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '59'
+ht-degree: 11%
 
 ---
 
 
 # 結束活動{#section_vqp_4ft_dgb}
 
-此活 **[!UICONTROL End]** 動可讓您標籤每個歷程路徑的結尾。 它不是強制性的，但建議使用，以清楚顯示。 事實上，如果旅程有數個結束活動，我們建議您在每個結尾新增標籤，讓報表更容易閱讀。 請參閱[](../reporting/about-journey-reports.md)。
+此活 **[!UICONTROL End]** 動可讓您標籤每個歷程路徑的結尾。 它不是強制性的，但建議使用，以清楚顯示。 事實上，如果旅程有數個結束活動，我們建議您在每個結尾新增標籤，讓報表更容易閱讀。 請參閱[本頁](../reporting/about-journey-reports.md)。
 
 ![](../assets/journey54.png)
