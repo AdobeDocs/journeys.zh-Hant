@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1347'
 ht-degree: 3%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 3%
 
 # 測試歷程{#testing_the_journey}
 
-您必須先解決所有錯誤（如果有），才能測試您的旅程。 請參閱[](../about/troubleshooting.md#section_h3q_kqk_fhb)。
+您必須先解決所有錯誤（如果有），才能測試您的旅程。 請參閱[本區段](../about/troubleshooting.md#section_h3q_kqk_fhb)。
 
 您有可能在發佈之前，使用測試設定檔來測試您的旅程。 這可讓您分析個人在歷程中的流程，並在發佈前進行疑難排解。
 
 若要使用測試模式，請依照下列步驟進行：
 
-1. 在測試您的歷程之前，請先確認其有效且無錯誤。 您將無法針對有錯誤的歷程進行測試。 請參閱[](../about/troubleshooting.md#section_h3q_kqk_fhb)。出現錯誤時會顯示警告符號。
+1. 在測試您的歷程之前，請先確認其有效且無錯誤。 您將無法針對有錯誤的歷程進行測試。 請參閱[本區段](../about/troubleshooting.md#section_h3q_kqk_fhb)。出現錯誤時會顯示警告符號。
 
 1. 若要啟動測試模式，請按一下位 **[!UICONTROL Test]** 於右上角的切換。
 
@@ -43,12 +43,12 @@ ht-degree: 3%
 
    ![](../assets/journeyuctest2.png)
 
-1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。當測試結果確定時，您就可以發佈您的旅程。 請參閱[](../building-journeys/publishing-the-journey.md)。
+1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。當測試結果確定時，您就可以發佈您的旅程。 請參閱[本頁](../building-journeys/publishing-the-journey.md)。
 
 ## 重要附註 {#important_notes}
 
 * 提供一個介面，可將事件觸發至測試的歷程，但事件也可由第三方系統（例如Postman）傳送。
-* 只有在即時客戶個人檔案服務中標示為「測試個人檔案」的個人才能進入測試的歷程。 請參閱[](../building-journeys/testing-the-journey.md#create-test-profile)。
+* 只有在即時客戶個人檔案服務中標示為「測試個人檔案」的個人才能進入測試的歷程。 請參閱[本區段](../building-journeys/testing-the-journey.md#create-test-profile)。
 * 測試模式僅適用於使用命名空間的草稿歷程。 測試模式需要檢查進入歷程的人員是否是測試設定檔，因此必須能夠存取Adobe Experience Platform。
 * 在測試階段作業中，測試描述檔的最大數量可超過進入歷程的次數為100。
 * 當您停用測試模式時，它會佔用過去或目前已進入測試模式的所有人員的歷程。 也會清除報表。
