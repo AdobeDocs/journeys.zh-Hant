@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '249'
 ht-degree: 10%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 10%
 
 ## 設定事件 {#section_ptb_ws1_ffb}
 
-請遵循中所述的步驟 [](../event/about-events.md)。
+依照本頁所述的 [步驟](../event/about-events.md)。
 
 ## 設定資料來源 {#section_o3n_4yy_wfb}
 
@@ -46,7 +46,7 @@ ht-degree: 10%
 
 ## 建立歷程 {#section_uzm_pyy_wfb}
 
-若要建立、驗證和發佈歷程，請依照中所述的步驟進行 [](../building-journeys/journey.md)。
+若要建立、驗證和發佈歷程，請依照本頁所述的 [步驟](../building-journeys/journey.md)。
 
 在我們的使用案例中，我們運用了此 **[!UICONTROL fatigueLevel]** 欄位。 您也可以使用欄 **[!UICONTROL fatigueScore]** 位。
 
