@@ -9,18 +9,18 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 12%
+source-wordcount: '249'
+ht-degree: 15%
 
 ---
 
 
 # 關於自訂動作組態 {#concept_sxy_bzs_dgb}
 
-如果您使用協力廠商系統來傳送訊息，或如果您要傳送 [!DNL Journey Orchestration] API呼叫至協力廠商系統，您就可在此設定其連線 [!DNL Journey Orchestration]。 然後，技術使用者定義的自訂動作就會出現在您旅程的左側浮動視窗中，位於類別中( **[!UICONTROL Action]** 請參閱 [](../building-journeys/about-action-activities.md))。 以下是一些您可以使用自訂動作來連接的系統範例：Epsilon、Facebook、Adobe.io、Firebase等
-限制列在此處： [](../action/custom-action-limitations.md).
+如果您使用協力廠商系統來傳送訊息，或如果您要傳送 [!DNL Journey Orchestration] API呼叫至協力廠商系統，您就可在此設定其連線 [!DNL Journey Orchestration]。 然後，技術使用者定義的自訂動作就會出現在您旅程的左側浮動視窗中，位於類別中(請 **[!UICONTROL Action]** 參閱 [本頁](../building-journeys/about-action-activities.md))。 以下是一些您可以使用自訂動作來連接的系統範例：Epsilon、Facebook、Adobe.io、Firebase等
+本頁列出了 [限制](../action/custom-action-limitations.md)。
 
 以下是設定自訂動作所需的主要步驟：
 
@@ -36,12 +36,12 @@ ht-degree: 12%
 
 1. 將描述新增至您的動作。 此步驟為選填。
 1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
-1. Define the different **[!UICONTROL URL Configuration]** parameters. 請參閱[](../action/url-configuration.md)。
-1. 設定區 **[!UICONTROL Authentication]** 段。 此設定與資料來源的設定相同。  請參閱[](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
-1. 定義 **[!UICONTROL Message parameters]**。 請參閱[](../action/defining-the-message-parameters.md)。
+1. Define the different **[!UICONTROL URL Configuration]** parameters. 請參閱[本頁](../action/url-configuration.md)。
+1. 設定區 **[!UICONTROL Authentication]** 段。 此設定與資料來源的設定相同。  請參閱[本區段](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
+1. 定義 **[!UICONTROL Message parameters]**。 請參閱[本頁](../action/defining-the-message-parameters.md)。
 1. 按一下 **[!UICONTROL Save]**。
 
-   自訂動作現在已設定好，可供您在歷程中使用。 請參閱[](../building-journeys/about-action-activities.md)。
+   自訂動作現在已設定好，可供您在歷程中使用。 請參閱[本頁](../building-journeys/about-action-activities.md)。
 
    >[!NOTE]
    >
