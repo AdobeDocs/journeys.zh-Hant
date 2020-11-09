@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 4%
+source-wordcount: '399'
+ht-degree: 5%
 
 ---
 
@@ -39,6 +39,6 @@ ht-degree: 4%
 
    ![](../assets/journey20.png)
 
-收到事件時，鍵值將允許系統識別與事件相關聯的人。 與命名空間相關聯(請 [](../event/selecting-the-namespace.md)參閱)的索引鍵可用於在Adobe Experience Platform上執行查詢。 請參閱[](../building-journeys/about-orchestration-activities.md)。鑰匙也用來檢查一個人是否在旅程中。 事實上，一個人不可能在同一旅程的兩個不同地方。 因此，系統不允許相同的密鑰（例如，密鑰CRMID=3224）在同一行程的不同位置。
+收到事件時，鍵值將允許系統識別與事件相關聯的人。 與命名空間相關聯(請參 [閱本頁](../event/selecting-the-namespace.md))，此索引鍵可用於在Adobe Experience Platform上執行查詢。 請參閱[本頁](../building-journeys/about-orchestration-activities.md)。鑰匙也用來檢查一個人是否在旅程中。 事實上，一個人不可能在同一旅程的兩個不同地方。 因此，系統不允許相同的密鑰（例如，密鑰CRMID=3224）在同一行程的不同位置。
 
-如果您想要執行其他操作，也可以&#x200B;**[!UICONTROL Advanced mode]**&#x200B;訪問高級表達式函式()。 這些函式可讓您控制用於執行特定查詢的值，例如變更格式、執行欄位串連，只考慮欄位的一部分（例如10個前字元）。 請參閱[](../expression/expressionadvanced.md)。
+如果您想要執行其他操作，也可以&#x200B;**[!UICONTROL Advanced mode]**&#x200B;訪問高級表達式函式()。 這些函式可讓您控制用於執行特定查詢的值，例如變更格式、執行欄位串連，只考慮欄位的一部分（例如10個前字元）。 請參閱[本頁](../expression/expressionadvanced.md)。
