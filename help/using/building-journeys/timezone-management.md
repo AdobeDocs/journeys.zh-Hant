@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '261'
 ht-degree: 2%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 2%
 
 此時區將用於歷程中包含時間元素(例如：
 
-* [](../building-journeys/condition-activity.md#time_condition)
-* [](../building-journeys/condition-activity.md#date_condition)
-* [](../building-journeys/wait-activity.md#custom)
-* [](../building-journeys/wait-activity.md#fixed_date)
+* [時間條件](../building-journeys/condition-activity.md#time_condition)
+* [日期條件](../building-journeys/condition-activity.md#date_condition)
+* [自訂等待](../building-journeys/wait-activity.md#custom)
+* [固定日期等待](../building-journeys/wait-activity.md#fixed_date)
 
 您可以選擇時區，或選擇使用用戶配置檔案中定義的時區。
 
