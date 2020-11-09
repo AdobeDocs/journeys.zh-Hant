@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 10%
+source-wordcount: '356'
+ht-degree: 11%
 
 ---
 
@@ -25,9 +25,9 @@ Adobe Experience Platform資料來源定義即時客戶個人檔案服務的連�
 >
 >您可以擷取不到一年前建立的1000個最新體驗事件。
 
-若要允許連線至即時客戶個人檔案服務，我們必須使用金鑰來識別人員，並使用將金鑰加上文字的命名空間。 因此，若您的歷程是從包含索引鍵和命名空間的事件開始，則只能使用此資料來源。 請參閱[](../building-journeys/journey.md)。
+若要允許連線至即時客戶個人檔案服務，我們必須使用金鑰來識別人員，並使用將金鑰加上文字的命名空間。 因此，若您的歷程是從包含索引鍵和命名空間的事件開始，則只能使用此資料來源。 請參閱[本頁](../building-journeys/journey.md)。
 
-您可以編輯名為「ProfileFieldGroup」的預先設定欄位群組，新增欄位群組，並移除未用於任何草稿或即時歷程的欄位群組。 請參閱[](../datasource/field-groups.md)。
+您可以編輯名為「ProfileFieldGroup」的預先設定欄位群組，新增欄位群組，並移除未用於任何草稿或即時歷程的欄位群組。 請參閱[本頁](../datasource/field-groups.md)。
 
 以下是將欄位群組新增至內建資料來源的主要步驟。
 
@@ -37,7 +37,7 @@ Adobe Experience Platform資料來源定義即時客戶個人檔案服務的連�
 
    ![](../assets/journey23.png)
 
-1. 按一 **[!UICONTROL Add a New Field Group]** 下以定義要擷取的新欄位系列。 請參閱[](../datasource/field-groups.md)。
+1. 按一 **[!UICONTROL Add a New Field Group]** 下以定義要擷取的新欄位系列。 請參閱[本頁](../datasource/field-groups.md)。
 
    ![](../assets/journey24.png)
 
