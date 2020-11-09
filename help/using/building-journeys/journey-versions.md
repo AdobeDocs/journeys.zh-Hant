@@ -9,17 +9,17 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 09bebf62cda32e357f5f8b795e6702a69edb83a7
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 2%
+source-wordcount: '233'
+ht-degree: 3%
 
 ---
 
 
 # 歷程版本{#concept_ldc_k55_zgb}
 
-在歷程清單中，所有歷程版本都會以版本號碼顯示。 請參閱[](../building-journeys/using-the-journey-designer.md)。當您搜尋歷程時，最新版本會在首次開啟應用程式時出現在清單頂端。 然後，您可以定義所要的排序方式，應用程式會將其保留為使用者偏好設定。 旅程的版本也會顯示在旅程版本介面的頂端，位於畫布的上方。
+在歷程清單中，所有歷程版本都會以版本號碼顯示。 請參閱[本頁](../building-journeys/using-the-journey-designer.md)。當您搜尋歷程時，最新版本會在首次開啟應用程式時出現在清單頂端。 然後，您可以定義所要的排序方式，應用程式會將其保留為使用者偏好設定。 旅程的版本也會顯示在旅程版本介面的頂端，位於畫布的上方。
 
 ![](../assets/journeyversions1.png)
 
