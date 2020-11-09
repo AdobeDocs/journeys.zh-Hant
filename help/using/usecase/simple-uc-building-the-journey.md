@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 42%
+source-wordcount: '395'
+ht-degree: 36%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 42%
 >
 >只有當您具有 Adobe Campaign Standard　時，浮動視窗才能使用　**[!UICONTROL Push]**　及 **[!UICONTROL Email]**　活動。
 
-如需如何建立歷程的詳細資訊，請參閱 [](../building-journeys/journey.md)。
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 1. 在頂端功能表中，按一下 **[!UICONTROL Home]** 索引標籤及 **[!UICONTROL Create]**，以建立新的歷程。
 
@@ -72,7 +72,7 @@ ht-degree: 42%
 
    ![](../assets/journeyuc1_17.png)
 
-1. 按一下切換 **[!UICONTROL Test]** 並使用測試描述檔測試您的歷程。 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。有關測試模式的詳細資訊，請參閱[](../building-journeys/testing-the-journey.md)。
+1. 按一下切換 **[!UICONTROL Test]** 並使用測試描述檔測試您的歷程。 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
