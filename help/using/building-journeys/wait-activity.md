@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 2%
+source-wordcount: '384'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 2%
 >
 >等待時間上限為30天。
 >
->在測試模式中， **[!UICONTROL Wait time in test]** 參數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這可確保您快速取得測試結果。 See [](../building-journeys/testing-the-journey.md)
+>在測試模式中， **[!UICONTROL Wait time in test]** 參數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這可確保您快速取得測試結果。 See [this page](../building-journeys/testing-the-journey.md)
 
 ## 持續等待{#duration}
 
@@ -55,13 +55,13 @@ ht-degree: 2%
 
 ## 自訂等待{#custom}
 
-此選項可讓您使用根據事件或資料來源產生的欄位的進階運算式，來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱[](../expression/expressionadvanced.md)。有關dateTimeOnly格式的詳細資訊，請參見 [](../expression/data-types.md)。
+此選項可讓您使用根據事件或資料來源產生的欄位的進階運算式，來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱[本頁](../expression/expressionadvanced.md)。如需dateTimeOnly格式的詳細資訊，請參 [閱本頁](../expression/data-types.md)。
 
 >[!NOTE]
 >
 >您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如： ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```，該欄位的格式為2016-08-12T09:46:06Z。
 >
->您 **的旅程** ，時區是必要的。 因此，今天無法從介面直接指向完全ISO-8601時間戳記混合時間與時區偏移，例如2016-08-12T09:46:06.982-05。 請參閱[](../building-journeys/timezone-management.md)。
+>您 **的旅程** ，時區是必要的。 因此，今天無法從介面直接指向完全ISO-8601時間戳記混合時間與時區偏移，例如2016-08-12T09:46:06.982-05。 請參閱[本頁](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 
