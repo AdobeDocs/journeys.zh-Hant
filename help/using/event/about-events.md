@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 100%
+source-wordcount: '727'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Pipeline 會篩選由 [!DNL Journey Orchestration] 提供且包含 [!DNL Journey
 
 以下是設定新事件的主要步驟：
 
-1. 在頂端功能表中，按一下 **[!UICONTROL Events]** 索引標籤。畫面隨即顯示事件清單。請參閱[](../about/user-interface.md)以瞭解介面的詳細資訊。
+1. 在頂端功能表中，按一下 **[!UICONTROL Events]** 索引標籤。畫面隨即顯示事件清單。有關介 [面的詳細資訊](../about/user-interface.md) ，請參閱本頁。
 
    ![](../assets/journey5.png)
 
@@ -61,13 +61,13 @@ Pipeline 會篩選由 [!DNL Journey Orchestration] 提供且包含 [!DNL Journey
    >請勿使用空格或特殊字元。請勿使用超過 30 個字元。
 
 1. 新增說明至您的事件。此步驟為選填。
-1. 定義結構和有效負載欄位：您可以在此處選取 [!DNL Journey Orchestration] 預期會收到的事件資訊（通常稱為有效負載）。接著，您就可以在歷程中使用這項資訊。請參閱[](../event/defining-the-payload-fields.md)。
+1. 定義結構和有效負載欄位：您可以在此處選取 [!DNL Journey Orchestration] 預期會收到的事件資訊（通常稱為有效負載）。接著，您就可以在歷程中使用這項資訊。請參閱[本頁](../event/defining-the-payload-fields.md)。
 1. 使用此事件的歷程次數會顯示在 **[!UICONTROL Used in]** 欄位中。您可以按一下 **[!UICONTROL View journeys]** 圖示，以顯示使用此事件的歷程清單。
-1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[](../event/selecting-the-namespace.md)。
-1. 定義金鑰：從您的有效負載欄位選擇一個欄位，或是定義一個公式以識別與事件相關聯的人員。如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。事實上，[!DNL Journey Orchestration] 會挑選應該與命名空間對應的金鑰（例如，如果您選取電子郵件命名空間，系統便會選取電子郵件金鑰）。請參閱[](../event/defining-the-event-key.md)。
-1. 新增條件。此步驟為選填。這可讓系統僅處理符合條件的事件。您只能根據事件含有之資訊設定條件。請參閱[](../event/adding-a-condition.md)。
+1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[本頁](../event/selecting-the-namespace.md)。
+1. 定義金鑰：從您的有效負載欄位選擇一個欄位，或是定義一個公式以識別與事件相關聯的人員。如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。事實上，[!DNL Journey Orchestration] 會挑選應該與命名空間對應的金鑰（例如，如果您選取電子郵件命名空間，系統便會選取電子郵件金鑰）。請參閱[本頁](../event/defining-the-event-key.md)。
+1. 新增條件。此步驟為選填。這可讓系統僅處理符合條件的事件。您只能根據事件含有之資訊設定條件。請參閱[本頁](../event/adding-a-condition.md)。
 1. 按一下 **[!UICONTROL Save]**。
 
    ![](../assets/journey7.png)
 
-   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[本頁](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
