@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 1%
+source-wordcount: '433'
+ht-degree: 3%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 **系列中欄位的參考**
 
-系列中定義的元素會使用特定函式all、first和last來參考。 For more information, see [](../expression/collection-management-functions.md).
+系列中定義的元素會使用特定函式all、first和last來參考。 如需詳細資訊，請參閱[本頁面](../expression/collection-management-functions.md)。
 
 範例 :
 
@@ -73,17 +73,17 @@ ht-degree: 1%
 
 **映射中定義的欄位的引用**
 
-為了檢索映射中的元素，我們使用帶有給定鍵的輸入函式。 例如，根據所選的命名空間定義事件的索引鍵時，會使用它。 請參閱選擇命名空間。 For more information, see [](../event/selecting-the-namespace.md).
+為了檢索映射中的元素，我們使用帶有給定鍵的輸入函式。 例如，根據所選的命名空間定義事件的索引鍵時，會使用它。 請參閱選擇命名空間。 如需詳細資訊，請參 [閱本頁](../event/selecting-the-namespace.md)。
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-在此運算式中，我們會取得事件「IdentityMap」欄位的「電子郵件」索引鍵項目。 「電子郵件」項目是系列，我們會從中取用第一個元素中的「id」，使用「first()」。 For more information, see [](../expression/collection-management-functions.md).
+在此運算式中，我們會取得事件「IdentityMap」欄位的「電子郵件」索引鍵項目。 「電子郵件」項目是系列，我們會從中取用第一個元素中的「id」，使用「first()」。 如需詳細資訊，請參 [閱本頁](../expression/collection-management-functions.md)。
 
 **資料來源的參數值（資料來源動態值）**
 
-如果您從外部資料來源選取需要呼叫參數的欄位，右側會出現新標籤，讓您指定此參數。 請參閱[](../expression/expressionadvanced.md)。
+如果您從外部資料來源選取需要呼叫參數的欄位，右側會出現新標籤，讓您指定此參數。 請參閱[本頁](../expression/expressionadvanced.md)。
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. 參數可以是任何有效的運算式，即使是來自其他資料來源，也包含其他參數。
 
