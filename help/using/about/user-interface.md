@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 900b956799194e13ee01ca9aef3c786e9c5b04db
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1007'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONT
 
 在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 清單中，使用 **[!UICONTROL Creation filters]** 建立篩選器以篩選建立日期和使用者。舉例來說，您可以選擇只顯示您在過去 30 天內建立的事件。
 
-在歷程清單 (在 **[!UICONTROL Home]**&#x200B;下) 中，除了 **[!UICONTROL Creation filters]** 外，您還可以根據其狀態和版本 (**[!UICONTROL Status and version filters]**) 篩選顯示的歷程。您也可以選擇只顯示使用特定事件、欄位群組或動作（**[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]**）的歷程記錄。**[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。請參閱[](../building-journeys/using-the-journey-designer.md)。
+在歷程清單 (在 **[!UICONTROL Home]**&#x200B;下) 中，除了 **[!UICONTROL Creation filters]** 外，您還可以根據其狀態和版本 (**[!UICONTROL Status and version filters]**) 篩選顯示的歷程。您也可以選擇只顯示使用特定事件、欄位群組或動作（**[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]**）的歷程記錄。**[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。請參閱[本頁](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
