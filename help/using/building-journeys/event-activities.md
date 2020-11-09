@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 65ff1003fdfec087e4e2030dd81df8dab6229495
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # 關於事件活動 {#concept_rws_1rt_52b}
 
-由技術使用者設定的事件(請 [](../event/about-events.md)參閱)都會顯示在畫面左側浮動視窗的第一類別中。
+技術使用者設定的事件(請參 [閱本頁](../event/about-events.md))都會顯示在螢幕左側的浮動視窗第一類別中。
 
 ![](../assets/journey43.png)
 
