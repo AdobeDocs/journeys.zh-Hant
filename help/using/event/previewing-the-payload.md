@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 6%
+source-wordcount: '110'
+ht-degree: 8%
 
 ---
 
@@ -36,4 +36,4 @@ ht-degree: 6%
 
 1. 勾選預覽以驗證裝載定義。
 
-1. 然後，您可以將裝載預覽共用給負責事件傳送的人員。 此裝載可協助他設計推送至之事件的設定 [!DNL Journey Orchestration]。 請參閱[](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+1. 然後，您可以將裝載預覽共用給負責事件傳送的人員。 此裝載可協助他設計推送至之事件的設定 [!DNL Journey Orchestration]。 請參閱[本頁](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
