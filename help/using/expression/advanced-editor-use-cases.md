@@ -9,15 +9,15 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '494'
 ht-degree: 2%
 
 ---
 
 
-# 使用進階運算式編輯器
+# 進階運算式範例
 
 「進階運算式」編輯器可用來建立條件，讓您在歷程中篩選使用者。 這些條件可讓您依時間、日期、位置、持續時間或購買或放棄購物車等動作來定位使用者，以便在歷程中重新定位使用者。
 
@@ -54,24 +54,23 @@ ht-degree: 2%
 
 指定的時間戳記會當成日期時間值，第二個是天數。
 
-    &quot;
-    In(&quot;addToCart&quot;, #{ExperiencePlatformDataSource
-    .ExperienceEventFieldGroup
-    .experienceevent
-    .all(在
-    LastDays(currentDataPackField.timestamp, 7))
-    .productData
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    .productInteraction})AndNot(In(&quot;completePurchase&quot;, #{ExperiencePlatformDataSourceExperienceEventGroupLastEvent.ExperienceCurrentField.7)All(In&#39;DataField.Pack, 7Product DataInteraction)。&quot;
+```
+        In( “addToCart”, #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .all(
+                        inLastDays(currentDataPackField.timestamp, 7 ))
+                        .productData
+                        .productInteraction})
+        And
+        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .all(
+                        inLastDays(currentDataPackField.timestamp, 7 ))
+                        .productData
+                        .productInteraction})
+```
 
 此運算式會傳回布林值。
 
@@ -107,44 +106,42 @@ ht-degree: 2%
 
 此條件僅擷取在&quot;Arlington&quot;中觸發的地理事件：
 
-    &quot;
-    @{GeofenceEntry
-    .placeContext
-    .POIinteraction
-    .POIDetail
-    .name} == &quot;Arlington&quot;
-    &quot;
+```
+        @{GeofenceEntry
+                    .placeContext
+                    .POIinteraction
+                    .POIDetail
+                    .name} == "Arlington"
+```
 
 說明：這是嚴格的字串比較（區分大小寫），等同於使用勾選的簡單模式 `equal to` 的查 `Is sensitive` 詢。
 
 在進階模式中， `Is sensitive` 取消選取的相同查詢將產生下列運算式：
 
-    &quot;
-    equalIgnoreCase(@{GeofenceEntry
-    .placeContext
-    .POIinteraction
-    .POIDetail
-    .name}, &quot;Arlington&quot;)
-    
-    &quot;
+```
+        equalIgnoreCase(@{GeofenceEntry
+                        .placeContext
+                        .POIinteraction
+                        .POIDetail
+                        .name}, "Arlington")
+```
 
 **實際操作**
 
 下列運算式可讓您在動作個人化欄位中定義CRM ID:
 
-    &quot;
+```
     substr(@{MobileAppLaunch
-    。_myorganization
-    .identification
-    .crmid}, 1,
-    lastIndexOf(@{MobileAppLaunch
-    。_myorganization
-    .identification
-    .crmid}
-    }
-    )
-    
-    &quot;
+            ._myorganization
+            .identification
+            .crmid}, 1, 
+            lastIndexOf(@{MobileAppLaunch
+                        ._myorganization
+                        .identification
+                        .crmid}
+                         }
+                         ))
+```
 
 說明：此範例使用 `substr` 和函 `lastIndexOf` 數來移除大括弧，此大括弧會括住隨行動應用程式啟動事件傳遞的CRM ID。
 
