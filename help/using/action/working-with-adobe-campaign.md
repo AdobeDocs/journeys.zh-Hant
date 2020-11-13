@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '299'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->為避免超出Adobe Campaign Standard交易訊息，建議您為「促銷活動標準」整 **合設定** 上限規則。
+>Adobe Campaign Standard交易訊息在特定例項的各個通道中，每小時最多可傳送50 000則訊息。 為降低超載的風險，建議您為「促銷活動標準」 **整合設定** 「上限規則」。
 >
 >閱讀更多有關 [Adobe Campaign標準產品說明中的交易訊息SLA](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。
 
