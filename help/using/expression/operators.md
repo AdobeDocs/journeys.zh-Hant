@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
+source-git-commit: eec6203f63fa6d7ea706595ea866d2b330d284a8
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 4%
@@ -46,11 +46,11 @@ ht-degree: 4%
 <tr><th>運算元</th><th>常值運算式</th><th>範例</th></tr>
 </thead>
 <tbody>
-<tr>&gt;<td>和</td><td><p><pre>&lt;expression1&gt;和&lt;expression2&gt;</pre></p>&lt;expression1&gt;和&lt;expression2&gt;都必須是布林值。 結果是布爾型的。</td><td><pre>3.14 &gt; 2和3.15 &lt; 1</pre></td></tr>
+<tr><td>和</td><td><p><pre>&lt;expression1&gt;和&lt;expression2&gt;</pre></p>&lt;expression1&gt;和&lt;expression2&gt;都必須是布林值。 結果是布爾型的。</td><td><pre>3.14 &gt; 2和3.15 &lt; 1</pre></td></tr>
 <tr><td>或</td><td><p><pre>&lt;expression1&gt;或&lt;expression2&gt;</pre></p><p>&lt;expression1&gt;和&lt;expression2&gt;都必須是布林值。</p><p> 結果是布爾型的。</p></td><td><p><pre>3.14 &gt; 2或3.15 &lt; 1</pre></p></td></tr>
 <tr><td>not</td><td><p><pre>not &lt;expression&gt;</pre></p><p>&lt;expression&gt;必須是布林值。</p><p> 結果是布爾型的。</p></td><td><pre>不是3.15 &lt; 1</pre></td></tr>
 </tbody>
-  </table>
+</table>
 
 ## 比較
 
@@ -88,11 +88,13 @@ ht-degree: 4%
 
 <table>
 <thead>
-<tr><th>運算元</th><th>常值運算式 </th><th>範例</th></tr>
+<tr><th>運算元</th><th>常值運算式</th><th>範例</th></tr>
 </thead>
 <tbody><tr><td>數值</td><td><p><pre>&lt;expression&gt;是數字</pre></p><p>運算式的類型為整數或小數。</p></td><td><pre>@是數字</pre></td></tr>
 <tr><td>整數</td><td><p><pre>&lt;expression&gt;為整數</pre></p><p>運算式的類型為整數。</p></td><td><pre>@是整數</pre></td></tr>
 <tr><td>小數點</td><td><p><pre>&lt;expression&gt;小數</pre></p><p>表達式的類型為十進位。</p></td><td><pre>@是小數</pre></td></tr>
+</tbody>
+</table>
 
 ## String
 
