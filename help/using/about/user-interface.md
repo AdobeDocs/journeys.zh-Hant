@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 9999546d08d0279f013ead3a1e71bb7f9305bebc
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 98%
+source-wordcount: '1063'
+ht-degree: 93%
 
 ---
 
@@ -139,3 +139,11 @@ _在歷程的畫布中：_
 * 使用 **Ctrl/Command + A** 鍵組合以選取所有動作。
 * 選取一或多個活動時，按下 **Delete** 或&#x200B;**空格鍵**&#x200B;以刪除，在確認快顯視窗中按下 **Enter** 以確認。
 * 在左側浮動視窗中，在活動上按兩下，以在第一個可用位置（從上到下）新增活動。
+
+_旅程：_
+
+* 按 **T** 以啟用／停用測試模式。
+* 在以測試模式進行的事件型歷程中，按 **E** 以觸發事件。
+* 在以區段為基礎的歷程中，當在測試模式中選取 **Single profile at a time** （一次單一描述檔）選項時，按 **P** 以觸發事件。
+* 在測試模式下，按 **L** 以顯示日誌。
+
