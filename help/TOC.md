@@ -5,9 +5,9 @@ user-guide-title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 translation-type: tm+mt
-source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
+source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 100%
    + [文件更新](using/release-notes/documentation-updates.md)
 + 開始使用 [!DNL Journey Orchestration] {#starting-with-journeys}
    + [關於 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [限制](using/about/limitations.md)
    + [開始使用](using/about/get-started.md)
    + [使用者介面](using/about/user-interface.md)
    + [存取管理](using/about/access-management.md)
@@ -44,7 +45,6 @@ ht-degree: 100%
    + [使用 Adobe Campaign](using/action/working-with-adobe-campaign.md)
    + 使用協力廠商系統 {#action-third-party}
       + [關於自訂動作組態](using/action/about-custom-action-configuration.md)
-      + [自訂動作限制](using/action/custom-action-limitations.md)
       + [URL 組態](using/action/url-configuration.md)
       + [定義訊息參數](using/action/defining-the-message-parameters.md)
 + 使用 Platform 區段 {#configuring-segment}
