@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 9fc7f0664afa19e3debe2ad4f37d6b794da0ed1f
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 15%
@@ -20,7 +20,7 @@ ht-degree: 15%
 # 關於自訂動作組態 {#concept_sxy_bzs_dgb}
 
 如果您使用協力廠商系統來傳送訊息，或如果您要傳送 [!DNL Journey Orchestration] API呼叫至協力廠商系統，您就可在此設定其連線 [!DNL Journey Orchestration]。 然後，技術使用者定義的自訂動作就會出現在您旅程的左側浮動視窗中，位於類別中(請 **[!UICONTROL Action]** 參閱 [本頁](../building-journeys/about-action-activities.md))。 以下是一些您可以使用自訂動作來連接的系統範例：Epsilon、Facebook、Adobe.io、Firebase等
-本頁列出了 [限制](../action/custom-action-limitations.md)。
+本頁列出了 [限制](../about/limitations.md)。
 
 以下是設定自訂動作所需的主要步驟：
 
