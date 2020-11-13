@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
+source-git-commit: f45069225b284fe47e2acaccb4aa5d34fe171f35
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 2%
@@ -47,6 +47,6 @@ ht-degree: 2%
 * 用於啟動客戶歷程的串流資料，必須先在Journey Orchestration中進行設定，才能取得獨特的協調ID。 此協調ID必須附加至即將傳入Adobe Experience Platform的串流負載。
  
 
-## 資料來源限制：
+## 資料來源限制
 
 * 您可以在客戶歷程中運用外部資料來源，即時查閱外部資料。 這些來源必須可透過REST API使用、支援JSON並可處理大量請求。
