@@ -1,14 +1,15 @@
 ---
-product: Journeys
-audience: end-user
-user-guide-title: Journey Orchestration 指南
+product: adobe campaign
+solution: Journey Orchestration
+user-guide-title: 歷程協調
+title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 translation-type: tm+mt
-source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 99%
 
 ---
 
