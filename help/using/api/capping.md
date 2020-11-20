@@ -1,13 +1,11 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: 設定API說明上限
 description: 進一步瞭解封閉API。
-contentOwner: sauviat
 products: journeys
-audience: audiences
-content-type: reference
-topic-tags: journeys
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 1%
@@ -47,7 +45,7 @@ ht-degree: 1%
 >若要在Adobe I/O中管理憑證，請確定您在「管理控制台」中擁有 <b>組織或開發人員</b> 帳戶的系統管 [理員權限](https://helpx.adobe.com/enterprise/using/manage-developers.html) 。
 
 1. **檢查您是否有數位憑證**，或視需要建立憑證。 在下列步驟中，需要隨憑證提供的公開金鑰和私密金鑰。
-1. **在Adobe I/O中建立[!DNL Journey Orchestration]Service** 的新整合併加以設定。 產品設定檔存取是Adobe Experience Platform [!DNL Journey Orchestration] 的必要條件。 然後會產生您的認證（API金鑰、用戶端密碼……）。
+1. **在Adobe I/O中建立 [!DNL Journey Orchestration] Service** 的新整合併加以設定。 產品設定檔存取是Adobe Experience Platform [!DNL Journey Orchestration] 的必要條件。 然後會產生您的認證（API金鑰、用戶端密碼……）。
 1. **從先前產生的認證建立JSON Web Token(JWT)** ，並使用您的私密金鑰簽名。 JWT會對Adobe驗證您的身分並授與您API存取權所需的所有身分與安全資訊進行編碼。 本節將詳述此步 [驟](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **透過POST要求或透過Developer Console介面** ，將您的JWT交換為存取Token。 此存取Token必須用於API請求的每個標題中。
 
@@ -169,7 +167,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 為協助您進行測試和設定，此處提供Postman [系列](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
-此Postman Collection已設定為共用透過 __[Adobe I/O Console的「整合](https://console.adobe.io/integrations)>試用>下載Postman」產生的Postman Variable集合，而Postman__&#x200B;會產生具有選取整合值的Postman Environment檔案。
+此Postman Collection已設定為共用透過 __[Adobe I/O Console的「整合](https://console.adobe.io/integrations) >試用>下載Postman」產生的Postman Variable集合，而Postman__&#x200B;會產生具有選取整合值的Postman Environment檔案。
 
 下載並上傳至Postman後，您需要新增三個變數： `{JO_HOST}`,`{Base_Path}` and `{SANDBOX_NAME}`
 * `{JO_HOST}` : [!DNL Journey Orchestration] 閘道URL
