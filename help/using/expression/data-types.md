@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 資料類型
 description: 瞭解進階運算式中的資料類型
 translation-type: tm+mt
-source-git-commit: f755f92d0479e2889dd7ed6dfa5e72d52c25634f
+source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '558'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 以下各節提供不同資料類型運算式的相關資訊，以及其表示方式。
 
-## String {#string}
+## string {#string}
 
 **說明**
 
@@ -30,15 +30,23 @@ JSON格式：字串
 
 **常值表示法**
 
-```"<value>"```
+```
+"<value>"
+```
 
-```'<value>'```
+```
+'<value>'
+```
 
 **範例**
 
-```"hello world"```
+```
+"hello world"
+```
 
-```'hello world'```
+```
+'hello world'
+```
 
 ## 整數 {#integer}
 
@@ -50,11 +58,15 @@ JSON格式：數字
 
 **常值表示法**
 
-```<integer value>```
+```
+<integer value>
+```
 
 **範例**
 
-```42```
+```
+42
+```
 
 ## 小數點 {#decimal}
 
@@ -72,11 +84,15 @@ JSON格式：數字
 
 **常值表示法**
 
-```<integer value>.<integer value>```
+```
+<integer value>.<integer value>
+```
 
 **範例**
 
-```3.14```
+```
+3.14
+```
 
 ## 布林值 {#boolean}
 
@@ -88,13 +104,19 @@ JSON格式：布林值
 
 **常值表示法**
 
-```true```
+```
+true
+```
 
-```false```
+```
+false
+```
 
 **範例**
 
-```true```
+```
+true
+```
 
 ## dateTimeOnly {#date-time-only}
 
@@ -112,7 +134,9 @@ JSON格式：布林值
 
 **常值表示法**
 
-```toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  ```
+```
+toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+```
 
 ## dateTime {#date-time}
 
@@ -136,23 +160,39 @@ JSON格式：字串。
 
 **常值表示法**
 
-```toDateTime("<dateTime in ISO-8601 format>")```
+```
+toDateTime("<dateTime in ISO-8601 format>")
+```
 
-```toDateTime(<integer value of an epoch in milliseconds>)```
+```
+toDateTime(<integer value of an epoch in milliseconds>)
+```
 
 **範例**
 
-```toDateTime("1977-04-22T06:00:00Z")```
+```
+toDateTime("1977-04-22T06:00:00Z")
+```
 
-```toDateTime("2011-12-03T15:15:30Z")```
+```
+toDateTime("2011-12-03T15:15:30Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123Z")```
+```
+toDateTime("2011-12-03T15:15:30.123Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123+02:00")```
+```
+toDateTime("2011-12-03T15:15:30.123+02:00")
+```
 
-```toDateTime("2011-12-03T15:15:30.123-00:20")```
+```
+toDateTime("2011-12-03T15:15:30.123-00:20")
+```
 
-```toDateTime(1560762190189)```
+```
+toDateTime(1560762190189)
+```
 
 ## 持續時間 {#duration}
 
@@ -172,31 +212,55 @@ Duration.parse:接受的格式基於ISO-8601持續時間格式PnDTnHnMn.nS，其
 
 **常值表示法**
 
-```toDuration("<duration in ISO-8601 format>")```
+```
+toDuration("<duration in ISO-8601 format>")
+```
 
-```toDuration(<duration in milliseconds>)```
+```
+toDuration(<duration in milliseconds>)
+```
 
 **範例**
 
-```toDuration("PT5S")``` 解析為5秒
+```
+toDuration("PT5S") -- parses as 5 seconds
+```
 
-```toDuration(500)``` 解析度高達500ms
+```
+toDuration(500) -- parses as 500ms
+```
 
-```toDuration("PT20.345S")``` 解析為&quot;20.345秒&quot;
+```
+toDuration("PT20.345S") -- parses as "20.345 seconds"
+```
 
-```toDuration("PT15M") ``` 剖析為&quot;15分鐘&quot;（其中分鐘是60秒）
+```
+toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)
+```
 
-```toDuration("PT10H") ``` 剖析為&quot;10小時&quot;（其中一小時為3600秒）
+```
+toDuration("PT10H")  -- parses as "10 hours" (where an hour is 3600 seconds)
+```
 
-```toDuration("P2D") ``` 解析為「2天」（其中一天為24小時或86400秒）
+```
+toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)
+```
 
-```toDuration("P2DT3H4M") ```解析為「2天、3小時、4分鐘」
+```
+toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"
+```
 
-```toDuration("P-6H3M") ``` 剖析為&quot;-6小時+3分鐘&quot;
+```
+toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"
+```
 
-```toDuration("-P6H3M")``` 解析為&quot;-6小時-3分鐘&quot;
+```
+toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
+```
 
-```toDuration("-P-6H+3M") ``` 解析為&quot;+6小時和-3分鐘&quot;
+```
+toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
+```
 
 ## list {#list}
 
@@ -208,12 +272,20 @@ Duration.parse:接受的格式基於ISO-8601持續時間格式PnDTnHnMn.nS，其
 
 **常值表示法**
 
-```[<expression>, <expression>, ... ]```
+```
+[<expression>, <expression>, ... ]
+```
 
 **範例**
 
-```["value1","value2"]```
+```
+["value1","value2"]
+```
 
-```[3,5]```
+```
+[3,5]
+```
 
-```[toDuration(500),toDuration(800)]```
+```
+[toDuration(500),toDuration(800)]
+```
