@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: '關於歷程協調事件的ExperienceEvent結構描述 '
 description: '瞭解歷程協調事件的ExperienceEvent架構 '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    ![](../assets/schema2.png)
 
-* 架構必須包含Orchestration eventID mixin。 [!DNL Journey Orchestration] 使用此欄位來識別歷程中使用的事件。
+* 對於系統產生的事件，架構必須包含Orchestration eventID mixin。 [!DNL Journey Orchestration] 使用此欄位來識別歷程中使用的事件。
 
    ![](../assets/schema3.png)
 
