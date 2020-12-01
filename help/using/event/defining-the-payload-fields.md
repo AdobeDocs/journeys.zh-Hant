@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 定義裝載欄位
 description: 瞭解如何定義裝載欄位
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '282'
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >欄位 **[!UICONTROL eventID]** 會自動新增至選取欄位清單中，以便 [!DNL Journey Orchestration] 識別事件。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 請參閱[本頁](../event/previewing-the-payload.md)。
+   >對於系統產生的事件， **[!UICONTROL eventID]** 欄位會自動新增至選取欄位清單中，以便 [!DNL Journey Orchestration] 識別事件。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 請參閱[本頁](../event/previewing-the-payload.md)。
 
 1. 選擇完所需欄位後，按一下或 **[!UICONTROL Save]** 按 **[!UICONTROL Enter]**。
 
