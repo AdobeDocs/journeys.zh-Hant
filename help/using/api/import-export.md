@@ -5,15 +5,15 @@ title: 匯入匯出API說明
 description: 進一步瞭解匯入匯出API。
 products: journeys
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 8da1d4a6c01279bf502c3ec39bdaba8fcc8e64f8
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1131'
 ht-degree: 2%
 
 ---
 
 
-# 使用匯出匯入API
+# 使用Export-Import API
 
 使用單一API呼叫匯出歷程版本及其所有相關物件（歷程、事件、資料來源、欄位群組、自訂動作）。 匯出產生的裝載可用來輕鬆將歷程匯入其他環境（例項或沙盒）。
 此功能可讓您管理多個執行個體或多個測試環境工作流程的歷程。
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## 資源
 
-Journey Orchestration Import Export API是在此處提供的Swagger檔案中 [說明](https://adobedocs.github.io/JourneyAPI/docs/)。
+Journey Orchestration Export-Import API是在此處提供的Swagger檔案中 [說明](https://adobedocs.github.io/JourneyAPI/docs/)。
 
 若要將此API與您的Journey Orchestration例項搭配使用，您必須使用AdobeI/O Console。 您可以先遵循本「Adobe Developer Console [快速入門」](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) ，然後使用本頁中的章節。
 
@@ -40,8 +40,8 @@ Journey Orchestration Import Export API是在此處提供的Swagger檔案中 [�
    * 如果您的匯出歷程包 **含特定憑證**，您需要將這些憑證取代為對應新環境的憑證。
    * 如果導出的歷程包 **含指向** XDM架構的事件 ****，則需要手動更新模式ID參考（如果ID值不同），該參考使用xdmEntity節點中新環境的模式ID。 此更新必須針對每個事件進行。 [此處提供更多資訊](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
    * 如果您的歷程包含電子郵件、簡訊或推播動作，如果目標環境中的名稱與開始環境中的名稱不同，您可能必須更新範本名稱或mobileApp名稱。
-1. 使用您 **的目標環境** ，呼叫匯入API。 請注意，您可以視需要多次呼叫匯入API。 每次呼叫匯入API時，都會產生UUID和歷程中每個節點的名稱。
-1. 匯入「歷程」後，您就可以在新的沙盒或環境中發佈它。
+1. 使用您 **** 的目標環境參數（orgID和sandboxName）呼叫匯入API。 請注意，您可以視需要多次呼叫匯入API。 每次呼叫匯入API時，都會產生UUID和歷程中每個物件的名稱。
+1. 匯入Journey後，您就可以在Journey Orchestration應用程式中發佈它。 此處提供更多 [資訊](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## 驗證
@@ -81,7 +81,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 ## 匯出匯入API說明
 
-此API可讓您依其uid匯出歷程版本及所有相關物件（歷程、事件、資料來源、欄位群組、自訂動作）。
+此API可讓您匯出由其UID識別的歷程版本，以及所有相關物件（歷程、事件、資料來源、欄位群組、自訂動作）（依其uid）。
 產生的裝載可用來匯入其他環境（沙盒或例項）中的歷程版本。
 
 | 方法 | 路徑 | 說明 |
@@ -94,21 +94,20 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 ### 出口特徵和護欄
 
-* 不導出憑據，並插入佔位符（即INSERT_SECRET_HERE）。
-在導出裝載後，必須手動插入新憑據（對應於目標環境），然後才能在目標環境中導入裝載。
-
-* 當資料來源包含 **builtIn:true**，您不需要取代&quot;INSERT_SECRET_HERE&quot;。 這是由歷程環境自動管理的系統資料來源。
-
-* 將導出以下對象，但這些對象不會在目標環境中導入：
-   * **資料提供者**: acsDataProvider和acppsDataProvider
-   * **欄位群組**:acppsFieldGroup
-   * **自訂動作**:acsAction
-
 * 出口前，此歷程必須有效。
+
+* 憑證不會匯出，而會在回應裝載中插入預留位置（即INSERT_SECRET_HERE）。
+在匯出呼叫後，您必須先手動插入新憑證（對應於目標環境），才能將裝載匯入目標環境。
+
+* 以下對象將導出，但不會在目標環境中導入。 這些是由Journey Orchestration自動管理的系統資源。 您不需要取代「INSERT_SECRET_HERE」。
+   * **資料提供者**: 「Adobe Campaign標準資料提供者」(acsDataProvider)和「體驗平台」(acppsDataProvider)
+   * **欄位群組** (dataEntities):&quot;ProfileFieldGroup&quot;(acppsDataPack)
+
+
 
 ### 匯入特性
 
-* 在匯入期間，使用新的UUID和新名稱來建立歷程物件，以確保目標環境（例項或沙盒）中的唯一性。
+* 在匯入期間，使用新的UID和新名稱來建立歷程物件，以確保目標環境（例項或沙盒）中的唯一性。
 
 * 如果匯入裝載包含機密預留位置，則會擲回錯誤。 您必須在開機自檢呼叫前替換憑證資訊以導入歷程。
 
@@ -120,5 +119,4 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * 在匯 **入時**，如果裝載在修改後無效，或者在裝載中未正確定義憑證：錯誤400
 
-* 在匯入步驟後，如果您嘗試在目標環境中發佈歷程，而未變更事件的XDM架構ID，則會出現錯誤。
-
+* 匯入步驟後，如果您事件的XDM架構ID在目標環境中無效，則「歷程協調」應用程式中會出現錯誤。 在這種情況下，將無法公佈這段歷程。
