@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 關於事件
 description: 瞭解活動
 translation-type: tm+mt
-source-git-commit: c66c09441f69e7026c60c37f87972e1e4ac9f7f8
+source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 54%
+source-wordcount: '374'
+ht-degree: 55%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 54%
 
 您可以定義兩種事件：
 
-* **規則型事件** :此類型的事件不會產生eventID。 使用簡單運算式編輯器，您只需定義規則，系統將使用該規則來識別將觸發歷程的相關事件。 此規則可以根據事件裝載中可用的任何欄位，例如描述檔位置或新增至描述檔購物車的項目數。
+* **以規則為基** 礎的事件：此類型的事件不會產生eventID。使用簡單運算式編輯器，您只需定義規則，系統將使用該規則來識別將觸發歷程的相關事件。 此規則可以根據事件裝載中可用的任何欄位，例如描述檔位置或新增至描述檔購物車的項目數。
 
    >[!CAUTION]
    >
-   >會為規則型事件定義上限規則。 它可將歷程處理的合格事件數限制為每分鐘400k。 如需詳細資訊，請洽詢您的Alpha計畫聯絡點。 除了此限制規則外，在歷程層級定義5000個事件的秒數限制。
+   >會為規則型事件定義上限規則。 它可將特定組織(ORG)的歷程可處理的合格事件數限制為每秒5000個。 它與Journey Orchestration SLA相對應。 請參閱此[頁](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)。
 
-* **系統產生的事件** :這些事件需要eventID。 建立事件時會自動產生此eventID欄位。 推送事件的系統不應產生ID，而應傳遞裝載預覽中可用的ID。
+* **系統生成** 事件：這些事件需要eventID。建立事件時會自動產生此eventID欄位。 推送事件的系統不應產生ID，而應傳遞裝載預覽中可用的ID。
 
-要瞭解如何建立事件，請參閱本 [頁](../event/about-creating.md)。
+要瞭解如何建立事件，請參閱此[頁](../event/about-creating.md)。
 
