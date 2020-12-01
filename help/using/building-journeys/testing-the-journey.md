@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 測試歷程
 description: '瞭解歷程測試 '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1442'
 ht-degree: 3%
 
 ---
@@ -133,6 +133,16 @@ curl -X POST \
 在測試中開啟歷程時，顯示的路徑會對應於上次執行的測試。
 
 無論事件是透過介面觸發還是從外部觸發（例如使用Postman），視覺流程都能運作。
+
+## 規則型歷程測試模式 {#test-rule-based}
+
+測試模式也適用於使用規則型事件的歷程。 For more information on rule-based events, refer to [this page](../event/about-events.md).
+
+觸發事件時，「事 **件設定** 」畫面可讓您定義要傳入測試的事件參數。 按一下右上角的工具提示圖示，即可檢視事件ID條件。 規則評估中的每個欄位旁也會出現工具提示。
+
+![](../assets/alpha-event8.png)
+
+如需如何使用測試模式的詳細資訊，請參閱 [本頁](../building-journeys/testing-the-journey.md)。
 
 ## 查看日誌 {#viewing_logs}
 
