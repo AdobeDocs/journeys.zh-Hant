@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 發行說明
 description: 瞭解發行說明
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 90%
+source-wordcount: '2055'
+ht-degree: 77%
 
 ---
 
@@ -16,6 +16,71 @@ ht-degree: 90%
 
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱[文件更新](../release-notes/documentation-updates.md)。
+
+## 2020年11月發行 {#november-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>從一個旅程跳到另一個旅程</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>我們新增了一個動作活動，可讓您將個人從一個歷程推向另一個歷程。 「跳轉」活動允許您：
+</p>
+<ul>
+<li>將複雜的旅程分割為數個旅程，以簡化複雜的旅程設計 </li>
+<li>根據常見且可重複使用的歷程模式建立歷程</li>
+</ul>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/jump.md">相關的文件</a>，以瞭解詳情。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>在運算式編輯器中使用歷程屬性</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>在進階運算式編輯器中，我們在欄位和函式清單中新增了新類別。 這是系統從即時歷程擷取的資訊，例如歷程ID或遇到的特定錯誤。 這將為您提供更多建立旅程的可能性。 例如，您將能夠在條件或動作中遇到錯誤時提醒第三方系統。
+</p>
+<p>請注意，此功能將於未來幾天提供。</p>
+<p>如需詳細資訊，請參閱<a href="../expression/journey-properties.md">相關的文件</a>，以瞭解詳情。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>規則型事件 （測試版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>我們新增了一種方法，讓您更輕鬆地設定事件。 這項功能已透過Alpha計畫在有限的客戶群中測試過，現在已提供測試版給所有客戶。 此新方法不需要使用eventID。 它會評估事件是否應根據條件觸發。 您仍然可以使用現有的方法，現在稱為「系統產生」。
+</p>
+<p>請注意，此功能將於未來幾天提供。</p>
+<p>如需詳細資訊，請參閱<a href="../expression/journey-properties.md">相關的文件</a>，以瞭解詳情。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 其他改善項目{#october-november}
+
+建立歷程的新版本時已增加限制。 這些限制可避免在歷程中發生過大的變更，以維持版本間的一致性。 [顯示全文](../about/limitations.md#journey-versions-limitations)
+
+「區 **段資格** 」活動無法再用於包含「促銷活動標準」訊息活動的歷程中。 此限制可保護Adobe Campaign Standard例項的完整性。 事實上，「區段資格」的使用可能導致每日訊息傳送高峰，使「促銷活動標準交易訊息」超負荷。 [顯示全文](../about/limitations.md#segment-qualification)
 
 ## 2020年10月發行 {#october-release}
 
@@ -135,11 +200,11 @@ ht-degree: 90%
 <p>已對規則型事件進行下列改良：
 </p>
 <ul>
-<li><p>您現在可以運用您已擷取並串流至 Platform 的所有 Adobe Analytics 行為事件資料，以觸發歷程並自動化客戶體驗。<a href="../alpha/alpha-events.md#analytics-data">顯示全文</a></p>
+<li><p>您現在可以運用您已擷取並串流至 Platform 的所有 Adobe Analytics 行為事件資料，以觸發歷程並自動化客戶體驗。<a href="../event/about-analytics.md">顯示全文</a></p>
 </li>
-<li><p>在測試模式中觸發規則型事件時，您現在可以直接檢視事件 ID 條件。此外，規則評估的每個欄位旁都已新增工具提示。<a href="../alpha/alpha-events.md#configuring-rule-based">顯示全文</a></p>
+<li><p>在測試模式中觸發規則型事件時，您現在可以直接檢視事件 ID 條件。此外，規則評估的每個欄位旁都已新增工具提示。<a href="../building-journeys/testing-the-journey.md#test-rule-based">顯示全文</a></p>
 </li>
-<li><p>規則型事件定義畫面已重新整理，進而改善體驗。<a href="../alpha/alpha-events.md#test-rule-based">顯示全文</a></p>
+<li><p>規則型事件定義畫面已重新整理，進而改善體驗。<a href="../event/about-creating.md">顯示全文</a></p>
 </li>
 </ul>
 </td>
@@ -201,7 +266,7 @@ Alpha 方案提供目前在有限客戶群中進行測試的功能。這可讓�
 <tbody>
 <tr>
 <td>
-<p>我們已簡化設定 Experience 事件的方式。我們將推出不需要使用 eventID 的新方法。當您在 Journey Orchestration 中設定事件時，現在可以定義規則型活動。<a href="../alpha/alpha-events.md">顯示全文</a>
+<p>我們已簡化設定 Experience 事件的方式。我們將推出不需要使用 eventID 的新方法。當您在 Journey Orchestration 中設定事件時，現在可以定義規則型活動。<a href="../event/about-events.md">顯示全文</a>
 </p>
 </td>
 </tr>
@@ -277,8 +342,6 @@ Journey Orchestration 現在已於 APAC（澳洲資料中心）推出。生效�
 Journey Orchestration　介面提供日文版。
 
 ## 第 1 季發行 - 2020 年 3 月{#q1-release---march-2020}
-
-**新增功能?**
 
 <table>
 <thead>
