@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-user-guide-title: 歷程協調
+user-guide-title: Journey Orchestration
 title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 99%
+source-wordcount: '404'
+ht-degree: 96%
 
 ---
 
@@ -28,14 +28,18 @@ ht-degree: 99%
    + [存取管理](using/about/access-management.md)
    + [疑難排解](using/about/troubleshooting.md)
 + 設定事件 {#events-journeys}
-   + [關於事件](using/event/about-events.md)
-   + [關於 ExperienceEvent 結構](using/event/experience-event-schema.md)
+   + 關於事件{#about-events}
+      + [一般原則](using/event/about-events.md)
+      + [資料週期](using/event/about-data-cycle.md)
+      + [建立事件](using/event/about-creating.md)
+      + [運用Adobe Analytics](using/event/about-analytics.md)
+      + [關於 ExperienceEvent 結構](using/event/experience-event-schema.md)
+      + [傳送事件的其他步驟](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [定義裝載欄位](using/event/defining-the-payload-fields.md)
    + [選取命名空間](using/event/selecting-the-namespace.md)
    + [定義事件鍵](using/event/defining-the-event-key.md)
    + [新增條件](using/event/adding-a-condition.md)
    + [預覽裝載](using/event/previewing-the-payload.md)
-   + [傳送事件的其他步驟](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
 + 設定資料來源 {#data-source-journeys}
    + [關於資料來源](using/datasource/about-data-sources.md)
    + [欄位群組](using/datasource/field-groups.md)
@@ -75,6 +79,7 @@ ht-degree: 99%
          + [關於動作活動](using/building-journeys/about-action-activities.md)
          + [使用 Adobe Campaign 動作](using/building-journeys/using-adobe-campaign-actions.md)
          + [使用自訂動作](using/building-journeys/using-custom-actions.md)
+         + [從一個旅程跳到另一個旅程](using/building-journeys/jump.md)
    + [測試歷程](using/building-journeys/testing-the-journey.md)
    + [發佈歷程](using/building-journeys/publishing-the-journey.md)
    + 使用 Adobe Experience Platform 分享歷程步驟 {#sharing-journey-steps}
@@ -93,6 +98,7 @@ ht-degree: 99%
       + [欄位參考](using/expression/field-references.md)
       + [收集管理函式](using/expression/collection-management-functions.md)
       + [運算子](using/expression/operators.md)
+      + [歷程屬性](using/expression/journey-properties.md)
       + [範例](using/expression/advanced-editor-use-cases.md)
    + 函式 {#main-functions-journey}
       + [主要函式](using/expression/functions.md)
@@ -187,5 +193,4 @@ ht-degree: 99%
    + [Alpha 功能概觀](using/alpha/alpha-overview.md)
    + [使用者介面](using/alpha/alpha-interface.md)
    + [閱讀區段活動](using/alpha/alpha-segment-trigger.md)
-   + [規則型事件](using/alpha/alpha-events.md)
 
