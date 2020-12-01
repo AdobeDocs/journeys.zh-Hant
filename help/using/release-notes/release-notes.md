@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 發行說明
 description: 瞭解發行說明
 translation-type: tm+mt
-source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
+source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 77%
@@ -17,7 +17,7 @@ ht-degree: 77%
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱[文件更新](../release-notes/documentation-updates.md)。
 
-## 2020年11月發行 {#november-release}
+## 2020年11月發行{#november-release}
 
 <table>
 <thead>
@@ -80,9 +80,9 @@ ht-degree: 77%
 
 建立歷程的新版本時已增加限制。 這些限制可避免在歷程中發生過大的變更，以維持版本間的一致性。 [顯示全文](../about/limitations.md#journey-versions-limitations)
 
-「區 **段資格** 」活動無法再用於包含「促銷活動標準」訊息活動的歷程中。 此限制可保護Adobe Campaign Standard例項的完整性。 事實上，「區段資格」的使用可能導致每日訊息傳送高峰，使「促銷活動標準交易訊息」超負荷。 [顯示全文](../about/limitations.md#segment-qualification)
+**區段資格**&#x200B;活動無法再用於包含「促銷活動標準」訊息活動的歷程中。 此限制可保護Adobe Campaign Standard例項的完整性。 事實上，「區段資格」的使用可能導致每日訊息傳送高峰，使「促銷活動標準交易訊息」超負荷。 [顯示全文](../about/limitations.md#segment-qualification)
 
-## 2020年10月發行 {#october-release}
+## 2020年10月發行{#october-release}
 
 <table>
 <thead>
@@ -105,7 +105,7 @@ ht-degree: 77%
 
 * 當您發佈新版歷程時，舊版會自動結束並切換至「已關閉」狀態。 [顯示全文](../building-journeys/journey-versions.md)
 
-## 2020年9月發行 {#september-release}
+## 2020年9月發行{#september-release}
 
 ### GA 更新{#september-ga-update}
 
@@ -139,7 +139,7 @@ ht-degree: 77%
 <tbody>
 <tr>
 <td>
-<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+<p>已對<strong>讀取段</strong>活動進行了以下改進：
 </p>
 <ul>
 <li><p>以區段為基礎的歷程現在會在畫布上方顯示，提醒您歷程的排程類型。 您可以按一下此提醒以存取排程設定功能表。</p>
@@ -147,7 +147,7 @@ ht-degree: 77%
 <li><p>測試模式記錄檔的精細度已改良，可顯示區段匯出進度狀態。</p>
 </li>
 </ul>
-<p>如需「閱讀」區段活 <strong>動的詳細資訊</strong> ，請參閱詳 <a href="../alpha/alpha-segment-trigger.md">細檔案</a>。</p>
+<p>有關<strong>讀取段</strong>活動的詳細資訊，請參閱<a href="../alpha/alpha-segment-trigger.md">詳細文檔</a>。</p>
 </td>
 </tr>
 </tbody>
