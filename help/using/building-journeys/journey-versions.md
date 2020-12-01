@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 歷程版本
 description: 瞭解歷程版本
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 3%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 3%
 ![](../assets/journeyversions1.png)
 
 如果您需要修改為即時歷程，則必須建立新的歷程版本。
+
+>[!NOTE]
+>
+>若要進一步瞭解歷程版本限制，請參 [閱本頁](../about/limitations.md#journey-versions-limitations)
 
 1. 開啟您的即時旅程最新版本，按一下並 **[!UICONTROL Create a new version]** 確認。
 
