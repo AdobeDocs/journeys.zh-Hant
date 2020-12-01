@@ -2,17 +2,17 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 關於事件
-description: 瞭解如何設定事件
+description: 瞭解活動
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: c66c09441f69e7026c60c37f87972e1e4ac9f7f8
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 98%
+source-wordcount: '385'
+ht-degree: 54%
 
 ---
 
 
-# 關於事件{#concept_gfj_fqt_52b}
+# 一般原則{#concept_gfj_fqt_52b}
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -27,42 +27,15 @@ ht-degree: 98%
 
 如果您編輯草稿或即時歷程中使用的事件，則只能變更名稱和說明，或是新增有效負載欄位。我們對草稿或即時歷程版本有嚴格限制，以免中斷歷程。
 
-## 一般原則{#section_r1f_xqt_pgb}
+您可以定義兩種事件：
 
-事件屬於 POST API 呼叫。事件會透過串流獲取 API 傳送至 Adobe Experience Platform。透過交易訊息 API 傳送的事件 URL 目的地稱為「入口」。事件的有效負載遵從 XDM 格式。
+* **規則型事件** :此類型的事件不會產生eventID。 使用簡單運算式編輯器，您只需定義規則，系統將使用該規則來識別將觸發歷程的相關事件。 此規則可以根據事件裝載中可用的任何欄位，例如描述檔位置或新增至描述檔購物車的項目數。
 
-有效負載包含串流獲取 API 運作（在標題中）的所需資訊，以及 [!DNL Journey Orchestration] 運作（事件 ID、有效負載正文的一部分）所需的資訊，以及用於歷程（在正文中，例如捨棄購物車的金額）的資訊。串流獲取共有兩種模式，分別是驗證和未驗證。如需串流獲取 API 的詳細資訊，請參閱[此連結](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/api/getting-started.html)。
-
-在透過串流獲取 API 到達目的地之後，事件會流入名為 Pipeline 的內部服務，再流入 Adobe Experience Platform。如果事件結構已啟用「即時客戶個人檔案服務」標幟，且資料集 ID 也具有「即時客戶個人檔案」標幟，就會流入「即時客戶個人檔案服務」。
-
-Pipeline 會篩選由 [!DNL Journey Orchestration] 提供且包含 [!DNL Journey Orchestration] eventID 之有效負載（請參閱下方的事件建立程序）的事件。這些事件會由 [!DNL Journey Orchestration] 監聽，並會觸發相對應的歷程。
-
-## 建立新事件{#section_tbk_5qt_pgb}
-
-以下是設定新事件的主要步驟：
-
-1. 在頂端功能表中，按一下 **[!UICONTROL Events]** 索引標籤。畫面隨即顯示事件清單。有關介 [面的詳細資訊](../about/user-interface.md) ，請參閱本頁。
-
-   ![](../assets/journey5.png)
-
-1. 按一下 **[!UICONTROL Add]** 以建立新事件。事件設定窗格會在畫面右側開啟。
-
-   ![](../assets/journey6.png)
-
-1. 輸入事件的名稱。
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >請勿使用空格或特殊字元。請勿使用超過 30 個字元。
+   >會為規則型事件定義上限規則。 它可將歷程處理的合格事件數限制為每分鐘400k。 如需詳細資訊，請洽詢您的Alpha計畫聯絡點。 除了此限制規則外，在歷程層級定義5000個事件的秒數限制。
 
-1. 新增說明至您的事件。此步驟為選填。
-1. 定義結構和有效負載欄位：您可以在此處選取 [!DNL Journey Orchestration] 預期會收到的事件資訊（通常稱為有效負載）。接著，您就可以在歷程中使用這項資訊。請參閱[本頁](../event/defining-the-payload-fields.md)。
-1. 使用此事件的歷程次數會顯示在 **[!UICONTROL Used in]** 欄位中。您可以按一下 **[!UICONTROL View journeys]** 圖示，以顯示使用此事件的歷程清單。
-1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[本頁](../event/selecting-the-namespace.md)。
-1. 定義金鑰：從您的有效負載欄位選擇一個欄位，或是定義一個公式以識別與事件相關聯的人員。如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。事實上，[!DNL Journey Orchestration] 會挑選應該與命名空間對應的金鑰（例如，如果您選取電子郵件命名空間，系統便會選取電子郵件金鑰）。請參閱[本頁](../event/defining-the-event-key.md)。
-1. 新增條件。此步驟為選填。這可讓系統僅處理符合條件的事件。您只能根據事件含有之資訊設定條件。請參閱[本頁](../event/adding-a-condition.md)。
-1. 按一下 **[!UICONTROL Save]**。
+* **系統產生的事件** :這些事件需要eventID。 建立事件時會自動產生此eventID欄位。 推送事件的系統不應產生ID，而應傳遞裝載預覽中可用的ID。
 
-   ![](../assets/journey7.png)
+要瞭解如何建立事件，請參閱本 [頁](../event/about-creating.md)。
 
-   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[本頁](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
