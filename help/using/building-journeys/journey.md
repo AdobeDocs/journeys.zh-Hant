@@ -4,13 +4,12 @@ solution: Journey Orchestration
 title: 關於建立歷程
 description: 身為企業使用者，了解如何結合活動、協調和行銷活動，以構建歷程。
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 17%
 
 ---
-
 
 
 # 建立歷程 {#concept_gq5_sqt_52b}
