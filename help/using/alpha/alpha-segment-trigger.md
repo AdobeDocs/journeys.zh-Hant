@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 閱讀區段活動
 description: 進一步瞭解「讀取區段」活動。
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '651'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 3%
 「閱讀區段」活動可讓您讓屬於Adobe Experience Platform區段的所有個人進入歷程。 進入歷程可以執行一次，也可以定期執行。
 
 假設您在Adobe Experience Platform上擁有金級客戶群。 透過「閱讀區段」活動，您可以讓屬於黃金客戶區段的所有個人進入歷程，並讓他們進入個人化歷程，以運用所有歷程功能：條件、計時器、事件、動作。
+
+>[!NOTE]
+>
+>您不能在同一個歷程中 **有跳躍** 、「閱讀」區段活動。 您無法跳至以「讀取」區段事件開 **始的旅程** 。
 
 ## 設定活動 {#configuring-segment-trigger-activity}
 
