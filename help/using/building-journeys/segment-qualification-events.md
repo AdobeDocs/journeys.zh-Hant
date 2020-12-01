@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 區段資格事件
 description: 瞭解細分資格活動
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -82,6 +82,8 @@ ht-degree: 1%
 ### 串流區段{#streamed-speed-segment-qualification}
 
 使用串流區段的區段資格時，由於持續評估該區段，導致進入／退出高峰的風險較低。 不過，如果區段定義導致大量客戶同時符合資格，可能也會出現高峰。
+
+For more information on streaming segmentation, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### 如何避免過載{#overloads-speed-segment-qualification}
 
