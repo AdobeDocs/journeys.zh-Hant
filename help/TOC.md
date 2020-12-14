@@ -5,11 +5,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 96%
    + 關於事件{#about-events}
       + [一般原則](using/event/about-events.md)
       + [資料週期](using/event/about-data-cycle.md)
-      + [建立事件](using/event/about-creating.md)
-      + [運用Adobe Analytics](using/event/about-analytics.md)
+      + [建立一個事件](using/event/about-creating.md)
+      + [善用 Adobe Analytics](using/event/about-analytics.md)
       + [關於 ExperienceEvent 結構](using/event/experience-event-schema.md)
       + [傳送事件的其他步驟](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [定義裝載欄位](using/event/defining-the-payload-fields.md)
@@ -98,7 +98,7 @@ ht-degree: 96%
       + [欄位參考](using/expression/field-references.md)
       + [收集管理函式](using/expression/collection-management-functions.md)
       + [運算子](using/expression/operators.md)
-      + [歷程屬性](using/expression/journey-properties.md)
+      + [旅程屬性](using/expression/journey-properties.md)
       + [範例](using/expression/advanced-editor-use-cases.md)
    + 函式 {#main-functions-journey}
       + [主要函式](using/expression/functions.md)
