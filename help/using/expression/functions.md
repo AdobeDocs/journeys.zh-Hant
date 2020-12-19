@@ -16,7 +16,7 @@ ht-degree: 73%
 
 函式可以有不同的簽名（一組不同的有序參數）。 函式簽名可以具有0-N表達式作為有序參數。
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`,  `<expression as param 2>`, ......................................................................................,`<expression as param N>`)
 
 每個函式都有特定的傳回類型。
 
@@ -65,24 +65,24 @@ ht-degree: 73%
 | 數學 | [random](../functions/functionrandom.md) |
 | 數學 | [round](../functions/functionround.md) |
 | String | [concat](../functions/functionconcat.md) |
-| String | [contain](../functions/functioncontain.md) |
-| String | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
-| String | [endWith](../functions/functionendwith.md) |
-| String | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| String | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
-| String | [indexOf](../functions/functionindexof.md) |
-| String | [isEmpty](../functions/functionisempty.md) |
-| String | [isNotEmpty](../functions/functionisnotempty.md) |
-| String | [lastIndexOf](../functions/functionlastindexof.md) |
-| String | [length](../functions/functionlength.md) |
-| String | [lower](../functions/functionlower.md) |
-| String | [matchRegExp](../functions/functionmatchregexp.md) |
-| String | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
-| String | [replace](../functions/functionreplace.md) |
-| String | [replaceAll](../functions/functionreplaceall.md) |
-| String | [startWith](../functions/functionstartwith.md) |
-| String | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
-| String | [substr](../functions/functionsubstr.md) |
-| String | [trim](../functions/functiontrim.md) |
-| String | [upper](../functions/functionupper.md) |
-| String | [uid](../functions/functionuuid.md) |
+| 字串 | [contain](../functions/functioncontain.md) |
+| 字串 | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| 字串 | [endWith](../functions/functionendwith.md) |
+| 字串 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
+| 字串 | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| 字串 | [indexOf](../functions/functionindexof.md) |
+| 字串 | [isEmpty](../functions/functionisempty.md) |
+| 字串 | [isNotEmpty](../functions/functionisnotempty.md) |
+| 字串 | [lastIndexOf](../functions/functionlastindexof.md) |
+| 字串 | [length](../functions/functionlength.md) |
+| 字串 | [lower](../functions/functionlower.md) |
+| 字串 | [matchRegExp](../functions/functionmatchregexp.md) |
+| 字串 | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| 字串 | [replace](../functions/functionreplace.md) |
+| 字串 | [replaceAll](../functions/functionreplaceall.md) |
+| 字串 | [startWith](../functions/functionstartwith.md) |
+| 字串 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
+| 字串 | [substr](../functions/functionsubstr.md) |
+| 字串 | [trim](../functions/functiontrim.md) |
+| 字串 | [upper](../functions/functionupper.md) |
+| 字串 | [uid](../functions/functionuuid.md) |
