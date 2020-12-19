@@ -38,7 +38,7 @@ ht-degree: 98%
 
 與歷程相關的全域錯誤和警告會先出現在清單中。會依活動順序或外觀，由左至右地列出與特定活動相關的錯誤及警告。**[!UICONTROL Copy details]** 按鈕會複製支援團隊可用於疑難排解的歷程相關技術資訊。
 
-當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[本區段](../building-journeys/using-the-journey-designer.md#paths)。
+當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 檢查是否已正確傳送事件{#section_rqz_11t_dgb}
 
@@ -46,7 +46,7 @@ ht-degree: 98%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推播至 [!DNL Journey Orchestration]。事實上，[!DNL Journey Orchestration] 會仰賴 Adobe Experience Platform 的串流獲取 API。As a result, in case of event related issues, you can refer to [this page](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
+不會直接將事件從來源推播至 [!DNL Journey Orchestration]。事實上，[!DNL Journey Orchestration] 會仰賴 Adobe Experience Platform 的串流獲取 API。因此，若發生事件相關問題，您可參閱[本頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/streaming/troubleshooting.html)以取得串流擷取API疑難排解。
 
 ## 檢查是否有人進入歷程{#section_x4v_zzs_dgb}
 
