@@ -22,7 +22,7 @@ ht-degree: 93%
 
 ## 存取 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right, then click **[!UICONTROL Journey Orchestration]**.
+要訪問[!DNL Journey Orchestration]的介面，請按一下右上角的&#x200B;**[!UICONTROL App Selector]**&#x200B;表徵圖，然後按一下&#x200B;**[!UICONTROL Journey Orchestration]**。
 
 ![](../assets/journey1.png)
 
@@ -137,8 +137,8 @@ _在歷程的畫布中：_
 
 _旅程：_
 
-* 按 **T** 以啟用／停用測試模式。
-* 在以測試模式進行的事件型歷程中，按 **E** 以觸發事件。
-* 在以區段為基礎的歷程中，當在測試模式中選取 **Single profile at a time** （一次單一描述檔）選項時，按 **P** 以觸發事件。
-* 在測試模式下，按 **L** 以顯示日誌。
+* 按&#x200B;**T**&#x200B;啟用／停用測試模式。
+* 在測試模式中的事件型歷程中，按&#x200B;**E**&#x200B;觸發事件。
+* 在以區段為基礎的歷程中，當在測試模式中選取「每時&#x200B;**單一描述檔」選項時，按** P **以觸發事件。**
+* 在測試模式下，按&#x200B;**L**&#x200B;以顯示日誌。
 
