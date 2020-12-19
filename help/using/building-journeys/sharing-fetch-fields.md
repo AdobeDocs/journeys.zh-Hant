@@ -74,7 +74,7 @@ ht-degree: 4%
 
 ## fetchOriginErrorCode
 
-系統提供的錯誤代碼 [!DNL Journey Orchestration] 正在查詢。 例如，它可以是404、500等。
+系統[!DNL Journey Orchestration]提供的錯誤代碼正在查詢。 例如，它可以是404、500等。
 
 類型：字串
 
