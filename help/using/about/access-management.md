@@ -136,6 +136,6 @@ ht-degree: 100%
 
 [!DNL Journey Orchestration] 可讓您將執行個體分割到名為沙箱的個別虛擬環境中。會透過 Admin Console 中的產品設定檔指派沙箱。如需如何指派沙箱的詳細資訊，請參閱本[區段](../about/access-management.md#create-product-profile)。
 
-[!DNL Journey Orchestration] 會反映針對指定組織建立的 Adobe Experience Platform 沙箱。可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform 沙箱。請參閱[沙箱使用者指南](https://docs.adobe.com/content/help/zh-Hant/experience-platform/sandbox/ui/user-guide.html)以取得詳細步驟。
+[!DNL Journey Orchestration] 會反映針對指定組織建立的 Adobe Experience Platform 沙箱。可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform 沙箱。請參閱[沙箱使用者指南](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)以取得詳細步驟。
 
 您可在螢幕左上方找到沙箱切換器控制項。若要從一個沙箱切換至另一個沙箱，請按一下切換器中目前作用中的沙箱，然後從下拉式清單中選取另一個沙箱。
