@@ -34,7 +34,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->時區ID必須是字串常數。 它不能是欄位引用或表達式。 For more information on data types, refer to [this page](../expression/data-types.md).
+>時區ID必須是字串常數。 它不能是欄位引用或表達式。 有關資料類型的詳細資訊，請參閱[此頁](../expression/data-types.md)。
 
 ## 簽名和傳回的類型
 
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 `toDateTime(<integer>)`
 
-傳回 **dateTime**。
+傳回&#x200B;**dateTime**。
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
