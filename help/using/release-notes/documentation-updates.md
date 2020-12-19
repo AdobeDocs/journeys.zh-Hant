@@ -22,7 +22,7 @@ ht-degree: 94%
 
 ## 2020 年 9 月{#september-2020}
 
-* 已更新介面說明區段，以反映新的「全 **部選取器** 」功能表。 [顯示全文](../about/user-interface.md)
+* 介面說明部分已更新，以反映新的&#x200B;**All selector**&#x200B;菜單。 [顯示全文](../about/user-interface.md)
 * 已新增非經常性區段型歷程新版本的附註。 [顯示全文](../alpha/alpha-segment-trigger.md)
 
 ## 2020 年 8 月{#august-2020}
