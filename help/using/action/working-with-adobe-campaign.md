@@ -22,19 +22,19 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Adobe Campaign Standard交易訊息在特定例項的各個通道中，每小時最多可傳送50 000則訊息。 若要降低超出負荷的風險，建議您為「促銷活動標準」 **整合設定** 「上限規則」。
+>Adobe Campaign Standard交易訊息在特定例項的各個通道中，每小時最多可傳送50 000則訊息。 若要降低超載的風險，建議您為「促銷活動標準」整合設定&#x200B;**上限規則**。
 >
->閱讀更多有關 [Adobe Campaign標準產品說明中的交易訊息SLA](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。
+>閱讀[Adobe Campaign標準產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)中有關交易訊息SLA的更多資訊。
 
 以下是設定它的步驟：
 
-1. 從清單 **[!UICONTROL Actions]** 中按一下內建動 **[!UICONTROL AdobeCampaignStandard]** 作。 動作設定窗格會在畫面的右側開啟。
+1. 從&#x200B;**[!UICONTROL Actions]**&#x200B;清單中，按一下內建&#x200B;**[!UICONTROL AdobeCampaignStandard]**&#x200B;動作。 動作設定窗格會在畫面的右側開啟。
 
    ![](../assets/actioncampaign.png)
 
-1. 複製您的Adobe Campaign Standard例項URL，並貼到欄位 **[!UICONTROL URL]** 中。
+1. 複製您的Adobe Campaign Standard例項URL，並貼至&#x200B;**[!UICONTROL URL]**&#x200B;欄位。
 
-1. 按一下 **[!UICONTROL Test the instance URL]** 以測試例項的有效性。
+1. 按一下&#x200B;**[!UICONTROL Test the instance URL]**&#x200B;以測試例項的有效性。
 
    >[!NOTE]
    >
@@ -46,8 +46,8 @@ ht-degree: 4%
    >
    >與此Adobe Campaign Standard實例關聯的ORG與Journey Orchestration的ORG相同。
 
-在設計您的歷程時，類別中會提供三個動 **[!UICONTROL Action]** 作： **[!UICONTROL Email]**、、 **[!UICONTROL Push]**(請 **[!UICONTROL SMS]** 參 [閱使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-actions.md))。 **Reactions事件** 也可讓您對訊息點按、開啟等做出反應。 (請參 [閱「反應事件](../building-journeys/reaction-events.md)」)。
+在設計您的歷程時，**[!UICONTROL Action]**&#x200B;類別中會提供三個動作：**[!UICONTROL Email]**、**[!UICONTROL Push]**、**[!UICONTROL SMS]**（請參閱[使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-actions.md)）。 **反應** 甚至可讓您對訊息點按、開啟等做出反應。（請參閱[Reactions events](../building-journeys/reaction-events.md)）。
 
 ![](../assets/journey58.png)
 
-如果您使用協力廠商系統來傳送訊息，則需要新增及設定自訂動作。 See [About custom action configuration](../action/about-custom-action-configuration.md).
+如果您使用協力廠商系統來傳送訊息，則需要新增及設定自訂動作。 請參閱[關於自訂動作設定](../action/about-custom-action-configuration.md)。
