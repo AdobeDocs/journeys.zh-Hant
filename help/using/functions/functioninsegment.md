@@ -18,7 +18,7 @@ ht-degree: 6%
 
 區段名稱必須是字串常數。 它不能是欄位引用或表達式。
 
-區段是在 [Adobe Experience Platform中定義](https://platform.adobe.com/segment/overview)。 運算式編輯器提供自動完成的區段清單。
+區段定義於[Adobe Experience Platform](https://platform.adobe.com/segment/overview)中。 運算式編輯器提供自動完成的區段清單。
 
 >[!NOTE]
 >
@@ -50,4 +50,4 @@ Adobe Experience Platform
 
 說明：
 
-如果歷程例 **[!UICONTROL true]** 項中的個人屬於名為「50歲以上的男性」的Adobe Experience Platform區段，則函式會傳回 **[!UICONTROL false]** 。
+如果歷程例項中的個人屬於名為「50歲以上的男性」的Adobe Experience Platform區段，則函式會傳回&#x200B;**[!UICONTROL true]**，否則會傳回&#x200B;**[!UICONTROL false]**。
