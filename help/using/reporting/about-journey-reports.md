@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![](../assets/dynamic_report_toolbar.png)
 
-使用標 **[!UICONTROL Project]** 簽可以：
+使用&#x200B;**[!UICONTROL Project]**&#x200B;頁籤可以：
 
 * **[!UICONTROL Open]**:開啟先前建立的報表或範本。
 * **[!UICONTROL Save As]**:複製範本，以便修改範本。
@@ -34,13 +34,13 @@ ht-degree: 1%
 * **[!UICONTROL Download CSV]**:將報表匯出為CSV檔案。
 * **[!UICONTROL Print]**:列印您的報表。
 
-該選 **[!UICONTROL Edit]** 項卡允許您：
+**[!UICONTROL Edit]**&#x200B;標籤允許您：
 
 * **[!UICONTROL Undo]**:取消控制面板上的最後動作。
 * **[!UICONTROL Redo]**:取消控制面 **[!UICONTROL Undo]** 板上的最後動作。
 * **[!UICONTROL Clear all]**:刪除控制面板上的每個面板。
 
-此表 **[!UICONTROL Insert]** 格可讓您將圖形和表格新增至控制面板，以自訂報表：
+**[!UICONTROL Insert]**&#x200B;表格可讓您將圖形和表格新增至控制面板，以自訂報表：
 
 * **[!UICONTROL New Blank Panel]**:新增空白麵板至控制面板。
 * **[!UICONTROL New Freeform]**:新增自由表格至控制面板。
@@ -53,14 +53,14 @@ ht-degree: 1%
 
 這些標籤可讓您存取下列項目：
 
-* **[!UICONTROL Panels]**:新增空白麵板或自由格式至報表，以開始篩選資料。 For more on this, refer to the [Adding panels](../reporting/creating-your-journey-reports.md#adding-panels) section
-* **[!UICONTROL Visualizations]**:拖放一系列視覺化項目，讓您的報表擁有圖形維度。 For more on this, refer to the [Adding visualizations](../reporting/creating-your-journey-reports.md#adding-visualizations) section.
-* **[!UICONTROL Components]**:使用不同的維度、量度、區段和時段自訂報表。 For more on this, refer to the [Adding components](../reporting/creating-your-journey-reports.md#adding-components) section.
+* **[!UICONTROL Panels]**:新增空白麵板或自由格式至報表，以開始篩選資料。有關詳細資訊，請參閱[添加面板](../reporting/creating-your-journey-reports.md#adding-panels)部分
+* **[!UICONTROL Visualizations]**:拖放一系列視覺化項目，讓您的報表擁有圖形維度。有關詳細資訊，請參閱[添加視覺化](../reporting/creating-your-journey-reports.md#adding-visualizations)部分。
+* **[!UICONTROL Components]**:使用不同的維度、量度、區段和時段自訂報表。有關詳細資訊，請參閱[添加元件](../reporting/creating-your-journey-reports.md#adding-components)部分。
 
-## 歷程摘要範本 {#ootb-template}
+## 歷程摘要範本{#ootb-template}
 
 報表分為兩類：立即可用的範本和自訂報表。
-現成可用的範本可讓您 **[!UICONTROL Journey summary]**&#x200B;清楚檢視最重要的追蹤資料。
+現成可用的範本**[!UICONTROL Journey summary]**&#x200B;可讓您清楚檢視最重要的追蹤資料。
 
 ![](../assets/dynamic_report_journey_8.png)
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 ![](../assets/dynamic_report_journey_10.png)
 
-表格 **[!UICONTROL Journey summary]** 包含您歷程的可用資料，例如：
+**[!UICONTROL Journey summary]**&#x200B;表格包含您歷程中可用的資料，例如：
 
 * **[!UICONTROL Entered]**:到達旅程入門活動的總人數。
 * **[!UICONTROL Completion rate]**:到達行程結束流量控制的個人總數與進入行程的個人總數之比。
@@ -91,11 +91,11 @@ ht-degree: 1%
 * **[!UICONTROL Failed]**:未成功執行的歷程總數。
 * **[!UICONTROL Failed rate]**:未成功執行的歷程總數與執行歷程的次數比較。
 
-表格 **[!UICONTROL Top events]** 顯示您歷程中最成功的 **[!UICONTROL Top action]**&#x200B;事件和最成功的動作。
+**[!UICONTROL Top events]**&#x200B;表格會顯示最成功的事件和&#x200B;**[!UICONTROL Top action]**，這是您歷程中最成功的動作。
 
 ![](../assets/dynamic_report_journey_11.png)
 
-表格 **[!UICONTROL Delivery - Sending summary]** 包含您歷程傳送的可用資料，例如：
+**[!UICONTROL Delivery - Sending summary]**&#x200B;表格包含您歷程傳送的可用資料，例如：
 
 * **[!UICONTROL Processed/sent]**:已發送的消息總數。
 * **[!UICONTROL Delivered rate]**:成功傳送的訊息總數與傳送的訊息相比較。
@@ -103,7 +103,7 @@ ht-degree: 1%
 * **[!UICONTROL Bounce + error rate]**:與已發送的消息相比，被跳回的消息總數。
 * **[!UICONTROL Bounces + errors]**:傳送和自動傳回處理期間累積的錯誤總數，與已傳送訊息總數相關。
 
-表格 **[!UICONTROL Delivery - Tracking summary]** 包含可用來追蹤您歷程傳送成功的資料，例如：
+**[!UICONTROL Delivery - Tracking summary]**&#x200B;表格包含可追蹤您歷程傳送成功的資料，例如：
 
 * **[!UICONTROL Open Rate]**:已開啟留言的百分比。
 * **[!UICONTROL Open]**:傳送中訊息開啟的次數。
