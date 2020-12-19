@@ -14,27 +14,27 @@ ht-degree: 3%
 
 # 測試歷程{#testing_the_journey}
 
-您必須先解決所有錯誤（如果有），才能測試您的旅程。 請參閱[本區段](../about/troubleshooting.md#section_h3q_kqk_fhb)。
+您必須先解決所有錯誤（如果有），才能測試您的旅程。 請參閱[本節](../about/troubleshooting.md#section_h3q_kqk_fhb)。
 
 您有可能在發佈之前，使用測試設定檔來測試您的旅程。 這可讓您分析個人在歷程中的流程，並在發佈前進行疑難排解。
 
 若要使用測試模式，請依照下列步驟進行：
 
-1. 在測試您的歷程之前，請先確認其有效且無錯誤。 您將無法針對有錯誤的歷程進行測試。 請參閱[本區段](../about/troubleshooting.md#section_h3q_kqk_fhb)。出現錯誤時會顯示警告符號。
+1. 在測試您的歷程之前，請先確認其有效且無錯誤。 您將無法針對有錯誤的歷程進行測試。 請參閱[本節](../about/troubleshooting.md#section_h3q_kqk_fhb)。出現錯誤時會顯示警告符號。
 
-1. 若要啟動測試模式，請按一下位 **[!UICONTROL Test]** 於右上角的切換。
+1. 若要啟動測試模式，請按一下位於右上角的&#x200B;**[!UICONTROL Test]**&#x200B;切換。
 
    ![](../assets/journeytest1.png)
 
-1. 使用左 **[!UICONTROL Wait time in test]** 下角的參數定義每個等待活動在測試模式下的持續時間。 預設時間為 10 秒。這可確保您快速取得測試結果。 只有在您的歷程中丟棄了一個或多個等待活動時，才會顯示此參數。
+1. 使用左下角的&#x200B;**[!UICONTROL Wait time in test]**&#x200B;參數定義每個等待活動在測試模式下的持續時間。 預設時間為 10 秒。這可確保您快速取得測試結果。 只有在您的歷程中丟棄了一個或多個等待活動時，才會顯示此參數。
 
    ![](../assets/journeytest_wait.png)
 
-1. 按一 **[!UICONTROL Trigger an event]** 下以設定並傳送活動至旅程。 請確定傳送與測試設定檔相關的事件。 請參 [閱觸發事件](#firing_events)。
+1. 按一下&#x200B;**[!UICONTROL Trigger an event]**&#x200B;以設定事件並傳送至歷程。 請確定傳送與測試設定檔相關的事件。 請參閱[觸發事件](#firing_events)。
 
    ![](../assets/journeyuctest1.png)
 
-1. 收到事件後，按一下按 **[!UICONTROL Show log]** 鈕以檢視測試結果並加以驗證。 請參 [閱查看日誌](#viewing_logs)。
+1. 收到事件後，按一下&#x200B;**[!UICONTROL Show log]**&#x200B;按鈕查看測試結果並驗證結果。 請參閱[查看日誌](#viewing_logs)。
 
    ![](../assets/journeyuctest2.png)
 
@@ -43,16 +43,16 @@ ht-degree: 3%
 ## 重要附註 {#important_notes}
 
 * 提供一個介面，可將事件觸發至測試的歷程，但事件也可由第三方系統（例如Postman）傳送。
-* 只有在即時客戶個人檔案服務中標示為「測試個人檔案」的個人才能進入測試的歷程。 請參閱[本區段](../building-journeys/testing-the-journey.md#create-test-profile)。
+* 只有在即時客戶個人檔案服務中標示為「測試個人檔案」的個人才能進入測試的歷程。 請參閱[本節](../building-journeys/testing-the-journey.md#create-test-profile)。
 * 測試模式僅適用於使用命名空間的草稿歷程。 測試模式需要檢查進入歷程的人員是否是測試設定檔，因此必須能夠存取Adobe Experience Platform。
 * 在測試階段作業中，測試描述檔的最大數量可超過進入歷程的次數為100。
 * 當您停用測試模式時，它會佔用過去或目前已進入測試模式的所有人員的歷程。 也會清除報表。
 * 您可以視需要多次啟用／停用測試模式。
 * 您無法在啟動測試模式時修改歷程。 在測試模式中，您可以直接發佈歷程，而不需先停用測試模式。
 
-## Creating a test profile{#create-test-profile}
+## 建立測試描述檔{#create-test-profile}
 
-建立測試描述檔的程式與在Adobe Experience Platform中建立描述檔的程式相同。 它是透過API呼叫來執行。 See this [page](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)
+建立測試描述檔的程式與在Adobe Experience Platform中建立描述檔的程式相同。 它是透過API呼叫來執行。 請參閱此[頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)
 
 您必須使用包含「描述檔測試詳細資訊」混合的描述檔結構。 testProfile標幟是此混音的一部分。
 
@@ -104,9 +104,9 @@ curl -X POST \
 }'
 ```
 
-## 觸發事件 {#firing_events}
+## 觸發事件{#firing_events}
 
-按 **[!UICONTROL Trigger an event]** 鈕可讓您設定事件，讓人員進入歷程。
+**[!UICONTROL Trigger an event]**&#x200B;按鈕可讓您設定事件，讓人員進入旅程。
 
 >[!NOTE]
 >
@@ -118,13 +118,13 @@ curl -X POST \
 
 ![](../assets/journeytest4.png)
 
-此介面可讓您傳遞簡單事件參數。 如果您想要在事件中傳遞系列或其他進階物件，可以按一下， **[!UICONTROL Code View]** 查看裝載的整個程式碼並加以修改。 例如，您可以複製和貼上由技術使用者準備的事件資訊。
+此介面可讓您傳遞簡單事件參數。 如果要在事件中傳遞系列或其他進階物件，可以按一下&#x200B;**[!UICONTROL Code View]**&#x200B;來查看裝載的整個程式碼並加以修改。 例如，您可以複製和貼上由技術使用者準備的事件資訊。
 
 ![](../assets/journeytest5.png)
 
 技術使用者也可以使用此介面來合成事件負載並觸發事件，而不需使用協力廠商工具。
 
-按一下按鈕 **[!UICONTROL Send]** 時，測試就會開始。 個體在歷程中的進展由視覺流量表示。 當個人在旅程中移動時，路徑會逐漸變綠。 如果發生錯誤，警告符號會顯示在對應的步驟上。 您可以將游標置於其上，以顯示有關錯誤的更多資訊，並存取完整的詳細資料（如果有）。
+按一下&#x200B;**[!UICONTROL Send]**&#x200B;按鈕時，測試開始。 個體在歷程中的進展由視覺流量表示。 當個人在旅程中移動時，路徑會逐漸變綠。 如果發生錯誤，警告符號會顯示在對應的步驟上。 您可以將游標置於其上，以顯示有關錯誤的更多資訊，並存取完整的詳細資料（如果有）。
 
 ![](../assets/journeytest6.png)
 
@@ -134,19 +134,19 @@ curl -X POST \
 
 無論事件是透過介面觸發還是從外部觸發（例如使用Postman），視覺流程都能運作。
 
-## 規則型歷程測試模式 {#test-rule-based}
+## 規則型歷程測試模式{#test-rule-based}
 
-測試模式也適用於使用規則型事件的歷程。 For more information on rule-based events, refer to [this page](../event/about-events.md).
+測試模式也適用於使用規則型事件的歷程。 如需規則型事件的詳細資訊，請參閱[本頁](../event/about-events.md)。
 
-觸發事件時，「事 **件設定** 」畫面可讓您定義要傳入測試的事件參數。 按一下右上角的工具提示圖示，即可檢視事件ID條件。 規則評估中的每個欄位旁也會出現工具提示。
+觸發事件時，**事件設定**&#x200B;畫面可讓您定義要傳入測試的事件參數。 按一下右上角的工具提示圖示，即可檢視事件ID條件。 規則評估中的每個欄位旁也會出現工具提示。
 
 ![](../assets/alpha-event8.png)
 
-如需如何使用測試模式的詳細資訊，請參閱 [本頁](../building-journeys/testing-the-journey.md)。
+有關如何使用測試模式的詳細資訊，請參閱[本頁](../building-journeys/testing-the-journey.md)。
 
-## 查看日誌 {#viewing_logs}
+## 查看日誌{#viewing_logs}
 
-按 **[!UICONTROL Show log]** 鈕可讓您檢視測試結果。 此頁面以JSON格式顯示歷程的目前資訊。 一個按鈕允許您複製整個節點。 您需要手動重新整理頁面，以更新歷程的測試結果。
+**[!UICONTROL Show log]**&#x200B;按鈕可讓您檢視測試結果。 此頁面以JSON格式顯示歷程的目前資訊。 一個按鈕允許您複製整個節點。 您需要手動重新整理頁面，以更新歷程的測試結果。
 
 ![](../assets/journeytest3.png)
 
@@ -156,14 +156,14 @@ curl -X POST \
 
 此時會顯示目前在歷程中的個人（技術上稱為例項）數量。 以下是每個個人顯示的有用資訊：
 
-* _Id_:歷程中個人的內部ID。 這可用於除錯用途。
-* _currentstep_:個體在旅程中所處的階段。 我們建議將標籤新增至您的活動，以便更輕鬆地識別。
-* _currentstep_ > phase:個人歷程的狀態（執行、完成、錯誤或逾時）。 請參閱下方以取得詳細資訊。
-* _currentstep_ > _extraInfo_:錯誤的描述和其他上下文資訊。
-* _currentstep_ > _fetchErrors_:此步驟中發生的讀取資料錯誤的資訊。
+* _Id_:歷程中個人的內部ID。這可用於除錯用途。
+* _currentstep_:個體在旅程中所處的階段。我們建議將標籤新增至您的活動，以便更輕鬆地識別。
+* _currentstep_ > phase:個人歷程的狀態（執行、完成、錯誤或逾時）。請參閱下方以取得詳細資訊。
+* _currentstep_ >  _extraInfo_:錯誤的描述和其他上下文資訊。
+* _currentstep_ >  _fetchErrors_:此步驟中發生的讀取資料錯誤的資訊。
 * _externalKeys_:在事件中定義的鍵公式值。
 * _豐富的資料_:旅程使用資料來源時所擷取的資料。
-* _transitionHistory_:個人遵循的步驟清單。 對於事件，會顯示裝載。
+* _transitionHistory_:個人遵循的步驟清單。對於事件，會顯示裝載。
 * _actionExecutionErrors_ :錯誤的相關資訊。
 
 以下是個人旅程的不同狀態：
