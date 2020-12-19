@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # 設定事件 {#concept_sbp_5cy_w2b}
 
-在我們的情形中，每次有人進入馬爾頓酒店和餐廳時，我們都需要得到一個活動。 技 **術使用者** ，需要設定我們希望系統在歷程中聆聽的兩個事件。
+在我們的情形中，每次有人進入馬爾頓酒店和餐廳時，我們都需要得到一個活動。 **技術使用者**&#x200B;需要設定我們希望系統在歷程中監聽的兩個事件。
 
-有關事件配置的其他資訊，請參 [閱此頁](../event/about-events.md)。
+有關事件配置的其他資訊，請參閱[本頁](../event/about-events.md)。
 
-1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
+1. 在頂部菜單中，按一下&#x200B;**[!UICONTROL Events]**&#x200B;頁籤，然後按一下&#x200B;**[!UICONTROL Add]**&#x200B;以建立新事件。
 
    ![](../assets/journeyuc1_1.png)
 
@@ -30,7 +30,7 @@ ht-degree: 7%
 
    我們還需要註冊Token來傳送推播訊息：&quot;_experience >促銷活動>訊息>描述檔>推播通知Token > Token&quot;
 
-   系統會自動為此事件產生ID。 此ID會儲存在欄 **[!UICONTROL eventID]** 位（&quot;_experience >促銷活動>協調>eventID&quot;）中。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 在我們的使用案例中，此ID用於識別信標位置。 每當訪客在大堂信標附近散步時，就會傳送包含此特定事件ID的事件。 同樣的原則也適用於餐廳信標事件。 這可讓系統知道觸發事件傳送的信標。
+   系統會自動為此事件產生ID。 此ID會儲存在&#x200B;**[!UICONTROL eventID]**&#x200B;欄位(&quot;_experience > campaign > orchestration > eventID&quot;)中。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 在我們的使用案例中，此ID用於識別信標位置。 每當訪客在大堂信標附近散步時，就會傳送包含此特定事件ID的事件。 同樣的原則也適用於餐廳信標事件。 這可讓系統知道觸發事件傳送的信標。
 
    ![](../assets/journeyuc2_2.png)
 
@@ -38,7 +38,7 @@ ht-degree: 7%
    >
    >欄位清單會依不同的架構而有所不同。 根據架構定義，某些欄位可能是必填和預選的。
 
-1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
+1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。有關名稱空間的詳細資訊，請參見[此頁](../event/selecting-the-namespace.md)。
 
    ![](../assets/journeyuc2_4.png)
 
@@ -48,7 +48,7 @@ ht-degree: 7%
 
 1. 按一下 **[!UICONTROL Save]**。
 
-1. 按一下 **[!UICONTROL View Payload]** 圖示可預覽系統預期的裝載，並與負責事件傳送的人員共用。  此裝載必須在Mobile Services管理控制台的回傳中設定。
+1. 按一下&#x200B;**[!UICONTROL View Payload]**&#x200B;圖示，預覽系統預期的裝載，並與負責事件傳送的人員共用。  此裝載必須在Mobile Services管理控制台的回傳中設定。
 
    ![](../assets/journeyuc2_5.png)
 
