@@ -1,18 +1,18 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 歷程屬性
+title: 旅程屬性
 description: 瞭解歷程屬性
 translation-type: tm+mt
 source-git-commit: 341138c31676870878099b4f4eecec200a614c69
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 旅程屬性{#journey-properties}
+# 旅程屬性 {#journey-properties}
 
 在進階運算式編輯器中，您會在事件與資料來源類別下方找到&#x200B;**歷程屬性**&#x200B;類別。 此類別包含與特定描述檔之旅程相關的技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程ID或遇到的特定錯誤。
 
