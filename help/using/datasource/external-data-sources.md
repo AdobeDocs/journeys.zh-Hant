@@ -53,7 +53,7 @@ ht-degree: 99%
 
    ![](../assets/journey27.png)
 
-1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。For more information on the custom authentication mode, see [this section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). 在我們的範例中，我們選擇：
+1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。有關自定義身份驗證模式的詳細資訊，請參閱[本節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。 在我們的範例中，我們選擇：
 
 
    * **[!UICONTROL Type]**：&quot;API key&quot;
