@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # toDuration {#toDuration}
 
-將參數值轉換為持續時間。 For more information on data types, refer to [this page](../expression/data-types.md).
+將參數值轉換為持續時間。 有關資料類型的詳細資訊，請參閱[此頁](../expression/data-types.md)。
 
 ## 類別
 
