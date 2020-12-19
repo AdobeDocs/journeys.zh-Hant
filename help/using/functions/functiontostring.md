@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # toString {#toString}
 
-根據參數值的類型將參數值轉換為字串值。 For more information on data types, refer to [this page](../expression/data-types.md).
+根據參數值的類型將參數值轉換為字串值。 有關資料類型的詳細資訊，請參閱[此頁](../expression/data-types.md)。
 
 ## 類別
 
