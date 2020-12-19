@@ -79,7 +79,7 @@ ht-degree: 2%
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* 並指定SKU，使用函式 `first` 來擷取最近的「addToCart」互動：
+* 然後使用函式`first`指定SKU，以擷取最近的「addToCart」互動：
 
    ```
        #{ExperiencePlatformDataSource
@@ -109,9 +109,9 @@ ht-degree: 2%
                     .name} == "Arlington"
 ```
 
-說明：這是嚴格的字串比較（區分大小寫），等同於使用勾選的簡單模式 `equal to` 的查 `Is sensitive` 詢。
+說明：這是嚴格的字串比較（區分大小寫），等同於使用`equal to`並勾選`Is sensitive`的簡單模式查詢。
 
-在進階模式中， `Is sensitive` 取消選取的相同查詢將產生下列運算式：
+取消選中`Is sensitive`的同一查詢將在高級模式下生成以下表達式：
 
 ```
         equalIgnoreCase(@{GeofenceEntry
@@ -138,6 +138,6 @@ ht-degree: 2%
                          ))
 ```
 
-說明：此範例使用 `substr` 和函 `lastIndexOf` 數來移除大括弧，此大括弧會括住隨行動應用程式啟動事件傳遞的CRM ID。
+說明：此範例使用`substr`和`lastIndexOf`函式來移除大括弧，此大括弧會圍住隨行動應用程式啟動事件傳遞的CRM ID。
 
-如需如何使用進階運算式編輯器的詳細資訊，請觀看 [此影片](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
+如需如何使用進階運算式編輯器的詳細資訊，請觀賞此影片[。](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)
