@@ -20,8 +20,8 @@ ht-degree: 8%
 
 如果你停止旅程，它將永久停止。 旅程中流動的人，將被永久攔住，旅程將停止允許新的入口。 如果您需要再次使用歷程，則需要複製並發佈它。
 
-1. 在發佈您的歷程前，請先確認其有效且無錯誤。 您將無法發佈有錯誤的歷程。 請參閱[本區段](../about/troubleshooting.md#section_h3q_kqk_fhb)。此外，建議您在發佈前先測試您的歷程。 請參閱[本頁](../building-journeys/testing-the-journey.md)。
-1. 若要發佈歷程，請按一下位 **[!UICONTROL Publish]** 於右上角下拉式選單中的選項。
+1. 在發佈您的歷程前，請先確認其有效且無錯誤。 您將無法發佈有錯誤的歷程。 請參閱[本節](../about/troubleshooting.md#section_h3q_kqk_fhb)。此外，建議您在發佈前先測試您的歷程。 請參閱[本頁](../building-journeys/testing-the-journey.md)。
+1. 若要發佈歷程，請按一下位於右上方下拉式選單中的&#x200B;**[!UICONTROL Publish]**&#x200B;選項。
 
    ![](../assets/journeyuc1_18.png)
 
