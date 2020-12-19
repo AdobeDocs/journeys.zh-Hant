@@ -21,7 +21,7 @@ ht-degree: 7%
 >
 >對於系統產生的事件，當您建立事件時，在檢視裝載預覽之前，請先儲存事件並重新開啟它。 需要此步驟，才能在裝載中產生事件ID。
 
-1. 按一下 **[!UICONTROL View Payload]** 圖示，預覽系統預期的裝載。
+1. 按一下&#x200B;**[!UICONTROL View Payload]**&#x200B;表徵圖可預覽系統預期的裝載。
 
    ![](../assets/journey13.png)
 
@@ -31,4 +31,4 @@ ht-degree: 7%
 
 1. 勾選預覽以驗證裝載定義。
 
-1. 然後，您可以將裝載預覽共用給負責事件傳送的人員。 此裝載可協助他設計推送至之事件的設定 [!DNL Journey Orchestration]。 請參閱[本頁](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+1. 然後，您可以將裝載預覽共用給負責事件傳送的人員。 此裝載可協助他設計推送至[!DNL Journey Orchestration]之事件的設定。 請參閱[本頁](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
