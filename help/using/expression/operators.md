@@ -34,7 +34,7 @@ ht-degree: 6%
 
 以下是支援的運算子清單：
 
-## 邏輯  {#logical}
+## 邏輯{#logical}
 
 ### 和
 
@@ -74,7 +74,7 @@ ht-degree: 6%
 not <expression>
 ```
 
-&lt;expression>必須是布林值。 結果是布爾型的。
+&lt;expression> 必須是布林值。結果是布爾型的。
 
 範例:
 
@@ -82,7 +82,7 @@ not <expression>
 not 3.15 < 1
 ```
 
-## 比較 {#comparison}
+## 比較{#comparison}
 
 ### 為null
 
@@ -128,7 +128,7 @@ not 3.15 < 1
 <expression> has null
 ```
 
-&lt;expression>必須是清單。 結果是布爾型的。
+&lt;expression> 必須是清單。結果是布爾型的。
 
 用於識別清單至少包含一個空值。
 
@@ -230,7 +230,7 @@ Datetimeonly可與Datetimeonly比較。
 42 >= 3.14
 ```
 
-### &lt;
+### &lt;>
 
 
 
@@ -254,7 +254,7 @@ Datetimeonly可與Datetimeonly比較。
 42 < 3.14
 ```
 
-### &lt;=
+### &lt;>
 
 
 
@@ -278,7 +278,7 @@ Datetimeonly可與Datetimeonly比較。
 42 <= 3.14
 ```
 
-## 算術 {#arithmetic}
+## 算術{#arithmetic}
 
 ### +
 
@@ -328,7 +328,7 @@ Datetimeonly可與Datetimeonly比較。
 
 結果也是數值。
 
-&lt;expression2>不能等於0（傳回0）。
+&lt;expression2> 不得等於0（返回0）。
 
 範例:
 
