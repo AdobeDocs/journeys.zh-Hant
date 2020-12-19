@@ -23,15 +23,15 @@ ht-degree: 89%
 
 自訂動作可讓您設定協力廠商系統的連線，以傳送訊息或 API 呼叫。您可以使用任何提供者提供的任何服務來設定動作，這些服務可透過具有 JSON 格式的裝載，透過 REST API 進行呼叫。
 
-The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. 請參閱[本頁](../building-journeys/about-action-activities.md)。
+這些動作會出現在您旅程的左側浮動視窗中，位於&#x200B;**[!UICONTROL Action]**&#x200B;類別中。 請參閱[本頁](../building-journeys/about-action-activities.md)。
 
 >[!NOTE]
 >
 >自訂動作的設定一律由&#x200B;**技術使用者**&#x200B;執行。
 
-在 **Actions** 清單中，您可以按下 C 鍵以建立新的歷程、動作、資料來源或事件。For more information on shortcuts in [!DNL Journey Orchestration], see [this section](../about/user-interface.md#section_ksq_zr1_ffb).
+在 **Actions** 清單中，您可以按下 C 鍵以建立新的歷程、動作、資料來源或事件。有關[!DNL Journey Orchestration]中快捷鍵的詳細資訊，請參閱[本節](../about/user-interface.md#section_ksq_zr1_ffb)。
 
-若要檢查動作清單或要設定新動作，請按一下頂端功能表的 **[!UICONTROL Actions]**，畫面隨即顯示動作清單。See [this page](../about/user-interface.md) for more information on the interface.
+若要檢查動作清單或要設定新動作，請按一下頂端功能表的 **[!UICONTROL Actions]**，畫面隨即顯示動作清單。有關介面的詳細資訊，請參見[本頁](../about/user-interface.md)。
 
 ![](../assets/custom1.png)
 
