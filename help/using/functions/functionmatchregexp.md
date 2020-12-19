@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # matchRegExp {#matchRegExp}
 
-如果第一個參數中的字串與第二個參數中的規則運算式相符，則傳回true。 如需詳細資訊，請參 [閱本頁](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)。
+如果第一個參數中的字串與第二個參數中的規則運算式相符，則傳回true。 如需詳細資訊，請參閱[本頁](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)。
 
 ## 類別
 
