@@ -22,9 +22,9 @@ ht-degree: 0%
 
 為了達到此目的，您必須在Adobe Experience Platform中啟動您想要運用的報表套裝：
 
-1. 在Adobe Experience Platform中，選取 **[!UICONTROL Sources]** Adobe **[!UICONTROL Add data]** Analytics區段中的。 此時會顯示可用的Adobe Analytics報表套裝清單。
+1. 在Adobe Experience Platform中，選取「Adobe Analytics」區段中的&#x200B;**[!UICONTROL Sources]**，然後選取&#x200B;**[!UICONTROL Add data]**。 此時會顯示可用的Adobe Analytics報表套裝清單。
 
-1. 選擇您要啟用的報表套裝，按一下並 **[!UICONTROL Next]** 按一下 **[!UICONTROL Finish]**。
+1. 選擇要啟用的報表套裝，按一下&#x200B;**[!UICONTROL Next]**，然後按一下&#x200B;**[!UICONTROL Finish]**。
 
 1. 與您的Alpha程式聯絡點共用來源資料ID。
 
@@ -32,4 +32,4 @@ ht-degree: 0%
 
 ![](../assets/alpha-event9.png)
 
-如需Adobe Analytics來源連接器的詳細資訊，請參閱檔案 [和教](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) 學 [課程](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)。
+有關Adobe Analytics來源連接器的詳細資訊，請參閱[檔案](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html)和[教學課程](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)。
