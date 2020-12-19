@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # 關於簡單使用案例{#concept_grh_vby_w2b}
 
-## 目的 {#purpose}
+## 用途{#purpose}
 
 我們以一個叫馬爾頓的酒店品牌為例， 在他們的酒店裡，他們把信標設備放在了所有戰略區域附近：大堂、地板、餐廳、健身房、游泳池等。
 
@@ -26,7 +26,7 @@ ht-degree: 12%
 
 ## 先決條件 {#prerequisites}
 
-針對我們的使用案例，我們在Adobe Campaign Standard中設計了一個電子郵件交易訊息範本。 我們使用事件交易式訊息範本。 Refer to this [page](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+針對我們的使用案例，我們在Adobe Campaign Standard中設計了一個電子郵件交易訊息範本。 我們使用事件交易式訊息範本。 請參閱此[頁](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
 
 Adobe Campaign Standard已設定為傳送電子郵件。
 
