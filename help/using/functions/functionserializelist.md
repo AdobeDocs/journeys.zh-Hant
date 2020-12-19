@@ -28,7 +28,7 @@ ht-degree: 15%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| String | String |
+| String | 字串 |
 | 布林值 | 布林值 |
 | DateTimeOnly | DateTimeOnly |
 | 清單 | listString |
