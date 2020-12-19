@@ -23,11 +23,11 @@ ht-degree: 10%
 
 ![](../assets/journey49.png)
 
-## 關於條件活動 {#about_condition}
+## 關於條件活動{#about_condition}
 
 在旅程中使用數個條件時，您可以為每個條件定義標籤，以便更輕鬆地識別。
 
-如果 **[!UICONTROL Add a path]** 要定義幾個條件，請按一下。 對於每個條件，在活動後的畫布中都會新增新路徑。
+如果要定義幾個條件，請按一下&#x200B;**[!UICONTROL Add a path]**。 對於每個條件，在活動後的畫布中都會新增新路徑。
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ ht-degree: 10%
 
 ![](../assets/journey48.png)
 
-您可以勾選，為不符合定義條件的對象建立其他路徑 **[!UICONTROL Show path for other cases than the one(s) above]**。 請注意，此選項不適用於分割條件。 請參閱 [百分比分割](#percentage_split)。
+您可以勾選&#x200B;**[!UICONTROL Show path for other cases than the one(s) above]**，為不符合定義條件的對象建立其他路徑。 請注意，此選項不適用於分割條件。 請參閱[百分比分割](#percentage_split)。
 
 簡單模式允許您基於欄位的組合執行簡單查詢。 所有可用欄位都會顯示在畫面的左側。 將欄位拖放至主區域。 若要結合不同的元素，請將它們互相互連結，以建立不同的群組和／或群組層級。 然後，您可以選取邏輯運算子來組合同一層級的元素：
 
@@ -46,18 +46,18 @@ ht-degree: 10%
 
 ![](../assets/journey64.png)
 
-如果您使用 [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ，來建立細分，您就可以在歷程中運用這些細分。 請參閱在 [條件中使用區段](../segment/using-a-segment.md)。
+如果您使用[Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)來建立區段，您可以在歷程條件中運用這些區段。 請參閱[在條件中使用區段](../segment/using-a-segment.md)。
 
 
 >[!NOTE]
 >
 >您無法使用簡單編輯器對時間序列執行查詢（例如購買清單、訊息的點按次數）。 為此，您將需要使用進階編輯器。 請參閱[本頁](../expression/expressionadvanced.md)。
 
-當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[本區段](../building-journeys/using-the-journey-designer.md#paths)。
+當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
-## 資料源條件 {#data_source_condition}
+## 資料源條件{#data_source_condition}
 
-這可讓您根據資料來源的欄位或先前位於歷程中的事件來定義條件。 要瞭解如何使用表達式編輯器，請參 [閱此頁](../expression/expressionadvanced.md)。 使用進階運算式編輯器，您可以設定更進階的條件來控制系列，或使用需要傳遞參數的資料來源。 請參閱[本頁](../datasource/external-data-sources.md)。
+這可讓您根據資料來源的欄位或先前位於歷程中的事件來定義條件。 要瞭解如何使用表達式編輯器，請參閱[本頁](../expression/expressionadvanced.md)。 使用進階運算式編輯器，您可以設定更進階的條件來控制系列，或使用需要傳遞參數的資料來源。 請參閱[本頁](../datasource/external-data-sources.md)。
 
 ![](../assets/journey50.png)
 
@@ -71,9 +71,9 @@ ht-degree: 10%
 
 ![](../assets/journey51.png)
 
-## 百分比分割 {#percentage_split}
+## 分割百分比{#percentage_split}
 
-此選項可讓您隨機分割對象，以定義每個群組的不同動作。 定義每個路徑的拆分數和重新分區。 分割計算是統計的，因為系統無法預測在旅程中有多少人流入。 因此，分割具有非常低的誤差裕度。 此函式以Java隨機機制為基礎(請參閱 [本頁](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html))。
+此選項可讓您隨機分割對象，以定義每個群組的不同動作。 定義每個路徑的拆分數和重新分區。 分割計算是統計的，因為系統無法預測在旅程中有多少人流入。 因此，分割具有非常低的誤差裕度。 此函式以Java隨機機制為基礎（請參閱此[page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)）。
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ ht-degree: 10%
 
 ![](../assets/journey52.png)
 
-## 日期條件 {#date_condition}
+## 日期條件{#date_condition}
 
 這可讓您根據日期定義不同的流程。 例如，如果人員在「銷售」期間進入步驟，您會傳送特定訊息給他。 今年剩下的時間，你會再傳個資訊。
 
