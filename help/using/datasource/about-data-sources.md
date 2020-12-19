@@ -45,11 +45,11 @@ ht-degree: 88%
 
 1. 在頂端功能表中，按一下 **[!UICONTROL Data Sources]** 索引標籤。
 
-   畫面隨即顯示資料來源。See [this page](../about/user-interface.md) for more information on the interface.
+   畫面隨即顯示資料來源。有關介面的詳細資訊，請參見[本頁](../about/user-interface.md)。
 
    ![](../assets/journey18.png)
 
-1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
+1. 然後，您可以將欄位群組新增至內建資料來源（請參閱[本頁](../datasource/adobe-experience-platform-data-source.md)），或建立新的外部資料來源（請參閱[本頁](../datasource/external-data-sources.md)）和相關欄位群組（請參閱[本頁](../datasource/field-groups.md)）。
 
    ![](../assets/journey23.png)
 
