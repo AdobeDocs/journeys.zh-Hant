@@ -20,19 +20,19 @@ ht-degree: 3%
 
 * 沒有發送限制。 
 * 系統地在發生錯誤時執行兩次重試。 您無法根據收到的錯誤訊息調整重試次數。 
-* 內建的 **Reaction** 事件可讓您對現成可用的動作做出反應(請參閱本 [頁](../building-journeys/reaction-events.md))。 如果您想要回應透過自訂動作傳送的訊息，則必須設定專屬事件。 
+* 內建的&#x200B;**Reaction**&#x200B;事件可讓您對現成可用的動作做出反應（請參閱此[page](../building-journeys/reaction-events.md)）。 如果您想要回應透過自訂動作傳送的訊息，則必須設定專屬事件。 
 * Adobe Campaign Classic分類整合不提供。
 
-## 歷程版本限制 {#journey-versions-limitations}
+## 歷程版本限制{#journey-versions-limitations}
 
-* 從v1中的事件活動開始的歷程，無法從其他版本中的事件以外的事件開始。 您無法從「區段資格」事件 **開始歷程** 。
-* 從v1中的「區段 **資格** 」活動開始的歷程，必須始終從其他版 **本的「區段資格** 」開始。
-* 在新版本中，無法變 **更「區段** 」限定（第一個節點）中選擇的區段和命名空間。
+* 從v1中的事件活動開始的歷程，無法從其他版本中的事件以外的事件開始。 您無法以&#x200B;**區段資格**&#x200B;事件開始歷程。
+* 從v1中的&#x200B;**區段資格**&#x200B;活動開始的旅程，必須始於後續版本的&#x200B;**區段資格**。
+* 在&#x200B;**區段限定**（第一節點）中選擇的區段和命名空間無法在新版本中更改。
 * 所有歷程版本的重新進入規則都必須相同。
 
-## 區段資格 {#segment-qualification}
+## 區段資格{#segment-qualification}
 
-* 由於 **吞吐量限制** ,「區段」限定活動無法與「Adobe Campaign標準交易訊息」搭配使用。 請參 [閱Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
+* 由於吞吐量限制，**區段資格**&#x200B;活動無法與Adobe Campaign標準交易訊息搭配使用。 請參閱[Adobe Campaign標準產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
  
 
 ## 自訂動作限制
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 ## Adobe Campaign動作限制
 
-* Adobe Campaign Standard交易訊息在特定例項的各個通道中，每小時最多可傳送50 000則訊息。 請參 [閱Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
+* Adobe Campaign Standard交易訊息在特定例項的各個通道中，每小時最多可傳送50 000則訊息。 請參閱[Adobe Campaign標準產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
  
 
 ## 事件限制
