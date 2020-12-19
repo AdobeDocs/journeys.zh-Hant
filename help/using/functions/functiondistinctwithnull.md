@@ -70,4 +70,4 @@ ht-degree: 11%
 
 `distinctWithNull([10,2,10,null])`
 
-傳 [回10、2、null]
+傳回[10, 2,null]
