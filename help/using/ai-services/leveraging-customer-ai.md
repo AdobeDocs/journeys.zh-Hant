@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 善用客戶 AI {#customer-ai}
 
-客戶人工智慧是智慧型服務的一部分。 它有助於預測客戶可能做什麼。 請參閱 [檔案](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html)。
+客戶人工智慧是智慧型服務的一部分。 它有助於預測客戶可能做什麼。 請參閱[documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html)。
 
 客戶AI可讓品牌建立以機器學習為基礎的流失或轉化分數，這些分數將可在Adobe Experience Platform設定檔（即時客戶設定檔）中做為描述檔屬性。
 
