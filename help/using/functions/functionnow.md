@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # now {#now}
 
-以日期時間格式傳回目前日期。 For more information on data types, refer to [this page](../expression/data-types.md).
+以日期時間格式傳回目前日期。 有關資料類型的詳細資訊，請參閱[此頁](../expression/data-types.md)。
 
 ## 類別
 
