@@ -21,9 +21,9 @@ ht-degree: 3%
 
 * 場以數字字元開頭
 * 欄位開頭為&quot;-&quot;字元
-* 欄位包含下列項目以外的其他項目： _a_-z _,_ A _-_ Z,0 _-Z_, _____9-Z,-Z,_
+* 欄位包含下列項目以外的其他項目：_a_-_z_、_A_-_Z_、_0_-_9_、_、_-_
 
-例如，若您的欄位是 _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+例如，如果欄位是&#x200B;_3h_:_#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0&lt;a0/_
 
 ```
 // event field
@@ -100,19 +100,19 @@ expression examples:
 
 **映射中定義的欄位的引用**
 
-為了檢索映射中的元素，我們使用帶有給定鍵的輸入函式。 例如，根據所選的命名空間定義事件的索引鍵時，會使用它。 請參閱選擇命名空間。 如需詳細資訊，請參 [閱本頁](../event/selecting-the-namespace.md)。
+為了檢索映射中的元素，我們使用帶有給定鍵的輸入函式。 例如，根據所選的命名空間定義事件的索引鍵時，會使用它。 請參閱選擇命名空間。 如需詳細資訊，請參閱[本頁](../event/selecting-the-namespace.md)。
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-在此運算式中，我們會取得事件「IdentityMap」欄位的「電子郵件」索引鍵項目。 「電子郵件」項目是系列，我們會從中取用第一個元素中的「id」，使用「first()」。 如需詳細資訊，請參 [閱本頁](../expression/collection-management-functions.md)。
+在此運算式中，我們會取得事件「IdentityMap」欄位的「電子郵件」索引鍵項目。 「電子郵件」項目是系列，我們會從中取用第一個元素中的「id」，使用「first()」。 如需詳細資訊，請參閱[本頁](../expression/collection-management-functions.md)。
 
 **資料來源的參數值（資料來源動態值）**
 
 如果您從外部資料來源選取需要呼叫參數的欄位，右側會出現新標籤，讓您指定此參數。 請參閱[本頁](../expression/expressionadvanced.md)。
 
-For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. 參數可以是任何有效的運算式，即使是來自其他資料來源，也包含其他參數。
+對於更複雜的使用案例，如果要將資料源的參數包括在主表達式中，可以使用關鍵字&#x200B;_params_&#x200B;定義其值。 參數可以是任何有效的運算式，即使是來自其他資料來源，也包含其他參數。
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ For more complex use cases, if you want to include the parameters of the data so
 ```
 
 * **`<params-1-name>`**:資料來源的第一個參數的確切名稱。
-* **`<params-1-value>`**:第一個參數的值。 它可以是任何有效的運算式。
+* **`<params-1-value>`**:第一個參數的值。它可以是任何有效的運算式。
 
 範例:
 
