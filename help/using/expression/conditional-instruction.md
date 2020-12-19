@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# 條件式指令（若，則為else） {#section_cdz_lsk_w3b}
+# 條件式指令(if, then, else){#section_cdz_lsk_w3b}
 
 進階編輯器支援條件式指令（若然，則為else）。 它允許定義更複雜的表達式。 它由下列元素組成：
 
@@ -34,7 +34,7 @@ else
 
 `<expression1>` 必須返回布 **林**。
 
-`<expression2>` 且 `<expression3>` 必須有相同的類型或相容類型。 支援的簽名和傳回的類型包括：
+`<expression2>` 且 `<expression3>` 必須有相同的類型或相容類型。支援的簽名和傳回的類型包括：
 
 ```
 boolean,boolean : boolean
@@ -53,7 +53,7 @@ listInteger,listInteger : listInteger
 listString,listString : listString
 ```
 
-**使用狀況**
+**使用情況**
 
 條件式指令可讓您減少條件活動的數目，以最佳化歷程工作流程。 例如，在相同的動作活動中，您只能使用一個條件運算式，為欄位定義指定兩個替代項目。
 
