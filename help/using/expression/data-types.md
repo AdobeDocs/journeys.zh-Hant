@@ -18,7 +18,7 @@ ht-degree: 4%
 
 以下各節提供不同資料類型運算式的相關資訊，以及其表示方式。
 
-## string {#string}
+## 字串{#string}
 
 **說明**
 
@@ -48,7 +48,7 @@ JSON格式：字串
 'hello world'
 ```
 
-## 整數 {#integer}
+## 整數{#integer}
 
 **說明**
 
@@ -68,7 +68,7 @@ JSON格式：數字
 42
 ```
 
-## 小數點 {#decimal}
+## 小數{#decimal}
 
 **說明**
 
@@ -94,7 +94,7 @@ JSON格式：數字
 3.14
 ```
 
-## 布林值 {#boolean}
+## 布林值{#boolean}
 
 **說明**
 
@@ -118,7 +118,7 @@ false
 true
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **說明**
 
@@ -194,7 +194,7 @@ toDateTime("2011-12-03T15:15:30.123-00:20")
 toDateTime(1560762190189)
 ```
 
-## 持續時間 {#duration}
+## 持續時間{#duration}
 
 **說明**
 
@@ -262,7 +262,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## list {#list}
+## 清單{#list}
 
 **說明**
 
