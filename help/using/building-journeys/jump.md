@@ -7,12 +7,12 @@ translation-type: tm+mt
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# 從一個旅程跳至另一個{#jump}
+# 從一個旅程跳到另一個旅程 {#jump}
 
 **[!UICONTROL Jump]**&#x200B;動作活動可讓您將個人從一個歷程推送至另一個歷程。 此功能可讓您：
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 >
 >旅程B也可透過外部事件觸發。
 
-## 最佳做法和限制
+## 最佳實務和限制
 
 ### 編寫
 
