@@ -6,15 +6,15 @@ description: 進一步瞭解進階使用案例
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 關於進階使用案例{#concept_vzy_ncy_w2b}
 
-## 目的 {#purpose}
+## 用途{#purpose}
 
 我們以一個叫馬爾頓的酒店品牌為例， 在他們的酒店裡，他們把信標設備放在了所有戰略區域附近：大堂、地板、餐廳、健身房、游泳池等。
 
@@ -35,19 +35,19 @@ ht-degree: 5%
 
 ![](../assets/journeyuc2_29.png)
 
-對於此使用案例，我們需要建立兩個事件(請參 [閱本頁](../usecase/configuring-the-events.md)):
+對於此使用案例，我們需要建立兩個事件（請參閱[本頁](../usecase/configuring-the-events.md)）:
 
 * 當客戶進入酒店時，將推送至系統的大堂信標事件。
 * 當客戶進入餐廳時，會推送的餐廳信標事件。
 
-我們需要設定兩個資料來源的連線(請參 [閱本頁](../usecase/configuring-the-data-sources.md)):
+我們需要配置兩個資料來源的連線（請參閱[本頁](../usecase/configuring-the-data-sources.md)）:
 
 * 內建的Adobe Experience Platform資料來源，可擷取我們兩個條件（忠誠會籍和上次聯絡日期）的資訊以及訊息個人化資訊。
 * 該飯店訂房系統用以擷取該訂房狀態資訊。
 
 ## 先決條件 {#prerequisites}
 
-針對我們的使用案例，我們設計了三個Adobe Campaign Standard交易訊息範本。 我們使用事件交易式訊息範本。 Refer to this [page](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+針對我們的使用案例，我們設計了三個Adobe Campaign Standard交易訊息範本。 我們使用事件交易式訊息範本。 請參閱此[頁](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
 
 Adobe Campaign Standard已設定為傳送電子郵件和推播通知。
 
