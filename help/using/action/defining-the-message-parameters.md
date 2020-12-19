@@ -16,7 +16,7 @@ ht-degree: 3%
 
 ![](../assets/messageparameterssection.png)
 
-在區 **[!UICONTROL Message parameters]** 段中，貼上JSON裝載的範例以傳送至外部服務。
+在&#x200B;**[!UICONTROL Message parameters]**&#x200B;區段中，貼上JSON裝載的範例以傳送至外部服務。
 
 ![](../assets/customactionpayloadmessage.png)
 
