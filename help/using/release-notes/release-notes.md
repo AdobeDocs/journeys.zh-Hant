@@ -6,8 +6,8 @@ description: 瞭解發行說明
 translation-type: tm+mt
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
