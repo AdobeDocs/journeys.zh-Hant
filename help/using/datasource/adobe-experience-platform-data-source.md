@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # Adobe Experience Platform 資料來源 {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform資料來源定義即時客戶個人檔案服務的連線。 此資料來源已內建並預先設定。 無法刪除。 此資料來源的設計目的是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人是否為女性）。 它可讓您使用描述檔資料和體驗事件資料。 如需即時客戶個人檔案服務的詳細資訊，請參閱本 [頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)。
+Adobe Experience Platform資料來源定義即時客戶個人檔案服務的連線。 此資料來源已內建並預先設定。 無法刪除。 此資料來源的設計目的是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人是否為女性）。 它可讓您使用描述檔資料和體驗事件資料。 有關即時客戶概要服務的詳細資訊，請參閱此[頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)。
 
 >[!NOTE]
 >
@@ -32,13 +32,13 @@ Adobe Experience Platform資料來源定義即時客戶個人檔案服務的連�
 
    ![](../assets/journey23.png)
 
-1. 按一 **[!UICONTROL Add a New Field Group]** 下以定義要擷取的新欄位系列。 請參閱[本頁](../datasource/field-groups.md)。
+1. 按一下&#x200B;**[!UICONTROL Add a New Field Group]**&#x200B;可定義要檢索的新一系列欄位。 請參閱[本頁](../datasource/field-groups.md)。
 
    ![](../assets/journey24.png)
 
-1. 從下拉式清單 **[!UICONTROL Schema]** 中選取結構。 此欄位會列出Adobe Experience Platform中的「設定檔」和「體驗事件」結構描述。 在中不執行模式建立 [!DNL Journey Orchestration]。 它是在Adobe Experience Platform中執行。
+1. 從&#x200B;**[!UICONTROL Schema]**&#x200B;下拉式清單中選擇架構。 此欄位會列出Adobe Experience Platform中的「設定檔」和「體驗事件」結構描述。 在[!DNL Journey Orchestration]中不執行模式建立。 它是在Adobe Experience Platform中執行。
 1. 選取您要使用的欄位。
 1. 定義快取持續時間。
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-當您將游標置於欄位群組的名稱上時，您會在右側看到兩個圖示。 這些欄位可讓您刪除和複製欄位群組。 請注意， **[!UICONTROL Delete]** 只有在欄位群組未用於任何即時或草稿歷程時（欄位中顯示的資訊），此圖示才 **[!UICONTROL Used in]** 可用。
+當您將游標置於欄位群組的名稱上時，您會在右側看到兩個圖示。 這些欄位可讓您刪除和複製欄位群組。 請注意，**[!UICONTROL Delete]**&#x200B;圖示只有在欄位群組未用於任何即時或草稿歷程時才可用（資訊顯示在&#x200B;**[!UICONTROL Used in]**&#x200B;欄位中）。
