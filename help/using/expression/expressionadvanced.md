@@ -71,7 +71,7 @@ _進階運算式編輯器介面_
 
 **使用進階運算式編輯器建立條件時，需要使用參數**
 
-If you select a field from an external data source requiring a parameter to be called (see [this page](../datasource/external-data-sources.md). 例如，在天氣相關資料來源中，常用的參數為 &quot;city&quot;。因此，您必須選擇要取得此城市參數的位置。也可將函式套用至參數，以執行格式變更或串聯。
+如果您從外部資料來源中選取需要呼叫參數的欄位（請參閱[本頁](../datasource/external-data-sources.md)）。 例如，在天氣相關資料來源中，常用的參數為 &quot;city&quot;。因此，您必須選擇要取得此城市參數的位置。也可將函式套用至參數，以執行格式變更或串聯。
 
 ![](../assets/journeyuc2_19.png)
 
