@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 歷程協調限制
 description: 進一步瞭解Journey Orchestration的限制
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 3%
+source-wordcount: '515'
+ht-degree: 2%
 
 ---
 
@@ -57,3 +57,15 @@ ht-degree: 3%
 ## 資料來源限制
 
 * 您可以在客戶歷程中運用外部資料來源，即時查閱外部資料。 這些來源必須可透過REST API使用、支援JSON並可處理大量請求。
+
+## 從建立描述檔的同時開始的歷程記錄{#journeys-limitation-profile-creation}
+
+在Adobe Experience Platform中建立／更新以API為基礎的描述檔時，會有延遲。 延遲方面的服務級別目標(SLT)從接收到統一配置檔案（請求的95個百分位數）&lt; 1分鐘，每秒20K請求(RPS)。
+
+如果「歷程」同時觸發至描述檔建立，並立即從「描述檔服務」檢查／擷取資訊，則可能無法正常運作。
+
+您可從以下兩種解決方案中選擇：
+
+* 在第一個事件後新增等待活動，讓Adobe Experience Platform有必要在執行描述檔服務擷取時間。
+
+* 設定不會立即運用個人檔案的歷程。 例如，如果歷程是設計來確認帳戶建立，體驗事件可能包含傳送第一個確認訊息（名字、姓氏、電子郵件地址等）所需的資訊。
