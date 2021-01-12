@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 旅程屬性
 description: 瞭解歷程屬性
 translation-type: tm+mt
-source-git-commit: 341138c31676870878099b4f4eecec200a614c69
+source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 1%
 |  | journeyVersion | 歷程版本 |  |
 | 歷程例項 | instanceUID | 歷程例項識別碼 | 實例的ID |
 |  | externalKey | 外部鍵 | 觸發歷程的個別識別碼 |
+|  | organizationId | 組織識別碼 | 品牌組織 |
+|  | sandboxName | 沙盒名稱 | 沙盒名稱 |
 | 身份 | profileId | 描述檔識別碼 | 旅程中描述檔的識別碼 |
 |  | namespace | 描述檔識別名稱空間 | 歷程中描述檔的命名空間(範例：ECID) |
 | 當前節點 | currentNodeId | 當前節點標識符 | 當前活動（節點）的標識符 |
