@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 使用 Adobe Campaign
 description: 瞭解Adobe Campaign動作
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '300'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 4%
    >
    >此測試可驗證：
    >
-   >主機為&quot;。campaign.adobe.com&quot;或&quot;。campaign-sandbox.adobe.com&quot;,
+   >主機為&quot;。campaign.adobe.com&quot;、&quot;。campaign-sandbox.adobe.com&quot;或&quot;campaign-demo.adobe.com&quot;
    >
    >URL以https開頭，
    >
