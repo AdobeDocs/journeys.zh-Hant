@@ -6,8 +6,8 @@ description: 瞭解發行說明
 translation-type: tm+mt
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2026'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>從一個旅程跳到另一個旅程</strong><br/></th>
+<th><strong>從一個歷程跳到另一個歷程</strong><br/></th>
 </tr>
 </thead>
 <tbody>
