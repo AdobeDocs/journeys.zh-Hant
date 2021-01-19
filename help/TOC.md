@@ -5,11 +5,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
-workflow-type: ht
-source-wordcount: '404'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 100%
          + [關於動作活動](using/building-journeys/about-action-activities.md)
          + [使用 Adobe Campaign 動作](using/building-journeys/using-adobe-campaign-actions.md)
          + [使用自訂動作](using/building-journeys/using-custom-actions.md)
-         + [從一個旅程跳到另一個旅程](using/building-journeys/jump.md)
+         + [從一個歷程跳到另一個歷程](using/building-journeys/jump.md)
    + [測試歷程](using/building-journeys/testing-the-journey.md)
    + [發佈歷程](using/building-journeys/publishing-the-journey.md)
    + 使用 Adobe Experience Platform 分享歷程步驟 {#sharing-journey-steps}
@@ -98,7 +98,7 @@ ht-degree: 100%
       + [欄位參考](using/expression/field-references.md)
       + [收集管理函式](using/expression/collection-management-functions.md)
       + [運算子](using/expression/operators.md)
-      + [旅程屬性](using/expression/journey-properties.md)
+      + [歷程屬性](using/expression/journey-properties.md)
       + [範例](using/expression/advanced-editor-use-cases.md)
    + 函式 {#main-functions-journey}
       + [主要函式](using/expression/functions.md)
@@ -182,7 +182,7 @@ ht-degree: 100%
       + [設定事件](using/usecase/configuring-the-event.md)
       + [設定資料來源](using/usecase/configuring-the-data-source.md)
       + [建立歷程](using/usecase/simple-uc-building-the-journey.md)
-   + 構建跨管道之旅。{#use-case-advanced}
+   + 構建跨管道歷程。{#use-case-advanced}
       + [關於進階使用案例](using/usecase/about-the-advanced-use-case.md)
       + [設定事件](using/usecase/configuring-the-events.md)
       + [設定資料來源](using/usecase/configuring-the-data-sources.md)
