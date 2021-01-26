@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 發行說明
 description: 瞭解發行說明
 translation-type: tm+mt
-source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2171'
 ht-degree: 73%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 73%
 
 在事件設定中選取架構時，只會選取「歷程協調」正確接收事件的必填欄位。 [顯示全文](../event/defining-the-payload-fields.md)
 
-現在，簡單運算式編輯器中提供歷程屬性。
+現在，簡單運算式編輯器中提供歷程屬性。 [顯示全文](../expression/journey-properties.md)
 
 已新增兩個歷程屬性（sandboxName和organizationId）。 [顯示全文](../expression/journey-properties.md)
 
