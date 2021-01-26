@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 發行說明
 description: 瞭解發行說明
 translation-type: tm+mt
-source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
+source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 78%
+source-wordcount: '2169'
+ht-degree: 73%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 78%
 
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱最新的[檔案更新](../release-notes/documentation-updates.md)。
+
+## 2021年1月發行{#january-release}
+
+在事件設定中選取架構時，只會選取「歷程協調」正確接收事件的必填欄位。 [顯示全文](../event/defining-the-payload-fields.md)
+
+現在，簡單運算式編輯器中提供歷程屬性。
+
+已新增兩個歷程屬性（sandboxName和organizationId）。 [顯示全文](../expression/journey-properties.md)
+
+為符合Adobe Campaign Standard SLA，現在只要設定Adobe Campaign Standard整合，就會自動為Adobe Campaign Standard動作定義每秒13個呼叫的上限規則。 [顯示全文](../action/working-with-adobe-campaign.md)
+
+事件逾時持續時間現在在逾時路徑上已更清楚指定。 [顯示全文](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+
+[getListItem](../functions/functiongetlistitem.md)和[split](../functions/functionsplit.md)函式已新增至進階運算式編輯器中可用的函式清單。 在字串計算使用案例中，這將提供更多可能。
 
 ## 2020年11月發行{#november-release}
 
@@ -34,7 +48,7 @@ ht-degree: 78%
 <li>將複雜的旅程分割為數個旅程，以簡化複雜的旅程設計 </li>
 <li>根據常見且可重複使用的歷程模式建立歷程</li>
 </ul>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/jump.md">相關的文件</a>，以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/jump.md">詳細說明檔案</a>和<a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">教學課程影片</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +88,7 @@ ht-degree: 78%
 </tbody>
 </table>
 
-### 其他改善項目{#october-november}
+### 其他改善項目
 
 建立歷程的新版本時已增加限制。 這些限制可避免在歷程中發生過大的變更，以維持版本間的一致性。 [顯示全文](../about/limitations.md#journey-versions-limitations)
 
@@ -99,7 +113,7 @@ ht-degree: 78%
 </tbody>
 </table>
 
-### 其他改善項目{#october-other}
+### 其他改善項目
 
 * 當您發佈新版歷程時，舊版會自動結束並切換至「已關閉」狀態。 [顯示全文](../building-journeys/journey-versions.md)
 
