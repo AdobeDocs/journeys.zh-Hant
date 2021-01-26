@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 使用 Adobe Campaign
 description: 瞭解Adobe Campaign動作
 translation-type: tm+mt
-source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '299'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Adobe Campaign Standard交易訊息在特定例項的各個通道中，每小時最多可傳送50 000則訊息。 若要降低超載的風險，建議您為「促銷活動標準」整合設定&#x200B;**上限規則**。
+>一旦設定Adobe Campaign Standard整合，就會自動為Adobe Campaign Standard動作定義每秒13個呼叫的上限規則。 這與Adobe Campaign標準交易訊息的官方規模相符。
 >
 >閱讀[Adobe Campaign標準產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)中有關交易訊息SLA的更多資訊。
 
@@ -40,7 +40,7 @@ ht-degree: 4%
    >
    >此測試可驗證：
    >
-   >主機為&quot;。campaign.adobe.com&quot;、&quot;。campaign-sandbox.adobe.com&quot;或&quot;campaign-demo.adobe.com&quot;
+   >主機為&quot;。campaign.adobe.com&quot;、&quot;。campaign-sandbox.adobe.com&quot;或&quot;。campaign-demo.adobe.com&quot;
    >
    >URL以https開頭，
    >
