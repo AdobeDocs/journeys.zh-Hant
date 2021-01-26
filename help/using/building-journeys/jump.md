@@ -1,18 +1,18 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 從一個旅程跳到另一個旅程
-description: 從一個旅程跳到另一個旅程
+title: 從一個歷程跳到另一個歷程
+description: 從一個歷程跳到另一個歷程
 translation-type: tm+mt
-source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
+source-git-commit: 9d8c3a2cf79f2b861aad61089a263a6a33a747b4
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '791'
 ht-degree: 3%
 
 ---
 
 
-# 從一個旅程跳到另一個旅程 {#jump}
+# 從一個歷程跳到另一個歷程 {#jump}
 
 **[!UICONTROL Jump]**&#x200B;動作活動可讓您將個人從一個歷程推送至另一個歷程。 此功能可讓您：
 
@@ -22,6 +22,10 @@ ht-degree: 3%
 在原始歷程中，只需新增&#x200B;**[!UICONTROL Jump]**&#x200B;活動並選取目標歷程即可。 當個人進入&#x200B;**[!UICONTROL Jump]**&#x200B;步驟時，內部事件會傳送至目標歷程的第一個事件。 如果&#x200B;**[!UICONTROL Jump]**&#x200B;動作成功，則個人會繼續在歷程中前進。 行為與其他動作類似。
 
 在目標歷程中，由&#x200B;**[!UICONTROL Jump]**&#x200B;活動內部觸發的第一個事件將使個別流程進入歷程。
+
+>[!NOTE]
+>
+>另請參閱教學課程影片[此處](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
 
 ## 生命週期
 
