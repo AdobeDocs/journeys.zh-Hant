@@ -5,11 +5,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
-translation-type: ht
-source-git-commit: c18670b32e0e56cf5621fde965b19aa24da8045b
-workflow-type: ht
-source-wordcount: '406'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 937b7235d41fe7f0395e303736974e32eea8558f
+workflow-type: tm+mt
+source-wordcount: '411'
+ht-degree: 98%
 
 ---
 
@@ -195,4 +195,5 @@ ht-degree: 100%
    + [Alpha 功能概觀](using/alpha/alpha-overview.md)
    + [使用者介面](using/alpha/alpha-interface.md)
    + [閱讀區段活動](using/alpha/alpha-segment-trigger.md)
+   + [與Adobe Campaign Classic整合](using/beta/acc-action.md)
 
