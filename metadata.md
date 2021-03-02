@@ -9,13 +9,14 @@ tutorials-title: 教學課程
 tutorials-url: https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/journeys.zh-Hant
 index: true
+feature-set: Journey Orchestration
 solution: Journey Orchestration
-type: Documentation
+type: 文件
 translation-type: tm+mt
-source-git-commit: 96bf81cb8ea493befff332cb00e45f5c00c5245e
+source-git-commit: d30d64f04b2595286ededfacb2ffd1f7734d144e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '32'
+ht-degree: 100%
 
 ---
 
