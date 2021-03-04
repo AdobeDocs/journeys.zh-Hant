@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 關於進階運算式編輯器
 description: 瞭解如何建立進階運算式
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 96%
+source-wordcount: '541'
+ht-degree: 90%
 
 ---
 
@@ -55,9 +55,11 @@ _進階運算式編輯器介面_
 
 在畫面左側，會顯示可用的欄位和函式：
 
-* **[!UICONTROL Events]**：從入站事件接收的其中一個欄位。顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。
-* **[!UICONTROL Data Sources]**：從資料來源欄位群組中的可用欄位清單中選擇。
-* **[!UICONTROL Functions]**：從可執行複雜篩選的內建函式清單中選擇。函式會依類別組織。
+* **[!UICONTROL Events]**：從入站事件接收的其中一個欄位。顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。[顯示全文](../event/about-events.md)
+* **[!UICONTROL Segments]**:如果您已捨棄 **[!UICONTROL Segment qualification]** 事件，請選擇要在運算式中使用的區段。[顯示全文](../segment/using-a-segment.md)
+* **[!UICONTROL Data Sources]**：從資料來源欄位群組中的可用欄位清單中選擇。[顯示全文](../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**:本節將特定個人檔案的歷程相關技術欄位重新分組。[顯示全文](../expression/journey-properties.md)
+* **[!UICONTROL Functions]**：從可執行複雜篩選的內建函式清單中選擇。函式會依類別組織。[顯示全文](../expression/functions.md)
 
 ![](../assets/journey65.png)
 
