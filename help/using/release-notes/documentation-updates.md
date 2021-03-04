@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 文件更新
 description: 瞭解文件更新
 translation-type: tm+mt
-source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+source-git-commit: 349af3a922faa2cf4561c7974466255562d6917d
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '785'
 ht-degree: 93%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 93%
 ## 2020 年 9 月{#september-2020}
 
 * 介面說明部分已更新，以反映新的&#x200B;**All selector**&#x200B;菜單。 [顯示全文](../about/user-interface.md)
-* 已新增非經常性區段型歷程新版本的附註。 [顯示全文](../alpha/alpha-segment-trigger.md)
+* 已新增非經常性區段型歷程新版本的附註。
 
 ## 2020 年 8 月{#august-2020}
 
@@ -41,7 +41,7 @@ ht-degree: 93%
 * 以針對每種類型的事件，將事件活動區段重新組織到專屬子區段。[顯示全文](../building-journeys/event-activities.md)
 * 已新增最佳實務，以避免區段資格過載。[顯示全文](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * 已新增附註，說明在動作或條件發生錯誤後，如何讓歷程繼續。[顯示全文](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* 已新增 Alpha 功能的區段，這些功能會在有限的客戶群中進行測試。[詳細內容](../alpha/alpha-overview.md)
+* 已新增 Alpha 功能的區段，這些功能會在有限的客戶群中進行測試。
 * 已新增與智慧型服務整合的區段。[詳細內容](../ai-services/ai-services-overview.md)
 * 已新增測試設定檔建立的區段。[詳細內容](../building-journeys/testing-the-journey.md#create-test-profile)
 * 已新增如何在歷程條件或動作中使用 **[!UICONTROL SegmentQualification]** 節點的資訊。[詳細內容](../building-journeys/segment-qualification-events.md)
