@@ -6,9 +6,9 @@ title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 translation-type: tm+mt
-source-git-commit: 59fef99ac17621e81037ddbcc280e9341db729eb
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '403'
 ht-degree: 98%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 98%
          + [使用 Adobe Campaign 動作](using/building-journeys/using-adobe-campaign-actions.md)
          + [使用自訂動作](using/building-journeys/using-custom-actions.md)
          + [從一個歷程跳到另一個歷程](using/building-journeys/jump.md)
+         + [更新設定檔](using/building-journeys/update-profiles.md)
    + [測試歷程](using/building-journeys/testing-the-journey.md)
    + [發佈歷程](using/building-journeys/publishing-the-journey.md)
    + 使用 Adobe Experience Platform 分享歷程步驟 {#sharing-journey-steps}
@@ -192,8 +193,3 @@ ht-degree: 98%
       + [建立歷程](using/usecase/building-the-journey.md)
 + 使用 API{#working-with-apis}
    + [設定 API 上限](using/api/capping.md)
-+ Alpha 功能 {#alpha}
-   + [Alpha 功能概觀](using/alpha/alpha-overview.md)
-   + [使用者介面](using/alpha/alpha-interface.md)
-   + [閱讀區段活動](using/alpha/alpha-segment-trigger.md)
-
