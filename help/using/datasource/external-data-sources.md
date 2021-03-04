@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: '外部資料來源 '
 description: '瞭解如何設定外部資料來源 '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 28604af956df18fbc89e44ace36904c5897c028e
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 99%
@@ -74,9 +74,9 @@ ht-degree: 99%
 * **[!UICONTROL Dynamic Values]**：在本例中，輸入以逗號分隔的不同參數，即 &quot;long,lat&quot;。由於參數值視執行內容而定，因此它們會在歷程中定義。請參閱[本頁](../expression/expressionadvanced.md)。
 * **[!UICONTROL Sent Payload]**：我們的範例不會出現此欄位，只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的有效負載。
 
-若是 GET 呼叫所需的參數，您會在 **[!UICONTROL Parameters]** 欄位中輸入參數，系統就會在呼叫結束時自動新增這些參數。若是 POST 呼叫，您需要：
+若是 GET 呼叫所需的參數，您會在 **[!UICONTROL Dynamic Values]** 欄位中輸入參數，系統就會在呼叫結束時自動新增這些參數。若是 POST 呼叫，您需要：
 
-* 在 **[!UICONTROL Parameter]** 欄位中列出呼叫時要傳遞的參數（在以下範例中：“identifier”）。
+* 在 **[!UICONTROL Dynamic Values]** 欄位中列出呼叫時要傳遞的參數（在以下範例中：“identifier”）。
 * 在已傳送有效負載的正文中，也使用完全相同的語法指定它們。若要這麼做，您必須新增：&quot;param&quot;: “name of your parameter”（在以下範例中：“identifier”）。請遵循下列語法：
 
    ```
