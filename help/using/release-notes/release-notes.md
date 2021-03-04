@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 發行說明
 description: 瞭解發行說明
 translation-type: tm+mt
-source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
+source-git-commit: 9f312c779a6229507c72d3f116b8192bb5f1df34
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 73%
+source-wordcount: '2264'
+ht-degree: 68%
 
 ---
 
@@ -17,15 +17,40 @@ ht-degree: 73%
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱最新的[檔案更新](../release-notes/documentation-updates.md)。
 
-## 2021年1月發行{#january-release}
+## 2021年2月發行{#february-2021-release}
 
-在事件設定中選取架構時，只會選取「歷程協調」正確接收事件的必填欄位。 [顯示全文](../event/defining-the-payload-fields.md)
+<table>
+<thead>
+<tr>
+<th><strong>更新描述檔活動</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>此新動作活動可讓您使用事件、資料來源或使用特定值所提供的資訊，更新現有的Adobe Experience Platform設定檔。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/update-profiles.md">相關的文件</a>，以瞭解詳情。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 其他改善項目
+
+* 現在，在設定事件時，預設只會預先選取XDM驗證必填的欄位。 無法取消選取這些欄位。
+* 在歷程浮動視窗中，已新增濾鏡。 它可讓您只顯示使用的前5個事件和動作，以及現成可用的事件和動作。 這是每位使用者專屬的。 依預設會顯示所有項目。 [顯示全文](../building-journeys/using-the-journey-designer.md#palette)
+* 開始新歷程時，第一步無法放入畫布的元素現在會隱藏。 這與所有動作、條件活動、等待和反應有關。
+* 在進階運算式編輯器的左側，現在會在清單結尾的&#x200B;**Functions**&#x200B;區段下重新分組函式。
+
+## 2021 年 1 月發行{#january-2021-release}
+
+在事件配置中選擇方案時，僅選擇Journey Orchestration正確接收事件的必填欄位。 [顯示全文](../event/defining-the-payload-fields.md)
 
 現在，簡單運算式編輯器中提供歷程屬性。 [顯示全文](../expression/journey-properties.md)
 
 已新增兩個歷程屬性（sandboxName和organizationId）。 [顯示全文](../expression/journey-properties.md)
 
-為符合Adobe Campaign Standard SLA，現在只要設定Adobe Campaign Standard整合，就會自動為Adobe Campaign Standard動作定義每秒13個呼叫的上限規則。 [顯示全文](../action/working-with-adobe-campaign.md)
+為符合Adobe Campaign StandardSLA，現在在設定Adobe Campaign Standard整合後，會自動為Adobe Campaign Standard行動定義每秒13個呼叫的上限規則。 [顯示全文](../action/working-with-adobe-campaign.md)
 
 事件逾時持續時間現在在逾時路徑上已更清楚指定。 [顯示全文](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
@@ -82,7 +107,6 @@ ht-degree: 73%
 <td>
 <p>現在有了新方法，讓您更輕鬆地設定事件，毋需使用eventID:規則型事件會評估事件是否應根據條件觸發。 您仍然可以使用現有的方法，現在稱為「系統產生」。 這項功能已透過Alpha計畫在有限的客戶群中測試過，現在已提供測試版給所有客戶。
 </p>
-<p>如需詳細資訊，請參閱<a href="../event/about-events.md">相關的文件</a>，以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -92,7 +116,7 @@ ht-degree: 73%
 
 建立歷程的新版本時已增加限制。 這些限制可避免在歷程中發生過大的變更，以維持版本間的一致性。 [顯示全文](../about/limitations.md#journey-versions-limitations)
 
-**區段資格**&#x200B;活動無法再用於包含「促銷活動標準」訊息活動的歷程中。 此限制可保護Adobe Campaign Standard例項的完整性。 事實上，「區段資格」的使用可能導致每日訊息傳送高峰，使「促銷活動標準交易訊息」超負荷。 [顯示全文](../about/limitations.md#segment-qualification)
+**區段資格**&#x200B;活動無法再用於包含Campaign Standard訊息活動的旅程。 此限制可保護Adobe Campaign Standard實例的完整性。 事實上，「區段資格」的使用可能導致每日訊息傳送高峰，使Campaign Standard交易訊息過載。 [顯示全文](../about/limitations.md#segment-qualification)
 
 ## 2020年10月發行{#october-release}
 
@@ -140,8 +164,6 @@ ht-degree: 73%
 
 ### Alpha 更新{#september-alpha-update}
 
-若要探索 Alpha 的範圍，請參閱本[節](../alpha/alpha-overview.md)。
-
 <table>
 <thead>
 <tr>
@@ -159,7 +181,6 @@ ht-degree: 73%
 <li><p>測試模式記錄檔的精細度已改良，可顯示區段匯出進度狀態。</p>
 </li>
 </ul>
-<p>有關<strong>讀取段</strong>活動的詳細資訊，請參閱<a href="../alpha/alpha-segment-trigger.md">詳細文檔</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -172,8 +193,6 @@ ht-degree: 73%
 「區段資格」事件的裝載現在包含下列內容資訊，您可在條件和動作中使用：行為（入口、出口）、資格的時間戳記及區段 ID。[顯示全文](../building-journeys/segment-qualification-events.md)
 
 ### Alpha 更新{#august-alpha-update}
-
-若要探索 Alpha 的範圍，請參閱本[節](../alpha/alpha-overview.md)。
 
 <table>
 <thead>
@@ -194,7 +213,6 @@ ht-degree: 73%
 <li><p>您現在可以在單一設定檔上測試歷程，並使用視覺流量追蹤歷程的進度。</p>
 </li>
 </ul>
-<p>如需詳細資訊，請參閱<a href="../alpha/alpha-segment-trigger.md">相關的文件</a>，以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -228,8 +246,6 @@ ht-degree: 73%
 
 Alpha 方案提供目前在有限客戶群中進行測試的功能。這可讓我們根據收到的意見回饋來改良產品。並非所有 Journey Orchestration 客戶都能使用這些功能。
 
-這些功能會在專屬章節中[說明](../alpha/alpha-overview.md)。
-
 <table>
 <thead>
 <tr>
@@ -247,7 +263,6 @@ Alpha 方案提供目前在有限客戶群中進行測試的功能。這可讓�
 <li><p>將管理功能分組至單一儀表板。</p>
 </li>
 </ul>
-<p>如需詳細資訊，請參閱<a href="../alpha/alpha-interface.md">相關的文件</a>，以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -262,7 +277,7 @@ Alpha 方案提供目前在有限客戶群中進行測試的功能。這可讓�
 <tbody>
 <tr>
 <td>
-<p>「區段觸發」活動可讓您將屬於 Adobe Experience Platform 區段的所有個人進入歷程。進入歷程可以執行一次，也可以定期執行。<a href="../alpha/alpha-segment-trigger.md">顯示全文</a>
+<p>「區段觸發」活動可讓您將屬於 Adobe Experience Platform 區段的所有個人進入歷程。進入歷程可以執行一次，也可以定期執行。 
 </p>
 </td>
 </tr>
