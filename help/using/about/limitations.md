@@ -1,12 +1,12 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 歷程協調限制
-description: 進一步瞭解Journey Orchestration的限制
+title: Journey Orchestration限制
+description: 進一步瞭解Journey Orchestration限制
 translation-type: tm+mt
-source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+source-git-commit: a0b6f54e37abded690dc200bc3a901a8e0f04f79
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '527'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 * 沒有發送限制。 
 * 系統地在發生錯誤時執行兩次重試。 您無法根據收到的錯誤訊息調整重試次數。 
 * 內建的&#x200B;**Reaction**&#x200B;事件可讓您對現成可用的動作做出反應（請參閱此[page](../building-journeys/reaction-events.md)）。 如果您想要回應透過自訂動作傳送的訊息，則必須設定專屬事件。 
-* Adobe Campaign Classic分類整合不提供。
+* 沒有Adobe Campaign Classic分類整合。
 
 ## 歷程版本限制{#journey-versions-limitations}
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 ## 區段資格{#segment-qualification}
 
-* 由於吞吐量限制，**區段資格**&#x200B;活動無法與Adobe Campaign標準交易訊息搭配使用。 請參閱[Adobe Campaign標準產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
+* 由於吞吐量限制，**段限定**&#x200B;活動不能與「Adobe Campaign Standard事務性消息」一起使用。 請參閱[Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
  
 
 ## 自訂動作限制
@@ -44,14 +44,14 @@ ht-degree: 2%
 * 內部Adobe位址(.adobe.) 不允許。
  
 
-## Adobe Campaign動作限制
+## Adobe Campaign行動限制
 
-* Adobe Campaign Standard交易訊息在特定例項的各個通道中，每小時最多可傳送50 000則訊息。 請參閱[Adobe Campaign標準產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
+* Adobe Campaign Standard事務性消息傳遞在特定實例的各個通道中，每小時最多50 000條消息。 請參閱[Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
  
 
 ## 事件限制
 
-* 用於啟動客戶歷程的串流資料，必須先在Journey Orchestration中進行設定，才能取得獨特的協調ID。 此協調ID必須附加至即將傳入Adobe Experience Platform的串流負載。
+* 對於系統產生的事件，必須先在客戶歷程管理中設定用於啟動客戶歷程的串流資料，才能取得獨特的協調ID。 此協調ID必須附加至傳入Adobe Experience Platform的串流負載。 此限制不適用於規則型事件。
  
 
 ## 資料來源限制
@@ -60,12 +60,12 @@ ht-degree: 2%
 
 ## 從建立描述檔的同時開始的歷程記錄{#journeys-limitation-profile-creation}
 
-在Adobe Experience Platform中建立／更新以API為基礎的描述檔時，會有延遲。 延遲方面的服務級別目標(SLT)從接收到統一配置檔案（請求的95個百分位數）&lt; 1分鐘，每秒20K請求(RPS)。
+在Adobe Experience Platform，基於API的配置檔案建立／更新存在延遲。 延遲方面的服務級別目標(SLT)從接收到統一配置檔案（請求的95個百分位數）&lt; 1分鐘，每秒20K請求(RPS)。
 
 如果「歷程」同時觸發至描述檔建立，並立即從「描述檔服務」檢查／擷取資訊，則可能無法正常運作。
 
 您可從以下兩種解決方案中選擇：
 
-* 在第一個事件後新增等待活動，讓Adobe Experience Platform有必要在執行描述檔服務擷取時間。
+* 在第一個事件後添加等待活動，為Adobe Experience Platform提供執行Profile Service接收所需的時間。
 
 * 設定不會立即運用個人檔案的歷程。 例如，如果歷程是設計來確認帳戶建立，體驗事件可能包含傳送第一個確認訊息（名字、姓氏、電子郵件地址等）所需的資訊。
