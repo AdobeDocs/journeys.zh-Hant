@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 使用歷程設計器
 description: 進一步瞭解如何使用歷程設計人員
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 566252f72ef706308249c3b6b27564f086b40760
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1388'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 5%
 
 ## 調色板{#palette}
 
-**浮動視窗**&#x200B;位於畫面的左側。 所有可用活動都分為幾類：**[!UICONTROL Events]**、**[!UICONTROL Orchestration]**&#x200B;和&#x200B;**[!UICONTROL Actions]**。 您可以按一下不同類別的名稱，以展開／收合這些類別。 若要在您的歷程中使用活動，請從浮動視窗拖放至畫布中。 您也可以在下一個步驟中，連按兩下浮動視窗中的活動，將它新增至畫布。 您必須先設定從浮動視窗新增的每個活動，才能發佈歷程。 如果您將活動拖放至畫布中，但未完成其設定，則活動會保留在畫布中，但是紅色警告會指出此活動的設定尚未完成。
+**浮動視窗**&#x200B;位於畫面的左側。 所有可用活動都分為幾類：**[!UICONTROL Events]**、**[!UICONTROL Orchestration]**&#x200B;和&#x200B;**[!UICONTROL Actions]**。 您可以按一下不同類別的名稱，以展開／收合這些類別。 若要在歷程中使用活動，請從浮動視窗拖放到畫布中。 您也可以在下一個步驟中，連按兩下浮動視窗中的活動，將它新增至畫布。 您必須先設定從浮動視窗新增的每個活動，才能發佈歷程。 如果您將活動拖放至畫布中，但未完成其設定，則活動會保留在畫布中，但是紅色警告會指出此活動的設定尚未完成。
 
 >[!NOTE]
 >
@@ -42,11 +42,15 @@ ht-degree: 5%
 
 ![](../assets/journey38.png)
 
-左上角的&#x200B;**[!UICONTROL Show disabled items]**&#x200B;圖示可讓您隱藏或顯示浮動視窗中不可用的元素，例如使用不同於歷程中所用之事件的命名空間。 依預設，系統會隱藏無法使用的項目。如果您選擇顯示，則會顯示為灰色。
+左上角的&#x200B;**[!UICONTROL Filter items]**&#x200B;圖示可讓您顯示下列篩選：
 
-使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位時，會顯示每個畫布活動類別的結果數。
+* **僅顯示可用項目**:隱藏或顯示浮動視窗中不可用的元素，例如使用與歷程中不同名稱空間的事件。依預設，系統會隱藏無法使用的項目。如果您選擇顯示，則會顯示為灰色。
+
+* **僅顯示最近的項目**:此篩選器可讓您只顯示使用的前5個事件和動作，以及現成可用的事件和動作。這是每位使用者專屬的。 依預設會顯示所有項目。
 
 ![](../assets/palette-filter.png)
+
+您也可以使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位。
 
 ## 畫布{#canvas}
 
