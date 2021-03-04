@@ -1,14 +1,14 @@
 ---
-keywords: Journeys;home;popular topics
+keywords: Journeys;home；熱門主題
 product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration 產品文件
 topic: Premium
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '263'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 98%
 
 ---
 
@@ -30,8 +30,6 @@ ht-degree: 100%
 
 * **[探索新增功能](using/release-notes/release-notes.md)**<br/>
 瞭解最新發行的詳細資訊。
-
-* **[Alpha功能](using/alpha/alpha-overview.md)**<br/>解當前透過 Alpha 程式提供的功能。
 
 ## 熱門頁面
 
