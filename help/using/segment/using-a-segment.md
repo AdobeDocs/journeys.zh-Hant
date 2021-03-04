@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 使用區段
 description: 瞭解如何使用區段
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 在條件中使用區段 {#using-a-segment}
 
-本節說明如何在歷程條件中使用區段。 若要瞭解如何在歷程中使用&#x200B;**[!UICONTROL Segment qualification]**&#x200B;事件，請參閱[事件活動](../building-journeys/segment-qualification-events.md)。
+本節說明如何在歷程條件中使用區段。 若要瞭解如何在歷程中使用&#x200B;**[!UICONTROL Segment qualification]**&#x200B;事件，請參閱此[章節](../building-journeys/segment-qualification-events.md)。
 
 若要在歷程條件中使用區段，請遵循下列步驟：
 
