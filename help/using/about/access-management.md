@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 存取管理
 description: 進一步瞭解存取管理
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: e55078b31b5f0e5811575d5e8993a01a90ec9c14
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 99%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 100%
    * 管理歷程
    * 發佈歷程
    * 管理報告
+   * 讀取事件、資料來源和動作
 
 如果現成可用的設定檔權限不足，而無法管理使用者，您也可以建立自己的產品設定檔。
 必須一律將使用者連結至產品設定檔，如此可讓您指派特定的內建權限，例如：
