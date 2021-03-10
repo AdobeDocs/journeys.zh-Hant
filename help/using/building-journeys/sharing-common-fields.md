@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: journeysteps事件常用欄位
 description: journeysteps事件常用欄位
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -16,7 +19,7 @@ ht-degree: 0%
 
 此混搭將由journeyStepEvent和journeyStepProfileEvent分享。
 
-這些是[!DNL Journey Orchestration]傳送至Adobe Experience Platform的常見XDM欄位。 在歷程中處理的每個步驟都會傳送常用欄位。 自訂動作和擴充會使用更多特定欄位。
+這些是[!DNL Journey Orchestration]發送到Adobe Experience Platform的常見XDM欄位。 在歷程中處理的每個步驟都會傳送常用欄位。 自訂動作和增強功能會使用更多特定欄位。
 
 其中有些欄位僅適用於特定處理模式（動作執行、資料擷取等） 以限制事件的大小。
 
