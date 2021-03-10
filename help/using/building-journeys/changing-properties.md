@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 變更屬性
 description: 瞭解如何變更屬性
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -51,6 +54,6 @@ ht-degree: 0%
 
 時區是在歷程層級定義。
 
-您可以輸入固定時區或使用Adobe Experience Platform設定檔來定義旅程時區。
+您可以輸入固定時區或使用Adobe Experience Platform描述檔來定義旅程時區。
 
 有關時區管理的詳細資訊，請參見[本頁](../building-journeys/timezone-management.md)。
