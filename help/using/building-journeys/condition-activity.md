@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 條件活動
 description: 瞭解條件活動
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '747'
 ht-degree: 10%
 
 ---
@@ -33,7 +36,7 @@ ht-degree: 10%
 
 請注意，歷程設計會對功能產生影響。 在條件後定義多個路徑時，僅會執行第一個符合條件的路徑。 這表示，您可以將路徑置於彼此之上或之下，以改變路徑的優先順序。
 
-例如，讓我們舉第一個路徑的條件「人是VIP」和第二個路徑的條件「人是男性」的例子。 如果符合兩個條件的人員（男性為VIP）通過此步驟，即使他也符合第二個路徑的資格，也會選擇第一個路徑，因為第一個路徑是「高於」。 若要變更此優先順序，請依另一個垂直順序移動活動。
+例如，讓我們舉一個第一條路徑的條件「人是aVIP」和第二條路徑的條件「人是男性」的例子。 如果符合兩個條件的人(男性為VIPa)通過此步驟，則即使他也符合第二條路徑的資格，也會選擇第一條路徑，因為第一條路徑是「高於」。 若要變更此優先順序，請依另一個垂直順序移動活動。
 
 ![](../assets/journey48.png)
 
@@ -46,7 +49,7 @@ ht-degree: 10%
 
 ![](../assets/journey64.png)
 
-如果您使用[Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)來建立區段，您可以在歷程條件中運用這些區段。 請參閱[在條件中使用區段](../segment/using-a-segment.md)。
+如果您使用[Adobe Experience Platform區段服務](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)來建立區段，您可以在歷程條件中運用這些區段。 請參閱[在條件中使用區段](../segment/using-a-segment.md)。
 
 
 >[!NOTE]
