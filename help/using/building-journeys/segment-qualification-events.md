@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 區段資格事件
 description: 瞭解細分資格活動
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -16,7 +19,7 @@ ht-degree: 1%
 
 ## 關於區段資格事件{#about-segment-qualification}
 
-本練習可讓您的旅程聆聽Adobe Experience Platform區段中描述檔的入口和出口，讓個人在旅程中進入或前進。 如需建立區段的詳細資訊，請參閱此[章節](../segment/about-segments.md)。
+此活動可讓您的旅程聆聽Adobe Experience Platform地區個人檔案的入口和出口，讓個人在旅程中進入或前進。 如需建立區段的詳細資訊，請參閱此[章節](../segment/about-segments.md)。
 
 假設您有「銀色客戶」群體。 透過此活動，您可以讓所有新的銀級客戶進入歷程並傳送一系列個人化訊息。
 
@@ -26,7 +29,7 @@ ht-degree: 1%
 >
 >請記住，Adobe Experience Platform區段是使用Adobe Experience Platform的「高頻觀眾」選項，每日計算一次（**batch**&#x200B;區段）或即時計算一次（**streamed**&#x200B;區段）。
 >
->如果選取的區段串流化，屬於此區段的個人可能會即時進入歷程。 如果區段是批次，新符合此區段資格的人員可能會在Adobe Experience Platform上執行區段計算時進入歷程。
+>如果選取的區段串流化，屬於此區段的個人可能會即時進入歷程。 如果區段是批，新符合此區段資格的人員可能會在Adobe Experience Platform執行區段計算時進入歷程。
 
 
 1. 展開&#x200B;**[!UICONTROL Events]**&#x200B;類別，並將&#x200B;**[!UICONTROL Segment qualification]**&#x200B;活動拖曳至畫布中。
@@ -69,7 +72,7 @@ ht-degree: 1%
 
 ## 最佳實務{#best-practices-segments}
 
-**[!UICONTROL Segment Qualification]**&#x200B;活動可讓符合資格或被取消Adobe Experience Platform區段資格的個人在歷程中立即進入。
+**[!UICONTROL Segment Qualification]**&#x200B;活動可讓在Adobe Experience Platform區段中符合資格或被取消資格的個人在旅程中立即進入。
 
 這種資訊的接收速度很快。 所做的測量顯示每秒收到10,000個事件的速度。 因此，你應該確保你明白，入口高峰是如何發生的，如何避開它們，如何讓你的旅程為它們做好準備。
 
@@ -87,7 +90,7 @@ ht-degree: 1%
 
 ### 如何避免過載{#overloads-speed-segment-qualification}
 
-以下是一些最佳實務，可協助您避免在歷程中使用過載系統（資料來源、自訂動作、Adobe Campaign Standard動作）。
+以下是一些最佳實務，可協助您避免在歷程中使用過載的系統(資料來源、自訂動作、Adobe Campaign Standard動作)。
 
 請勿在&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活動中，於建立後立即使用批次區段。 避免了第一個計算峰。 請注意，如果您要使用從未計算過的區段，歷程畫布中會出現黃色警告。
 
@@ -95,6 +98,6 @@ ht-degree: 1%
 
 為歷程中使用的資料來源和動作設定上限規則，以避免超載（請參閱此[章節](../api/capping.md)）。 請注意，上限規則沒有重試。 如果需要重試，您必須在條件或動作中勾選「**[!UICONTROL Add an alternative path in case of a timeout or an error]**」方塊，以在歷程中使用替代路徑。
 
-在生產歷程中使用區段之前，請務必先評估每天符合此區段資格的個人數量。 若要這麼做，您可以檢查Adobe Experience Platform中的&#x200B;**[!UICONTROL Segments]**&#x200B;區段，並查看右側的圖表。
+在生產歷程中使用區段之前，請務必先評估每天符合此區段資格的個人數量。 若要這麼做，您可以檢查Adobe Experience Platform的&#x200B;**[!UICONTROL Segments]**&#x200B;區段，並查看右側的圖表。
 
 ![](../assets/segment-overload.png)
