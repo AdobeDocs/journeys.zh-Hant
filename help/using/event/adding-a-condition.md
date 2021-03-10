@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 新增條件
 description: 瞭解如何新增條件
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: bf371ef7f2f69cf610c6644db648d304dc9ba525
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '209'
 ht-degree: 4%
 
 ---
