@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 設定事件
 description: 瞭解如何針對歷程中的簡單使用案例設定活動
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '361'
 ht-degree: 8%
 
 ---
@@ -26,7 +29,7 @@ ht-degree: 8%
 
    ![](../assets/journeyuc1_2.png)
 
-1. 接著，我們選取架構並定義此事件預期的裝載。 從XDM標準化模型中選取所需欄位。 我們需要Experience Cloud ID來識別即時客戶個人檔案資料庫中的人員：_endUserIDs > experience > mcid > id_。 系統會自動為此事件產生ID。 此ID會儲存在&#x200B;**[!UICONTROL eventID]**&#x200B;欄位（_體驗>促銷活動>協調> eventID_）中。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 在我們的使用案例中，此ID用於識別信標位置。 每次有人走近Spa信標時，就會傳送包含此特定事件ID的事件。 這可讓系統知道觸發事件傳送的信標。
+1. 接著，我們選取架構並定義此事件預期的裝載。 從XDM標準化模型中選取所需欄位。 我們需要Experience CloudID來識別即時客戶個人檔案資料庫中的人員：_endUserIDs > experience > mcid > id_。 系統會自動為此事件產生ID。 此ID會儲存在&#x200B;**[!UICONTROL eventID]**&#x200B;欄位（_體驗>促銷活動>協調> eventID_）中。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 在我們的使用案例中，此ID用於識別信標位置。 每次有人走近Spa信標時，就會傳送包含此特定事件ID的事件。 這可讓系統知道觸發事件傳送的信標。
 
    ![](../assets/journeyuc1_3.png)
 
