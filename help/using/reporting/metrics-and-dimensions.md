@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 量度與維度
-description: 瞭解「歷程協調」可用的維度和量度
+description: 瞭解可供Journey Orchestration的維度和量度
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -28,12 +31,12 @@ ht-degree: 0%
 
 下表提供歷程報表中使用的維度清單、其定義和公式。
 
-| 維度 | 定義 |
+| Dimension | 定義 |
 |--- |--- |
 | **動作** | 歷程中使用的每個動作(**action name - action label**)的清單，例如推送——結帳確認、電子郵件——獎勵完整性。 |
-| **資料來源** | 用於豐富歷程中資料的資料來源清單（**資料來源名稱**），例如Adobe Experience Platform, Reservation System。 |
-| **[!UICONTROL Event]** | 歷程中使用的每個事件(**event name - event label**)的清單，例如Geometrixx事件- Geometrixx結帳。 |
-| **欄位群組** | 用於豐富歷程中資料的欄位群組（**欄位群組名稱**）清單，例如Geometrixx保留系統。 |
+| **資料來源** | 用於豐富旅程(如Adobe Experience Platform，保留系統)中資料的資料源清單（**資料源名稱**）。 |
+| **[!UICONTROL Event]** | 歷程中使用的每個事件（**事件名稱——事件標籤**）的清單，例如Geometrixx事件-Geometrixx登出。 |
+| **欄位群組** | 用於豐富歷程中資料的欄位組（**欄位組名**）的清單，例如配置檔案欄位組、Geometrixx保留系統。 |
 | **旅程** | 在測試模式和即時（例如購物車放棄、飯店訂房通知）中的每個旅程（**旅程名稱**）清單。 |
 | **歷程版本** | 歷程的每個發佈版本清單（**歷程名稱+版本編號**），例如購物車放棄v1，飯店訂房通知v2。 |
 | **協調** | 歷程中定義和使用的每個協調活動（**條件、結束、等待**）的清單。 |
@@ -42,7 +45,7 @@ ht-degree: 0%
 
 下表提供歷程報表中使用的傳送維度清單、其定義和公式。
 
-| 維 | 定義 |
+| Dimension | 定義 |
 |--- |--- |
 | **瀏覽器** | 開啟或點按訊息的瀏覽器。 |
 | **傳送名稱** | 傳送的標籤和ID。 |
