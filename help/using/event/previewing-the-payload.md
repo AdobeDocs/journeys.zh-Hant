@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 預覽裝載
 description: 瞭解如何預覽裝載
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '117'
 ht-degree: 7%
 
 ---
