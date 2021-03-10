@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 存取管理
 description: 進一步瞭解存取管理
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: e55078b31b5f0e5811575d5e8993a01a90ec9c14
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 99%
+source-wordcount: '855'
+ht-degree: 98%
 
 ---
 
