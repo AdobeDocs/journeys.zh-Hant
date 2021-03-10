@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 建立一個事件
 description: 瞭解如何建立活動
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '547'
 ht-degree: 53%
 
 ---
@@ -47,7 +50,7 @@ ht-degree: 53%
 1. 對於規則型事件，請在&#x200B;**[!UICONTROL Event ID condition]**欄位內按一下。 使用簡單運算式編輯器，定義系統將用來識別將觸發您旅程的事件的條件。
    ![](../assets/alpha-event6.png)
 
-   在我們的例子中，我們根據個人檔案的城市寫了一個條件。 這表示每當系統收到符合此條件（**[!UICONTROL City]**&#x200B;欄位和&#x200B;**[!UICONTROL Paris]**&#x200B;值）的事件時，就會將它傳遞至歷程協調。
+   在我們的例子中，我們根據個人檔案的城市寫了一個條件。 這表示每當系統收到符合此條件（**[!UICONTROL City]**&#x200B;欄位和&#x200B;**[!UICONTROL Paris]**&#x200B;值）的事件時，就會將其傳遞至Journey Orchestration。
 
 1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[本頁](../event/selecting-the-namespace.md)。
 1. 定義金鑰：從您的有效負載欄位選擇一個欄位，或是定義一個公式以識別與事件相關聯的人員。如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。事實上，[!DNL Journey Orchestration] 會挑選應該與命名空間對應的金鑰（例如，如果您選取電子郵件命名空間，系統便會選取電子郵件金鑰）。請參閱[本頁](../event/defining-the-event-key.md)。
