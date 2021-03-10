@@ -1,12 +1,15 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: '關於歷程協調事件的ExperienceEvent結構描述 '
-description: '瞭解歷程協調事件的ExperienceEvent架構 '
+title: '關於Journey Orchestration事件的ExperienceEvent結構描述 '
+description: '瞭解Journey Orchestration事件的ExperienceEvent結構描述 '
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -17,11 +20,11 @@ ht-degree: 0%
 
 [!DNL Journey Orchestration] 事件是透過串流擷取傳送至Adobe Experience Platform的XDM Experience Events。
 
-因此，為[!DNL Journey Orchestration]設定事件的重要先決條件是您熟悉Adobe Experience Platform的「體驗資料模型」（或XDM）、如何組成XDM體驗事件結構，以及如何將XDM格式化資料串流至Adobe Experience Platform。
+因此，為[!DNL Journey Orchestration]設定事件的重要先決條件是您熟悉Adobe Experience Platform的體驗資料模型（或XDM），以及如何組成XDM體驗事件結構，以及如何將XDM格式的資料串流至Adobe Experience Platform。
 
 ## [!DNL Journey Orchestration]事件的架構要求
 
-為[!DNL Journey Orchestration]設定事件的第一步是確保您已定義XDM架構來代表事件，並建立資料集來記錄Adobe Experience Platform上的事件例項。 您並不需要為事件建立資料集，但是將事件傳送至特定資料集可讓您維護使用者的事件歷史記錄，以供日後參考和分析，因此這永遠是個好主意。 如果您尚未擁有適合事件的架構和資料集，這兩項工作都可在Adobe Experience Platform網頁介面中完成。
+為[!DNL Journey Orchestration]設定事件的第一步是確保您已定義XDM架構來代表事件，並建立資料集來記錄Adobe Experience Platform事件的例項。 您並不需要為事件建立資料集，但是將事件傳送至特定資料集可讓您維護使用者的事件歷史記錄，以供日後參考和分析，因此這永遠是個好主意。 如果您尚未擁有適合您事件的架構和資料集，這兩項工作都可以在Adobe Experience Platform網頁介面中完成。
 
 ![](../assets/schema1.png)
 
