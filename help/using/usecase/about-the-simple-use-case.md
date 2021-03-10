@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 關於簡單使用案例
 description: 透過簡單的使用案例，進一步瞭解體驗
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 12%
+source-wordcount: '179'
+ht-degree: 11%
 
 ---
 
@@ -26,7 +29,7 @@ ht-degree: 12%
 
 ## 先決條件 {#prerequisites}
 
-針對我們的使用案例，我們在Adobe Campaign Standard中設計了一個電子郵件交易訊息範本。 我們使用事件交易式訊息範本。 請參閱此[頁](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
+針對我們的使用案例，我們在Adobe Campaign Standard設計了一個電子郵件交易訊息範本。 我們使用事件交易式訊息範本。 請參閱此[頁](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
 
 Adobe Campaign Standard已設定為傳送電子郵件。
 
