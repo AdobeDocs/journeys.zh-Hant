@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 關於自訂動作組態
 description: 瞭解如何設定自訂動作
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '253'
 ht-degree: 15%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 15%
 
 # 關於自訂動作組態 {#concept_sxy_bzs_dgb}
 
-如果您使用協力廠商系統來傳送訊息，或您想要[!DNL Journey Orchestration]傳送API呼叫至協力廠商系統，您可在此設定其與[!DNL Journey Orchestration]的連線。 然後，技術使用者定義的自訂動作就會出現在您旅程的左側浮動視窗中，位於&#x200B;**[!UICONTROL Action]**&#x200B;類別（請參閱[本頁](../building-journeys/about-action-activities.md)）。 以下是一些您可以使用自訂動作來連接的系統範例：Epsilon、Facebook、Adobe.io、Firebase等
+如果您使用協力廠商系統來傳送訊息，或您想要[!DNL Journey Orchestration]傳送API呼叫至協力廠商系統，您可在此設定其與[!DNL Journey Orchestration]的連線。 然後，技術使用者定義的自訂動作就會出現在您旅程的左側浮動視窗中，位於&#x200B;**[!UICONTROL Action]**&#x200B;類別（請參閱[本頁](../building-journeys/about-action-activities.md)）。 以下是一些您可以使用自訂動作來連接的系統範例：Epsilon、Facebook、Adobe.io、Firebase等。
 限制列在[本頁](../about/limitations.md)中。
 
 以下是設定自訂動作所需的主要步驟：
