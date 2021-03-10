@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 時區管理
 description: 瞭解時區管理
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '265'
 ht-degree: 2%
 
 ---
@@ -38,13 +41,13 @@ ht-degree: 2%
 
 ## 使用描述檔來定義旅程時區{#timezone-from-profiles}
 
-如果旅程的登入事件具有命名空間，表示旅程可以到達Adobe Experience Platform的即時客戶個人檔案服務，則時區會預先定義為在旅程中流入的個人個人檔案中指定的時區。
+如果旅程的登入事件具有命名空間，表示旅程可以到達Adobe Experience Platform的即時客戶個人檔案服務，則時區會預先定義為在旅程中個人個人檔案中指定的時區。
 
-如果Adobe Experience Platform設定檔中已定義時區，則可在歷程中擷取時區。
+如果在Adobe Experience Platform描述檔中定義時區，則可在歷程中擷取時區。
 
 如果個人的描述檔不包含時區，則擷取的時區將是時區欄位中定義的時區。
 
-若要這麼做，請在&#x200B;**[!UICONTROL Properties]**&#x200B;中勾選&#x200B;**[!UICONTROL Use Profile timezone in timers and conditions]**。
+若要這麼做，請在&#x200B;**[!UICONTROL Properties]**&#x200B;中，勾選&#x200B;**[!UICONTROL Use Profile timezone in timers and conditions]**。
 
 ![](../assets/journey72.png)
 
