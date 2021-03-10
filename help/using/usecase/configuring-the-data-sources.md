@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 設定資料來源
 description: 瞭解如何為歷程進階使用案例設定資料來源
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '463'
 ht-degree: 14%
 
 ---
@@ -14,11 +17,11 @@ ht-degree: 14%
 
 # 設定資料來源 {#concept_vml_hdy_w2b}
 
-在我們的使用案例中，我們想要將個人化資料用於我們的訊息。 我們還需要檢查此人是否是忠誠會員，且在過去24小時內未與他聯繫。 此資訊會儲存在即時客戶個人檔案資料庫中。 **技術使用者**&#x200B;需要設定Adobe Experience Platform資料來源以擷取這些欄位。
+在我們的使用案例中，我們想要將個人化資料用於我們的訊息。 我們還需要檢查此人是否是忠誠會員，且在過去24小時內未與他聯繫。 此資訊會儲存在即時客戶個人檔案資料庫中。 **技術用戶**&#x200B;需要配置Adobe Experience Platform資料源以檢索這些欄位。
 
 有關資料源配置的其他資訊，請參閱[本頁](../datasource/about-data-sources.md)。
 
-1. 在頂端功能表中，按一下&#x200B;**[!UICONTROL Data Sources]**&#x200B;標籤，並選取內建Adobe Experience Platform資料來源。
+1. 在頂部菜單中，按一下&#x200B;**[!UICONTROL Data Sources]**&#x200B;頁籤並選擇內置的Adobe Experience Platform資料源。
 
    ![](../assets/journey23.png)
 
