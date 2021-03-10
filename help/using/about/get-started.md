@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 開始使用
 description: 探索設定 Journey Orchestration 的主要步驟，並構建您的第一個歷程。
+feature: 旅程
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 92%
+source-wordcount: '326'
+ht-degree: 91%
 
 ---
 
