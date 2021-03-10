@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 使用區段
 description: 瞭解如何使用區段
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '145'
 ht-degree: 7%
 
 ---
@@ -15,9 +18,9 @@ ht-degree: 7%
 
 # 建立區段 {#creating-a-segment}
 
-您可以使用[Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)建立區段，或直接在[!DNL Journey Orchestration]中存取並建立區段。
+您可以使用[Adobe Experience Platform分段服務](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)建立區段，或直接在[!DNL Journey Orchestration]中存取並建立區段。
 
-1. 在頂端功能表中，按一下 **[!UICONTROL Segments]** 索引標籤。此時會顯示Adobe Experience Platform區段的清單。 您可以在清單中搜尋特定區段。
+1. 在頂端功能表中，按一下 **[!UICONTROL Segments]** 索引標籤。隨即顯示Adobe Experience Platform區段的清單。 您可以在清單中搜尋特定區段。
 
    ![](../assets/segment1.png)
 
