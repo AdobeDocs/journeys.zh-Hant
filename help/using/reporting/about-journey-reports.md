@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 關於歷程報告
 description: 瞭解如何建立歷程報告
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '736'
 ht-degree: 1%
 
 ---
@@ -16,7 +19,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->只有在您有Adobe Campaign Standard時，才會填入傳送資料和區段元件。
+>傳送資料和區段元件僅會在您有Adobe Campaign Standard時填入。
 
 本節將介紹如何存取和使用報告來評估您的歷程成效。
 
