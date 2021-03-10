@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 設定事件
 description: 瞭解如何為歷程進階使用案例設定事件
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '400'
 ht-degree: 7%
 
 ---
@@ -26,7 +29,7 @@ ht-degree: 7%
 
    ![](../assets/journeyuc2_1.png)
 
-1. 接著，我們選取架構並定義此事件預期的裝載。 從XDM標準化模型中選取所需欄位。 我們需要Experience Cloud ID來識別即時客戶個人檔案資料庫中的人員：&quot;endUserIDs > _experience > mcid > id&quot;。
+1. 接著，我們選取架構並定義此事件預期的裝載。 從XDM標準化模型中選取所需欄位。 我們需要Experience CloudID來識別即時客戶個人檔案資料庫中的人員：&quot;endUserIDs > _experience > mcid > id&quot;。
 
    我們還需要註冊Token來傳送推播訊息：&quot;_experience >促銷活動>訊息>描述檔>推播通知Token > Token&quot;
 
