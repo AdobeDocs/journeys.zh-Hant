@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 使用進階運算式編輯器
 description: 瞭解如何建立進階運算式
+feature: 旅程
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '498'
 ht-degree: 2%
 
 ---
@@ -24,7 +27,7 @@ ht-degree: 2%
 
 進階運算式編輯器是對時間系列執行查詢（例如購買清單或過去點按訊息）的強制性。 不能使用簡單編輯器執行此類查詢。
 
-體驗事件是從Adobe Experience Platform以反向時間順序擷取為系列，因此：
+體驗事件是從Adobe Experience Platform擷取，依時間順序排列，因此：
 
 * first函式將傳回最近的事件
 * 最後一個函式會傳回最舊的函式。
@@ -140,4 +143,4 @@ ht-degree: 2%
 
 說明：此範例使用`substr`和`lastIndexOf`函式來移除大括弧，此大括弧會圍住隨行動應用程式啟動事件傳遞的CRM ID。
 
-如需如何使用進階運算式編輯器的詳細資訊，請觀賞此影片[。](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)
+如需如何使用進階運算式編輯器的詳細資訊，請觀賞此影片](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。[
