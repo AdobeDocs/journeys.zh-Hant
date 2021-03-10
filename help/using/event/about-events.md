@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 關於事件
 description: 瞭解活動
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '378'
 ht-degree: 55%
 
 ---
@@ -33,7 +36,7 @@ ht-degree: 55%
 
    >[!CAUTION]
    >
-   >會為規則型事件定義上限規則。 它可將特定組織(ORG)的歷程可處理的合格事件數限制為每秒5000個。 它與Journey Orchestration SLA相對應。 請參閱此[頁](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)。
+   >會為規則型事件定義上限規則。 它可將特定組織(ORG)的歷程可處理的合格事件數限制為每秒5000個。 它對應於Journey OrchestrationSLA。 請參閱此[頁](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)。
 
 * **系統生成** 事件：這些事件需要eventID。建立事件時會自動產生此eventID欄位。 推送事件的系統不應產生ID，而應傳遞裝載預覽中可用的ID。
 
