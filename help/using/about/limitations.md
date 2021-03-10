@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Journey Orchestration限制
 description: 進一步瞭解Journey Orchestration限制
 translation-type: tm+mt
-source-git-commit: a0b6f54e37abded690dc200bc3a901a8e0f04f79
+source-git-commit: 1433ccabaceb31c7ffac117a31531d0d380a54f8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '526'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 ## 事件限制
 
-* 對於系統產生的事件，必須先在客戶歷程管理中設定用於啟動客戶歷程的串流資料，才能取得獨特的協調ID。 此協調ID必須附加至傳入Adobe Experience Platform的串流負載。 此限制不適用於規則型事件。
+* 對於系統產生的事件，必須先在Journey Orchestration中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調ID。 此協調ID必須附加至傳入Adobe Experience Platform的串流負載。 此限制不適用於規則型事件。
  
 
 ## 資料來源限制
