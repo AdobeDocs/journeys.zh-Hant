@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 欄位群組
 description: 瞭解欄位群組
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
