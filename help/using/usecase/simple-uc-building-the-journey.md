@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 建立歷程
 description: 瞭解如何建立簡單的使用案例歷程
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '399'
+ht-degree: 36%
 
 ---
 
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 * &quot;SpaBeacon&quot; **[!UICONTROL Event]** :當一個人走在水療信標附近時，系統會收到一個活動，而旅程將開始。
 * a **[!UICONTROL Condition]**&#x200B;活動，以檢查此人是否為女性
-* **[!UICONTROL Email]**&#x200B;活動（使用Adobe Campaign Standard）
+* **[!UICONTROL Email]**&#x200B;活動(使用Adobe Campaign Standard)
 * **[!UICONTROL End]**&#x200B;活動
 
 >[!NOTE]
