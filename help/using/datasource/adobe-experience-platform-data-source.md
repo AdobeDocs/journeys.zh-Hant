@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 'Adobe Experience Platform 資料來源 '
 description: '瞭解如何設定Adobe Experience Platform資料來源 '
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '360'
 ht-degree: 11%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 11%
 
 # Adobe Experience Platform 資料來源 {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform資料來源定義即時客戶個人檔案服務的連線。 此資料來源已內建並預先設定。 無法刪除。 此資料來源的設計目的是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人是否為女性）。 它可讓您使用描述檔資料和體驗事件資料。 有關即時客戶概要服務的詳細資訊，請參閱此[頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)。
+Adobe Experience Platform資料源定義與即時客戶概要服務的連接。 此資料來源已內建並預先設定。 無法刪除。 此資料來源的設計目的是從即時客戶個人檔案服務中擷取和使用資料（例如，檢查進入歷程的人是否為女性）。 它可讓您使用描述檔資料和體驗事件資料。 有關即時客戶概要服務的詳細資訊，請參閱此[頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)。
 
 >[!NOTE]
 >
@@ -36,7 +39,7 @@ Adobe Experience Platform資料來源定義即時客戶個人檔案服務的連�
 
    ![](../assets/journey24.png)
 
-1. 從&#x200B;**[!UICONTROL Schema]**&#x200B;下拉式清單中選擇架構。 此欄位會列出Adobe Experience Platform中的「設定檔」和「體驗事件」結構描述。 在[!DNL Journey Orchestration]中不執行模式建立。 它是在Adobe Experience Platform中執行。
+1. 從&#x200B;**[!UICONTROL Schema]**&#x200B;下拉式清單中選擇架構。 此欄位會列出Adobe Experience Platform的「描述檔」和「體驗事件」結構描述。 在[!DNL Journey Orchestration]中不執行模式建立。 它在Adobe Experience Platform演出。
 1. 選取您要使用的欄位。
 1. 定義快取持續時間。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
