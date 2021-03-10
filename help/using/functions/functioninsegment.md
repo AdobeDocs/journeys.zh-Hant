@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inSegment
 description: 瞭解inSegment的函式
+feature: 旅程
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 6%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
@@ -50,4 +53,4 @@ Adobe Experience Platform
 
 說明：
 
-如果歷程例項中的個人屬於名為「50歲以上的男性」的Adobe Experience Platform區段，則函式會傳回&#x200B;**[!UICONTROL true]**，否則會傳回&#x200B;**[!UICONTROL false]**。
+如果歷程例項中的個人屬於名為&quot;men over 50&quot;的Adobe Experience Platform區段，則函式會傳回&#x200B;**[!UICONTROL true]**，否則會傳回&#x200B;**[!UICONTROL false]**。
