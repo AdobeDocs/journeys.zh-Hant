@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 關於 Journey Orchestration
 description: 進一步瞭解 Journey Orchestration
+feature: 旅程
+role: 業務從業人員
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 98%
 
 ---
 
