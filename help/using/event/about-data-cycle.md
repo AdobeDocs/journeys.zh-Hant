@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 事件資料週期
 description: 瞭解事件資料週期
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 79%
+source-wordcount: '231'
+ht-degree: 78%
 
 ---
 
