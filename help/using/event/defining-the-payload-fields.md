@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 定義裝載欄位
 description: 瞭解如何定義裝載欄位
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '305'
 ht-degree: 6%
 
 ---
@@ -14,13 +17,13 @@ ht-degree: 6%
 
 # 定義裝載欄位 {#concept_yrw_3qt_52b}
 
-有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯的人員的金鑰。 裝載是以Experience Cloud XDM欄位定義為基礎。 有關XDM的詳細資訊，請參閱[本頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/home.html)。
+有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯的人員的金鑰。 裝載基於Experience CloudXDM欄位定義。 有關XDM的詳細資訊，請參閱[本頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/home.html)。
 
 1. 從清單中選擇XDM方案，然後按一下&#x200B;**[!UICONTROL Payload]**&#x200B;欄位或&#x200B;**[!UICONTROL Edit]**&#x200B;表徵圖。
 
    ![](../assets/journey8.png)
 
-   將顯示架構中定義的所有欄位。 欄位清單會依不同的架構而有所不同。 您可以搜尋特定欄位，或使用篩選器來顯示所有節點和欄位，或僅顯示選取的欄位。 根據架構定義，某些欄位可能是必填和預選的。 您無法取消選取它們。 預設會選取「歷程協調」要正確接收活動的所有必填欄位。
+   將顯示架構中定義的所有欄位。 欄位清單會依不同的架構而有所不同。 您可以搜尋特定欄位，或使用篩選器來顯示所有節點和欄位，或僅顯示選取的欄位。 根據架構定義，某些欄位可能是必填和預選的。 您無法取消選取它們。 預設情況下，系統會選擇事件必須由Journey Orchestration正確接收的所有欄位。
 
    >[!NOTE]
    >
@@ -34,7 +37,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >對於系統生成的事件，**[!UICONTROL eventID]**&#x200B;欄位會自動添加到選定欄位清單中，以便[!DNL Journey Orchestration]能夠識別事件。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 請參閱[本頁](../event/previewing-the-payload.md)。
+   >對於系統生成的事件，**[!UICONTROL eventID]**&#x200B;欄位會自動添加到選定欄位的清單中，以便[!DNL Journey Orchestration]能夠識別事件。 推送事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 請參閱[本頁](../event/previewing-the-payload.md)。
 
 1. 選擇完所需欄位後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;或按&#x200B;**[!UICONTROL Enter]**。
 
