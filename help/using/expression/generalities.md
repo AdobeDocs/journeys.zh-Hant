@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 一般性
 description: 瞭解進階運算式通用性
+feature: 旅程
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '218'
 ht-degree: 2%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 2%
 
 括弧可用來使複雜運算式更易讀。 _(&lt;expression>)_ 等於 _&lt;expression>_。括弧也可用來定義評估順序和關聯性。
 
-運算式會從左至右進行計算。 必須應用算術運算子的相關性：乘法和分部優先於加法和減法。 為了強加特定順序，必須添加括弧來分隔操作。 例如：
+運算式會從左至右進行計算。 必須應用算術運算子的相關性：乘法和分部優先於加法和減法。 要強加特定順序，必須添加括弧來分隔操作。 例如：
 
 <!--```5 + 2 * 10 = 25, and (5 + 2) * 10 = 70```-->
 
