@@ -5,10 +5,13 @@ title: 關於Campaign Classic整合
 description: 瞭解Campaign Classic整合
 hide: true
 hidefromtoc: true
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 937b7235d41fe7f0395e303736974e32eea8558f
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
