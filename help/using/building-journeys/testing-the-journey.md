@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 測試歷程
 description: '瞭解歷程測試 '
 translation-type: tm+mt
-source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
+source-git-commit: ceb8e3267aa9e467ccecf9b343d9f4d883a41e14
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1538'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 3%
 您必須先解決所有錯誤（如果有），才能測試您的旅程。 請參閱[本節](../about/troubleshooting.md#section_h3q_kqk_fhb)。
 
 您有可能在發佈之前，使用測試設定檔來測試您的旅程。 這可讓您分析個人在歷程中的流程，並在發佈前進行疑難排解。
+
+只有測試描述檔可以在測試模式中進入歷程。 您可以[建立新的測試描述檔](../building-journeys/testing-the-journey.md#create-test-profile)或[將現有的描述檔轉換為測試描述檔](../building-journeys/testing-the-journey.md#turning-profile-into-test)。
 
 若要使用測試模式，請依照下列步驟進行：
 
@@ -44,19 +46,25 @@ ht-degree: 3%
 
 * 提供一個介面，可將事件觸發至測試的歷程，但事件也可由第三方系統（例如Postman）傳送。
 * 只有在即時客戶個人檔案服務中標示為「測試個人檔案」的個人才能進入測試的歷程。 請參閱[本節](../building-journeys/testing-the-journey.md#create-test-profile)。
-* 測試模式僅適用於使用命名空間的草稿歷程。 測試模式需要檢查進入歷程的人員是否是測試設定檔，因此必須能夠存取Adobe Experience Platform。
+* 測試模式僅適用於使用命名空間的草稿歷程。 測試模式需要檢查進入旅程的人員是否是測試配置檔案，因此必須能夠到達Adobe Experience Platform。
 * 在測試階段作業中，測試描述檔的最大數量可超過進入歷程的次數為100。
 * 當您停用測試模式時，它會佔用過去或目前已進入測試模式的所有人員的歷程。 也會清除報表。
 * 您可以視需要多次啟用／停用測試模式。
 * 您無法在啟動測試模式時修改歷程。 在測試模式中，您可以直接發佈歷程，而不需先停用測試模式。
 
+## 將配置檔案轉換為測試配置檔案{#turning-profile-into-test}
+
+您可以將現有的描述檔轉換為測試描述檔。 在Adobe Experience Platform中，您可以透過API呼叫更新描述檔屬性，但無法透過介面執行。
+
+最簡單的方式是使用&#x200B;**更新描述檔**&#x200B;動作活動，並將測試描述檔布林欄位從false變更為true。 請參閱[本節](../building-journeys/update-profiles.md#using-the-test-mode)。
+
 ## 建立測試描述檔{#create-test-profile}
 
-建立測試描述檔的程式與在Adobe Experience Platform中建立描述檔的程式相同。 它是透過API呼叫來執行。 請參閱此[頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)
+如果您想要建立新的測試描述檔，此程式與在Adobe Experience Platform建立描述檔時的程式相同。 它是透過API呼叫來執行。 請參閱此[頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)
 
 您必須使用包含「描述檔測試詳細資訊」混合的描述檔結構。 testProfile標幟是此混音的一部分。
 
-建立描述檔時，請務必傳遞值：testprofile = true。
+建立描述檔時，請務必傳遞值：testProfile = true。
 
 請注意，您也可以更新現有的描述檔，將其testProfile標幟變更為&quot;true&quot;。
 
@@ -112,7 +120,7 @@ curl -X POST \
 >
 >當您在測試模式中觸發事件時，會產生實際事件，這表示它也會點擊其他聆聽此事件的歷程。
 
-作為先決條件，您必須知道哪些描述檔在Adobe Experience Platform中標幟為測試描述檔。 事實上，測試模式僅允許在歷程中使用這些描述檔，而且事件必須包含ID。 預期的ID取決於事件設定。 例如，它可以是ECID。
+作為先決條件，您必須知道哪些描述檔在Adobe Experience Platform被標幟為測試描述檔。 事實上，測試模式僅允許在歷程中使用這些描述檔，而且事件必須包含ID。 預期的ID取決於事件設定。 例如，它可以是ECID。
 
 如果您的歷程包含數個事件，請使用下拉式清單來選取事件。 然後，針對每個事件，設定傳遞的欄位和事件傳送的執行。 此介面可協助您在事件裝載中傳遞正確的資訊，並確保資訊類型正確無誤。 測試模式會儲存測試工作階段中使用的最後一個參數，以供日後使用。
 
@@ -177,7 +185,7 @@ curl -X POST \
 
 當使用測試模式觸發事件時，會以來源名稱自動產生資料集。
 
-測試模式會自動建立「體驗事件」，並將其傳送至Adobe Experience Platform。 此體驗活動的來源名稱為「歷程協調測試活動」。
+測試模式會自動建立體驗事件並傳送至Adobe Experience Platform。 此體驗事件的來源名稱為「Journey Orchestration測試事件」。
 
 若發生多個歷程觸發的多個事件
 
@@ -185,5 +193,5 @@ curl -X POST \
 
 如果體驗事件中未包含目標資料集，則會自動建立和命名這些資料集。 這就是為什麼我們今天看到&quot;自動為旅行者建立資料集&quot;。
 
-我們來源的命名會推動自動建立。 如果我們有多個事件，我們應該串連並讓它成為「歷程協調測試事件——架構名稱」。 這會自動轉為「自動產生的歷程協調測試事件資料集——架構名稱」。
+我們來源的命名會推動自動建立。 如果我們有多個事件，我們應該串連，並將其設為「Journey Orchestration測試事件——架構名稱」。 這會自動轉為「自動產生的Journey Orchestration測試事件資料集——架構名稱」。
 
