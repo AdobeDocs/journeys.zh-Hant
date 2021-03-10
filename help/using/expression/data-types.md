@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 資料類型
 description: 瞭解進階運算式中的資料類型
+feature: 旅程
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: a95b8311aff2d95402afa9b80488ced2a3e6fbba
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '562'
 ht-degree: 4%
 
 ---
@@ -130,7 +133,7 @@ true
 
 序列化格式：ISO-8601延伸偏移日期——時間格式。
 
-它使用DateTimeFormatter ISO_LOCAL_DATE_TIME來反序列化值。 [進一步瞭解](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+它使用DateTimeFormatter ISO_LOCAL_DATE_TIME來反序列化值。 [進一步了解](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
 **常值表示法**
 
@@ -152,7 +155,7 @@ JSON格式：字串。
 
 序列化格式：ISO-8601延伸偏移日期——時間格式。
 
-它使用DateTimeFormatter ISO_OFFSET_DATE_TIME來反序列化值。 [進一步瞭解](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+它使用DateTimeFormatter ISO_OFFSET_DATE_TIME來反序列化值。 [進一步了解](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
 您也可以傳遞一個傳遞紀元值的整數。 [顯示全文](https://www.epochconverter.com)
 
@@ -208,7 +211,7 @@ JSON格式：字串。
 
 序列化格式：若要反序列化時區ID，它會使用java函式java.time。
 
-Duration.parse:接受的格式基於ISO-8601持續時間格式PnDTnHnMn.nS，其天數被認為恰好為24小時。 [進一步瞭解](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse:接受的格式基於ISO-8601持續時間格式PnDTnHnMn.nS，其天數被認為恰好為24小時。 [進一步了解](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **常值表示法**
 
