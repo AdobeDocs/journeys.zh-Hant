@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 測試歷程
 description: '瞭解歷程測試 '
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: ceb8e3267aa9e467ccecf9b343d9f4d883a41e14
+source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1542'
 ht-degree: 3%
 
 ---
