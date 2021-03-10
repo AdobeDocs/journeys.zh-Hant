@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 設定資料來源
 description: 瞭解如何針對歷程中的簡單使用案例設定資料來源
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '141'
 ht-degree: 6%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 6%
 
 有關資料源配置的其他資訊，請參閱[本頁](../datasource/about-data-sources.md)。
 
-1. 在頂端功能表中，按一下&#x200B;**[!UICONTROL Data Sources]**&#x200B;標籤，並選取內建Adobe Experience Platform資料來源。
+1. 在頂部菜單中，按一下&#x200B;**[!UICONTROL Data Sources]**&#x200B;頁籤並選擇內置的Adobe Experience Platform資料源。
 
    ![](../assets/journey23.png)
 
