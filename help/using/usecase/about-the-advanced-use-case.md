@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 關於進階使用案例
 description: 進一步瞭解進階使用案例
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '422'
+ht-degree: 4%
 
 ---
 
@@ -42,16 +45,16 @@ ht-degree: 0%
 
 我們需要配置兩個資料來源的連線（請參閱[本頁](../usecase/configuring-the-data-sources.md)）:
 
-* 內建的Adobe Experience Platform資料來源，可擷取我們兩個條件（忠誠會籍和上次聯絡日期）的資訊以及訊息個人化資訊。
+* 內建的Adobe Experience Platform資料來源，可擷取我們兩個條件（忠誠會籍和上次聯絡日期）的資訊，以及訊息個人化資訊。
 * 該飯店訂房系統用以擷取該訂房狀態資訊。
 
 ## 先決條件 {#prerequisites}
 
-針對我們的使用案例，我們設計了三個Adobe Campaign Standard交易訊息範本。 我們使用事件交易式訊息範本。 請參閱此[頁](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
+針對我們的使用案例，我們設計了三個Adobe Campaign Standard交易式訊息範本。 我們使用事件交易式訊息範本。 請參閱此[頁](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
 
-Adobe Campaign Standard已設定為傳送電子郵件和推播通知。
+Adobe Campaign Standard已設定成傳送電子郵件和推播通知。
 
-Experience Cloud ID是用來識別飯店訂房系統中客戶的金鑰。
+Experience CloudID用作識別飯店訂房系統中客戶的金鑰。
 
 當客戶在信標附近偵測到事件時，會從其行動電話傳送事件。 您需要設計行動應用程式，將事件從客戶的行動電話傳送至行動SDK。
 
