@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 等待活動
 description: 瞭解等待活動
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '388'
 ht-degree: 3%
 
 ---
@@ -24,7 +27,7 @@ ht-degree: 3%
 
 ## 關於等待活動{#about_wait}
 
-以下是當您同時使用數個等待時，等待的優先順序。 如果它們具有相同的時間配置和不同但重疊的條件，則位於上面的等待將是優先順序。 例如，第一次等待的條件是「成為女性」，而第二次等待的條件是「成為VIP」。 第一個等待活動將優先化
+以下是當您同時使用數個等待時，等待的優先順序。 如果它們具有相同的時間配置和不同但重疊的條件，則位於上面的等待將是優先順序。 例如，第一次等待的條件是「成為女性」，而第二次等待的條件是「成為女性VIP」。 第一個等待活動將優先化
 
 另請注意，如果兩個不同的等待同時進行，則無論其垂直位置如何，都會優先排列第一個發生的等待。 例如，如果1小時的等待高於30分鐘，而30分鐘的等待低於30分鐘，則30分鐘的等待將被處理。
 
