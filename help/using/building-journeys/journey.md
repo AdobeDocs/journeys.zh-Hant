@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 關於建立歷程
 description: 身為企業使用者，了解如何結合活動、協調和行銷活動，以構建歷程。
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '439'
 ht-degree: 15%
 
 ---
