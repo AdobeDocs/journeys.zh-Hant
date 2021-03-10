@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 建立您的歷程報告
 description: 瞭解如何建立歷程報告
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
