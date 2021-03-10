@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 反應事件
 description: 瞭解反應事件
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '411'
 ht-degree: 1%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 1%
 
 # 反應事件 {#section_dhx_gss_dgb}
 
-在浮動視窗中提供的不同事件活動中，您會找到內建的&#x200B;**[!UICONTROL Reactions]**&#x200B;事件。 此活動可讓您對追蹤與電子郵件、簡訊或推播活動所傳送之訊息相關的資料做出回應。 這些資訊來自Adobe Campaign Standard中的交易訊息。 我們會在與Adobe Experience Platform共用資訊時即時擷取此資訊。 對於推播通知，您可以回應已點按、已傳送或失敗的訊息。 對於SMS訊息，您可以回應已傳送或失敗的訊息。 對於電子郵件，您可以對被點按、傳送、開啟或失敗的訊息做出回應。
+在浮動視窗中提供的不同事件活動中，您會找到內建的&#x200B;**[!UICONTROL Reactions]**&#x200B;事件。 此活動可讓您對追蹤與電子郵件、簡訊或推播活動所傳送之訊息相關的資料做出回應。 這些資訊來自Adobe Campaign Standard的交易式消息傳遞。 我們在與Adobe Experience Platform分享這些資訊時即時捕獲這些資訊。 對於推播通知，您可以回應已點按、已傳送或失敗的訊息。 對於SMS訊息，您可以回應已傳送或失敗的訊息。 對於電子郵件，您可以對被點按、傳送、開啟或失敗的訊息做出回應。
 
 您也可以使用此機制，在您的訊息沒有反應時執行動作。 若要這麼做，請建立與反應活動平行的第二條路徑，並新增等待活動。 如果在等待活動中定義的時段內沒有反應，則將選擇第二個路徑。 您可以選擇傳送，例如後續訊息。
 
@@ -29,11 +32,11 @@ ht-degree: 1%
 1. 將&#x200B;**[!UICONTROL Label]**&#x200B;加入反應。 此步驟為選填。
 1. 從下拉式清單中，選取您要回應的動作活動。 您可以選取路徑上前幾個步驟中定位的任何動作活動。
 1. 根據您選取的動作（電子郵件、簡訊或推播通知），選擇您要回應的項目。
-1. 您可以將條件定義為可選步驟。 例如，在執行電子郵件動作後，您可以決定建立兩個路徑，一個路徑包含僅追蹤VIP客戶點按次數的反應事件，另一個路徑包含追蹤女性點按次數的反應事件。
+1. 您可以將條件定義為可選步驟。 例如，在電子郵件動作後，您可以決定建立兩個路徑，一個路徑具有僅追蹤客戶點按次數的反應事件，VIP另一個路徑具有追蹤女性點按次數的反應事件。
 
 >[!NOTE]
 >
->反應事件可與Adobe Campaign Standard搭配運作，不論其部署在AWS或Azure伺服器上。
+>反應事件與Adobe Campaign Standard協作，無論其部署在AWS或Azure伺服器上。
 >
 >反應事件無法追蹤在不同歷程中發生的電子郵件、簡訊或推播動作。
 >
