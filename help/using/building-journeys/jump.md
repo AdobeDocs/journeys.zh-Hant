@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 從一個歷程跳到另一個歷程
 description: 從一個歷程跳到另一個歷程
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 9d8c3a2cf79f2b861aad61089a263a6a33a747b4
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '795'
 ht-degree: 3%
 
 ---
