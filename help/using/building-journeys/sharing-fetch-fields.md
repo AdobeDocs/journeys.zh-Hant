@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: journeyStep 事件資料擷取欄位
 description: journeyStep 事件資料擷取欄位
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 4%
 
 ---
@@ -26,7 +29,7 @@ ht-degree: 4%
 
 ## fetchTypeInError
 
-定義擷取錯誤是在Adobe Experience Platform上還是在自訂資料來源上。
+定義讀取錯誤是在Adobe Experience Platform上還是在自定義資料源上。
 
 類型：字串
 
@@ -86,13 +89,13 @@ ht-degree: 4%
 
 ## fetchPlatformTotalTime
 
-從Adobe Experience Platform擷取資料所花費的總時間（以百萬計）。 備注：該時間量從引擎將富集事件發送到富集服務並接收響應的時間開始計算。
+從Adobe Experience Platform擷取資料所花的總時間（以百萬計）。 備注：該時間量從引擎將富集事件發送到富集服務並接收響應的時間開始計算。
 
 類型：long
 
 ## fetchPlatformCount
 
-從Adobe Experience Platform擷取資料的次數。
+從Adobe Experience Platform提取資料的次數。
 
 類型：long
 
