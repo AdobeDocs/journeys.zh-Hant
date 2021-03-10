@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: getListItem
 description: 瞭解gstListItem函式
+feature: 旅程
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 5539ea0e8f124896f5599dba63babaa3e5b0229b
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 3%
+source-wordcount: '101'
+ht-degree: 4%
 
 ---
 
