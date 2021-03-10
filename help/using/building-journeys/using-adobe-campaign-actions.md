@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 使用 Adobe Campaign 動作
-description: 瞭解Adobe Campaign動作
+description: 瞭解Adobe Campaign行動
+feature: 旅程
+role: 業務從業人員
+level: 中級
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '903'
 ht-degree: 5%
 
 ---
@@ -20,11 +23,11 @@ ht-degree: 5%
 >
 >為此，您需要配置內置操作。 請參見[此頁面](../action/working-with-adobe-campaign.md)。
 
-對於這些通道，您可以選擇Adobe Campaign Standard交易訊息&#x200B;**範本**。 事實上，[!DNL Journey Orchestration]並非訊息傳送解決方案。 對於內建的電子郵件、簡訊和推播通道，我們依賴交易式訊息來執行訊息傳送。 這表示，如果您想在歷程中使用特定訊息範本，您必須在Adobe Campaign Standard中發佈。 請參閱[本頁](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)瞭解如何使用此功能。
+對於這些通道，您選擇一個Adobe Campaign Standard事務性消息傳遞&#x200B;**模板**。 事實上，[!DNL Journey Orchestration]並非訊息傳送解決方案。 對於內建的電子郵件、簡訊和推播通道，我們依賴交易式訊息來執行訊息傳送。 這表示，如果您想在歷程中使用特定訊息範本，您必須在Adobe Campaign Standard發佈。 請參閱[本頁](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)瞭解如何使用此功能。
 
 >[!NOTE]
 >
->必須發佈Campaign Standard交易訊息及其相關事件，才能用於歷程協調。 如果活動已發佈但訊息未發佈，則「歷程協調」介面將無法顯示。 如果訊息已發佈，但其相關事件未發佈，則會在「歷程協調」介面中顯示，但無法使用。
+>Campaign Standard事務性消息及其關聯事件必須發佈，才能用於Journey Orchestration。 如果事件已發佈，但訊息未發佈，則不會顯示在Journey Orchestration介面中。 如果訊息已發佈，但其關聯事件未發佈，則訊息會顯示在Journey Orchestration介面中，但無法使用。
 
 ![](../assets/journey59.png)
 
@@ -44,7 +47,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->對於電子郵件，如果您使用設定檔交易範本，取消訂閱機制會由Campaign Standard立即處理。 您只需在範本中新增&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;內容區塊（[瞭解詳細內容](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)）。 如果您使用事件型範本(rtEvent)，您需要在訊息中新增將該人員的電子郵件傳遞至URL參數並指向取消訂閱登陸頁面的連結。 您必須建立此登陸頁面，並確定該人員取消訂閱的決定已傳送至Adobe。
+>對於電子郵件，如果您使用設定檔交易範本，取消訂閱機制會由Campaign Standard立即處理。 您只需在範本中新增&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;內容區塊（[瞭解詳細內容](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)）。 如果您使用事件型範本(rtEvent)，您需要在訊息中新增將該人員的電子郵件傳遞至URL參數並指向取消訂閱登陸頁面的連結。 您需要建立此登陸頁面，並確定該人員取消訂閱的決定已傳送至Adobe。
 
 首先，您需要選擇事務性消息傳遞模板。 請參見[此頁面](../building-journeys/about-action-activities.md)。
 
@@ -56,7 +59,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->只有在您選擇「事件」事務性訊息時，才會顯示此類別。 對於「描述檔」訊息，系統會自動從Adobe Campaign Standard擷取&#x200B;**[!UICONTROL Address]**&#x200B;欄位。
+>只有在您選擇「事件」事務性訊息時，才會顯示此類別。 對於&quot;profile&quot;消息，系統將自動從Adobe Campaign Standard檢索&#x200B;**[!UICONTROL Address]**&#x200B;欄位。
 
 這些是系統需要知道消息發送位置的欄位。 對於電子郵件範本，此範本是電子郵件地址。 對於SMS來說，這是手機號碼。
 
@@ -68,13 +71,13 @@ ht-degree: 5%
 >
 >您無法在個人化資料中傳遞系列。 如果交易式電子郵件或SMS需要收藏集，則無法運作。 另請注意，個人化資料具有預期的格式(例如：字串、小數等)。 您必須謹慎遵守這些預期格式。
 
-這些是Adobe Campaign Standard訊息所預期的欄位。 這些欄位可用來個人化訊息、套用條件式格式，或選擇特定的訊息變體。
+這些是Adobe Campaign Standard消息預期的欄位。 這些欄位可用來個人化訊息、套用條件式格式，或選擇特定的訊息變體。
 
 ![](../assets/journey62.png)
 
 ## 推送{#section_im3_hvf_nhb}
 
-在使用推播活動之前，您的行動應用程式必須與Campaign Standard一起設定，才能傳送推播通知。 請使用此[文章](https://helpx.adobe.com/tw/campaign/kb/integrate-mobile-sdk.html)來執行行動裝置的必要實作步驟。
+在使用推播活動之前，您的行動應用程式必須與傳送推播通知的Campaign Standard一起設定。 請使用此[文章](https://helpx.adobe.com/tw/campaign/kb/integrate-mobile-sdk.html)來執行行動裝置的必要實作步驟。
 
 首先，您必須從下拉式清單和交易式訊息中選擇行動應用程式。 請參閱[本頁](../building-journeys/about-action-activities.md)。
 
@@ -86,7 +89,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->只有在您選擇事件消息時，才會顯示此類別。 對於描述檔訊息，系統會使用Adobe Campaign Standard所執行的協調功能，自動擷取&#x200B;**[!UICONTROL Target]**&#x200B;欄位。
+>只有在您選擇事件消息時，才會顯示此類別。 對於配置檔案消息，系統將使用Adobe Campaign Standard執行的協調自動檢索&#x200B;**[!UICONTROL Target]**&#x200B;欄位。
 
 在本節中，您需要定義&#x200B;**[!UICONTROL Push platform]**。 下拉式清單可讓您選取&#x200B;**[!UICONTROL Apple Push Notification Server]**(iOS)或&#x200B;**[!UICONTROL Firebase Cloud Messaging]**(Android)。 您也可以從事件或資料來源中選取特定欄位，或定義進階運算式。
 
@@ -102,4 +105,4 @@ ht-degree: 5%
 >
 >您無法在個人化資料中傳遞系列。 如果交易式推播期望系列，則無法運作。 另請注意，個人化資料具有預期的格式(例如：字串、小數等)。 您必須謹慎遵守這些預期格式。
 
-這些是Adobe Campaign Standard訊息中使用的交易範本所預期的欄位。 這些欄位可用來個人化您的訊息、套用條件式格式，或選擇特定的訊息變體。
+這些是您的Adobe Campaign Standard消息中使用的事務模板所預期的欄位。 這些欄位可用來個人化您的訊息、套用條件式格式，或選擇特定的訊息變體。
