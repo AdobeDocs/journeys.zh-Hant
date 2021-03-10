@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 收集管理函式
 description: 瞭解收集管理功能中的資料類型
+feature: 旅程
+role: 資料工程師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---
@@ -201,14 +204,14 @@ _`<listExpression>.last(<condition>)`_
 
 >[!NOTE]
 >
->體驗事件是從Adobe Experience Platform擷取為依時間順序倒排的系列，因此：
+>體驗事件是從Adobe Experience Platform擷取，依時間順序排列，因此：
 >* **[!UICONTROL first]** 函式會傳回最近的事件
 >* **[!UICONTROL last]** 函式會傳回最舊的函式。
 
 
 **範例3:**
 
-我們會檢查DMA ID的第一個值為非零的（最近）Adobe Analytics事件是否有等於602的值。
+我們會檢查DMA ID的第一個（最近）Adobe Analytics事件（非零值）是否有等於602的值。
 
 ```
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
