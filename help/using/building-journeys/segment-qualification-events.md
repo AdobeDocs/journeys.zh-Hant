@@ -7,9 +7,9 @@ feature: 旅程
 role: 業務從業人員
 level: 中級
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '753'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,11 @@ ht-degree: 1%
 
    ![](../assets/segment-copy.png)
 
-1. 在&#x200B;**[!UICONTROL Behavior]**&#x200B;欄位中，選擇您要監聽區段入口、出口或兩者。
+1. 在&#x200B;**[!UICONTROL Behaviour]**&#x200B;欄位中，選擇您要監聽區段入口、出口或兩者。
+
+   >[!NOTE]
+   >
+   >請注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應於來自Adobe Experience Platform的&#x200B;**已實現**&#x200B;和&#x200B;**已退出**&#x200B;區段參與狀態。 如需如何評估區段的詳細資訊，請參閱[區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
 
 1. 選擇命名空間。 只有在將活動定位為旅程的第一步時，才需要這個選項。
 
