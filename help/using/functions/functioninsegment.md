@@ -7,10 +7,10 @@ feature: 旅程
 role: 資料工程師
 level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 7%
+source-wordcount: '153'
+ht-degree: 5%
 
 ---
 
@@ -19,13 +19,17 @@ ht-degree: 7%
 
 檢查個人是否屬於指定區段。
 
+>[!NOTE]
+>
+>您最多可擷取100個區段。
+
 區段名稱必須是字串常數。 它不能是欄位引用或表達式。
 
 區段定義於[Adobe Experience Platform](https://platform.adobe.com/segment/overview)中。 運算式編輯器提供自動完成的區段清單。
 
 >[!NOTE]
 >
->您最多可擷取100個區段。
+>只有具有&#x200B;**Remailed**&#x200B;和&#x200B;**Existing**&#x200B;區段參與狀態的個人才會被視為區段的成員。 如需如何評估區段的詳細資訊，請參閱[區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
 
 ## 類別
 
