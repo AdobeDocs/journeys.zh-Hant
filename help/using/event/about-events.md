@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 關於事件
 description: 瞭解活動
-feature: 旅程
+feature: Journeys
 role: 業務從業人員
 level: 中級
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 55%
+source-wordcount: '357'
+ht-degree: 49%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="關於事件"
->abstract="事件會連結至人員，它與人的行為相關（例如，某人購買產品、造訪商店、離開網站等等）或是某人發生的事（例如，某人達到 10,000 點忠誠點數）。這是 [!DNL Journey Orchestration] 在歷程中會監聽的事件，以便協調下一個最佳動作。"
+>abstract="事件會連結至人員，它與人的行為或與人相關的事情有關。 這是 [!DNL Journey Orchestration] 在歷程中會監聽的事件，以便協調下一個最佳動作。"
 
 事件會連結至人員，它與人的行為相關（例如，某人購買產品、造訪商店、離開網站等等）或是某人發生的事（例如，某人達到 10,000 點忠誠點數）。這是 [!DNL Journey Orchestration] 在歷程中會監聽的事件，以便協調下一個最佳動作。
 
