@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 使用者介面
 description: 深一步瞭解使用者介面
-feature: 旅程
+feature: Journeys
 role: 業務從業人員
 level: 中級
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 93%
+source-wordcount: '1014'
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="關於歷程清單"
->abstract="歷程清單可讓您一次檢視所有歷程、查看其狀態並執行基本動作。您可以複製、停止或刪除您的歷程。視歷程而定，某些動作可能無法使用。例如，您無法刪除或重新開始已關閉的歷程。您可以從中建立新版本或加以複製，也可以使用搜尋列來搜尋歷程。"
+>abstract="歷程清單可讓您一次檢視所有歷程、查看其狀態並執行基本動作。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="觀看示範影片"
 
 頂頂端功能表可讓您導覽[!DNL Journey Orchestration]　的不同功能：**[!UICONTROL Home]**（歷程）、**[!UICONTROL Data Sources]**、**[!UICONTROL Events]**、**[!UICONTROL Actions]**。
