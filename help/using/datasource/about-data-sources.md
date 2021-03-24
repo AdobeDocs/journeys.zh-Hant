@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 關於資料來源
 description: '瞭解如何設定資料來源 '
-feature: 旅程
+feature: Journeys
 role: 業務從業人員
 level: 中級
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 87%
+source-wordcount: '348'
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="關於資料來源"
->abstract="資料來源設定一律會由技術使用者執行。資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊，例如：條件定義、動作中的參數和個人化資料、自訂等待定義、自訂時區定義。"
+>abstract="資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊。"
 
 資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊，例如：
 
