@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 反應事件
 description: 瞭解反應事件
-feature: 旅程
-role: 業務從業人員
-level: 中級
+feature: Journeys
+role: 商務從業人員
+level: 中繼
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 1%
+source-wordcount: '416'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 1. 將&#x200B;**[!UICONTROL Label]**&#x200B;加入反應。 此步驟為選填。
 1. 從下拉式清單中，選取您要回應的動作活動。 您可以選取路徑上前幾個步驟中定位的任何動作活動。
 1. 根據您選取的動作（電子郵件、簡訊或推播通知），選擇您要回應的項目。
-1. 您可以將條件定義為可選步驟。 例如，在電子郵件動作後，您可以決定建立兩個路徑，一個路徑具有僅追蹤客戶點按次數的反應事件，VIP另一個路徑具有追蹤女性點按次數的反應事件。
+1. 您可以定義事件逾時（40秒到30天之間）和逾時路徑。 這將為未在定義的持續時間內做出反應的個人建立第二個路徑。 測試使用反應事件的歷程時，測試模式&#x200B;**[!UICONTROL Wait time]**&#x200B;預設值和最小值為40秒。 請參閱[本節](../building-journeys/testing-the-journey.md)。
 
 >[!NOTE]
 >
