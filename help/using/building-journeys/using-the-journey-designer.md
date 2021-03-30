@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 使用歷程設計器
 description: 進一步瞭解如何使用歷程設計人員
-feature: 旅程
-role: 業務從業人員
-level: 中級
+feature: Journeys
+role: 商務從業人員
+level: 中繼
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 5%
+source-wordcount: '1416'
+ht-degree: 6%
 
 ---
 
@@ -66,6 +66,8 @@ ht-degree: 5%
 當您按一下浮動視窗中的活動時，會顯示&#x200B;**活動設定窗格**。 填寫必填欄位。 按一下&#x200B;**[!UICONTROL Delete]**&#x200B;圖示以刪除活動。 按一下&#x200B;**[!UICONTROL Cancel]**&#x200B;取消修改，或按一下&#x200B;**[!UICONTROL Ok]**&#x200B;確認。 要刪除活動，還可以選擇一個活動（或多個活動），然後按背空格鍵。 按轉義鍵將關閉活動配置窗格。
 
 在畫布中，您的動作和事件活動會以圖示來表示，其下會顯示事件或動作的名稱。 在活動配置窗格中，可以使用&#x200B;**[!UICONTROL Label]**&#x200B;欄位為活動名稱添加尾碼。 這些標籤將協助您將事件和動作的使用情境化，尤其是當您在歷程中多次使用相同的事件或動作時。 您也可以看到您在[!DNL Journey Orchestration]報表中新增的標籤。 您也可以為條件活動定義標籤。
+
+預設情況下，只讀欄位是隱藏的。 要顯示它們，請按一下活動配置窗格左上角的&#x200B;**顯示只讀欄位**&#x200B;表徵圖。
 
 ![](../assets/journey59bis.png)
 
