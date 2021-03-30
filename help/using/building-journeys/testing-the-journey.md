@@ -3,13 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 測試歷程
 description: '瞭解歷程測試 '
-feature: 旅程
-role: 業務從業人員
-level: 中級
+feature: Journeys
+role: 商務從業人員
+level: 中繼
 translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1619'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,21 @@ ht-degree: 3%
 
    ![](../assets/journeytest1.png)
 
-1. 使用左下角的&#x200B;**[!UICONTROL Wait time in test]**&#x200B;參數定義每個等待活動在測試模式下的持續時間。 預設時間為 10 秒。這可確保您快速取得測試結果。 只有在您的歷程中丟棄了一個或多個等待活動時，才會顯示此參數。
+1. 使用左下角的&#x200B;**[!UICONTROL Wait time]**&#x200B;參數，定義每個等待活動和事件逾時在測試模式中的持續時間。 預設等待和事件逾時的時間為10秒。 這可確保您快速取得測試結果。 只有在您的歷程中丟棄了一個或多個等待活動時，才會顯示此參數。
 
    ![](../assets/journeytest_wait.png)
 
-1. 按一下&#x200B;**[!UICONTROL Trigger an event]**&#x200B;以設定事件並傳送至歷程。 請確定傳送與測試設定檔相關的事件。 請參閱[觸發事件](#firing_events)。
+   >[!NOTE]
+   >
+   >在歷程中使用反應事件時，等待時間預設值和最小值為40秒。 請參閱[本節](../building-journeys/reaction-events.md)
+
+1. 按一下&#x200B;**[!UICONTROL Trigger an event]**&#x200B;以設定事件並傳送至歷程。
 
    ![](../assets/journeyuctest1.png)
+
+1. 設定預期的不同欄位。 在&#x200B;**描述檔識別碼**&#x200B;欄位中，輸入用以識別測試描述檔的欄位值。 例如，它可以是電子郵件地址。 請確定傳送與測試設定檔相關的事件。 請參閱[觸發事件](#firing_events)。
+
+   ![](../assets/journeyuctest1-bis.png)
 
 1. 收到事件後，按一下&#x200B;**[!UICONTROL Show log]**&#x200B;按鈕查看測試結果並驗證結果。 請參閱[查看日誌](#viewing_logs)。
 
@@ -123,7 +131,7 @@ curl -X POST \
 >
 >當您在測試模式中觸發事件時，會產生實際事件，這表示它也會點擊其他聆聽此事件的歷程。
 
-作為先決條件，您必須知道哪些描述檔在Adobe Experience Platform被標幟為測試描述檔。 事實上，測試模式僅允許在歷程中使用這些描述檔，而且事件必須包含ID。 預期的ID取決於事件設定。 例如，它可以是ECID。
+作為先決條件，您必須知道哪些描述檔在Adobe Experience Platform被標幟為測試描述檔。 事實上，測試模式僅允許在歷程中使用這些描述檔，而且事件必須包含ID。 預期的ID取決於事件設定。 例如，它可以是ECID或電子郵件地址。 此鍵的值需要添加到&#x200B;**配置檔案標識符**&#x200B;欄位中。
 
 如果您的歷程包含數個事件，請使用下拉式清單來選取事件。 然後，針對每個事件，設定傳遞的欄位和事件傳送的執行。 此介面可協助您在事件裝載中傳遞正確的資訊，並確保資訊類型正確無誤。 測試模式會儲存測試工作階段中使用的最後一個參數，以供日後使用。
 
