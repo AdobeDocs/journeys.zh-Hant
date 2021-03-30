@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 關於建立歷程
 description: 身為企業使用者，了解如何結合活動、協調和行銷活動，以構建歷程。
-feature: 旅程
-role: 業務從業人員
-level: 中級
+feature: Journeys
+role: 商務從業人員
+level: 中繼
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 15%
+source-wordcount: '561'
+ht-degree: 13%
 
 ---
 
@@ -57,9 +57,20 @@ ht-degree: 15%
 
 ## 結束旅程{#ending_a_journey}
 
-結束旅程有兩種方式：
+旅程可能會因為兩個原因而結束：
 
 * 人到達路徑的最後一個活動。 最後一個活動可以是結束活動或其他活動。 沒有義務以結束活動結束路徑。 請參閱[本頁](../building-journeys/end-activity.md)。
 * 該人員到達條件活動（或具有條件的等待活動），且不符合任何條件。
 
 如果允許重新入場，人就可以重新進入旅程。 請參閱[本頁](../building-journeys/changing-properties.md)。
+
+由於下列原因，旅程可能會結束：
+
+* 歷程會透過&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;按鈕手動關閉。
+* 到達旅程的結束日期。
+
+當旅程關閉時（基於上述任何原因），其狀態將為&#x200B;**[!UICONTROL Closed (no entrance)]**。 這段旅程將不再讓新人進入這段旅程。 已經在旅途中的人將正常完成旅程。 在預設全域逾時30天後，歷程將切換至&#x200B;**Finished**&#x200B;狀態。 請參閱此[節](../building-journeys/changing-properties.md#entrance)。
+
+如果您需要阻止旅程中所有個人的進步，您可以阻止它。 停止旅程將逾時旅程中的所有個人。
+
+要瞭解如何手動關閉或停止旅程，請參閱此[部分](../building-journeys/terminating-a-journey.md)。
