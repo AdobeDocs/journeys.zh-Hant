@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 發行說明
 description: 瞭解發行說明
-feature: 旅程
+feature: Journeys
 role: 業務從業人員
 level: 初學者
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
 workflow-type: tm+mt
-source-wordcount: '2268'
-ht-degree: 68%
+source-wordcount: '2438'
+ht-degree: 64%
 
 ---
 
@@ -19,6 +19,15 @@ ht-degree: 68%
 
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱最新的[檔案更新](../release-notes/documentation-updates.md)。
+
+## 2021年3月發行{#march-2021-release}
+
+### 功能改善
+
+* 已新增狀態至歷程。 當行程結束或手動關閉時，其狀態在關閉後30天從&#x200B;**Closed**&#x200B;切換為&#x200B;**Finished**。 這可讓您更輕鬆地識別非活動中的歷程，同時確保所有在場人員仍有時間完成歷程。 [顯示全文](../building-journeys/journey.md#ending_a_journey)
+* 在草稿歷程的活動右窗格中，唯讀欄位現在預設為隱藏。 此介面簡化可協助您更輕鬆地設定活動。 要顯示它們，請按一下活動配置窗格左上角的&#x200B;**顯示只讀欄位**&#x200B;表徵圖。 [顯示全文](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* 在測試模式中，在&#x200B;**事件設定**&#x200B;畫面中，用於定義測試描述檔ID的&#x200B;**Key**&#x200B;欄位已重新命名為&#x200B;**描述檔識別碼**，以提供更佳的使用體驗。 [顯示全文](../building-journeys/testing-the-journey.md)。
+* 對於反應事件，現在只能將逾時持續時間設定在40秒到30天之間。 在測試使用反應事件的歷程時，測試模式&#x200B;**[!UICONTROL Wait time]**&#x200B;預設值和最小值現在為40秒。 [顯示全文](../building-journeys/reaction-events.md)。
 
 ## 2021年2月發行{#february-2021-release}
 
