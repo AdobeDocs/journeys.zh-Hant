@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 變更屬性
 description: 瞭解如何變更屬性
-feature: 旅程
-role: 業務從業人員
-level: 中級
+feature: Journeys
+role: 商務從業人員
+level: 中繼
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 0%
+source-wordcount: '495'
+ht-degree: 1%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 0%
 依預設，新的旅程允許重新進入。 您可以取消勾選「單拍」歷程的選項，例如，當某人進入商店時，您想要提供一次性禮品。 在這種情況下，您不希望客戶能夠重新進入歷程並再次收到優惠。
 
 當旅程「結束」時，狀態為&#x200B;**[!UICONTROL Closed (no entrance)]**。 這段旅程將不再讓新人進入這段旅程。 已經在旅途中的人將正常完成旅程。
+
+在預設全域逾時30天後，歷程將切換至&#x200B;**Finished**&#x200B;狀態。 請參閱此[節](#global_timeout)。
 
 ## 歷程活動的逾時和錯誤{#timeout_and_error}
 
