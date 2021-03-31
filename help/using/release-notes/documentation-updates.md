@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 文件更新
 description: 瞭解文件更新
-feature: 旅程
+feature: Journeys
 role: 業務從業人員
 level: 初學者
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 92%
+source-wordcount: '806'
+ht-degree: 91%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 92%
 # 文件更新
 
 本頁面列出 [!DNL Journey Orchestration] 的所有文件更新。您也可以參閱[!DNL Journey Orchestration][發行說明](../release-notes/release-notes.md)。
+
+## 2021 年 3月 {#march-2021}
+
+* 我們詳細說明了在Adobe Experience Platform建立測試設定檔的完整程式。 [顯示全文](../building-journeys/creating-test-profiles.md)。
 
 ## 2021 年 1 月 {#january-2021}
 
@@ -46,7 +50,7 @@ ht-degree: 92%
 * 已新增附註，說明在動作或條件發生錯誤後，如何讓歷程繼續。[顯示全文](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 已新增 Alpha 功能的區段，這些功能會在有限的客戶群中進行測試。
 * 已新增與智慧型服務整合的區段。[詳細內容](../ai-services/ai-services-overview.md)
-* 已新增測試設定檔建立的區段。[詳細內容](../building-journeys/testing-the-journey.md#create-test-profile)
+* 已新增測試設定檔建立的區段。[詳細內容](../building-journeys/testing-the-journey.md)
 * 已新增如何在歷程條件或動作中使用 **[!UICONTROL SegmentQualification]** 節點的資訊。[詳細內容](../building-journeys/segment-qualification-events.md)
 * 已在 Campaign 交易訊息及事件發佈中新增附註。請參閱[使用 Adobe Campaign ](../action/working-with-adobe-campaign.md)及[使用 Adobe Campaign 動作](../building-journeys/using-adobe-campaign-actions.md)。
 * 已新增對於檢查的資訊，這些檢查會在測試 Campaign Standard 執行個體 URL 時執行。[詳細內容](../action/working-with-adobe-campaign.md)
