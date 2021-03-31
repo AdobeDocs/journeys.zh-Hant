@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 建立測試設定檔
 description: '瞭解建立測試設定檔的相關資訊 '
 translation-type: tm+mt
-source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
+source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 
 
 # 建立測試設定檔{#create-test-profiles}
-
-![](../assets/do-not-localize/badge.png)
 
 在歷程中使用測試模式時，需要測試設定檔。 要瞭解如何使用測試模式，請參閱[本節](../building-journeys/testing-the-journey.md)。
 
