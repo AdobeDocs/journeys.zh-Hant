@@ -6,10 +6,10 @@ title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 feature: Journeys
-translation-type: ht
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: ht
-source-wordcount: '404'
+translation-type: tm+mt
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+workflow-type: tm+mt
+source-wordcount: '406'
 ht-degree: 100%
 
 ---
@@ -66,6 +66,7 @@ ht-degree: 100%
       + [歷程版本](using/building-journeys/journey-versions.md)
       + [結束歷程](using/building-journeys/terminating-a-journey.md)
       + [時區管理](using/building-journeys/timezone-management.md)
+      + [測試設定檔](using/building-journeys/creating-test-profiles.md)
    + 活動 {#about-journey-building}
       + 事件活動 {#events-activities}
          + [關於事件活動](using/building-journeys/event-activities.md)
