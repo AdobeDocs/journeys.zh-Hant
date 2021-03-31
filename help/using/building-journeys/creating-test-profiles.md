@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 建立測試設定檔
 description: '瞭解建立測試設定檔的相關資訊 '
 translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '728'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 1%
 
 ![](../assets/do-not-localize/badge.png)
 
-在歷程中使用測試模式時，需要測試設定檔。 您可以將[現有的描述檔](../building-journeys/creating-test-profiles.md#turning-profile-into-test)轉換為測試描述檔，或建立測試描述檔](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)。 [要瞭解如何使用測試模式，請參閱[本節](../building-journeys/testing-the-journey.md)。
+在歷程中使用測試模式時，需要測試設定檔。 要瞭解如何使用測試模式，請參閱[本節](../building-journeys/testing-the-journey.md)。
 
-在Adobe Experience Platform建立測試設定檔有不同的方式。 在本檔案中，我們著重於兩種方法：上傳[csv檔案](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)，並使用[API呼叫](../building-journeys/creating-test-profiles.md#create-test-profiles-api)。 您也可以上傳資料集中的json檔案，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)
+在Adobe Experience Platform建立測試設定檔有不同的方式。 在本檔案中，我們著重於兩種方法：上傳[csv檔案](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)，並使用[API呼叫](../building-journeys/creating-test-profiles.md#create-test-profiles-api)。 您也可以在資料集中上傳json檔案，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)。
+
+這些匯入方法也可讓您更新描述檔屬性。 這樣，您就可以將現有的描述檔轉換為測試描述檔。 只需使用類似的檔案或API呼叫，並僅包含&quot;testProfile&quot;欄位，其值為&quot;true&quot;。
 
 建立測試描述檔類似於在Adobe Experience Platform建立一般描述檔。 如需詳細資訊，請參閱[即時客戶資料檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
 
@@ -68,44 +70,6 @@ ht-degree: 1%
 >[!NOTE]
 >
 > 有關建立資料集的詳細資訊，請參閱[目錄服務文檔](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)。
-
-## 將配置檔案轉換為測試配置檔案{#turning-profile-into-test}
-
-您可以將現有的描述檔轉換為測試描述檔。 在Adobe Experience Platform，您可以像建立配置檔案一樣更新配置檔案屬性。
-
-要做到這一點，更簡單的方法是在歷程中使用&#x200B;**更新描述檔**&#x200B;動作活動，並將testProfile布爾欄位從false變更為true。
-
-您的旅程將由&#x200B;**讀區段**&#x200B;和&#x200B;**更新描述檔**&#x200B;活動組成。 您首先需要建立區段，以您要轉換成測試描述檔的描述檔為目標。
-
->[!NOTE]
->
-> 由於您將更新&#x200B;**testProfile**&#x200B;欄位，所以選擇的描述檔必須包含此欄位。 相關架構必須具有&#x200B;**描述檔測試詳細資訊** mixin。 請參閱[本節](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites)。
-
-1. 在「客戶歷程管理」中，按一下左側功能表中的&#x200B;**區段**，然後按一下右上方的&#x200B;**建立區段**。
-   ![](../assets/test-profiles-22.png)
-1. 定義區段的名稱並建立區段：選擇欄位和值，以定位您想要的描述檔。
-   ![](../assets/test-profiles-23.png)
-1. 按一下「儲存」，並檢查區段是否正確定位描述檔。****
-   ![](../assets/test-profiles-24.png)
-
-   >[!NOTE]
-   >
-   > 區段計算可能需要一些時間。 進一步瞭解[本節](../segment/about-segments.md)中的區段。
-
-1. 現在，您可以先建立新的歷程，開始&#x200B;**閱讀區段**&#x200B;協調活動。
-1. 選擇先前建立的區段，以及您的描述檔所使用的命名空間。
-   ![](../assets/test-profiles-25.png)
-1. 新增&#x200B;**更新描述檔**&#x200B;動作活動。
-1. 選擇架構、**testProfiles**欄位、資料集，並將值設為&quot;true&quot;。
-   ![](../assets/test-profiles-26.png)
-1. 新增&#x200B;**End**&#x200B;活動，然後按一下「發佈」。****
-   ![](../assets/test-profiles-27.png)
-1. 在Adobe Experience Platform，檢查設定檔是否已正確更新。
-   ![](../assets/test-profiles-28.png)
-
-   >[!NOTE]
-   >
-   > 有關&#x200B;**更新配置檔案**&#x200B;活動的詳細資訊，請參閱[本節](../building-journeys/update-profiles.md)。
 
 ## 使用csv檔案建立測試描述檔{#create-test-profiles-csv}
 
