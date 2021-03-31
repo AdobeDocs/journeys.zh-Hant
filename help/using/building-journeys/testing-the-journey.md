@@ -7,7 +7,7 @@ feature: Journeys
 role: 商務從業人員
 level: 中繼
 translation-type: tm+mt
-source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
+source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 3%
@@ -37,7 +37,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >在歷程中使用反應事件時，等待時間預設值和最小值為40秒。 請參閱[本節](../building-journeys/reaction-events.md)
+   >在歷程中使用反應事件時，等待時間預設值和最小值為40秒。 請參閱[本節](../building-journeys/reaction-events.md)。
 
 1. 按一下&#x200B;**[!UICONTROL Trigger an event]**&#x200B;以設定事件並傳送至歷程。
 
