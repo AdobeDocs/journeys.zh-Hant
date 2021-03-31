@@ -7,9 +7,9 @@ feature: Journeys
 role: 商務從業人員
 level: 中繼
 translation-type: tm+mt
-source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1624'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 您有可能在發佈之前，使用測試設定檔來測試您的旅程。 這可讓您分析個人在歷程中的流程，並在發佈前進行疑難排解。
 
-只有測試描述檔可以在測試模式中進入歷程。 您可以[建立新的測試描述檔](../building-journeys/testing-the-journey.md#create-test-profile)或[將現有的描述檔轉換為測試描述檔](../building-journeys/testing-the-journey.md#turning-profile-into-test)。
+只有測試描述檔可以在測試模式中進入歷程。 您可以建立新的測試描述檔，或將現有的描述檔轉換為測試描述檔。 請參閱此[節](../building-journeys/creating-test-profiles.md)。
 
 若要使用測試模式，請依照下列步驟進行：
 
@@ -56,7 +56,7 @@ ht-degree: 3%
 ## 重要附註 {#important_notes}
 
 * 提供一個介面，可將事件觸發至測試的歷程，但事件也可由第三方系統（例如Postman）傳送。
-* 只有在即時客戶個人檔案服務中標示為「測試個人檔案」的個人才能進入測試的歷程。 請參閱[本節](../building-journeys/testing-the-journey.md#create-test-profile)。
+* 只有在即時客戶個人檔案服務中標示為「測試個人檔案」的個人才能進入測試的歷程。 請參閱此[節](../building-journeys/creating-test-profiles.md)。
 * 測試模式僅適用於使用命名空間的草稿歷程。 測試模式需要檢查進入旅程的人員是否是測試配置檔案，因此必須能夠到達Adobe Experience Platform。
 * 在測試階段作業中，測試描述檔的最大數量可超過進入歷程的次數為100。
 * 當您停用測試模式時，它會佔用過去或目前已進入測試模式的所有人員的歷程。 也會清除報表。
