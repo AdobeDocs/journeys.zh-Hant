@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 建立測試設定檔
 description: '瞭解建立測試設定檔的相關資訊 '
 translation-type: tm+mt
-source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
+source-git-commit: ccfe8d4d3eb8bf59d6dfd14eeb9f02578a09776f
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 1%
+source-wordcount: '677'
+ht-degree: 2%
 
 ---
 
@@ -28,25 +28,25 @@ ht-degree: 1%
 
 首先，您需要&#x200B;**建立架構**。 請遵循下列步驟：
 
-1. 在Adobe Experience Platform，按一下左菜單中的&#x200B;**方案**。
+1. 在Adobe Experience Platform，按一下左菜單中的&#x200B;**[!UICONTROL Schemas]**。
    ![](../assets/test-profiles-0.png)
-1. 按一下右上角的&#x200B;**建立架構**，然後選擇架構類型，例如&#x200B;**XDM Individual Profile**。
+1. 按一下右上角的&#x200B;**[!UICONTROL Create schema]** ，然後選擇模式類型，例如&#x200B;**[!UICONTROL XDM Individual Profile]**。
    ![](../assets/test-profiles-1.png)
 1. 選擇方案的名稱。
-1. 在&#x200B;**Mixins**&#x200B;區段中，按一下&#x200B;**Add**。
+1. 在&#x200B;**[!UICONTROL Mixins]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
    ![](../assets/test-profiles-1-bis.png)
-1. 選擇適當的混音。 請務必新增&#x200B;**描述檔測試詳細資訊** mixin。 按一下「新增mixin **」。**
+1. 選擇適當的混音。 請務必新增&#x200B;**[!UICONTROL Profile test details]** mixin。 按一下 **[!UICONTROL Add mixin]**。
    ![](../assets/test-profiles-1-ter.png)
 混合的清單會顯示在架構概述畫面上。
 
    ![](../assets/test-profiles-2.png)
 1. 在欄位清單中，按一下您要定義為主要身分的欄位。
    ![](../assets/test-profiles-3.png)
-1. 在&#x200B;**欄位屬性**&#x200B;右面板中，檢查&#x200B;**Identity**&#x200B;和&#x200B;**主要識別**&#x200B;選項並選擇命名空間。 如果您希望主要身份是電子郵件地址，請選擇&#x200B;**Email**&#x200B;命名空間。 按一下&#x200B;**Apply**。
+1. 在&#x200B;**[!UICONTROL Field properties]**&#x200B;右面板中，檢查&#x200B;**[!UICONTROL Identity]**&#x200B;和&#x200B;**[!UICONTROL Primary Identity]**&#x200B;選項並選擇命名空間。 如果您希望主要身份是電子郵件地址，請選擇&#x200B;**[!UICONTROL Email]**&#x200B;命名空間。 按一下 **[!UICONTROL Apply]**。
    ![](../assets/test-profiles-4.png)
-1. 選擇方案並啟用&#x200B;**方案屬性**&#x200B;中的&#x200B;**Profile**選項。
+1. 選擇方案並啟用&#x200B;**[!UICONTROL Schema properties]**&#x200B;中的&#x200B;**[!UICONTROL Profile]**選項。
    ![](../assets/test-profiles-5.png)
-1. 按一下&#x200B;**保存**。
+1. 按一下 **[!UICONTROL Save]**。
 
 >[!NOTE]
 >
@@ -54,15 +54,15 @@ ht-degree: 1%
 
 然後，您需要&#x200B;**建立資料集**，以匯入描述檔。 請遵循下列步驟：
 
-1. 在Adobe Experience Platform，按一下左側功能表中的&#x200B;**Datasets**，然後按一下「建立資料集&#x200B;**」。**
+1. 在Adobe Experience Platform，按一下左菜單中的&#x200B;**[!UICONTROL Datasets]** ，然後按一下&#x200B;**[!UICONTROL Create dataset]**。
    ![](../assets/test-profiles-6.png)
-1. 選擇&#x200B;**從架構**建立資料集。
+1. 選擇&#x200B;**[!UICONTROL Create dataset from schema]**。
    ![](../assets/test-profiles-7.png)
-1. 選擇以前建立的模式，然後按一下&#x200B;**Next**。
+1. 選擇以前建立的模式，然後按一下&#x200B;**[!UICONTROL Next]**。
    ![](../assets/test-profiles-8.png)
-1. 選擇名稱，然後按一下&#x200B;**完成**。
+1. 選擇名稱，然後按一下&#x200B;**[!UICONTROL Finish]**。
    ![](../assets/test-profiles-9.png)
-1. 啟用&#x200B;**Profile**選項。
+1. 啟用&#x200B;**[!UICONTROL Profile]**選項。
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
@@ -79,17 +79,17 @@ ht-degree: 1%
 1. 每個描述檔新增一行，並填入每個欄位的值。
    ![](../assets/test-profiles-12.png)
 1. 將試算表儲存為csv檔案。 請確定逗號是用作分隔符號。
-1. 在Adobe Experience Platform，按一下左菜單中的&#x200B;**Workflows**。
+1. 在Adobe Experience Platform，按一下左菜單中的&#x200B;**[!UICONTROL Workflows]**。
    ![](../assets/test-profiles-14.png)
-1. 選擇&#x200B;**將CSV映射至XDM架構**，然後按一下&#x200B;**Launch**。
+1. 選擇&#x200B;**[!UICONTROL Map CSV to XDM schema]**，然後按一下&#x200B;**[!UICONTROL Launch]**。
    ![](../assets/test-profiles-16.png)
-1. 選擇要將配置檔案導入的資料集。 按一下&#x200B;**Next**。
+1. 選擇要將配置檔案導入的資料集。 按一下 **[!UICONTROL Next]**。
    ![](../assets/test-profiles-17.png)
-1. 按一下「選擇檔案&#x200B;**」，然後選取您的csv檔案。**&#x200B;上傳檔案時，按一下「下一步」。****
+1. 按一下&#x200B;**[!UICONTROL Choose files]**&#x200B;並選取您的csv檔案。 上傳檔案時，按一下&#x200B;**[!UICONTROL Next]**。
    ![](../assets/test-profiles-18.png)
-1. 將來源csv欄位對應至架構欄位，然後按一下「完成&#x200B;**」。**
+1. 將來源csv欄位對應至架構欄位，然後按一下&#x200B;**[!UICONTROL Finish]**。
    ![](../assets/test-profiles-19.png)
-1. 資料匯入開始。 狀態將從&#x200B;**Processing**&#x200B;移至&#x200B;**Success**。 按一下右上角的「預覽資料集」。****
+1. 資料匯入開始。 狀態將從&#x200B;**[!UICONTROL Processing]**&#x200B;移至&#x200B;**[!UICONTROL Success]**。 按一下右上方的&#x200B;**[!UICONTROL Preview data set]**。
    ![](../assets/test-profiles-20.png)
 1. 檢查測試設定檔是否已正確新增。
    ![](../assets/test-profiles-21.png)
