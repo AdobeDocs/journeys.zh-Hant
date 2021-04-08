@@ -6,9 +6,9 @@ title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 feature: Journeys
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
 ht-degree: 100%
 
@@ -141,7 +141,7 @@ ht-degree: 100%
          + [setHours](using/functions/functionsethours.md)
          + [setDays](using/functions/functionsetdays.md)
       + 清單 {#list}
-         + [distict](using/functions/functiondistinct.md)
+         + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
@@ -174,7 +174,7 @@ ht-degree: 100%
          + [substr](using/functions/functionsubstr.md)
          + [trim](using/functions/functiontrim.md)
          + [upper](using/functions/functionupper.md)
-         + [uid](using/functions/functionuuid.md)
+         + [uuid](using/functions/functionuuid.md)
 + 建立報表{#journey-reports}
    + [關於歷程報告](using/reporting/about-journey-reports.md)
    + [建立您的歷程報告](using/reporting/creating-your-journey-reports.md)
