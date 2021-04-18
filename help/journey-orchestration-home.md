@@ -3,18 +3,18 @@ keywords: Journeys；家庭；熱門主題
 product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration 產品文件
-topic: Premium
+description: Journey Orchestration 產品文件
 feature: Journeys
-role: 業務從業人員
-level: 初學者
-translation-type: ht
-source-git-commit: 784e4203b77673317c11ee767278c48dd10a5332
-workflow-type: ht
+role: Business Practitioner
+level: Beginner
+exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
+translation-type: tm+mt
+source-git-commit: cb32a21a7449b2a610f45c2098b564ba819061e2
+workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
 
 ---
-
 
 # 說明中心 {#journeys-documentation}
 
