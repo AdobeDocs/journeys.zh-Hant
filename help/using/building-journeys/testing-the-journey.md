@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: 測試歷程
 description: '瞭解歷程測試 '
 feature: Journeys
-role: 商務從業人員
-level: 中繼
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt

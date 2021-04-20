@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: 關於建立歷程
 description: 身為企業使用者，了解如何結合活動、協調和行銷活動，以構建歷程。
 feature: Journeys
-role: 商務從業人員
-level: 中繼
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: tm+mt

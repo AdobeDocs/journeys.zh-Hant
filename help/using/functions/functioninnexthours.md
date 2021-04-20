@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inNextHours
 description: 瞭解inNextHours的函式
-feature: 旅程
-role: 資料工程師
-level: 經驗豐富
+feature: Journeys
+role: Data Engineer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

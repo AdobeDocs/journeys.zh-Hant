@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: 變更屬性
 description: 瞭解如何變更屬性
 feature: Journeys
-role: 商務從業人員
-level: 中繼
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
 workflow-type: tm+mt

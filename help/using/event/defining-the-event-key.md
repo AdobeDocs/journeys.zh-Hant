@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 定義事件鍵
 description: 瞭解如何定義事件索引鍵
-feature: 旅程
-role: 業務從業人員
-level: 中級
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: 關於資料來源
 description: '瞭解如何設定資料來源 '
 feature: Journeys
-role: 業務從業人員
-level: 中級
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt

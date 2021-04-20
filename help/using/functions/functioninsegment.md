@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inSegment
 description: 瞭解inSegment的函式
-feature: 旅程
-role: 資料工程師
-level: 經驗豐富
+feature: Journeys
+role: Data Engineer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt

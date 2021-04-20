@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: 使用歷程設計器
 description: 進一步瞭解如何使用歷程設計人員
 feature: Journeys
-role: 商務從業人員
-level: 中繼
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt

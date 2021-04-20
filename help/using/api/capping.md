@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 設定API說明上限
 description: 進一步瞭解封閉API。
 products: journeys
-feature: 旅程
-role: 業務從業人員
-level: 中級
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: 結束歷程
 description: 瞭解如何終止旅程
 feature: Journeys
-role: 商務從業人員
-level: 中繼
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt

@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: 從一個歷程跳到另一個歷程
 description: 從一個歷程跳到另一個歷程
 feature: Journeys
-role: 商務從業人員
-level: 中繼
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt

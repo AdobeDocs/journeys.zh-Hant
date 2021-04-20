@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 區段資格事件
 description: 瞭解細分資格活動
-feature: 旅程
-role: 業務從業人員
-level: 中級
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt

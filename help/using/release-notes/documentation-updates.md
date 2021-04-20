@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: 文件更新
 description: 瞭解文件更新
 feature: Journeys
-role: 業務從業人員
-level: 初學者
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt

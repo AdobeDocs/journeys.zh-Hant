@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: 反應事件
 description: 瞭解反應事件
 feature: Journeys
-role: 商務從業人員
-level: 中繼
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt

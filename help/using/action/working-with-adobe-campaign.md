@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 使用 Adobe Campaign
 description: 瞭解Adobe Campaign行動
-feature: 旅程
-role: 業務從業人員
-level: 中級
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt

@@ -4,8 +4,8 @@ solution: Journey Orchestration
 title: 發行說明
 description: 瞭解發行說明
 feature: Journeys
-role: 業務從業人員
-level: 初學者
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
 workflow-type: tm+mt
