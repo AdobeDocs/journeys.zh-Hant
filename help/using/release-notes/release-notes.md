@@ -6,19 +6,25 @@ description: 瞭解發行說明
 feature: Journeys
 role: Business Practitioner
 level: Beginner
+exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
+source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
 workflow-type: tm+mt
-source-wordcount: '2438'
-ht-degree: 64%
+source-wordcount: '2479'
+ht-degree: 63%
 
 ---
-
 
 # 發行說明{#release-notes}
 
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱最新的[檔案更新](../release-notes/documentation-updates.md)。
+
+## 2021年4月發行{#april-2021-release}
+
+### 功能改善
+
+* 在測試模式的&#x200B;**事件設定**&#x200B;畫面中，現在會針對預期有列舉的欄位顯示下拉式清單。 只要選取其中一個可用值即可。 如此可避免在定義錯誤值時觸發事件時發生錯誤。
 
 ## 2021年3月發行{#march-2021-release}
 
