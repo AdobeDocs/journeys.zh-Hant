@@ -6,14 +6,14 @@ description: '瞭解歷程測試 '
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: be413905-0631-4229-a954-80a92651206d
 translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: cb90f764ae6ccc0dab9728899dafd266db89a4e7
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 3%
+source-wordcount: '1638'
+ht-degree: 2%
 
 ---
-
 
 # 測試歷程{#testing_the_journey}
 
@@ -133,6 +133,10 @@ curl -X POST \
 
 作為先決條件，您必須知道哪些描述檔在Adobe Experience Platform被標幟為測試描述檔。 事實上，測試模式僅允許在歷程中使用這些描述檔，而且事件必須包含ID。 預期的ID取決於事件設定。 例如，它可以是ECID或電子郵件地址。 此鍵的值需要添加到&#x200B;**配置檔案標識符**&#x200B;欄位中。
 
+>[!NOTE]
+>
+>會針對預期會執行列舉的欄位顯示下拉式清單。 只要選取其中一個可用值即可。
+
 如果您的歷程包含數個事件，請使用下拉式清單來選取事件。 然後，針對每個事件，設定傳遞的欄位和事件傳送的執行。 此介面可協助您在事件裝載中傳遞正確的資訊，並確保資訊類型正確無誤。 測試模式會儲存測試工作階段中使用的最後一個參數，以供日後使用。
 
 ![](../assets/journeytest4.png)
@@ -205,4 +209,3 @@ curl -X POST \
 如果體驗事件中未包含目標資料集，則會自動建立和命名這些資料集。 這就是為什麼我們今天看到&quot;自動為旅行者建立資料集&quot;。
 
 我們來源的命名會推動自動建立。 如果我們有多個事件，我們應該串連，並將其設為「Journey Orchestration測試事件——架構名稱」。 這會自動轉為「自動產生的Journey Orchestration測試事件資料集——架構名稱」。
-
