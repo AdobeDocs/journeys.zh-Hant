@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 9138bfb4c9f916a7e8df6183fb903c31ef582623
+source-git-commit: ae1179e0f9d4b1b3f2b004e4eadfd172637596ce
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 63%
@@ -24,7 +24,7 @@ ht-degree: 63%
 
 ### 功能改善
 
-* 在測試模式的&#x200B;**事件設定**&#x200B;畫面中，現在會針對預期有列舉的欄位顯示下拉式清單。 只要選取其中一個可用值即可。 如此可避免在定義錯誤值時觸發事件時發生錯誤。[顯示全文](../building-journeys/testing-the-journey.md#firing_events)
+* 在測試模式的&#x200B;**事件設定**&#x200B;畫面中，現在會針對預期有列舉的欄位顯示下拉式清單。 只要選取其中一個可用值即可。 如此可避免在定義錯誤值時觸發事件時發生錯誤。 [顯示全文](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2021年3月發行{#march-2021-release}
 
