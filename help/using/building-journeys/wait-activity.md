@@ -6,18 +6,18 @@ description: 瞭解等待活動
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 532e8db3fde8ec86714d0b45a1b2a6c9c54367fb
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 3%
+source-wordcount: '387'
+ht-degree: 4%
 
 ---
 
-
 # 等待活動{#section_rlm_nft_dgb}
 
-如果要在執行路徑中的下一個活動之前等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活動。 它可讓您定義執行下一個活動的時間。 有四個選項可供使用：
+如果要在執行路徑中的下一個活動之前等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活動。 它可讓您定義執行下一個活動的時間。 有三個選項可供使用：
 
 * [持續時間](#duration)
 * [固定日期](#fixed_date)
@@ -57,7 +57,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如：```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```，事件中的欄位格式為2016-08-12T09:46:06Z。
+>您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06Z。
 >
 >您的旅程屬性中預期會出現&#x200B;**時區**。 因此，今天無法從介面直接指向完全ISO-8601時間戳記混合時間與時區偏移，例如2016-08-12T09:46:06.982-05。 請參閱[本頁](../building-journeys/timezone-management.md)。
 
