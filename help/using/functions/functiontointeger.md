@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toInteger
-description: 瞭解函式toInteger
+description: 了解函式toInteger
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 3fcbf4dd-3ca5-4f4b-b774-af6ac3170768
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 8%
+source-wordcount: '71'
+ht-degree: 9%
 
 ---
 
-
 # toInteger {#toInteger}
 
-將參數值轉換為整數。
+將引數值轉換為整數。
 
 ## 類別
 
@@ -32,11 +30,11 @@ ht-degree: 8%
 | 參數 | 說明 |
 |--- |--- |
 | 字串 | 將字串值轉換為整數 |
-| dateTime | 將日期轉換為毫秒數（紀元毫秒） |
-| 小數點 | 通過刪除小數部分轉換為整數(例如：1.5變為1) |
-| 布林值 | 將布林值轉換為1（如果為true）,0（如果為false） |
+| dateTime | 將日期轉換為毫秒數（epoch毫秒） |
+| 小數 | 通過刪除小數部分將轉換為整數(示例：1.5變成1) |
+| 布林值 | 若為true，則將布林值轉換為1，若為false，則將0 |
 
-## 簽名和傳回類型
+## 簽名和返回類型
 
 `toInteger(<dateTime>)`
 
