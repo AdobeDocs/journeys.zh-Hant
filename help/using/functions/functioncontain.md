@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: contain
-description: 瞭解函式包含
+description: 了解函式包含
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: b38619ec-94b2-450f-916e-f2dccbdbf4c5
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '37'
+ht-degree: 16%
 
 ---
 
+# cont {#contain}
 
-# contain {#contain}
-
-檢查第二個參數字串是否包含在第一個參數字串中。
+檢查第二個引數字串是否包含在第一個引數字串中。
 
 ## 類別
 
@@ -31,7 +29,7 @@ String
 
 * 字串
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `contain(<string>,<string>)`
 
