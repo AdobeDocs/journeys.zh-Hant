@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: sort
-description: 瞭解函式排序
+description: 了解函式排序
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 11%
+source-wordcount: '105'
+ht-degree: 12%
 
 ---
 
+# 排序 {#sort}
 
-# sort {#sort}
-
-按自然順序對值清單進行排序。 第一個引數是值的清單，第二個是布林值，指出排序是遞增(true)或遞減(false)。
+以自然順序排序值清單。 第一個引數是值清單，第二個引數是布林值，指出排序是遞增(true)還是遞減(false)。
 
 ## 類別
 
@@ -40,7 +38,7 @@ ht-degree: 11%
 | 清單 | listDateTimeOnly |
 | 布林值 | 布林值 |
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `sort(<listInteger>,<boolean>)`
 
@@ -48,7 +46,7 @@ ht-degree: 11%
 
 `sort(<listDecimal>,<boolean>)`
 
-傳回小數位清單。
+傳回小數清單。
 
 `sort(<listString>,<boolean>)`
 
@@ -56,15 +54,15 @@ ht-degree: 11%
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-傳回不考慮時區的日期時間清單。
+返回不考慮時區的datetimes清單。
 
 `sort(<listDateTime>,<boolean>)`
 
-傳回datetimes清單。
+返回datetimes清單。
 
 `sort(<listBoolean>,<boolean>)`
 
-返回布爾值清單。
+傳回布林值清單。
 
 ## 範例
 
