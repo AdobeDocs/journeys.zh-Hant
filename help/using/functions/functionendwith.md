@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: endWith
-description: 瞭解函式endWith
+description: 了解函式endWith
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 6eee6057-1daf-4b9d-ae94-2b35843e3a49
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 13%
 
 ---
 
-
 # endWith {#endWith}
 
-如果第二個參數是第一個參數的尾碼，則返回true。
+如果第二個參數是第一個參數的尾碼，則傳回true。
 
 ## 類別
 
@@ -34,7 +32,7 @@ String
 | 字串 | 字串 |
 | 尾碼 | 字串 |
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `endWith(<string>,<string>)`
 
