@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: min
-description: 瞭解函式min
+description: 了解函式主要
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 7e13a08c-c51a-4d40-a3e2-ef70bd3edca5
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 5%
+source-wordcount: '89'
+ht-degree: 6%
 
 ---
 
-
 # min {#min}
 
-傳回一組運算式中的最小值，以清單或兩個運算式的形式提供。 忽略空值。
+傳回一組運算式中的最小值，以清單或兩個運算式的形式提供。 忽略Null值。
 
 ## 類別
 
@@ -36,11 +34,11 @@ ht-degree: 5%
 * listDateTimeOnly
 * 持續時間
 * 整數
-* 小數點
+* 小數
 * dateTime
 * dateTimeOnly
 
-## 簽名和傳回的類型
+## 簽名和返回的類型
 
 `min(<listDuration>)`
 
@@ -52,7 +50,7 @@ ht-degree: 5%
 
 `min(<listDateTimeOnly>)`
 
-返回不考慮時區的日期時間。
+返回日期時間，而不考慮時區。
 
 `min(<listDateTime>)`
 
@@ -76,7 +74,7 @@ ht-degree: 5%
 
 `min(<dateTimeOnly>,<dateTimeOnly>)`
 
-返回不考慮時區的日期時間。
+返回日期時間，而不考慮時區。
 
 `min(<integer>,<integer>)`
 
@@ -92,4 +90,4 @@ ht-degree: 5%
 
 `min([10,null,8])`
 
-返回8。
+傳回8。
