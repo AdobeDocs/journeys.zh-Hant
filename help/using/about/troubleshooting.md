@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 疑難排解
 description: 進一步瞭解疑難排解
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 97%
+source-wordcount: '1041'
+ht-degree: 98%
 
 ---
-
 
 # 疑難排解{#concept_nlv_bcv_2fb}
 
@@ -49,7 +47,7 @@ ht-degree: 97%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推播至 [!DNL Journey Orchestration]。事實上，[!DNL Journey Orchestration] 會仰賴 Adobe Experience Platform 的串流獲取 API。因此，若發生事件相關問題，您可參閱[本頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/streaming/troubleshooting.html)以取得串流擷取API疑難排解。
+不會直接將事件從來源推播至 [!DNL Journey Orchestration]。事實上，[!DNL Journey Orchestration] 會仰賴 Adobe Experience Platform 的串流獲取 API。因此，若是事件相關問題，您可以參閱[本頁](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/streaming/troubleshooting.html)以疑難排解串流獲取API。
 
 ## 檢查是否有人進入歷程{#section_x4v_zzs_dgb}
 
@@ -88,4 +86,3 @@ ht-degree: 97%
 * 交易傳訊已成功傳送訊息。在交易訊息的傳送日誌中，您可以檢視每個執行的狀態。您可以看到狀態是綠色、紅色，以及問題內容為何。業務使用者可以存取此畫面並將日誌傳送給管理員，以進行進一步的調查。
 
 若是透過自訂動作傳送訊息，在歷程測試期間唯一可以檢查的事項，就是自訂動作系統的呼叫是否會導致錯誤。如果呼叫與自訂動作相關聯的外部系統並未造成錯誤，但並未導致訊息傳送，則應在外部系統端進行一些調查。
-
