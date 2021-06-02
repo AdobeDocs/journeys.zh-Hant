@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: setDays
-description: 瞭解函式setDays
+description: 了解函式setDays
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '75'
+ht-degree: 8%
 
 ---
 
-
 # setDays {#setDays}
 
-僅設定日期時間或日期時間的日期。 例如，如果您想要等到當月的某一天，則可強制該天。
+僅設定日期時間或日期時間的日期。 例如，如果您想要等到當月的某一天，可以強制該天。
 
 ## 類別
 
@@ -33,9 +31,9 @@ ht-degree: 6%
 |--- |--- |
 | 日期時間 | dateTime |
 | 不考慮時區的日期時間 | dateTimeOnly |
-| 天 | 整數 |
+| 天數 | 整數 |
 
-## 簽名和傳回類型
+## 簽名和返回類型
 
 `setDays(<dateTime>,<days>)`
 
@@ -43,7 +41,7 @@ ht-degree: 6%
 
 `setDays(<dateTimeOnly>,<days>)`
 
-返回不考慮時區的日期時間。
+返回日期時間，而不考慮時區。
 
 ## 範例
 
