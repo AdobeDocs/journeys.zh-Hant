@@ -1,20 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: '外部資料來源 '
 description: '瞭解如何設定外部資料來源 '
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 98%
+source-wordcount: '1276'
+ht-degree: 99%
 
 ---
-
-
 
 # 外部資料來源 {#concept_t2s_kqt_52b}
 
@@ -56,7 +53,7 @@ ht-degree: 98%
 
    ![](../assets/journey27.png)
 
-1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。有關自定義身份驗證模式的詳細資訊，請參閱[本節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。 在我們的範例中，我們選擇：
+1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。有關自定義身份驗證模式的詳細資訊，請參閱[此部分](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。 在我們的範例中，我們選擇：
 
 
    * **[!UICONTROL Type]**：&quot;API key&quot;
