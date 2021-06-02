@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 開始使用
 description: 探索設定 Journey Orchestration 的主要步驟，並構建您的第一個歷程。
 feature: Journeys
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 91%
+source-wordcount: '323'
+ht-degree: 92%
 
 ---
 
-
 # 開始使用{#concept_y4b_4qt_52b}
 
-[!DNL Journey Orchestration] 中有兩種使用者，每一種都負責執行特定工作，他們分別是&#x200B;**技術使用者**&#x200B;和&#x200B;**業務使用者**。使用者存取權限可透過產品設定檔和權限進行管理。請參閱[本頁](../about/access-management.md)瞭解如何設定使用者存取權。
+[!DNL Journey Orchestration] 中有兩種使用者，每一種都負責執行特定工作，他們分別是&#x200B;**技術使用者**&#x200B;和&#x200B;**業務使用者**。使用者存取權限可透過產品設定檔和權限進行管理。請參閱[本頁面](../about/access-management.md)以了解如何設定使用者存取權。
 
 以下是設定和使用 [!DNL Journey Orchestration] 的主要步驟：
 
@@ -59,7 +57,7 @@ ht-degree: 91%
 
    您需要驗證並啟用歷程。此步驟由&#x200B;**業務使用者**&#x200B;執行。
 
-   如需詳細資訊，請參閱「測試歷程[」和「發佈歷程](../building-journeys/publishing-the-journey.md)」頁面。](../building-journeys/testing-the-journey.md)[
+   如需詳細資訊，請參閱頁面[測試歷程](../building-journeys/testing-the-journey.md)和[發佈歷程](../building-journeys/publishing-the-journey.md)。
 
    ![](../assets/journeyuc2_32bis.png)
 
@@ -70,4 +68,3 @@ ht-degree: 91%
    如需詳細資訊，請參閱[此頁面](../reporting/about-journey-reports.md)。
 
    ![](../assets/dynamic_report_journey_12.png)
-
