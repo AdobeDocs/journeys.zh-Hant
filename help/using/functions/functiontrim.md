@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: trim
-description: 瞭解函式修剪
+description: 了解函式修剪
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: e9adf8be-9c56-4b08-9857-578d0bb0ebb9
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 11%
+source-wordcount: '32'
+ht-degree: 15%
 
 ---
 
-
 # trim {#trim}
 
-刪除開始和結束空格。
+移除開始和結束空格。
 
 ## 類別
 
@@ -33,7 +31,7 @@ String
 |-----------|------------------|
 | 字串 | 字串 |
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `trim(<string>)`
 
@@ -43,4 +41,4 @@ String
 
 `trim(" Hello ")`
 
-返回&quot;Hello&quot;。
+傳回&quot;Hello&quot;。
