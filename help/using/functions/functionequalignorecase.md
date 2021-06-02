@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: equalWithIgnoreCase
-description: 瞭解equalWithIgnoreCase函式
+description: 了解equalWithIgnoreCase函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 9311c799-a4e6-47b3-9867-b09093d3a981
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '37'
+ht-degree: 16%
 
 ---
 
-
 # equalWithIgnoreCase {#equalWithIgnoreCase}
 
-將第一個引數字串與第二個引數字串進行比較，忽略大小寫考量。
+比較第一個引數字串與第二個引數字串，忽略大小寫考量事項。
 
 ## 類別
 
@@ -31,7 +29,7 @@ String
 
 * 字串
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `equalWithIgnoreCase(<string>,<string>)`
 
