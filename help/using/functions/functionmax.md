@@ -1,22 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: max
-description: 瞭解函式max
+description: 了解函式最大值
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 116713e0-7bbd-4150-8495-f87034eafb5f
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 5%
+source-wordcount: '89'
+ht-degree: 6%
 
 ---
 
 # max{#max}
 
-傳回一組運算式中的最大值，以清單或兩個運算式的形式提供。 忽略空值。
+傳回一組運算式中的最大值，以清單或兩個運算式的形式提供。 忽略Null值。
 
 ## 類別
 
@@ -35,11 +34,11 @@ ht-degree: 5%
 * listDateTimeOnly
 * 持續時間
 * 整數
-* 小數點
+* 小數
 * dateTime
 * dateTimeOnly
 
-## 簽名和傳回的類型
+## 簽名和返回的類型
 
 `max(<listDuration>)`
 
@@ -51,7 +50,7 @@ ht-degree: 5%
 
 `max(<listDateTimeOnly>)`
 
-返回不考慮時區的日期時間。
+返回日期時間，而不考慮時區。
 
 `max(<listDateTime>)`
 
@@ -75,7 +74,7 @@ ht-degree: 5%
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-返回不考慮時區的日期時間。
+返回日期時間，而不考慮時區。
 
 `max(<integer>,<integer>)`
 
