@@ -1,25 +1,23 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: in
-description: 瞭解
+description: 了解中的函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 12%
+source-wordcount: '112'
+ht-degree: 13%
 
 ---
 
-
 # in {#in}
 
-檢查清單中是否有第一個引數值。 檢查通過每個參數值上的「等於」來執行。 如果找到引數值，則返回true，否則返回false。
+檢查清單中是否有第一個引數值。 檢查是通過每個參數值的Equal來執行的。 若找到引數值，則傳回true，否則傳回false。
 
-`<expression>`的類型必須與清單項目匹配。 作為提醒，清單的項目類型必須彼此相符。
+`<expression>`的類型必須與清單的項目相符。 清單項目的類型（作為提醒）必須彼此匹配。
 
 ## 類別
 
@@ -48,7 +46,7 @@ ht-degree: 12%
 | 清單 | listDateTime |
 | 清單 | listDateTimeOnly |
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `in(<integer>,<listInteger>)`
 
