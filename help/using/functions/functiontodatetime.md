@@ -1,16 +1,15 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toDateTime
-description: 瞭解函式toDateTime
+description: 了解函式toDateTime
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 5%
+source-wordcount: '94'
+ht-degree: 6%
 
 ---
 
@@ -31,15 +30,15 @@ ht-degree: 5%
 | 參數 | 類型 |
 |-----------|------------------|
 | ISO-8601格式的日期時間 | 字串 |
-| 時區ID | 字串 |
+| 時區id | 字串 |
 | 無時區的日期時間 | dateTimeOnly |
-| 一個紀元的整數值（以毫秒為單位） | 整數 |
+| 以毫秒為單位的整數值 | 整數 |
 
 >[!NOTE]
 >
->時區ID必須是字串常數。 它不能是欄位引用或表達式。 有關資料類型的詳細資訊，請參閱[此頁](../expression/data-types.md)。
+>時區ID必須是字串常數。 它不能是欄位參考或運算式。 有關資料類型的詳細資訊，請參閱[本頁](../expression/data-types.md)。
 
-## 簽名和傳回的類型
+## 簽名和返回的類型
 
 `toDateTime(<string>)`
 
@@ -74,11 +73,11 @@ Return a datetime.
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-傳回2016-08-18T23:17:59.123Z
+返回2016-08-18T23:17:59.123Z
 
 `toDateTime(toDateTimeOnly("2016-08-18T23:17:59.123"),"UTC")`
 
-傳回2016-08-18T23:17:59.123Z
+返回2016-08-18T23:17:59.123Z
 
 `toDateTime(1560762190189)`
 
