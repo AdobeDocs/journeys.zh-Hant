@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: notEqualWithIgnoreCase
-description: 瞭解函式notEqualWithIgnoreCase
+description: 了解函式notEqualWithIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: d99601cf-2ba8-4150-afa7-df6b8af47bf6
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 
-
 # notEqualWithIgnoreCase {#notEqualWithIgnoreCase}
 
-檢查具有第二個參數字串的第一個參數字串是否不同，忽略大小寫注意事項。
+檢查包含第二個引數字串的第一個引數字串是否不同，忽略大小寫考量事項。
 
 ## 類別
 
@@ -31,7 +29,7 @@ String
 
 * 字串
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `notEqualWithIgnoreCase(<string>,<string>)`
 
