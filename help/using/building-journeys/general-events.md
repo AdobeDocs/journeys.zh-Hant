@@ -1,22 +1,20 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 一般事件
-description: 瞭解一般活動
+description: 了解一般事件
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 2951928b-baaa-47cd-8142-625bd4a33ecc
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 15%
+source-wordcount: '41'
+ht-degree: 19%
 
 ---
 
-
 # 一般事件 {#section_ofg_jss_dgb}
 
-對於此類型的事件，您只能添加標籤和說明。 無法編輯其餘的配置。 由技術使用者執行。 請參閱[本頁](../event/about-events.md)。
+對於此類型的事件，您只能新增標籤和說明。 無法編輯其餘的配置。 由技術使用者執行。 請參閱[本頁](../event/about-events.md)。
 
 ![](../assets/general-events.png)
