@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 關於進階運算式編輯器
 description: 瞭解如何建立進階運算式
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '542'
 ht-degree: 90%
 
 ---
-
 
 # 關於進階運算式編輯器 {#concept_uyj_trt_52b}
 
@@ -59,9 +57,9 @@ _進階運算式編輯器介面_
 在畫面左側，會顯示可用的欄位和函式：
 
 * **[!UICONTROL Events]**：從入站事件接收的其中一個欄位。顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。[顯示全文](../event/about-events.md)
-* **[!UICONTROL Segments]**:如果您已捨棄 **[!UICONTROL Segment qualification]** 事件，請選擇要在運算式中使用的區段。[顯示全文](../segment/using-a-segment.md)
+* **[!UICONTROL Segments]**:如果已捨棄事 **[!UICONTROL Segment qualification]** 件，請選擇要在運算式中使用的區段。[顯示全文](../segment/using-a-segment.md)
 * **[!UICONTROL Data Sources]**：從資料來源欄位群組中的可用欄位清單中選擇。[顯示全文](../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**:本節將特定個人檔案的歷程相關技術欄位重新分組。[顯示全文](../expression/journey-properties.md)
+* **[!UICONTROL Journey properties]**:本節會重新分組指定設定檔之歷程的相關技術欄位。[顯示全文](../expression/journey-properties.md)
 * **[!UICONTROL Functions]**：從可執行複雜篩選的內建函式清單中選擇。函式會依類別組織。[顯示全文](../expression/functions.md)
 
 ![](../assets/journey65.png)
@@ -76,7 +74,7 @@ _進階運算式編輯器介面_
 
 **使用進階運算式編輯器建立條件時，需要使用參數**
 
-如果您從外部資料來源中選取需要呼叫參數的欄位（請參閱[本頁](../datasource/external-data-sources.md)）。 例如，在天氣相關資料來源中，常用的參數為 &quot;city&quot;。因此，您必須選擇要取得此城市參數的位置。也可將函式套用至參數，以執行格式變更或串聯。
+如果您從外部資料來源選取欄位，需要呼叫參數（請參閱[此頁面](../datasource/external-data-sources.md)）。 例如，在天氣相關資料來源中，常用的參數為 &quot;city&quot;。因此，您必須選擇要取得此城市參數的位置。也可將函式套用至參數，以執行格式變更或串聯。
 
 ![](../assets/journeyuc2_19.png)
 
