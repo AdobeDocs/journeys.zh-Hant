@@ -1,31 +1,29 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 文件更新
 description: 瞭解文件更新
 feature: Journeys
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '803'
 ht-degree: 91%
 
 ---
-
 
 # 文件更新
 
 本頁面列出 [!DNL Journey Orchestration] 的所有文件更新。您也可以參閱[!DNL Journey Orchestration][發行說明](../release-notes/release-notes.md)。
 
-## 2021 年 3月 {#march-2021}
+## 2021 年 3 月 {#march-2021}
 
-* 我們詳細說明了在Adobe Experience Platform建立測試設定檔的完整程式。 [顯示全文](../building-journeys/creating-test-profiles.md)。
+* 我們已詳細說明在Adobe Experience Platform中建立測試設定檔的完整程式。 [顯示全文](../building-journeys/creating-test-profiles.md)。
 
 ## 2021 年 1 月 {#january-2021}
 
-* 新增在建立描述檔時觸發歷程的最佳實務。 [顯示全文](../about/limitations.md#journeys-limitation-profile-creation)。
+* 新增在建立設定檔時觸發歷程的最佳實務。 [顯示全文](../about/limitations.md#journeys-limitation-profile-creation)。
 
 ## 2020 年 10 月 {#october-2020}
 
@@ -33,8 +31,8 @@ ht-degree: 91%
 
 ## 2020 年 9 月{#september-2020}
 
-* 介面說明部分已更新，以反映新的&#x200B;**All selector**&#x200B;菜單。 [顯示全文](../about/user-interface.md)
-* 已新增非經常性區段型歷程新版本的附註。
+* 已更新介面說明區段，以反映新的&#x200B;**所有選取器**&#x200B;功能表。 [顯示全文](../about/user-interface.md)
+* 已新增非經常之區段型歷程新版本的附註。
 
 ## 2020 年 8 月{#august-2020}
 
