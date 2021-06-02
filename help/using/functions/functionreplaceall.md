@@ -1,25 +1,23 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: replaceAll
-description: 瞭解函式replaceAll
+description: 了解函式replaceAll
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 6%
+source-wordcount: '76'
+ht-degree: 7%
 
 ---
 
-
 # replaceAll {#replaceAll}
 
-以基本字串中的取代字串取代所有符合目標字串的發生次數。
+以基字串中的取代字串取代所有符合目標字串的發生次數。
 
-從字串開始到結束的取代，例如，在字串&quot;aaa&quot;中以&quot;b&quot;取代&quot;aa&quot;將產生&quot;ba&quot;，而非&quot;ab&quot;。
+替換從字串的開頭到結尾，例如，將字串&quot;aaa&quot;中的&quot;aa&quot;取代為&quot;b&quot;將產生&quot;ba&quot;而非&quot;ab&quot;。
 
 ## 類別
 
@@ -33,11 +31,11 @@ String
 
 | 參數 | 類型 |
 |-----------|--------------|
-| base | 字串 |
+| 基礎 | 字串 |
 | 目標 | 字串 |
-| 替換 | 字串 |
+| 更換 | 字串 |
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `replaceAll(<baseString>,<sourceString>,<replacementString>)`
 
@@ -47,4 +45,4 @@ String
 
 `replaceAll("Hello World", "l", "x")`
 
-傳回&quot;Hexxo Worxd&quot;。
+返回&quot;Hexxo Worxd&quot;。
