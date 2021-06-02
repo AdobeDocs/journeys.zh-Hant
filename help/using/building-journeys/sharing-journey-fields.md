@@ -1,45 +1,43 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 歷程欄位
 description: 歷程欄位
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 8%
+source-wordcount: '68'
+ht-degree: 10%
 
 ---
 
-
 # 歷程欄位 {#sharing-journey-fields}
 
-此混音會用於歷程模式（與journeyStepEvent相關）。 它包含下列欄位：
+此混合用於歷程結構（與journeyStepEvent相關）。 它包含下列欄位：
 
 ## journeyID
 
-主要旅程的ID。
+主要歷程的ID。
 
 類型：字串
 
 ## journeyVersionID
 
-歷程版本的ID。 此ID代表旅程的身分。
+歷程版本ID。 此id代表歷程的身分。
 
 類型：字串
 
 ## 名稱
 
-旅程的名稱。
+歷程的名稱。
 
 類型：字串
 
-## 描述
+## 說明
 
-旅程說明。
+歷程說明。
 
 類型：字串
 
