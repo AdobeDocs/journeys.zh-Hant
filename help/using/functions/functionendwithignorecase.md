@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: endWithIgnoreCase
-description: 瞭解函式endWithIgnoreCase
+description: 了解函式endWithIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 3d14fe82-e287-4474-8d78-10efbf55d338
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 5%
+source-wordcount: '49'
+ht-degree: 8%
 
 ---
 
-
 # endWithIgnoreCase {#endWithIgnoreCase}
 
-檢查第一個引數字串是否以特定字串（第二個引數字串）結尾，而不考慮大小寫。
+檢查第一個引數字串結尾是否為特定字串（第二個引數字串），不考慮大小寫。
 
 ## 類別
 
@@ -34,7 +32,7 @@ String
 | 字串 | 字串 |
 | 尾碼 | 字串 |
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `endWithIgnoreCase(<string>,<string>)`
 
