@@ -1,56 +1,54 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 使用進階運算式編輯器
 description: 瞭解如何建立進階運算式
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '495'
 ht-degree: 2%
 
 ---
 
-
 # 進階運算式範例
 
-「進階運算式」編輯器可用來建立條件，讓您在歷程中篩選使用者。 這些條件可讓您依時間、日期、位置、持續時間或購買或放棄購物車等動作來定位使用者，以便在歷程中重新定位使用者。
+進階運算式編輯器可用來建立條件，以便您篩選歷程中的使用者。 這些條件可讓您依時間、日期、位置、期間或購買或放棄購物車等動作來鎖定使用者，以便在歷程中重新鎖定使用者。
 
 >[!NOTE]
 >
 >事件以@開頭，資料來源以#開頭。
 
-## 建立體驗事件的條件
+## 在體驗事件上建立條件
 
-進階運算式編輯器是對時間系列執行查詢（例如購買清單或過去點按訊息）的強制性。 不能使用簡單編輯器執行此類查詢。
+進階運算式編輯器是強制性的，可對時間序列執行查詢，例如購買清單或以前對訊息的點按。 無法使用簡單編輯器執行此類查詢。
 
-體驗事件是從Adobe Experience Platform擷取，依時間順序排列，因此：
+體驗事件會以反向時間順序從Adobe Experience Platform擷取為集合，因此：
 
-* first函式將傳回最近的事件
-* 最後一個函式會傳回最舊的函式。
+* 第一個函式會傳回最近的事件
+* 最後一個函式將返回最舊的函式。
 
-例如，假設您想要定位在最近7天內放棄購物車的客戶，以便在客戶接近商店時傳送訊息，並針對他想要的商店商品提供優惠。
+例如，假設您想要鎖定在過去7天內放棄購物車的客戶，在客戶接近商店時傳送訊息，並針對他想要的商店項目提供優惠。
 
 **您需要建立下列條件：**
 
-首先，目標客戶是在過去7天內瀏覽線上商店但未完成訂單的客戶。
+首先，目標客戶瀏覽了線上商店，但未在過去7天內完成訂單。
 
 <!--**This expression looks for a specified value in a string value:**
 
 `In (“addToCart”, #{field reference from experience event})`-->
 
-**此運算式會尋找此使用者在過去7天內指定的所有事件：**
+**此運算式會尋找此使用者在過去7天中指定的所有事件：**
 
-然後，它會選取所有未轉換為completePurchase的購物車事件。
+接著，系統會選取所有未轉換為completePurchase的addtocart事件。
 
 >[!NOTE]
 >
 >若要快速插入運算式中的欄位，請連按兩下編輯器左側面板中的欄位。
 
-指定的時間戳記會當成日期時間值，第二個是天數。
+指定的時間戳記作為日期時間值，秒為天數。
 
 ```
         In( “addToCart”, #{ExperiencePlatformDataSource
@@ -72,17 +70,17 @@ ht-degree: 2%
 
 此運算式會傳回布林值。
 
-**現在，讓我們建立運算式檢查產品是否有存貨**
+**現在來建立運算式，檢查產品是否有存貨**
 
-* 在「庫存」中，此運算式會尋找產品的數量欄位，並指定其大於0。
+* 在「庫存」中，此運算式會尋找產品的數量欄位，並指定其應大於0。
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* 在右側，指定了必要值，在此，我們需要檢索儲存的位置，該位置是從事件&quot;ArricLumaStudio&quot;的位置映射的：
+* 在右側，需要指定必要值，在此處，我們需要檢索儲存區的位置，該位置是從事件「AmmirdLumaStudio」的位置映射的：
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* 然後使用函式`first`指定SKU，以擷取最近的「addToCart」互動：
+* 並指定SKU，使用函式`first`來擷取最新的「addToCart」互動：
 
    ```
        #{ExperiencePlatformDataSource
@@ -96,13 +94,13 @@ ht-degree: 2%
                        .SKU}
    ```
 
-從此，您可以在歷程中新增另一個途徑，瞭解產品何時不在商店，並透過參與選件傳送通知。 相應地配置消息並使用個性化資料增強消息目標。
+從那裡，您可以在歷程中新增產品不在商店時的其他路徑，並透過參與優惠方案傳送通知。 相應地設定訊息，並使用個人化資料來增強訊息目標。
 
 ## 使用進階運算式編輯器處理字串的範例
 
 **條件**
 
-此條件僅擷取在&quot;Arlington&quot;中觸發的地理事件：
+此條件僅會擷取「Arlington」中觸發的地理柵欄事件：
 
 ```
         @{GeofenceEntry
@@ -112,9 +110,9 @@ ht-degree: 2%
                     .name} == "Arlington"
 ```
 
-說明：這是嚴格的字串比較（區分大小寫），等同於使用`equal to`並勾選`Is sensitive`的簡單模式查詢。
+說明：這是嚴格的字串比較（區分大小寫），等同於簡單模式中使用`equal to`且已勾選`Is sensitive`的查詢。
 
-取消選中`Is sensitive`的同一查詢將在高級模式下生成以下表達式：
+取消勾選`Is sensitive`的相同查詢會在進階模式中產生下列運算式：
 
 ```
         equalIgnoreCase(@{GeofenceEntry
@@ -124,7 +122,7 @@ ht-degree: 2%
                         .name}, "Arlington")
 ```
 
-**實際操作**
+**在動作中**
 
 下列運算式可讓您在動作個人化欄位中定義CRM ID:
 
@@ -141,6 +139,6 @@ ht-degree: 2%
                          ))
 ```
 
-說明：此範例使用`substr`和`lastIndexOf`函式來移除大括弧，此大括弧會圍住隨行動應用程式啟動事件傳遞的CRM ID。
+說明：此範例使用`substr`和`lastIndexOf`函式來移除大括弧，此大括弧會包含隨行動應用程式啟動事件傳遞的CRM ID。
 
-如需如何使用進階運算式編輯器的詳細資訊，請觀賞此影片](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。[
+有關如何使用高級表達式編輯器的詳細資訊，請觀看[此視頻](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
