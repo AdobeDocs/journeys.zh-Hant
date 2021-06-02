@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
-title: distict
-description: 瞭解不同功能
+title: distinct
+description: 了解不同的函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 13%
+source-wordcount: '84'
+ht-degree: 15%
 
 ---
 
+# 不重複 {#distinct}
 
-# distict {#distinct}
-
-傳回不含空值之清單的不同值。
+返回清單的不同值，但不帶空值。
 
 ## 類別
 
@@ -39,7 +37,7 @@ ht-degree: 13%
 | 清單 | listDateTime |
 | 清單 | listDateTimeOnly |
 
-## 簽名和傳回的類型
+## 簽名和返回的類型
 
 `distinct(<listInteger>)`
 
@@ -47,7 +45,7 @@ ht-degree: 13%
 
 `distinct(<listDecimal>)`
 
-傳回小數位清單。
+傳回小數清單。
 
 `distinct(<listString>)`
 
@@ -55,15 +53,15 @@ ht-degree: 13%
 
 `distinct(<listDateTimeOnly>)`
 
-傳回不考慮時區的日期時間清單。
+返回不考慮時區的datetimes清單。
 
 `distinct(<listDateTime>)`
 
-傳回datetimes清單。
+返回datetimes清單。
 
 `distinct(<listBoolean>)`
 
-返回布爾值清單。
+傳回布林值清單。
 
 `distinct(<listDuration>)`
 
