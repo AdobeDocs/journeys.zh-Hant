@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 存取管理
 description: 進一步瞭解存取管理
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-translation-type: tm+mt
-source-git-commit: 2f824417d3e5357f0c015c40233296239ab8db5c
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 98%
@@ -42,7 +40,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]** 是唯一可在 Adobe Campaign Standard 中建立、編輯及發佈交易訊息（或訊息範本）的產品設定檔。如果您使用 Adobe Campaign Standard 在歷程中傳送訊息，則需要此產品設定檔。不應在「管理控制台」中重新命名。
+   >**[!UICONTROL Administrators]** 是唯一可在 Adobe Campaign Standard 中建立、編輯及發佈交易訊息（或訊息範本）的產品設定檔。如果您使用 Adobe Campaign Standard 在歷程中傳送訊息，則需要此產品設定檔。「管理控制台」中不應重新命名它。
 
 * **[!UICONTROL Standard User]**：具有基本存取權限的使用者，例如歷程管理。此產品設定檔包含下列權限：
    * 管理歷程
