@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toString
-description: 瞭解函式toString
+description: 了解函式toString
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 5%
+source-wordcount: '115'
+ht-degree: 6%
 
 ---
 
-
 # toString {#toString}
 
-根據參數值的類型將參數值轉換為字串值。 有關資料類型的詳細資訊，請參閱[此頁](../expression/data-types.md)。
+根據參數值的類型，將參數值轉換為字串值。 有關資料類型的詳細資訊，請參閱[本頁](../expression/data-types.md)。
 
 ## 類別
 
@@ -31,15 +29,15 @@ ht-degree: 5%
 
 | 參數 | 說明 |
 |--- |--- |
-| dateTime | 以UTC日期格式轉換日期 |
-| dateTimeOnly | 以UTC日期格式轉換日期 |
-| 持續時間 | 轉換為相應的毫秒數，作為字串 |
-| 時區 | 轉換為時區ID字串表示法(JODA ID) |
-| 整數 | 轉換為值的字串表示（1變為&quot;1&quot;） |
-| 小數點 | 轉換為值的字串表示法（1.5變成&quot;1.5&quot;） |
+| dateTime | 轉換UTC日期格式的日期 |
+| dateTimeOnly | 轉換UTC日期格式的日期 |
+| 持續時間 | 轉換為字串形式的對應毫秒數 |
+| 時區 | 轉換為時區id字串表示(JODA id) |
+| 整數 | 轉換為值的字串表示（1變成&quot;1&quot;） |
+| 小數 | 轉換為值的字串表示（1.5變成&quot;1.5&quot;） |
 | 布林值 | 若為true，則將布林值轉換為&#39;true&#39;；若為false，則將布林值轉換為&#39;false&#39; |
 
-## 簽名和傳回類型
+## 簽名和返回類型
 
 `toString(<dateTimeOnly>)`
 
