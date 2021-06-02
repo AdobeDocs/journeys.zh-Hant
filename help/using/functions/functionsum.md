@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: sum
-description: 瞭解函式總和
+description: 了解函式總和
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 04289d72-aade-4725-b1f5-47cf55e3a40b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 9%
+source-wordcount: '52'
+ht-degree: 11%
 
 ---
 
-
 # sum {#sum}
 
-傳回一組運算式的值總和。 忽略空值。
+傳回一組運算式的值之和。 忽略Null值。
 
 ## 類別
 
@@ -33,9 +31,9 @@ ht-degree: 9%
 * listDecimal
 * 持續時間
 * 整數
-* 小數點
+* 小數
 
-## 簽名和傳回的類型
+## 簽名和返回的類型
 
 `sum(<listDecimal>)`
 
@@ -59,7 +57,7 @@ ht-degree: 9%
 
 `sum([10,3,8])`
 
-返回21。
+傳回21。
 
 `sum([10.5,null,8.1])`
 
