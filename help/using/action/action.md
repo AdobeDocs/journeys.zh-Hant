@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 關於動作
 description: 瞭解如何設定動作
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 87%
+source-wordcount: '296'
+ht-degree: 89%
 
 ---
-
 
 # 關於動作 {#about_actions}
 
@@ -26,15 +24,15 @@ ht-degree: 87%
 
 自訂動作可讓您設定協力廠商系統的連線，以傳送訊息或 API 呼叫。您可以使用任何提供者提供的任何服務來設定動作，這些服務可透過具有 JSON 格式的裝載，透過 REST API 進行呼叫。
 
-這些動作會出現在您旅程的左側浮動視窗中，位於&#x200B;**[!UICONTROL Action]**&#x200B;類別中。 請參閱[本頁](../building-journeys/about-action-activities.md)。
+這些動作會顯示在您歷程的左側浮動視窗中，位於&#x200B;**[!UICONTROL Action]**&#x200B;類別中。 請參閱[本頁](../building-journeys/about-action-activities.md)。
 
 >[!NOTE]
 >
 >自訂動作的設定一律由&#x200B;**技術使用者**&#x200B;執行。
 
-在 **Actions** 清單中，您可以按下 C 鍵以建立新的歷程、動作、資料來源或事件。有關[!DNL Journey Orchestration]中快捷鍵的詳細資訊，請參閱[本節](../about/user-interface.md#section_ksq_zr1_ffb)。
+在 **Actions** 清單中，您可以按下 C 鍵以建立新的歷程、動作、資料來源或事件。有關[!DNL Journey Orchestration]中快捷方式的詳細資訊，請參閱[此部分](../about/user-interface.md#section_ksq_zr1_ffb)。
 
-若要檢查動作清單或要設定新動作，請按一下頂端功能表的 **[!UICONTROL Actions]**，畫面隨即顯示動作清單。有關介面的詳細資訊，請參見[本頁](../about/user-interface.md)。
+若要檢查動作清單或要設定新動作，請按一下頂端功能表的 **[!UICONTROL Actions]**，畫面隨即顯示動作清單。有關介面的詳細資訊，請參閱[此頁](../about/user-interface.md)。
 
 ![](../assets/custom1.png)
 
