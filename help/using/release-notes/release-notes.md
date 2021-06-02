@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 發行說明
 description: 瞭解發行說明
 feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-translation-type: tm+mt
-source-git-commit: ae1179e0f9d4b1b3f2b004e4eadfd172637596ce
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 63%
@@ -24,29 +22,29 @@ ht-degree: 63%
 
 ### 功能改善
 
-* 在測試模式的&#x200B;**事件設定**&#x200B;畫面中，現在會針對預期有列舉的欄位顯示下拉式清單。 只要選取其中一個可用值即可。 如此可避免在定義錯誤值時觸發事件時發生錯誤。 [顯示全文](../building-journeys/testing-the-journey.md#firing_events)
+* 在測試模式的&#x200B;**事件設定**&#x200B;畫面中，現在會針對預期列舉的欄位顯示下拉式清單。 只需選取任一可用值即可。 這可避免在定義錯誤值時觸發事件時發生錯誤。 [顯示全文](../building-journeys/testing-the-journey.md#firing_events)
 
-## 2021年3月發行{#march-2021-release}
+## 2021年3月發行版本{#march-2021-release}
 
 ### 功能改善
 
-* 已新增狀態至歷程。 當行程結束或手動關閉時，其狀態在關閉後30天從&#x200B;**Closed**&#x200B;切換為&#x200B;**Finished**。 這可讓您更輕鬆地識別非活動中的歷程，同時確保所有在場人員仍有時間完成歷程。 [顯示全文](../building-journeys/journey.md#ending_a_journey)
-* 在草稿歷程的活動右窗格中，唯讀欄位現在預設為隱藏。 此介面簡化可協助您更輕鬆地設定活動。 要顯示它們，請按一下活動配置窗格左上角的&#x200B;**顯示只讀欄位**&#x200B;表徵圖。 [顯示全文](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* 在測試模式中，在&#x200B;**事件設定**&#x200B;畫面中，用於定義測試描述檔ID的&#x200B;**Key**&#x200B;欄位已重新命名為&#x200B;**描述檔識別碼**，以提供更佳的使用體驗。 [顯示全文](../building-journeys/testing-the-journey.md)。
-* 對於反應事件，現在只能將逾時持續時間設定在40秒到30天之間。 在測試使用反應事件的歷程時，測試模式&#x200B;**[!UICONTROL Wait time]**&#x200B;預設值和最小值現在為40秒。 [顯示全文](../building-journeys/reaction-events.md)。
+* 歷程已新增狀態。 歷程結束或手動關閉時，其狀態會在關閉後30天從&#x200B;**Closed**&#x200B;切換為&#x200B;**Finished**。 這可讓您更輕鬆識別非作用中的歷程，同時確定仍有時間處理歷程。 [顯示全文](../building-journeys/journey.md#ending_a_journey)
+* 在草稿歷程的活動右窗格中，現在預設會隱藏唯讀欄位。 此介面簡化可協助您更輕鬆設定活動。 若要顯示，請按一下活動配置窗格左上角的&#x200B;**顯示只讀欄位**&#x200B;表徵圖。 [顯示全文](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* 在測試模式中，在&#x200B;**事件設定**&#x200B;畫面中，定義測試設定檔ID的&#x200B;**Key**&#x200B;欄位已重新命名&#x200B;**設定檔識別碼**，以提供更佳的使用者體驗。 [顯示全文](../building-journeys/testing-the-journey.md)。
+* 若是反應事件，逾時期間現在只能設定在40秒到30天之間。 測試使用反應事件的歷程時，測試模式&#x200B;**[!UICONTROL Wait time]**&#x200B;預設值和最小值現在為40秒。 [顯示全文](../building-journeys/reaction-events.md)。
 
-## 2021年2月發行{#february-2021-release}
+## 2021年2月發行版本{#february-2021-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>更新描述檔活動</strong><br/></th>
+<th><strong>更新設定檔活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>此新動作活動可讓您使用事件、資料來源或使用特定值所提供的資訊，更新現有的Adobe Experience Platform設定檔。</p>
+<p>此新動作活動可讓您使用來自事件、資料來源或使用特定值的資訊，更新現有的Adobe Experience Platform設定檔。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/update-profiles.md">相關的文件</a>，以瞭解詳情。</p>
 </td>
 </tr>
@@ -55,24 +53,24 @@ ht-degree: 63%
 
 ### 其他改善項目
 
-* 現在，在設定事件時，預設只會預先選取XDM驗證必填的欄位。 無法取消選取這些欄位。
-* 在歷程浮動視窗中，已新增濾鏡。 它可讓您只顯示使用的前5個事件和動作，以及現成可用的事件和動作。 這是每位使用者專屬的。 依預設會顯示所有項目。 [顯示全文](../building-journeys/using-the-journey-designer.md#palette)
-* 開始新歷程時，第一步無法放入畫布的元素現在會隱藏。 這與所有動作、條件活動、等待和反應有關。
-* 在進階運算式編輯器的左側，現在會在清單結尾的&#x200B;**Functions**&#x200B;區段下重新分組函式。
+* 現在，在設定事件時，預設只會預先選取XDM驗證必要的欄位。 無法取消選取這些欄位。
+* 在歷程浮動視窗中，已新增新的篩選器。 除了現成可用的事件和動作外，它還可讓您只顯示最後5個使用的事件和動作。 這是每個使用者專屬的。 依預設，會顯示所有項目。 [顯示全文](../building-journeys/using-the-journey-designer.md#palette)
+* 現在起始新歷程時，無法將第一個步驟放置在畫布中的元素會隱藏。 這與所有動作、條件活動、等待和反應有關。
+* 在進階運算式編輯器的左側，函式現在會重新分組在清單結尾的&#x200B;**Functions**&#x200B;區段下。
 
 ## 2021 年 1 月發行{#january-2021-release}
 
-在事件配置中選擇方案時，僅選擇Journey Orchestration正確接收事件的必填欄位。 [顯示全文](../event/defining-the-payload-fields.md)
+在事件配置中選擇架構時，僅選擇Journey Orchestration正確接收該事件的必需欄位。 [顯示全文](../event/defining-the-payload-fields.md)
 
-現在，簡單運算式編輯器中提供歷程屬性。 [顯示全文](../expression/journey-properties.md)
+簡單運算式編輯器現在提供歷程屬性。 [顯示全文](../expression/journey-properties.md)
 
-已新增兩個歷程屬性（sandboxName和organizationId）。 [顯示全文](../expression/journey-properties.md)
+已新增兩個新的歷程屬性屬性（sandboxName和organizationId）。 [顯示全文](../expression/journey-properties.md)
 
-為符合Adobe Campaign StandardSLA，現在在設定Adobe Campaign Standard整合後，會自動為Adobe Campaign Standard行動定義每秒13個呼叫的上限規則。 [顯示全文](../action/working-with-adobe-campaign.md)
+為了符合Adobe Campaign Standard SLA，現在當設定Adobe Campaign Standard整合時，會自動為Adobe Campaign Standard動作定義每秒13次呼叫的上限規則。 [顯示全文](../action/working-with-adobe-campaign.md)
 
-事件逾時持續時間現在在逾時路徑上已更清楚指定。 [顯示全文](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+事件逾時期間現在可在逾時路徑上更清楚指定。 [顯示全文](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-[getListItem](../functions/functiongetlistitem.md)和[split](../functions/functionsplit.md)函式已新增至進階運算式編輯器中可用的函式清單。 在字串計算使用案例中，這將提供更多可能。
+已將[getListItem](../functions/functiongetlistitem.md)和[split](../functions/functionsplit.md)函式新增至進階運算式編輯器中可用的函式清單。 這將在字串計算使用案例中提供更多可能性。
 
 ## 2020年11月發行{#november-release}
 
@@ -85,13 +83,13 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>新的動作活動可讓您將個人從一個歷程推送到另一個歷程。 <strong>Jump</strong>活動允許您：
+<p>新的動作活動可讓您將個人從一個歷程推送至另一個歷程。 <strong>Jump</strong>活動允許您：
 </p>
 <ul>
-<li>將複雜的旅程分割為數個旅程，以簡化複雜的旅程設計 </li>
+<li>將複雜的歷程分割為數個歷程，以簡化其設計 </li>
 <li>根據常見且可重複使用的歷程模式建立歷程</li>
 </ul>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/jump.md">詳細說明檔案</a>和<a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">教學課程影片</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/jump.md">詳細檔案</a>和<a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">教學課程影片</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -106,7 +104,7 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>在進階運算式編輯器中，我們在欄位和函式清單中新增了新類別。 這是系統從即時歷程擷取的資訊，例如歷程ID或遇到的特定錯誤。 這將為您提供更多建立旅程的可能性。 例如，您將能夠在條件或動作中遇到錯誤時提醒第三方系統。
+<p>在進階運算式編輯器中，我們已在欄位和函式清單中新增類別。 這是系統從即時歷程擷取的資訊，例如歷程ID或遇到的特定錯誤。 這可讓您在建立歷程時有更多機會。 例如，您將能夠在條件或動作中發生錯誤時，提醒協力廠商系統。
 </p>
 <p>如需詳細資訊，請參閱<a href="../expression/journey-properties.md">相關的文件</a>，以瞭解詳情。</p>
 </td>
@@ -123,7 +121,7 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>現在有了新方法，讓您更輕鬆地設定事件，毋需使用eventID:規則型事件會評估事件是否應根據條件觸發。 您仍然可以使用現有的方法，現在稱為「系統產生」。 這項功能已透過Alpha計畫在有限的客戶群中測試過，現在已提供測試版給所有客戶。
+<p>現在提供新方法，讓您更輕鬆地設定事件，而不需使用eventID:規則型事件會評估是否應根據條件觸發事件。 您仍可使用現有方法，現在稱為「系統產生」。 此功能已透過Alpha計畫在有限的客戶群中測試，現在已可供所有客戶測試。
 </p>
 </td>
 </tr>
@@ -132,9 +130,9 @@ ht-degree: 63%
 
 ### 其他改善項目
 
-建立歷程的新版本時已增加限制。 這些限制可避免在歷程中發生過大的變更，以維持版本間的一致性。 [顯示全文](../about/limitations.md#journey-versions-limitations)
+已新增建立歷程新版本時的限制。 這些限制可避免歷程中變更過猛，以保持版本之間的一致性。 [顯示全文](../about/limitations.md#journey-versions-limitations)
 
-**區段資格**&#x200B;活動無法再用於包含Campaign Standard訊息活動的旅程。 此限制可保護Adobe Campaign Standard實例的完整性。 事實上，「區段資格」的使用可能導致每日訊息傳送高峰，使Campaign Standard交易訊息過載。 [顯示全文](../about/limitations.md#segment-qualification)
+**區段資格**&#x200B;活動不再可用於包含Campaign Standard訊息活動的歷程中。 此限制可保護Adobe Campaign Standard執行個體的完整性。 事實上，使用區段資格可能會導致訊息傳送的每日高峰，而且會使Campaign Standard交易式訊息過載。 [顯示全文](../about/limitations.md#segment-qualification)
 
 ## 2020年10月發行{#october-release}
 
@@ -147,7 +145,7 @@ ht-degree: 63%
 <tbody>
 <tr>
 <td>
-<p>您現在可以設定事件的逾時，以便讓歷程僅在特定時間監聽事件。 您不再需要新增與事件路徑平行的「等待」活動來達成此目的。
+<p>您現在可以為事件設定逾時，以便讓歷程只在特定時間監聽事件。 您不再需要新增「等待」活動並行至事件路徑來達成此目的。
 </p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">相關的文件</a>，以瞭解詳情。</p>
 </td>
@@ -157,7 +155,7 @@ ht-degree: 63%
 
 ### 其他改善項目
 
-* 當您發佈新版歷程時，舊版會自動結束並切換至「已關閉」狀態。 [顯示全文](../building-journeys/journey-versions.md)
+* 當您發佈新版歷程時，舊版會自動結束並切換為「關閉」狀態。 [顯示全文](../building-journeys/journey-versions.md)
 
 ## 2020年9月發行{#september-release}
 
@@ -166,13 +164,13 @@ ht-degree: 63%
 <table>
 <thead>
 <tr>
-<th><strong>條件活動改進</strong><br/></th>
+<th><strong>條件活動改善</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>在歷程中新增條件時，您現在可以定義標籤。 如果您在旅程中使用數個條件，這可讓您更輕鬆地識別這些條件。
+<p>現在，將條件新增至歷程時，您可以定義標籤。 如果您在歷程中使用數個條件，這可讓您更輕鬆地識別這些條件。
 </p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/condition-activity.md#about_condition">相關的文件</a>，以瞭解詳情。</p>
 </td>
@@ -185,18 +183,18 @@ ht-degree: 63%
 <table>
 <thead>
 <tr>
-<th><strong>閱讀區段活動改進</strong><br/></th>
+<th><strong>閱讀區段活動改善</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>已對<strong>讀取段</strong>活動進行了以下改進：
+<p>已對<strong>讀取區段</strong>活動進行下列改良：
 </p>
 <ul>
-<li><p>以區段為基礎的歷程現在會在畫布上方顯示，提醒您歷程的排程類型。 您可以按一下此提醒以存取排程設定功能表。</p>
+<li><p>現在，畫布上方會顯示以區段為基礎的歷程，提醒歷程的排程類型。 您可以按一下此提醒以存取排程設定功能表。</p>
 </li>
-<li><p>測試模式記錄檔的精細度已改良，可顯示區段匯出進度狀態。</p>
+<li><p>測試模式記錄檔的粒度已改善，以顯示區段匯出進度狀態。</p>
 </li>
 </ul>
 </td>
