@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: startWith
-description: 瞭解函式startWith
+description: 了解函式startWith
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: bf0e75d6-cc7c-4a76-b215-8735eb62163b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 13%
 
 ---
 
-
 # startWith {#startWith}
 
-如果第二個參數是第一個參數的前置詞，則返回true。
+如果第二個參數是第一個參數的前置詞，則傳回true。
 
 ## 類別
 
@@ -34,7 +32,7 @@ String
 | 字串 | 字串 |
 | 前置詞 | 字串 |
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `startWith(<string>,<string>)`
 
