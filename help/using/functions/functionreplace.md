@@ -1,25 +1,23 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: replace
-description: 瞭解函式取代
+description: 了解函式取代
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 6%
+source-wordcount: '77'
+ht-degree: 7%
 
 ---
 
-
 # replace {#replace}
 
-用基本字串中的取代字串取代第一個符合目標字串的出現點。
+以基本字串中的取代字串取代與目標字串相符的第一個出現次數。
 
-從字串開始到結束的取代，例如，在字串&quot;aaa&quot;中以&quot;b&quot;取代&quot;aa&quot;將產生&quot;ba&quot;，而非&quot;ab&quot;。
+替換從字串的開頭到結尾，例如，將字串&quot;aaa&quot;中的&quot;aa&quot;取代為&quot;b&quot;將產生&quot;ba&quot;而非&quot;ab&quot;。
 
 ## 類別
 
@@ -33,11 +31,11 @@ String
 
 | 參數 | 類型 |
 |-----------|--------------|
-| base | 字串 |
+| 基礎 | 字串 |
 | 目標 | 字串 |
-| 替換 | 字串 |
+| 更換 | 字串 |
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `replace(<base>,<target>,<replacement>)`
 
@@ -47,4 +45,4 @@ String
 
 `replace("Hello World", "l", "x")`
 
-傳回&quot;Hexlo World&quot;。
+返回&quot;Hexlo World&quot;。
