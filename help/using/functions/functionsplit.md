@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: split
-description: 瞭解函式分割
+description: 了解函式分割
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 44499a09-19e2-4085-bf2f-7d9080ec382d
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '64'
+ht-degree: 9%
 
 ---
 
-
 # split {#split}
 
-使用分隔符串（第二個參數字串，可以是規則運算式）來分割第一個參數字串，以產生字串清單(Token)。
+使用分隔符字串（第二個引數字串，可以是規則運算式）來分割第一個引數字串，以產生字串清單（代號）。
 
 ## 類別
 
@@ -32,9 +30,9 @@ String
 | 參數 | 類型 |
 |-----------|------------------|
 | 輸入字串 | 字串 |
-| 分隔符字串 | 字串 |
+| 分隔字串 | 字串 |
 
-## 簽名和傳回類型
+## 簽名和返回類型
 
 `split(<input string>, <separator string>)`
 
@@ -46,7 +44,7 @@ String
 
 傳回`["A","B","C"]`
 
-事件欄位為event.appVersion的範例，其值為：&quot;20.45.2.3434&quot;
+事件欄位為「event.appVersion」且值為的範例：&quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
