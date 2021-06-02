@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: lastIndexOf
-description: 瞭解函式lastIndexOf
+description: 了解函式lastIndexOf
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: e82f3c45-e2f0-421a-be7e-c52e4badebbf
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 9%
+source-wordcount: '61'
+ht-degree: 11%
 
 ---
 
-
 # lastIndexOf {#lastIndexOf}
 
-傳回第二個參數最後一次出現的位置（在第一個參數中）。 如果沒有匹配，則返回-1。
+傳回第二個參數最後出現次數的位置（在第一個引數中）。 如果不匹配，則返回–1。
 
 ## 類別
 
@@ -34,7 +32,7 @@ String
 | 字串 | 字串 |
 | 指定值 | 字串 |
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `lastIndexOf(<string>,<string>)`
 
@@ -48,4 +46,4 @@ String
 
 說明：
 
-在&quot;Hello&quot;中，最後一次出現&quot;l&quot;是位置3。
+在&quot;Hello&quot;中，&quot;l&quot;的最後一個出現位置是3。
