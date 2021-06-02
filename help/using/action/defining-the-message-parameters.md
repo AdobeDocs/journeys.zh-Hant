@@ -1,33 +1,31 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 定義訊息參數
-description: 瞭解如何定義訊息參數
+description: 了解如何定義訊息參數
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 3%
+source-wordcount: '211'
+ht-degree: 4%
 
 ---
-
 
 # 定義訊息參數 {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 
-在&#x200B;**[!UICONTROL Message parameters]**&#x200B;區段中，貼上JSON裝載的範例以傳送至外部服務。
+在&#x200B;**[!UICONTROL Message parameters]**&#x200B;區段中，貼上要傳送至外部服務的JSON裝載範例。
 
 ![](../assets/customactionpayloadmessage.png)
 
-您可以定義參數類型(例如：字串、整數等)。
+您將能定義參數類型(例如：字串、整數等)。
 
-您也可以選擇指定參數是常數還是變數：
+您也可以選擇指定參數為常數或變數：
 
-* 常數表示參數的值由技術人員在動作配置窗格中定義。 各個旅程的值一律相同。 在歷程中使用自訂動作時，不會有任何變化，行銷人員也不會看到。 例如，可能是協力廠商系統所預期的ID。 在這種情況下，切換常數／變數右側的欄位是傳遞的值。
-* 變數表示參數的值會有所不同。 在歷程中使用此自訂動作的行銷人員可自由傳遞他想要的值，或指定擷取此參數值的位置(例如從事件、從Adobe Experience Platform等)。 在這種情況下，切換常數／變數右側的欄位是行銷人員在命名此參數的歷程中所看到的標籤。
+* 常數表示參數的值是由技術人員在動作設定窗格中定義。 歷程中的值一律相同。 此值不會有所不同，且行銷人員在歷程中使用自訂動作時不會看到。 例如可能是協力廠商系統預期的ID。 在此情況下，切換常數/變數右側的欄位即為傳遞的值。
+* 變數表示參數的值會有所不同。 在歷程中使用此自訂動作的行銷人員將可自由傳遞所需值，或指定要擷取此參數值的位置(例如從事件、從Adobe Experience Platform等)。 在此情況下，切換常數/變數右側的欄位，即為行銷人員在歷程中看到的用以命名此參數的標籤。
 
 ![](../assets/customactionpayloadmessage2.png)
