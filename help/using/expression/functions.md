@@ -1,31 +1,29 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 函式
-description: 瞭解函式
+description: 了解函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 71%
+source-wordcount: '168'
+ht-degree: 73%
 
 ---
 
-
 # 函式 {#concept_p1r_qj5_dgb}
 
-函式可以有不同的簽名（一組不同的有序參數）。 函式簽名可以具有0-N表達式作為有序參數。
+函式可以有不同的簽名（一組不同的有序參數）。 函式簽名可以有0-N個表達式作為有序參數。
 
-`<function name>`(`<expression as param 1>`,  `<expression as param 2>`, ......................................................................................,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`,  `<expression as param 2>`, ..., `<expression as param N>`)
 
 每個函式都有特定的傳回類型。
 
 以下是支援的函式清單。
 
-## 主要功能
+## 主要函式
 
 | 類別 | 函式 |
 |-------------|-----------------------|
@@ -59,7 +57,7 @@ ht-degree: 71%
 | 日期 | [nowWithDelta](../functions/functionnowwithdelta.md) |
 | 日期 | [setHours](../functions/functionsethours.md) |
 | 日期 | [setDays](../functions/functionsetdays.md) |
-| 清單 | [distict](../functions/functiondistinct.md) |
+| 清單 | [distinct](../functions/functiondistinct.md) |
 | 清單 | [distinctCount](../functions/functiondistinctcount.md) |
 | 清單 | [in](../functions/functionin.md) |
 | 清單 | [listSize](../functions/functionlistsize.md) |
@@ -88,4 +86,4 @@ ht-degree: 71%
 | 字串 | [substr](../functions/functionsubstr.md) |
 | 字串 | [trim](../functions/functiontrim.md) |
 | 字串 | [upper](../functions/functionupper.md) |
-| 字串 | [uid](../functions/functionuuid.md) |
+| 字串 | [uuid](../functions/functionuuid.md) |
