@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
-title: uid
-description: 瞭解函式uuid
+title: uuid
+description: 了解uuid函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 8105ea5c-c06b-4afa-baa5-41feddff8d0a
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '43'
+ht-degree: 13%
 
 ---
-
 
 # uid {#uuid}
 
@@ -31,7 +29,7 @@ String
 
 此函式不需要參數。
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `uuid()`
 
