@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toDecimal
-description: 瞭解Decimal函式
+description: 了解Decimal的函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 11d7013c-2190-4654-8466-920861c836f5
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 8%
+source-wordcount: '72'
+ht-degree: 9%
 
 ---
 
-
 # toDecimal {#toDecimal}
 
-根據參數值的類型將參數值轉換為小數值。
+根據參數值的類型，將參數值轉換為小數值。
 
 ## 類別
 
@@ -32,11 +30,11 @@ ht-degree: 8%
 | 參數 | 說明 |
 |--- |--- |
 | 字串 | 將字串值轉換為小數 |
-| dateTime | 將日期轉換為毫秒數（紀元毫秒） |
-| 布林值 | 將布林值轉換為1（如果為true）,0（如果為false） |
-| 整數 | 轉換為小數（示例）。:1變為1.0) |
+| dateTime | 將日期轉換為毫秒數（epoch毫秒） |
+| 布林值 | 若為true，則將布林值轉換為1，若為false，則將0 |
+| 整數 | 轉換為小數（範例）。:1變成1.0) |
 
-## 簽名和傳回的類型
+## 簽名和返回的類型
 
 `toDecimal(<integer>)`
 
@@ -52,4 +50,4 @@ ht-degree: 8%
 
 `toDecimal("4.0")`
 
-返回4.0。
+傳回4.0。
