@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: round
-description: 瞭解函式四捨五入
+description: 了解函式回合
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 16fe7c3a-8300-49d6-a3d6-a037fa1461f3
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 9%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
-
 # round {#round}
 
-將最接近的整數值傳回至引數，並將四捨五入至正無窮大。
+傳回引數的最接近整數值，並系結捨入至正無窮大。
 
 ## 類別
 
@@ -29,10 +27,10 @@ ht-degree: 9%
 
 ## 參數
 
-* 小數點
+* 小數
 * 整數
 
-## 簽名和傳回類型
+## 簽名和返回類型
 
 `round(<decimal>)`
 
@@ -52,7 +50,7 @@ ht-degree: 9%
 
 `round(-3.14)`
 
-返回-3。
+返回–3。
 
 `round(3)`
 
