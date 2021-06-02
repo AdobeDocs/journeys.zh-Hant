@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toDateTimeOnly
-description: 瞭解函式toDateTime
+description: 了解函式toDateTime
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 12%
 
 ---
 
-
 # toDateTimeOnly{#toDateTimeOnly}
 
-將參數值轉換為僅限日期時間的值。
+將引數值轉換為僅限日期時間的值。
 
 ## 類別
 
@@ -34,7 +32,7 @@ ht-degree: 9%
 | ISO-8601格式的日期時間 | 字串 |
 | 日期時間 | dateTime |
 
-## 簽名和傳回的類型
+## 簽名和返回的類型
 
 `toDateTimeOnly(<dateTime>)`
 
