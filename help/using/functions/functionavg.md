@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: avg
-description: 瞭解函式平均值
+description: 了解函式平均
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 6c9f3a5d-20b4-4c0a-b17f-5221f5db51be
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 9%
+source-wordcount: '50'
+ht-degree: 12%
 
 ---
 
-
 # avg {#avg}
 
-傳回一組運算式中的平均值，以清單或兩個運算式的形式提供。 忽略空值。
+傳回一組運算式中的平均值，以清單或兩個運算式的形式提供。 忽略Null值。
 
 
 ## 類別
@@ -34,10 +32,10 @@ ht-degree: 9%
 
 * listInteger
 * listDecimal
-* 小數點
+* 小數
 * 整數
 
-## 簽名和傳回類型
+## 簽名和返回類型
 
 `avg(<listInteger>)`
 
