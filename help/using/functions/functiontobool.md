@@ -1,26 +1,24 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toBool
-description: 瞭解Bool的函式
+description: 了解函式至Bool
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 490144c2-1ecd-4772-ab15-e23b1b7d8f0c
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '75'
+ht-degree: 8%
 
 ---
-
 
 # toBool {#toBool}
 
 根據參數值的類型，將參數值轉換為布爾值。
 
-* 從字串：嘗試將字串值轉換為布林值，如果字串值為&quot;true&quot;，則從&quot;true&quot;轉換為false
-* 從數值：如果數值不等於0，則為true；否則為false
+* 從字串：嘗試將字串值轉換為布林值（如果字串值為「true」，則從「true」），否則從false
+* 從數值：若數值不等於0，則為true；否則為false
 
 ## 類別
 
@@ -32,12 +30,12 @@ ht-degree: 6%
 
 ## 參數
 
-* 小數點
+* 小數
 * 布林值
 * 字串
 * 整數
 
-## 簽名和傳回的類型
+## 簽名和返回的類型
 
 `toBool(<decimal>)`
 
