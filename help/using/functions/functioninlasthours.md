@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inLastHours
-description: 瞭解inLastHours的函式
+description: 了解inLastHours的函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 9baeb836-e029-4e19-b08e-7b7b5f27ff8f
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 10%
+source-wordcount: '46'
+ht-degree: 13%
 
 ---
 
-
 # inLastHours {#inLastHours}
 
-如果指定的日期時間介於現在和現在之間——增量小時，則返回true。
+如果指定的日期時間介於現在和現在之間 — 差值小時，則傳回true。
 
 ## 類別
 
@@ -32,9 +30,9 @@ ht-degree: 10%
 | 參數 | 類型 |
 |-----------|------------------|
 | 日期時間 | dateTime |
-| δ | 整數 |
+| delta | 整數 |
 
-## 簽名和傳回類型
+## 簽名和返回類型
 
 `inLastHours(<dateTime>,<integer>)`
 
