@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 關於資料來源
 description: '瞭解如何設定資料來源 '
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '345'
 ht-degree: 81%
 
 ---
 
-
-# 關於資料來源{#concept_s1s_dqt_52b}
+# 關於資料來源 {#concept_s1s_dqt_52b}
 
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
@@ -48,11 +46,11 @@ ht-degree: 81%
 
 1. 在頂端功能表中，按一下 **[!UICONTROL Data Sources]** 索引標籤。
 
-   畫面隨即顯示資料來源。有關介面的詳細資訊，請參見[本頁](../about/user-interface.md)。
+   畫面隨即顯示資料來源。有關介面的詳細資訊，請參閱[此頁](../about/user-interface.md)。
 
    ![](../assets/journey18.png)
 
-1. 然後，您可以將欄位群組新增至內建資料來源（請參閱[本頁](../datasource/adobe-experience-platform-data-source.md)），或建立新的外部資料來源（請參閱[本頁](../datasource/external-data-sources.md)）和相關欄位群組（請參閱[本頁](../datasource/field-groups.md)）。
+1. 然後，您可以將欄位群組新增至內建的資料來源（請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)），或建立新的外部資料來源（請參閱[此頁面](../datasource/external-data-sources.md)）和相關的欄位群組（請參閱[此頁面](../datasource/field-groups.md)）。
 
    ![](../assets/journey23.png)
 
