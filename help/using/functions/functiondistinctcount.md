@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: distinctCount
-description: 瞭解函式distinctCount
+description: 了解函式distinctCount
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: b7844bce-1286-4d9e-b9e6-619c2d467c91
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 23%
+source-wordcount: '48'
+ht-degree: 27%
 
 ---
 
-
 # distinctCount{#distinctCount}
 
-計算忽略空值的不同值數。
+計算忽略空值的不同值的數量。
 
 ## 類別
 
@@ -39,7 +37,7 @@ ht-degree: 23%
 | 清單 | listDateTime |
 | 清單 | listDateTimeOnly |
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `distinctCount(<listAny>)`
 
@@ -49,4 +47,4 @@ ht-degree: 23%
 
 `distinctCount([10,2,10,null])`
 
-返回2。
+傳回2。
