@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: concat
-description: 瞭解函式概念
+description: 了解函式概念
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 7a516705-2bbe-4b42-97fc-aeae11082002
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '41'
+ht-degree: 17%
 
 ---
-
 
 # concat {#concat}
 
@@ -34,7 +32,7 @@ String
 | 清單 | listString |
 | 字串 | 字串 |
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `concat(<string>,<string>)`
 
@@ -46,7 +44,7 @@ String
 
 `concat("Hello","World")`
 
-傳回&quot;HelloWorld&quot;。
+返回&quot;HelloWorld&quot;。
 
 `concat(["Hello"," ","World"])`
 
