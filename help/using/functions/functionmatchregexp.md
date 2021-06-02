@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: matchRegExp
-description: 瞭解函式matchRegExp
+description: 了解函式matchRegExp
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 5%
+source-wordcount: '86'
+ht-degree: 6%
 
 ---
 
-
 # matchRegExp {#matchRegExp}
 
-如果第一個參數中的字串與第二個參數中的規則運算式相符，則傳回true。 如需詳細資訊，請參閱[本頁](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)。
+如果第一個參數中的字串符合第二個參數中的規則運算式，則傳回true。 如需詳細資訊，請參閱[此頁面](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)。
 
 ## 類別
 
@@ -34,7 +32,7 @@ String
 | 字串 | 字串 |
 | regexp | 字串 |
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `matchRegExp(<string>,<string>)`
 
@@ -48,4 +46,4 @@ String
 
 說明：
 
-在這裡，您可檢查字串是否滿足規則運算式（java語法）:開頭為&quot;Hello&quot;，然後是任何字串，結尾為&quot;World&quot;。
+在此，您可以檢查字串是否滿足規則運算式（java語法）:以&quot;Hello&quot;開頭，然後是任何類型的字串，結尾是&quot;World&quot;。
