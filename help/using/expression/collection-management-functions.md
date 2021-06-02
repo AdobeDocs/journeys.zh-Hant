@@ -1,25 +1,23 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 收集管理函式
-description: 瞭解收集管理功能中的資料類型
+description: 了解集合管理功能中的資料類型
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
 
-
 # 收集管理函式 {#collection-management-functions}
 
-運算式語言也提供一組函式來查詢系列。
+運算式語言也導入了一組函式來查詢集合。
 
-以下說明這些函式。 在下列範例中，讓我們使用包含系列的事件裝載：
+以下說明這些函式。 在下列範例中，我們將使用包含集合的事件裝載：
 
 ```
                 { 
@@ -61,37 +59,37 @@ ht-degree: 1%
 }
 ```
 
-**函式&quot;all(`<condition>`)&quot;**
+**函式「all(`<condition>`)」**
 
-**[!UICONTROL all]**&#x200B;函式可使用布林運算式來定義指定系列上的篩選器。
+**[!UICONTROL all]**&#x200B;函式可使用布林運算式來定義指定集合上的篩選器。
 
 ```
 <listExpression>.all(<condition>)
 ```
 
-例如，在所有應用程式使用者中，您都可以取得使用IOS 13的使用者（布林運算式&quot;app used == IOS 13&quot;）。 此函式的結果是包含與布爾表達式匹配的項目的篩選清單(例如：app user 1、app user 34、app user 432)。
+例如，在所有應用程式使用者中，您可以取得使用IOS 13的使用者(布林運算式「app used == IOS 13」)。 此函式的結果是篩選清單，其中包含符合布林運算式的項目(範例：應用程式使用者1、應用程式使用者34、應用程式使用者432)。
 
-在「資料源條件」活動中，您可以檢查&#x200B;**[!UICONTROL all]**&#x200B;函式的結果是否為空。 您也可以將此&#x200B;**[!UICONTROL all]**&#x200B;函式與其他函式（例如&#x200B;**[!UICONTROL count]**）結合。 如需詳細資訊，請參閱[資料來源條件活動](../building-journeys/condition-activity.md#data_source_condition)。
+在「資料源條件」活動中，您可以檢查&#x200B;**[!UICONTROL all]**&#x200B;函式的結果是否為Null。 您也可以將此&#x200B;**[!UICONTROL all]**&#x200B;函式與其他函式（例如&#x200B;**[!UICONTROL count]**）結合。 如需詳細資訊，請參閱[資料來源條件活動](../building-journeys/condition-activity.md#data_source_condition)。
 
 **範例1:**
 
-我們想檢查使用者是否已安裝特定版本的應用程式。 為此，我們會取得與版本為1.0的行動應用程式相關的所有推播通知Token。然後，我們使用&#x200B;**[!UICONTROL count]**&#x200B;函式執行條件，以檢查傳回的Token清單是否包含至少一個元素。
+我們想檢查使用者是否已安裝特定版本的應用程式。 為此，我們會取得與版本為1.0的行動應用程式相關聯的所有推播通知Token。然後，我們使用&#x200B;**[!UICONTROL count]**&#x200B;函式執行條件，以檢查傳回的Token清單是否至少包含一個元素。
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
 ```
 
-結果是正確的。
+結果為true。
 
 **範例2:**
 
-在這裡，我們使用&#x200B;**[!UICONTROL count]**&#x200B;函式來檢查系列中是否有推播通知Token。
+在此處，我們會使用&#x200B;**[!UICONTROL count]**&#x200B;函式來檢查集合中是否有推播通知Token。
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
 ```
 
-結果是正確的。
+結果為true。
 
 <!--Alternatively, you can check if there is no token in the collection:
 
@@ -118,7 +116,7 @@ earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->當&#x200B;**all()**&#x200B;函式中的篩選條件為空時，篩選器將返回清單中的所有元素。 **不過，為了計算系列的元素數目，並不需要所有函式。**
+>當&#x200B;**all()**&#x200B;函式中的篩選條件為空時，篩選器會傳回清單中的所有元素。 **不過，若要計算集合的元素數，不需要所有函式。**
 
 
 ```
@@ -129,7 +127,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 **範例3:**
 
-在此，我們會檢查過去24小時內是否有個人收到任何通訊。 我們會使用兩個基於系列兩個元素的運算式，來篩選從ExperiencePlatform資料來源擷取的體驗事件集合。 尤其是，事件的時間戳記會與&#x200B;**[!UICONTROL nowWithDelta]**&#x200B;函式傳回的dateTime進行比較。
+在此，我們會檢查過去24小時內個人是否未收到任何通訊。 我們會根據集合的兩個元素，使用兩個運算式來篩選從ExperiencePlatform資料來源擷取的體驗事件集合。 尤其是，事件的時間戳記會與&#x200B;**[!UICONTROL nowWithDelta]**&#x200B;函式傳回的dateTime進行比較。
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -137,11 +135,11 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
    currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
 ```
 
-如果沒有與兩個條件相符的體驗事件，則結果為true。
+如果沒有符合這兩個條件的體驗事件，則結果為true。
 
 **範例4:**
 
-在這裡，我們想檢查個人在過去7天中是否至少啟動過一次應用程式，例如觸發推播通知，邀請他開始教學課程。
+在此，我們想檢查個人是否在過去7天內至少啟動了一次應用程式，以便例如觸發推播通知並邀請他啟動教學課程。
 
 ```
 count(
@@ -169,14 +167,14 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** 僅在控制事件集合和currentDataPackField時 **可用**
->控制資料來源集合時。 當處理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**的系列時，我們
->逐個循環顯示系列的每個元素。 **[!UICONTROL currentEventField]** 和 **currentDataPackField**
->對應於所循環的元素。
+>**[!UICONTROL currentEventField]** 僅當操作事件集合和currentDataPackField時 **可用**
+>處理資料源集合時。 使用&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**處理集合時，我們
+>逐一循環在集合的每個元素上。 **[!UICONTROL currentEventField]** 和 **currentDataPackField**
+>對應於循環的元件。
 
 **函式&quot;first(`<condition>`)&quot;和&quot;last(`<condition>`)&quot;**
 
-**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**&#x200B;函式也可啟用系列中篩選器的定義，同時傳回符合篩選器的清單的第一個／最後一個元素。
+**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**&#x200B;函式也可在傳回符合篩選器之清單的第一個/最後一個元素時，啟用集合上的篩選器定義。
 
 _`<listExpression>.first(<condition>)`_
 
@@ -190,7 +188,7 @@ _`<listExpression>.last(<condition>)`_
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
 ```
 
-結果為&quot;token_1&quot;。
+結果為「token_1」。
 
 **範例2:**
 
@@ -200,28 +198,28 @@ _`<listExpression>.last(<condition>)`_
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
 ```
 
-結果是&quot;token_2&quot;。
+結果為「token_2」。
 
 >[!NOTE]
 >
->體驗事件是從Adobe Experience Platform擷取，依時間順序排列，因此：
+>體驗事件會以反向時間順序從Adobe Experience Platform擷取為集合，因此：
 >* **[!UICONTROL first]** 函式會傳回最近的事件
 >* **[!UICONTROL last]** 函式會傳回最舊的函式。
 
 
 **範例3:**
 
-我們會檢查DMA ID的第一個（最近）Adobe Analytics事件（非零值）是否有等於602的值。
+我們會檢查DMA ID的第一個（最近的）Adobe Analytics事件（值非零）是否有等於602的值。
 
 ```
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
 currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 ```
 
-**函式&quot;at(`<index>`)&quot;**
+**函式「at(`<index>`)」**
 
-**[!UICONTROL at]**函式可讓您根據索引參考系列中的特定元素。
-索引0是系列的第一個索引。
+**[!UICONTROL at]**函式可讓您根據索引參考集合中的特定元素。
+索引0是集合的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_
 
@@ -233,4 +231,4 @@ _`<listExpression>`.at(`<index>`)_
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
-結果是&quot;token_2&quot;。
+結果為「token_2」。
