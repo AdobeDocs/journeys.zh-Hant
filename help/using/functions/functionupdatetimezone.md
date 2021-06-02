@@ -1,20 +1,18 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: updateTimeZone
-description: 瞭解函式updateTimeZone
-translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+description: 了解函式updateTimeZone
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
 # updateTimeZone {#updateTimeZone}
 
-傳回新的日期時間，同時傳回新的時區。
+傳回新日期時間，並在同一時間內傳回新時區。
 
 ## 類別
 
@@ -26,10 +24,10 @@ ht-degree: 4%
 
 ## 參數
 
-* 時區ID:字串
+* 時區id:字串
 * dateTime
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `updateTimeZone(<dateTime>,<timeZone id>)`
 
