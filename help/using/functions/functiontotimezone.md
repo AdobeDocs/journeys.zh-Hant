@@ -1,13 +1,11 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toTimeZone
-description: 瞭解toTimeZone的函式
-translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+description: 了解toTimeZone的函式
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -28,9 +26,9 @@ ht-degree: 5%
 
 | 參數 | 說明 |
 |--- |--- |
-| 字串 | 字串值必須包含區域ID。 它可以是欄位參考或運算式 |
+| 字串 | 字串值必須包含區域ID。 可以是欄位參考或運算式 |
 
-## 簽名和傳回的類型
+## 簽名和返回的類型
 
 `toTimeZone(<string>)`
 
@@ -40,4 +38,4 @@ ht-degree: 5%
 
 `toTimeZone("UTC")`
 
-返回UTC。
+傳回UTC。
