@@ -1,31 +1,29 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
-title: 條件式指令（若，則為else）
-description: 瞭解條件式教學
+title: 條件式指令(if、then、else)
+description: 了解條件式指令
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 48fb4944-5b78-4ccd-9b9b-ffe0719e7c21
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 0%
+source-wordcount: '162'
+ht-degree: 1%
 
 ---
 
+# 條件式指令(if、then、else) {#section_cdz_lsk_w3b}
 
-# 條件式指令(if, then, else){#section_cdz_lsk_w3b}
-
-進階編輯器支援條件式指令（若然，則為else）。 它允許定義更複雜的表達式。 它由下列元素組成：
+進階編輯器支援條件式指令(if、then、else)。 它可定義更複雜的運算式。 它由下列元素組成：
 
 * **[!UICONTROL if]**:要先評估的條件。
-* **[!UICONTROL then]**:條件評估結果為真時要評估的表達式。
+* **[!UICONTROL then]**:條件評估結果為true時要評估的表達式。
 * **[!UICONTROL else]**:條件評估結果為false時要評估的表達式。
 
 >[!NOTE]
 >
->所有運算式的周圍都需要括弧。
+>所有運算式都需括弧。
 
 ```
 if  (<expression1>)
@@ -35,9 +33,9 @@ else
    (<expression3>)
 ```
 
-`<expression1>` 必須返回布 **林**。
+`<expression1>` 必須傳回布 **林值**。
 
-`<expression2>` 且 `<expression3>` 必須有相同的類型或相容類型。支援的簽名和傳回的類型包括：
+`<expression2>` 和 `<expression3>` 必須具有相同類型或相容類型。支援的簽名和返回的類型包括：
 
 ```
 boolean,boolean : boolean
@@ -58,9 +56,9 @@ listString,listString : listString
 
 **使用情況**
 
-條件式指令可讓您減少條件活動的數目，以最佳化歷程工作流程。 例如，在相同的動作活動中，您只能使用一個條件運算式，為欄位定義指定兩個替代項目。
+條件式指示可讓您減少條件活動的數量，以最佳化歷程工作流程。 例如，在相同的動作活動中，您只能使用一個條件運算式，為欄位定義指定兩個替代項目。
 
-動作活動的範例（對於需要字串作為條件式指令結果的欄位）:
+動作活動的範例（適用於預期條件指令結果之字串的欄位）:
 
 ```
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
