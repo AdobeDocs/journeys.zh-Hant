@@ -1,24 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 運算子
-description: 瞭解進階運算式中的運算元
+description: 了解進階運算式中的運算子
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 6%
 
 ---
 
-
-
 # 運算子 {#concept_wd5_pj5_dgb}
 
-運算子有兩種：一元運算子和二進位運算子。 有左手一元運算子和右手一元運算子。
+運算子有兩種：一元運算子和二進位運算子。 有左一元運算子和右一元運算子。
 
 ```
     // left-hand unary operators
@@ -37,7 +34,7 @@ ht-degree: 6%
 
 以下是支援的運算子清單：
 
-## 邏輯{#logical}
+## 邏輯  {#logical}
 
 ### 和
 
@@ -45,7 +42,7 @@ ht-degree: 6%
 <expression1> and <expression2>
 ```
 
-&lt;expression1>和&lt;expression2>都必須是布林值。 結果是布爾型的。
+&lt;expression1>和&lt;expression2>都必須是布林值。 結果為布林值。
 
 範例:
 
@@ -61,7 +58,7 @@ ht-degree: 6%
 <expression1> or <expression2>
 ```
 
-&lt;expression1>和&lt;expression2>都必須是布林值。 結果是布爾型的。
+&lt;expression1>和&lt;expression2>都必須是布林值。 結果為布林值。
 
 範例:
 
@@ -77,7 +74,7 @@ ht-degree: 6%
 not <expression>
 ```
 
-&lt;expression> 必須是布林值。結果是布爾型的。
+&lt;expression> 必須是布林值。結果為布林值。
 
 範例:
 
@@ -85,7 +82,7 @@ not <expression>
 not 3.15 < 1
 ```
 
-## 比較{#comparison}
+## 比較 {#comparison}
 
 ### 為null
 
@@ -95,7 +92,7 @@ not 3.15 < 1
 <expression> is null
 ```
 
-結果是布爾型的。
+結果為布林值。
 
 請注意，null表示運算式沒有評估值。
 
@@ -113,7 +110,7 @@ not 3.15 < 1
 <expression> is not null
 ```
 
-結果是布爾型的。
+結果為布林值。
 
 請注意，null表示運算式沒有評估值。
 
@@ -123,7 +120,7 @@ not 3.15 < 1
 @ is not null
 ```
 
-### 具有空值
+### 為null
 
 
 
@@ -131,9 +128,9 @@ not 3.15 < 1
 <expression> has null
 ```
 
-&lt;expression> 必須是清單。結果是布爾型的。
+&lt;expression> 必須是清單。結果為布林值。
 
-用於識別清單至少包含一個空值。
+用於識別清單至少包含一個null值。
 
 範例:
 
@@ -153,7 +150,7 @@ not 3.15 < 1
 <expression1> == <expression2>
 ```
 
-&lt;expression1>和&lt;expression2>必須具有相同的資料類型。 結果是布爾型的。
+&lt;expression1>和&lt;expression2>必須具有相同的資料類型。 結果為布林值。
 
 範例:
 
@@ -173,7 +170,7 @@ not 3.15 < 1
 <expression1> != <expression2>
 ```
 
-&lt;expression1>和&lt;expression2>必須具有相同的資料類型。 結果是布爾型的。
+&lt;expression1>和&lt;expression2>必須具有相同的資料類型。 結果為布林值。
 
 範例:
 
@@ -195,13 +192,13 @@ not 3.15 < 1
 
 可以將日期時間與日期時間進行比較。
 
-Datetimeonly可與Datetimeonly比較。
+Datetimeonly可與Datetimeonly進行比較。
 
 整數或小數都可與整數或小數進行比較。
 
-任何其他組合都禁止使用。
+禁止使用其他組合。
 
-結果是布爾型的。
+結果為布林值。
 
 範例:
 
@@ -219,13 +216,13 @@ Datetimeonly可與Datetimeonly比較。
 
 可以將日期時間與日期時間進行比較。
 
-Datetimeonly可與Datetimeonly比較。
+Datetimeonly可與Datetimeonly進行比較。
 
 整數或小數都可與整數或小數進行比較。
 
-任何其他組合都禁止使用。
+禁止使用其他組合。
 
-結果是布爾型的。
+結果為布林值。
 
 範例:
 
@@ -243,13 +240,13 @@ Datetimeonly可與Datetimeonly比較。
 
 可以將日期時間與日期時間進行比較。
 
-Datetimeonly可與Datetimeonly比較。
+Datetimeonly可與Datetimeonly進行比較。
 
 整數或小數都可與整數或小數進行比較。
 
-任何其他組合都禁止使用。
+禁止使用其他組合。
 
-結果是布爾型的。
+結果為布林值。
 
 範例:
 
@@ -267,13 +264,13 @@ Datetimeonly可與Datetimeonly比較。
 
 可以將日期時間與日期時間進行比較。
 
-Datetimeonly可與Datetimeonly比較。
+Datetimeonly可與Datetimeonly進行比較。
 
 整數或小數都可與整數或小數進行比較。
 
-任何其他組合都禁止使用。
+禁止使用其他組合。
 
-結果是布爾型的。
+結果為布林值。
 
 範例:
 
@@ -281,7 +278,7 @@ Datetimeonly可與Datetimeonly比較。
 42 <= 3.14
 ```
 
-## 算術{#arithmetic}
+## 算術 {#arithmetic}
 
 ### +
 
@@ -293,7 +290,7 @@ Datetimeonly可與Datetimeonly比較。
 
 這兩個運算式都必須是數值（整數或小數）。
 
-結果也是數值。
+結果也為數值。
 
 範例:
 
@@ -311,7 +308,7 @@ Datetimeonly可與Datetimeonly比較。
 
 這兩個運算式都必須是數值（整數或小數）。
 
-結果也是數值。
+結果也為數值。
 
 範例:
 
@@ -329,9 +326,9 @@ Datetimeonly可與Datetimeonly比較。
 
 這兩個運算式都必須是數值（整數或小數）。
 
-結果也是數值。
+結果也為數值。
 
-&lt;expression2> 不得等於0（返回0）。
+&lt;expression2> 不得等於0（傳回0）。
 
 範例:
 
@@ -349,7 +346,7 @@ Datetimeonly可與Datetimeonly比較。
 
 這兩個運算式都必須是數值（整數或小數）。
 
-結果也是數值。
+結果也為數值。
 
 範例:
 
@@ -367,7 +364,7 @@ Datetimeonly可與Datetimeonly比較。
 
 這兩個運算式都必須是數值（整數或小數）。
 
-結果也是數值。
+結果也為數值。
 
 範例:
 
@@ -377,7 +374,7 @@ Datetimeonly可與Datetimeonly比較。
 
 ## 數學 {#math}
 
-### 數值
+### 為數值
 
 
 
@@ -393,7 +390,7 @@ Datetimeonly可與Datetimeonly比較。
 @ is numeric
 ```
 
-### 整數
+### 為整數
 
 
 
@@ -409,7 +406,7 @@ Datetimeonly可與Datetimeonly比較。
 @ is integer
 ```
 
-### 小數點
+### 小數
 
 
 
@@ -417,7 +414,7 @@ Datetimeonly可與Datetimeonly比較。
 <expression> is decimal
 ```
 
-表達式的類型為十進位。
+運算式的類型為小數。
 
 範例:
 
@@ -441,7 +438,7 @@ Datetimeonly可與Datetimeonly比較。
 
 它串連兩個運算式。
 
-一個運算式必須是連結字串。
+一個表達式必須是鏈結字串。
 
 範例:
 
@@ -467,7 +464,7 @@ Datetimeonly可與Datetimeonly比較。
 <expression + <duration>
 ```
 
-將持續時間附加至dateTime、dateTimeOnly或duration。
+將持續時間附加至dateTime、dateTimeOnly或持續時間。
 
 範例:
 
