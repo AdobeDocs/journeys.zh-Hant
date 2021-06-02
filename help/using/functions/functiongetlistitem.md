@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: getListItem
-description: 瞭解gstListItem函式
+description: 了解函式gstListItem
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '98'
+ht-degree: 6%
 
 ---
 
-
 # getListItem {#gestListItem}
 
-傳回指定索引處的清單項目。
+返回給定索引處的清單項。
 
 ## 類別
 
@@ -40,7 +38,7 @@ ht-degree: 4%
 | 清單 | listDateTimeOnly |
 | 索引 | 整數 |
 
-## 簽名和傳回類型
+## 簽名和返回類型
 
 `getListItem(<listInteger>,<index>)`
 
@@ -48,7 +46,7 @@ ht-degree: 4%
 
 `getListItem(<listDecimal>,<index>)`
 
-傳回小數位清單。
+傳回小數清單。
 
 `getListItem(<listString>,<index>)`
 
@@ -56,15 +54,15 @@ ht-degree: 4%
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-傳回不考慮時區的日期時間清單。
+返回不考慮時區的datetimes清單。
 
 `getListItem(<listDateTime>,<index>)`
 
-傳回datetimes清單。
+返回datetimes清單。
 
 `getListItem(<listBoolean>,<index>)`
 
-返回布爾值清單。
+傳回布林值清單。
 
 `getListItem(<listDuration>,<index>)`
 
@@ -79,7 +77,7 @@ ht-degree: 4%
 `getListItem(["A", "B", "C"], 3)`
 傳回&quot;C&quot;
 
-事件欄位為event.appVersion的範例（含值）:&quot;20.45.2.3434&quot;
+事件欄位為「event.appVersion」且具有值的範例：&quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
