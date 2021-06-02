@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 使用者介面
 description: 深一步瞭解使用者介面
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 92%
+source-wordcount: '1011'
+ht-degree: 93%
 
 ---
-
 
 # 使用者介面{#concept_rcq_lqt_52b}
 
@@ -25,7 +23,7 @@ ht-degree: 92%
 
 ## 存取 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-要訪問[!DNL Journey Orchestration]的介面，請按一下右上角的&#x200B;**[!UICONTROL App Selector]**&#x200B;表徵圖，然後按一下&#x200B;**[!UICONTROL Journey Orchestration]**。
+若要存取[!DNL Journey Orchestration]的介面，請按一下右上方的&#x200B;**[!UICONTROL App Selector]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL Journey Orchestration]**。
 
 ![](../assets/journey1.png)
 
@@ -138,10 +136,9 @@ _在歷程的畫布中：_
 * 選取一或多個活動時，按下 **Delete** 或&#x200B;**空格鍵**&#x200B;以刪除，在確認快顯視窗中按下 **Enter** 以確認。
 * 在左側浮動視窗中，在活動上按兩下，以在第一個可用位置（從上到下）新增活動。
 
-_旅程：_
+_在歷程中：_
 
-* 按&#x200B;**T**&#x200B;啟用／停用測試模式。
-* 在測試模式中的事件型歷程中，按&#x200B;**E**&#x200B;觸發事件。
-* 在以區段為基礎的歷程中，當在測試模式中選取「每時&#x200B;**單一描述檔」選項時，按** P **以觸發事件。**
-* 在測試模式下，按&#x200B;**L**&#x200B;以顯示日誌。
-
+* 按&#x200B;**T**&#x200B;以啟用/停用測試模式。
+* 在測試模式中的事件型歷程中，按下&#x200B;**E**&#x200B;以觸發事件。
+* 在以區段為基礎的歷程中，當在測試模式中選取「一次&#x200B;**單一設定檔**」選項時，按下&#x200B;**P**&#x200B;以觸發事件。
+* 在測試模式中，按&#x200B;**L**&#x200B;以顯示日誌。
