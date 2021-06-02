@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: countWithNull
-description: 瞭解函式countWithNull
+description: 了解函式countWithNull
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: ea72dc20-8183-4661-8e08-ddb4f3727d3d
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 23%
+source-wordcount: '48'
+ht-degree: 27%
 
 ---
-
 
 # countWithNull {#countWithNull}
 
@@ -39,7 +37,7 @@ ht-degree: 23%
 | 清單 | listDateTime |
 | 清單 | listDateTimeOnly |
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `countWithNull(<listAny>)`
 
