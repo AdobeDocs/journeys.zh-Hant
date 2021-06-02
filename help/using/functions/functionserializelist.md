@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: serializeList
-description: 瞭解函式serializeList
+description: 了解函式serializeList
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 15%
+source-wordcount: '87'
+ht-degree: 17%
 
 ---
 
-
 # serializeList {#serializeList}
 
-將第一個參數中給定的清單（任何類型）轉換為字串。 第二個參數代表要使用的分隔符號。 第三個參數是布林值，指出運算式的每個元素是否應包含引號。
+將第一個參數中指定的清單（任何類型）轉換為字串。 第二個參數代表要使用的分隔符號。 第三個參數是布林值，指出運算式的每個元素是否應包含引號。
 
 ## 類別
 
@@ -42,7 +40,7 @@ ht-degree: 15%
 | 清單 | listDateTime |
 | 清單 | listDateTimeOnly |
 
-## 簽名和傳回的類型
+## 簽名和返回類型
 
 `serializeList(<listInteger>,<string>,<boolean>)`
 
