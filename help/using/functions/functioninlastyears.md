@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inLastYears
-description: 瞭解LastYears中的功能
+description: 了解LastYears中的功能
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 95ca3d7d-2340-4378-9af4-aa1188bed614
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '45'
+ht-degree: 13%
 
 ---
 
-
 # inLastYears {#inLastYears}
 
-如果指定的date或dateTime介於現在和現在- delta年，則傳回true。
+如果指定的date或dateTime介於現在和現在之間 — 差值年，則返回true。
 
 ## 類別
 
@@ -32,9 +30,9 @@ ht-degree: 10%
 | 參數 | 類型 |
 |-----------|------------------|
 | 日期時間 | dateTime |
-| δ | 整數 |
+| delta | 整數 |
 
-## 簽名和傳回類型
+## 簽名和返回類型
 
 `inLastYears(<dateTime>,<integer>)`
 
