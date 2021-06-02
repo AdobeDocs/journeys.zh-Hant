@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inNextYears
-description: 瞭解NextYears中的功能
+description: 了解NextYears中的功能
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 8aab6f60-feba-4be2-9a32-ba4ed7f3d7de
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '45'
+ht-degree: 13%
 
 ---
 
-
 # inNextYears {#inNextYears}
 
-如果指定的date或dateTime介於現在和現在+ delta年間，則傳回true。
+如果指定的date或dateTime介於現在和現在+ delta年之間，則返回true。
 
 ## 類別
 
@@ -32,9 +30,9 @@ ht-degree: 10%
 | 參數 | 類型 |
 |-----------|------------------|
 | 日期時間 | dateTime |
-| δ | 整數 |
+| delta | 整數 |
 
-## 簽名和傳回類型
+## 簽名和返回類型
 
 `inNextYears(<dateTime>,<integer>)`
 
