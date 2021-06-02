@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: now
-description: 立即瞭解此函式
+description: 立即了解函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: ab1f9efe-cbb7-4e3a-ace0-24f2fb6165cb
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 11%
+source-wordcount: '50'
+ht-degree: 14%
 
 ---
 
-
 # now {#now}
 
-以日期時間格式傳回目前日期。 有關資料類型的詳細資訊，請參閱[此頁](../expression/data-types.md)。
+以日期時間格式傳回目前日期。 有關資料類型的詳細資訊，請參閱[本頁](../expression/data-types.md)。
 
 ## 類別
 
@@ -33,7 +31,7 @@ ht-degree: 11%
 |--- |--- |
 | 字串 |  |
 
-## 簽名和傳回類型
+## 簽名和返回類型
 
 `now()`
 
@@ -49,7 +47,7 @@ ht-degree: 11%
 
 `toString(now())`
 
-傳回&quot;2019-06-03T06:30Z&quot;
+傳回「2019-06-03T06:30Z」
 
 `now("Europe/Paris")`
 
