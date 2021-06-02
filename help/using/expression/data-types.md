@@ -1,27 +1,25 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 資料類型
-description: 瞭解進階運算式中的資料類型
+description: 了解進階運算式中的資料類型
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 4%
+source-wordcount: '559'
+ht-degree: 5%
 
 ---
 
-
 # 資料類型 {#concept_gp3_rj5_dgb}
 
-從技術上講，常數一律包含資料類型。 在常值運算式中，我們只指定值。 您可從值（例如字串、整數、小數等）推斷資料類型。 對於特定情況（例如日期時間），我們使用專屬函式來表示。
+技術上，常數一律包含資料類型。 在常值運算式中，我們只指定值。 資料類型可從值推斷（例如字串、整數、小數等）。 對於日期時間等特定案例，我們會使用專屬函式來表示。
 
-以下各節提供不同資料類型運算式的相關資訊，以及其表示方式。
+以下各節提供不同資料類型運算式的相關資訊，以及其呈現方式。
 
-## 字串{#string}
+## 字串 {#string}
 
 **說明**
 
@@ -31,7 +29,7 @@ JSON格式：字串
 
 序列化格式：UTF-8
 
-**常值表示法**
+**常值表示**
 
 ```
 "<value>"
@@ -51,15 +49,15 @@ JSON格式：字串
 'hello world'
 ```
 
-## 整數{#integer}
+## 整數 {#integer}
 
 **說明**
 
-從-2^63到2^63-1的整數值。
+從–2^63到2^63-1的整數值。
 
 JSON格式：數字
 
-**常值表示法**
+**常值表示**
 
 ```
 <integer value>
@@ -71,21 +69,21 @@ JSON格式：數字
 42
 ```
 
-## 小數{#decimal}
+## 小數 {#decimal}
 
 **說明**
 
-小數。 它代表浮動值：
+小數位數。 其代表浮動值：
 
-* (2-2^-52)x2^1023型雙的最大正有限值
-* 雙型，2-1022的最小正常值
+* 雙型最大正有限值，(2-2^-52)x2^1023
+* 雙型最小正常值，2-1022
 * 雙型最小正非零值，2 p-1074
 
 JSON格式：數字
 
-序列化格式：使用&#39;.&#39; 作為小數分隔符。
+序列化格式：使用「。」 作為小數分隔符號。
 
-**常值表示法**
+**常值表示**
 
 ```
 <integer value>.<integer value>
@@ -97,15 +95,15 @@ JSON格式：數字
 3.14
 ```
 
-## 布林值{#boolean}
+## 布林值 {#boolean}
 
 **說明**
 
-寫成小寫的布爾值：true或false
+寫入為小寫的布爾值：true或false
 
 JSON格式：布林值
 
-**常值表示法**
+**常值表示**
 
 ```
 true
@@ -125,17 +123,17 @@ true
 
 **說明**
 
-表示沒有時區的日期時間，視為年月日每小時每分鐘毫秒。
+表示沒有時區的日期時間，視為年月日、小時、分鐘、毫秒。
 
-它不儲存或表示時區。 相反，它是日期的描述，如生日所用，加上牆鐘上的當地時間。
+不會儲存或代表時區。 相反，它是日期的描述（用於生日），與掛鐘上顯示的當地時間相結合。
 
-如果沒有額外的資訊（例如偏移或時區），則無法在時線上顯示即時。
+若沒有額外資訊（例如位移或時區），則無法呈現時間線上的即時。
 
-序列化格式：ISO-8601延伸偏移日期——時間格式。
+序列化格式：ISO-8601延長偏移日期時間格式。
 
-它使用DateTimeFormatter ISO_LOCAL_DATE_TIME來反序列化值。 [進一步了解](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化值。 [瞭解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
-**常值表示法**
+**常值表示**
 
 ```
 toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
@@ -145,23 +143,23 @@ toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")
 
 **說明**
 
-也會考慮時區的日期時間常數。 它表示與UTC偏移的日期時間。
+也會考量時區的日期時間常數。 它表示日期時間，與UTC的偏移。
 
-它可與偏移的額外資訊即時檢視。 這是在世界某個地方代表一個特定「時刻」的一種方式。
+它可以及時地視為即時，並包含偏移的其他資訊。 這是一種在世界某個地方代表一個特定「時刻」的方式。
 
 JSON格式：字串。
 
 它必須封裝在toDateTime函式中。
 
-序列化格式：ISO-8601延伸偏移日期——時間格式。
+序列化格式：ISO-8601延長偏移日期時間格式。
 
-它使用DateTimeFormatter ISO_OFFSET_DATE_TIME來反序列化值。 [進一步了解](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+它使用DateTimeFormatter ISO_OFFSET_DATE_TIME反序列化和序列化值。 [瞭解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-您也可以傳遞一個傳遞紀元值的整數。 [顯示全文](https://www.epochconverter.com)
+您也可以傳遞一個傳遞Epoch值的整數。 [顯示全文](https://www.epochconverter.com)
 
-時區可由偏移或時區代碼指定(例如：歐洲／巴黎， Z —— 意為UTC)。
+時區可由偏移或時區代碼指定(範例：歐洲/巴黎，Z — 表示UTC)。
 
-**常值表示法**
+**常值表示**
 
 ```
 toDateTime("<dateTime in ISO-8601 format>")
@@ -197,23 +195,23 @@ toDateTime("2011-12-03T15:15:30.123-00:20")
 toDateTime(1560762190189)
 ```
 
-## 持續時間{#duration}
+## 持續時間 {#duration}
 
 **說明**
 
-它代表以時間為基礎的時間量，例如&#39;34.5秒&#39;。 它以毫秒為單位來模擬量或時間量。
+它代表以時間為基礎的時間量，例如「34.5秒」。 它以毫秒為單位來建模數量或時間量。
 
-支援的臨時單元包括：毫秒、秒、分鐘、小時、日等於24小時的天數。 年份和月份不受支援，因為它們不是固定的時間。
+支援的臨時單元包括：毫秒、秒、分鐘、小時，一天等於24小時的天。 年份和月不受支援，因為它們不是固定的時間。
 
 JSON格式：字串。
 
 它必須封裝在toDuration函式中。
 
-序列化格式：若要反序列化時區ID，它會使用java函式java.time。
+序列化格式：若要反序列化時區ID，會使用java函式java.time。
 
-Duration.parse:接受的格式基於ISO-8601持續時間格式PnDTnHnMn.nS，其天數被認為恰好為24小時。 [進一步了解](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse:接受的格式基於ISO-8601持續時間格式PnDTnHnMn.nS，天數被認為恰好為24小時。 [瞭解更多](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
-**常值表示法**
+**常值表示**
 
 ```
 toDuration("<duration in ISO-8601 format>")
@@ -265,15 +263,15 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## 清單{#list}
+## 清單 {#list}
 
 **說明**
 
-使用方括弧作為分隔字元的運算式清單（以逗號分隔）。
+以逗號分隔的運算式清單，以方括弧作為分隔字元。
 
-不支援多態性，因此清單中包含的所有表達式都應具有相同的類型。
+不支援多態性，因此清單中包含的所有運算式都應具有相同類型。
 
-**常值表示法**
+**常值表示**
 
 ```
 [<expression>, <expression>, ... ]
