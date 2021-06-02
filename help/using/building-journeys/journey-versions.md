@@ -1,33 +1,31 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 歷程版本
-description: 瞭解歷程版本
+description: 了解歷程版本
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 2%
+source-wordcount: '244'
+ht-degree: 3%
 
 ---
 
-
 # 歷程版本{#concept_ldc_k55_zgb}
 
-在歷程清單中，所有歷程版本都會以版本號碼顯示。 請參閱[本頁](../building-journeys/using-the-journey-designer.md)。當您搜尋歷程時，最新版本會在首次開啟應用程式時出現在清單頂端。 然後，您可以定義所要的排序方式，應用程式會將其保留為使用者偏好設定。 歷程版本也會顯示在歷程版本介面的上方畫布上。
+在歷程清單中，所有歷程版本都會以版本號碼顯示。 請參閱[本頁](../building-journeys/using-the-journey-designer.md)。當您搜尋歷程時，最新版本會在首次開啟應用程式時出現在清單頂端。 然後，您可以定義所要的排序，而應用程式會將其保留為使用者偏好設定。 歷程的版本也會顯示在歷程版本介面的頂端、畫布上方。
 
 ![](../assets/journeyversions1.png)
 
-如果您需要修改為即時歷程，則必須建立新的歷程版本。
+如果您需要修改至即時歷程，則需要建立歷程的新版本。
 
 >[!NOTE]
 >
->若要進一步瞭解歷程版本限制，請參閱[本頁](../about/limitations.md#journey-versions-limitations)
+>若要深入了解歷程版本限制，請參閱[本頁面](../about/limitations.md#journey-versions-limitations)
 
-1. 開啟您的即時旅程最新版本，按一下&#x200B;**[!UICONTROL Create a new version]**&#x200B;並確認。
+1. 開啟最新版的即時歷程，按一下&#x200B;**[!UICONTROL Create a new version]**&#x200B;並確認。
 
    ![](../assets/journeyversions2.png)
 
@@ -39,10 +37,10 @@ ht-degree: 2%
 
    ![](../assets/journeyversions3.png)
 
-從旅程發佈的那一刻起，個人就會開始流入旅程的最新版本。 已進入舊版的使用者會留在舊版中，直到完成旅程為止。 如果他們稍後重新進入相同的歷程，就會進入最新版本。
+從歷程發佈之時，個人就會開始進入歷程的最新版本。 已輸入舊版的使用者會保留在舊版中，直到完成歷程為止。 如果他們稍後重新進入相同的歷程，將會進入最新版本。
 
-旅程版本可個別停止。 所有版本的歷程都有相同的名稱。
+歷程版本可個別停止。 所有版本的歷程都具有相同名稱。
 
 >[!NOTE]
 >
->當您發佈新版歷程時，舊版會自動結束，並切換至&#x200B;**Closed**&#x200B;狀態。 旅程中不會有進入。 即使您停止最新版本，舊版仍將保持關閉狀態。
+>當您發佈新版歷程時，舊版會自動結束並切換為&#x200B;**關閉**&#x200B;狀態。 旅程中不會有入口。 即使您停止最新版本，舊版也會保持關閉狀態。
