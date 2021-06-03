@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 運用疲勞分數
 description: 了解如何在歷程中運用疲勞分數
-source-git-commit: bc17cd3c0aee2652e55e3cf0623f87c4187a165e
+source-git-commit: 83a2410151a8a388d1db845502f434e97d89bdcc
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 此使用案例說明使用Adobe Campaign Classic整合傳送電子郵件所需的所有步驟。
 
-我們會先在Campaign Classic中建立交易式電子郵件範本。 接著，在Journey Orchestration中，我們將建立動作並設計歷程。
+我們會先在Campaign Classic中建立交易式電子郵件範本。 接著，在Journey Orchestration中，我們將建立事件、動作並設計歷程。
 
 若要進一步了解Campaign Classic整合，請參閱下列頁面：
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 1. 登入您的Campaign Classic控制例項。
 
-1. 在&#x200B;**Administration** > **Platform** > **Enumerations**&#x200B;下，選擇&#x200B;**Event type**(eventType)枚舉。 建立新事件類型（在範例中為「journey-event」）。 撰寫JSON檔案時，您必須使用事件類型的內部名稱。
+1. 在&#x200B;**Administration** > **Platform** > **Enumerations**&#x200B;下，選擇&#x200B;**Event type**(eventType)枚舉。 建立新事件類型（在範例中為「journey-event」）。 您稍後寫入JSON檔案時，必須使用事件類型的內部名稱。
 
    ![](../assets/accintegration-uc-1.png)
 
@@ -59,14 +59,14 @@ ht-degree: 1%
 }
 ```
 
-    *針對管道，您需要輸入「電子郵件」。
-    *若為eventType，請使用先前建立之事件類型的內部名稱。
-    *電子郵件地址將是變數，因此您可以輸入任何標籤。
-    *在ctx底下，個人化欄位也是變數。
+* 針對管道，您需要輸入「電子郵件」。
+* 對於eventType，請使用先前建立之事件類型的內部名稱。
+* 電子郵件地址會是變數，因此您可以輸入任何標籤。
+* 在ctx底下，個人化欄位也是變數。
 
 **Journey Orchestration**
 
-1. 首先，您需要建立事件。 請務必加入「purchaseOrderNumber」。
+1. 首先，您需要建立事件。 請確定您包含「purchaseOrderNumber」欄位。
 
    ![](../assets/accintegration-uc-5.png)
 
@@ -92,6 +92,6 @@ ht-degree: 1%
 
 1. 新增&#x200B;**End**&#x200B;活動並測試您的歷程。
 
-   ![](../assets/accintegration-uc-10.png)
+   ![](../assets/accintegration-uc-11.png)
 
 1. 您現在可以發佈歷程。
