@@ -5,10 +5,10 @@ title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 feature: Journeys
-source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
+source-git-commit: 33e7f08cfe7eb39b761991fdcfbabe99af02e3f0
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 94%
+source-wordcount: '421'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 94%
    + [使用者介面](using/about/user-interface.md)
    + [存取管理](using/about/access-management.md)
    + [疑難排解](using/about/troubleshooting.md)
+   + [與外部系統整合](using/about/external-systems.md)
 + 設定事件 {#events-journeys}
    + 關於事件{#about-events}
       + [一般原則](using/event/about-events.md)
