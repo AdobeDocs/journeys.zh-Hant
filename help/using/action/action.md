@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: eff510d0e41e07560db8d56a8ca64da546e8fca6
+source-git-commit: b108294acf8e1c4be00ca981e7ba15a23973f8ac
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 85%
 
 ---
@@ -36,9 +36,9 @@ ht-degree: 85%
 
 ![](../assets/custom1.png)
 
-如果您有 Adobe Campaign Standard，則需要使用 Adobe Campaign Standard 的「交易訊息」功能來設定立即可用的動作，以便傳送電子郵件、推播通知和簡訊。請參見[此頁面](../action/working-with-adobe-campaign.md#using_adobe_campaign_standard)。
+如果您有 Adobe Campaign Standard，則需要使用 Adobe Campaign Standard 的「交易訊息」功能來設定立即可用的動作，以便傳送電子郵件、推播通知和簡訊。請參見[此頁面](../action/working-with-adobe-campaign.md)。
 
-如果您有Adobe Campaign v7或v8，可應要求提供整合。 請參見[此頁面](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8)。
+如果您有Adobe Campaign Classic，可應要求提供整合。 請參見[此頁面](../action/acc-action.md)。
 
 如果您使用協力廠商系統來傳送訊息，例如 Epsilon、Facebook、Adobe.io、Firebase 等等，則需要新增和設定自訂動作。請參見[此頁面](../action/about-custom-action-configuration.md)。
 
