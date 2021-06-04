@@ -5,10 +5,10 @@ title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 feature: Journeys
-source-git-commit: eff510d0e41e07560db8d56a8ca64da546e8fca6
+source-git-commit: b108294acf8e1c4be00ca981e7ba15a23973f8ac
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 97%
+source-wordcount: '421'
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,8 @@ ht-degree: 97%
    + [外部資料來源](using/datasource/external-data-sources.md)
 + 設定動作 {#action-journeys}
    + [關於動作](using/action/action.md)
-   + [使用 Adobe Campaign](using/action/working-with-adobe-campaig.md)
+   + [使用Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
+   + [使用Adobe Campaign Classic](using/action/acc-action.md)
    + 使用協力廠商系統 {#action-third-party}
       + [關於自訂動作組態](using/action/about-custom-action-configuration.md)
       + [URL 組態](using/action/url-configuration.md)
@@ -78,7 +79,8 @@ ht-degree: 97%
          + [等待活動](using/building-journeys/wait-activity.md)
       + 動作活動 {#action-activities}
          + [關於動作活動](using/building-journeys/about-action-activities.md)
-         + [使用 Adobe Campaign 動作](using/building-journeys/using-adobe-campaign-actions.md)
+         + [使用Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
+         + [使用Adobe Campaign Classic](using/building-journeys/using-adobe-campaign-classic.md)
          + [使用自訂動作](using/building-journeys/using-custom-actions.md)
          + [從一個歷程跳到另一個歷程](using/building-journeys/jump.md)
          + [更新設定檔](using/building-journeys/update-profiles.md)
@@ -191,6 +193,6 @@ ht-degree: 97%
       + [設定事件](using/usecase/configuring-the-events.md)
       + [設定資料來源](using/usecase/configuring-the-data-sources.md)
       + [建立歷程](using/usecase/building-the-journey.md)
-   + [使用Campaign Classic傳送訊息](using/usecase/campaign-v7-v8-use-case.md)
+   + [使用Campaign Classic傳送訊息](using/usecase/campaign-classic-use-case.md)
 + 使用 API{#working-with-apis}
    + [設定 API 上限](using/api/capping.md)
