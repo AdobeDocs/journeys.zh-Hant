@@ -6,16 +6,14 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: c49908d36ecbc68ae11b5621305f39dd59c67871
+source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 4%
+source-wordcount: '900'
+ht-degree: 5%
 
 ---
 
 # 使用 Adobe Campaign 動作 {#using_campaign_action}
-
-## 使用Adobe Campaign Standard {#using_campaign_standard_action}
 
 如果您有Adobe Campaign Standard，則可使用下列現成可用的動作活動：**[!UICONTROL Email]**、**[!UICONTROL Push]**&#x200B;和&#x200B;**[!UICONTROL SMS]**。
 
@@ -41,7 +39,7 @@ ht-degree: 4%
 
 ![](../assets/journey60.png)
 
-### 電子郵件和簡訊 {#section_asc_51g_nhb}
+## 電子郵件和簡訊 {#section_asc_51g_nhb}
 
 對於&#x200B;**[!UICONTROL Email]**&#x200B;和&#x200B;**[!UICONTROL SMS]**，參數相同。
 
@@ -75,7 +73,7 @@ ht-degree: 4%
 
 ![](../assets/journey62.png)
 
-### 推播 {#section_im3_hvf_nhb}
+## 推播 {#section_im3_hvf_nhb}
 
 使用推播活動之前，您的行動應用程式必須與Campaign Standard一起設定，才能傳送推播通知。 使用此[文章](https://helpx.adobe.com/tw/campaign/kb/integrate-mobile-sdk.html)為行動裝置執行必要的實作步驟。
 
@@ -106,20 +104,3 @@ ht-degree: 4%
 >您無法在個人化資料中傳遞集合。 如果交易式推送預期集合，則無法運作。 另請注意，個人化資料具有預期的格式(範例：字串、小數等)。 您必須小心遵守這些預期的格式。
 
 這些是Adobe Campaign Standard訊息中使用的交易式範本所預期的欄位。 這些欄位可用來個人化您的訊息、套用條件式格式，或選取特定的訊息變體。
-
-## 使用Adobe Campaign v7/v8 {#using_campaign_v7_v8_action}
-
-此整合適用於從21.1版開始的Adobe Campaign Classic v7和Adobe Campaign v8。 它可讓您使用Adobe Campaign交易訊息功能來傳送電子郵件、推播通知和簡訊。
-
-Journey Orchestration與促銷活動例項之間的連線是在布建時Adobe所設定。 聯繫Adobe。
-
-若要讓此功能發揮作用，您需要設定專用的動作。 請參閱此[節](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8)。
-
-此[section](../usecase/campaign-v7-v8-use-case.md)中顯示了端到端使用案例。
-
-1. 從事件開始，設計您的歷程。 請參閱此[節](../building-journeys/journey.md)。
-1. 在浮動視窗的&#x200B;**Action**&#x200B;區段中，選取Campaign動作，並將其新增至您的歷程。
-1. 在&#x200B;**動作參數**&#x200B;中，會顯示訊息裝載中預期的所有欄位。 您需要將每個欄位對應至您要使用的欄位，不論是來自事件或來自資料來源。 這類似於自訂動作。 請參閱此[節](../building-journeys/using-custom-actions.md)。
-
-![](../assets/accintegration2.png)
-
