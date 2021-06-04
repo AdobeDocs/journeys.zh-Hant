@@ -1,32 +1,32 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 運用疲勞分數
-description: 了解如何在歷程中運用疲勞分數
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+title: 使用Campaign v7/v8傳送訊息
+description: 使用Campaign v7/v8傳送訊息
+source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
 
 
-# 使用Campaign Classic{#campaign-classic-use-case}發送消息
+# 使用Campaign v7/v8 {#campaign-classic-use-case}傳送訊息
 
-此使用案例說明使用Adobe Campaign Classic整合傳送電子郵件所需的所有步驟。
+此使用案例說明使用Adobe Campaign Classic v7和Adobe Campaign v8整合來傳送電子郵件所需的所有步驟。
 
-我們會先在Campaign Classic中建立交易式電子郵件範本。 接著，在Journey Orchestration中，我們將建立事件、動作並設計歷程。
+我們將先在Campaign中建立交易式電子郵件範本。 接著，在Journey Orchestration中，我們將建立事件、動作並設計歷程。
 
-若要進一步了解Campaign Classic整合，請參閱下列頁面：
+若要進一步了解Campaign整合，請參閱下列頁面：
 
-* [建立Campaign Classic動作](../action/acc-action.md)
+* [建立促銷活動動作](../action/acc-action.md)
 * [在歷程中使用動作](../building-journeys/using-adobe-campaign-classic.md)。
 
-**Adobe Campaign Classic**
+**Adobe Campaign**
 
-您的Campaign Classic例項需要布建以進行此整合。 交易式訊息功能需要設定。
+您的Campaign執行個體需要布建以進行此整合。 交易式訊息功能需要設定。
 
-1. 登入您的Campaign Classic控制例項。
+1. 登入您的Campaign控制例項。
 
 1. 在&#x200B;**Administration** > **Platform** > **Enumerations**&#x200B;下，選擇&#x200B;**Event type**(eventType)枚舉。 建立新事件類型（在範例中為「journey-event」）。 您稍後寫入JSON檔案時，必須使用事件類型的內部名稱。
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
    ![](../assets/accintegration-uc-2.png)
 
-1. 設計您的範本。 在此範例中，我們會針對設定檔的名字和訂單編號使用個人化。 名字在Adobe Experience Platform資料來源中，訂單號是Journey Orchestration事件中的欄位。 請務必在Campaign Classic中使用正確的欄位名稱。
+1. 設計您的範本。 在此範例中，我們會針對設定檔的名字和訂單編號使用個人化。 名字在Adobe Experience Platform資料來源中，訂單號是Journey Orchestration事件中的欄位。 請務必在Campaign中使用正確的欄位名稱。
 
    ![](../assets/accintegration-uc-3.png)
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 
    ![](../assets/accintegration-uc-5.png)
 
-1. 然後，您需要以Journey Orchestration建立與Campaign Classic範本對應的動作。 在&#x200B;**動作類型**&#x200B;下拉式清單中，選取&#x200B;**Adobe Campaign Classic**。
+1. 然後，您需要以Journey Orchestration建立與促銷活動範本對應的動作。 在&#x200B;**動作類型**&#x200B;下拉式清單中，選取&#x200B;**Adobe Campaign Classic**。
 
    ![](../assets/accintegration-uc-6.png)
 
