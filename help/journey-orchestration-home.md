@@ -7,9 +7,9 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '249'
 ht-degree: 100%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 100%
 * [Experience Cloud XDM 欄位定義](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/home.html)
 * [識別命名空間文件](https://docs.adobe.com/content/help/zh-Hant/experience-platform/identity/home.html)
 * [串流擷取 API](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/streaming/overview.html)
-* [Campaign Standard 交易訊息文件](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Campaign Standard 交易訊息文件]()
 
 ## 技術教學課程
 
