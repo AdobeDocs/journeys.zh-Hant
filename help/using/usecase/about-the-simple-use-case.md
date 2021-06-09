@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 12%
+source-wordcount: '166'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 ## 先決條件 {#prerequisites}
 
-針對我們的使用案例，我們在Adobe Campaign Standard中設計了一個電子郵件交易式訊息範本。 我們使用事件交易式訊息範本。 請參閱此[page](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
+針對我們的使用案例，我們在Adobe Campaign Standard中設計了一個電子郵件交易式訊息範本。 我們使用事件交易式訊息範本。 請參閱此[page]()。
 
 Adobe Campaign Standard已設定為傳送電子郵件。
 
