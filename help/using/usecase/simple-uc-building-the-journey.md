@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 35%
+source-wordcount: '394'
+ht-degree: 34%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 35%
 
    ![](../assets/journeyuc1_12.png)
 
-1. 拖放&#x200B;**[!UICONTROL Email]**&#x200B;活動，並選取「Spa折扣」交易式訊息範本。 此範本是使用Adobe Campaign設計。 請參閱此[page]()。
+1. 拖放&#x200B;**[!UICONTROL Email]**&#x200B;活動，並選取「Spa折扣」交易式訊息範本。 此範本是使用Adobe Campaign設計。 請參閱此[page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)。
 
    ![](../assets/journeyuc1_13.png)
 
