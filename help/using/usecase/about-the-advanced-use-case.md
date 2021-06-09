@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '417'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 ## 先決條件 {#prerequisites}
 
-針對我們的使用案例，我們設計了三個Adobe Campaign Standard交易式訊息範本。 我們使用事件交易式訊息範本。 請參閱此[page]()。
+針對我們的使用案例，我們設計了三個Adobe Campaign Standard交易式訊息範本。 我們使用事件交易式訊息範本。 請參閱此[page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)。
 
 Adobe Campaign Standard已設定為傳送電子郵件和推播通知。
 
