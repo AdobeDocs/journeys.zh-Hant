@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: 2565f6be500440455aa60724272790537a28ce2d
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '896'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >為此，您需要設定內建動作。 請參見[此頁面](../action/working-with-adobe-campaign.md)。
 
-對於這些通道，請選擇Adobe Campaign Standard交易式消息&#x200B;**template**。 事實上，[!DNL Journey Orchestration]不是訊息傳送解決方案。 對於內建的電子郵件、簡訊和推播通道，我們依賴交易式訊息來執行訊息傳送。 這表示，如果您想在歷程中使用特定訊息範本，必須在Adobe Campaign Standard中發佈。 請參閱[本頁面](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)以了解如何使用此功能。
+對於這些通道，請選擇Adobe Campaign Standard交易式消息&#x200B;**template**。 事實上，[!DNL Journey Orchestration]不是訊息傳送解決方案。 對於內建的電子郵件、簡訊和推播通道，我們依賴交易式訊息來執行訊息傳送。 這表示，如果您想在歷程中使用特定訊息範本，必須在Adobe Campaign Standard中發佈。 請參閱[本頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)以了解如何使用此功能。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->對於電子郵件，如果您使用設定檔交易式範本，取消訂閱機制會由Campaign Standard立即處理。 您只需在範本中新增&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;內容區塊（[了解更多](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)）。 如果您使用事件型範本(rtEvent)，您必須在訊息中新增連結，將人員的電子郵件傳遞至URL參數，並指向取消訂閱的登陸頁面。 您需要建立此登錄頁面，並確認人員取消訂閱的決定已傳送至Adobe。
+>對於電子郵件，如果您使用設定檔交易式範本，取消訂閱機制會由Campaign Standard立即處理。 您只需在範本中新增&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;內容區塊（[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)）。 如果您使用事件型範本(rtEvent)，您必須在訊息中新增連結，將人員的電子郵件傳遞至URL參數，並指向取消訂閱的登陸頁面。 您需要建立此登錄頁面，並確認人員取消訂閱的決定已傳送至Adobe。
 
 首先，您需要選擇交易式訊息範本。 請參見[此頁面](../building-journeys/about-action-activities.md)。
 
