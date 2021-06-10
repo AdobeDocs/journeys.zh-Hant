@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 29aa6b6e16f8e6d051065f8157f4e25e8b1c05e1
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '371'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,11 @@ ht-degree: 4%
 
    ![](../assets/profileupdate2.png)
 
-1. 從清單中選取資料集。 資料集選取項目將決定設定檔欄位的新值儲存位置。
+1. 從清單中選取資料集。
+
+   >[!NOTE]
+   >
+   >**更新設定檔**&#x200B;動作會即時更新設定檔資料，但不會更新資料集。 設定檔是與資料集相關的記錄，因此需要選取資料集。
 
 1. 按一下&#x200B;**值**&#x200B;欄位以定義您要使用的值：
 
