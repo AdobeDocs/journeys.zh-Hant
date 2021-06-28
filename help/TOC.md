@@ -6,9 +6,9 @@ user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 feature: Journeys
 source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 92%
    + 關於事件{#about-events}
       + [一般原則](using/event/about-events.md)
       + [資料週期](using/event/about-data-cycle.md)
-      + [建立一個事件](using/event/about-creating.md)
+      + [建立事件](using/event/about-creating.md)
       + [善用 Adobe Analytics](using/event/about-analytics.md)
-      + [關於 ExperienceEvent 結構](using/event/experience-event-schema.md)
+      + [關於 ExperienceEvent 綱要](using/event/experience-event-schema.md)
       + [傳送事件的其他步驟](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [定義裝載欄位](using/event/defining-the-payload-fields.md)
    + [選取命名空間](using/event/selecting-the-namespace.md)
@@ -47,8 +47,8 @@ ht-degree: 92%
    + [外部資料來源](using/datasource/external-data-sources.md)
 + 設定動作 {#action-journeys}
    + [關於動作](using/action/action.md)
-   + [使用Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
-   + [使用Adobe Campaign v7/v8](using/action/acc-action.md)
+   + [使用 Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
+   + [使用 Adobe Campaign v7/v8](using/action/acc-action.md)
    + 使用協力廠商系統 {#action-third-party}
       + [關於自訂動作組態](using/action/about-custom-action-configuration.md)
       + [URL 組態](using/action/url-configuration.md)
@@ -79,15 +79,15 @@ ht-degree: 92%
          + [等待活動](using/building-journeys/wait-activity.md)
       + 動作活動 {#action-activities}
          + [關於動作活動](using/building-journeys/about-action-activities.md)
-         + [使用Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
-         + [使用Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
+         + [使用 Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
+         + [使用 Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
          + [使用自訂動作](using/building-journeys/using-custom-actions.md)
          + [從一個歷程跳到另一個歷程](using/building-journeys/jump.md)
          + [更新設定檔](using/building-journeys/update-profiles.md)
    + [測試歷程](using/building-journeys/testing-the-journey.md)
    + [發佈歷程](using/building-journeys/publishing-the-journey.md)
    + 使用 Adobe Experience Platform 分享歷程步驟 {#sharing-journey-steps}
-      + [歷程步驟分享概觀](using/building-journeys/sharing-overview.md)
+      + [歷程步驟分享概覽](using/building-journeys/sharing-overview.md)
       + [journeySteps 事件常見欄位](using/building-journeys/sharing-common-fields.md)
       + [journeyStep 事件動作執行欄位](using/building-journeys/sharing-execution-fields.md)
       + [journeyStep 事件資料擷取欄位](using/building-journeys/sharing-fetch-fields.md)
@@ -140,7 +140,7 @@ ht-degree: 92%
          + [nowWithDelta](using/functions/functionnowwithdelta.md)
          + [setHours](using/functions/functionsethours.md)
          + [setDays](using/functions/functionsetdays.md)
-      + 清單 {#list}
+      + 清單{#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
          + [getListItem](using/functions/functiongetlistitem.md)
@@ -151,7 +151,7 @@ ht-degree: 92%
       + 數學 {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
-      + String {#string}
+      + 字串 {#string}
          + [concat](using/functions/functionconcat.md)
          + [contain](using/functions/functioncontain.md)
          + [containWithIgnoreCase](using/functions/functioncontainwithignorecase.md)
@@ -175,7 +175,7 @@ ht-degree: 92%
          + [trim](using/functions/functiontrim.md)
          + [upper](using/functions/functionupper.md)
          + [uuid](using/functions/functionuuid.md)
-+ 建立報表{#journey-reports}
++ 建立報告{#journey-reports}
    + [關於歷程報告](using/reporting/about-journey-reports.md)
    + [建立您的歷程報告](using/reporting/creating-your-journey-reports.md)
    + [量度與維度](using/reporting/metrics-and-dimensions.md)
@@ -188,11 +188,11 @@ ht-degree: 92%
       + [設定事件](using/usecase/configuring-the-event.md)
       + [設定資料來源](using/usecase/configuring-the-data-source.md)
       + [建立歷程](using/usecase/simple-uc-building-the-journey.md)
-   + 構建跨管道歷程。{#use-case-advanced}
+   + 組建跨頻道歷程{#use-case-advanced}
       + [關於進階使用案例](using/usecase/about-the-advanced-use-case.md)
       + [設定事件](using/usecase/configuring-the-events.md)
       + [設定資料來源](using/usecase/configuring-the-data-sources.md)
-      + [建立歷程](using/usecase/building-the-journey.md)
-   + [使用Campaign v7/v8傳送訊息](using/usecase/campaign-classic-use-case.md)
+      + [組建歷程](using/usecase/building-the-journey.md)
+   + [使用 Campaign v7/v8 傳送訊息](using/usecase/campaign-classic-use-case.md)
 + 使用 API{#working-with-apis}
    + [設定 API 上限](using/api/capping.md)
