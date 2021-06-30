@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 測試歷程
 description: '了解歷程測試 '
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1665'
 ht-degree: 2%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 2%
 
    ![](../assets/journeyuctest2.png)
 
-1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。當測試結果確定時，您可以發佈您的歷程。 請參閱[本頁](../building-journeys/publishing-the-journey.md)。
+1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。當測試結果確定時，您可以發佈您的歷程。 請參閱[此頁面](../building-journeys/publishing-the-journey.md)。
 
 ## 重要附註 {#important_notes}
 
@@ -60,6 +60,7 @@ ht-degree: 2%
 * 當您停用測試模式時，它會從過去或目前進入該模式的所有使用者處搶佔歷程。 也會清除報表。
 * 您可以視需要多次啟用/停用測試模式。
 * 啟動測試模式時，您無法修改您的歷程。 在測試模式中時，您可以直接發佈歷程，不需要先停用測試模式。
+* 到達分割時，一律會選取頂端分支。 如果希望測試選擇不同的路徑，則可以重新組織拆分分支的位置。
 
 ## 將輪廓轉換為測試輪廓{#turning-profile-into-test}
 
@@ -69,7 +70,7 @@ ht-degree: 2%
 
 ## 建立測試設定檔{#create-test-profile}
 
-如果您想要建立新的測試設定檔，此程式與您在Adobe Experience Platform中建立設定檔時的程式相同。 會透過API呼叫執行。 請參閱此[page](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)
+如果您想要建立新的測試設定檔，此程式與您在Adobe Experience Platform中建立設定檔時的程式相同。 會透過API呼叫執行。 請參閱此[page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 
 您必須使用包含「設定檔測試詳細資料」的設定檔結構混合。 testProfile旗標是此混合的一部分。
 
@@ -155,7 +156,7 @@ curl -X POST \
 
 不論事件是透過介面觸發還是從外部觸發（例如使用Postman），視覺流程皆可運作。
 
-## 規則型歷程的測試模式{#test-rule-based}
+## 規則型歷程的測試模式 {#test-rule-based}
 
 測試模式也適用於使用規則型事件的歷程。 如需規則型事件的詳細資訊，請參閱[本頁面](../event/about-events.md)。
 
