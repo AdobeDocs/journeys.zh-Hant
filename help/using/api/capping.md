@@ -3,13 +3,13 @@ product: adobe campaign
 title: 設定API說明上限
 description: 進一步了解上限API。
 products: journeys
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 在資料來源設定期間，您將定義系統連線，以擷取將用於歷程的其他資訊，或用於動作定義，您將設定協力廠商系統的連線，以傳送訊息或API呼叫。 每次由歷程執行API呼叫時，即會查詢限定API，呼叫就會透過API引擎。 如果已定義限制，則會拒絕呼叫，且外部系統不會超載。
 
-要了解有關操作或資料源配置的詳細資訊，請參閱[關於操作](https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html)或[關於資料源](https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html)
+要了解有關操作或資料源配置的詳細資訊，請參閱[關於操作](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html)或[關於資料源](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 
 ## 資源
@@ -173,7 +173,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 下載並上傳至Postman後，您需要新增三個變數：`{JO_HOST}`、`{Base_Path}`和`{SANDBOX_NAME}`。
 * `{JO_HOST}` : [!DNL Journey Orchestration] 網關URL
 * `{BASE_PATH}` :API的進入點。值為「/authoring」
-* `{SANDBOX_NAME}` :與 **執行API作業的沙箱名稱** （例如&#39;prod&#39;）對應的標頭x-sandbox-name。如需詳細資訊，請參閱[沙箱概述](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) 。
+* `{SANDBOX_NAME}` :與 **執行API作業的沙箱名稱** （例如&#39;prod&#39;）對應的標頭x-sandbox-name。如需詳細資訊，請參閱[沙箱概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) 。
 
 在下節中，您會找到Rest API呼叫排序清單以執行使用案例。
 
