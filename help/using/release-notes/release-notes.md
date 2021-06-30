@@ -2,23 +2,23 @@
 product: adobe campaign
 title: 發行說明
 description: 瞭解發行說明
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 002b67f4e09635b58c00fad9dbc2c16b872a5fb3
+source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
 workflow-type: tm+mt
-source-wordcount: '2540'
-ht-degree: 61%
+source-wordcount: '2627'
+ht-degree: 60%
 
 ---
 
-# 發行說明{#release-notes}
+# 發行說明 {#release-notes}
 
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱最新的[檔案更新](../release-notes/documentation-updates.md)。
 
-## 2021年6月發行{#may-2021-release}
+## 2021年6月發行 {#june-2021-release}
 
 <table>
 <thead>
@@ -30,20 +30,27 @@ ht-degree: 61%
 <tr>
 <td>
 <p>與Adobe Campaign Classic整合的整合現已正式推出。 它可讓您使用Adobe Campaign v7或v8交易訊息功能來傳送電子郵件、推播通知和簡訊。</p>
-<p>Journey Orchestration與促銷活動例項之間的連線是在布建時Adobe所設定。</p>
+<p>Journey Orchestration 與 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。</p>
 <p>如需詳細資訊，請參閱<a href="../action/acc-action.md">相關的文件</a>，以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## 2021年4月發行{#april-2021-release}
+### 功能改善
+
+* 對於外部資料來源，現在會自動定義每秒15次呼叫的上限規則。 [顯示全文](../about/external-systems.md#capping)
+* 在簡單進階的運算式編輯器中，我們現在支援XDM日期格式。
+* 在歷程清單畫面中，已新增新篩選器。 您現在可以依歷程類型篩選：**[!UICONTROL Unitary event]**&#x200B;或&#x200B;**[!UICONTROL Segment qualification]**。 [顯示全文](../about/user-interface.md#section_lgm_hpz_pgb)
+* 對於即時歷程，歷程屬性畫面現在會顯示發佈日期和發佈歷程的使用者名稱。 複製歷程的技術詳細資訊時，也可使用此資訊。 [顯示全文](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+
+## 2021年4月發行 {#april-2021-release}
 
 ### 功能改善
 
 * 在測試模式的&#x200B;**事件設定**&#x200B;畫面中，現在會針對預期列舉的欄位顯示下拉式清單。 只需選取任一可用值即可。 這可避免在定義錯誤值時觸發事件時發生錯誤。 [顯示全文](../building-journeys/testing-the-journey.md#firing_events)
 
-## 2021年3月發行版本{#march-2021-release}
+## 2021年3月發行 {#march-2021-release}
 
 ### 功能改善
 
@@ -52,7 +59,7 @@ ht-degree: 61%
 * 在測試模式中，在&#x200B;**事件設定**&#x200B;畫面中，定義測試設定檔ID的&#x200B;**Key**&#x200B;欄位已重新命名&#x200B;**設定檔識別碼**，以提供更佳的使用者體驗。 [顯示全文](../building-journeys/testing-the-journey.md)。
 * 若是反應事件，逾時期間現在只能設定在40秒到30天之間。 測試使用反應事件的歷程時，測試模式&#x200B;**[!UICONTROL Wait time]**&#x200B;預設值和最小值現在為40秒。 [顯示全文](../building-journeys/reaction-events.md)。
 
-## 2021年2月發行版本{#february-2021-release}
+## 2021年2月發行 {#february-2021-release}
 
 <table>
 <thead>
@@ -77,7 +84,7 @@ ht-degree: 61%
 * 現在起始新歷程時，無法將第一個步驟放置在畫布中的元素會隱藏。 這與所有動作、條件活動、等待和反應有關。
 * 在進階運算式編輯器的左側，函式現在會重新分組在清單結尾的&#x200B;**Functions**&#x200B;區段下。
 
-## 2021 年 1 月發行{#january-2021-release}
+## 2021 年 1 月發行 {#january-2021-release}
 
 在事件配置中選擇架構時，僅選擇Journey Orchestration正確接收該事件的必需欄位。 [顯示全文](../event/defining-the-payload-fields.md)
 
@@ -91,7 +98,7 @@ ht-degree: 61%
 
 已將[getListItem](../functions/functiongetlistitem.md)和[split](../functions/functionsplit.md)函式新增至進階運算式編輯器中可用的函式清單。 這將在字串計算使用案例中提供更多可能性。
 
-## 2020年11月發行{#november-release}
+## 2020年11月發行 {#november-release}
 
 <table>
 <thead>
@@ -153,7 +160,7 @@ ht-degree: 61%
 
 **區段資格**&#x200B;活動不再可用於包含Campaign Standard訊息活動的歷程中。 此限制可保護Adobe Campaign Standard執行個體的完整性。 事實上，使用區段資格可能會導致訊息傳送的每日高峰，而且會使Campaign Standard交易式訊息過載。 [顯示全文](../about/limitations.md#segment-qualification)
 
-## 2020年10月發行{#october-release}
+## 2020年10月發行 {#october-release}
 
 <table>
 <thead>
@@ -176,7 +183,7 @@ ht-degree: 61%
 
 * 當您發佈新版歷程時，舊版會自動結束並切換為「關閉」狀態。 [顯示全文](../building-journeys/journey-versions.md)
 
-## 2020年9月發行{#september-release}
+## 2020年9月發行 {#september-release}
 
 ### GA 更新{#september-ga-update}
 
@@ -336,7 +343,7 @@ Alpha 方案提供目前在有限客戶群中進行測試的功能。這可讓�
 </table>
 
 
-## 第 2 季度發行 - 2020 年 6 月{#q2-release---june-2020}
+## 第 2 季度發行 - 2020 年 6 月 {#q2-release---june-2020}
 
 <table>
 <thead>
@@ -403,7 +410,7 @@ Journey Orchestration 現在已於 APAC（澳洲資料中心）推出。生效�
 
 Journey Orchestration　介面提供日文版。
 
-## 第 1 季發行 - 2020 年 3 月{#q1-release---march-2020}
+## 第 1 季發行 - 2020 年 3 月 {#q1-release---march-2020}
 
 <table>
 <thead>
@@ -501,7 +508,7 @@ Journey Orchestration　介面提供日文版。
 
 * 瀏覽 **Adobe Experience Platform 欄位**（XDM 格式）時，您現在除了看到欄位名稱外，還會看到顯示名稱。此資訊會從「Experience 資料模型」的結構定義中擷取。當可用時，畫面就會出現替代顯示名稱。這種容易理解的說明在 eVar 欄位中特別有用，可讓您更輕鬆地識別欄位。[詳細內容](../about/user-interface.md#friendly-names-display)
 
-## 正式發行 - 2019 年 12 月{#ga-release---december-2019}
+## 正式發行 - 2019 年 12 月 {#ga-release---december-2019}
 
 Journey Orchestration 現在已正式推出。
 
@@ -513,5 +520,5 @@ Journey Orchestration 能以事件中的情境資料、Adobe Experience Platform
 
 其他資源：
 
-* [教學課程](https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
+* [教學課程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [社群](https://www.adobe.com/go/journeyorchestrationcommunity)
