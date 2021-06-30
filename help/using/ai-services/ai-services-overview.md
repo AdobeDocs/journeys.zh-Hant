@@ -2,13 +2,13 @@
 product: adobe campaign
 title: AI服務概述
 description: AI服務概述
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '84'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 與Intelligent Services的整合可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司的需求設定專屬預測，而不需要資料科學的專業知識。
 
-有關Intelligent Services的詳細資訊，請參閱[文檔](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html)。
+有關Intelligent Services的詳細資訊，請參閱[文檔](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html)。
 
 此整合可讓您運用客戶預測，請參閱[運用客戶AI](../ai-services/leveraging-customer-ai.md)
 
