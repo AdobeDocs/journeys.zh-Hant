@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: 建立一個事件
+title: 建立事件
 description: 了解如何建立事件
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 53%
+source-wordcount: '554'
+ht-degree: 63%
 
 ---
 
@@ -33,14 +33,14 @@ ht-degree: 53%
 
    ![](../assets/journey6bis.png)
 
-   * **規則基** 礎事件：此類型的事件不會產生eventID。在&#x200B;**事件ID條件**&#x200B;欄位中，您只需定義規則，系統將使用該規則來識別將觸發您歷程的相關事件。 此規則可以根據事件裝載中可用的任何欄位，例如設定檔的位置或新增至設定檔購物車的項目數。
+   * **規則型** 事件：此類型的事件不會產生 eventID。在&#x200B;**事件ID條件**&#x200B;欄位中，您只需定義規則，系統將使用該規則來識別將觸發您歷程的相關事件。 此規則可以根據事件裝載中可用的任何欄位，例如設定檔的位置或新增至設定檔購物車的項目數。
 
-   * **系統生** 成事件：此類型需要eventID。建立事件時會自動產生此eventID欄位，並新增至裝載預覽。 推送事件的系統不應產生ID，而應傳遞有效負載預覽中可用的ID。 請參閱[本節](../event/previewing-the-payload.md)。
+   * **系統生** 成事件：此類型需要eventID。建立事件時會自動產生此eventID欄位，並新增至裝載預覽。 推播事件的系統不應產生 ID，而應傳遞有效裝載預覽中可用的 ID。請參閱[本節](../event/previewing-the-payload.md)。
    >[!NOTE]
    >
    >有關[此部分](../event/about-events.md)中事件類型的詳細資訊。
 1. 使用此事件的歷程次數會顯示在 **[!UICONTROL Used in]** 欄位中。您可以按一下 **[!UICONTROL View journeys]** 圖示，以顯示使用此事件的歷程清單。
-1. 定義結構和有效負載欄位：您可以在此處選取 [!DNL Journey Orchestration] 預期會收到的事件資訊（通常稱為有效負載）。接著，您就可以在歷程中使用這項資訊。請參閱[本頁](../event/defining-the-payload-fields.md)。
+1. 定義結構和有效負載欄位：您可以在此處選取 [!DNL Journey Orchestration] 預期會收到的事件資訊（通常稱為有效負載）。接著，您就可以在歷程中使用這項資訊。請參閱[此頁面](../event/defining-the-payload-fields.md)。
    >[!NOTE]
    >
    >選取&#x200B;**[!UICONTROL System Generated]**&#x200B;類型時，只有具有eventID類型mixin的結構才可用。 選取&#x200B;**[!UICONTROL Rule Based]**&#x200B;類型時，所有體驗事件結構皆可使用。
@@ -50,11 +50,15 @@ ht-degree: 53%
 
    在範例中，我們根據設定檔的城市寫了條件。 這表示，每當系統收到符合此條件（**[!UICONTROL City]**&#x200B;欄位和&#x200B;**[!UICONTROL Paris]**&#x200B;值）的事件時，就會將其傳遞至Journey Orchestration。
 
-1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[本頁](../event/selecting-the-namespace.md)。
-1. 定義金鑰：從您的有效負載欄位選擇一個欄位，或是定義一個公式以識別與事件相關聯的人員。如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。事實上，[!DNL Journey Orchestration] 會挑選應該與命名空間對應的金鑰（例如，如果您選取電子郵件命名空間，系統便會選取電子郵件金鑰）。請參閱[本頁](../event/defining-the-event-key.md)。
-1. 對於系統產生的事件，您可以新增條件。 此步驟為選填。這可讓系統僅處理符合條件的事件。您只能根據事件含有之資訊設定條件。請參閱[本頁](../event/adding-a-condition.md)。
+   >[!NOTE]
+   >
+   >定義&#x200B;**[!UICONTROL Event ID condition]**&#x200B;時，進階運算式編輯器無法使用。
+
+1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[此頁面](../event/selecting-the-namespace.md)。
+1. 定義金鑰：從您的有效負載欄位選擇一個欄位，或是定義一個公式以識別與事件相關聯的人員。如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。事實上，[!DNL Journey Orchestration] 會挑選應該與命名空間對應的金鑰（例如，如果您選取電子郵件命名空間，系統便會選取電子郵件金鑰）。請參閱[此頁面](../event/defining-the-event-key.md)。
+1. 對於系統產生的事件，您可以新增條件。 此步驟為選填。這可讓系統僅處理符合條件的事件。您只能根據事件含有之資訊設定條件。請參閱[此頁面](../event/adding-a-condition.md)。
 1. 按一下 **[!UICONTROL Save]**。
 
    ![](../assets/journey7.png)
 
-   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[本頁](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   條件現在已設定完畢，且準備好放入歷程中。若要接收事件，則需要完成其他設定步驟。請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
