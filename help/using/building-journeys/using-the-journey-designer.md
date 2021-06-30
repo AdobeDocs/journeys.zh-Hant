@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 使用歷程設計器
 description: 進一步了解如何使用歷程設計器
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1423'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 5%
 
 ![](../assets/journey74.png)
 
-您歷程的所有版本都會以版本號碼顯示在清單中。 請參閱[本頁](../building-journeys/journey-versions.md)。
+您歷程的所有版本都會以版本號碼顯示在清單中。 請參閱[此頁面](../building-journeys/journey-versions.md)。
 
 ![](../assets/journey37.png)
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 
 在畫布中，您的動作和事件活動會以圖示表示，而下方會顯示事件或動作的名稱。 在活動配置窗格中，可以使用&#x200B;**[!UICONTROL Label]**&#x200B;欄位向活動名稱添加尾碼。 這些標籤可協助您將事件和動作的使用方式與情境結合，尤其是當您在歷程中多次使用相同事件或動作時。 您也可以在[!DNL Journey Orchestration]報表中看到新增的標籤。 您也可以為條件活動定義標籤。
 
-預設情況下，只讀欄位是隱藏的。 若要顯示，請按一下活動設定窗格左上角的&#x200B;**顯示唯讀欄位**&#x200B;圖示。
+預設情況下，只讀欄位是隱藏的。 若要顯示唯讀欄位，請按一下活動配置窗格左上角的&#x200B;**顯示唯讀欄位**&#x200B;圖示。 此設定會套用至所有歷程中的所有活動。
 
 ![](../assets/journey59bis.png)
 
@@ -93,7 +93,7 @@ ht-degree: 5%
 
 ![](../assets/canvas-disconnected.png)
 
-## 複製和貼上活動{#copy-paste}
+## 複製和貼上活動 {#copy-paste}
 
 您可以複製歷程的一或多個活動，並貼到相同歷程或不同歷程中。 如果您想要重複使用先前歷程中已設定的許多活動，這可讓您節省時間。
 
