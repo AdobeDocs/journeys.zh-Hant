@@ -1,25 +1,25 @@
 ---
 product: adobe campaign
-title: 歷程步驟分享概觀
-description: 歷程步驟分享概觀
-feature: Journeys
+title: 歷程步驟分享概覽
+description: 歷程步驟分享概覽
+feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 8%
+source-wordcount: '440'
+ht-degree: 7%
 
 ---
 
-# 歷程步驟分享概觀{#sharing-overview}
+# 歷程步驟分享概覽{#sharing-overview}
 
 [!DNL Journey Orchestration] 自動將歷程績效資料傳送至Adobe Experience Platform，以便與其他資料結合以進行分析。
 
 >[!NOTE]
 >
->預設情況下不會對所有新部署的執行個體啟用此功能。 應要求啟動。
+>此功能預設會在歷程步驟事件的所有執行個體上啟用。 若為歷程設定檔步驟事件，則需應要求進行啟動。 配置此功能期間建立的結構描述和資料集不可更改。
 
 例如，您已設定可傳送多封電子郵件的歷程。 此功能可讓您將[!DNL Journey Orchestration]資料與下游事件資料結合，例如發生了多少轉換、網站上發生了多少參與，或商店中發生了多少交易。 歷程資訊可與Adobe Experience Platform上的資料結合，不論是來自其他數位屬性或來自離線屬性，以提供更全面的效能檢視。
 
@@ -59,4 +59,4 @@ ht-degree: 8%
 * [journeyStep 事件識別欄位](../building-journeys/sharing-identity-fields.md)
 * [歷程欄位](../building-journeys/sharing-journey-fields.md)
 
-如需向Adobe Experience Platform報告步驟事件的詳細資訊，請觀看此[教學課程影片](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)。
+如需向Adobe Experience Platform報告步驟事件的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)。
