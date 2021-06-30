@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 關於資料來源
 description: '瞭解如何設定資料來源 '
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 81%
+source-wordcount: '343'
+ht-degree: 79%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 81%
 
 資料來源有兩種類型：
 
-* 預先設定的 Adobe Experience Platform 資料來源可定義「即時客戶個人檔案服務」的連線，這是內建的資料來源。請參閱[本頁](../datasource/adobe-experience-platform-data-source.md)。
-* 外部資料來源可讓您定義外部系統的連線，這些是您可以建立的資料來源。請參閱[本頁](../datasource/external-data-sources.md)。
+* 預先設定的 Adobe Experience Platform 資料來源可定義「即時客戶個人檔案服務」的連線，這是內建的資料來源。請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)。
+* 外部資料來源可讓您定義外部系統的連線，這些是您可以建立的資料來源。請參閱[此頁面](../datasource/external-data-sources.md)。
 
-對於每個資料來源，您會使用欄位群組來定義要擷取的資訊。欄位群組是可從資料來源擷取的欄位集。請參閱[本頁](../datasource/field-groups.md)。
+對於每個資料來源，您會使用欄位群組來定義要擷取的資訊。欄位群組是可從資料來源擷取的欄位集。請參閱[此頁面](../datasource/field-groups.md)。
 
-如需如何設定 Adobe Experience Platform 資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/configure-data-sources.html)。
+如需如何設定 Adobe Experience Platform 資料來源和外部資料來源，以及如何在歷程中尋找和使用資料的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-data-sources.html)。
 
 以下是主要的資料來源設定步驟：
 
