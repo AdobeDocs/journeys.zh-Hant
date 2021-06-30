@@ -3,14 +3,14 @@ product: adobe campaign
 title: 建立測試設定檔
 description: 了解測試設定檔建立
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 2%
+source-wordcount: '675'
+ht-degree: 1%
 
 ---
 
-# 建立測試設定檔{#create-test-profiles}
+# 建立測試設定檔 {#create-test-profiles}
 
 在歷程中使用測試模式時，需要測試設定檔。 若要了解如何使用測試模式，請參閱[此區段](../building-journeys/testing-the-journey.md)。
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 建立測試設定檔類似於在Adobe Experience Platform中建立一般設定檔。 如需詳細資訊，請參閱[即時客戶設定檔檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
 
-## 必要條件{#test-profile-prerequisites}
+## 先決條件{#test-profile-prerequisites}
 
 若要建立設定檔，您必須先在Adobe Experience Platform中建立結構和資料集。
 
@@ -33,18 +33,18 @@ ht-degree: 2%
 1. 選擇架構的名稱。
 1. 在&#x200B;**[!UICONTROL Mixins]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
    ![](../assets/test-profiles-1-bis.png)
-1. 選取適當的混合。 請務必新增&#x200B;**[!UICONTROL Profile test details]** mixin。 按一下 **[!UICONTROL Add mixin]**。
+1. 選取適當的混合。 請務必新增&#x200B;**[!UICONTROL Profile test details]** mixin。 按一下&#x200B;**[!UICONTROL Add mixin]**。
    ![](../assets/test-profiles-1-ter.png)
 mixin清單會顯示在結構概述畫面上。
 
    ![](../assets/test-profiles-2.png)
 1. 在欄位清單中，按一下您要定義為主要身分的欄位。
    ![](../assets/test-profiles-3.png)
-1. 在&#x200B;**[!UICONTROL Field properties]**&#x200B;右側面板中，檢查&#x200B;**[!UICONTROL Identity]**&#x200B;和&#x200B;**[!UICONTROL Primary Identity]**&#x200B;選項並選擇命名空間。 如果您希望主要身分成為電子郵件地址，請選擇&#x200B;**[!UICONTROL Email]**&#x200B;命名空間。 按一下 **[!UICONTROL Apply]**。
+1. 在&#x200B;**[!UICONTROL Field properties]**&#x200B;右側面板中，檢查&#x200B;**[!UICONTROL Identity]**&#x200B;和&#x200B;**[!UICONTROL Primary Identity]**&#x200B;選項並選擇命名空間。 如果您希望主要身分成為電子郵件地址，請選擇&#x200B;**[!UICONTROL Email]**&#x200B;命名空間。 按一下&#x200B;**[!UICONTROL Apply]**。
    ![](../assets/test-profiles-4.png)
 1. 選擇架構並啟用&#x200B;**[!UICONTROL Schema properties]**&#x200B;中的&#x200B;**[!UICONTROL Profile]**選項。
    ![](../assets/test-profiles-5.png)
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ mixin清單會顯示在結構概述畫面上。
 >
 > 如需資料集建立的詳細資訊，請參閱[目錄服務檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)。
 
-## 使用csv檔案{#create-test-profiles-csv}建立測試設定檔
+## 使用csv檔案建立測試設定檔{#create-test-profiles-csv}
 
 在Adobe Experience Platform中，您可以將包含不同設定檔欄位的csv檔案上傳至資料集，以建立設定檔。 這是最簡單的方法。
 
@@ -81,7 +81,7 @@ mixin清單會顯示在結構概述畫面上。
    ![](../assets/test-profiles-14.png)
 1. 選擇&#x200B;**[!UICONTROL Map CSV to XDM schema]**，然後按一下&#x200B;**[!UICONTROL Launch]**。
    ![](../assets/test-profiles-16.png)
-1. 選取您要將設定檔匯入的資料集。 按一下 **[!UICONTROL Next]**。
+1. 選取您要將設定檔匯入的資料集。 按一下&#x200B;**[!UICONTROL Next]**。
    ![](../assets/test-profiles-17.png)
 1. 按一下&#x200B;**[!UICONTROL Choose files]**&#x200B;並選取您的csv檔案。 上傳檔案時，按一下&#x200B;**[!UICONTROL Next]**。
    ![](../assets/test-profiles-18.png)
@@ -99,7 +99,7 @@ mixin清單會顯示在結構概述畫面上。
 
 ## 使用API呼叫建立測試設定檔{#create-test-profiles-api}
 
-您也可以透過API呼叫建立測試設定檔。 請參閱此[page](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)。
+您也可以透過API呼叫建立測試設定檔。 請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
 
 您必須使用包含「設定檔測試詳細資料」的設定檔結構混合。 testProfile旗標是此混合的一部分。
 
