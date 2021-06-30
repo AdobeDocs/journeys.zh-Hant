@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 條件活動
 description: 了解條件活動
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '778'
 ht-degree: 10%
 
 ---
@@ -47,18 +47,18 @@ ht-degree: 10%
 
 ![](../assets/journey64.png)
 
-如果您使用[Adobe Experience Platform分段服務](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)來建立區段，您可以在歷程條件中運用這些區段。 請參閱[在條件](../segment/using-a-segment.md)中使用區段。
+如果您使用[Adobe Experience Platform分段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)來建立區段，您可以在歷程條件中運用這些區段。 請參閱[在條件](../segment/using-a-segment.md)中使用區段。
 
 
 >[!NOTE]
 >
->您無法使用簡單編輯器對時間序列（例如購買清單、訊息的點按次數）執行查詢。 為此，您將需要使用進階編輯器。 請參閱[本頁](../expression/expressionadvanced.md)。
+>您無法使用簡單編輯器對時間序列（例如購買清單、訊息的點按次數）執行查詢。 為此，您將需要使用進階編輯器。 請參閱[此頁面](../expression/expressionadvanced.md)。
 
 當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 資料來源條件 {#data_source_condition}
 
-這可讓您根據資料來源的欄位或先前位於歷程中的事件，來定義條件。 若要了解如何使用運算式編輯器，請參閱[本頁面](../expression/expressionadvanced.md)。 使用進階運算式編輯器，您可以設定更進階的條件來處理集合，或使用需要傳遞參數的資料來源。 請參閱[本頁](../datasource/external-data-sources.md)。
+這可讓您根據資料來源的欄位或先前位於歷程中的事件，來定義條件。 若要了解如何使用運算式編輯器，請參閱[本頁面](../expression/expressionadvanced.md)。 使用進階運算式編輯器，您可以設定更進階的條件來處理集合，或使用需要傳遞參數的資料來源。 請參閱[此頁面](../datasource/external-data-sources.md)。
 
 ![](../assets/journey50.png)
 
@@ -76,6 +76,8 @@ ht-degree: 10%
 
 此選項可讓您隨機分割對象，以定義每個群組的不同動作。 定義每個路徑的分割數和重新分割。 分割計算是統計的，因為系統無法預測歷程的此活動中會有多少人流量。 因此，分割的誤差範圍非常小。 此函式以Java隨機機制為基礎（請參閱此[page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)）。
 
+在測試模式中，達到分割時，一律會選取頂端分支。 如果希望測試選擇不同的路徑，則可以重新組織拆分分支的位置。 請參見[此頁面](../building-journeys/testing-the-journey.md)。
+
 >[!NOTE]
 >
 >請注意，在百分比分割條件中沒有可新增路徑的按鈕。 路徑數取決於分割數。 在分割條件中，無法為其他情況新增路徑，因為路徑無法發生。 人們總是走在一條分道路上。
@@ -88,6 +90,6 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->時區不再是條件的特定時區，現在會在歷程屬性的歷程層級中定義。 請參閱[本頁](../building-journeys/timezone-management.md)。
+>時區不再是條件的特定時區，現在會在歷程屬性的歷程層級中定義。 請參閱[此頁面](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey53.png)
