@@ -2,11 +2,11 @@
 product: adobe campaign
 title: toDateTime
 description: 了解函式toDateTime
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 55928668cffca2f01c140a083f11ce8f57e2ee0d
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 6%
@@ -42,7 +42,7 @@ ht-degree: 6%
 
 `toDateTime(<string>)`
 
-`toDateTime(<dateTimeOnly>,<stringified time zone id>)`
+`toDateTime(<stringified time zone id>, <dateTimeOnly>)`
 
 `toDateTime(<integer>)`
 
@@ -73,11 +73,11 @@ Return a datetime.
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-返回2016-08-18T23:17:59.123Z
+傳回2016-08-18T23:17:59.123Z
 
 `toDateTime(toDateTimeOnly("2016-08-18T23:17:59.123"),"UTC")`
 
-返回2016-08-18T23:17:59.123Z
+傳回2016-08-18T23:17:59.123Z
 
 `toDateTime(1560762190189)`
 
