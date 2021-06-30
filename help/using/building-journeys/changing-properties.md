@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 變更屬性
 description: 了解如何變更屬性
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 58891c1bddd8fb9b0ae247d54be5cf1d7c40b9a8
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 1%
+source-wordcount: '544'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 1%
 按一下右上角的鉛筆圖示，以存取歷程的屬性。
 
 您可以變更歷程的名稱、新增說明、允許重新進入、選擇開始和結束日期，以及定義&#x200B;**[!UICONTROL Timeout and error]**&#x200B;持續時間（如果您是管理員）。
+
+對於即時歷程，此畫面會顯示發佈日期以及發佈歷程的使用者名稱。
+
+**複製技術詳細資訊**&#x200B;可讓您複製支援團隊可用於疑難排解的歷程相關技術資訊。 會複製下列資訊：JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt。
 
 ![](../assets/journey32.png)
 
