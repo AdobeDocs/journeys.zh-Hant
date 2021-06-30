@@ -2,20 +2,20 @@
 product: adobe campaign
 title: 關於Adobe Experience Platform區段
 description: 了解如何設定Adobe Experience Platform區段
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
 
-# 關於Adobe Experience Platform區段{#about-segments}
+# 關於Adobe Experience Platform區段 {#about-segments}
 
-如果您使用[Adobe Experience Platform分段服務](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)來建立區段，您可以在[!DNL Journey Orchestration]中運用這些區段。 有了專屬的活動活動，您可以根據Adobe Experience Platform區段入口和出口，讓個人進入歷程或前進。 這也可讓您使用簡單或進階運算式編輯器，在歷程中建立複雜條件。
+如果您使用[Adobe Experience Platform分段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)來建立區段，您可以在[!DNL Journey Orchestration]中運用這些區段。 有了專屬的活動活動，您可以根據Adobe Experience Platform區段入口和出口，讓個人進入歷程或前進。 這也可讓您使用簡單或進階運算式編輯器，在歷程中建立複雜條件。
 
 假設您有「銀色客戶」區段。 透過此活動，您可以讓所有新銀級客戶進入歷程，並傳送一系列個人化訊息。 您可以輕鬆根據此區段建立條件。
 
