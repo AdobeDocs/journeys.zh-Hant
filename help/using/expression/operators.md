@@ -2,11 +2,11 @@
 product: adobe campaign
 title: 運算子
 description: 了解進階運算式中的運算子
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: b52c9c0d6486a0b31c1ebe3d6d42a0fb0b708bf1
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 6%
@@ -422,7 +422,7 @@ Datetimeonly可與Datetimeonly進行比較。
 @ is decimal
 ```
 
-## String {#string}
+## 字串 {#string}
 
 ### +
 
@@ -461,7 +461,7 @@ Datetimeonly可與Datetimeonly進行比較。
 
 
 ```
-<expression + <duration>
+<expression> + <duration>
 ```
 
 將持續時間附加至dateTime、dateTimeOnly或持續時間。
