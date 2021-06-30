@@ -2,20 +2,20 @@
 product: adobe campaign
 title: 定義裝載欄位
 description: 了解如何定義裝載欄位
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: 9d385b64-46cd-489b-9c18-352fa2a2dbba
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: '300'
+ht-degree: 4%
 
 ---
 
 # 定義裝載欄位 {#concept_yrw_3qt_52b}
 
-有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱[此頁面](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/home.html)。
+有效負載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 裝載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
 
 1. 從清單中選取XDM架構，然後按一下&#x200B;**[!UICONTROL Payload]**&#x200B;欄位或&#x200B;**[!UICONTROL Edit]**&#x200B;圖示。
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >對於系統產生的事件，**[!UICONTROL eventID]**&#x200B;欄位會自動新增至選取的欄位清單中，以便[!DNL Journey Orchestration]可識別事件。 推送事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 請參閱[本頁](../event/previewing-the-payload.md)。
+   >對於系統產生的事件，**[!UICONTROL eventID]**&#x200B;欄位會自動新增至選取的欄位清單中，以便[!DNL Journey Orchestration]可識別事件。 推送事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 請參閱[此頁面](../event/previewing-the-payload.md)。
 
 1. 選擇完所需欄位後，按一下&#x200B;**[!UICONTROL Save]**&#x200B;或按&#x200B;**[!UICONTROL Enter]**&#x200B;鍵。
 
