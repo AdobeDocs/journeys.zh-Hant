@@ -7,10 +7,10 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 89%
 
 ---
 
@@ -73,10 +73,10 @@ ht-degree: 100%
 
 * [Journey Orchestration 產品頁面](https://www.adobe.com/tw/experience-platform/journey-orchestration.html)
 * [Experience Platform 文件](https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html)
-* [即時客戶個人檔案文件](https://docs.adobe.com/content/help/zh-Hant/experience-platform/profile/home.html)
-* [Experience Cloud XDM 欄位定義](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/home.html)
-* [識別命名空間文件](https://docs.adobe.com/content/help/zh-Hant/experience-platform/identity/home.html)
-* [串流擷取 API](https://docs.adobe.com/content/help/zh-Hant/experience-platform/ingestion/streaming/overview.html)
+* [即時客戶個人檔案文件](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [Experience Cloud XDM 欄位定義](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
+* [識別命名空間文件](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)
+* [串流擷取 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)
 * [Campaign Standard 交易訊息文件](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)
 
 ## 技術教學課程
