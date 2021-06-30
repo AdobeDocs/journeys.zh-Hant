@@ -3,18 +3,18 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 與外部系統整合
 description: 了解整合外部系統時的最佳實務
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 5d2e82c10dd22b5b4bac15a78a2f6f592aedd371
+source-git-commit: 5346c3a25900b1e167ea5b199e1873adab39d07d
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1011'
 ht-degree: 1%
 
 ---
 
-# 與外部系統整合{#external-systems}
+# 與外部系統整合 {#external-systems}
 
 本頁介紹整合外部系統時由Journey Orchestration提供的不同護欄，以及最佳實務：如何使用上限API最佳化對外部系統的保護、如何設定歷程逾時，以及重試的運作方式。
 
@@ -32,7 +32,11 @@ Journey Orchestration可讓您透過自訂資料來源和自訂動作，設定�
 
 ## 限定{#capping}
 
-內建的上限設定API提供上游技術護欄，以協助保護您的外部系統。 您必須事先評估外部API的容量。 例如，如果Journey Orchestration每秒傳送1000次呼叫，而您的系統每秒只能支援100次呼叫，則您需要定義上限規則，使系統不會飽和。
+內建的上限設定API提供上游技術護欄，以協助保護您的外部系統。
+
+若為外部資料來源，則每秒的呼叫數上限設為15。 如果呼叫數超過每秒15次，則會捨棄剩餘的呼叫。 您可以提高私人外部資料來源的此限制。 請連絡Adobe將端點加入白名單。 對於公用外部資料來源，則無法這麼做。
+
+若是自訂動作，您需要評估外部API的容量。 例如，如果Journey Optimizer每秒傳送1000次呼叫，而您的系統每秒僅支援100次呼叫，則您需要定義上限規則，以使您的系統不會飽和。
 
 上限規則是在沙箱層級為特定端點定義（稱為的URL）。 在執行階段，Journey Orchestration會驗證是否定義了上限規則，並在呼叫該端點期間套用所定義的速率。 如果呼叫數超過定義的比率，則會捨棄其餘的呼叫，並計為報告中的錯誤。
 
