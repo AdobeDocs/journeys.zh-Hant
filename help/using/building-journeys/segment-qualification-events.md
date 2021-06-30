@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 區段資格事件
 description: 了解區段資格事件
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,9 @@ ht-degree: 1%
 
 ![](../assets/segment8.png)
 
-## 最佳實務{#best-practices-segments}
+包含區段資格事件的新歷程會在您發佈後10分鐘內運作。 此時間間隔對應於專用服務的快取刷新間隔。 因此，您必須等待10分鐘才能使用此歷程。
+
+## 最佳實務 {#best-practices-segments}
 
 **[!UICONTROL Segment Qualification]**&#x200B;活動可讓從Adobe Experience Platform區段取得資格或取消資格之個人在歷程中立即進入。
 
@@ -90,7 +92,7 @@ ht-degree: 1%
 
 如需串流細分的詳細資訊，請參閱此[page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
-### 如何避免重新載入{#overloads-speed-segment-qualification}
+### 如何避免過載{#overloads-speed-segment-qualification}
 
 以下是一些最佳實務，可協助避免歷程中運用的系統超載(資料來源、自訂動作、Adobe Campaign Standard動作)。
 
