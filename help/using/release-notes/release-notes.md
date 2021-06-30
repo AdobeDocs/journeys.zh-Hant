@@ -6,9 +6,9 @@ feature: 歷程
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
+source-git-commit: e2ff3e9d86aa9f603cf3d66507881d482a95a4a5
 workflow-type: tm+mt
-source-wordcount: '2627'
+source-wordcount: '2625'
 ht-degree: 60%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 60%
 ### 功能改善
 
 * 對於外部資料來源，現在會自動定義每秒15次呼叫的上限規則。 [顯示全文](../about/external-systems.md#capping)
-* 在簡單進階的運算式編輯器中，我們現在支援XDM日期格式。
+* 簡單與進階的運算式編輯器現在支援XDM日期格式。
 * 在歷程清單畫面中，已新增新篩選器。 您現在可以依歷程類型篩選：**[!UICONTROL Unitary event]**&#x200B;或&#x200B;**[!UICONTROL Segment qualification]**。 [顯示全文](../about/user-interface.md#section_lgm_hpz_pgb)
 * 對於即時歷程，歷程屬性畫面現在會顯示發佈日期和發佈歷程的使用者名稱。 複製歷程的技術詳細資訊時，也可使用此資訊。 [顯示全文](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
