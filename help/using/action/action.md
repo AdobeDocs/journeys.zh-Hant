@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 關於動作
 description: 瞭解如何設定動作
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 85%
+source-wordcount: '312'
+ht-degree: 83%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 85%
 
 自訂動作可讓您設定協力廠商系統的連線，以傳送訊息或 API 呼叫。您可以使用任何提供者提供的任何服務來設定動作，這些服務可透過具有 JSON 格式的裝載，透過 REST API 進行呼叫。
 
-這些動作會顯示在您歷程的左側浮動視窗中，位於&#x200B;**[!UICONTROL Action]**&#x200B;類別中。 請參閱[本頁](../building-journeys/about-action-activities.md)。
+這些動作會顯示在您歷程的左側浮動視窗中，位於&#x200B;**[!UICONTROL Action]**&#x200B;類別中。 請參閱[此頁面](../building-journeys/about-action-activities.md)。
 
 >[!NOTE]
 >
@@ -42,4 +42,4 @@ ht-degree: 85%
 
 如果您使用協力廠商系統來傳送訊息，例如 Epsilon、Facebook、Adobe.io、Firebase 等等，則需要新增和設定自訂動作。請參見[此頁面](../action/about-custom-action-configuration.md)。
 
-如需如何設定 [!DNL Journey Orchestration] 的動作，以及如何在歷程中使用動作的詳細資訊，請觀看此[教學課程影片](https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/configure-actions.html)。
+如需如何設定 [!DNL Journey Orchestration] 的動作，以及如何在歷程中使用動作的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-actions.html)。
