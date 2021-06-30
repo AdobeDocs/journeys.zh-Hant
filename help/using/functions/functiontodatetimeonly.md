@@ -2,14 +2,14 @@
 product: adobe campaign
 title: toDateTimeOnly
 description: 了解函式toDateTime
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0c55ece133639ec001b58f73afcbc69787b98c0e
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 12%
+source-wordcount: '56'
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 12%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| ISO-8601格式的日期時間 | 字串 |
+| 日期時間格式為ISO-8601或「YYYY-MM-DD」（XDM日期格式） | 字串 |
 | 日期時間 | dateTime |
 
 ## 簽名和返回的類型
@@ -44,9 +44,9 @@ ht-degree: 12%
 
 ## 範例
 
-`toDateTimeOnly ("2016-08-18T23:17:59.123Z")`
+`toDateTimeOnly ("2016-08-18")`
 
-傳回2016-08-18T23:17:59.123。
+傳回代表2016-08-18T00:00:00.000的dateTime
 
 `toDateTimeOnly(now())`
 
