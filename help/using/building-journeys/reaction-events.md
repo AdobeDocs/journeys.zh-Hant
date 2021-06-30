@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 反應事件
 description: 了解反應事件
-feature: Journeys
+feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '411'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >反應事件無法追蹤在不同歷程中發生的電子郵件、簡訊或推播動作。
 >
->反應事件會追蹤「tracked」類型之連結上的點按次數（請參閱此[page](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)）。 未考慮取消訂閱和鏡像頁面連結。
+>反應事件會追蹤「tracked」類型之連結上的點按次數（請參閱此[page](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)）。 未考慮取消訂閱和鏡像頁面連結。
 
 >[!IMPORTANT]
 >
