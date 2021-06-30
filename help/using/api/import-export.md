@@ -3,10 +3,10 @@ product: adobe campaign
 title: 匯入匯出API說明
 description: 深入了解匯入匯出API。
 products: journeys
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 2%
+source-wordcount: '1123'
+ht-degree: 1%
 
 ---
 
@@ -30,16 +30,16 @@ Journey Orchestration匯出 — 匯入API在[此處](https://adobedocs.github.io
 
 建議您依照下列步驟，匯出和匯入您在不同環境中的歷程：
 
-1. 在您的開始環境中建立歷程並為其參數。 [更多資訊，請前往](https://docs.adobe.com/content/help/zh-Hant/journeys/using/building-journeys/about-journey-building/journey.html)
-1. 檢查歷程版本是否沒有錯誤。 [更多資訊，請前往](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/testing-the-journey.html)
+1. 在您的開始環境中建立歷程並為其參數。 [更多資訊，請前往](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. 檢查歷程版本是否沒有錯誤。 [更多資訊，請前往](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
 1. 呼叫&#x200B;**/list/journeys** API以擷取您最新歷程版本的UID歷程及UID。 如有需要，您可以呼叫&#x200B;**/journeys/`{uid}`/latest**&#x200B;以尋找您最新歷程版本的UID。
 1. 使用您的開始環境參數（orgID和sandboxName）呼叫&#x200B;**export** API。
 1. 開啟傳回的裝載，然後檢查下列項目：
    * 如果您的匯出歷程包含&#x200B;**特定憑證**，則需要將這些憑證取代為與新環境對應的憑證。
-   * 如果您匯出的歷程包含&#x200B;**events**，而該事件指向&#x200B;**XDM架構**，則如果ID值不同，則需要以xdmEntity節點中新環境的架構ID手動更新架構ID參考。 必須針對每個事件完成此更新。 [更多資訊，請前往](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
+   * 如果您匯出的歷程包含&#x200B;**events**，而該事件指向&#x200B;**XDM架構**，則如果ID值不同，則需要以xdmEntity節點中新環境的架構ID手動更新架構ID參考。 必須針對每個事件完成此更新。 [更多資訊，請前往](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * 如果您的歷程包含電子郵件、簡訊或推播動作，如果目標環境中的名稱與啟動環境中的名稱不同，則您可能必須更新範本名稱或mobileApp名稱。
 1. 使用您的目標環境參數（orgID和sandboxName）呼叫&#x200B;**Import** API。 請注意，您可以視需要多次呼叫匯入API。 每次呼叫匯入API時，歷程中所包含的每個物件名稱都會產生。
-1. 匯入歷程後，您就可以在Journey Orchestration應用程式中發佈它。 更多資訊[此處](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/publishing-the-journey.html)
+1. 匯入歷程後，您就可以在Journey Orchestration應用程式中發佈它。 更多資訊[此處](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## 驗證
