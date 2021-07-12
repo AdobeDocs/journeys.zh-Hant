@@ -7,9 +7,9 @@ feature: 歷程
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 5346c3a25900b1e167ea5b199e1873adab39d07d
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1012'
 ht-degree: 1%
 
 ---
@@ -68,13 +68,13 @@ Journey Orchestration可讓您透過自訂資料來源和自訂動作，設定�
    * 如果三次重試之一在5秒結束前成功，則會執行呼叫，且沒有錯誤。
    * 如果重試期間達到逾時期間的結尾，呼叫會取消，並計為報表中的逾時錯誤。
 
-## 常見問題{#faq}
+## 常見問答{#faq}
 
 **如何設定上限規則？是否有預設上限規則？**
 
 預設沒有上限規則。 上限規則是在沙箱層級使用上限設定API為特定端點（稱為的URL）定義。 請參閱[本區段](../about/external-systems.md#capping)和[本頁面](../api/capping.md)。
 
-**執行了多少次重試？我可以變更重試次數或定義兩次重試之間的分鐘等待期間嗎？**
+**執行了多少次重試？我可以變更重試次數或定義兩次重試之間的最低等待時間嗎？**
 
 對於指定呼叫，在首次呼叫後最多可執行三次重試，直到達到逾時期間的結尾。 無法更改重試次數和每次重試之間的時間。 請參閱[本節](../about/external-systems.md#timeout)。
 
