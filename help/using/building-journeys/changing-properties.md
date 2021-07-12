@@ -6,7 +6,7 @@ feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
-source-git-commit: 58891c1bddd8fb9b0ae247d54be5cf1d7c40b9a8
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ## 全域歷程逾時 {#global_timeout}
 
-除了歷程活動中使用的[timeout](#timeout_and_error)，還有一個全域歷程逾時，不會顯示在介面中，且無法變更。 此逾時會在個人進入後30天停止歷程中的進度。 這表示個人的歷程不能持續超過30天。 在30天逾時期間後，會刪除個人的資料。 在逾時期間結束時仍在歷程中流動的個人將會停止，並會將其視為報表中的錯誤列入考量。
+除了歷程活動中使用的[timeout](#timeout_and_error)，還有全域歷程逾時（不會顯示在介面中且無法變更）。 此逾時會在個人進入後30天停止歷程中的進度。 這表示個人的歷程不能持續超過30天。 在30天逾時期間後，會刪除個人的資料。 在逾時期間結束時仍在歷程中流動的個人將會停止，並會將其視為報表中的錯誤列入考量。
 
 >[!NOTE]
 >
