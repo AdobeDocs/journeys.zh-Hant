@@ -6,7 +6,7 @@ feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 1%
@@ -50,7 +50,7 @@ ht-degree: 1%
 
    ![](../assets/segment-copy.png)
 
-1. 在&#x200B;**[!UICONTROL Behaviour]**&#x200B;欄位中，選擇您要監聽區段入口、出口或兩者。
+1. 在&#x200B;**[!UICONTROL Behaviour]**&#x200B;欄位中，選擇您要監聽區段入口、出口還是兩者。
 
    >[!NOTE]
    >
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 包含區段資格事件的新歷程會在您發佈後10分鐘內運作。 此時間間隔對應於專用服務的快取刷新間隔。 因此，您必須等待10分鐘才能使用此歷程。
 
-## 最佳實務 {#best-practices-segments}
+## 最佳做法 {#best-practices-segments}
 
 **[!UICONTROL Segment Qualification]**&#x200B;活動可讓從Adobe Experience Platform區段取得資格或取消資格之個人在歷程中立即進入。
 
