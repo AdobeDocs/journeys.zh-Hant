@@ -6,7 +6,7 @@ feature: 歷程
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 2%
@@ -180,7 +180,7 @@ curl -X POST \
 
 * _Id_:歷程中的個人內部ID。這可用於偵錯用途。
 * _currentstep_:個人在歷程中的步驟。建議您在活動中新增標籤，以便更輕鬆地加以識別。
-* _currentstep_  > phase:個人歷程的狀態（執行中、完成、錯誤或逾時）。如需詳細資訊，請參閱下方。
+* _currentstep_  > phase:個人歷程的狀態（執行中、完成、錯誤或逾時）。請參閱參下方瞭解詳情。
 * _currentstep_  >  _extraInfo_:錯誤的說明和其他內容資訊。
 * _currentstep_  >  _fetchErrors_:有關此步驟期間發生的擷取資料錯誤的資訊。
 * _externalKeys_:在事件中定義的鍵公式值。
