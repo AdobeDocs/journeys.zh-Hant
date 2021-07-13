@@ -2,11 +2,11 @@
 product: adobe campaign
 title: 歷程版本
 description: 了解歷程版本
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 歷程版本{#concept_ldc_k55_zgb}
 
-在歷程清單中，所有歷程版本都會以版本號碼顯示。 請參閱[本頁](../building-journeys/using-the-journey-designer.md)。當您搜尋歷程時，最新版本會在首次開啟應用程式時出現在清單頂端。 然後，您可以定義所要的排序，而應用程式會將其保留為使用者偏好設定。 歷程的版本也會顯示在歷程版本介面的頂端、畫布上方。
+在歷程清單中，所有歷程版本都會以版本號碼顯示。 請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。當您搜尋歷程時，最新版本會在首次開啟應用程式時出現在清單頂端。 然後，您可以定義所要的排序，而應用程式會將其保留為使用者偏好設定。 歷程的版本也會顯示在歷程版本介面的頂端、畫布上方。
 
 ![](../assets/journeyversions1.png)
 
