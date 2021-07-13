@@ -4,13 +4,13 @@ title: 設定API說明上限
 description: 進一步了解上限API。
 products: journeys
 feature: 歷程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: e42ef98b1d84d8311cf49967ec75ec9be6cc53f1
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->若要在Adobe I/O中管理憑證，請確定您在組織上擁有<b>系統管理員</b>權限，或在管理控制台中擁有[開發人員帳戶](https://helpx.adobe.com/enterprise/using/manage-developers.html)權限。
+>若要在Adobe I/O中管理憑證，請確定您在組織上擁有<b>系統管理員</b>權限，或在管理控制台中擁有[開發人員帳戶](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html)權限。
 
 1. **檢查您是否擁有數位憑證**，或視需要建立憑證。下列步驟需要憑證隨附的公開金鑰和私密金鑰。
 1. **建立ServiceinAdobe I/O的 [!DNL Journey Orchestration]** 新整合併加以設定。[!DNL Journey Orchestration]和Adobe Experience Platform需要產品設定檔存取權。 接著會產生您的認證（API金鑰、用戶端密碼……）。
@@ -113,7 +113,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 }
 ```
 
-### 範例:
+### 範例：
 
 ```
 `{
@@ -169,18 +169,18 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 為協助您進行測試和設定，可在[此處](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)取得Postman集合。
 
-此Postman集合已設定為共用透過&#x200B;__[Adobe I/O控制台的Integrations](https://console.adobe.io/integrations) > Try it out > Download for Postman__&#x200B;產生的Postman變數集合，此集合會產生包含所選整合值的Postman環境檔案。
+此Postman集合已設定為共用透過&#x200B;__[Adobe I/O控制台的Integrations](https://console.adobe.io/tw/integrations) > Try it out > Download for Postman__&#x200B;產生的Postman變數集合，此集合會產生包含所選整合值的Postman環境檔案。
 
 下載並上傳至Postman後，您需要新增三個變數：`{JO_HOST}`、`{Base_Path}`和`{SANDBOX_NAME}`。
 * `{JO_HOST}` : [!DNL Journey Orchestration] 網關URL
 * `{BASE_PATH}` :API的進入點。值為「/authoring」
-* `{SANDBOX_NAME}` :與 **執行API作業的沙箱名稱** （例如&#39;prod&#39;）對應的標頭x-sandbox-name。如需詳細資訊，請參閱[沙箱概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) 。
+* `{SANDBOX_NAME}` :與 **執行API作業的沙箱名稱** （例如&#39;prod&#39;）對應的標頭x-sandbox-name。如需詳細資訊，請參閱[沙箱概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant) 。
 
 在下節中，您會找到Rest API呼叫排序清單以執行使用案例。
 
 使用案例n°1:**建立和部署新的上限設定**
 
-1. 清單
+1. list
 1. 建立
 1. candeploy
 1. 部署
