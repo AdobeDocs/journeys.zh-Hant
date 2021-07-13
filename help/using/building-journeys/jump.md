@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 從一個歷程跳到另一個歷程
 description: 從一個歷程跳到另一個歷程
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->另請參閱教學課程影片[這裡](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
+>另請參閱教學課程影片[這裡](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hant)
 
 ## 生命週期
 
@@ -48,7 +48,7 @@ ht-degree: 3%
 >
 >歷程B也可透過外部事件觸發。
 
-## 最佳實務和限制
+## 最佳做法和限制
 
 ### 製作
 
