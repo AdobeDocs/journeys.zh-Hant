@@ -2,18 +2,18 @@
 product: adobe campaign
 title: 使用 Adobe Campaign 動作
 description: 了解Adobe Campaign動作
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# 使用Adobe Campaign Standard {#using_campaign_action}
+# 使用 Adobe Campaign Standard {#using_campaign_action}
 
 如果您有Adobe Campaign Standard，則可使用下列現成可用的動作活動：**[!UICONTROL Email]**、**[!UICONTROL Push]**&#x200B;和&#x200B;**[!UICONTROL SMS]**。
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >
 >為此，您需要設定內建動作。 請參見[此頁面](../action/working-with-adobe-campaign.md)。
 
-對於這些通道，請選擇Adobe Campaign Standard交易式消息&#x200B;**template**。 事實上，[!DNL Journey Orchestration]不是訊息傳送解決方案。 對於內建的電子郵件、簡訊和推播通道，我們依賴交易式訊息來執行訊息傳送。 這表示，如果您想在歷程中使用特定訊息範本，必須在Adobe Campaign Standard中發佈。 請參閱[本頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)以了解如何使用此功能。
+對於這些通道，請選擇Adobe Campaign Standard交易式消息&#x200B;**template**。 事實上，[!DNL Journey Orchestration]不是訊息傳送解決方案。 對於內建的電子郵件、簡訊和推播通道，我們依賴交易式訊息來執行訊息傳送。 這表示，如果您想在歷程中使用特定訊息範本，必須在Adobe Campaign Standard中發佈。 請參閱[本頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)以了解如何使用此功能。
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ ht-degree: 3%
 >
 >當我們傳送即時交易式訊息(rtEvent)，或當我們透過協力廠商系統透過自訂動作傳送訊息時，需要特定設定才能進行疲勞、封鎖清單或取消訂閱管理。 例如，如果「取消訂閱」屬性儲存在Adobe Experience Platform或協力廠商系統中，則必須在訊息傳送前新增條件，以檢查此條件。
 
-選取範本時，訊息裝載中預期的所有欄位會顯示在&#x200B;**[!UICONTROL Address]**&#x200B;和&#x200B;**[!UICONTROL Personalization Data]**&#x200B;下的活動設定窗格中。 您需要將每個欄位對應至您要使用的欄位，不論是來自事件或來自資料來源。 您也可以使用進階運算式編輯器手動傳遞值、對擷取的資訊執行資料處理（例如將字串轉換為大寫），或使用「if,then, else」等函式。 請參閱[本頁](../expression/expressionadvanced.md)。
+選取範本時，訊息裝載中預期的所有欄位會顯示在&#x200B;**[!UICONTROL Address]**&#x200B;和&#x200B;**[!UICONTROL Personalization Data]**&#x200B;下的活動設定窗格中。 您需要將每個欄位對應至您要使用的欄位，不論是來自事件或來自資料來源。 您也可以使用進階運算式編輯器手動傳遞值、對擷取的資訊執行資料處理（例如將字串轉換為大寫），或使用「if,then, else」等函式。 請參閱[此頁面](../expression/expressionadvanced.md)。
 
 ![](../assets/journey60.png)
 
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 有兩個類別可供使用：**[!UICONTROL Address]**&#x200B;和&#x200B;**[!UICONTROL Personalization Data]**。
 
-您可以使用介面輕鬆定義檢索&#x200B;**[!UICONTROL Address]**&#x200B;或&#x200B;**[!UICONTROL Personalization Data]**&#x200B;的位置。 您可以瀏覽事件和可用資料來源的欄位。 您也可以使用進階運算式編輯器來執行更進階的使用案例，例如使用需要傳遞參數或執行操作的資料來源。 請參閱[本頁](../expression/expressionadvanced.md)。
+您可以使用介面輕鬆定義檢索&#x200B;**[!UICONTROL Address]**&#x200B;或&#x200B;**[!UICONTROL Personalization Data]**&#x200B;的位置。 您可以瀏覽事件和可用資料來源的欄位。 您也可以使用進階運算式編輯器來執行更進階的使用案例，例如使用需要傳遞參數或執行操作的資料來源。 請參閱[此頁面](../expression/expressionadvanced.md)。
 
 **[!UICONTROL Address]**
 
@@ -77,7 +77,7 @@ ht-degree: 3%
 
 使用推播活動之前，您的行動應用程式必須與Campaign Standard一起設定，才能傳送推播通知。 使用此[文章](https://helpx.adobe.com/tw/campaign/kb/integrate-mobile-sdk.html)為行動裝置執行必要的實作步驟。
 
-首先，您必須從下拉式清單和交易式訊息中選擇行動應用程式。 請參閱[本頁](../building-journeys/about-action-activities.md)。
+首先，您必須從下拉式清單和交易式訊息中選擇行動應用程式。 請參閱[此頁面](../building-journeys/about-action-activities.md)。
 
 ![](../assets/journey62bis.png)
 
