@@ -2,11 +2,11 @@
 product: adobe campaign
 title: 設定事件
 description: 了解如何為歷程進階使用案例設定事件
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 7%
@@ -47,10 +47,10 @@ ht-degree: 7%
 
    ![](../assets/journeyuc2_4bis.png)
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下「**[!UICONTROL Save]**」。
 
 1. 按一下&#x200B;**[!UICONTROL View Payload]**&#x200B;圖示可預覽系統預期的有效負載，並將其共用給負責事件傳送的人員。  此裝載需在Mobile Services管理控制台的回傳中設定。
 
    ![](../assets/journeyuc2_5.png)
 
-同樣地，建立「RestaurantBeacon」事件。 系統會建立您的兩個信標事件，現在可用於歷程中。 您現在需要設定行動應用程式，以便將預期的裝載傳送至串流獲取API端點。 請參閱[本頁](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+同樣地，建立「RestaurantBeacon」事件。 系統會建立您的兩個信標事件，現在可用於歷程中。 您現在需要設定行動應用程式，以便將預期的裝載傳送至串流獲取API端點。 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
