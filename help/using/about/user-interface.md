@@ -3,13 +3,13 @@ product: adobe campaign
 title: 使用者介面
 description: 深一步瞭解使用者介面
 feature: 歷程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: e09b49372f217a2e77504046ddf11e04a4c2b364
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1015'
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 >
 >若要充分利用 [!DNL Journey Orchestration] 的功能，我們建議使用 Chrome 作為網際網路瀏覽器。介面會以 IMS 中定義的語言顯示。如果 [!DNL Journey Orchestration] 不支援您的 IMS 語言，介面則會以英文顯示。
 >
->本文件會經常更新以反映產品最近的異動。不過，有些螢幕擷取畫面可能會與產品的介面稍有不同。
+>本文件將經常更新，以反應產品近期異動。不過，有些螢幕擷取畫面可能會與產品的介面稍有不同。
 
 ## 存取 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
@@ -77,7 +77,7 @@ ht-degree: 89%
 
 定義[事件有效負載](../event/defining-the-payload-fields.md)、[欄位群組有效負載](../datasource/field-groups.md)，以及在[運算式編輯器](../expression/expressionadvanced.md)中選取欄位時，除了欄位名稱外，還會顯示顯示名稱。此資訊會從「Experience 資料模型」的結構定義中擷取。
 
-如果在設定結構時提供了 &quot;xdm:alternateDisplayInfo&quot; 之類的描述元，則好記的名稱會取代顯示名稱。它在使用 “eVars” 和一般欄位時特別有用。您可以透過 API 呼叫來設定好記的名稱描述元。如需詳細資訊，請參閱 [Schema Registry 開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
+如果在設定結構時提供了 &quot;xdm:alternateDisplayInfo&quot; 之類的描述元，則好記的名稱會取代顯示名稱。它在使用 “eVars” 和一般欄位時特別有用。您可以透過 API 呼叫來設定好記的名稱描述元。如需詳細資訊，請參閱 [Schema Registry 開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)。
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -138,7 +138,7 @@ _在歷程的畫布中：_
 
 _在歷程中：_
 
-* 按&#x200B;**T**&#x200B;以啟用/停用測試模式。
-* 在測試模式中的事件型歷程中，按下&#x200B;**E**&#x200B;以觸發事件。
-* 在以區段為基礎的歷程中，當在測試模式中選取「一次&#x200B;**單一設定檔**」選項時，按下&#x200B;**P**&#x200B;以觸發事件。
-* 在測試模式中，按&#x200B;**L**&#x200B;以顯示日誌。
+* 按下 **T** 以啟用／停用測試模式。
+* 在測試模式中的事件型歷程中，按下 **E** 以觸發事件。
+* 在以區段為基礎的歷程中，當在測試模式中選取&#x200B;**「單一設定檔」**&#x200B;選項時，按下 **P** 以觸發事件。
+* 在測試模式下，按 **L** 以顯示記錄。
