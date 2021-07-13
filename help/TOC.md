@@ -4,11 +4,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
-feature: Journeys
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+feature: 歷程
+source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 # [!DNL Journey Orchestration] 指南 {#using}
 
 + [產品文件](journey-orchestration-home.md)
-+ 新增功能 {#release-notes}
++ 新功能 {#release-notes}
    + [發行說明](using/release-notes/release-notes.md)
    + [文件更新](using/release-notes/documentation-updates.md)
 + 開始使用 [!DNL Journey Orchestration] {#starting-with-journeys}
@@ -28,12 +28,12 @@ ht-degree: 100%
    + [疑難排解](using/about/troubleshooting.md)
    + [與外部系統整合](using/about/external-systems.md)
 + 設定事件 {#events-journeys}
-   + 關於事件{#about-events}
+   + 關於事件 {#about-events}
       + [一般原則](using/event/about-events.md)
       + [資料週期](using/event/about-data-cycle.md)
       + [建立事件](using/event/about-creating.md)
       + [善用 Adobe Analytics](using/event/about-analytics.md)
-      + [關於 ExperienceEvent 綱要](using/event/experience-event-schema.md)
+      + [關於 ExperienceEvent 方案](using/event/experience-event-schema.md)
       + [傳送事件的其他步驟](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [定義裝載欄位](using/event/defining-the-payload-fields.md)
    + [選取命名空間](using/event/selecting-the-namespace.md)
@@ -53,8 +53,8 @@ ht-degree: 100%
       + [關於自訂動作組態](using/action/about-custom-action-configuration.md)
       + [URL 組態](using/action/url-configuration.md)
       + [定義訊息參數](using/action/defining-the-message-parameters.md)
-+ 使用 Platform 區段 {#configuring-segment}
-   + [關於 Platform 區段](using/segment/about-segments.md)
++ 使用區段{#configuring-segment}
+   + [關於區段](using/segment/about-segments.md)
    + [建立區段](using/segment/creating-a-segment.md)
    + [在條件中使用區段](using/segment/using-a-segment.md)
 + 建立歷程 {#building-journeys}
@@ -70,7 +70,7 @@ ht-degree: 100%
       + 事件活動 {#events-activities}
          + [關於事件活動](using/building-journeys/event-activities.md)
          + [一般事件](using/building-journeys/general-events.md)
-         + [反應事件](using/building-journeys/reaction-events.md)
+         + [反應 events](using/building-journeys/reaction-events.md)
          + [區段資格事件](using/building-journeys/segment-qualification-events.md)
       + 協調活動 {#orchestration-activities}
          + [關於協調活動](using/building-journeys/about-orchestration-activities.md)
@@ -101,10 +101,10 @@ ht-degree: 100%
       + [資料類型](using/expression/data-types.md)
       + [欄位參考](using/expression/field-references.md)
       + [收集管理函式](using/expression/collection-management-functions.md)
-      + [運算子](using/expression/operators.md)
+      + [操作者](using/expression/operators.md)
       + [歷程屬性](using/expression/journey-properties.md)
       + [範例](using/expression/advanced-editor-use-cases.md)
-   + 函式 {#main-functions-journey}
+   + 函數 {#main-functions-journey}
       + [主要函式](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
          + [inSegment](using/functions/functioninsegment.md)
@@ -126,7 +126,7 @@ ht-degree: 100%
          + [toDuration](using/functions/functiontoduration.md)
          + [toInteger](using/functions/functiontointeger.md)
          + [toString](using/functions/functiontostring.md)
-      + 日期 {#date}
+      + Date {#date}
          + [currentTime&#x200B;InMillis](using/functions/functioncurrenttimeinmillis.md)
          + [inLastDays](using/functions/functioninlastdays.md)
          + [inLastHours](using/functions/functioninlasthours.md)
@@ -140,15 +140,15 @@ ht-degree: 100%
          + [nowWithDelta](using/functions/functionnowwithdelta.md)
          + [setHours](using/functions/functionsethours.md)
          + [setDays](using/functions/functionsetdays.md)
-      + 清單{#list}
+      + 清單 {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
          + [getListItem](using/functions/functiongetlistitem.md)
-         + [in](using/functions/functionin.md)
+         + [在 ](using/functions/functionin.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
-      + 數學 {#math}
+      + Math {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
       + 字串 {#string}
@@ -178,11 +178,11 @@ ht-degree: 100%
 + 建立報告{#journey-reports}
    + [關於歷程報告](using/reporting/about-journey-reports.md)
    + [建立您的歷程報告](using/reporting/creating-your-journey-reports.md)
-   + [量度與維度](using/reporting/metrics-and-dimensions.md)
+   + [度量和維度](using/reporting/metrics-and-dimensions.md)
 + 與智慧型服務整合{#use-case-advanced}
    + [關於 AI 整合](using/ai-services/ai-services-overview.md)
    + [善用客戶 AI](using/ai-services/leveraging-customer-ai.md)
-+ 使用案例{#use-cases-journeys}
++ 使用實例{#use-cases-journeys}
    + 傳送個人化電子郵件{#use-case-simple}
       + [關於簡單使用案例](using/usecase/about-the-simple-use-case.md)
       + [設定事件](using/usecase/configuring-the-event.md)
