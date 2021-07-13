@@ -2,18 +2,18 @@
 product: adobe campaign
 title: journeysteps事件常用欄位
 description: journeysteps事件常用欄位
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# journeysteps事件公用欄位{#sharing-common-fields}
+# journeysteps事件常用欄位 {#sharing-common-fields}
 
 此混合將由journeyStepEvent和journeyStepProfileEvent共用。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 指出使用者是否已進入歷程。 若不存在，我們會假設值為false。
 
-類型：布林值
+類型: 布林值
 
 值：true/false
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 指出使用者是否已使用相同例項重新進入歷程。 若不存在，我們會假設值為false。
 
-類型：布林值
+類型: 布林值
 
 值：true/false
 
@@ -41,37 +41,37 @@ ht-degree: 0%
 
 指出執行個體是否已結束（成功或未成功）。
 
-類型：布林值
+類型: 布林值
 
 ## eventID
 
 處理中的事件ID，用於步驟處理。 如果事件為外部事件，則值為其eventId。 如果事件是內部事件，則值為內部eventId（例如scheduledNotificationReceived、executedAction等）。
 
-類型：字串
+類型: 字串
 
 ## nodeID
 
 用戶端節點id（來自畫布）。
 
-類型：字串
+類型: 字串
 
 ## stepID
 
 目前正在處理之步驟的唯一ID。
 
-類型：字串
+類型: 字串
 
 ## stepName
 
 目前正在處理的步驟名稱。
 
-類型：字串
+類型: 字串
 
 ## stepType
 
 步驟的類型。
 
-類型：字串
+類型: 字串
 
 可能的值：
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 完成處理時（和引發步驟事件），步驟的狀態代表步驟的狀態。
 
-類型：字串
+類型: 字串
 
 狀態可以是：
 
@@ -99,67 +99,67 @@ ht-degree: 0%
 
 歷程ID。
 
-類型：字串
+類型: 字串
 
 ## journeyVersionID
 
 歷程版本ID。 此id代表歷程的身分參考，若為journeyStepEvent。
 
-類型：字串
+類型: 字串
 
 ## journeyVersionName
 
 歷程版本名稱。
 
-類型：字串
+類型: 字串
 
 ## journeyVersion
 
 歷程版本。
 
-類型：字串
+類型: 字串
 
 ## instanceID
 
 歷程例項的內部ID。
 
-類型：字串
+類型: 字串
 
 ## externalKey
 
 從事件擷取的外部金鑰加以處理。
 
-類型：字串
+類型: 字串
 
 ## parentStepID
 
 執行個體中目前已處理步驟的父項的步驟ID。
 
-類型：字串
+類型: 字串
 
 ## parentStepName
 
 當前步驟的父級的步驟名。
 
-類型：字串
+類型: 字串
 
 ## parentTransitionID
 
 將執行個體帶至已處理步驟的轉變ID。
 
-類型：字串
+類型: 字串
 
 ## parentTransitionName
 
 將執行個體帶至已處理步驟的轉變名稱。
 
-類型：字串
+類型: 字串
 
 ## inTest
 
 指出此歷程是否處於測試模式。
 
-類型：布林值
+類型: 布林值
 
 ## processingTime
 
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 指示實例類型（如果為批或單一）。
 
-類型：字串
+類型: 字串
 
 值：批次/單一
 
@@ -185,22 +185,22 @@ ht-degree: 0%
 
 指出此單一例項是否已從批次例項觸發。
 
-類型：布林值
+類型: 布林值
 
 ## batchExternalKey
 
 批次事件的外部索引鍵。
 
-類型：字串
+類型: 字串
 
 ## batchInstanceID
 
 這是批次執行個體ID。
 
-類型：字串
+類型: 字串
 
 ## batchUnigalBranchID
 
 如果例項是從批次例項觸發，則為單一分支ID。
 
-類型：字串
+類型: 字串
