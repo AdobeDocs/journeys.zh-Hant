@@ -3,10 +3,10 @@ product: adobe campaign
 title: 關於動作
 description: 瞭解如何設定動作
 feature: 歷程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 83%
