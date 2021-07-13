@@ -2,11 +2,11 @@
 product: adobe campaign
 title: 設定資料來源
 description: 了解如何為歷程的簡單使用案例設定資料來源
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 87f63d7d-b7d9-4243-a5ce-8948939f3d93
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 7%
@@ -30,6 +30,6 @@ ht-degree: 7%
    * _人員>性別_
    * _個人電子郵件>地址_
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下「**[!UICONTROL Save]**」。
 
 資料來源現在已設定完畢，且可供您在歷程中使用。
