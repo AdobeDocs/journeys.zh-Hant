@@ -3,22 +3,22 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 使用Adobe Campaign v7/v8動作
 description: 了解Adobe Campaign v7/v8動作
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: b2439788ef547b401dea64faf46d4398b9a1a0c7
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
-# 使用Adobe Campaign v7/v8 {#using_campaign_classic}
+# 使用 Adobe Campaign v7/v8 {#using_campaign_classic}
 
 如果您有Adobe Campaign v7或v8，則可使用整合。 它可讓您使用Adobe Campaign交易訊息功能來傳送電子郵件、推播通知和簡訊。
 
-Journey Orchestration與促銷活動例項之間的連線是在布建時Adobe所設定。 聯繫Adobe。
+Journey Orchestration 與 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。聯繫Adobe。
 
 若要讓此功能發揮作用，您需要設定專用的動作。 請參閱此[節](../action/acc-action.md)。
 
