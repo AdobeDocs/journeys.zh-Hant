@@ -2,14 +2,14 @@
 product: adobe campaign
 title: journeyStep 事件識別欄位
 description: journeyStep 事件識別欄位
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 9c0ff38f-51dd-40bd-8c19-d142b9c23308
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 21%
+ht-degree: 28%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 21%
 
 設定檔識別碼
 
-類型：字串
+類型: 字串
 
 ## profileNamespace
 
 設定檔識別碼命名空間
 
-類型：字串
+類型: 字串
