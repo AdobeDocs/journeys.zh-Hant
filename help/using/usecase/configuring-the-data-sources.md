@@ -2,11 +2,11 @@
 product: adobe campaign
 title: 設定資料來源
 description: 了解如何為歷程進階使用案例設定資料來源
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 14%
@@ -37,7 +37,7 @@ ht-degree: 14%
 
    ![](../assets/journeyuc2_7.png)
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下「**[!UICONTROL Save]**」。
 
 我們還需要檢查該人在酒店預訂系統中是否有預訂。 **技術使用者**&#x200B;需要設定第二個資料來源以擷取此欄位。
 
@@ -71,6 +71,6 @@ ht-degree: 14%
 
    ![](../assets/journeyuc2_11.png)
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下「**[!UICONTROL Save]**」。
 
    資料來源現在已設定完畢，且可供您在歷程中使用。
