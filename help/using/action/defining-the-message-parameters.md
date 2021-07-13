@@ -2,11 +2,11 @@
 product: adobe campaign
 title: 定義訊息參數
 description: 了解如何定義訊息參數
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 1251eafcfe7487c3df01b412f17706f5ed6c6836
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 4%
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->裝載中的欄位名稱不能包含「。」 字元。
+>裝載中的欄位名稱不能包含「。」 字元.
 
 您將能定義參數類型(例如：字串、整數等)。
 
