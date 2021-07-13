@@ -2,11 +2,11 @@
 product: adobe campaign
 title: 結束活動
 description: 了解結束活動
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: c2352bbe-f6a3-4815-9c43-2e170b3ba84c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 13%
@@ -15,6 +15,6 @@ ht-degree: 13%
 
 # 結束活動{#section_vqp_4ft_dgb}
 
-**[!UICONTROL End]**&#x200B;活動可讓您標籤歷程的每個路徑的結尾。 這不是強制性的，但建議使用，以便於視覺清晰度。 事實上，如果歷程有數個結束活動，建議您在每個結尾新增標籤，讓報表更容易閱讀。 請參閱[本頁](../reporting/about-journey-reports.md)。
+**[!UICONTROL End]**&#x200B;活動可讓您標籤歷程的每個路徑的結尾。 這不是強制性的，但建議使用，以便於視覺清晰度。 事實上，如果歷程有數個結束活動，建議您在每個結尾新增標籤，讓報表更容易閱讀。 請參閱[此頁面](../reporting/about-journey-reports.md)。
 
 ![](../assets/journey54.png)
