@@ -2,14 +2,14 @@
 product: adobe campaign
 title: '關於Journey Orchestration事件的ExperienceEvent結構 '
 description: '了解Journey Orchestration事件的ExperienceEvent結構 '
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    ![](../assets/schema3.png)
 
-* 宣告身分欄位，以識別事件的主題。 如果未指定身份，則可以使用身份映射。 不建議使用。
+* 宣告身分欄位，以識別事件的主題。 如果未指定身份，則可以使用身份映射。 不建議採用此做法。
 
    ![](../assets/schema4.png)
 
