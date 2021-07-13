@@ -3,10 +3,10 @@ product: adobe campaign
 title: 關於資料來源
 description: '瞭解如何設定資料來源 '
 feature: 歷程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 79%
@@ -50,10 +50,10 @@ ht-degree: 79%
 
    ![](../assets/journey18.png)
 
-1. 然後，您可以將欄位群組新增至內建的資料來源（請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)），或建立新的外部資料來源（請參閱[此頁面](../datasource/external-data-sources.md)）和相關的欄位群組（請參閱[此頁面](../datasource/field-groups.md)）。
+1. 然後，您可以將欄位群組新增至內建的資料來源（請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)），或建立新的外部資料來源（請參閱[此頁面](../datasource/external-data-sources.md)）和相關聯的欄位群組（請參閱[此頁面](../datasource/field-groups.md)）。
 
    ![](../assets/journey23.png)
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下「**[!UICONTROL Save]**」。
 
    資料來源現在已設定完畢，且可供您在歷程中使用。
