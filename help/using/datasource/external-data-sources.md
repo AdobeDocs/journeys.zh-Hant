@@ -2,11 +2,11 @@
 product: adobe campaign
 title: '外部資料來源 '
 description: '瞭解如何設定外部資料來源 '
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 99%
@@ -71,7 +71,7 @@ ht-degree: 99%
 * **[!UICONTROL Method]**：選取 POST 或 GET 方法。在本例中，我們選取 GET 方法。
 * **[!UICONTROL Cache duration]**：在本例中，我們希望每 10 分鐘快取氣象一次。
 * **[!UICONTROL Response Payload]**：在 **[!UICONTROL Payload]** 欄位內按一下，並貼上呼叫傳回之有效負載的範例。例如，我們使用了氣象 API 網站上找到的有效負載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，您可以按一下 **[!UICONTROL Paste a new payload]**，以變更目前已傳遞的有效負載。
-* **[!UICONTROL Dynamic Values]**：在本例中，輸入以逗號分隔的不同參數，即 &quot;long,lat&quot;。由於參數值視執行內容而定，因此它們會在歷程中定義。請參閱[本頁](../expression/expressionadvanced.md)。
+* **[!UICONTROL Dynamic Values]**：在本例中，輸入以逗號分隔的不同參數，即 &quot;long,lat&quot;。由於參數值視執行內容而定，因此它們會在歷程中定義。請參閱[此頁面](../expression/expressionadvanced.md)。
 * **[!UICONTROL Sent Payload]**：我們的範例不會出現此欄位，只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的有效負載。
 
 若是 GET 呼叫所需的參數，您會在 **[!UICONTROL Dynamic Values]** 欄位中輸入參數，系統就會在呼叫結束時自動新增這些參數。若是 POST 呼叫，您需要：
@@ -85,7 +85,7 @@ ht-degree: 99%
 
 ![](../assets/journey29.png)
 
-按一下 **[!UICONTROL Save]**。
+按一下「**[!UICONTROL Save]**」。
 
 資料來源現在已設定完畢，且可供您在歷程中使用，例如在您的條件或個人化電子郵件中。如果溫度超過 30°C，您可以決定傳送特定通訊。
 
