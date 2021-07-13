@@ -2,22 +2,22 @@
 product: adobe campaign
 title: 關於Campaign v7/v8整合
 description: 了解Campaign v7/v8整合
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# 使用Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
+# 使用 Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
 此整合適用於從21.1版開始的Adobe Campaign Classic v7和Adobe Campaign v8。 它可讓您使用Adobe Campaign交易訊息功能來傳送電子郵件、推播通知和簡訊。
 
-Journey Orchestration與促銷活動例項之間的連線是在布建時Adobe所設定。
+Journey Orchestration 與 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。
 
 此[section](../usecase/campaign-classic-use-case.md)中顯示了端到端使用案例。
 
@@ -39,9 +39,9 @@ Journey Orchestration與促銷活動例項之間的連線是在布建時Adobe所
 
 在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging)。
 
-您可以依照下列模式，建立與每個訊息對應的JSON裝載。 接著，您會在Journey Orchestration中設定動作時貼上此裝載（請參閱下方）
+您可以依照下列模式，建立與每個訊息對應的JSON裝載。 然後您會在Journey Orchestration中設定動作時貼上此裝載（請參閱下方）
 
-以下是範例：
+其範例如下：
 
 ```
 {
