@@ -2,11 +2,11 @@
 product: adobe campaign
 title: 等待活動
 description: 了解等候活動
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 4%
@@ -51,13 +51,13 @@ ht-degree: 4%
 
 ## 自訂等待{#custom}
 
-此選項可讓您根據來自事件或資料來源的欄位，使用進階運算式來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱[本頁](../expression/expressionadvanced.md)。如需dateTimeOnly格式的詳細資訊，請參閱[此頁面](../expression/data-types.md)。
+此選項可讓您根據來自事件或資料來源的欄位，使用進階運算式來定義自訂日期，例如2020年7月12日下午5點。 它不會讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱[此頁面](../expression/expressionadvanced.md)。如需dateTimeOnly格式的詳細資訊，請參閱[此頁面](../expression/data-types.md)。
 
 >[!NOTE]
 >
->您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06Z。
+>您可以運用dateTimeOnly運算式，或使用函式來轉換為dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位為2016-08-12T09:46:06Z格式。
 >
->歷程的屬性中會預期&#x200B;**時區**。 因此，今天無法從介面直接指向完整的ISO-8601時間戳，混合時間和時區偏移，如2016-08-12T09:46:06.982-05。 請參閱[本頁](../building-journeys/timezone-management.md)。
+>歷程的屬性中會預期&#x200B;**時區**。 因此，今天無法從介面直接指向完整的ISO-8601時間戳，混合時間和時區偏移，如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 
