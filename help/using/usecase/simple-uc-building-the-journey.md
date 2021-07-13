@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 建立歷程
 description: 了解如何建立簡單的使用案例歷程
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 34%
+ht-degree: 36%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 34%
 
    ![](../assets/journeyuc1_12.png)
 
-1. 拖放&#x200B;**[!UICONTROL Email]**&#x200B;活動，並選取「Spa折扣」交易式訊息範本。 此範本是使用Adobe Campaign設計。 請參閱此[page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)。
+1. 拖放&#x200B;**[!UICONTROL Email]**&#x200B;活動，並選取「Spa折扣」交易式訊息範本。 此範本是使用Adobe Campaign設計。 請參閱此[page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)。
 
    ![](../assets/journeyuc1_13.png)
 
