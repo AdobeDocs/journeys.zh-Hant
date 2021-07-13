@@ -2,14 +2,14 @@
 product: adobe campaign
 title: journeyStep 事件資料擷取欄位
 description: journeyStep 事件資料擷取欄位
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 4%
 
 定義錯誤擷取是在Adobe Experience Platform上還是在自訂資料來源上。
 
-類型：字串
+類型: 字串
 
 值：
 * aep
@@ -39,19 +39,19 @@ ht-degree: 4%
 
 處理資料擷取時發生的錯誤類型。
 
-類型：字串
+類型: 字串
 
 值：
 * http
 * 上限
 * timedout
-* 錯誤
+* error
 
 ## fetchErrorCode
 
 擷取錯誤的程式碼。 如果錯誤有程式碼（例如HTTP程式碼），則顯示。 例如，如果actionExecError為http，則代碼404代表HTTP 404錯誤。
 
-類型：字串
+類型: 字串
 
 ## fetchOriginError
 
@@ -71,13 +71,13 @@ ht-degree: 4%
     "fetchOrigErrorCode": "500"
 ```
 
-類型：字串
+類型: 字串
 
 ## fetchOriginErrorCode
 
 系統[!DNL Journey Orchestration]提供的錯誤代碼正在查詢。 例如，可以是404、500等。
 
-類型：字串
+類型: 字串
 
 ## fetchCount
 
