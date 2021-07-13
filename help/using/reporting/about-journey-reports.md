@@ -2,11 +2,11 @@
 product: adobe campaign
 title: 關於歷程報告
 description: 了解如何建立歷程報告
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 1%
@@ -58,7 +58,7 @@ ht-degree: 1%
 * **[!UICONTROL Visualizations]**:拖放選取的視覺效果項目，為報表提供圖形維度。如需詳細資訊，請參閱[新增視覺效果](../reporting/creating-your-journey-reports.md#adding-visualizations)區段。
 * **[!UICONTROL Components]**:使用不同的維度、量度、區段和時段自訂報表。有關詳細資訊，請參閱[新增元件](../reporting/creating-your-journey-reports.md#adding-components)區段。
 
-## 歷程摘要範本{#ootb-template}
+## 歷程摘要範本 {#ootb-template}
 
 報表分為兩個類別：現成可用的範本和自訂報表。
 現成可用的範本**[!UICONTROL Journey summary]**&#x200B;可讓您清楚檢視最重要的追蹤資料。
