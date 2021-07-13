@@ -3,10 +3,10 @@ product: adobe campaign
 title: 使用歷程設計器
 description: 進一步了解如何使用歷程設計器
 feature: 歷程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 5%
@@ -112,7 +112,7 @@ ht-degree: 5%
 1. 按一下時移動滑鼠，以選取您要複製的活動。 按&#x200B;**Ctrl/Command**&#x200B;鍵時，您也可以按一下每個活動。 如果要選取所有活動，請使用&#x200B;**Ctrl/Command + A**。
    ![](../assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**鍵。
-如果您只想複製一個活動，可以按一下該活動，然後使用活動設定窗格左上角的**複製**圖示。
+如果您只想複製一個活動，可以按一下該活動，然後使用活動配置窗格左上角的**Copy**圖示。
    ![](../assets/copy-paste2.png)
 1. 在任何歷程中，按&#x200B;**Ctrl/Command + V**&#x200B;以貼上活動，而不需將其連結至現有節點。 貼上的活動會以相同順序放置。 貼上後，活動會保持選取狀態，以便您輕鬆移動活動。 您也可以將游標置於空的放置器上，然後按一下&#x200B;**Ctrl/Command + V**。 貼上的活動會連結至節點。
    ![](../assets/copy-paste3.png)
