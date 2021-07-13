@@ -2,18 +2,18 @@
 product: adobe campaign
 title: 使用 Adobe Campaign
 description: 了解Adobe Campaign動作
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# 使用Adobe Campaign Standard {#using_adobe_campaign_standard}
+# 使用 Adobe Campaign Standard {#using_adobe_campaign_standard}
 
 您可以使用Adobe Campaign Standard的「交易訊息」功能來傳送電子郵件、推播通知和簡訊。
 
