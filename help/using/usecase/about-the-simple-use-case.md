@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 關於簡單使用案例
 description: 深入了解歷程的簡單使用案例
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 ## 先決條件 {#prerequisites}
 
-針對我們的使用案例，我們在Adobe Campaign Standard中設計了一個電子郵件交易式訊息範本。 我們使用事件交易式訊息範本。 請參閱此[page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)。
+針對我們的使用案例，我們在Adobe Campaign Standard中設計了一個電子郵件交易式訊息範本。 我們使用事件交易式訊息範本。 請參閱此[page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)。
 
 Adobe Campaign Standard已設定為傳送電子郵件。
 
