@@ -2,11 +2,11 @@
 product: adobe campaign
 title: 建立您的歷程報告
 description: 了解如何建立歷程報告
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 建立您的歷程報告 {#concept_rfj_wpt_52b}
 
-## 存取和建立您的報表{#accessing-reports}
+## 存取及建立報表 {#accessing-reports}
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 ## 新增面板{#adding-panels}
 
-### 新增空白麵板{#adding-a-blank-panel}
+### 新增空白麵板 {#adding-a-blank-panel}
 
 若要啟動報表，您可以新增一組面板至現成可用或自訂報表。 每個面板包含不同的資料集，且由自由表格和視覺效果組成。
 
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 您現在可以新增自由表格至面板，以開始鎖定目標資料。
 
-### 新增自由表格{#adding-a-freeform-table}
+### 新增自由表格 {#adding-a-freeform-table}
 
 自由表格可讓您建立表格，以使用&#x200B;**[!UICONTROL Component]**&#x200B;表格中可用的不同量度和維度來分析資料。
 
