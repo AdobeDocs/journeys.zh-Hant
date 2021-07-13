@@ -2,12 +2,12 @@
 product: adobe campaign
 title: 關於 Journey Orchestration
 description: 進一步瞭解 Journey Orchestration
-feature: Journeys
-role: Business Practitioner
+feature: 歷程
+role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # 關於 [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
-善用儲存在事件或資料來源中的情境資料，建立即時協調使用案例。
+運用儲存在事件或資料來源中的內容資料，建立即時協調使用案例。
 
 [!DNL Journey Orchestration] 是與 Adobe Experience Platform 整合的應用程式服務。
 
@@ -46,4 +46,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->本文件會經常更新以反映產品最近的異動。不過，有些螢幕擷取畫面可能會與產品的介面稍有不同。
+>本文件將經常更新，以反應產品近期異動。不過，有些螢幕擷取畫面可能會與產品的介面稍有不同。
