@@ -3,13 +3,13 @@ product: adobe campaign
 title: 存取管理
 description: 進一步瞭解存取管理
 feature: 歷程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 95%
    * 管理歷程
    * 發佈歷程
    * 管理報告
-   * 讀取事件、資料來源和動作
+   * 讀取事件、資料來源及動作
 
 如果現成可用的設定檔權限不足，而無法管理使用者，您也可以建立自己的產品設定檔。
 必須一律將使用者連結至產品設定檔，如此可讓您指派特定的內建權限，例如：
@@ -67,7 +67,7 @@ ht-degree: 95%
 
 [!DNL Journey Orchestration] 可讓您建立自己的產品設定檔，並將一組權限和沙箱指派給您的使用者。使用產品設定檔，您可以授權或拒絕存取介面中的特定功能或物件。
 
-如需如何建立和管理沙箱的詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)。
+如需如何建立和管理沙箱的詳細資訊，請參閱 [Adobe Experience Platform 文件](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant)。
 
 若要建立產品設定檔並指派一組權限和沙箱：
 
@@ -128,16 +128,16 @@ ht-degree: 95%
 
    ![](../assets/do-not-localize/user_management_3.png)
 
-1. 輸入新使用者的電子郵件地址，然後按一下 **[!UICONTROL Save]**。
+1. 輸入新使用者的電子郵件地址，然後按一下&#x200B;**[!UICONTROL Save]**。
 
    ![](../assets/do-not-localize/user_management_4.png)
 
 之後，您的使用者應會收到一封電子郵件，而會將重新導向至 [!DNL Journey Orchestration] 執行個體。
 
-## 使用沙箱 {#sandboxes}
+## 使用 sandbox {#sandboxes}
 
 [!DNL Journey Orchestration] 可讓您將執行個體分割到名為沙箱的個別虛擬環境中。會透過 Admin Console 中的產品設定檔指派沙箱。如需如何指派沙箱的詳細資訊，請參閱本[區段](../about/access-management.md#create-product-profile)。
 
-[!DNL Journey Orchestration] 會反映針對指定組織建立的 Adobe Experience Platform 沙箱。可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform 沙箱。請參閱[沙箱使用者指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)以取得詳細步驟。
+[!DNL Journey Orchestration] 會反映針對指定組織建立的 Adobe Experience Platform 沙箱。可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。請參閱[沙箱使用者指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)以取得詳細步驟。
 
 您可在螢幕左上方找到沙箱切換器控制項。若要從一個沙箱切換至另一個沙箱，請按一下切換器中目前作用中的沙箱，然後從下拉式清單中選取另一個沙箱。
