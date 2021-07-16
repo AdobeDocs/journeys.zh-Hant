@@ -9,7 +9,7 @@ exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -34,10 +34,10 @@ ht-degree: 87%
 
    >[!CAUTION]
    >
-   >已為規則型事件定義上限規則。 對於指定組織 (ORG) ，這會將歷程可處理的合格事件數限制為每秒 5000。它對應於 Journey Orchestration SLA。 請參閱此[頁面](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)。
+   >已為規則型事件定義上限規則。 對於指定組織 (ORG) ，這會將歷程可處理的合格事件數限制為每秒 5000。它對應於 Journey Orchestration SLA。 請參閱此[頁面](https://helpx.adobe.com/tw/legal/product-descriptions/journey-orchestration.html)。
 
 * **系統產生的** 事件：這些事件需要 eventID。建立事件時，會自動產生此 eventID 欄位。 推播事件的系統不應產生 ID，而應傳遞有效裝載預覽中可用的 ID。
 
-Journey Orchestration需要將事件串流或批次傳入Adobe Experience Platform。 此資料不一定需要前往即時設定檔。 如果您想要在個別歷程中使用事件進行分段或查詢，建議您為設定檔啟用資料集。
+Journey Orchestration 需要將事件串流或批次傳入 Adobe Experience Platform。 此資料不一定需要前往即時設定檔。 如果您想要在個別歷程中使用事件進行細分或查詢，建議您為設定檔啟用資料集。
 
 若要瞭解如何建立事件，請參閱此[頁面](../event/about-creating.md)。
