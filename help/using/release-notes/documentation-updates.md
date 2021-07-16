@@ -9,7 +9,7 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,13 +38,13 @@ ht-degree: 94%
 
 * 已新增關於如何排序以及選擇要在區段清單中顯示欄的資訊。[閱讀全文](../building-journeys/segment-qualification-events.md)
 * 已新增關於在選取區段後如何複製區段名稱及 ID 的資訊。[閱讀全文](../building-journeys/segment-qualification-events.md)
-* 已在不同頁面上協調Experience Platform的發生次數。
+* 已在不同頁面上協調 Experience Platform 的發生次數。
 
 ## 2020 年 7 月 {#july-2020}
 
 * 已新增新教學課程影片的連結，其中說明向 Adobe Experience Platform 報告事件的步驟。[閱讀全文](../building-journeys/sharing-overview.md)
 * 以針對每種類型的事件，將事件活動區段重新組織到專屬子區段。[閱讀全文](../building-journeys/event-activities.md)
-* 新增最佳實務，以避免區段資格超載。 [閱讀全文](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* 已新增最佳實務，以避免區段資格超載。[閱讀全文](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * 已新增附註，說明在動作或條件發生錯誤後，如何讓歷程繼續。[閱讀全文](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 已新增 Alpha 功能的新章節，這些功能會在有限的客戶群中進行測試。
 * 已新增與智慧型服務整合的區段。[閱讀全文](../ai-services/ai-services-overview.md)
@@ -66,13 +66,13 @@ ht-degree: 94%
 ## 2020 年 4 月 {#april-2020}
 
 * 已新增體驗事件綱要的新區段，以協助使用者設定其第一個事件。[閱讀全文](../event/experience-event-schema.md)
-* [!DNL Journey Orchestration]檔案的首頁已更新，其中包含其他實用連結。 [閱讀全文](../../journey-orchestration-home.md)
+* [!DNL Journey Orchestration]文件的首頁已經更新，且包含其他實用連結。[閱讀全文](../../journey-orchestration-home.md)
 
 ## 2020 年 3 月 {#march-2020}
 
 * 已新增測試記錄區段中 _actionExecutionErrors_ 和 _fetchErrors_ 的參數說明。[閱讀全文](../building-journeys/testing-the-journey.md#viewing_logs)
 * 已更新歷程中使用的自訂動作限制。您也可以修改 **[!UICONTROL URL]** 欄位和 **[!UICONTROL Authentication]** 參數。[閱讀全文](../action/about-custom-action-configuration.md)
-* 已新增新的內容說明項目。 自訂驗證裝載窗格 (在動作和資料來源中) 現已包含連結至此[章節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)的說明圖示。
+* 已新增新的內容說明項目。自訂驗證裝載窗格 (在動作和資料來源中) 現已包含連結至此[章節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)的說明圖示。
 * 現在可以停止已關閉的歷程。[閱讀全文](../building-journeys/using-the-journey-designer.md)
 * 已重新組織介面說明章節。[閱讀全文](../about/user-interface.md)
 * 已將多個事件的觸發條件新增至「測試模式」章節[詳細內容](../building-journeys/testing-the-journey.md#firing_events)
@@ -85,7 +85,7 @@ ht-degree: 94%
 
 ## 2020 年 2 月 {#february-2020}
 
-* 已更新快速鍵區段。 **C** 鍵盤快速鍵可讓您在所有清單畫面中建立新項目。[閱讀全文](../about/user-interface.md#section_ksq_zr1_ffb)
+* 已更新捷徑章節。 **C** 鍵盤快速鍵可讓您在所有清單畫面中建立新項目。[閱讀全文](../about/user-interface.md#section_ksq_zr1_ffb)
 * [資料來源](../datasource/about-data-sources.md)及[動作](../action/action.md)概述頁面已經過改良。
 
 ## 2020 年 1 月 {#january-2020}
@@ -94,7 +94,7 @@ ht-degree: 94%
 
 <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
-## 12 月 2019 日 {#december-2019}
+## 2019 年 12 月  {#december-2019}
 
 * 已更新所有螢幕擷取畫面以反映介面的變更。
 * 已更新測試模式章節。[閱讀全文](../building-journeys/testing-the-journey.md)
