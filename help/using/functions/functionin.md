@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: in
+title: '在 '
 description: 了解中的函式
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '112'
-ht-degree: 13%
+ht-degree: 17%
 
 ---
 
-# in {#in}
+# 在  {#in}
 
 檢查清單中是否有第一個引數值。 檢查是通過每個參數值的Equal來執行的。 若找到引數值，則傳回true，否則傳回false。
 
@@ -31,7 +31,7 @@ ht-degree: 13%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| String | 字串 |
+| 字串 | 字串 |
 | 布林值 | 布林值 |
 | 整數 | 整數 |
 | 小數 | 小數 |
