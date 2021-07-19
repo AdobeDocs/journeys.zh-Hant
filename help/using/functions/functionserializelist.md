@@ -2,14 +2,14 @@
 product: adobe campaign
 title: serializeList
 description: 了解函式serializeList
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 17%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| String | 字串 |
+| 字串 | 字串 |
 | 布林值 | 布林值 |
 | DateTimeOnly | DateTimeOnly |
 | 清單 | listString |
