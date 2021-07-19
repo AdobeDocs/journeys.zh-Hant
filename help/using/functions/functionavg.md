@@ -2,14 +2,14 @@
 product: adobe campaign
 title: avg
 description: 了解函式平均
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 6c9f3a5d-20b4-4c0a-b17f-5221f5db51be
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
