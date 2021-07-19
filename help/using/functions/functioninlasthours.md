@@ -2,14 +2,14 @@
 product: adobe campaign
 title: inLastHours
 description: 了解inLastHours的函式
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 9baeb836-e029-4e19-b08e-7b7b5f27ff8f
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 13%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 ## 類別
 
-日期
+Date
 
 ## 函式語法
 
