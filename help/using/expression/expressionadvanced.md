@@ -2,7 +2,7 @@
 product: adobe campaign
 title: 關於進階運算式編輯器
 description: 瞭解如何建立進階運算式
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
@@ -56,11 +56,11 @@ _進階運算式編輯器介面_
 
 在畫面左側，會顯示可用的欄位和函式：
 
-* **[!UICONTROL Events]**：從入站事件接收的其中一個欄位。顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。[顯示全文](../event/about-events.md)
-* **[!UICONTROL Segments]**:如果已捨棄事 **[!UICONTROL Segment qualification]** 件，請選擇要在運算式中使用的區段。[顯示全文](../segment/using-a-segment.md)
-* **[!UICONTROL Data Sources]**：從資料來源欄位群組中的可用欄位清單中選擇。[顯示全文](../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**:本節會重新分組指定設定檔之歷程的相關技術欄位。[顯示全文](../expression/journey-properties.md)
-* **[!UICONTROL Functions]**：從可執行複雜篩選的內建函式清單中選擇。函式會依類別組織。[顯示全文](../expression/functions.md)
+* **[!UICONTROL Events]**：從入站事件接收的其中一個欄位。顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。[閱讀全文](../event/about-events.md)
+* **[!UICONTROL Segments]**:如果已捨棄事 **[!UICONTROL Segment qualification]** 件，請選擇要在運算式中使用的區段。[閱讀全文](../segment/using-a-segment.md)
+* **[!UICONTROL Data Sources]**：從資料來源欄位群組中的可用欄位清單中選擇。[閱讀全文](../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**:本節會重新分組指定設定檔之歷程的相關技術欄位。[閱讀全文](../expression/journey-properties.md)
+* **[!UICONTROL Functions]**：從可執行複雜篩選的內建函式清單中選擇。函式會依類別組織。[閱讀全文](../expression/functions.md)
 
 ![](../assets/journey65.png)
 
