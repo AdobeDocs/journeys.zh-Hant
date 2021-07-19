@@ -2,14 +2,14 @@
 product: adobe campaign
 title: setDays
 description: 了解函式setDays
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 ## 類別
 
-日期
+Date
 
 ## 函式語法
 
@@ -31,7 +31,7 @@ ht-degree: 8%
 |--- |--- |
 | 日期時間 | dateTime |
 | 不考慮時區的日期時間 | dateTimeOnly |
-| 天數 | 整數 |
+| 天 | 整數 |
 
 ## 簽名和返回類型
 
