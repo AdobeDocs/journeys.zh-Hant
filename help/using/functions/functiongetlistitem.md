@@ -2,14 +2,14 @@
 product: adobe campaign
 title: getListItem
 description: 了解函式gstListItem
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 清單 | listString |
+| list | listString |
 | 清單 | listBoolean |
 | 清單 | listInteger |
 | 清單 | listDecimal |
@@ -81,7 +81,7 @@ ht-degree: 6%
 
 `split(@{event.appVersion}, "\\.")`
 
-傳回`["20", "45", "2", "3434"]`
+傳回 `["20", "45", "2", "3434"]`
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
