@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 運算子
+title: 操作者
 description: 了解進階運算式中的運算子
 feature: 歷程
 role: Data Engineer
@@ -13,7 +13,7 @@ ht-degree: 6%
 
 ---
 
-# 運算子 {#concept_wd5_pj5_dgb}
+# 操作者 {#concept_wd5_pj5_dgb}
 
 運算子有兩種：一元運算子和二進位運算子。 有左一元運算子和右一元運算子。
 
@@ -44,7 +44,7 @@ ht-degree: 6%
 
 &lt;expression1>和&lt;expression2>都必須是布林值。 結果為布林值。
 
-範例:
+範例：
 
 ```
 3.14 > 2 and 3.15 < 1
@@ -60,7 +60,7 @@ ht-degree: 6%
 
 &lt;expression1>和&lt;expression2>都必須是布林值。 結果為布林值。
 
-範例:
+範例：
 
 ```
 3.14 > 2 or 3.15 < 1
@@ -76,7 +76,7 @@ not <expression>
 
 &lt;expression> 必須是布林值。結果為布林值。
 
-範例:
+範例：
 
 ```
 not 3.15 < 1
@@ -96,7 +96,7 @@ not 3.15 < 1
 
 請注意，null表示運算式沒有評估值。
 
-範例:
+範例：
 
 ```
 @{BarBeacon.location} is null
@@ -114,7 +114,7 @@ not 3.15 < 1
 
 請注意，null表示運算式沒有評估值。
 
-範例:
+範例：
 
 ```
 @ is not null
@@ -132,7 +132,7 @@ not 3.15 < 1
 
 用於識別清單至少包含一個null值。
 
-範例:
+範例：
 
 ```
 ["foo", "bar", null] has null --  returns true.
@@ -152,7 +152,7 @@ not 3.15 < 1
 
 &lt;expression1>和&lt;expression2>必須具有相同的資料類型。 結果為布林值。
 
-範例:
+範例：
 
 ```
 3.14 == 42
@@ -172,7 +172,7 @@ not 3.15 < 1
 
 &lt;expression1>和&lt;expression2>必須具有相同的資料類型。 結果為布林值。
 
-範例:
+範例：
 
 ```
 3.14 != 42
@@ -200,7 +200,7 @@ Datetimeonly可與Datetimeonly進行比較。
 
 結果為布林值。
 
-範例:
+範例：
 
 ```
 3.14 > 42
@@ -224,7 +224,7 @@ Datetimeonly可與Datetimeonly進行比較。
 
 結果為布林值。
 
-範例:
+範例：
 
 ```
 42 >= 3.14
@@ -248,7 +248,7 @@ Datetimeonly可與Datetimeonly進行比較。
 
 結果為布林值。
 
-範例:
+範例：
 
 ```
 42 < 3.14
@@ -272,7 +272,7 @@ Datetimeonly可與Datetimeonly進行比較。
 
 結果為布林值。
 
-範例:
+範例：
 
 ```
 42 <= 3.14
@@ -292,7 +292,7 @@ Datetimeonly可與Datetimeonly進行比較。
 
 結果也為數值。
 
-範例:
+範例：
 
 ```
 1 + 2 -- returns 3
@@ -310,7 +310,7 @@ Datetimeonly可與Datetimeonly進行比較。
 
 結果也為數值。
 
-範例:
+範例：
 
 ```
 2 - 1 -- returns 1
@@ -330,7 +330,7 @@ Datetimeonly可與Datetimeonly進行比較。
 
 &lt;expression2> 不得等於0（傳回0）。
 
-範例:
+範例：
 
 ```
 4 / 2 -- returns 2
@@ -348,7 +348,7 @@ Datetimeonly可與Datetimeonly進行比較。
 
 結果也為數值。
 
-範例:
+範例：
 
 ```
 3 * 4 -- returns 12
@@ -366,13 +366,13 @@ Datetimeonly可與Datetimeonly進行比較。
 
 結果也為數值。
 
-範例:
+範例：
 
 ```
 3 % 2 -- returns 1.
 ```
 
-## 數學 {#math}
+## Math {#math}
 
 ### 為數值
 
@@ -384,7 +384,7 @@ Datetimeonly可與Datetimeonly進行比較。
 
 運算式的類型為整數或小數。
 
-範例:
+範例：
 
 ```
 @ is numeric
@@ -400,7 +400,7 @@ Datetimeonly可與Datetimeonly進行比較。
 
 運算式的類型為整數。
 
-範例:
+範例：
 
 ```
 @ is integer
@@ -416,7 +416,7 @@ Datetimeonly可與Datetimeonly進行比較。
 
 運算式的類型為小數。
 
-範例:
+範例：
 
 ```
 @ is decimal
@@ -440,7 +440,7 @@ Datetimeonly可與Datetimeonly進行比較。
 
 一個表達式必須是鏈結字串。
 
-範例:
+範例：
 
 ```
 "the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
@@ -454,7 +454,7 @@ Datetimeonly可與Datetimeonly進行比較。
 "a" + "b" + "c" + 1234 -- returns "abc1234".
 ```
 
-## 日期 {#date}
+## Date {#date}
 
 ### +
 
@@ -466,7 +466,7 @@ Datetimeonly可與Datetimeonly進行比較。
 
 將持續時間附加至dateTime、dateTimeOnly或持續時間。
 
-範例:
+範例：
 
 ```
 toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z
