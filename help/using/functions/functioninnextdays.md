@@ -2,14 +2,14 @@
 product: adobe campaign
 title: inNextDays
 description: 了解NextDays中的函式
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 47d31b56-b0ed-426d-bd79-3db3e441454b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 13%
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 ## 類別
 
-日期
+Date
 
 ## 函式語法
 
