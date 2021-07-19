@@ -5,7 +5,7 @@ description: 了解函式updateTimeZone
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 ## 類別
 
-日期
+Date
 
 ## 函式語法
 
