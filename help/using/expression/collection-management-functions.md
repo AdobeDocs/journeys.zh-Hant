@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 收集管理函式
 description: 了解集合管理功能中的資料類型
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
 source-git-commit: e0bf1a6f9c160b72da28feaca1ca52665f365630
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 1%
 
 在「資料源條件」活動中，您可以檢查&#x200B;**[!UICONTROL all]**&#x200B;函式的結果是否為Null。 您也可以將此&#x200B;**[!UICONTROL all]**&#x200B;函式與其他函式（例如&#x200B;**[!UICONTROL count]**）結合。 如需詳細資訊，請參閱[資料來源條件活動](../building-journeys/condition-activity.md#data_source_condition)。
 
-**範例1:**
+**範例 1:**
 
 我們想檢查使用者是否已安裝特定版本的應用程式。 為此，我們會取得與版本為1.0的行動應用程式相關聯的所有推播通知Token。然後，我們使用&#x200B;**[!UICONTROL count]**&#x200B;函式執行條件，以檢查傳回的Token清單是否至少包含一個元素。
 
@@ -81,7 +81,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 結果為true。
 
-**範例2:**
+**範例 2:**
 
 在此處，我們會使用&#x200B;**[!UICONTROL count]**&#x200B;函式來檢查集合中是否有推播通知Token。
 
@@ -125,7 +125,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 表達式的結果為&#x200B;**3**。
 
-**範例3:**
+**範例 3:**
 
 在此，我們會檢查過去24小時內個人是否未收到任何通訊。 我們會根據集合的兩個元素，使用兩個運算式來篩選從ExperiencePlatform資料來源擷取的體驗事件集合。 尤其是，事件的時間戳記會與&#x200B;**[!UICONTROL nowWithDelta]**&#x200B;函式傳回的dateTime進行比較。
 
@@ -137,9 +137,9 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
 
 如果沒有符合這兩個條件的體驗事件，則結果為true。
 
-**範例4:**
+**範例 4:**
 
-在此，我們想檢查個人是否在過去7天內至少啟動了一次應用程式，以便例如觸發推播通知並邀請他啟動教學課程。
+在此，我們想檢查個人是否在過去7天內至少啟動了一次應用程式，例如觸發推播通知並邀請他啟動教學課程。
 
 ```
 count(
@@ -180,7 +180,7 @@ _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-**範例1:**
+**範例 1:**
 
 此運算式會傳回與版本為1.0的行動應用程式相關聯的第一個推播通知Token。
 
@@ -190,7 +190,7 @@ _`<listExpression>.last(<condition>)`_
 
 結果為「token_1」。
 
-**範例2:**
+**範例 2:**
 
 此運算式會傳回與版本為1.0的行動應用程式相關聯的最後一個推播通知Token。
 
@@ -207,7 +207,7 @@ _`<listExpression>.last(<condition>)`_
 >* **[!UICONTROL last]** 函式會傳回最舊的函式。
 
 
-**範例3:**
+**範例 3:**
 
 我們會檢查DMA ID的第一個（最近的）Adobe Analytics事件（值非零）是否有等於602的值。
 
@@ -223,7 +223,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 _`<listExpression>`.at(`<index>`)_
 
-**範例:**
+**範例：**
 
 此運算式會傳回清單的第二個推播通知Token。
 
