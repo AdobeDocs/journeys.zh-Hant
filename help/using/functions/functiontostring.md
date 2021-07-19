@@ -2,14 +2,14 @@
 product: adobe campaign
 title: toString
 description: 了解函式toString
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
