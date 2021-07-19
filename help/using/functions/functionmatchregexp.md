@@ -2,14 +2,14 @@
 product: adobe campaign
 title: matchRegExp
 description: 了解函式matchRegExp
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 ## 類別
 
-String
+字串
 
 ## 函式語法
 
