@@ -2,14 +2,14 @@
 product: adobe campaign
 title: concat
 description: 了解函式概念
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 7a516705-2bbe-4b42-97fc-aeae11082002
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 17%
+ht-degree: 29%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 17%
 
 ## 類別
 
-String
+字串
 
 ## 函式語法
 
