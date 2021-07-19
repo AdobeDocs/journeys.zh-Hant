@@ -2,7 +2,7 @@
 product: adobe campaign
 title: 資料類型
 description: 了解進階運算式中的資料類型
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
@@ -73,7 +73,7 @@ JSON格式：數字
 
 **說明**
 
-小數位數。 其代表浮動值：
+小數位數. 其代表浮動值：
 
 * 雙型最大正有限值，(2-2^-52)x2^1023
 * 雙型最小正常值，2-1022
@@ -119,7 +119,7 @@ false
 true
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **說明**
 
@@ -131,7 +131,7 @@ true
 
 序列化格式：ISO-8601延長偏移日期時間格式。
 
-它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化值。 [瞭解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化值。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
 **常值表示**
 
@@ -153,9 +153,9 @@ JSON格式：字串。
 
 序列化格式：ISO-8601延長偏移日期時間格式。
 
-它使用DateTimeFormatter ISO_OFFSET_DATE_TIME反序列化和序列化值。 [瞭解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+它使用DateTimeFormatter ISO_OFFSET_DATE_TIME反序列化和序列化值。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-您也可以傳遞一個傳遞Epoch值的整數。 [顯示全文](https://www.epochconverter.com)
+您也可以傳遞一個傳遞Epoch值的整數。 [閱讀全文](https://www.epochconverter.com)
 
 時區可由偏移或時區代碼指定(範例：歐洲/巴黎，Z — 表示UTC)。
 
@@ -209,7 +209,7 @@ JSON格式：字串。
 
 序列化格式：若要反序列化時區ID，會使用java函式java.time。
 
-Duration.parse:接受的格式基於ISO-8601持續時間格式PnDTnHnMn.nS，天數被認為恰好為24小時。 [瞭解更多](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse:接受的格式基於ISO-8601持續時間格式PnDTnHnMn.nS，天數被認為恰好為24小時。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **常值表示**
 
@@ -263,7 +263,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## 清單 {#list}
+## list {#list}
 
 **說明**
 
