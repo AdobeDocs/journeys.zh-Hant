@@ -2,14 +2,14 @@
 product: adobe campaign
 title: endWith
 description: 了解函式endWith
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 6eee6057-1daf-4b9d-ae94-2b35843e3a49
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 13%
+ht-degree: 27%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 ## 類別
 
-String
+字串
 
 ## 函式語法
 
