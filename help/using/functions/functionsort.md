@@ -2,14 +2,14 @@
 product: adobe campaign
 title: sort
 description: 了解函式排序
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -68,8 +68,8 @@ ht-degree: 12%
 
 `sort(["A", "C", "B"], true)`
 
-傳回`["A","B","C"]`。
+傳回 `["A","B","C"]`.
 
 `sort([1, 3, 2], false)`
 
-傳回`[3, 2, 1]`。
+傳回 `[3, 2, 1]`.
