@@ -2,14 +2,14 @@
 product: adobe campaign
 title: containWithIgnoreCase
 description: 了解函式containWithIgnoreCase
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: ebec646e-9dbb-4432-a430-ab69fb7d75cf
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 12%
+ht-degree: 24%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 12%
 
 ## 類別
 
-String
+字串
 
 ## 函式語法
 
