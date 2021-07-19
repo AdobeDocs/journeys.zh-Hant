@@ -50,7 +50,7 @@ Journey OrchestrationAPI存取權是透過下列步驟設定。 在[Adobe I/O檔
 
 >[!CAUTION]
 >
->若要在Adobe I/O中管理憑證，請確定您在組織上擁有<b>系統管理員</b>權限，或在管理控制台中擁有[開發人員帳戶](https://helpx.adobe.com/enterprise/using/manage-developers.html)權限。
+>若要在Adobe I/O中管理憑證，請確定您在組織上擁有<b>系統管理員</b>權限，或在管理控制台中擁有[開發人員帳戶](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html)權限。
 
 1. **檢查您是否擁有數位憑證**，或視需要建立憑證。下列步驟需要憑證隨附的公開金鑰和私密金鑰。
 1. **建立ServiceinAdobe I/O的 [!DNL Journey Orchestration]** 新整合併加以設定。Journey Orchestration和Adobe Experience Platform需要產品設定檔存取權。 接著會產生您的認證（API金鑰、用戶端密碼……）。
