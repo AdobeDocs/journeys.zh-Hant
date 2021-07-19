@@ -6,7 +6,7 @@ exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 這些匯入方法也可讓您更新設定檔屬性。 這樣，您就可以將現有設定檔轉換為測試設定檔。 只要使用類似的檔案或API呼叫，並僅包含「testProfile」欄位（其值為「true」）即可。
 
-建立測試設定檔類似於在Adobe Experience Platform中建立一般設定檔。 如需詳細資訊，請參閱[即時客戶設定檔檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
+建立測試設定檔類似於在Adobe Experience Platform中建立一般設定檔。 如需詳細資訊，請參閱[即時客戶設定檔檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)。
 
 ## 先決條件{#test-profile-prerequisites}
 
@@ -33,18 +33,18 @@ ht-degree: 1%
 1. 選擇架構的名稱。
 1. 在&#x200B;**[!UICONTROL Mixins]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Add]**。
    ![](../assets/test-profiles-1-bis.png)
-1. 選取適當的混合。 請務必新增&#x200B;**[!UICONTROL Profile test details]** mixin。 按一下&#x200B;**[!UICONTROL Add mixin]**。
+1. 選取適當的混合。 請務必新增&#x200B;**[!UICONTROL Profile test details]** mixin。 按一下「**[!UICONTROL Add mixin]**」。
    ![](../assets/test-profiles-1-ter.png)
 mixin清單會顯示在結構概述畫面上。
 
    ![](../assets/test-profiles-2.png)
 1. 在欄位清單中，按一下您要定義為主要身分的欄位。
    ![](../assets/test-profiles-3.png)
-1. 在&#x200B;**[!UICONTROL Field properties]**&#x200B;右側面板中，檢查&#x200B;**[!UICONTROL Identity]**&#x200B;和&#x200B;**[!UICONTROL Primary Identity]**&#x200B;選項並選擇命名空間。 如果您希望主要身分成為電子郵件地址，請選擇&#x200B;**[!UICONTROL Email]**&#x200B;命名空間。 按一下&#x200B;**[!UICONTROL Apply]**。
+1. 在&#x200B;**[!UICONTROL Field properties]**&#x200B;右側面板中，檢查&#x200B;**[!UICONTROL Identity]**&#x200B;和&#x200B;**[!UICONTROL Primary Identity]**&#x200B;選項並選擇命名空間。 如果您希望主要身分成為電子郵件地址，請選擇&#x200B;**[!UICONTROL Email]**&#x200B;命名空間。 按一下「**[!UICONTROL Apply]**」。
    ![](../assets/test-profiles-4.png)
 1. 選擇架構並啟用&#x200B;**[!UICONTROL Schema properties]**&#x200B;中的&#x200B;**[!UICONTROL Profile]**選項。
    ![](../assets/test-profiles-5.png)
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. 按一下「**[!UICONTROL Save]**」。
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ mixin清單會顯示在結構概述畫面上。
    ![](../assets/test-profiles-14.png)
 1. 選擇&#x200B;**[!UICONTROL Map CSV to XDM schema]**，然後按一下&#x200B;**[!UICONTROL Launch]**。
    ![](../assets/test-profiles-16.png)
-1. 選取您要將設定檔匯入的資料集。 按一下&#x200B;**[!UICONTROL Next]**。
+1. 選取您要將設定檔匯入的資料集。 按一下「**[!UICONTROL Next]**」。
    ![](../assets/test-profiles-17.png)
 1. 按一下&#x200B;**[!UICONTROL Choose files]**&#x200B;並選取您的csv檔案。 上傳檔案時，按一下&#x200B;**[!UICONTROL Next]**。
    ![](../assets/test-profiles-18.png)
