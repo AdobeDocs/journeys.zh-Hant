@@ -2,7 +2,7 @@
 product: adobe campaign
 title: 歷程屬性
 description: 了解歷程屬性
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ---
 
-# 歷程屬性屬性{#journey-properties}
+# 歷程屬性屬性 {#journey-properties}
 
 在進階運算式編輯器中，您會在事件和資料來源類別下方找到&#x200B;**歷程屬性**&#x200B;類別。 此類別包含指定設定檔之歷程的相關技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程ID或遇到的特定錯誤。
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 * **調整報表中的錯誤** :您可以針對每個錯誤類型定義條件，而不是只有一條錯誤訊息路徑。這可讓您調整報表並檢視所有錯誤類型資料。
 
-## 欄位清單{#journey-properties-fields}
+## 欄位清單 {#journey-properties-fields}
 
 | 類別 | 欄位名稱 | 標籤 | 說明 |
 |---|---|---|------------|
@@ -54,7 +54,7 @@ ht-degree: 1%
 |  | organizationId | 組織識別碼 | 品牌組織 |
 |  | sandboxName | 沙箱名稱 | 沙箱名稱 |
 | 身分 | profileId | 設定檔身分識別碼 | 歷程中的設定檔識別碼 |
-|  | 命名空間 | 設定檔身分命名空間 | 歷程中設定檔的命名空間(範例：ECID) |
+|  | namespace | 設定檔身分命名空間 | 歷程中設定檔的命名空間(範例：ECID) |
 | 當前節點 | currentNodeId | 當前節點標識符 | 當前活動（節點）的標識符 |
 |  | currentNodeName | 當前節點名稱 | 當前活動的名稱（節點） |
 | 上一節點 | previousNodeId | 上一個節點標識符 | 前一個活動（節點）的標識符 |
