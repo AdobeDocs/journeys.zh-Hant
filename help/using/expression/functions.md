@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: 函式
+title: 函數
 description: 了解函式
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
-# 函式 {#concept_p1r_qj5_dgb}
+# 函數 {#concept_p1r_qj5_dgb}
 
 函式可以有不同的簽名（一組不同的有序參數）。 函式簽名可以有0-N個表達式作為有序參數。
 
@@ -25,7 +25,7 @@ ht-degree: 73%
 
 ## 主要函式
 
-| 類別 | 函式 |
+| 類別 | 函數 |
 |-------------|-----------------------|
 | Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
 | 彙總 | [avg](../functions/functionavg.md) |
@@ -44,7 +44,7 @@ ht-degree: 73%
 | 轉換 | [toDuration](../functions/functiontoduration.md) |
 | 轉換 | [toInteger](../functions/functiontointeger.md) |
 | 轉換 | [toString](../functions/functiontostring.md) |
-| 日期 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| Date | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
 | 日期 | [inLastDays](../functions/functioninlastdays.md) |
 | 日期 | [inLastHours](../functions/functioninlasthours.md) |
 | 日期 | [inLastMonths](../functions/functioninlastmonths.md) |
@@ -59,13 +59,13 @@ ht-degree: 73%
 | 日期 | [setDays](../functions/functionsetdays.md) |
 | 清單 | [distinct](../functions/functiondistinct.md) |
 | 清單 | [distinctCount](../functions/functiondistinctcount.md) |
-| 清單 | [in](../functions/functionin.md) |
+| 清單 | [在 ](../functions/functionin.md) |
 | 清單 | [listSize](../functions/functionlistsize.md) |
 | 清單 | [serializeList](../functions/functionserializelist.md) |
 | 清單 | [sort](../functions/functionsort.md) |
-| 數學 | [random](../functions/functionrandom.md) |
+| Math | [random](../functions/functionrandom.md) |
 | 數學 | [round](../functions/functionround.md) |
-| String | [concat](../functions/functionconcat.md) |
+| 字串 | [concat](../functions/functionconcat.md) |
 | 字串 | [contain](../functions/functioncontain.md) |
 | 字串 | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
 | 字串 | [endWith](../functions/functionendwith.md) |
