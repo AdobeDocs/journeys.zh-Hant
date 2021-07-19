@@ -23,7 +23,7 @@ Journey Orchestration 與 Campaign 執行個體之間的連線在佈建時由 Ad
 
 對於已設定的每個動作，歷程設計器浮動視窗中都會提供動作活動。 請參閱此[節](../building-journeys/using-adobe-campaign-classic.md)。
 
-## 重要附註
+## 重要備註
 
 * 消息沒有限制。 根據我們目前的促銷活動SLA，可將可傳送的訊息數量限制為50,000/小時。 因此，Journey Orchestration僅應用於單一使用案例（個別事件，而非區段）。
 
