@@ -2,14 +2,14 @@
 product: adobe campaign
 title: replaceAll
 description: 了解函式replaceAll
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 7%
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 ## 類別
 
-String
+字串
 
 ## 函式語法
 
@@ -32,7 +32,7 @@ String
 | 參數 | 類型 |
 |-----------|--------------|
 | 基礎 | 字串 |
-| 目標 | 字串 |
+| Target | 字串 |
 | 更換 | 字串 |
 
 ## 簽名和返回類型
