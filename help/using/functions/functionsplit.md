@@ -2,14 +2,14 @@
 product: adobe campaign
 title: split
 description: 了解函式分割
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 44499a09-19e2-4085-bf2f-7d9080ec382d
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 9%
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 
 ## 類別
 
-String
+字串
 
 ## 函式語法
 
@@ -42,10 +42,10 @@ String
 
 `split(["A_B_C"], "_")`
 
-傳回`["A","B","C"]`
+傳回 `["A","B","C"]`
 
 事件欄位為「event.appVersion」且值為的範例：&quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
-傳回`["20", "45", "2", "3434"]`
+傳回 `["20", "45", "2", "3434"]`
