@@ -2,14 +2,14 @@
 product: adobe campaign
 title: lastIndexOf
 description: 了解函式lastIndexOf
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: e82f3c45-e2f0-421a-be7e-c52e4badebbf
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 11%
 
 ## 類別
 
-String
+字串
 
 ## 函式語法
 
