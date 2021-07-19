@@ -2,7 +2,7 @@
 product: adobe campaign
 title: 條件式指令(if、then、else)
 description: 了解條件式指令
-feature: Journeys
+feature: 歷程
 role: Data Engineer
 level: Experienced
 exl-id: 48fb4944-5b78-4ccd-9b9b-ffe0719e7c21
@@ -54,7 +54,7 @@ listInteger,listInteger : listInteger
 listString,listString : listString
 ```
 
-**使用情況**
+**使用狀況**
 
 條件式指示可讓您減少條件活動的數量，以最佳化歷程工作流程。 例如，在相同的動作活動中，您只能使用一個條件運算式，為欄位定義指定兩個替代項目。
 
