@@ -9,7 +9,7 @@ exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1665'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。當測試結果確定時，您可以發佈您的歷程。 請參閱[此頁面](../building-journeys/publishing-the-journey.md)。
 
-## 重要附註 {#important_notes}
+## 重要備註 {#important_notes}
 
 * 提供介面，以引發事件至測試的歷程，但事件也可由協力廠商系統（例如Postman）傳送。
 * 只有在即時客戶個人檔案服務中標示為「測試個人檔案」的個人，才能進入測試的歷程。 請參閱此[節](../building-journeys/creating-test-profiles.md)。
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 ## 建立測試設定檔{#create-test-profile}
 
-如果您想要建立新的測試設定檔，此程式與您在Adobe Experience Platform中建立設定檔時的程式相同。 會透過API呼叫執行。 請參閱此[page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+如果您想要建立新的測試設定檔，此程式與您在Adobe Experience Platform中建立設定檔時的程式相同。 會透過API呼叫執行。 請參閱此[page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)
 
 您必須使用包含「設定檔測試詳細資料」的設定檔結構混合。 testProfile旗標是此混合的一部分。
 
