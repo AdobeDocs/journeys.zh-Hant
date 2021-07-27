@@ -6,10 +6,10 @@ feature: 歷程
 role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 79%
+source-wordcount: '345'
+ht-degree: 76%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 79%
 >
 >資料來源設定一律會由&#x200B;**技術使用者**&#x200B;執行。
 
-1. 在頂端功能表中，按一下 **[!UICONTROL Data Sources]** 索引標籤。
+1. 在菜單窗格中，選擇&#x200B;**[!UICONTROL Admin]**。 在&#x200B;**[!UICONTROL Data sources]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Manage]**。
 
    畫面隨即顯示資料來源。有關介面的詳細資訊，請參閱[此頁](../about/user-interface.md)。
 
