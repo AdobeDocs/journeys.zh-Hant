@@ -6,10 +6,10 @@ feature: 歷程
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 14%
+source-wordcount: '441'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 14%
 
 有關資料源配置的其他資訊，請參閱[此頁](../datasource/about-data-sources.md)。
 
-1. 在頂端功能表中，按一下&#x200B;**[!UICONTROL Data Sources]**&#x200B;標籤並選取內建的Adobe Experience Platform資料來源。
+1. 在菜單窗格中，選擇&#x200B;**[!UICONTROL Admin]**。 在&#x200B;**[!UICONTROL Data sources]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Manage]**。
+1. 選取內建的Adobe Experience Platform資料來源。
 
    ![](../assets/journey23.png)
 
@@ -58,7 +59,6 @@ ht-degree: 14%
 1. 按一下&#x200B;**[!UICONTROL Add a New Field Group]**&#x200B;以定義要擷取的資訊和API參數。 例如，只有一個參數(id)，因此我們需要建立一個欄位群組，其中包含下列資訊：
 
    * **[!UICONTROL Method]**：選取 POST 或 GET 方法。在本例中，我們選取 GET 方法。
-   * **[!UICONTROL Cache duration]**:這會根據API呼叫的頻率而有所不同。在此情況下，訂房系統會每10分鐘更新一次。
    * **[!UICONTROL Response Payload]**:在欄位內 **[!UICONTROL Payload]** 按一下，然後貼上裝載的範例。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。在我們的範例中，裝載僅包含訂房狀態：
 
    ```
