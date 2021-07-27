@@ -6,10 +6,10 @@ feature: 歷程
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 1%
+source-wordcount: '726'
+ht-degree: 0%
 
 ---
 
@@ -50,3 +50,64 @@ ht-degree: 1%
    ![](../assets/schema7.png)
 
    ![](../assets/schema8.png)
+
+## 利用架構關係{#leverage_schema_relationships}
+
+Adobe Experience Platform可讓您定義結構間的關係，以使用一個資料集作為另一個資料集的查閱表格。
+
+假設您的品牌資料模型具有擷取購買的結構描述。 您也有產品目錄的結構。 您可以在購買結構中擷取產品ID，並使用關係從產品目錄中尋找更完整的產品詳細資訊。 這可讓您為購買筆記型電腦的所有客戶建立區段，例如，不需要明確列出所有筆記型電腦ID，或擷取交易系統中的每個單一產品詳細資訊。
+
+若要定義關係，您必須在來源架構中有一個專用欄位，在此例中是購買架構中的產品ID欄位。 此欄位需要參考目標結構中的產品ID欄位。 必須為配置檔案啟用源表和目標表，並且目標架構必須將該公共欄位定義為其主標識。
+
+以下為以定義為主要身分的產品ID為設定檔啟用的產品目錄結構。
+
+![](../assets/schema9.png)
+
+以下是產品ID欄位上定義之關係的購買結構。
+
+![](../assets/schema10.png)
+
+>[!NOTE]
+>
+>[Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)中有關架構關係的詳細資訊。
+
+然後，在Journey Orchestration中，您可以利用連結表格中的所有欄位：
+
+* 設定單一事件時，[了解詳情](../event/experience-event-schema.md#unitary_event_configuration)
+* 在歷程中使用條件時，[了解詳情](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* 在自訂動作個人化中，[了解詳情](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### 單一事件配置{#unitary_event_configuration}
+
+連結的結構欄位在統一事件配置中可用：
+
+* 瀏覽事件設定畫面中的事件結構欄位時。
+* 定義系統產生事件的條件時。
+
+![](../assets/schema11.png)
+
+連結的欄位不可用：
+
+* 在事件鍵公式中
+* 事件id條件中（規則型事件）
+
+若要了解如何設定單一事件，請參閱此[page](../event/about-creating.md)。
+
+### 使用事件內容的歷程條件{#journey_conditions_using_event_context}
+
+您可以使用連結至歷程中使用之事件的查閱表格資料來建立條件（運算式編輯器）。
+
+在歷程中新增條件、編輯運算式，並在運算式編輯器中展開事件節點。
+
+![](../assets/schema12.png)
+
+若要了解如何定義歷程條件，請參閱此[page](../building-journeys/condition-activity.md)。
+
+### 使用歷程事件內容進行動作個人化{#custom_action_personalization_with_journey_event_context}
+
+設定歷程動作活動的動作參數時，可使用連結的欄位。
+
+![](../assets/schema13.png)
+
+若要了解如何使用自訂動作，請參閱此[page](../building-journeys/using-custom-actions.md)。
+
