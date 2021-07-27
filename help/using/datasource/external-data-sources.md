@@ -6,10 +6,10 @@ feature: 歷程
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 5ea6578ec15b8e1116f58f7644cbf45c523d1840
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 99%
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 
 以下是建立和設定新外部資料來源的主要步驟：
 
-1. 從資料來源清單中，按一下 **[!UICONTROL Add]** 以建立新的外部資料來源。
+1. 從資料源清單中，按一下&#x200B;**[!UICONTROL Create data source]**&#x200B;以建立新的外部資料源。
 
    ![](../assets/journey25.png)
 
@@ -69,7 +69,6 @@ ht-degree: 99%
 
 * **[!UICONTROL Used in]**：顯示使用欄位群組的歷程數量。您可以按一下 **[!UICONTROL View journeys]** 圖示，以顯示使用此欄位群組的歷程清單。
 * **[!UICONTROL Method]**：選取 POST 或 GET 方法。在本例中，我們選取 GET 方法。
-* **[!UICONTROL Cache duration]**：在本例中，我們希望每 10 分鐘快取氣象一次。
 * **[!UICONTROL Response Payload]**：在 **[!UICONTROL Payload]** 欄位內按一下，並貼上呼叫傳回之有效負載的範例。例如，我們使用了氣象 API 網站上找到的有效負載。確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。請注意，您可以按一下 **[!UICONTROL Paste a new payload]**，以變更目前已傳遞的有效負載。
 * **[!UICONTROL Dynamic Values]**：在本例中，輸入以逗號分隔的不同參數，即 &quot;long,lat&quot;。由於參數值視執行內容而定，因此它們會在歷程中定義。請參閱[此頁面](../expression/expressionadvanced.md)。
 * **[!UICONTROL Sent Payload]**：我們的範例不會出現此欄位，只有選取 POST 方法時才能使用。貼上會傳送至協力廠商系統的有效負載。
