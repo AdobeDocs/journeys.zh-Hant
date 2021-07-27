@@ -6,10 +6,10 @@ feature: 歷程
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
 workflow-type: tm+mt
-source-wordcount: '2625'
-ht-degree: 61%
+source-wordcount: '2701'
+ht-degree: 59%
 
 ---
 
@@ -17,6 +17,29 @@ ht-degree: 61%
 
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱最新的[文件更新](../release-notes/documentation-updates.md)。
+
+## 2021年7月發行 {#july-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>利用架構關係</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform可讓您定義結構間的關係，以使用一個資料集作為另一個資料集的查閱表格。 Journey Orchestration現在可以運用來自連結結構的資料。</p>
+<p>這些欄位可用於統一事件設定、歷程條件和自訂動作個人化。
+<p>如需詳細資訊，請參閱<a href="../event/experience-event-schema.md#leverage_schema_relationships">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改良功能
+
+* 已從資料源配置窗格中刪除&#x200B;**快取持續時間**&#x200B;欄位。 [閱讀全文](../datasource/about-data-sources.md)
 
 ## 2021年6月發行 {#june-2021-release}
 
