@@ -6,9 +6,9 @@ feature: 歷程
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '351'
 ht-degree: 11%
 
 ---
@@ -39,7 +39,6 @@ Adobe Experience Platform資料來源定義與即時客戶個人檔案服務的�
 
 1. 從&#x200B;**[!UICONTROL Schema]**&#x200B;下拉式清單中選取架構。 此欄位列出Adobe Experience Platform中可用的設定檔和體驗事件結構。 未在[!DNL Journey Orchestration]中執行架構建立。 是在Adobe Experience Platform演的。
 1. 選取您要使用的欄位。
-1. 定義快取持續時間。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 將游標置於欄位組的名稱上時，您會在右側看到兩個表徵圖。 它們可讓您刪除和複製欄位群組。 請注意，只有在欄位群組未用於任何即時或草稿歷程時（**[!UICONTROL Used in]**&#x200B;欄位中顯示的資訊）,**[!UICONTROL Delete]**&#x200B;圖示才可用。
