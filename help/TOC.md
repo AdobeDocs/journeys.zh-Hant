@@ -4,11 +4,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
-feature: 歷程
-source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
+feature: Journeys
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 99%
+source-wordcount: '421'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 # [!DNL Journey Orchestration] 指南 {#using}
 
 + [產品文件](journey-orchestration-home.md)
-+ 新功能 {#release-notes}
++ 新增功能 {#release-notes}
    + [發行說明](using/release-notes/release-notes.md)
    + [文件更新](using/release-notes/documentation-updates.md)
 + 開始使用 [!DNL Journey Orchestration] {#starting-with-journeys}
@@ -52,7 +52,7 @@ ht-degree: 99%
    + 使用協力廠商系統 {#action-third-party}
       + [關於自訂動作組態](using/action/about-custom-action-configuration.md)
       + [URL 組態](using/action/url-configuration.md)
-      + [定義訊息參數](using/action/defining-the-message-parameters.md)
+      + [定義動作參數](using/action/defining-the-message-parameters.md)
 + 使用區段{#configuring-segment}
    + [關於區段](using/segment/about-segments.md)
    + [建立區段](using/segment/creating-a-segment.md)
