@@ -1,23 +1,23 @@
 ---
 product: adobe campaign
-title: 定義訊息參數
-description: 了解如何定義訊息參數
-feature: 歷程
+title: 定義動作參數
+description: 了解如何定義動作參數
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: eb765d2f12ade397e124281f52213bb3e58263cb
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 4%
+source-wordcount: '225'
+ht-degree: 0%
 
 ---
 
-# 定義訊息參數 {#concept_wy4_bf1_2gb}
+# 定義動作參數 {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 
-在&#x200B;**[!UICONTROL Message parameters]**&#x200B;區段中，貼上要傳送至外部服務的JSON裝載範例。
+在&#x200B;**[!UICONTROL Action parameters]**&#x200B;區段中，貼上要傳送至外部服務的JSON裝載範例。
 
 ![](../assets/customactionpayloadmessage.png)
 
