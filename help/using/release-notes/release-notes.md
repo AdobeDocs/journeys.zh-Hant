@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 發行說明
 description: 瞭解發行說明
-feature: 歷程
+feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
+source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2756'
 ht-degree: 59%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 59%
 
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱最新的[文件更新](../release-notes/documentation-updates.md)。
+
+## 2021 年 8 月發行 {#august-2021-release}
+
+### 改良功能
+
+**歷程**
+
+* **動態標題**  — 您現在可以以HTTP標題參數傳遞動態資料。這些參數可供接收歷程動作HTTP呼叫的整合系統使用，例如時間戳記或追蹤ID。 [閱讀全文](../action/url-configuration.md)
+* **動態URL路徑**  — 您現在可以為自訂動作設定動態URL路徑。[閱讀全文](../action/url-configuration.md)
 
 ## 2021年7月發行 {#july-2021-release}
 
@@ -41,7 +50,7 @@ ht-degree: 59%
 
 * 已從資料源配置窗格中刪除&#x200B;**快取持續時間**&#x200B;欄位。 [閱讀全文](../datasource/about-data-sources.md)
 
-## 2021年6月發行 {#june-2021-release}
+## 2021 年 6 月發行 {#june-2021-release}
 
 <table>
 <thead>
@@ -67,22 +76,22 @@ ht-degree: 59%
 * 在歷程清單畫面中，已新增新篩選器。 您現在可以依歷程類型篩選：**[!UICONTROL Unitary event]**&#x200B;或&#x200B;**[!UICONTROL Segment qualification]**。 [閱讀全文](../about/user-interface.md#section_lgm_hpz_pgb)
 * 對於即時歷程，歷程屬性畫面現在會顯示發佈日期和發佈歷程的使用者名稱。 複製歷程的技術詳細資訊時，也可使用此資訊。 [閱讀全文](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
-## 2021 年 4 月發行版本 {#april-2021-release}
+## 2021 年 4 月發行 {#april-2021-release}
 
 ### 改良功能
 
 * 在測試模式的&#x200B;**事件設定**&#x200B;畫面中，現在會針對預期列舉的欄位顯示下拉式清單。 只需選取任一可用值即可。 這可避免在定義錯誤值時觸發事件時發生錯誤。 [閱讀全文](../building-journeys/testing-the-journey.md#firing_events)
 
-## 2021 年 3 月版本 {#march-2021-release}
+## 2021 年 3 月發行 {#march-2021-release}
 
 ### 改良功能
 
 * 歷程已新增狀態。 歷程結束或手動關閉時，其狀態會在關閉後30天從&#x200B;**Closed**&#x200B;切換為&#x200B;**Finished**。 這可讓您更輕鬆識別非作用中的歷程，同時確定仍有時間處理歷程。 [閱讀全文](../building-journeys/journey.md#ending_a_journey)
 * 在草稿歷程的活動右窗格中，現在預設會隱藏唯讀欄位。 此介面簡化可協助您更輕鬆設定活動。 若要顯示，請按一下活動配置窗格左上角的&#x200B;**顯示只讀欄位**&#x200B;表徵圖。 [閱讀全文](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* 在測試模式中，在&#x200B;**事件設定**&#x200B;畫面中，定義測試設定檔ID的&#x200B;**Key**&#x200B;欄位已重新命名&#x200B;**設定檔識別碼**，以提供更佳的使用者體驗。 [閱讀全文](../building-journeys/testing-the-journey.md).
-* 若是反應事件，逾時期間現在只能設定在40秒到30天之間。 測試使用反應事件的歷程時，測試模式&#x200B;**[!UICONTROL Wait time]**&#x200B;預設值和最小值現在為40秒。 [閱讀全文](../building-journeys/reaction-events.md).
+* 在測試模式中，在&#x200B;**事件設定**&#x200B;畫面中，定義測試設定檔ID的&#x200B;**Key**&#x200B;欄位已重新命名&#x200B;**設定檔識別碼**，以提供更佳的使用者體驗。 [閱讀全文](../building-journeys/testing-the-journey.md)。
+* 若是反應事件，逾時期間現在只能設定在40秒到30天之間。 測試使用反應事件的歷程時，測試模式&#x200B;**[!UICONTROL Wait time]**&#x200B;預設值和最小值現在為40秒。 [閱讀全文](../building-journeys/reaction-events.md)。
 
-## 2021 年 2 月發行版本 {#february-2021-release}
+## 2021 年 2 月發行 {#february-2021-release}
 
 <table>
 <thead>
@@ -107,7 +116,7 @@ ht-degree: 59%
 * 現在起始新歷程時，無法將第一個步驟放置在畫布中的元素會隱藏。 這與所有動作、條件活動、等待和反應有關。
 * 在進階運算式編輯器的左側，函式現在會重新分組在清單結尾的&#x200B;**Functions**&#x200B;區段下。
 
-## 2021 年 1 月版本 {#january-2021-release}
+## 2021 年 1 月發行 {#january-2021-release}
 
 在事件配置中選擇架構時，僅選擇Journey Orchestration正確接收該事件的必需欄位。 [閱讀全文](../event/defining-the-payload-fields.md)
 
