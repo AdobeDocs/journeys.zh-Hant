@@ -3,13 +3,13 @@ product: adobe campaign
 title: 設定API說明上限
 description: 進一步了解上限API。
 products: journeys
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1173'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 在資料來源設定期間，您將定義系統連線，以擷取將用於歷程的其他資訊，或用於動作定義，您將設定協力廠商系統的連線，以傳送訊息或API呼叫。 每次由歷程執行API呼叫時，即會查詢限定API，呼叫就會透過API引擎。 如果已定義限制，則會拒絕呼叫，且外部系統不會超載。
 
-若為外部資料來源，則每秒的呼叫數上限設為15。 如果呼叫數超過每秒15次，則會捨棄剩餘的呼叫。 您可以提高私人外部資料來源的此限制。 請連絡Adobe將端點加入白名單。 對於公用外部資料來源，則無法這麼做。 若要進一步了解整合外部系統時的最佳實務和防護，請參閱此[page](../about/external-systems.md)。
+若為外部資料來源，則每秒的呼叫數上限設為15。 如果呼叫數超過每秒15次，則會捨棄剩餘的呼叫。 您可以提高私人外部資料來源的此限制。 請連絡Adobe，將端點納入允許清單中。 對於公用外部資料來源，則無法這麼做。 若要進一步了解整合外部系統時的最佳實務和防護，請參閱此[page](../about/external-systems.md)。
 
 要了解有關操作或資料源配置的詳細資訊，請參閱[關於操作](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html)或[關於資料源](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
