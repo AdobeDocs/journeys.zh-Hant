@@ -2,20 +2,26 @@
 product: adobe campaign
 title: 文件更新
 description: 瞭解文件更新
-feature: 歷程
+feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 96%
 
 ---
 
 # 文件更新
 
 本頁面列出 [!DNL Journey Orchestration] 的所有文件更新。您也可以參閱[!DNL Journey Orchestration][發行說明](../release-notes/release-notes.md)。
+
+## 2021 年 8 月
+
+* 更新具有動態URL路徑和動態標題之自訂動作的設定程式。 [閱讀全文](../action/url-configuration.md)
+* 新增協助工具功能的相關章節。 [閱讀全文](../about/user-interface.md#accessibility)
+* 新增區段評估方法的相關章節。 [閱讀全文](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
 
 ## 2021 年 3 月 {#march-2021}
 
@@ -98,7 +104,7 @@ ht-degree: 100%
 
 * 已更新所有螢幕擷取畫面以反映介面的變更。
 * 已更新測試模式章節。[閱讀全文](../building-journeys/testing-the-journey.md)
-<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
+<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * 現在可刪除已停止的歷程。已更新相關文件頁面。
 * 在歷程中偵測到問題時，現在會顯示兩種顏色。紅色代表錯誤，橘色代表警告。[閱讀全文](../about/troubleshooting.md)
 * 已更新進階運算式編輯器章節。[閱讀全文](../expression/expressionadvanced.md).
