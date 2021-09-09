@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 ## 2021 年 8 月
 
-* 更新具有動態URL路徑和動態標題之自訂動作的設定程式。 [閱讀全文](../action/url-configuration.md)
+* 更新具有動態 URL 路徑和動態標題之自訂動作的設定程式。 [閱讀全文](../action/url-configuration.md)
 * 新增協助工具功能的相關章節。 [閱讀全文](../about/user-interface.md#accessibility)
 * 新增區段評估方法的相關章節。 [閱讀全文](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
 
