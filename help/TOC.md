@@ -6,9 +6,9 @@ user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 feature: Journeys
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 98%
       + 事件活動 {#events-activities}
          + [關於事件活動](using/building-journeys/event-activities.md)
          + [一般事件](using/building-journeys/general-events.md)
-         + [反應 events](using/building-journeys/reaction-events.md)
+         + [反應events](using/building-journeys/reaction-events.md)
          + [區段資格事件](using/building-journeys/segment-qualification-events.md)
       + 協調活動 {#orchestration-activities}
          + [關於協調活動](using/building-journeys/about-orchestration-activities.md)
@@ -104,7 +104,7 @@ ht-degree: 98%
       + [操作者](using/expression/operators.md)
       + [歷程屬性](using/expression/journey-properties.md)
       + [範例](using/expression/advanced-editor-use-cases.md)
-   + 函數 {#main-functions-journey}
+   + 函式 {#main-functions-journey}
       + [主要函式](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
          + [inSegment](using/functions/functioninsegment.md)
@@ -126,7 +126,7 @@ ht-degree: 98%
          + [toDuration](using/functions/functiontoduration.md)
          + [toInteger](using/functions/functiontointeger.md)
          + [toString](using/functions/functiontostring.md)
-      + Date {#date}
+      + 日期 {#date}
          + [currentTime&#x200B;InMillis](using/functions/functioncurrenttimeinmillis.md)
          + [inLastDays](using/functions/functioninlastdays.md)
          + [inLastHours](using/functions/functioninlasthours.md)
@@ -162,7 +162,7 @@ ht-degree: 98%
          + [isEmpty](using/functions/functionisempty.md)
          + [isNotEmpty](using/functions/functionisnotempty.md)
          + [lastIndexOf](using/functions/functionlastindexof.md)
-         + [length](using/functions/functionlength.md)
+         + [長度](using/functions/functionlength.md)
          + [lower](using/functions/functionlower.md)
          + [matchRegExp](using/functions/functionmatchregexp.md)
          + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
