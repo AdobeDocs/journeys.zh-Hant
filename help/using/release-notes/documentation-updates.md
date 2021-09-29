@@ -6,16 +6,30 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 93%
 
 ---
 
 # 文件更新
 
 本頁面列出 [!DNL Journey Orchestration] 的所有文件更新。您也可以參閱[!DNL Journey Orchestration][發行說明](../release-notes/release-notes.md)。
+
+## 2021 年 9 月
+
+* 已更新下列函式頁面：[sethours](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
+
+* 已新增下列函式：[filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
+
+* 已在運算式編輯器檔案中新增dateOnly日期類型。 [閱讀全文](../expression/data-types.md)
+
+* 新增自訂動作快取持續時間的詳細資訊。 [閱讀全文](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* 已新增自訂動作預設埠的資訊。 [閱讀全文](../action/url-configuration.md)
+
+* 新增在Data Lake中查詢歷程步驟事件的常用範例。 [閱讀全文](../building-journeys/query-examples.md)
 
 ## 2021 年 8 月
 

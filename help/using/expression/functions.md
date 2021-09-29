@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: 函數
+title: 函式
 description: 了解函式
-feature: 歷程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 74%
+source-wordcount: '175'
+ht-degree: 73%
 
 ---
 
-# 函數 {#concept_p1r_qj5_dgb}
+# 函式 {#concept_p1r_qj5_dgb}
 
 函式可以有不同的簽名（一組不同的有序參數）。 函式簽名可以有0-N個表達式作為有序參數。
 
@@ -38,6 +38,7 @@ ht-degree: 74%
 | 彙總 | [min](../functions/functionmin.md) |
 | 彙總 | [sum](../functions/functionsum.md) |
 | 轉換 | [toBool](../functions/functiontobool.md) |
+| 轉換 | [toDateOnly](../functions/functiontodateonly.md) |
 | 轉換 | [toDateTime](../functions/functiontodatetime.md) |
 | 轉換 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
 | 轉換 | [toDecimal](../functions/functiontodecimal.md) |
@@ -58,8 +59,11 @@ ht-degree: 74%
 | 日期 | [setHours](../functions/functionsethours.md) |
 | 日期 | [setDays](../functions/functionsetdays.md) |
 | 清單 | [distinct](../functions/functiondistinct.md) |
-| 清單 | [distinctCount](../functions/functiondistinctcount.md) |
+| 清單 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
+| 清單 | [篩選](../functions/functionfilter.md) |
+| 清單 | [getListItem](../functions/functiongetlistitem.md) |
 | 清單 | [在 ](../functions/functionin.md) |
+| 清單 | [相交](../functions/functionintersect.md) |
 | 清單 | [listSize](../functions/functionlistsize.md) |
 | 清單 | [serializeList](../functions/functionserializelist.md) |
 | 清單 | [sort](../functions/functionsort.md) |
@@ -75,7 +79,7 @@ ht-degree: 74%
 | 字串 | [isEmpty](../functions/functionisempty.md) |
 | 字串 | [isNotEmpty](../functions/functionisnotempty.md) |
 | 字串 | [lastIndexOf](../functions/functionlastindexof.md) |
-| 字串 | [length](../functions/functionlength.md) |
+| 字串 | [長度](../functions/functionlength.md) |
 | 字串 | [lower](../functions/functionlower.md) |
 | 字串 | [matchRegExp](../functions/functionmatchregexp.md) |
 | 字串 | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |

@@ -5,10 +5,10 @@ title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 feature: Journeys
-source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: ht
-source-wordcount: '421'
-ht-degree: 100%
+source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 97%
 
 ---
 
@@ -93,6 +93,7 @@ ht-degree: 100%
       + [journeyStep 事件資料擷取欄位](using/building-journeys/sharing-fetch-fields.md)
       + [journeyStep 事件識別欄位](using/building-journeys/sharing-identity-fields.md)
       + [歷程欄位](using/building-journeys/sharing-journey-fields.md)
+      + [查詢範例](using/building-journeys/query-examples.md)
 + 使用進階運算式編輯器 {#building-advanced-conditions-journeys}
    + [關於進階運算式編輯器](using/expression/expressionadvanced.md)
    + 語法 {#syntax}
@@ -120,6 +121,7 @@ ht-degree: 100%
          + [sum](using/functions/functionsum.md)
       + 轉換 {#conversion}
          + [toBool](using/functions/functiontobool.md)
+         + [toDateOnly](using/functions/functiontodateonly.md)
          + [toDateTime](using/functions/functiontodatetime.md)
          + [toDateTimeOnly](using/functions/functiontodatetimeonly.md)
          + [toDecimal](using/functions/functiontodecimal.md)
@@ -143,8 +145,10 @@ ht-degree: 100%
       + 清單 {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
+         + [篩選](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [在 ](using/functions/functionin.md)
+         + [相交](using/functions/functionintersect.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -194,5 +198,6 @@ ht-degree: 100%
       + [設定資料來源](using/usecase/configuring-the-data-sources.md)
       + [組建歷程](using/usecase/building-the-journey.md)
    + [使用 Campaign v7/v8 傳送訊息](using/usecase/campaign-classic-use-case.md)
+   + [使用自訂動作以動態方式傳遞集合](using/usecase/collections.md)
 + 使用 API{#working-with-apis}
    + [設定 API 上限](using/api/capping.md)

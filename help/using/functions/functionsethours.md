@@ -2,14 +2,14 @@
 product: adobe campaign
 title: setHours
 description: 了解函式setHours
-feature: 歷程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51536b20e81cde1a7fdd7f4654d70bfe6176b0d4
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 12%
+source-wordcount: '101'
+ht-degree: 8%
 
 ---
 
@@ -51,4 +51,4 @@ Date
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-明天晚上8點返回。
+明天晚上8:XY返回，XY是當前時間評估時的分鐘。 如果評估發生在凌晨2:45，則返回時間為晚上8:45。

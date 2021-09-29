@@ -2,14 +2,14 @@
 product: adobe campaign
 title: '外部資料來源 '
 description: '瞭解如何設定外部資料來源 '
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 5ea6578ec15b8e1116f58f7644cbf45c523d1840
+source-git-commit: 7805ee4beb056ba84bc994162da2b0e54db60ca3
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 98%
+source-wordcount: '1318'
+ht-degree: 93%
 
 ---
 
@@ -183,3 +183,7 @@ ht-degree: 98%
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>快取持續時間有助於避免對驗證端點發出太多呼叫。 在服務中快取驗證權杖保留，沒有持續性。 如果服務重新啟動，則會以乾淨的快取開始。 預設的快取持續時間為1小時。 在自訂動作裝載中，可指定其他保留期間來調整它。

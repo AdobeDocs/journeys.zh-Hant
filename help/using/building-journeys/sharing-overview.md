@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 歷程步驟分享概覽
 description: 歷程步驟分享概覽
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: ec5337e6b2df126370b55e1466fc5027659441fe
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '452'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->此功能預設會在歷程步驟事件的所有執行個體上啟用。 若為歷程設定檔步驟事件，則需應要求進行啟動。 配置此功能期間建立的結構描述和資料集不可更改。
+>此功能預設會在歷程步驟事件的所有執行個體上啟用。 若為歷程設定檔步驟事件，則需應要求進行啟動。 您無法修改或更新在布建步驟事件期間建立的結構和資料集。 這些結構和資料集預設為唯讀模式。
 
 例如，您已設定可傳送多封電子郵件的歷程。 此功能可讓您將[!DNL Journey Orchestration]資料與下游事件資料結合，例如發生了多少轉換、網站上發生了多少參與，或商店中發生了多少交易。 歷程資訊可與Adobe Experience Platform上的資料結合，不論是來自其他數位屬性或來自離線屬性，以提供更全面的效能檢視。
 

@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 建立事件
 description: 了解如何建立事件
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: f1773cc56f69894d376d83eb68891499991aa1ab
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 63%
+source-wordcount: '584'
+ht-degree: 60%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 63%
 
    >[!NOTE]
    >
-   >定義&#x200B;**[!UICONTROL Event ID condition]**&#x200B;時，進階運算式編輯器無法使用。
+   >定義&#x200B;**[!UICONTROL Event ID condition]**&#x200B;時，進階運算式編輯器無法使用。 在簡單運算式編輯器中，並非所有運算子都可用，它們取決於資料類型。 例如，對於欄位的字串類型，您可以使用「包含」或「等於」。
 
 1. 新增命名空間。此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶個人檔案服務」的資訊。它會定義事件具備的金鑰類型。請參閱[此頁面](../event/selecting-the-namespace.md)。
 1. 定義金鑰：從您的有效負載欄位選擇一個欄位，或是定義一個公式以識別與事件相關聯的人員。如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。事實上，[!DNL Journey Orchestration] 會挑選應該與命名空間對應的金鑰（例如，如果您選取電子郵件命名空間，系統便會選取電子郵件金鑰）。請參閱[此頁面](../event/defining-the-event-key.md)。

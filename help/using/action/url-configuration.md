@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: 2a93bce42ea9f1f21d70c68da3dbc36844dafd1b
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 5%
+source-wordcount: '328'
+ht-degree: 4%
 
 ---
 
@@ -25,12 +25,14 @@ ht-degree: 5%
 
    * 如果URL包含動態路徑，則僅輸入URL的靜態部分，即配置、主機、埠，以及路徑的靜態部分（可選）。
 
-      範例：`https://xxx.yyy.com:8080/somethingstatic/`
+      範例: `https://xxx.yyy.com/somethingstatic/`
 
       將自訂動作新增至歷程時，您會指定URL的動態路徑。 [了解更多](../building-journeys/using-custom-actions.md)。
    >[!NOTE]
    >
    >基於安全考量，強烈建議您為URL使用HTTPS配置。 不允許使用非公用的Adobe位址和IP位址。
+   >
+   >定義自訂動作時，僅允許預設埠：80（適用於http）和443（適用於https）。
 
 1. 選擇呼叫&#x200B;**[!UICONTROL Method]**:可以是&#x200B;**[!UICONTROL POST]**&#x200B;或&#x200B;**[!UICONTROL PUT]**。
 1. 在&#x200B;**[!UICONTROL Headers]**&#x200B;區段中，定義要傳送至外部服務的要求訊息的HTTP標題：

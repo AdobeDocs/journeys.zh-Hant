@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
 workflow-type: tm+mt
-source-wordcount: '2756'
-ht-degree: 59%
+source-wordcount: '2965'
+ht-degree: 56%
 
 ---
 
@@ -18,21 +18,48 @@ ht-degree: 59%
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱最新的[文件更新](../release-notes/documentation-updates.md)。
 
-## 2021 年 8 月發行 {#august-2021-release}
+## 2021年9月發行 {#september-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>使用自訂動作以動態方式傳遞資料清單</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以在自訂動作參數中傳遞集合或資料清單，這些參數將在執行階段動態填入。 支援兩種集合：簡單集合和對象集合。 先前建立的自訂動作將可繼續運作。 </p>
+<p>有關集合的詳細資訊，請參閱<a href="../usecase/collections.md">詳細檔案</a>。 </p>
+<p>篩選器和交叉函式已添加到高級表達式編輯器中可用的函式清單中。 這提供更多篩選和比較集合的可能性。</p>
+<p>請參閱<a href="../functions/functionfilter.md">filter</a>和<a href="../functions/functionintersect.md">intersect</a>函式的相關文檔。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改良功能
+
+* 布建步驟事件期間建立的系統產生的結構描述和資料集現在為唯讀模式，可避免重要結構的任何意外修改。 [了解更多](../building-journeys/sharing-overview.md)
+* 乾淨地標籤&#x200B;**Wait**&#x200B;活動，並標籤將顯示在畫布中。 標籤也會用於報表和測試模式記錄檔，以清楚識別您正在執行的動作。 [了解更多](../building-journeys/using-the-journey-designer.md)
+* 使用搜尋來篩選&#x200B;**Events**&#x200B;和&#x200B;**Action**&#x200B;類別中的元素，以更快找到事件和動作。 不再篩選協調活動。 [了解更多](../building-journeys/using-the-journey-designer.md)
+* 在規則型中定義事件ID條件時，「包含」運算子現在可用於欄位的字串類型。 [了解更多](../event/about-creating.md)
+
+## 2021 年 8 月發行版本 {#august-2021-release}
 
 ### 改良功能
 
 **歷程**
 
-* **動態標題**  — 您現在可以以HTTP標題參數傳遞動態資料。這些參數可供接收歷程動作HTTP呼叫的整合系統使用，例如時間戳記或追蹤ID。 [閱讀全文](../action/url-configuration.md)
+* **動態標題**  — 您現在可以以HTTP標題參數傳遞動態資料。接收歷程動作 HTTP 呼叫 (例如時間戳記或追蹤 ID) 的整合系統可使用這些參數。 [閱讀全文](../action/url-configuration.md)
 * **動態URL路徑**  — 您現在可以為自訂動作設定動態URL路徑。[閱讀全文](../action/url-configuration.md)
 
-## 2021年7月發行 {#july-2021-release}
+## 2021 年 7 月 版本 {#july-2021-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>利用架構關係</strong><br/></th>
+<th><strong>利用結構描述關係</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -260,7 +287,7 @@ ht-degree: 59%
 </tbody>
 </table>
 
-## 2020 年 8 月發行 {#august-release}
+## 2020 年 8 月發行版本 {#august-release}
 
 ### GA 更新{#august-ga-update}
 

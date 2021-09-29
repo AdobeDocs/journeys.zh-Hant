@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 使用歷程設計器
 description: 進一步了解如何使用歷程設計器
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a7a49113a8b53e9c15123e788d50bb72310d949d
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1428'
 ht-degree: 5%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 5%
 
 ![](../assets/palette-filter.png)
 
-您也可以使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位。
+您也可以使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位。 系統只會篩選事件和動作。
 
 ## 畫布 {#canvas}
 

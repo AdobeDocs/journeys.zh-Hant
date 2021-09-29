@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 資料類型
 description: 了解進階運算式中的資料類型
-feature: 歷程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '636'
 ht-degree: 5%
 
 ---
@@ -119,15 +119,47 @@ false
 true
 ```
 
+## dateOnly {#date-only}
+
+**說明**
+
+僅代表沒有時區、視為年月日的日期。
+
+這是日期的說明，適用於生日。
+
+JSON格式：字串。
+
+格式為：YYYY-MM-DD(ISO-8601)，例如：&quot;2021-03-11&quot;。
+
+它可封裝在toDateOnly函式中。
+
+它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化值。 [了解更多](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+
+**常值表示**
+
+```
+date("<dateOnly in ISO-8601 format>")  
+```
+
+**範例**
+
+```
+date("2021-02-19")
+```
+
 ## dateTimeOnly {#date-time-only}
 
 **說明**
 
 表示沒有時區的日期時間，視為年月日、小時、分鐘、毫秒。
 
+JSON格式：字串。
+
 不會儲存或代表時區。 相反，它是日期的描述（用於生日），與掛鐘上顯示的當地時間相結合。
 
 若沒有額外資訊（例如位移或時區），則無法呈現時間線上的即時。
+
+它可封裝在toDateTimeOnly函式中。
 
 序列化格式：ISO-8601延長偏移日期時間格式。
 
@@ -136,7 +168,14 @@ true
 **常值表示**
 
 ```
-toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+date("<dateTimeOnly in ISO-8601 format>")  
+```
+
+**範例**
+
+```
+date("2021-02-19T00.00.000")
+date("2021-02-19T00.00")
 ```
 
 ## dateTime {#date-time}
@@ -149,7 +188,7 @@ toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")
 
 JSON格式：字串。
 
-它必須封裝在toDateTime函式中。
+它可封裝在toDateTime函式中。
 
 序列化格式：ISO-8601延長偏移日期時間格式。
 
@@ -166,10 +205,18 @@ toDateTime("<dateTime in ISO-8601 format>")
 ```
 
 ```
+date("<dateTime in ISO-8601 format>")
+```
+
+```
 toDateTime(<integer value of an epoch in milliseconds>)
 ```
 
 **範例**
+
+```
+date("2021-02-19T00.00.000Z")
+```
 
 ```
 toDateTime("1977-04-22T06:00:00Z")
