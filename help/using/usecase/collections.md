@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 使用自訂動作以動態方式傳遞集合
 description: 使用 Campaign v7/v8 傳送訊息
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 8225167c686112f737d2b6ca22237324a6189b09
+source-git-commit: ded8f65e7210c252f59ec26150daaa964c7a6a77
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 4%
@@ -148,7 +148,7 @@ ht-degree: 4%
 
    ![](../assets/uc-collection-4.png)
 
-對於陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在以下範例中，我們使用[filter](../functions/functionfilter.md)和[intersect](../functions/functiontintersect.md)函式：
+對於陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在以下範例中，我們使用[filter](../functions/functionfilter.md)和[intersect](../functions/functionintersect.md)函式：
 
 ![](../assets/uc-collection-5.png)
 
