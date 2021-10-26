@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 93%
 
 ## 2021 年 9 月
 
-* 已更新下列函式頁面：[sethours](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
+* 已更新下列函式頁面： [sethours](../functions/functionsethours.md)、[getListItem](../functions/functiongetlistitem.md)、[inSegment](../functions/functioninsegment.md)
 
-* 已新增下列函式：[filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
+* 已新增下列函式： [篩選](../functions/functionfilter.md)、[相交](../functions/functionintersect.md)、[toDateOnly](../functions/functiontodateonly.md)
 
-* 已在運算式編輯器檔案中新增dateOnly日期類型。 [閱讀全文](../expression/data-types.md)
+* 已在運算式編輯器文件中新增 dateOnly 日期類型。 [閱讀全文](../expression/data-types.md)
 
-* 新增自訂動作快取持續時間的詳細資訊。 [閱讀全文](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* 新增自訂動作快取持續時間的詳細資料。 [閱讀更多](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 
-* 已新增自訂動作預設埠的資訊。 [閱讀全文](../action/url-configuration.md)
+* 已新增自訂動作預設連接埠的資訊。 [閱讀更多](../action/url-configuration.md)
 
-* 新增在Data Lake中查詢歷程步驟事件的常用範例。 [閱讀全文](../building-journeys/query-examples.md)
+* 新增在資料湖中查詢歷程步驟事件的常用範例。 [閱讀更多](../building-journeys/query-examples.md)
 
 ## 2021 年 8 月
 
