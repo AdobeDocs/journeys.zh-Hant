@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: equalWithIgnoreCase
-description: 了解equalWithIgnoreCase函式
-feature: 歷程
+title: equalIgnoreCase
+description: 了解equalIgnoreCase函式
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9311c799-a4e6-47b3-9867-b09093d3a981
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 21%
+source-wordcount: '36'
+ht-degree: 13%
 
 ---
 
-# equalWithIgnoreCase {#equalWithIgnoreCase}
+# equalIgnoreCase {#equalIgnoreCase}
 
 比較第一個引數字串與第二個引數字串，忽略大小寫考量事項。
 
@@ -23,7 +23,7 @@ ht-degree: 21%
 
 ## 函式語法
 
-`equalWithIgnoreCase(<parameters>)`
+`equalIgnoreCase(<parameters>)`
 
 ## 參數
 
@@ -31,12 +31,12 @@ ht-degree: 21%
 
 ## 簽名和返回類型
 
-`equalWithIgnoreCase(<string>,<string>)`
+`equalIgnoreCase(<string>,<string>)`
 
 傳回布林值。
 
 ## 範例
 
-`equalWithIgnoreCase("rowing is great', "rowing is GREAT")`
+`equalIgnoreCase("rowing is great", "rowing is GREAT")`
 
 傳回true。

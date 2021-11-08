@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 73%
@@ -17,7 +17,7 @@ ht-degree: 73%
 
 函式可以有不同的簽名（一組不同的有序參數）。 函式簽名可以有0-N個表達式作為有序參數。
 
-`<function name>`(`<expression as param 1>`,  `<expression as param 2>`, ..., `<expression as param N>`)
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
 每個函式都有特定的傳回類型。
 
@@ -71,10 +71,10 @@ ht-degree: 73%
 | 數學 | [round](../functions/functionround.md) |
 | 字串 | [concat](../functions/functionconcat.md) |
 | 字串 | [contain](../functions/functioncontain.md) |
-| 字串 | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| 字串 | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
 | 字串 | [endWith](../functions/functionendwith.md) |
 | 字串 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| 字串 | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| 字串 | [equalIgnoreCase](../functions/functionequalignorecase.md) |
 | 字串 | [indexOf](../functions/functionindexof.md) |
 | 字串 | [isEmpty](../functions/functionisempty.md) |
 | 字串 | [isNotEmpty](../functions/functionisnotempty.md) |
@@ -82,7 +82,7 @@ ht-degree: 73%
 | 字串 | [長度](../functions/functionlength.md) |
 | 字串 | [lower](../functions/functionlower.md) |
 | 字串 | [matchRegExp](../functions/functionmatchregexp.md) |
-| 字串 | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| 字串 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
 | 字串 | [replace](../functions/functionreplace.md) |
 | 字串 | [replaceAll](../functions/functionreplaceall.md) |
 | 字串 | [startWith](../functions/functionstartwith.md) |

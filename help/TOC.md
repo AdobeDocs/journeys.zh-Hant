@@ -5,10 +5,10 @@ title: Journey Orchestration 指南
 user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 feature: Journeys
-source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 96%
 
 ---
 
@@ -88,11 +88,14 @@ ht-degree: 100%
    + [發佈歷程](using/building-journeys/publishing-the-journey.md)
    + 使用 Adobe Experience Platform 分享歷程步驟 {#sharing-journey-steps}
       + [歷程步驟分享概覽](using/building-journeys/sharing-overview.md)
-      + [journeySteps 事件常見欄位](using/building-journeys/sharing-common-fields.md)
-      + [journeyStep 事件動作執行欄位](using/building-journeys/sharing-execution-fields.md)
-      + [journeyStep 事件資料擷取欄位](using/building-journeys/sharing-fetch-fields.md)
-      + [journeyStep 事件識別欄位](using/building-journeys/sharing-identity-fields.md)
-      + [歷程欄位](using/building-journeys/sharing-journey-fields.md)
+      + [步驟事件欄位清單](using/building-journeys/sharing-field-list.md)
+      + 舊版步驟事件欄位 {#legacy-step-event-fields}
+         + [關於舊版欄位](using/building-journeys/sharing-legacy-fields.md)
+         + [journeySteps 事件常見欄位](using/building-journeys/sharing-common-fields.md)
+         + [journeyStep 事件動作執行欄位](using/building-journeys/sharing-execution-fields.md)
+         + [journeyStep 事件資料擷取欄位](using/building-journeys/sharing-fetch-fields.md)
+         + [journeyStep 事件識別欄位](using/building-journeys/sharing-identity-fields.md)
+         + [歷程欄位](using/building-journeys/sharing-journey-fields.md)
       + [查詢範例](using/building-journeys/query-examples.md)
 + 使用進階運算式編輯器 {#building-advanced-conditions-journeys}
    + [關於進階運算式編輯器](using/expression/expressionadvanced.md)
@@ -158,10 +161,10 @@ ht-degree: 100%
       + 字串 {#string}
          + [concat](using/functions/functionconcat.md)
          + [contain](using/functions/functioncontain.md)
-         + [containWithIgnoreCase](using/functions/functioncontainwithignorecase.md)
+         + [containIgnoreCase](using/functions/functioncontainwithignorecase.md)
          + [endWith](using/functions/functionendwith.md)
          + [endWithIgnorecase](using/functions/functionendwithignorecase.md)
-         + [equalWithIgnoreCase](using/functions/functionequalignorecase.md)
+         + [equalIgnoreCase](using/functions/functionequalignorecase.md)
          + [indexOf](using/functions/functionindexof.md)
          + [isEmpty](using/functions/functionisempty.md)
          + [isNotEmpty](using/functions/functionisnotempty.md)
@@ -169,7 +172,7 @@ ht-degree: 100%
          + [長度](using/functions/functionlength.md)
          + [lower](using/functions/functionlower.md)
          + [matchRegExp](using/functions/functionmatchregexp.md)
-         + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
+         + [notequalIgnoreCase](using/functions/functionnotequalignorecase.md)
          + [replace](using/functions/functionreplace.md)
          + [replaceAll](using/functions/functionreplaceall.md)
          + [split](using/functions/functionsplit.md)

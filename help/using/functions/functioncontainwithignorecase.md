@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: containWithIgnoreCase
-description: 了解函式containWithIgnoreCase
-feature: 歷程
+title: containIgnoreCase
+description: 了解函式containIgnoreCase
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: ebec646e-9dbb-4432-a430-ab69fb7d75cf
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 24%
+source-wordcount: '48'
+ht-degree: 18%
 
 ---
 
-# containWithIgnoreCase {#containWithIgnoreCase}
+# containIgnoreCase {#containIgnoreCase}
 
 檢查第二個引數字串是否包含在第一個引數字串中，而不考慮大小寫。
 
@@ -23,7 +23,7 @@ ht-degree: 24%
 
 ## 函式語法
 
-`containWithIgnoreCase(<parameters>)`
+`containIgnoreCase(<parameters>)`
 
 ## 參數
 
@@ -34,12 +34,12 @@ ht-degree: 24%
 
 ## 簽名和返回類型
 
-`containWithIgnoreCase(<string>,<string>)`
+`containIgnoreCase(<string>,<string>)`
 
 傳回布林值。
 
 ## 範例
 
-`containWithIgnoreCase("rowing is great', "GREAT")`
+`containIgnoreCase("rowing is great", "GREAT")`
 
 傳回true。

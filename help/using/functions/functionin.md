@@ -2,13 +2,13 @@
 product: adobe campaign
 title: '在 '
 description: 了解中的函式
-feature: 歷程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 17%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 檢查清單中是否有第一個引數值。 檢查是通過每個參數值的Equal來執行的。 若找到引數值，則傳回true，否則傳回false。
 
-`<expression>`的類型必須與清單的項目相符。 清單項目的類型（作為提醒）必須彼此匹配。
+類型 `<expression>` 必須與清單的項目相符。 清單項目的類型（作為提醒）必須彼此匹配。
 
 ## 類別
 
@@ -45,6 +45,7 @@ ht-degree: 17%
 | 清單 | listDuration |
 | 清單 | listDateTime |
 | 清單 | listDateTimeOnly |
+| 清單 | listDateOnly |
 
 ## 簽名和返回類型
 
@@ -59,6 +60,8 @@ ht-degree: 17%
 `in(<dateTimeOnly>,<listDateTimeOnly>)`
 
 `in(<dateTime>,<listDateTime>)`
+
+`in(<dateOnly>,<listDateOnly>)`
 
 `in(<duration>,<listDuration>)`
 

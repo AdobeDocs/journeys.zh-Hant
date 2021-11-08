@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 使用進階運算式編輯器
 description: 瞭解如何建立進階運算式
-feature: 歷程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -50,22 +50,22 @@ ht-degree: 2%
 
 指定的時間戳記作為日期時間值，秒為天數。
 
-```
-        In( “addToCart”, #{ExperiencePlatformDataSource
+```json
+        in( "addToCart", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
                         .productInteraction})
-        And
-        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+        and
+        not(in( "completePurchase", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
-                        .productInteraction})
+                        .productInteraction}))
 ```
 
 此運算式會傳回布林值。
@@ -76,20 +76,20 @@ ht-degree: 2%
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* 在右側，需要指定必要值，在此處，我們需要檢索儲存區的位置，該位置是從事件「AmmirdLumaStudio」的位置映射的：
+* 在右側，指定了必要值，在此，我們需要檢索儲存區的位置，該位置是從事件「AmmirdLumaStudio」的位置映射的：
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* 並指定SKU，使用函式`first`來擷取最新的「addToCart」互動：
+* 並使用函式指定SKU `first` 若要擷取最近的「addToCart」互動：
 
-   ```
+   ```json
        #{ExperiencePlatformDataSource
                        .ExperienceEventFieldGroup
                        .experienceevent
                        .first(
                        currentDataPackField
                        .productData
-                       .productInteraction == “addToCart”
+                       .productInteraction == "addToCart"
                        )
                        .SKU}
    ```
@@ -102,7 +102,7 @@ ht-degree: 2%
 
 此條件僅會擷取「Arlington」中觸發的地理柵欄事件：
 
-```
+```json
         @{GeofenceEntry
                     .placeContext
                     .POIinteraction
@@ -110,11 +110,11 @@ ht-degree: 2%
                     .name} == "Arlington"
 ```
 
-說明：這是嚴格的字串比較（區分大小寫），等同於簡單模式中使用`equal to`且已勾選`Is sensitive`的查詢。
+說明：這是嚴格的字串比較（區分大小寫），等同於使用 `equal to` with `Is sensitive` 已勾選。
 
-取消勾選`Is sensitive`的相同查詢會在進階模式中產生下列運算式：
+與 `Is sensitive` 未勾選會在進階模式中產生下列運算式：
 
-```
+```json
         equalIgnoreCase(@{GeofenceEntry
                         .placeContext
                         .POIinteraction
@@ -126,7 +126,7 @@ ht-degree: 2%
 
 下列運算式可讓您在動作個人化欄位中定義CRM ID:
 
-```
+```json
     substr(@{MobileAppLaunch
             ._myorganization
             .identification
@@ -135,10 +135,9 @@ ht-degree: 2%
                         ._myorganization
                         .identification
                         .crmid}
-                         }
                          ))
 ```
 
-說明：此範例使用`substr`和`lastIndexOf`函式來移除大括弧，此大括弧會包含隨行動應用程式啟動事件傳遞的CRM ID。
+說明：此範例使用 `substr` 和 `lastIndexOf` 函式可移除大括弧，此大括弧會括住隨行動應用程式啟動事件傳遞的CRM ID。
 
-有關如何使用高級表達式編輯器的詳細資訊，請觀看[此視頻](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
+有關如何使用高級表達式編輯器的詳細資訊，請觀看 [此影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).

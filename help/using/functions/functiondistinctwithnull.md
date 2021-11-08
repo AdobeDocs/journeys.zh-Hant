@@ -2,14 +2,14 @@
 product: adobe campaign
 title: distinctWithNull
 description: 了解函式distinctWithNull
-feature: 歷程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 65a904c1-14ff-42b3-8f03-abb97ef47625
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 16%
+source-wordcount: '106'
+ht-degree: 15%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 16%
 | 清單 | listDuration |
 | 清單 | listDateTime |
 | 清單 | listDateTimeOnly |
+| 清單 | listDateOnly |
 
 ## 簽名和返回的類型
 
@@ -59,6 +60,10 @@ ht-degree: 16%
 
 返回datetimes清單。
 
+`distinctWithNull(<listDateOnly>)`
+
+傳回日期清單。
+
 `distinctWithNull(<listBoolean>)`
 
 傳回布林值清單。
@@ -71,4 +76,4 @@ ht-degree: 16%
 
 `distinctWithNull([10,2,10,null])`
 
-傳回[10, 2, null]
+傳回 [10, 2，空]

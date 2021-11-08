@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 使用自訂動作以動態方式傳遞集合
 description: 使用 Campaign v7/v8 傳送訊息
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: ded8f65e7210c252f59ec26150daaa964c7a6a77
+source-git-commit: 358fddd8e5c2ca80532ff2b74dc9627ffdc8837e
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '424'
 ht-degree: 4%
 
 ---
@@ -52,23 +52,6 @@ ht-degree: 4%
    ```
 
 ## 限制 {#limitations}
-
-* 不支援包含子對象的對象陣列。 例如：
-
-   ```
-   {
-   "products":[
-     {
-        "id":"productA",
-        "name":"A",
-        "details": {
-        "color":"blue"
-        },
-        "price":20.0
-     }
-    ]
-   }
-   ```
 
 * 目前不支援物件陣列內的巢狀物件陣列。 例如：
 
@@ -118,7 +101,7 @@ ht-degree: 4%
 
 1. 建立自訂動作。 請參閱[此頁面](../action/about-custom-action-configuration.md)。
 
-1. 在&#x200B;**[!UICONTROL Action parameters]**&#x200B;區段中，貼上JSON範例。 顯示的結構為靜態：貼上裝載時，所有欄位都定義為常數。
+1. 在 **[!UICONTROL Action parameters]** 區段，貼上JSON範例。 顯示的結構為靜態：貼上裝載時，所有欄位都定義為常數。
 
    ![](../assets/uc-collection-1.png)
 
@@ -140,7 +123,7 @@ ht-degree: 4%
 
 1. 建立您的歷程，並新增您建立的自訂動作。 請參閱[此頁面](../building-journeys/using-custom-actions.md)。
 
-1. 在&#x200B;**[!UICONTROL Action parameters]**&#x200B;區段中，使用進階運算式編輯器定義陣列參數（本範例中為&quot;products&quot;）。
+1. 在 **[!UICONTROL Action parameters]** 區段，使用進階運算式編輯器定義陣列參數（此範例中為「products」）。
 
    ![](../assets/uc-collection-3.png)
 
@@ -148,7 +131,7 @@ ht-degree: 4%
 
    ![](../assets/uc-collection-4.png)
 
-對於陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在以下範例中，我們使用[filter](../functions/functionfilter.md)和[intersect](../functions/functionintersect.md)函式：
+對於陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在下列範例中，我們會使用 [篩選](../functions/functionfilter.md) 和 [相交](../functions/functionintersect.md) 函式：
 
 ![](../assets/uc-collection-5.png)
 

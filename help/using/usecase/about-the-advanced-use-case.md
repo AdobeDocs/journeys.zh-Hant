@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 關於進階使用案例
 description: 深入了解歷程進階使用案例
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 5%
+source-wordcount: '416'
+ht-degree: 4%
 
 ---
 
@@ -29,26 +29,26 @@ ht-degree: 5%
 
 然後，我們檢查兩個條件：
 
-* 如果此人不是忠誠會員，我們會傳送電子郵件給他，加入忠誠會員優惠。
+* 如果此人不是忠誠會員，我們會傳送電子郵件給他們，加入忠誠會員優惠。
 * 如果此人已是忠誠會員，我們會檢查他是否有客房預訂：
-   * 如果他沒有，我們會以房費向他發送推播通知。
-   * 如果他有，我們會傳送歡迎推播通知給他。 如果他在接下來的6小時內進入餐廳，我們會向他發送一條推播通知，並在一餐中打折。
+   * 如果他沒有，我們會以房費向他們發送推播通知。
+   * 如果他有，我們會傳送歡迎推播通知給他們。 如果他在接下來的6小時內進入餐廳，我們會向他們發送一條推播通知，並在一餐中打折。
 
 ![](../assets/journeyuc2_29.png)
 
-對於此使用案例，我們需要建立兩個事件（請參閱[此頁面](../usecase/configuring-the-events.md)）:
+對於此使用案例，我們需要建立兩個事件(請參閱 [本頁](../usecase/configuring-the-events.md)):
 
 * 當客戶進入酒店時，會推送至系統的大堂信標事件。
 * 當客戶進入餐廳時，會推播的餐廳信標事件。
 
-我們需要配置到兩個資料源的連接（請參閱[此頁](../usecase/configuring-the-data-sources.md)）:
+我們需要設定與兩個資料來源的連線(請參閱 [本頁](../usecase/configuring-the-data-sources.md)):
 
 * 內建的Adobe Experience Platform資料來源，可擷取我們兩個條件（忠誠會籍和上次聯絡日期）的資訊，以及訊息個人化資訊。
 * 酒店預訂系統，用於檢索預訂狀態資訊。
 
 ## 先決條件 {#prerequisites}
 
-針對我們的使用案例，我們設計了三個Adobe Campaign Standard交易式訊息範本。 我們使用事件交易式訊息範本。 請參閱此[page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)。
+針對我們的使用案例，我們設計了三個Adobe Campaign Standard交易式訊息範本。 我們使用事件交易式訊息範本。 請參閱 [頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant).
 
 Adobe Campaign Standard已設定為傳送電子郵件和推播通知。
 

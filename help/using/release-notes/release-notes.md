@@ -1,22 +1,46 @@
 ---
 product: adobe campaign
-title: 發行說明
+title: 版本注意事項
 description: 瞭解發行說明
 feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
+source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
-source-wordcount: '2965'
-ht-degree: 56%
+source-wordcount: '3069'
+ht-degree: 54%
 
 ---
 
-# 發行說明 {#release-notes}
+# 版本注意事項 {#release-notes}
 
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱最新的[文件更新](../release-notes/documentation-updates.md)。
+
+## 2021年10月發行 {#october-2021-release}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Profile cap condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### 改良功能
+
+* **運算式編輯器**  — 身為超級用戶，您現在可以使用函式來處理地圖。 [了解更多](../expression/field-references.md)
+* **協助工具**  — 已實作協助工具增強功能。 Journey Orchestration現在在無障礙環境方面完全符合規範。
+* **集合**  — 現在支援包含子物件的物件陣列。 [閱讀全文](../usecase/collections.md)
+* **監控**  — 已增強即時歷程和測試模式的步驟事件。 [新欄位](../building-journeys/sharing-field-list.md#serviceevents) 已新增與設定檔匯出作業相關的內容。 為了提供更好的使用者體驗，您現在可以在「歷程步驟事件」結構中，將步驟事件欄位組織為不同類別，以利Journey Orchestration。 所有先前的步驟事件欄位仍可在 [stepEvents](../building-journeys/sharing-legacy-fields.md) 類別。
 
 ## 2021年9月發行 {#september-2021-release}
 
@@ -30,9 +54,9 @@ ht-degree: 56%
 <tr>
 <td>
 <p>您現在可以在自訂動作參數中傳遞集合或資料清單，這些參數將在執行階段動態填入。 支援兩種集合：簡單集合和對象集合。 先前建立的自訂動作將可繼續運作。 </p>
-<p>有關集合的詳細資訊，請參閱<a href="../usecase/collections.md">詳細檔案</a>。 </p>
+<p>如需集合的詳細資訊，請參閱 <a href="../usecase/collections.md">詳細檔案</a>. </p>
 <p>篩選器和交叉函式已添加到高級表達式編輯器中可用的函式清單中。 這提供更多篩選和比較集合的可能性。</p>
-<p>請參閱<a href="../functions/functionfilter.md">filter</a>和<a href="../functions/functionintersect.md">intersect</a>函式的相關文檔。</p>
+<p>請參閱 <a href="../functions/functionfilter.md">篩選</a> 和 <a href="../functions/functionintersect.md">相交</a> 函式。</p>
 </td>
 </tr>
 </tbody>
@@ -41,8 +65,8 @@ ht-degree: 56%
 ### 改良功能
 
 * 布建步驟事件期間建立的系統產生的結構描述和資料集現在為唯讀模式，可避免重要結構的任何意外修改。 [了解更多](../building-journeys/sharing-overview.md)
-* 乾淨地標籤&#x200B;**Wait**&#x200B;活動，並標籤將顯示在畫布中。 標籤也會用於報表和測試模式記錄檔，以清楚識別您正在執行的動作。 [了解更多](../building-journeys/using-the-journey-designer.md)
-* 使用搜尋來篩選&#x200B;**Events**&#x200B;和&#x200B;**Action**&#x200B;類別中的元素，以更快找到事件和動作。 不再篩選協調活動。 [了解更多](../building-journeys/using-the-journey-designer.md)
+* 乾淨地標籤 **等待** 活動，其標籤將顯示在畫布中。 標籤也會用於報表和測試模式記錄檔，以清楚識別您正在執行的動作。 [了解更多](../building-journeys/using-the-journey-designer.md)
+* 篩選 **事件** 和 **動作** 類別。 不再篩選協調活動。 [了解更多](../building-journeys/using-the-journey-designer.md)
 * 在規則型中定義事件ID條件時，「包含」運算子現在可用於欄位的字串類型。 [了解更多](../event/about-creating.md)
 
 ## 2021 年 8 月發行版本 {#august-2021-release}
@@ -51,10 +75,10 @@ ht-degree: 56%
 
 **歷程**
 
-* **動態標題**  — 您現在可以以HTTP標題參數傳遞動態資料。接收歷程動作 HTTP 呼叫 (例如時間戳記或追蹤 ID) 的整合系統可使用這些參數。 [閱讀全文](../action/url-configuration.md)
-* **動態URL路徑**  — 您現在可以為自訂動作設定動態URL路徑。[閱讀全文](../action/url-configuration.md)
+* **動態標題**  — 您現在可以以HTTP標題參數傳遞動態資料。 接收歷程動作 HTTP 呼叫 (例如時間戳記或追蹤 ID) 的整合系統可使用這些參數。 [閱讀全文](../action/url-configuration.md)
+* **動態URL路徑**  — 您現在可以為自訂動作設定動態URL路徑。 [閱讀全文](../action/url-configuration.md)
 
-## 2021 年 7 月 版本 {#july-2021-release}
+## 2021 年 7 月發行版本 {#july-2021-release}
 
 <table>
 <thead>
@@ -75,7 +99,7 @@ ht-degree: 56%
 
 ### 改良功能
 
-* 已從資料源配置窗格中刪除&#x200B;**快取持續時間**&#x200B;欄位。 [閱讀全文](../datasource/about-data-sources.md)
+* 此 **快取期間** 欄位已從資料來源設定窗格中移除。 [閱讀全文](../datasource/about-data-sources.md)
 
 ## 2021 年 6 月發行 {#june-2021-release}
 
@@ -100,23 +124,23 @@ ht-degree: 56%
 
 * 對於外部資料來源，現在會自動定義每秒15次呼叫的上限規則。 [閱讀全文](../about/external-systems.md#capping)
 * 簡單與進階的運算式編輯器現在支援XDM日期格式。
-* 在歷程清單畫面中，已新增新篩選器。 您現在可以依歷程類型篩選：**[!UICONTROL Unitary event]**&#x200B;或&#x200B;**[!UICONTROL Segment qualification]**。 [閱讀全文](../about/user-interface.md#section_lgm_hpz_pgb)
+* 在歷程清單畫面中，已新增新篩選器。 您現在可以依歷程類型篩選： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**. [閱讀全文](../about/user-interface.md#section_lgm_hpz_pgb)
 * 對於即時歷程，歷程屬性畫面現在會顯示發佈日期和發佈歷程的使用者名稱。 複製歷程的技術詳細資訊時，也可使用此資訊。 [閱讀全文](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## 2021 年 4 月發行 {#april-2021-release}
 
 ### 改良功能
 
-* 在測試模式的&#x200B;**事件設定**&#x200B;畫面中，現在會針對預期列舉的欄位顯示下拉式清單。 只需選取任一可用值即可。 這可避免在定義錯誤值時觸發事件時發生錯誤。 [閱讀全文](../building-journeys/testing-the-journey.md#firing_events)
+* 在 **事件設定** 在測試模式的畫面中，現在會針對預期會列舉的欄位顯示下拉式清單。 只需選取任一可用值即可。 這可避免在定義錯誤值時觸發事件時發生錯誤。 [閱讀全文](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2021 年 3 月發行 {#march-2021-release}
 
 ### 改良功能
 
-* 歷程已新增狀態。 歷程結束或手動關閉時，其狀態會在關閉後30天從&#x200B;**Closed**&#x200B;切換為&#x200B;**Finished**。 這可讓您更輕鬆識別非作用中的歷程，同時確定仍有時間處理歷程。 [閱讀全文](../building-journeys/journey.md#ending_a_journey)
-* 在草稿歷程的活動右窗格中，現在預設會隱藏唯讀欄位。 此介面簡化可協助您更輕鬆設定活動。 若要顯示，請按一下活動配置窗格左上角的&#x200B;**顯示只讀欄位**&#x200B;表徵圖。 [閱讀全文](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* 在測試模式中，在&#x200B;**事件設定**&#x200B;畫面中，定義測試設定檔ID的&#x200B;**Key**&#x200B;欄位已重新命名&#x200B;**設定檔識別碼**，以提供更佳的使用者體驗。 [閱讀全文](../building-journeys/testing-the-journey.md)。
-* 若是反應事件，逾時期間現在只能設定在40秒到30天之間。 測試使用反應事件的歷程時，測試模式&#x200B;**[!UICONTROL Wait time]**&#x200B;預設值和最小值現在為40秒。 [閱讀全文](../building-journeys/reaction-events.md)。
+* 歷程已新增狀態。 歷程結束或手動關閉時，其狀態會從 **已關閉** to **已完成** 30天後。 這可讓您更輕鬆識別非作用中的歷程，同時確定仍有時間處理歷程。 [閱讀全文](../building-journeys/journey.md#ending_a_journey)
+* 在草稿歷程的活動右窗格中，現在預設會隱藏唯讀欄位。 此介面簡化可協助您更輕鬆設定活動。 若要顯示，請按一下 **顯示唯讀欄位** 圖示，可在活動設定窗格的左上角取得。 [閱讀全文](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* 在測試模式中， **事件設定** 螢幕， **金鑰** 已重新命名用於定義測試設定檔ID的欄位 **設定檔識別碼** 提供更佳的使用者體驗。 [閱讀全文](../building-journeys/testing-the-journey.md)。
+* 若是反應事件，逾時期間現在只能設定在40秒到30天之間。 測試使用反應事件的歷程時，即測試模式 **[!UICONTROL Wait time]** 預設值和最小值現在為40秒。 [閱讀全文](../building-journeys/reaction-events.md)。
 
 ## 2021 年 2 月發行 {#february-2021-release}
 
@@ -141,7 +165,7 @@ ht-degree: 56%
 * 現在，在設定事件時，預設只會預先選取XDM驗證必要的欄位。 無法取消選取這些欄位。
 * 在歷程浮動視窗中，已新增新的篩選器。 除了現成可用的事件和動作外，它還可讓您只顯示最後5個使用的事件和動作。 這是每個使用者專屬的。 依預設，會顯示所有項目。 [閱讀全文](../building-journeys/using-the-journey-designer.md#palette)
 * 現在起始新歷程時，無法將第一個步驟放置在畫布中的元素會隱藏。 這與所有動作、條件活動、等待和反應有關。
-* 在進階運算式編輯器的左側，函式現在會重新分組在清單結尾的&#x200B;**Functions**&#x200B;區段下。
+* 在進階運算式編輯器的左側，函式現在會重新分組在 **函式** 區段。
 
 ## 2021 年 1 月發行 {#january-2021-release}
 
@@ -155,7 +179,7 @@ ht-degree: 56%
 
 事件逾時期間現在可在逾時路徑上更清楚指定。 [閱讀全文](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-已將[getListItem](../functions/functiongetlistitem.md)和[split](../functions/functionsplit.md)函式新增至進階運算式編輯器中可用的函式清單。 這將在字串計算使用案例中提供更多可能性。
+此 [getListItem](../functions/functiongetlistitem.md) 和 [split](../functions/functionsplit.md) 函式已新增至進階運算式編輯器中可用的函式清單。 這將在字串計算使用案例中提供更多可能性。
 
 ## 2020年11月發行 {#november-release}
 
@@ -168,13 +192,13 @@ ht-degree: 56%
 <tbody>
 <tr>
 <td>
-<p>新的動作活動可讓您將個人從一個歷程推送至另一個歷程。 <strong>Jump</strong>活動允許您：
+<p>新的動作活動可讓您將個人從一個歷程推送至另一個歷程。 此 <strong>跳</strong> 活動可讓您：
 </p>
 <ul>
 <li>將複雜的歷程分割為數個歷程，以簡化其設計 </li>
 <li>根據常見且可重複使用的歷程模式建立歷程</li>
 </ul>
-<p>如需詳細資訊，請參閱<a href="../building-journeys/jump.md">詳細檔案</a>和<a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hant">教學課程影片</a>。</p>
+<p>如需詳細資訊，請參閱 <a href="../building-journeys/jump.md">詳細檔案</a> 和 <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hant">教學課程影片</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -217,7 +241,7 @@ ht-degree: 56%
 
 已新增建立歷程新版本時的限制。 這些限制可避免歷程中變更過猛，以保持版本之間的一致性。 [閱讀全文](../about/limitations.md#journey-versions-limitations)
 
-**區段資格**&#x200B;活動不再可用於包含Campaign Standard訊息活動的歷程中。 此限制可保護Adobe Campaign Standard執行個體的完整性。 事實上，使用區段資格可能會導致訊息傳送的每日高峰，而且會使Campaign Standard交易式訊息過載。 [閱讀全文](../about/limitations.md#segment-qualification)
+此 **區段資格** 活動無法再用於包含Campaign Standard訊息活動的歷程中。 此限制可保護Adobe Campaign Standard執行個體的完整性。 事實上，使用區段資格可能會導致訊息傳送的每日高峰，而且會使Campaign Standard交易式訊息過載。 [閱讀全文](../about/limitations.md#segment-qualification)
 
 ## 2020年10月發行 {#october-release}
 
@@ -274,7 +298,7 @@ ht-degree: 56%
 <tbody>
 <tr>
 <td>
-<p>已對<strong>讀取區段</strong>活動進行下列改良：
+<p>已對 <strong>讀取區段</strong> 活動：
 </p>
 <ul>
 <li><p>現在，畫布上方會顯示以區段為基礎的歷程，提醒歷程的排程類型。 您可以按一下此提醒以存取排程設定功能表。</p>
