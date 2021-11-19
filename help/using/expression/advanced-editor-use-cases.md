@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
+source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 * 第一個函式會傳回最近的事件
 * 最後一個函式將返回最舊的函式。
 
-例如，假設您想要鎖定在過去7天內放棄購物車的客戶，在客戶接近商店時傳送訊息，並針對他想要的商店項目提供優惠。
+例如，假設您想要鎖定在過去7天內放棄購物車的客戶，在客戶接近商店時傳送訊息，並針對他們想要在商店內的項目提供優惠方案。
 
 **您需要建立下列條件：**
 
@@ -127,15 +127,20 @@ ht-degree: 2%
 下列運算式可讓您在動作個人化欄位中定義CRM ID:
 
 ```json
-    substr(@{MobileAppLaunch
-            ._myorganization
-            .identification
-            .crmid}, 1, 
-            lastIndexOf(@{MobileAppLaunch
-                        ._myorganization
-                        .identification
-                        .crmid}
-                         ))
+substr(
+   @{MobileAppLaunch
+   ._myorganization
+   .identification
+   .crmid},
+   1, 
+   lastIndexOf(
+     @{MobileAppLaunch
+     ._myorganization
+     .identification
+     .crmid},
+     '}'
+   )
+)
 ```
 
 說明：此範例使用 `substr` 和 `lastIndexOf` 函式可移除大括弧，此大括弧會括住隨行動應用程式啟動事件傳遞的CRM ID。

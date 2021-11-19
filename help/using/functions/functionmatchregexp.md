@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 12%
+source-wordcount: '60'
+ht-degree: 18%
 
 ---
 
@@ -40,10 +40,6 @@ ht-degree: 12%
 
 ## 範例
 
-`matchRegExp("Hello World", "Hello\s+World")`
+`matchRegExp("username@adobe.com", "*adobe")`
 
 傳回true。
-
-說明：
-
-在此，您可以檢查字串是否滿足規則運算式（java語法）:以&quot;Hello&quot;開頭，然後是任何類型的字串，結尾是&quot;World&quot;。

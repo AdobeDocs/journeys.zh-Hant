@@ -2,20 +2,21 @@
 product: adobe campaign
 title: 關於進階運算式編輯器
 description: 瞭解如何建立進階運算式
-feature: 歷程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 90%
+source-wordcount: '550'
+ht-degree: 85%
 
 ---
 
 # 關於進階運算式編輯器 {#concept_uyj_trt_52b}
 
-進階運算式編輯器可讓您在介面的各種畫面中建立進階運算式，例如在定義資料來源條件時。此外，您每次必須定義需要特定資料處理的動作參數時，都可以使用它。您可以善用來自事件的資料或是從資料來源擷取的其他資訊。在歷程中，顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。
+使用進階運算式編輯器，在介面的各種畫面中建立進階運算式。 例如，您可以在設定和使用歷程時，以及定義資料來源條件時建立運算式。
+此外，您每次必須定義需要特定資料處理的動作參數時，都可以使用它。您可以善用來自事件的資料或是從資料來源擷取的其他資訊。在歷程中，顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。
 
 進階運算式編輯器提供一組內建函式和運算子，讓您得以控制值並定義特別符合您需求的運算式。進階運算式編輯器也可讓您定義外部資料來源參數的值、控制對應欄位和集合，例如體驗事件。
 
@@ -57,9 +58,9 @@ _進階運算式編輯器介面_
 在畫面左側，會顯示可用的欄位和函式：
 
 * **[!UICONTROL Events]**：從入站事件接收的其中一個欄位。顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。[閱讀全文](../event/about-events.md)
-* **[!UICONTROL Segments]**:如果已捨棄事 **[!UICONTROL Segment qualification]** 件，請選擇要在運算式中使用的區段。[閱讀全文](../segment/using-a-segment.md)
+* **[!UICONTROL Segments]**:如果你掉了 **[!UICONTROL Segment qualification]** 事件，選擇您要在運算式中使用的區段。 [閱讀全文](../segment/using-a-segment.md)
 * **[!UICONTROL Data Sources]**：從資料來源欄位群組中的可用欄位清單中選擇。[閱讀全文](../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**:本節會重新分組指定設定檔之歷程的相關技術欄位。[閱讀全文](../expression/journey-properties.md)
+* **[!UICONTROL Journey properties]**:本節會重新分組指定設定檔之歷程的相關技術欄位。 [閱讀全文](../expression/journey-properties.md)
 * **[!UICONTROL Functions]**：從可執行複雜篩選的內建函式清單中選擇。函式會依類別組織。[閱讀全文](../expression/functions.md)
 
 ![](../assets/journey65.png)
@@ -74,7 +75,7 @@ _進階運算式編輯器介面_
 
 **使用進階運算式編輯器建立條件時，需要使用參數**
 
-如果您從外部資料來源選取欄位，需要呼叫參數（請參閱[此頁面](../datasource/external-data-sources.md)）。 例如，在天氣相關資料來源中，常用的參數為 &quot;city&quot;。因此，您必須選擇要取得此城市參數的位置。也可將函式套用至參數，以執行格式變更或串聯。
+如果您從外部資料來源選取欄位，需要呼叫參數(請參閱 [本頁](../datasource/external-data-sources.md). 例如，在天氣相關資料來源中，常用的參數為 &quot;city&quot;。因此，您必須選擇要取得此城市參數的位置。也可將函式套用至參數，以執行格式變更或串聯。
 
 ![](../assets/journeyuc2_19.png)
 
