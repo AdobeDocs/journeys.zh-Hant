@@ -18,38 +18,38 @@ ht-degree: 3%
 
 ## 簡介
 
-[!DNL Journey Orchestration]的API支援5000個事件/秒，但某些外部系統或API的吞吐量無法相等。這就是[!DNL Journey Orchestration]隨附一項名為「設定API上限」的專用功能的原因，該功能可監控並限制我們對外部系統的執行率。
+[!DNL Journey Orchestration]的API支援5000個事件/秒，但某些外部系統或API的吞吐量無法相等。 這就是為什麼 [!DNL Journey Orchestration] 隨附稱為「限定API」的專用功能，可監控並限制我們對外部系統的執行率。
 
 在資料來源設定期間，您將定義系統連線，以擷取將用於歷程的其他資訊，或用於動作定義，您將設定協力廠商系統的連線，以傳送訊息或API呼叫。 每次由歷程執行API呼叫時，即會查詢限定API，呼叫就會透過API引擎。 如果已定義限制，則會拒絕呼叫，且外部系統不會超載。
 
-若為外部資料來源，則每秒的呼叫數上限設為15。 如果呼叫數超過每秒15次，則會捨棄剩餘的呼叫。 您可以提高私人外部資料來源的此限制。 請連絡Adobe，將端點納入允許清單中。 對於公用外部資料來源，則無法這麼做。 若要進一步了解整合外部系統時的最佳實務和防護，請參閱此[page](../about/external-systems.md)。
+若為外部資料來源，則每秒的呼叫數上限設為15。 如果呼叫數超過每秒15次，則會捨棄剩餘的呼叫。 您可以提高私人外部資料來源的此限制。 請連絡Adobe，將端點納入允許清單中。 對於公用外部資料來源，則無法這麼做。 若要進一步了解整合外部系統時的最佳實務和防護，請參閱 [頁面](../about/external-systems.md).
 
-要了解有關操作或資料源配置的詳細資訊，請參閱[關於操作](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html)或[關於資料源](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
+有關操作或資料源配置的詳細資訊，請參閱 [關於動作](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) 或 [關於資料來源](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 ## 資源
 
 >[!NOTE]
 >
->[!DNL Journey Orchestration]限定API是在[此處](https://adobedocs.github.io/JourneyAPI/docs/)可用的Swagger檔案中說明。
+>此 [!DNL Journey Orchestration] 可用的Swagger檔案中會說明設定API上限 [此處](https://adobedocs.github.io/JourneyAPI/docs/).
 
-若要將此API與您的[!DNL Journey Orchestration]例項搭配使用，您需要使用AdobeI/O主控台。 您可以依照此[Adobe開發人員控制台快速入門](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md)開始，然後使用本頁面中的各節。
+若要將此API用於 [!DNL Journey Orchestration] 例項，您需要使用AdobeI/O主控台。 您可以依照以下步驟開始 [開始使用Adobe開發人員控制台](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 然後使用本頁面中的部分。
 
-若要測試並準備您的整合，可在[此處](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)取得Postman集合。
+若要測試並準備您的整合，可使用Postman集合 [此處](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 ## 驗證
 
 ### 設定 API 存取
 
-[!DNL Journey Orchestration] API存取權限是透過下列步驟設定。在[Adobe I/O檔案](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)中會詳細說明這些步驟。
+[!DNL Journey Orchestration] API存取權限是透過下列步驟設定。 以下各步驟在 [Adobe I/O檔案](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
->若要在Adobe I/O中管理憑證，請確定您在組織上擁有<b>系統管理員</b>權限，或在管理控制台中擁有[開發人員帳戶](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html)權限。
+>若要在Adobe I/O中管理憑證，請確定您 <b>系統管理員</b> 組織或 [開發人員帳戶](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html) （在Admin Console中）。
 
-1. **檢查您是否擁有數位憑證**，或視需要建立憑證。下列步驟需要憑證隨附的公開金鑰和私密金鑰。
-1. **建立ServiceinAdobe I/O的 [!DNL Journey Orchestration]** 新整合併加以設定。[!DNL Journey Orchestration]和Adobe Experience Platform需要產品設定檔存取權。 接著會產生您的認證（API金鑰、用戶端密碼……）。
-1. **從先前產生的憑證建立JSON網頁代號(JWT)** ，並使用您的私密金鑰簽署。JWT會對Adobe驗證身分並授予您API存取權所需的所有身分和安全資訊進行編碼。 此步驟在此[節](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)中詳細說明
-1. **透過POST要求或** 開發人員控制台介面，將JWT交換為存取代號。此存取權杖必須用於API請求的每個標題中。
+1. **確認您擁有數位憑證**，或視需要建立。 下列步驟需要憑證隨附的公開金鑰和私密金鑰。
+1. **建立新整合以 [!DNL Journey Orchestration] 服務** Adobe I/O並加以設定。 需要產品設定檔存取權 [!DNL Journey Orchestration] 和Adobe Experience Platform。 接著會產生您的認證（API金鑰、用戶端密碼……）。
+1. **建立JSON網頁代號(JWT)** 從先前產生的憑證，並使用您的私密金鑰簽署。 JWT會對Adobe驗證身分並授予您API存取權所需的所有身分和安全資訊進行編碼。 此步驟在此中詳細說明 [節](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
+1. **將JWT交換為存取權杖** 透過POST要求或開發人員控制台介面。 此存取權杖必須用於API請求的每個標題中。
 
 若要建立安全的服務對服務Adobe I/OAPI工作階段，對Adobe服務的每個要求都必須在授權標題中包含下列資訊。
 
@@ -64,11 +64,11 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
    * &lt;organization> :您的生產執行個體
 
-   若要取得組織ID值，請洽詢您的管理員或Adobe技術聯絡人。 建立新整合時，您也可以在授權清單中將其擷取至Adobe I/O(請參閱<a href="https://www.adobe.io/authentication.html">Adobe I/O檔案</a>)。
+   若要取得組織ID值，請洽詢您的管理員或Adobe技術聯絡人。 建立新整合時，您也可以將其擷取至Adobe I/O中，位於授權清單中(請參閱 <a href="https://www.adobe.io/authentication.html">Adobe I/O檔案</a>)。
 
 * **&lt;access_token>**:您的個人存取權杖，此權杖是透過POST要求交換JWT時擷取的。
 
-* **&lt;api_key>**:您的個人API金鑰。它會在建立[!DNL Journey Orchestration]服務的新整合後以Adobe I/O提供。
+* **&lt;api_key>**:您的個人API金鑰。 它會在建立與 [!DNL Journey Orchestration] 服務。
 
 
 
@@ -137,7 +137,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 ## 警告和錯誤
 
-當呼叫&#x200B;**canDeploy**&#x200B;方法時，該進程將驗證配置並返回由其唯一ID標識的驗證狀態，其中一種方式為：
+當 **canDeploy** 方法呼叫時，程式會驗證設定並傳回以其唯一ID識別的驗證狀態，其中一項為：
 
 ```
 "ok" or "error"
@@ -154,7 +154,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **ERR_ENDPOINTCONFIG_108**:限定配置：最大呼叫計數無效(periodInMs)
 * **ERR_ENDPOINTCONFIG_111**:限定配置：無法建立端點配置：有效負載
 * **ERR_ENDPOINTCONFIG_112**:限定配置：無法建立端點配置：應為JSON裝載
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**:服務名無效 `<!--<given value>-->`:必須是「dataSource」或「action」
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**:無效的服務名稱 `<!--<given value>-->`:必須是「dataSource」或「action」
 
 
 潛在警告是：
@@ -165,27 +165,27 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 ## 使用案例
 
-在本節中，您會找到可在[!DNL Journey Orchestration]中管理上限設定的五個主要使用案例。
+在本節中，您會找到可在中執行以管理上限設定的五個主要使用案例 [!DNL Journey Orchestration].
 
-為協助您進行測試和設定，可在[此處](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)取得Postman集合。
+為協助您進行測試和設定，可使用Postman集合 [此處](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
-此Postman集合已設定為共用透過&#x200B;__[Adobe I/O控制台的Integrations](https://console.adobe.io/tw/integrations) > Try it out > Download for Postman__&#x200B;產生的Postman變數集合，此集合會產生包含所選整合值的Postman環境檔案。
+此Postman集合已設定為共用透過 __[Adobe I/O主控台的整合](https://console.adobe.io/tw/integrations) >試用>下載Postman__，會產生包含所選整合值的Postman環境檔案。
 
-下載並上傳至Postman後，您需要新增三個變數：`{JO_HOST}`、`{Base_Path}`和`{SANDBOX_NAME}`。
+下載並上傳至Postman後，您需要新增三個變數： `{JO_HOST}`,`{Base_Path}` 和 `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] 網關URL
-* `{BASE_PATH}` :API的進入點。值為「/authoring」
-* `{SANDBOX_NAME}` :與 **執行API作業的沙箱名稱** （例如&#39;prod&#39;）對應的標頭x-sandbox-name。如需詳細資訊，請參閱[沙箱概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant) 。
+* `{BASE_PATH}` :API的進入點。 值為「/authoring」
+* `{SANDBOX_NAME}` :標題 **x-sandbox-name** （例如&#39;prod&#39;），此名稱對應於將進行API操作的沙箱名稱。 請參閱 [沙箱概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant) 以取得更多資訊。
 
 在下節中，您會找到Rest API呼叫排序清單以執行使用案例。
 
-使用案例n°1:**建立和部署新的上限設定**
+使用案例n°1: **建立和部署新的上限設定**
 
 1. list
 1. 建立
 1. candeploy
 1. 部署
 
-使用案例n°2:**更新並部署尚未部署的上限配置**
+使用案例n°2: **更新並部署尚未部署的上限設定**
 
 1. 清單
 1. get
@@ -193,19 +193,19 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 1. candeploy
 1. 部署
 
-用例n°3:**取消部署並刪除已部署的上限配置**
+用例n°3: **取消部署和刪除已部署的上限配置**
 
 1. 清單
 1. 取消部署
 1. 刪除
 
-使用案例n°4:**刪除已部署的上限配置。**
+使用案例n°4: **刪除已部署的上限配置。**
 
 在僅一個API呼叫中，您可以使用forceDelete參數來取消部署和刪除設定。
 1. 清單
 1. 刪除，使用forceDelete參數
 
-使用案例n°5:**更新已部署的上限配置**
+使用案例n°5: **更新已部署的上限配置**
 
 1. 清單
 1. get

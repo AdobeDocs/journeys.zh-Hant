@@ -2,13 +2,13 @@
 product: adobe campaign
 title: journeyStep 事件資料擷取欄位
 description: journeyStep 事件資料擷取欄位
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 7%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 ## fetchOriginErrorCode
 
-系統[!DNL Journey Orchestration]提供的錯誤代碼正在查詢。 例如，可以是404、500等。
+系統提供的錯誤代碼 [!DNL Journey Orchestration] 正在查詢。 例如，可以是404、500等。
 
 類型: 字串
 

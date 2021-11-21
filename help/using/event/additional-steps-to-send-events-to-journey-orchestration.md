@@ -2,33 +2,33 @@
 product: adobe campaign
 title: 將事件傳送至Journey Orchestration的其他步驟
 description: 了解將事件傳送至Journey Orchestration的其他步驟
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '319'
 ht-degree: 4%
 
 ---
 
-# 將事件傳送至[!DNL Journey Orchestration]的其他步驟 {#concept_xrz_n1q_y2b}
+# 將事件傳送至的其他步驟 [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
 
 >[!NOTE]
 >
->建立事件時，[!DNL Journey Orchestration]會自動為此事件產生ID。 推送事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 請參閱[此頁面](../event/previewing-the-payload.md)。
+>建立事件時， [!DNL Journey Orchestration] 自動為此事件產生ID。 推送事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 請參閱[此頁面](../event/previewing-the-payload.md)。
 
-要配置要發送到&#x200B;**[!UICONTROL Streaming Ingestion APIs]**&#x200B;以及要在[!DNL Journey Orchestration]中使用的事件，需要執行以下步驟：
+配置要發送到的事件 **[!UICONTROL Streaming Ingestion APIs]** 和 [!DNL Journey Orchestration]，您需要遵循下列步驟：
 
-1. 從Adobe Experience Platform API取得入口URL（請參閱[串流獲取API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant)）。
-1. 從&#x200B;**[!UICONTROL Event]**&#x200B;功能表中的有效負載預覽複製有效負載。 請參閱[此頁面](../event/defining-the-payload-fields.md)。
+1. 從Adobe Experience Platform API取得入口URL(請參閱 [串流獲取API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant))。
+1. 從 **[!UICONTROL Event]** 功能表。 請參閱[此頁面](../event/defining-the-payload-fields.md)。
 
 然後，您需要設定資料系統，使用您複製的裝載將事件推送至串流獲取API:
 
 1. 設定串流獲取API URL的POSTAPI呼叫（稱為入口）。
-1. 使用您從API呼叫內文(「data section」)中[!DNL Journey Orchestration]複製的裝載，來串流獲取API。 如需範例，請參閱下方
-1. 決定要在何處取得有效負載中所有變數。 範例：如果事件應傳達地址，則貼上的裝載會顯示「地址」：&quot;string&quot;。 「string」應取代為變數，變數會自動填入正確值（要傳送訊息之人員的電子郵件）。 請注意，在有效負載預覽的&#x200B;**[!UICONTROL Header]**&#x200B;區段中，我們會自動填入許多預期有助於您工作的值。
+1. 使用您從 [!DNL Journey Orchestration] (位於對串流獲取API呼叫的內文（「資料區段」）中。 如需範例，請參閱下方
+1. 決定要在何處取得有效負載中所有變數。 範例：如果事件應傳達地址，則貼上的裝載會顯示「地址」：&quot;string&quot;。 「string」應取代為變數，變數會自動填入正確值（要傳送訊息之人員的電子郵件）。 請注意，在裝載預覽中， **[!UICONTROL Header]** 區段中，我們會自動填入許多值，以方便您工作。
 1. 選取「application/json」作為內文類型。
 1. 使用索引鍵「x-gw-ims-org-id」在標題中傳遞您的IMS組織ID。 若為值，請使用您的IMS組織ID(「XXX@AdobeOrg」)。
 
@@ -89,6 +89,6 @@ ht-degree: 4%
 }
 ```
 
-為方便您識別貼上「data」部件的位置，您可以使用JSON視覺化工具，例如[https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
+為方便您識別「資料」部件貼上位置，您可以使用JSON視覺化工具，例如 [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-若要疑難排解串流獲取API，請參閱此[page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)。
+若要疑難排解串流獲取API，請參閱 [頁面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).

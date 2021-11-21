@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 使用 Adobe Campaign
 description: 了解Adobe Campaign動作
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '302'
 ht-degree: 4%
 
 ---
@@ -25,17 +25,17 @@ ht-degree: 4%
 >
 >設定Adobe Campaign Standard整合後，系統就會為Adobe Campaign Standard動作自動定義每秒13次呼叫的上限規則。 這對應於Adobe Campaign Standard交易訊息的官方規模。
 >
->在[Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)中，閱讀更多有關交易式訊息SLA的資訊。
+>閱讀更多有關交易式訊息SLA的資訊，請參閱 [Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
 
 以下是設定此變數的步驟：
 
-1. 從&#x200B;**[!UICONTROL Actions]**&#x200B;清單中，按一下內建&#x200B;**[!UICONTROL AdobeCampaignStandard]**&#x200B;動作。 動作設定窗格會在畫面右側開啟。
+1. 從 **[!UICONTROL Actions]** 清單，按一下內建 **[!UICONTROL AdobeCampaignStandard]** 動作。 動作設定窗格會在畫面右側開啟。
 
    ![](../assets/actioncampaign.png)
 
-1. 複製您的Adobe Campaign Standard執行個體URL並貼到&#x200B;**[!UICONTROL URL]**&#x200B;欄位中。
+1. 複製您的Adobe Campaign Standard執行個體URL並貼到 **[!UICONTROL URL]** 欄位。
 
-1. 按一下&#x200B;**[!UICONTROL Test the instance URL]**&#x200B;以測試例項的有效性。
+1. 按一下 **[!UICONTROL Test the instance URL]** 來測試例項的有效性。
 
    >[!NOTE]
    >
@@ -47,8 +47,8 @@ ht-degree: 4%
    >
    >與此Adobe Campaign Standard例項相關聯的組織與Journey Orchestration的組織相同。
 
-設計歷程時，**[!UICONTROL Action]**&#x200B;類別中會提供三個動作：**[!UICONTROL Email]**、**[!UICONTROL Push]**、**[!UICONTROL SMS]**(請參閱[使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-actions.md))。 **反應** 事件也可讓您對訊息點按、開啟等動作做出反應。（請參閱[反應事件](../building-journeys/reaction-events.md)）。
+設計歷程時， **[!UICONTROL Action]** 類別： **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (請參閱 [使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-actions.md))。 **反應事件** 也會允許您對訊息點按、開啟等做出反應。 (請參閱 [反應事件](../building-journeys/reaction-events.md))。
 
 ![](../assets/journey58.png)
 
-如果您使用協力廠商系統來傳送訊息，則需要新增及設定自訂動作。 請參閱[關於自訂動作設定](../action/about-custom-action-configuration.md)。
+如果您使用協力廠商系統來傳送訊息，則需要新增及設定自訂動作。 請參閱 [關於自訂動作設定](../action/about-custom-action-configuration.md).

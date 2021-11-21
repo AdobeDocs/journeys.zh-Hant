@@ -2,24 +2,24 @@
 product: adobe campaign
 title: 設定事件
 description: 了解如何為歷程進階使用案例設定事件
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 7%
 
 ---
 
 # 設定事件 {#concept_sbp_5cy_w2b}
 
-在我們的情境中，每次有人進入馬爾頓酒店和餐廳時，我們都需要收到活動。 **技術使用者**&#x200B;需要設定我們要系統在歷程中監聽的兩個事件。
+在我們的情境中，每次有人進入馬爾頓酒店和餐廳時，我們都需要收到活動。 此 **技術使用者** 需要設定我們要系統在歷程中監聽的兩個事件。
 
-有關事件配置的其他資訊，請參閱[此頁](../event/about-events.md)。
+有關事件配置的其他資訊，請參閱 [本頁](../event/about-events.md).
 
-1. 在頂端功能表中，按一下&#x200B;**[!UICONTROL Events]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL Add]**&#x200B;以建立新事件。
+1. 在頂端功能表中，按一下 **[!UICONTROL Events]** 按一下 **[!UICONTROL Add]** 來建立新事件。
 
    ![](../assets/journeyuc1_1.png)
 
@@ -31,7 +31,7 @@ ht-degree: 7%
 
    我們還需要註冊Token才能傳送推送訊息：&quot;_experience > campaign > message > profile > pushNotificationToken > token&quot;
 
-   系統會自動為此事件產生ID。 此ID儲存在&#x200B;**[!UICONTROL eventID]**&#x200B;欄位(&quot;_experience > campaign > orchestration > eventID&quot;)中。 推送事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 在我們的使用案例中，此ID用於識別信標位置。 每當使用者在大堂信標附近散步時，就會傳送包含此特定事件ID的事件。 餐廳信標事件也適用同樣的原則。 這可讓系統知道觸發事件傳送的信標。
+   系統會自動為此事件產生ID。 此ID儲存在 **[!UICONTROL eventID]** 欄位(「_experience > campaign > orchestration > eventID」)。 推送事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 在我們的使用案例中，此ID用於識別信標位置。 每當使用者在大堂信標附近散步時，就會傳送包含此特定事件ID的事件。 餐廳信標事件也適用同樣的原則。 這可讓系統知道觸發事件傳送的信標。
 
    ![](../assets/journeyuc2_2.png)
 
@@ -39,7 +39,7 @@ ht-degree: 7%
    >
    >欄位清單因結構而異。 根據架構定義，某些欄位可能是必填欄位，且已預先選取。
 
-1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。如需命名空間的詳細資訊，請參閱[本頁](../event/selecting-the-namespace.md)。
+1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。如需命名空間的詳細資訊，請參閱 [本頁](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
@@ -49,7 +49,7 @@ ht-degree: 7%
 
 1. 按一下「**[!UICONTROL Save]**」。
 
-1. 按一下&#x200B;**[!UICONTROL View Payload]**&#x200B;圖示可預覽系統預期的有效負載，並將其共用給負責事件傳送的人員。  此裝載需在Mobile Services管理控制台的回傳中設定。
+1. 按一下 **[!UICONTROL View Payload]** 圖示來預覽系統預期的裝載，並與負責事件傳送的人員共用。  此裝載需在Mobile Services管理控制台的回傳中設定。
 
    ![](../assets/journeyuc2_5.png)
 

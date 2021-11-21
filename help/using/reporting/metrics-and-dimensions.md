@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 度量和維度
 description: 了解可供Journey Orchestration的維度和量度
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1035'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 下表提供歷程報表中使用的維度清單及其定義。
 
-若要進一步了解維度與量度之間的相容性，請參閱[本頁面](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf)。
+若要進一步了解維度與量度之間的相容性，請參閱 [本頁](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf).
 
 ## 歷程維度 {#MBE_table_wk4_bnj_w2b}
 
@@ -31,13 +31,13 @@ ht-degree: 2%
 
 | 維度 | 定義 |
 |--- |--- |
-| **動作** | 歷程中使用的每個動作（**動作名稱 — 動作標籤**）的清單，例如推送 — 結帳確認、電子郵件 — 獎勵保真度。 |
-| **資料來源** | 用於擴充歷程中資料的資料來源清單（**資料來源名稱**），例如Adobe Experience Platform、訂房系統。 |
-| **[!UICONTROL Event]** | 歷程中使用的每個事件(**event name - event label**)的清單，例如Geometrixx事件 — Geometrixx結帳。 |
-| **欄位組** | 用於擴充歷程中資料的欄位群組清單（**欄位群組名稱**），例如設定檔欄位群組、Geometrixx保留系統。 |
-| **歷程** | 在測試模式和即時（例如購物車放棄、飯店訂房通知）中的每個歷程清單（**歷程名稱**）。 |
-| **歷程版本** | 歷程每個已發佈版本的清單（**歷程名稱+版本編號**），例如購物車放棄v1、飯店訂房通知v2。 |
-| **協調** | 定義並用於歷程的每個協調活動（**條件、結束、等待**）的清單。 |
+| **動作** | 每個動作的清單(**動作名稱 — 動作標籤**)用於歷程，例如推送 — 結帳確認、電子郵件 — 獎勵保真度。 |
+| **資料來源** | 資料來源清單(**資料來源名稱**)，用來擴充歷程中的資料，例如Adobe Experience Platform、訂房系統。 |
+| **[!UICONTROL Event]** | 每個事件的清單(**事件名稱 — 事件標籤**)，用於歷程，例如Geometrixx事件 — Geometrixx結帳。 |
+| **欄位組** | 欄位群組清單(**欄位群組名稱**)，用於擴充歷程中的資料，例如設定檔欄位群組、Geometrixx訂房系統。 |
+| **歷程** | 每個歷程的清單(**歷程名稱**)和即時（例如購物車放棄、酒店訂房通知）。 |
+| **歷程版本** | 歷程每個已發佈版本的清單(**歷程名稱+版本編號**)，例如購物車放棄v1、飯店訂房通知v2。 |
+| **協調** | 每個協調活動的清單(**條件，結束，等待**)定義，並用於歷程。 |
 
 ## 傳送維度 {#delivery-dimensions}
 
@@ -83,8 +83,7 @@ ht-degree: 2%
 
 ## 傳送量度 {#delivery-metrics}
 
-下表提供歷程中使用的量度清單
-報表、其定義和公式。
+下表提供歷程報表中使用的量度清單、其定義和公式。
 
 | 量度 | 定義 |
 |--- |--- |

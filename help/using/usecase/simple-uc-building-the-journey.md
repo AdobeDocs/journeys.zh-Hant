@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 建立歷程
 description: 了解如何建立簡單的使用案例歷程
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '393'
 ht-degree: 36%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 36%
 **商業使用者**&#x200B;現在可以建立歷程。我們的歷程將僅包含一個路徑，其中包含下列活動：
 
 * &quot;SpaBeacon&quot; **[!UICONTROL Event]**:當使用者在spa信標附近散步時，系統會收到一個事件，而該使用者的歷程就會開始。
-* **[!UICONTROL Condition]**&#x200B;活動，以檢查該人是否為女性
-* **[!UICONTROL Email]**&#x200B;活動(使用Adobe Campaign Standard)
-* **[!UICONTROL End]**&#x200B;活動
+* a **[!UICONTROL Condition]** 檢查此人是否為女性的活動
+* an **[!UICONTROL Email]** 活動(使用Adobe Campaign Standard)
+* an **[!UICONTROL End]** 活動
 
 >[!NOTE]
 >
 >只有當您具有 Adobe Campaign Standard　時，浮動視窗才能使用　**[!UICONTROL Push]**　及 **[!UICONTROL Email]**　活動。
 
-如需如何建立歷程的詳細資訊，請參閱[本頁面](../building-journeys/journey.md)。
+如需如何建立歷程的詳細資訊，請參閱 [本頁](../building-journeys/journey.md).
 
 1. 在頂端功能表中，按一下 **[!UICONTROL Home]** 索引標籤及 **[!UICONTROL Create]**，以建立新的歷程。
 
@@ -48,15 +48,15 @@ ht-degree: 36%
 
    ![](../assets/journeyuc1_11.png)
 
-1. 使用簡單運算式編輯器，尋找性別欄位(_person > gender_)，並將其拖曳至右側，以建立下列條件：&quot;性別等於&quot;女性&quot;。
+1. 使用簡單運算式編輯器，尋找性別欄位(_人員>性別_)並將其拖曳至右側，以建立下列條件：&quot;性別等於&quot;女性&quot;。
 
    ![](../assets/journeyuc1_12.png)
 
-1. 拖放&#x200B;**[!UICONTROL Email]**&#x200B;活動，並選取「Spa折扣」交易式訊息範本。 此範本是使用Adobe Campaign設計。 請參閱此[page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)。
+1. 放置 **[!UICONTROL Email]** 活動，然後選取「Spa折扣」交易式訊息範本。 此範本是使用Adobe Campaign設計。 請參閱 [頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant).
 
    ![](../assets/journeyuc1_13.png)
 
-1. 按一下&#x200B;**[!UICONTROL Email]**&#x200B;欄位內的，然後從資料來源選取電子郵件地址。
+1. 按一下內部 **[!UICONTROL Email]** 欄位，然後從資料來源選取電子郵件地址。
 
    ![](../assets/journeyuc1_14.png)
 
@@ -64,11 +64,11 @@ ht-degree: 36%
 
    ![](../assets/journeyuc1_15.png)
 
-1. 刪除&#x200B;**[!UICONTROL End]**&#x200B;活動。
+1. 放置 **[!UICONTROL End]** 活動。
 
    ![](../assets/journeyuc1_17.png)
 
-1. 按一下&#x200B;**[!UICONTROL Test]**&#x200B;切換並使用測試設定檔測試您的歷程。 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。有關測試模式的詳細資訊，請參閱[此頁](../building-journeys/testing-the-journey.md)。
+1. 按一下 **[!UICONTROL Test]** 使用測試設定檔切換並測試您的歷程。 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。有關測試模式的詳細資訊，請參閱 [本頁](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 

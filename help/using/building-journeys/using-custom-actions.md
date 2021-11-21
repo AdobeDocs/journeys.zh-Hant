@@ -25,7 +25,7 @@ ht-degree: 9%
 
 ### 動態路徑
 
-如果URL包含動態路徑，請在&#x200B;**[!UICONTROL Path]**&#x200B;欄位中指定路徑。
+如果URL包含動態路徑，請在 **[!UICONTROL Path]** 欄位。
 
 >[!NOTE]
 >
@@ -42,26 +42,26 @@ ht-degree: 9%
 
 串連的URL有下清單單：
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign ID=&quot;&quot;>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
 ![](../assets/journey-custom-action-url.png)
 
 ### 標頭
 
-**[!UICONTROL URL Configuration]**&#x200B;區段顯示動態標題欄位，但不顯示常數標題欄位。 動態標題欄位是HTTP標題欄位，其值設定為變數。 [了解更多](../action/about-custom-action-configuration.md)。
+此 **[!UICONTROL URL Configuration]** 區段顯示動態標題欄位，但不顯示常數標題欄位。 動態標題欄位是HTTP標題欄位，其值設定為變數。 [了解更多](../action/about-custom-action-configuration.md)。
 
 如果需要，請指定動態標題欄位的值：
 
 1. 選取歷程中的自訂動作。
-1. 在設定窗格中，按一下&#x200B;**[!UICONTROL URL Configuration]**&#x200B;區段中標題欄位旁的鉛筆圖示。
+1. 在設定窗格中，按一下 **[!UICONTROL URL Configuration]** 區段。
 
    ![](../assets/journey-dynamicheaderfield.png)
 
-1. 選擇一個欄位，然後按一下&#x200B;**[!UICONTROL OK]**。
+1. 選取欄位並按一下 **[!UICONTROL OK]**.
 
 ## 動作參數
 
-在&#x200B;**[!UICONTROL Action parameters]**&#x200B;區段中，您會看到定義為&#x200B;_&quot;Variable&quot;_&#x200B;的訊息參數。 對於這些參數，您可以定義取得此資訊的位置(範例：事件、資料來源)、手動傳遞值，或使用進階運算式編輯器來處理進階使用案例。 進階使用案例可以是資料操作和其他函式使用。 [了解更多](../expression/expressionadvanced.md)。
+在 **[!UICONTROL Action parameters]** 小節中，您會看到定義為 _&quot;變數&quot;_. 對於這些參數，您可以定義取得此資訊的位置(範例：事件、資料來源)、手動傳遞值，或使用進階運算式編輯器來處理進階使用案例。 進階使用案例可以是資料操作和其他函式使用。 [了解更多](../expression/expressionadvanced.md)。
 
 **相關主題**
 

@@ -23,7 +23,7 @@ ht-degree: 6%
 
 區段名稱必須是字串常數。 它不能是欄位參考或運算式。
 
-區段是在[Adobe Experience Platform](https://platform.adobe.com/segment/overview)中定義。 運算式編輯器提供自動完成的區段清單。
+區段定義於 [Adobe Experience Platform](https://platform.adobe.com/segment/overview). 運算式編輯器提供自動完成的區段清單。
 
 區段可以有三種狀態：
 
@@ -31,7 +31,7 @@ ht-degree: 6%
 * 已實現：實體正在輸入區段。
 * 退出：entity正在退出區段。
 
-只有具有&#x200B;**Remailed**&#x200B;和&#x200B;**Existing**&#x200B;區段參與狀態的個人才會被視為區段的成員。 如需如何評估區段的詳細資訊，請參閱[分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
+只有 **已實現** 和 **現有** 區段參與狀態會視為區段的成員。 如需如何評估區段的詳細資訊，請參閱 [區段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` 表示您有segmentMembership，且狀態為「已輸入/現有」。
 
@@ -63,4 +63,4 @@ Adobe Experience Platform
 
 說明：
 
-如果歷程例項中的個人屬於名為「50歲以上的男性」的Adobe Experience Platform區段，則函式會傳回&#x200B;**[!UICONTROL true]**，否則會傳回&#x200B;**[!UICONTROL false]**。
+函式會傳回 **[!UICONTROL true]** 如果歷程例項中的個人屬於名為「50歲以上的男性」的Adobe Experience Platform區段， **[!UICONTROL false]** 否則。

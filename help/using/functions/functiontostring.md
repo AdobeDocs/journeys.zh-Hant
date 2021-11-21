@@ -2,20 +2,20 @@
 product: adobe campaign
 title: toString
 description: 了解函式toString
-feature: 歷程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 8%
+source-wordcount: '114'
+ht-degree: 7%
 
 ---
 
 # toString {#toString}
 
-根據參數值的類型，將參數值轉換為字串值。 有關資料類型的詳細資訊，請參閱[本頁](../expression/data-types.md)。
+根據參數值的類型，將參數值轉換為字串值。 如需資料類型的詳細資訊，請參閱 [本頁](../expression/data-types.md).
 
 ## 類別
 

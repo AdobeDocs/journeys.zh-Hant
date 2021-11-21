@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 建立歷程
 description: '瞭解如何建立進階的使用案例歷程 '
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '847'
 ht-degree: 92%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 92%
 >
 >只有當您具有 Adobe Campaign Standard　時，浮動視窗才能使用　**[!UICONTROL Push]**　及 **[!UICONTROL Email]**　活動。
 
-如需如何建立歷程的詳細資訊，請參閱[本頁面](../building-journeys/journey.md)。
+如需如何建立歷程的詳細資訊，請參閱 [本頁](../building-journeys/journey.md).
 
 ## 第一步{#section_ntb_ws1_ffb}
 
@@ -77,7 +77,7 @@ ht-degree: 92%
    >
    >在運算式的第二部分中，「設定檔」是選填欄位。
 
-1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。如需命名空間的詳細資訊，請參閱[本頁](../event/selecting-the-namespace.md)。
+1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。如需命名空間的詳細資訊，請參閱 [本頁](../event/selecting-the-namespace.md).
 
 在我們的使用案例中，我們只想對這兩種情況做出反應，所以不需要核取方塊 **[!UICONTROL Show path for other cases than the one(s) above]**。
 
@@ -102,7 +102,7 @@ ht-degree: 92%
 
    ![](../assets/journeyuc2_18.png)
 
-1. 從外部資料源中選擇欄位時，螢幕的右側會顯示配置外部資料源時定義的參數清單（請參閱[此頁](../usecase/configuring-the-data-sources.md)）。 在範例中，按一下參數名稱並定義訂房系統索引鍵 (Experience Cloud ID) 的值：
+1. 當您從外部資料來源選取欄位時，畫面的右側會顯示設定外部資料來源時所定義的參數清單(請參閱 [本頁](../usecase/configuring-the-data-sources.md))。 在範例中，按一下參數名稱並定義訂房系統索引鍵 (Experience Cloud ID) 的值：
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -168,7 +168,7 @@ ht-degree: 92%
 
 1. 新增 **[!UICONTROL End]** 活動。
 
-按一下 **[!UICONTROL Test]** 切換並測試您的歷程。如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。有關測試模式的詳細資訊，請參閱[此頁](../building-journeys/testing-the-journey.md)。
+按一下 **[!UICONTROL Test]** 切換並測試您的歷程。如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。有關測試模式的詳細資訊，請參閱 [本頁](../building-journeys/testing-the-journey.md).
 
 ![](../assets/journeyuc2_32bis.png)
 

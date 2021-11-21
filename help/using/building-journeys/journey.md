@@ -2,20 +2,20 @@
 product: adobe campaign
 title: 關於建立歷程
 description: 身為企業使用者，了解如何結合活動、協調和行銷活動，以構建歷程。
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 12%
 
 ---
 
 # 建立歷程 {#concept_gq5_sqt_52b}
 
-此步驟由&#x200B;**業務用戶**&#x200B;執行。 這是您建立歷程的位置。 結合不同的事件、協調和動作活動，以建立您的多步驟跨管道情境。
+此步驟由 **業務使用者**. 這是您建立歷程的位置。 結合不同的事件、協調和動作活動，以建立您的多步驟跨管道情境。
 
 歷程介面可讓您輕鬆將活動從浮動視窗拖放至畫布中。 您也可以連按兩下某個活動，以在下一個可用步驟將其新增至畫布中。 每個活動在流程中都有特定角色和位置。 活動會排序。 活動完成後，流程會繼續並處理下一個活動，以此類推。
 
@@ -29,11 +29,11 @@ ht-degree: 12%
 
 1. 在頂端功能表中，按一下 **[!UICONTROL Home]** 索引標籤。
 
-   歷程清單隨即顯示。 有關介面的詳細資訊，請參閱[此頁](../building-journeys/using-the-journey-designer.md)。
+   歷程清單隨即顯示。 請參閱 [本頁](../building-journeys/using-the-journey-designer.md) 以取得介面的詳細資訊。
 
    ![](../assets/journey30.png)
 
-1. 按一下&#x200B;**[!UICONTROL Create]**&#x200B;以建立新歷程。
+1. 按一下 **[!UICONTROL Create]** 來建立新歷程。
 
    ![](../assets/journey31.png)
 
@@ -45,11 +45,11 @@ ht-degree: 12%
 
    ![](../assets/journey33.png)
 
-1. 拖放其他活動並加以設定。 請參閱頁面[事件活動](../building-journeys/event-activities.md)、[關於協調活動](../building-journeys/about-orchestration-activities.md)和[關於動作活動](../building-journeys/about-action-activities.md)。
+1. 拖放其他活動並加以設定。 請參閱頁面 [事件活動](../building-journeys/event-activities.md), [關於協調活動](../building-journeys/about-orchestration-activities.md) 和 [關於動作活動](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
-1. 您的歷程會自動儲存。 測試您的歷程並發佈。 請參閱[測試歷程](../building-journeys/testing-the-journey.md)和[發佈歷程](../building-journeys/publishing-the-journey.md)。
+1. 您的歷程會自動儲存。 測試您的歷程並發佈。 請參閱 [測試歷程](../building-journeys/testing-the-journey.md) 和 [發佈歷程](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
@@ -64,11 +64,11 @@ ht-degree: 12%
 
 歷程可能會關閉，原因如下：
 
-* 透過&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;按鈕手動關閉歷程。
+* 歷程會透過 **[!UICONTROL Close to new entrances]** 按鈕。
 * 已到達歷程的結束日期。
 
-歷程關閉時（基於上述任何原因），其狀態將為&#x200B;**[!UICONTROL Closed]**。 歷程將停止讓新人進入歷程。 已在歷程中的人員會正常完成歷程。 在30天的預設全域逾時後，歷程會切換為&#x200B;**已完成**&#x200B;狀態。 請參閱此[節](../building-journeys/changing-properties.md#entrance)。
+歷程關閉時（基於上述任何原因），其狀態都會是 **[!UICONTROL Closed]**. 歷程將停止讓新人進入歷程。 已在歷程中的人員會正常完成歷程。 在30天的預設全域逾時後，歷程會切換至 **已完成** 狀態。 看這個 [節](../building-journeys/changing-properties.md#entrance).
 
 如果您需要停止歷程中所有個人的進度，您可以加以停止。 停止歷程會逾時歷程中的所有個人。
 
-若要了解如何手動關閉或停止歷程，請參閱此[區段](../building-journeys/terminating-a-journey.md)。
+若要了解如何手動關閉或停止歷程，請參閱此檔案 [節](../building-journeys/terminating-a-journey.md).

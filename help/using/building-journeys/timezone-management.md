@@ -2,20 +2,20 @@
 product: adobe campaign
 title: 時區管理
 description: 了解時區管理
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
 
 # 時區管理 {#timezone_management}
 
-您可以在歷程的[properties](../building-journeys/changing-properties.md)中定義時區。
+您可以在 [屬性](../building-journeys/changing-properties.md) 你的旅程。
 
 若要存取「屬性」，請按一下畫面右上方的鉛筆圖示。
 
@@ -30,13 +30,13 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->配置檔案時區與&#x200B;**首選項詳細資料**&#x200B;欄位組中存在的&#x200B;**timeZone**&#x200B;欄位一起工作。
+>設定檔時區可搭配 **timeZone** 欄位 **首選項詳細資訊** 欄位群組。
 
 ## 定義固定時區 {#fixed-timezone}
 
 時區也可以固定。 清除預先定義的時區，然後從下拉式清單中選取時區。 如果您使用固定時區，則所有進入歷程的個人都會使用相同時區。
 
-要執行此操作，請在&#x200B;**[!UICONTROL Properties]**&#x200B;中選取時區。
+若要這麼做，請輸入 **[!UICONTROL Properties]**，請選取時區。
 
 ![](../assets/journey72.png)
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 如果個人的設定檔不包含時區，則擷取的時區將是時區欄位中定義的時區。
 
-要執行此操作，請在&#x200B;**[!UICONTROL Properties]**&#x200B;中檢查&#x200B;**[!UICONTROL Use Profile timezone in timers and conditions]**。
+若要這麼做，請輸入 **[!UICONTROL Properties]**，檢查 **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
 ![](../assets/journey73.png)
 

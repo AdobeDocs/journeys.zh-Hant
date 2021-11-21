@@ -8,7 +8,7 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: e758d4430bb28c109633c96e330b56ad08a61c02
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -70,7 +70,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 ### 尋找設定檔是否已傳送特定訊息
 
-**方法1:** 如果訊息的名稱在歷程中並非唯一（會在多個位置使用）。
+**方法1:** 如果訊息名稱在歷程中並非唯一（會在多個位置使用）。
 
 _資料湖查詢_
 

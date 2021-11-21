@@ -89,7 +89,7 @@ ht-degree: 54%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform可讓您定義結構間的關係，以使用一個資料集作為另一個資料集的查閱表格。 Journey Orchestration現在可以運用來自連結結構的資料。</p>
+<p>Adobe Experience Platform可讓您定義結構間的關係，以使用一個資料集做為另一個資料集的查閱表格。 Journey Orchestration現在可以運用來自連結結構的資料。</p>
 <p>這些欄位可用於統一事件設定、歷程條件和自訂動作個人化。
 <p>如需詳細資訊，請參閱<a href="../event/experience-event-schema.md#leverage_schema_relationships">詳細文件</a>。</p>
 </td>
@@ -169,7 +169,7 @@ ht-degree: 54%
 
 ## 2021 年 1 月發行 {#january-2021-release}
 
-在事件配置中選擇架構時，僅選擇Journey Orchestration正確接收該事件的必需欄位。 [閱讀全文](../event/defining-the-payload-fields.md)
+在事件配置中選擇架構時，僅選擇Journey Orchestration正確接收該事件的必填欄位。 [閱讀全文](../event/defining-the-payload-fields.md)
 
 簡單運算式編輯器現在提供歷程屬性。 [閱讀全文](../expression/journey-properties.md)
 

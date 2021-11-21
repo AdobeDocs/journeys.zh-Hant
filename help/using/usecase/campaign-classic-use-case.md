@@ -20,7 +20,7 @@ ht-degree: 6%
 若要進一步了解Campaign整合，請參閱下列頁面：
 
 * [建立促銷活動動作](../action/acc-action.md)
-* [在歷程中使用動作](../building-journeys/using-adobe-campaign-classic.md)。
+* [在歷程中使用動作](../building-journeys/using-adobe-campaign-classic.md).
 
 **Adobe Campaign**
 
@@ -28,13 +28,13 @@ ht-degree: 6%
 
 1. 登入您的Campaign控制例項。
 
-1. 在&#x200B;**Administration** > **Platform** > **Enumerations**&#x200B;下，選擇&#x200B;**Event type**(eventType)枚舉。 建立新事件類型（在範例中為「journey-event」）。 您稍後寫入JSON檔案時，必須使用事件類型的內部名稱。
+1. 在 **管理** > **平台** > **列舉**，請選取 **事件類型** (eventType)分項清單。 建立新事件類型（在範例中為「journey-event」）。 您稍後寫入JSON檔案時，必須使用事件類型的內部名稱。
 
    ![](../assets/accintegration-uc-1.png)
 
 1. 斷開連接並重新連接到實例，以使建立生效。
 
-1. 在&#x200B;**Message Center** > **交易式訊息範本**&#x200B;下，根據先前建立的事件類型建立新的電子郵件範本。
+1. 在 **訊息中心** > **交易式訊息範本**，根據先前建立的事件類型建立新的電子郵件範本。
 
    ![](../assets/accintegration-uc-2.png)
 
@@ -70,15 +70,15 @@ ht-degree: 6%
 
    ![](../assets/accintegration-uc-5.png)
 
-1. 然後，您需要以Journey Orchestration建立與促銷活動範本對應的動作。 在&#x200B;**動作類型**&#x200B;下拉式清單中，選取&#x200B;**Adobe Campaign Classic**。
+1. 然後，您需要以Journey Orchestration建立與促銷活動範本對應的動作。 在 **動作類型** 下拉式清單，選取 **Adobe Campaign Classic**.
 
    ![](../assets/accintegration-uc-6.png)
 
-1. 按一下&#x200B;**裝載欄位**&#x200B;並貼上先前建立的JSON。
+1. 按一下 **裝載欄位** 並貼上先前建立的JSON。
 
    ![](../assets/accintegration-uc-7.png)
 
-1. 對於電子郵件地址和兩個個人化欄位，將&#x200B;**常數**&#x200B;變更為&#x200B;**變數**。
+1. 對於電子郵件地址和兩個個人化欄位，請變更 **常數** to **變數**.
 
    ![](../assets/accintegration-uc-8.png)
 
@@ -90,7 +90,7 @@ ht-degree: 6%
 
    ![](../assets/accintegration-uc-10.png)
 
-1. 新增&#x200B;**End**&#x200B;活動並測試您的歷程。
+1. 新增 **結束** 活動並測試您的歷程。
 
    ![](../assets/accintegration-uc-11.png)
 

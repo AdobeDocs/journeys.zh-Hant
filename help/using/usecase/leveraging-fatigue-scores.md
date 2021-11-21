@@ -16,23 +16,23 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->預測性疲勞分數功能僅適用於使用[Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html)的客戶。
+>預測性疲勞分數功能僅適用於使用 [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
 
 ## 設定事件 {#section_ptb_ws1_ffb}
 
-按照[本頁](../event/about-events.md)中所述的步驟操作。
+請依照 [本頁](../event/about-events.md).
 
 ## 設定資料來源 {#section_o3n_4yy_wfb}
 
 執行下列步驟以選取內建資料來源中的疲勞分數欄位：
 
-1. 在菜單窗格中，選擇&#x200B;**[!UICONTROL Admin]**。 在&#x200B;**[!UICONTROL Data sources]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Manage]**。
+1. 在菜單窗格中，選擇 **[!UICONTROL Admin]**. 在 **[!UICONTROL Data sources]** ，按一下 **[!UICONTROL Manage]**.
 1. 選取內建的Adobe Experience Platform資料來源。
 
    ![](../assets/journey23.png)
 
 1. 檢查是否已選取使用案例所需的欄位。
-1. 按一下&#x200B;**[!UICONTROL Add a New Field Group]**，選取&#x200B;**[!UICONTROL Profiles]**&#x200B;模型並新增&#x200B;**[!UICONTROL fatigueLevel]**&#x200B;和&#x200B;**[!UICONTROL fatigueScore]**&#x200B;欄位（位於&#x200B;_journeyAI > emailScore > fatigue_&#x200B;底下）。
+1. 按一下 **[!UICONTROL Add a New Field Group]**，請選取 **[!UICONTROL Profiles]** 模型並新增 **[!UICONTROL fatigueLevel]** 和 **[!UICONTROL fatigueScore]** 欄位(在 _journeyAI > emailScore >疲勞_)。
 
    ![](../assets/journeyuc3_1.png)
 
@@ -40,9 +40,9 @@ ht-degree: 10%
 
 ## 建立歷程 {#section_uzm_pyy_wfb}
 
-若要建立、驗證和發佈歷程，請依照[本頁面](../building-journeys/journey.md)中所述的步驟操作。
+若要建立、驗證和發佈歷程，請遵循 [本頁](../building-journeys/journey.md).
 
-在我們的使用案例中，我們利用&#x200B;**[!UICONTROL fatigueLevel]**&#x200B;欄位。 您也可以使用&#x200B;**[!UICONTROL fatigueScore]**&#x200B;欄位。
+在我們的使用案例中，我們運用 **[!UICONTROL fatigueLevel]** 欄位。 您也可以使用 **[!UICONTROL fatigueScore]** 欄位。
 
 執行下列步驟，以在歷程中運用疲勞層級：
 
@@ -54,7 +54,7 @@ ht-degree: 10%
 
    ![](../assets/journeyuc3_2.png)
 
-1. 使用簡單運算式編輯器，尋找&#x200B;**[!UICONTROL fatigueLevel]**&#x200B;欄位（_ExperiencePlatformDataSource > JourneyAIScores >設定檔> journeyAI > emailScore > fatigue_），將其拖曳至右側並建立下列條件：&quot;fatigueLevel等於&quot;Low&quot;。 按一下「**[!UICONTROL Ok]**」。
+1. 使用簡單運算式編輯器，尋找 **[!UICONTROL fatigueLevel]** 欄位()_ExperiencePlatformDataSource > JourneyAIScores >設定檔> journeyAI > emailScore >疲勞_)，將其拖曳至右側，並建立下列條件：&quot;fatigueLevel等於&quot;Low&quot;。 按一下「**[!UICONTROL Ok]**」。
 
    ![](../assets/journeyuc3_3.png)
 

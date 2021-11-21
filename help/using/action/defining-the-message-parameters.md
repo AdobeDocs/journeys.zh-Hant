@@ -9,7 +9,7 @@ exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ![](../assets/messageparameterssection.png)
 
-在&#x200B;**[!UICONTROL Action parameters]**&#x200B;區段中，貼上要傳送至外部服務的JSON裝載範例。
+在 **[!UICONTROL Action parameters]** 區段中，貼上要傳送至外部服務的JSON裝載範例。
 
 ![](../assets/customactionpayloadmessage.png)
 

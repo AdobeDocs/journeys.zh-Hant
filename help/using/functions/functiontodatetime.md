@@ -2,14 +2,14 @@
 product: adobe campaign
 title: toDateTime
 description: 了解函式toDateTime
-feature: 歷程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 11%
+source-wordcount: '93'
+ht-degree: 10%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->時區ID必須是字串常數。 它不能是欄位參考或運算式。 有關資料類型的詳細資訊，請參閱[本頁](../expression/data-types.md)。
+>時區ID必須是字串常數。 它不能是欄位參考或運算式。 如需資料類型的詳細資訊，請參閱 [本頁](../expression/data-types.md).
 
 ## 簽名和返回的類型
 
@@ -46,7 +46,7 @@ ht-degree: 11%
 
 `toDateTime(<integer>)`
 
-傳回&#x200B;**dateTime**。
+傳回 **dateTime**.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 

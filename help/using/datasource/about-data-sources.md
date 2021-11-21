@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 關於資料來源
 description: '瞭解如何設定資料來源 '
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '344'
 ht-degree: 76%
 
 ---
@@ -44,13 +44,13 @@ ht-degree: 76%
 >
 >資料來源設定一律會由&#x200B;**技術使用者**&#x200B;執行。
 
-1. 在菜單窗格中，選擇&#x200B;**[!UICONTROL Admin]**。 在&#x200B;**[!UICONTROL Data sources]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Manage]**。
+1. 在菜單窗格中，選擇 **[!UICONTROL Admin]**. 在 **[!UICONTROL Data sources]** ，按一下 **[!UICONTROL Manage]**.
 
-   畫面隨即顯示資料來源。有關介面的詳細資訊，請參閱[此頁](../about/user-interface.md)。
+   畫面隨即顯示資料來源。請參閱 [本頁](../about/user-interface.md) 以取得介面的詳細資訊。
 
    ![](../assets/journey18.png)
 
-1. 然後，您可以將欄位群組新增至內建的資料來源（請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)），或建立新的外部資料來源（請參閱[此頁面](../datasource/external-data-sources.md)）和相關聯的欄位群組（請參閱[此頁面](../datasource/field-groups.md)）。
+1. 然後，您可以將欄位群組新增至內建的資料來源(請參閱 [本頁](../datasource/adobe-experience-platform-data-source.md))或建立新的外部資料來源(請參閱 [本頁](../datasource/external-data-sources.md))和關聯的欄位群組(請參閱 [本頁](../datasource/field-groups.md))。
 
    ![](../assets/journey23.png)
 

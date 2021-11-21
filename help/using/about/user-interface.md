@@ -9,7 +9,7 @@ exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 61%
+ht-degree: 62%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 61%
 
 ## 存取 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-若要存取[!DNL Journey Orchestration]的介面，請按一下右上方的&#x200B;**[!UICONTROL App Selector]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL Journey Orchestration]**。
+若要存取 [!DNL Journey Orchestration]的介面，按一下 **[!UICONTROL App Selector]** 圖示，按一下右上角的 **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -55,7 +55,7 @@ ht-degree: 61%
 
 在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 清單中，使用 **[!UICONTROL Creation filters]** 建立篩選器以篩選建立日期和使用者。舉例來說，您可以選擇只顯示您在過去 30 天內建立的事件。
 
-在歷程清單（在&#x200B;**[!UICONTROL Home]**&#x200B;下）中，除了&#x200B;**[!UICONTROL Creation filters]**，您也可以根據其狀態、類型和版本(**[!UICONTROL Status and version filters]**)篩選顯示的歷程。 類型可以是：**[!UICONTROL Unitary event]**&#x200B;或&#x200B;**[!UICONTROL Segment qualification]**。 您也可以選擇只顯示使用特定事件、欄位群組或動作（**[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]**）的歷程記錄。**[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。
+在歷程清單中(在 **[!UICONTROL Home]**)，除了 **[!UICONTROL Creation filters]**，您也可以根據其狀態、類型和版本(**[!UICONTROL Status and version filters]**)。 類型可以是： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**. 您也可以選擇只顯示使用特定事件、欄位群組或動作（**[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]**）的歷程記錄。**[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提�
 * 顏色對比
 * 驗證必填欄位
 
-[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;}在Adobe Experience Platform檔案中。
+[深入了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)Adobe Experience Platform檔案中的{target=&quot;_blank&quot;}。
 
 您可以在Adobe Journey Optimizer中使用下列通用鍵盤快速鍵：
 
@@ -107,7 +107,7 @@ Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提�
 | 選取或清除焦點中的元素 | 輸入或空格鍵 |
 | 取消選取、折疊面板或關閉對話方塊 | Esc |
 
-[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;}在Adobe Experience Platform檔案中。
+[深入了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)Adobe Experience Platform檔案中的{target=&quot;_blank&quot;}。
 
 您可以在Journey Optimizer的特定部分使用下列捷徑：
 
@@ -173,7 +173,7 @@ Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提�
   <tr>
     <td>
 
-在已開啟&#x200B;**[!UICONTROL Single profile at a time]**&#x200B;選項的區段型歷程中觸發事件
+在以區段為基礎的歷程中觸發事件，其 **[!UICONTROL Single profile at a time]** 選項
 
 </td>
     <td>P</td>

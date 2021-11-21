@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Journey Orchestration限制
 description: 深入了解Journey Orchestration限制
-feature: 歷程
+feature: Journeys
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
@@ -21,18 +21,18 @@ ht-degree: 2%
 
 * 沒有發送限制。 
 * 發生錯誤時會系統地執行三次重試。 您無法根據收到的錯誤訊息調整重試次數。 
-* 內建的&#x200B;**Reaction**&#x200B;事件可讓您對現成可用的動作做出反應（請參閱此[page](../building-journeys/reaction-events.md)）。 如果您想對透過自訂動作傳送的訊息做出反應，需要設定專用事件。 
+* 內建 **反應** 事件可讓您對現成可用的動作做出反應(請參閱 [頁面](../building-journeys/reaction-events.md))。 如果您想對透過自訂動作傳送的訊息做出反應，需要設定專用事件。 
 
 ## 歷程版本限制 {#journey-versions-limitations}
 
-* 從v1中的事件活動開始的歷程，無法以其他版本中的事件以外的項目開始。 您無法以&#x200B;**區段資格**&#x200B;事件開始歷程。
-* v1中以&#x200B;**區段資格**&#x200B;活動開始的歷程，在進一步版本中必須一律以&#x200B;**區段資格**&#x200B;開頭。
-* 在&#x200B;**區段資格**（第一個節點）中選擇的區段和命名空間在新版本中無法變更。
+* 從v1中的事件活動開始的歷程，無法以其他版本中的事件以外的項目開始。 您無法以 **區段資格** 事件。
+* 從 **區段資格** v1中的活動必須一律以開頭 **區段資格** 在其他版本中。
+* 在 **區段資格** （第一個節點）在新版本中無法變更。
 * 所有歷程版本中的重新進入規則必須相同。
 
 ## 區段資格 {#segment-qualification}
 
-* 由於吞吐量限制，**區段資格**&#x200B;活動無法與Adobe Campaign Standard交易式訊息搭配使用。 請參閱[Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
+* 此 **區段資格** 由於輸送量限制，活動無法與Adobe Campaign Standard交易式訊息搭配使用。 請參閱 [Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
  
 
 ## 自訂動作限制
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 ## Adobe Campaign動作限制
 
-* Adobe Campaign Standard交易式訊息在指定執行個體的各個通道上每小時有50,000則訊息。 請參閱[Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
+* Adobe Campaign Standard交易式訊息在指定執行個體的各個通道上每小時有50,000則訊息。 請參閱 [Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
  
 
 ## 事件限制

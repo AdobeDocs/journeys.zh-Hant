@@ -2,30 +2,30 @@
 product: adobe campaign
 title: '關於Journey Orchestration事件的ExperienceEvent結構 '
 description: '了解Journey Orchestration事件的ExperienceEvent結構 '
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
 
-# 關於[!DNL Journey Orchestration]事件的ExperienceEvent結構
+# 關於ExperienceEvent結構 [!DNL Journey Orchestration] 事件
 
 [!DNL Journey Orchestration] 事件是透過串流獲取傳送至Adobe Experience Platform的XDM體驗事件。
 
-因此，為[!DNL Journey Orchestration]設定事件的重要先決條件是您熟悉Adobe Experience Platform的體驗資料模型（或XDM）、如何組成XDM體驗事件結構，以及如何將XDM格式化資料串流至Adobe Experience Platform。
+因此，設定事件的重要先決條件 [!DNL Journey Orchestration] 您應熟悉Adobe Experience Platform的體驗資料模型（或XDM），以及如何組成XDM體驗事件結構，以及如何將XDM格式化資料串流至Adobe Experience Platform。
 
-## [!DNL Journey Orchestration]事件的架構需求
+## 的結構需求 [!DNL Journey Orchestration] 事件
 
-為[!DNL Journey Orchestration]設定事件的第一步，是確保您已定義XDM架構來代表事件，並建立資料集來記錄Adobe Experience Platform上的事件例項。 雖然不一定需要為事件建立資料集，但將事件傳送至特定資料集可讓您維護使用者的事件歷史記錄，以供日後參考和分析，因此這始終是個好主意。 如果您尚未擁有適合事件的結構和資料集，可在Adobe Experience Platform網頁介面中完成這兩項工作。
+設定 [!DNL Journey Orchestration] 是為了確保您已定義XDM結構來代表事件，並建立資料集來記錄Adobe Experience Platform上的事件例項。 雖然不一定需要為事件建立資料集，但將事件傳送至特定資料集可讓您維護使用者的事件歷史記錄，以供日後參考和分析，因此這始終是個好主意。 如果您尚未擁有適合事件的結構和資料集，可在Adobe Experience Platform網頁介面中完成這兩項工作。
 
 ![](../assets/schema1.png)
 
-將用於[!DNL Journey Orchestration]事件的任何XDM架構都應符合下列需求：
+將用於的任何XDM結構 [!DNL Journey Orchestration] 事件應符合下列要求：
 
 * 結構必須為XDM ExperienceEvent類別。
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
    ![](../assets/schema8.png)
 
-## 利用架構關係{#leverage_schema_relationships}
+## 利用結構描述關係{#leverage_schema_relationships}
 
-Adobe Experience Platform可讓您定義結構間的關係，以使用一個資料集作為另一個資料集的查閱表格。
+Adobe Experience Platform可讓您定義結構間的關係，以使用一個資料集做為另一個資料集的查閱表格。
 
 假設您的品牌資料模型具有擷取購買的結構描述。 您也有產品目錄的結構。 您可以在購買結構中擷取產品ID，並使用關係從產品目錄中尋找更完整的產品詳細資訊。 這可讓您為購買筆記型電腦的所有客戶建立區段，例如，不需要明確列出所有筆記型電腦ID，或擷取交易系統中的每個單一產品詳細資訊。
 
@@ -69,13 +69,13 @@ Adobe Experience Platform可讓您定義結構間的關係，以使用一個資�
 
 >[!NOTE]
 >
->[Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)中有關架構關係的詳細資訊。
+>深入了解 [Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
 然後，在Journey Orchestration中，您可以利用連結表格中的所有欄位：
 
-* 設定單一事件時，[了解詳情](../event/experience-event-schema.md#unitary_event_configuration)
-* 在歷程中使用條件時，[了解詳情](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* 在自訂動作個人化中，[了解詳情](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* 設定單一事件時， [了解詳情](../event/experience-event-schema.md#unitary_event_configuration)
+* 在歷程中使用條件時， [了解詳情](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* 在自訂動作個人化中， [了解詳情](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### 單一事件配置{#unitary_event_configuration}
 
@@ -91,7 +91,7 @@ Adobe Experience Platform可讓您定義結構間的關係，以使用一個資�
 * 在事件鍵公式中
 * 事件id條件中（規則型事件）
 
-若要了解如何設定單一事件，請參閱此[page](../event/about-creating.md)。
+若要了解如何設定統一事件，請參閱 [頁面](../event/about-creating.md).
 
 ### 使用事件內容的歷程條件{#journey_conditions_using_event_context}
 
@@ -101,7 +101,7 @@ Adobe Experience Platform可讓您定義結構間的關係，以使用一個資�
 
 ![](../assets/schema12.png)
 
-若要了解如何定義歷程條件，請參閱此[page](../building-journeys/condition-activity.md)。
+若要了解如何定義歷程條件，請參閱 [頁面](../building-journeys/condition-activity.md).
 
 ### 使用歷程事件內容進行動作個人化{#custom_action_personalization_with_journey_event_context}
 
@@ -109,5 +109,5 @@ Adobe Experience Platform可讓您定義結構間的關係，以使用一個資�
 
 ![](../assets/schema13.png)
 
-若要了解如何使用自訂動作，請參閱此[page](../building-journeys/using-custom-actions.md)。
+若要了解如何使用自訂動作，請參閱 [頁面](../building-journeys/using-custom-actions.md).
 

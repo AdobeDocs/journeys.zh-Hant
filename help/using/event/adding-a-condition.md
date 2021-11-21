@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 新增條件
 description: 了解如何新增條件
-feature: 歷程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 09cda689-6953-4ea6-a446-cb4e1d8ad8e4
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '205'
 ht-degree: 4%
 
 ---
