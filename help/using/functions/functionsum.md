@@ -15,13 +15,13 @@ ht-degree: 11%
 
 # sum {#sum}
 
-傳回一組運算式的值之和。 忽略Null值。
+Returns the sum of the values of a set of expressions. Null values are ignored.
 
 ## 類別
 
 彙總
 
-## 函式語法
+## Function syntax
 
 `sum(<parameters>)`
 
@@ -30,14 +30,14 @@ ht-degree: 11%
 * listInteger
 * listDecimal
 * 持續時間
-* 整數
+* integer
 * 小數
 
 ## 簽名和返回的類型
 
 `sum(<listDecimal>)`
 
-傳回小數。
+Returns a decimal.
 
 `sum(<listInteger>)`
 

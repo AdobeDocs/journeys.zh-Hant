@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: '在 '
-description: 了解中的函式
+description: Learn about the function in
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 17%
 
 # 在  {#in}
 
-檢查清單中是否有第一個引數值。 檢查是通過每個參數值的Equal來執行的。 若找到引數值，則傳回true，否則傳回false。
+Checks if the first argument value is in the list. 檢查是通過每個參數值的Equal來執行的。 若找到引數值，則傳回true，否則傳回false。
 
 類型 `<expression>` 必須與清單的項目相符。 清單項目的類型（作為提醒）必須彼此匹配。
 
@@ -32,10 +32,10 @@ ht-degree: 17%
 | 參數 | 類型 |
 |-----------|------------------|
 | 字串 | 字串 |
-| 布林值 | 布林值 |
+| 布林值 | Boolean |
 | 整數 | 整數 |
 | 小數 | 小數 |
-| 持續時間 | 持續時間 |
+| Duration | 持續時間 |
 | DateTime | DateTime |
 | DateTimeOnly | DateTimeOnly |
 | 清單 | listString |

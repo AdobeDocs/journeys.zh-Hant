@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 一般事件
-description: 了解一般事件
+description: Learn about general events
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,6 +15,6 @@ ht-degree: 17%
 
 # 一般事件 {#section_ofg_jss_dgb}
 
-對於此類型的事件，您只能新增標籤和說明。 無法編輯其餘的配置。 由技術使用者執行。 請參閱[此頁面](../event/about-events.md)。
+For this type of event, you can only add a label and a description. The rest of the configuration cannot be edited. 由技術使用者執行。 請參閱[此頁面](../event/about-events.md)。
 
 ![](../assets/general-events.png)

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: isNotEmpty
-description: 了解函式isNotEmpty
+description: Learn about the function isNotEmpty
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -33,7 +33,7 @@ ht-degree: 19%
 
 `isNotEmpty(<string>)`
 
-傳回布林值。
+Returns a boolean.
 
 ## 範例
 
@@ -43,4 +43,4 @@ ht-degree: 19%
 
 `isNotEmpty("hello")`
 
-傳回true。
+Returns true.

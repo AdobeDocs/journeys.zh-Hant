@@ -58,7 +58,7 @@ ht-degree: 34%
 
 `listSize(<listPoint>)`
 
-傳回整數。
+Return an integer.
 
 ## 範例
 

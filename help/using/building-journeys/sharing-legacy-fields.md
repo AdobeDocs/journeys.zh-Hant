@@ -1,6 +1,6 @@
 ---
-title: 步驟事件欄位清單
-description: 舊欄位
+title: step event field list
+description: legacy fields
 feature: Journeys
 topic: Content Management
 role: User
@@ -13,7 +13,7 @@ ht-degree: 43%
 
 ---
 
-# 關於舊版欄位 {#sharing-legacy-fields}
+# About legacy fields {#sharing-legacy-fields}
 
 此類別包含原始步驟事件欄位。 這些欄位是下列欄位群組的一部分：
 
