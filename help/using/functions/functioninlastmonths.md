@@ -21,7 +21,7 @@ ht-degree: 18%
 
 Date
 
-## Function syntax
+## 函式語法
 
 `inLastMonths(<dateTime>,<delta>)`
 
@@ -36,7 +36,7 @@ Date
 
 `inLastMonths(<dateTime>,<integer>)`
 
-Returns a boolean.
+傳回布林值。
 
 ## 範例
 

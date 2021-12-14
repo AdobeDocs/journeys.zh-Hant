@@ -27,13 +27,13 @@ Date
 
 ## 參數
 
-This function uses no parameters.
+此函式不使用參數。
 
 ## 簽名和返回類型
 
 `currentTimeInMillis()`
 
-Returns an integer.
+傳回整數。
 
 ## 範例
 

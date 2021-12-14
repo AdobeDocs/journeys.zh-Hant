@@ -23,11 +23,11 @@ ht-degree: 8%
 
    ![](../assets/journeyuc1_1.png)
 
-1. We enter the name without spaces or special characters: &quot;SpaBeacon&quot;.
+1. 我們輸入的名稱不含空格或特殊字元：&quot;SpaBeacon&quot;。
 
    ![](../assets/journeyuc1_2.png)
 
-1. We then select the schema and define the payload expected for this event. 從XDM歸一化模型中選取所需欄位。 We need the Experience Cloud ID to identify the person in the Real-time Customer Profile database: _endUserIDs > experience > mcid > id_. 系統會自動為此事件產生ID。 This ID is stored in the **[!UICONTROL eventID]** field (_experience > campaign > orchestration > eventID_). The system pushing the event should not generate an ID, it should use the one available in the payload preview. 在我們的使用案例中，此ID用於識別信標位置。 每當使用者在spa信標附近行走時，就會傳送包含此特定事件ID的事件。 這可讓系統知道觸發事件傳送的信標。
+1. 然後，我們選取結構並定義此事件預期的裝載。 從XDM歸一化模型中選取所需欄位。 我們需要Experience CloudID來識別即時客戶個人檔案資料庫中的人員： _endUserIDs > experience > mcid > id_. 系統會自動為此事件產生ID。 此ID儲存在 **[!UICONTROL eventID]** 欄位()_experience > campaign > orchestration > eventID_)。 推送事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 在我們的使用案例中，此ID用於識別信標位置。 每當使用者在spa信標附近行走時，就會傳送包含此特定事件ID的事件。 這可讓系統知道觸發事件傳送的信標。
 
    ![](../assets/journeyuc1_3.png)
 
@@ -39,7 +39,7 @@ ht-degree: 8%
 
    ![](../assets/journeyuc1_6.png)
 
-1. A key is preselected based on schema properties and the namespace selected. 你可以留著。
+1. 系統會根據架構屬性和選取的命名空間來預先選取金鑰。 你可以留著。
 
    ![](../assets/journeyuc1_5.png)
 
@@ -49,4 +49,4 @@ ht-degree: 8%
 
    ![](../assets/journeyuc1_7.png)
 
-   The event is ready to be used in your journey. 您現在需要設定行動應用程式，以便將預期的裝載傳送至串流獲取API端點。 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   事件已準備好用於您的歷程。 您現在需要設定行動應用程式，以便將預期的裝載傳送至串流獲取API端點。 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
