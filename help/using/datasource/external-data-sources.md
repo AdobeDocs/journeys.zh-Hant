@@ -6,7 +6,7 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 7805ee4beb056ba84bc994162da2b0e54db60ca3
+source-git-commit: 3856e323569054fac9e73f2a6af2b86518f62ab9
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 93%
@@ -186,4 +186,4 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->快取持續時間有助於避免對驗證端點發出太多呼叫。 在服務中快取驗證權杖保留，沒有持續性。 如果服務重新啟動，則會以乾淨的快取開始。 預設的快取持續時間為1小時。 在自訂動作裝載中，可指定其他保留期間來調整它。
+>快取持續時間有助於避免對驗證端點發出太多呼叫。 在服務中快取驗證權杖保留，沒有持續性。 如果服務重新啟動，則會以乾淨的快取開始。 預設的快取持續時間為1小時。 在自訂驗證裝載中，可借由指定其他保留期間來調整。
