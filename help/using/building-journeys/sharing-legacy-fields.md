@@ -5,17 +5,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 4291dfc91c2fb29d294416ceed022ee00842c870
+source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 43%
+ht-degree: 50%
 
 ---
 
 # 關於舊版欄位 {#sharing-legacy-fields}
 
-此類別包含原始步驟事件欄位。 這些欄位是下列欄位群組的一部分：
+此類別包含原始步驟事件欄位。 這些欄位是以下欄位組的一部分：
 
 * [journeySteps 事件常見欄位](../building-journeys/sharing-common-fields.md)
 * [journeyStep 事件動作執行欄位](../building-journeys/sharing-execution-fields.md)

@@ -1,12 +1,11 @@
 ---
 product: adobe campaign
 title: 相交
-description: 了解函式相交
+description: 瞭解函式交集
 feature: Journeys
 role: Data Engineer
 level: Experienced
-exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 12%
@@ -15,7 +14,7 @@ ht-degree: 12%
 
 # 相交{#intersect}
 
-傳回兩個輸入清單中的公用值。 如果兩個清單之一為null，則返回空清單。
+返回兩個輸入清單中的公用值。 如果兩個清單之一為Null，則返回空清單。
 
 ## 類別
 
@@ -34,16 +33,16 @@ ht-degree: 12%
 
 ## 簽名和返回的類型
 
-`intersect(listString,listString)`:listString
-`intersect(listDecimal,listDecimal)`:listDecimal
+`intersect(listString,listString)`:清單字串
+`intersect(listDecimal,listDecimal)`:清單十進位
 `intersect(listInteger,listInteger)`:listInteger
-`intersect(listDateTime,listDateTime)`:listDateTime
+`intersect(listDateTime,listDateTime)`:清單日期時間
 `intersect(listDateTimeOnly,listDateTimeOnly)`:listDateTimeOnly
 `intersect(listDateOnly,listDateOnly)`:listDateOnly
-`intersect(listDuration,listDuration)`:listDuration
-`intersect(listBoolean,listBoolean)`:listBoolean
+`intersect(listDuration,listDuration)`:listDuration（持續時間）
+`intersect(listBoolean,listBoolean)`:list布爾
 
-傳回清單。
+返回清單。
 
 ## 範例
 
@@ -54,7 +53,7 @@ intersect(
 )
 ```
 
-傳回 [&quot;sports&quot;、&quot;news&quot;]
+返回 [&quot;體育&quot;、&quot;新聞&quot;]
 
 ```json
 intersect(
@@ -63,7 +62,7 @@ intersect(
 )
 ```
 
-傳回設定檔屬性和指定類別清單之間的通用項目。
+返回配置檔案屬性和給定類別清單之間的公用項。
 
 ```json
 intersect(
@@ -72,4 +71,4 @@ intersect(
 )
 ```
 
-傳回設定檔屬性和指定事件欄位之間的通用項目。
+返回配置檔案屬性和給定事件欄位之間的公用項。
