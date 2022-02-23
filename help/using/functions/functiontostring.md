@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
 title: toString
-description: 了解函式toString
+description: 瞭解函式toString
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: c7730ecac062719e5e5adfd465d1cedb59b3eaf1
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 7%
+source-wordcount: '102'
+ht-degree: 8%
 
 ---
 
-# toString {#toString}
+# 到字串 {#toString}
 
-根據參數值的類型，將參數值轉換為字串值。 如需資料類型的詳細資訊，請參閱 [本頁](../expression/data-types.md).
+根據參數值的類型將參數值轉換為字串值。 有關資料類型的詳細資訊，請參閱 [此頁](../expression/data-types.md)。
 
 ## 類別
 
@@ -29,15 +29,14 @@ ht-degree: 7%
 
 | 參數 | 說明 |
 |--- |--- |
-| dateTime | 轉換UTC日期格式的日期 |
-| dateTimeOnly | 轉換UTC日期格式的日期 |
-| 持續時間 | 轉換為字串形式的對應毫秒數 |
-| 時區 | 轉換為時區id字串表示(JODA id) |
-| 整數 | 轉換為值的字串表示（1變成&quot;1&quot;） |
-| 小數 | 轉換為值的字串表示（1.5變成&quot;1.5&quot;） |
-| 布林值 | 若為true，則將布林值轉換為&#39;true&#39;；若為false，則將布林值轉換為&#39;false&#39; |
+| 日期時間 | 轉換UTC日期格式的日期 |
+| 日期僅時間 | 轉換UTC日期格式的日期 |
+| 持續時間 | 轉換為字串形式的相應毫秒數 |
+| 整數 | 轉換為值的字串表示形式（1變為&quot;1&quot;） |
+| 小數 | 轉換為值的字串表示形式（1.5變為&quot;1.5&quot;） |
+| 布林值 | 如果為true，則將布爾值轉換為「true」；如果為false，則將布爾值轉換為「false」 |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `toString(<dateTimeOnly>)`
 
@@ -45,18 +44,16 @@ ht-degree: 7%
 
 `toString(<duration>)`
 
-`toString(<timeZone>)`
-
 `toString(<boolean>)`
 
 `toString(<integer>)`
 
 `toString(<decimal>)`
 
-傳回字串。
+返回字串。
 
 ## 範例
 
 `toString(4)`
 
-傳回&quot;4&quot;。
+返回&quot;4&quot;。

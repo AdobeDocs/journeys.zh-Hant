@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
+source-git-commit: 0d1355f036b22df6b484ed2a0ea9a8b121e947e0
 workflow-type: tm+mt
-source-wordcount: '3130'
+source-wordcount: '3164'
 ht-degree: 64%
 
 ---
@@ -18,18 +18,24 @@ ht-degree: 64%
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱最新的[文件更新](../release-notes/documentation-updates.md)。
 
-## 2022 年 1 月發行 {#january-2022-release}
+## 2022 年 2 月發行 {#february-2022-release}
 
 ### 改進項目
 
-* Journey Orchestration步驟事件現在可以連結到中的其他資料集 [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)。 的 **配置檔案ID** 在內置的「行程步驟事件」架構中，欄位現在定義為標識欄位。 [進一步了解](../building-journeys/sharing-overview.md#integration-cja)
+* 為優化效能並防止過時的資源使用，所有處於test模式且一週內未觸發的行程現在將切換回「草稿」狀態。 [閱讀全文](../building-journeys/testing-the-journey.md#important_notes)
+
+## 2022 年 1 月發行版本 {#january-2022-release}
+
+### 改進項目
+
+* Journey Orchestration步驟事件現在可以連結到中的其他資料集 [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)。  內建「歷程步驟事件」方案中的 **profileID** 欄位現在定義為身分欄位。 [了解更多](../building-journeys/sharing-overview.md#integration-cja)
 * Adobe Campaign Standard操作的上限規則已更改為4000次呼叫/5分鐘。 [閱讀全文](../action/working-with-adobe-campaign.md)
 
 ## 2021 年 10 月發行版本 {#october-2021-release}
 
 ### 改進項目
 
-* **運算式編輯器**  - 身為超級使用者，您現在可以使用函式來處理地圖。 [進一步了解](../expression/field-references.md)
+* **運算式編輯器**  - 身為超級使用者，您現在可以使用函式來處理地圖。 [了解更多](../expression/field-references.md)
 * **輔助功能**  — 已實施輔助功能增強。 Journey Orchestration現在在可訪問性方面完全符合。
 * **集合**  - 現在支援包含子物件的物件陣列。 [閱讀全文](../usecase/collections.md)
 * **監控**  - 已增強即時歷程和測試模式的步驟事件。 [新欄位](../building-journeys/sharing-field-list.md#serviceevents) 已新增與設定檔匯出作業有關的內容。 為了獲得更好的用戶體驗，現在將步驟事件欄位組織在行程步驟事件架構中的不同類別中以進行Journey Orchestration。 所有先前的步驟事件欄位仍可在 [stepEvents](../building-journeys/sharing-legacy-fields.md) 類別中使用。
