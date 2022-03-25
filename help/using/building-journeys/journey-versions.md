@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 歷程版本
-description: 了解歷程版本
+description: 瞭解行程版本
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,32 +15,32 @@ ht-degree: 2%
 
 # 歷程版本{#concept_ldc_k55_zgb}
 
-在歷程清單中，所有歷程版本都會以版本號碼顯示。 請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。當您搜尋歷程時，最新版本會在首次開啟應用程式時出現在清單頂端。 然後，您可以定義所要的排序，而應用程式會將其保留為使用者偏好設定。 歷程的版本也會顯示在歷程版本介面的頂端、畫布上方。
+在行程清單中，所有行程版本都以版本號顯示。 請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。搜索行程時，首次開啟應用程式時，最新版本會出現在清單頂部。 然後，您可以定義所需的排序，應用程式將將其保留為用戶首選項。 行程版本也顯示在行程版本介面的頂部，位於畫布上方。
 
 ![](../assets/journeyversions1.png)
 
-如果您需要修改至即時歷程，則需要建立歷程的新版本。
+如果您需要修改到即時旅程，則需要建立新版本的旅程。
 
 >[!NOTE]
 >
->若要進一步了解歷程版本限制，請參閱 [本頁](../about/limitations.md#journey-versions-limitations)
+>要瞭解旅程版本限制的更多資訊，請參閱 [此頁](../about/limitations.md#journey-versions-limitations)
 
-1. 開啟您最新版的即時歷程，按一下 **[!UICONTROL Create a new version]** 並確認。
+1. 開啟您的即時旅程的最新版本，按一下 **[!UICONTROL Create a new version]** 確認一下。
 
    ![](../assets/journeyversions2.png)
 
    >[!NOTE]
    >
-   >您只能從歷程的最新版本建立新版本。
+   >您只能從旅程的最新版本建立新版本。
 
-1. 進行修改，按一下 **[!UICONTROL Publish]** 並確認。
+1. 進行修改，按一下 **[!UICONTROL Publish]** 確認一下。
 
    ![](../assets/journeyversions3.png)
 
-從歷程發佈之時，個人就會開始進入歷程的最新版本。 已輸入舊版的使用者會保留在舊版中，直到完成歷程為止。 如果他們稍後重新進入相同的歷程，將會進入最新版本。
+從旅程發表那一刻起，個人就會開始流入旅程的最新版本。 已輸入先前版本的人會一直保留到完成旅程。 如果以後重新進入同一行程，他們將進入最新版。
 
-歷程版本可個別停止。 所有版本的歷程都具有相同名稱。
+行程版本可以單獨停止。 所有版本的旅程都具有相同名稱。
 
 >[!NOTE]
 >
->當您發佈新版本的歷程時，舊版會自動結束，並切換至 **已關閉** 狀態。 旅程中不會有入口。 即使您停止最新版本，舊版也會保持關閉狀態。
+>當您發佈新版本的行程時，舊版本將自動結束並切換到 **已關閉** 狀態。 旅途中不會有入口。 即使您停止最新版本，舊版本仍將關閉。

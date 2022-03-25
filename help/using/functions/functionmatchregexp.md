@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: matchRegExp
-description: 了解函式matchRegExp
+description: 瞭解函式matchRegExp
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 18%
 
 # matchRegExp {#matchRegExp}
 
-如果第一個參數中的字串符合第二個參數中的規則運算式，則傳回true。 如需詳細資訊，請參閱 [本頁](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+如果第一個參數中的字串與第二個參數中的規則運算式匹配，則返回true。 有關詳細資訊，請參見 [此頁](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)。
 
 ## 類別
 
@@ -32,14 +32,14 @@ ht-degree: 18%
 | 字串 | 字串 |
 | regexp | 字串 |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `matchRegExp(<string>,<string>)`
 
-傳回布林值。
+返回布爾值。
 
 ## 範例
 
 `matchRegExp("username@adobe.com", "*adobe")`
 
-傳回true。
+返回true。

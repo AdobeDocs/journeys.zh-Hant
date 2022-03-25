@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toDecimal
-description: 了解Decimal的函式
+description: 瞭解函式toDecimal
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,9 +13,9 @@ ht-degree: 14%
 
 ---
 
-# toDecimal {#toDecimal}
+# 到十進位 {#toDecimal}
 
-根據參數值的類型，將參數值轉換為小數值。
+根據參數值的類型將參數值轉換為小數值。
 
 ## 類別
 
@@ -30,9 +30,9 @@ ht-degree: 14%
 | 參數 | 說明 |
 |--- |--- |
 | 字串 | 將字串值轉換為小數 |
-| dateTime | 將日期轉換為毫秒數（epoch毫秒） |
-| 布林值 | 若為true，則將布林值轉換為1，若為false，則將0 |
-| 整數 | 轉換為小數（範例）。:1變成1.0) |
+| 日期時間 | 將日期轉換為毫秒數（新紀元毫秒） |
+| 布林值 | 如果為true，則將布爾值轉換為1；如果為false，則將布爾值轉換為0 |
+| 整數 | 轉換為小數（示例）。:1變為1.0) |
 
 ## 簽名和返回的類型
 
@@ -44,10 +44,10 @@ ht-degree: 14%
 
 `toDecimal(<boolean>)`
 
-傳回小數。
+返回小數。
 
 ## 範例
 
 `toDecimal("4.0")`
 
-傳回4.0。
+返回4.0。

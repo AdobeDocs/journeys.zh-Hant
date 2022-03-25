@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inNextMonths
-description: 了解NextMonths中的函式
+description: 瞭解NextMonths中的函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,13 +13,13 @@ ht-degree: 18%
 
 ---
 
-# inNextMonths {#inNextMonths}
+# 在下個月 {#inNextMonths}
 
-如果指定的日期或dateTime介於現在和現在+差異月份之間，則傳回true。
+如果給定日期或dateTime介於現在和現在+增量月份之間，則返回true。
 
 ## 類別
 
-Date
+日期
 
 ## 函式語法
 
@@ -29,17 +29,17 @@ Date
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 日期時間 | dateTime |
-| delta | 整數 |
+| 日期時間 | 日期時間 |
+| 三角 | 整數 |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `inNextMonths(<dateTime>,<integer>)`
 
-傳回布林值。
+返回布爾值。
 
 ## 範例
 
 `inNextMonths(toDateTime('2020-01-12T01:11:00Z'), 4)`
 
-傳回true。
+返回true。

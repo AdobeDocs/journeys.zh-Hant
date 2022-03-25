@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: startWithIgnoreCase
-description: 了解函式startWithIgnoreCase
+description: 瞭解函式startWithIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 25%
 
 # startWithIgnoreCase {#startWithIgnoreCase}
 
-如果第二個參數是第一個參數的前置詞，而不考慮大小寫，則傳回true。
+如果第二個參數是第一個參數的前置詞，而不考慮大小寫，則返回true。
 
 ## 類別
 
@@ -32,14 +32,14 @@ ht-degree: 25%
 | 字串 | 字串 |
 | 前置詞 | 字串 |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `startWithIgnoreCase(<string>,<string>)`
 
-傳回布林值。
+返回布爾值。
 
 ## 範例
 
 `startWithIgnoreCase("rowing is great", "RO")`
 
-傳回true。
+返回true。

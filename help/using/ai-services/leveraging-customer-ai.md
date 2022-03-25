@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 善用客戶AI分數
-description: 善用客戶AI分數
+title: 利用客戶AI分數
+description: 利用客戶AI分數
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,12 +15,12 @@ ht-degree: 2%
 
 # 善用客戶 AI {#customer-ai}
 
-Customer AI是Intelligent Services的一部分。 這有助於預測客戶可能做什麼。 請參閱 [檔案](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html).
+客戶AI是智慧服務的一部分。 它有助於預測客戶可能做什麼。 查看 [文檔](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html)。
 
-Customer AI可讓品牌建立流失率或轉換機器學習型分數，這些分數將作為Adobe Experience Platform設定檔（即時客戶設定檔）中的設定檔屬性提供。
+客戶AI允許品牌建立基於流失或轉換的機器學習分數，這些分數將作為Adobe Experience Platform配置檔案（即時客戶配置檔案）中的配置檔案屬性提供。
 
-因此，它們可作為Journey Orchestration條件（以做出最佳決策）、動作或區段建立中的任何其他設定檔屬性使用。
+因此，它們可以用作Journey Orchestration條件（作出最佳決策）、操作或段構建中的任何其他配置檔案屬性。
 
 ![](../assets/customer-ai.png)
 
-請注意，Customer AI是Adobe Experience Platform的付費功能。
+請注意，客戶AI是Adobe Experience Platform的付費功能。

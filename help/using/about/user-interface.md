@@ -9,7 +9,7 @@ exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 62%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 62%
 
 ## 存取 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-若要存取 [!DNL Journey Orchestration]的介面，按一下 **[!UICONTROL App Selector]** 圖示，按一下右上角的 **[!UICONTROL Journey Orchestration]**.
+訪問 [!DNL Journey Orchestration]的介面，按一下 **[!UICONTROL App Selector]** 表徵圖，然後按一下 **[!UICONTROL Journey Orchestration]**。
 
 ![](../assets/journey1.png)
 
@@ -55,7 +55,7 @@ ht-degree: 62%
 
 在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 清單中，使用 **[!UICONTROL Creation filters]** 建立篩選器以篩選建立日期和使用者。舉例來說，您可以選擇只顯示您在過去 30 天內建立的事件。
 
-在歷程清單中(在 **[!UICONTROL Home]**)，除了 **[!UICONTROL Creation filters]**，您也可以根據其狀態、類型和版本(**[!UICONTROL Status and version filters]**)。 類型可以是： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**. 您也可以選擇只顯示使用特定事件、欄位群組或動作（**[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]**）的歷程記錄。**[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。
+在行程清單中(在 **[!UICONTROL Home]**)，除 **[!UICONTROL Creation filters]**，您還可以根據顯示的行程的狀態、類型和版本(**[!UICONTROL Status and version filters]**)。 類型可以是： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**。 您也可以選擇只顯示使用特定事件、欄位群組或動作（**[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]**）的歷程記錄。**[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
@@ -89,27 +89,27 @@ ht-degree: 62%
 
 ## 協助工具{#accessibility}
 
-Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提供：
+Adobe Journey Optimizer的無障礙設施由Adobe Experience Platform提供：
 
 * 鍵盤協助工具
 * 顏色對比
 * 驗證必填欄位
 
-[深入了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)Adobe Experience Platform檔案中的{target=&quot;_blank&quot;}。
+在 Adobe Experience Platform 文件中[進一步了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
-您可以在Adobe Journey Optimizer中使用下列通用鍵盤快速鍵：
+您可以在Adobe Journey Optimizer使用以下常用鍵盤快捷鍵：
 
 | 動作 | 快速鍵 |
 | --- | --- |
-| 在使用者介面元素、區段和功能表群組之間移動 | 標記 |
-| 在使用者介面元素、區段和功能表群組之間向後移動 | Shift + Tab |
-| 在區段內移動以將焦點設定為個別元素 | 箭頭 |
+| 在使用者介面元素、區段和功能表群組之間移動 | Tab 鍵 |
+| 在使用者介面元素、區段和功能表群組之間向後移動 | Shift + Tab 鍵 |
+| 在區段內移動並將焦點設定為個別元素 | 箭頭 |
 | 選取或清除焦點中的元素 | 輸入或空格鍵 |
-| 取消選取、折疊面板或關閉對話方塊 | Esc |
+| 取消選取、折疊面板或關閉對話方塊 | Esc 鍵 |
 
-[深入了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)Adobe Experience Platform檔案中的{target=&quot;_blank&quot;}。
+在 Adobe Experience Platform 文件中[進一步了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hant){target=&quot;_blank&quot;}。
 
-您可以在Journey Optimizer的特定部分使用下列捷徑：
+您可以在 Journey Optimizer 的特定部分使用下列快速鍵：
 
 <table>
   <thead>
@@ -126,12 +126,12 @@ Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提�
   </tr>
   <tr>
     <td rowspan="3">草稿狀態的歷程畫布</td>
-    <td>從左側浮動視窗的第一個可用位置（從上到下）新增活動</td>
-    <td>連按兩下活動</td>
+    <td>從左側色盤的第一個可用位置 (從上到下) 新增活動</td>
+    <td>在活動上按兩下</td>
   </tr>
   <tr>
     <td>選取所有活動</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>Ctrl + A (Windows)<br/> Command + A (Mac)</td>
   </tr>
   <tr>
     <td>刪除選取的活動</td>
@@ -140,7 +140,7 @@ Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提�
   <tr>
   <td rowspan="3">
 
-這些元素的配置窗格：
+這些元素的設定窗格：
 
 <ul>
   <li>歷程中的活動</li>
@@ -151,29 +151,29 @@ Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提�
 
 </td>
     <td>移至下一個要設定的欄位</td>
-    <td>標記</td>
+    <td>Tab 鍵</td>
   </tr>
   <tr>
     <td>儲存變更並關閉設定窗格</td>
-    <td>輸入</td>
+    <td>Enter 鍵</td>
   </tr>
   <tr>
-    <td>放棄更改並關閉配置窗格</td>
-    <td>Esc</td>
+    <td>放棄變更並關閉設定窗格</td>
+    <td>Esc 鍵</td>
   </tr>
   <tr>
-    <td rowspan="4">在測試模式中的歷程</td>
-    <td>啟用或禁用測試模式</td>
+    <td rowspan="4">測試模式中的歷程</td>
+    <td>啟用或停用測試模式</td>
     <td>T</td>
   </tr>
   <tr>
-    <td>觸發事件型歷程中的事件</td>
+    <td>觸發事件歷程中的事件</td>
     <td>E</td>
   </tr>
   <tr>
     <td>
 
-在以區段為基礎的歷程中觸發事件，其 **[!UICONTROL Single profile at a time]** 選項
+在區段型歷程中觸發事件，其 **[!UICONTROL Single profile at a time]** 選項為開啟
 
 </td>
     <td>P</td>
@@ -192,30 +192,30 @@ Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提�
   <tr>
     <td>文字欄位</td>
     <td>選取所選欄位中的所有文字</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>Ctrl + A (Windows)<br/> Command + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">快顯視窗</td>
     <td>儲存變更或確認動作</td>
-    <td>輸入</td>
+    <td>Enter 鍵</td>
   </tr>
   <tr>
     <td>關閉視窗</td>
-    <td>Esc</td>
+    <td>Esc 鍵</td>
   </tr>
   <tr>
-    <td>簡單運算式編輯器</td>
+    <td>簡易運算式編輯器</td>
     <td>選取並新增欄位</td>
-    <td>按兩下欄位</td>
+    <td>在欄位上按兩下</td>
   </tr>
   <tr>
-    <td>瀏覽XDM欄位</td>
+    <td>瀏覽 XDM 欄位</td>
     <td>選取節點的所有欄位</td>
-    <td>選擇父節點</td>
+    <td>選擇上層節點</td>
   </tr>
   <tr>
-    <td>裝載預覽</td>
-    <td>選取裝載</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>內容預覽</td>
+    <td>選取內容</td>
+    <td>Ctrl + A (Windows)<br/> Command + A (Mac)</td>
   </tr>
 </table>

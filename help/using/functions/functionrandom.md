@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: random
-description: 隨機了解函式
+description: 瞭解函式隨機性
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 # 隨機 {#random}
 
-產生0到1之間的隨機數。
+生成介於0和1之間的隨機數。
 
 ## 類別
 
@@ -25,9 +25,9 @@ ht-degree: 16%
 
 `random(<parameters>)`
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `random()`
 
-傳回小數。
+返回十進位。
 

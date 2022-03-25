@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 關於Campaign v7/v8整合
-description: 了解Campaign v7/v8整合
+title: 關於促銷活動v7/v8整合
+description: 瞭解市場活動v7/v8整合
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,31 +15,31 @@ ht-degree: 7%
 
 # 使用 Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
-此整合適用於從21.1版開始的Adobe Campaign Classic v7和Adobe Campaign v8。 它可讓您使用Adobe Campaign交易訊息功能來傳送電子郵件、推播通知和簡訊。
+此整合適用於從21.1版開始的Adobe Campaign Classicv7和Adobe Campaignv8。 它允許您使用Adobe Campaign事務性消息傳遞功能發送電子郵件、推送通知和簡訊。
 
 Journey Orchestration 與 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。
 
-本節提供端對端使用案例 [節](../usecase/campaign-classic-use-case.md).
+本中介紹了端到端使用案例 [節](../usecase/campaign-classic-use-case.md)。
 
-對於已設定的每個動作，歷程設計器浮動視窗中都會提供動作活動。 請參閱 [節](../building-journeys/using-adobe-campaign-classic.md).
+對於配置的每個操作，行程設計器調色板中都提供一個操作活動。 請參閱此 [節](../building-journeys/using-adobe-campaign-classic.md)。
 
 ## 重要備註
 
-* 消息沒有限制。 根據我們目前的促銷活動SLA，可將可傳送的訊息數量限制為50,000/小時。 因此，Journey Orchestration僅應用於單一使用案例（個別事件，而非區段）。
+* 沒有消息限制。 根據我們當前的市場活動SLA，我們將可以發送到的郵件數量限制為50,000/小時。 因此，Journey業務流程只應用於單一使用情形（單個事件，而不是段）。
 
-* 您需要針對要使用的範本，在畫布上設定一個動作。 您需要針對要從Adobe Campaign使用的每個範本，在Journey Orchestration中設定一個動作。
+* 您需要在畫布上根據要使用的模板配置一個操作。 您需要在Journey Orchestration中為要從Adobe Campaign使用的每個模板配置一個操作。
 
-* 建議您使用為此整合托管的專用訊息中心例項，以避免影響您可能進行的任何其他Campaign作業。 行銷伺服器可托管或內部部署。 所需的版本編號為21.1 Release Candiate或更高版本。
+* 我們建議您使用為此整合托管的專用消息中心實例，以避免影響您可能正在進行的任何其他活動操作。 營銷伺服器可以托管或內部。 所需的生成是21.1版候選版或更高版本。
 
-* 裝載或促銷活動訊息正確無誤。
+* 沒有驗證有效負載或市場活動消息是否正確。
 
-* 您無法搭配區段資格事件使用促銷活動動作。
+* 您不能將市場活動活動與段資格事件一起使用。
 
 ## 先決條件
 
-在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱 [Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
+在市場活動中，您需要建立並發佈事務性消息及其關聯事件。 請參閱 [Adobe Campaign文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging)。
 
-您可以依照下列模式，建立與每個訊息對應的JSON裝載。 接著，您會在Journey Orchestration中設定動作時貼上此裝載（請參閱下方）
+您可以按照以下模式生成與每條消息對應的JSON負載。 然後，在Journey Orchestration中配置操作時將貼上此負載（請參閱下面）
 
 其範例如下：
 
@@ -54,19 +54,19 @@ Journey Orchestration 與 Campaign 執行個體之間的連線在佈建時由 Ad
 }
 ```
 
-* **頻道**:為您的Campaign交易範本定義的管道
-* **eventType**:促銷活動事件的內部名稱
-* **ctx**:變數。
+* **通道**:為「市場活動」事務模板定義的渠道
+* **事件類型**:市場活動活動的內部名稱
+* **ctx**:根據您在郵件中的個性化設定來設定變數。
 
-## 設定動作
+## 配置操作
 
-在Journey Orchestration中，您需要為每個交易式訊息設定一個動作。 請依照下列步驟操作：
+在Journey Orchestration中，需要為每個事務性消息配置一個操作。 執行以下步驟：
 
-1. 建立新動作。 請參閱 [節](../action/action.md).
+1. 建立新操作。 請參閱此 [節](../action/action.md)。
 1. 輸入名稱和說明。
-1. 在 **動作類型** 欄位，選擇 **Adobe Campaign Classic**.
-1. 按一下 **裝載** 欄位，並貼上與促銷活動訊息對應之JSON裝載的範例。 請聯絡Adobe以取得此裝載。
-1. 視您要在歷程畫布上對應不同欄位，將其調整為靜態或變數。 某些欄位(例如電子郵件地址和個人化欄位(ctx)的管道參數)，您可能會想要定義為要在歷程內容中對應的變數。
+1. 在 **操作類型** 欄位，選擇 **Adobe Campaign Classic**。
+1. 按一下 **負載** 欄位並貼上與市場活動消息對應的JSON負載示例。 聯繫Adobe獲取此負載。
+1. 根據要在「旅程」畫布上映射不同欄位，將其調整為靜態或變數。 某些欄位(如電子郵件地址的通道參數和個性化欄位(ctx))，您可能需要定義為旅行上下文中映射的變數。
 1. 按一下「**儲存**」。
 
 ![](../assets/accintegration1.png)

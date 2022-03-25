@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: concat
-description: 了解函式概念
+description: 瞭解函式概念
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,9 +13,9 @@ ht-degree: 27%
 
 ---
 
-# concat {#concat}
+# 康 {#concat}
 
-串連兩個字串參數或字串清單。
+連接兩個字串參數或字串清單。
 
 ## 類別
 
@@ -29,16 +29,16 @@ ht-degree: 27%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 清單 | listString |
+| 清單 | 清單字串 |
 | 字串 | 字串 |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `concat(<string>,<string>)`
 
 `concat(<listString>)`
 
-傳回字串。
+返回字串。
 
 ## 範例
 
@@ -48,4 +48,4 @@ ht-degree: 27%
 
 `concat(["Hello"," ","World"])`
 
-返回&quot;Hello World&quot;。
+返回「Hello World」。

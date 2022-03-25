@@ -15,34 +15,34 @@ ht-degree: 25%
 
 # 歷程欄位 {#sharing-journey-fields}
 
-此混合用於歷程結構（與journeyStepEvent相關）。 它包含下列欄位：
+此混合用於行程模式（與journeyStepEvent相關）。 它包含以下欄位：
 
-## journeyID
+## 旅程ID
 
-主要歷程的ID。
+主行程的ID。
 
 類型: 字串
 
 ## journeyVersionID
 
-歷程版本ID。 此id代表歷程的身分。
+行程版本的ID。 此id表示旅程的標識。
 
 類型: 字串
 
 ## 名稱
 
-歷程的名稱。
+旅程名稱。
 
 類型: 字串
 
-## 說明
+## 描述
 
-歷程說明。
+旅程描述。
 
 類型: 字串
 
 ## 版本
 
-版本，表示為 `major`.`minor`
+版本，表示為 `major`。`minor`
 
 類型: 字串

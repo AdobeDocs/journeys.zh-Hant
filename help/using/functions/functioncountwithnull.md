@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: countWithNull
-description: 了解函式countWithNull
+description: 瞭解函式countWithNull
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -29,20 +29,20 @@ ht-degree: 32%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 清單 | listString |
-| 清單 | listBoolean |
+| 清單 | 清單字串 |
+| 清單 | list布爾 |
 | 清單 | listInteger |
-| 清單 | listDecimal |
-| 清單 | listDuration |
-| 清單 | listDateTime |
+| 清單 | 清單十進位 |
+| 清單 | listDuration（持續時間） |
+| 清單 | 清單日期時間 |
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `countWithNull(<listAny>)`
 
-傳回整數。
+返回整數。
 
 ## 範例
 

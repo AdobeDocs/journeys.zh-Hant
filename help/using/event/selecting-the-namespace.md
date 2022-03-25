@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 選取命名空間
-description: 了解如何選取命名空間
+description: 瞭解如何選擇命名空間
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,19 +15,19 @@ ht-degree: 10%
 
 # 選取命名空間 {#concept_ckb_3qt_52b}
 
-命名空間可讓您定義用於識別與事件相關聯之人員的索引鍵類型。 其設定為選用。 如果您想在歷程中擷取來自 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant). 如果您只使用來自協力廠商系統的資料（透過自訂資料來源），則不需要命名空間定義。
+命名空間允許您定義用於標識與事件關聯的人員的密鑰類型。 其配置是可選的。 如果要在您的行程中檢索來自 [即時客戶概要資訊](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)。 如果您僅使用來自第三方系統的通過自定義資料源的資料，則不需要命名空間定義。
 
-您可以使用其中一個預先定義的命名空間，或使用身分命名空間服務建立新的一個。 請參閱 [頁面](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant).
+您可以使用其中一個預定義名稱，或使用Identity Namespace服務建立新名稱。 請參閱此 [頁](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)。
 
-如果您選取的架構具有主要身分，則 **[!UICONTROL Key]** 和 **[!UICONTROL Namespace]** 欄位已預填。 如果沒有定義標識，則我們選擇 _identityMap > id_ 作為主要金鑰。 然後，您必須選取命名空間，系統就會預先填入索引鍵(位於 **[!UICONTROL Namespace]** 欄位)使用 _identityMap > id_.
+如果選擇具有主標識的架構，則 **[!UICONTROL Key]** 和 **[!UICONTROL Namespace]** 欄位已預填充。 如果沒有定義標識，我們將選擇 _identityMap > id_ 鍵。 然後，必須選擇一個命名空間，並且該鍵將預填充(位於 **[!UICONTROL Namespace]** 欄位使用 _identityMap > id_。
 
-選取欄位時，會標籤主要身分欄位。
+選擇欄位時，將標籤主標識欄位。
 
 ![](../assets/primary-identity.png)
 
 
-從下拉式清單中選取命名空間。
+從下拉清單中選擇一個命名空間。
 
 ![](../assets/journey17.png)
 
-每個歷程僅允許一個命名空間。 如果您在相同歷程中使用數個事件，則這些事件需要使用相同的命名空間。 請參閱[此頁面](../building-journeys/journey.md)。
+每個行程只允許一個命名空間。 如果在同一行程中使用多個事件，則它們需要使用相同的命名空間。 請參閱[此頁面](../building-journeys/journey.md)。

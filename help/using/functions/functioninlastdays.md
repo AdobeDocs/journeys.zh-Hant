@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inLastDays
-description: 了解LastDays中的函式
+description: 瞭解LastDays中的函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,13 +13,13 @@ ht-degree: 18%
 
 ---
 
-# inLastDays {#inLastDays}
+# 在最後幾天 {#inLastDays}
 
-如果指定的日期或dateTime介於現在和現在之間 — 差值天，則傳回true。
+如果給定日期或dateTime介於現在和現在之間 — 增量天，則返回true。
 
 ## 類別
 
-Date
+日期
 
 ## 函式語法
 
@@ -29,17 +29,17 @@ Date
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 日期時間 | dateTime |
-| delta | 整數 |
+| 日期時間 | 日期時間 |
+| 三角 | 整數 |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `inLastDays(<dateTime>,<integer>)`
 
-傳回布林值。
+返回布爾值。
 
 ## 範例
 
 `inLastDays(toDateTime('2019-12-12T01:11:00Z'), 4)`
 
-傳回true。
+返回true。

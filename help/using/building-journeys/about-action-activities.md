@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 關於動作活動
-description: 了解動作活動
+description: 瞭解操作活動
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,17 +15,17 @@ ht-degree: 28%
 
 # 關於動作活動 {#concept_hbj_hrt_52b}
 
-從浮動視窗的畫面左側，位於下方 **[!UICONTROL Events]** 和 **[!UICONTROL Orchestration]**，您會找到 **[!UICONTROL Actions]** 類別。
+從調色板，在螢幕左側，在下面 **[!UICONTROL Events]** 和 **[!UICONTROL Orchestration]**&#x200B;的 **[!UICONTROL Actions]** 的子菜單。
 
 ![](../assets/journey58.png)
 
-這些活動代表不同的可用通訊通道。您可以結合這些量度，以建立跨管道情境。
+這些活動代表不同的可用通訊通道。您可以將它們組合起來，以建立跨渠道方案。
 
-如果您有Adobe Campaign Standard，則可使用下列現成可用的動作活動： **[!UICONTROL Email]**, **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**. 請參見[此頁面](../building-journeys/using-adobe-campaign-actions.md)。
+如果您有Adobe Campaign Standard，則可以執行以下現成操作活動： **[!UICONTROL Email]**。 **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。 請參見[此頁面](../building-journeys/using-adobe-campaign-actions.md)。
 
-如果您已設定自訂動作，它們也會顯示在此處(請參閱 [本頁](../building-journeys/using-custom-actions.md))。
+如果已配置了自定義操作，它們也將出現在此處(請參見 [此頁](../building-journeys/using-custom-actions.md))。
 
-將動作活動拖曳至畫布時，您可以定義 **[!UICONTROL Label]**. 這可讓您新增尾碼至動作名稱，該名稱會顯示在畫布中的活動底下。 如果您在歷程中多次使用相同的動作，而且想要更輕鬆地識別，這個功能會很實用。 報告也更容易閱讀。 您也可以新增選填 **[!UICONTROL Description]**.
+在畫布中放置活動時，可以定義 **[!UICONTROL Label]**。 這樣，您就可以將尾碼添加到將出現在畫布中活動下的操作名稱中。 如果您在旅途中多次使用同一操作並且希望更容易識別它們，則此操作非常有用。 報告也更容易閱讀。 您還可以添加可選 **[!UICONTROL Description]**。
 
 ![](../assets/journey59bis.png)
 

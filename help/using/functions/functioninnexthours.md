@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inNextHours
-description: 了解inNextHours的函式
+description: 瞭解NextHours中的函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,13 +13,13 @@ ht-degree: 18%
 
 ---
 
-# inNextHours {#inNextHours}
+# 下一小時 {#inNextHours}
 
-如果指定的日期或dateTime介於現在和現在+增量小時之間，則傳回true。
+如果給定日期或dateTime介於現在和現在之間+增量小時數，則返回true。
 
 ## 類別
 
-Date
+日期
 
 ## 函式語法
 
@@ -29,17 +29,17 @@ Date
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 日期時間 | dateTime |
-| delta | 整數 |
+| 日期時間 | 日期時間 |
+| 三角 | 整數 |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `inNextHours(<dateTime>,<integer>)`
 
-傳回布林值。
+返回布爾值。
 
 ## 範例
 
 `inNextHours(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-傳回true。
+返回true。

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: '在 '
-description: 了解中的函式
+description: 瞭解中的函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,9 +15,9 @@ ht-degree: 17%
 
 # 在  {#in}
 
-檢查清單中是否有第一個引數值。 檢查是通過每個參數值的Equal來執行的。 若找到引數值，則傳回true，否則傳回false。
+檢查清單中是否有第一個參數值。 檢查通過每個參數值上的Equal來執行。 如果找到參數值，則返回true，否則返回false。
 
-類型 `<expression>` 必須與清單的項目相符。 清單項目的類型（作為提醒）必須彼此匹配。
+類型 `<expression>` 必須與清單項匹配。 清單中項的類型（作為提醒）必須相互匹配。
 
 ## 類別
 
@@ -32,22 +32,22 @@ ht-degree: 17%
 | 參數 | 類型 |
 |-----------|------------------|
 | 字串 | 字串 |
-| 布林值 | 布林值 |
+| 布爾型 | 布爾型 |
 | 整數 | 整數 |
-| 小數 | 小數 |
+| 十進位 | 十進位 |
 | 持續時間 | 持續時間 |
-| DateTime | DateTime |
-| DateTimeOnly | DateTimeOnly |
-| 清單 | listString |
-| 清單 | listBoolean |
+| 日期時間 | 日期時間 |
+| 僅日期時間 | 僅日期時間 |
+| 清單 | 清單字串 |
+| 清單 | list布爾 |
 | 清單 | listInteger |
-| 清單 | listDecimal |
-| 清單 | listDuration |
-| 清單 | listDateTime |
+| 清單 | 清單十進位 |
+| 清單 | listDuration（持續時間） |
+| 清單 | 清單日期時間 |
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `in(<integer>,<listInteger>)`
 
@@ -65,16 +65,16 @@ ht-degree: 17%
 
 `in(<duration>,<listDuration>)`
 
-傳回布林值。
+返回布爾值。
 
 ## 範例
 
 `in(4,[4,5,3,4])`
 
-傳回true。
+返回true。
 
 `in(8,[4,5,3,4])`
 
-傳回false。
+返回false。
 
 `in(#{ExperiencePlatform.ProfileFieldGroup.profile.person.gender}, ["male"])`

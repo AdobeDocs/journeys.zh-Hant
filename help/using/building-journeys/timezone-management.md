@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 時區管理
-description: 了解時區管理
+description: 瞭解時區管理
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,43 +15,43 @@ ht-degree: 2%
 
 # 時區管理 {#timezone_management}
 
-您可以在 [屬性](../building-journeys/changing-properties.md) 你的旅程。
+可在 [屬性](../building-journeys/changing-properties.md) 你的旅程。
 
-若要存取「屬性」，請按一下畫面右上方的鉛筆圖示。
+要訪問「屬性」，請按一下螢幕右上角的鉛筆表徵圖。
 
-此時區將用於歷程中包含時間元素的每個活動，例如：
+此時區將用於包含時間元素的行程的每個活動，如：
 
 * [時間條件](../building-journeys/condition-activity.md#time_condition)
 * [日期條件](../building-journeys/condition-activity.md#date_condition)
-* [自訂等待](../building-journeys/wait-activity.md#custom)
+* [自定義等待](../building-journeys/wait-activity.md#custom)
 * [固定日期等待](../building-journeys/wait-activity.md#fixed_date)
 
-您可以選取時區或選擇使用使用者設定檔中定義的時區。
+您可以選擇一個時區，或選擇使用用戶配置檔案中定義的時區。
 
 >[!NOTE]
 >
->設定檔時區可搭配 **timeZone** 欄位 **首選項詳細資訊** 欄位群組。
+>配置檔案時區與 **時區** 欄位 **首選項詳細資訊** 欄位組。
 
 ## 定義固定時區 {#fixed-timezone}
 
-時區也可以固定。 清除預先定義的時區，然後從下拉式清單中選取時區。 如果您使用固定時區，則所有進入歷程的個人都會使用相同時區。
+時區也可以固定。 清除預定義的時區，然後從下拉清單中選擇一個時區。 如果使用固定的時區，則所有進入行程的個人將使用相同的時區。
 
-若要這麼做，請輸入 **[!UICONTROL Properties]**，請選取時區。
+為此，請在 **[!UICONTROL Properties]**，選擇時區。
 
 ![](../assets/journey72.png)
 
-## 使用設定檔來定義歷程時區 {#timezone-from-profiles}
+## 使用配置檔案定義行程時區 {#timezone-from-profiles}
 
-如果歷程的登入事件具有命名空間，表示歷程可存取Adobe Experience Platform的即時客戶個人檔案服務，則會以在歷程中流動之個人的個人檔案中指定的時區來預先定義時區。
+如果旅程的入門事件具有命名空間，即旅程可以到達Adobe Experience Platform的即時客戶概要檔案服務，則時區是預先定義的，該時區在旅程中流動的個人概要檔案中指定。
 
-如果在Adobe Experience Platform設定檔中定義時區，則可在歷程中擷取。
+如果在Adobe Experience Platform配置檔案中定義了時區，則可以在行程中檢索該時區。
 
-如果個人的設定檔不包含時區，則擷取的時區將是時區欄位中定義的時區。
+如果個人的配置檔案不包含時區，則檢索到的時區將是時區欄位中定義的時區。
 
-若要這麼做，請輸入 **[!UICONTROL Properties]**，檢查 **[!UICONTROL Use Profile timezone in timers and conditions]**.
+為此，請在 **[!UICONTROL Properties]**&#x200B;選中 **[!UICONTROL Use Profile timezone in timers and conditions]**。
 
 ![](../assets/journey73.png)
 
-## 在運算式中使用時區 {#timezone-in-expressions}
+## 在表達式中使用時區 {#timezone-in-expressions}
 
-歷程的開始和結束日期無法連結至特定時區。 它們會自動與執行個體的時區相關聯。
+行程的起始日期和終止日期不能連結到特定時區。 它們會自動與實例的時區關聯。

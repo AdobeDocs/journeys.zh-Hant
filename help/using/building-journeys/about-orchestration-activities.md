@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 關於協調活動
-description: 了解協調活動
+description: 瞭解業務流程活動
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,7 +15,7 @@ ht-degree: 37%
 
 # 關於協調活動 {#concept_ksq_2rt_52b}
 
-從浮動視窗的畫面左側，可使用下列協調活動：
+在螢幕左側的調色板中，可以使用以下業務流程活動：
 
 * [條件活動](../building-journeys/condition-activity.md)
 * [結束活動](../building-journeys/end-activity.md)

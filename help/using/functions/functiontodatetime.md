@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toDateTime
-description: 了解函式toDateTime
+description: 瞭解函式toDateTime
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,9 +13,9 @@ ht-degree: 10%
 
 ---
 
-# toDateTime {#toDateTime}
+# 到日期時間 {#toDateTime}
 
-根據參數的類型，將參數轉換為日期時間值。
+根據參數的類型將參數轉換為日期時間值。
 
 ## 類別
 
@@ -30,13 +30,13 @@ ht-degree: 10%
 | 參數 | 類型 |
 |-----------|------------------|
 | ISO-8601格式的日期時間 | 字串 |
-| 時區id | 字串 |
-| 無時區的日期時間 | dateTimeOnly |
-| 以毫秒為單位的整數值 | 整數 |
+| 時區ID | 字串 |
+| 無時區的日期時間 | 日期僅時間 |
+| 時元的整數值（毫秒） | 整數 |
 
 >[!NOTE]
 >
->時區ID必須是字串常數。 它不能是欄位參考或運算式。 如需資料類型的詳細資訊，請參閱 [本頁](../expression/data-types.md).
+>時區ID必須是字串常數。 它不能是欄位引用或表達式。 有關資料類型的詳細資訊，請參閱 [此頁](../expression/data-types.md)。
 
 ## 簽名和返回的類型
 
@@ -46,7 +46,7 @@ ht-degree: 10%
 
 `toDateTime(<integer>)`
 
-傳回 **dateTime**.
+返回 **日期時間**。
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
@@ -73,15 +73,15 @@ Return a datetime.
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-傳回2016-08-18T23:17:59.123Z
+返回2016-08-18T23:17:59.123Z
 
 `toDateTime(toDateTimeOnly("UTC", "2016-08-18T23:17:59.123"))`
 
-傳回2016-08-18T23:17:59.123Z
+返回2016-08-18T23:17:59.123Z
 
 `toDateTime(1560762190189)`
 
-傳回2019-06-17T09:03:10.189Z
+返回2019-06-17T09:03:10.189Z
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 匯入匯出API說明
-description: 深入了解匯入匯出API。
+title: 導入導出API說明
+description: 瞭解有關導入導出API的詳細資訊。
 products: journeys
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
@@ -11,53 +11,53 @@ ht-degree: 1%
 ---
 
 
-# 使用匯出匯入API
+# 使用導出 — 導入API
 
-使用單一API呼叫，匯出歷程版本及其所有相關物件（歷程、事件、資料來源、欄位群組、自訂動作）。 匯出產生的裝載可用來輕鬆將歷程匯入至其他環境（例項或沙箱）。
-此功能可讓您管理跨多個執行個體或多個測試環境工作流程的歷程。
+使用單個API調用導出行程版本及其所有相關對象（行程、事件、資料源、欄位組、自定義操作）。 導出產生的負載可用於輕鬆地將行程導入到其他環境（實例或沙盒）中。
+此功能允許您管理跨多個實例或多個test環境工作流的行程。
 
 
 ## 資源
 
-Journey Orchestration匯出 — 匯入API在可用的Swagger檔案中有說明 [此處](https://adobedocs.github.io/JourneyAPI/docs/).
+Journey Orchestration導出 — 導入API在可用的Swagger檔案中描述 [這裡](https://adobedocs.github.io/JourneyAPI/docs/)。
 
-若要將此API與您的Journey Orchestration例項搭配使用，您需要使用AdobeI/O主控台。 您可以依照以下步驟開始 [開始使用Adobe開發人員控制台](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 然後使用本頁面中的部分。
+要將此API與Journey Orchestration實例一起使用，您需要使用AdobeI/O控制台。 您可以按照此操作 [Adobe開發人員控制台入門](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 然後使用此頁中的部分。
 
-若要測試並準備您的整合，可使用Postman集合 [此處](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
+要test和準備您的整合，可提供Postman收藏 [這裡](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json)。
 
 
-## 匯出匯入流程
+## 導出 — 導入流
 
-建議您依照下列步驟，匯出和匯入您在不同環境中的歷程：
+我們建議按照以下步驟在不同環境之間導出和導入您的行程：
 
-1. 在您的開始環境中建立歷程並為其參數。 [更多資訊，請前往](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
-1. 檢查歷程版本是否沒有錯誤。 [更多資訊，請前往](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
-1. 呼叫 **/list/journeys** API以擷取您最新歷程版本的UID歷程及UID。 如有需要，您可以呼叫 **/journeys/`{uid}`/latest** 尋找您最新歷程版本的UID。
-1. 呼叫 **匯出** API搭配您的開始環境參數（orgID和sandboxName）。
-1. 開啟傳回的裝載，然後檢查下列項目：
-   * 如果您匯出的歷程包含 **特定憑證**，您需要將這些憑證取代為與新環境對應的憑證。
-   * 如果您匯出的歷程包含 **事件** 指的是 **XDM結構**，如果ID值不同，則需要以xdmEntity節點中新環境的結構ID手動更新結構ID參考。 必須針對每個事件完成此更新。 [更多資訊，請前往](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
-   * 如果您的歷程包含電子郵件、簡訊或推播動作，如果目標環境中的名稱與啟動環境中的名稱不同，則您可能必須更新範本名稱或mobileApp名稱。
-1. 呼叫 **匯入** API搭配您的目標環境參數（orgID和sandboxName）。 請注意，您可以視需要多次呼叫匯入API。 每次呼叫匯入API時，歷程中所包含的每個物件名稱都會產生。
-1. 匯入歷程後，您就可以在Journey Orchestration應用程式中發佈它。 更多資訊 [此處](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
+1. 在起始環境中建立行程並為其參數化。 [此處提供更多資訊](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. 檢查行程版本是否沒有錯誤。 [此處提供更多資訊](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
+1. 呼叫 **/list/rougers** API，用於檢索您的最新行程版本的UID行程和UID。 如果需要，你可以打電話 **/reymers/`{uid}`/最新** 以查找您的最新旅程版本的UID。
+1. 呼叫 **出口** 具有啟動環境參數（orgID和sandboxName）的API。
+1. 開啟返回負載，然後檢查以下項：
+   * 如果導出的行程包含 **特定憑據**，您需要將這些憑據替換為與新環境對應的憑據。
+   * 如果導出的行程包含 **事件** 這表明 **XDM架構**，如果ID值不同，則需要手動更新使用xdmEntity節點中新環境的架構ID的架構ID引用。 需要對每個事件執行此更新。 [此處提供更多資訊](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
+   * 如果您的旅程包含電子郵件、簡訊或推送操作，則如果目標環境中的名稱與起始環境中的名稱不同，則可能必須更新模板名稱或mobileApp名稱。
+1. 呼叫 **導入** 具有目標環境參數（orgID和sandboxName）的API。 請注意，您可以根據需要多次調用導入API。 每次調用導入API時，都會生成UUID和旅程中包含的每個對象的名稱。
+1. 導入Journey後，您可以在Journey Orchestration應用程式中發佈它。 詳細資訊 [這裡](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## 驗證
 
 ### 設定 API 存取
 
-Journey OrchestrationAPI存取權是透過下列步驟設定。 以下各步驟在 [Adobe I/O檔案](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+Journey OrchestrationAPI訪問通過以下步驟設定。 以下每個步驟均在 [Adobe I/O文檔](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)。
 
 >[!CAUTION]
 >
->若要在Adobe I/O中管理憑證，請確定您 <b>系統管理員</b> 組織或 [開發人員帳戶](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html) （在Admin Console中）。
+>要在Adobe I/O中管理證書，請確保 <b>系統管理員</b> 組織或 [開發者帳戶](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html) 在管理控制台中。
 
-1. **確認您擁有數位憑證**，或視需要建立。 下列步驟需要憑證隨附的公開金鑰和私密金鑰。
-1. **建立新整合以 [!DNL Journey Orchestration] 服務** Adobe I/O並加以設定。 Journey Orchestration和Adobe Experience Platform需要產品設定檔存取權。 接著會產生您的認證（API金鑰、用戶端密碼……）。
-1. **建立JSON網頁代號(JWT)** 從先前產生的憑證，並使用您的私密金鑰簽署。 JWT會對Adobe驗證身分並授予您API存取權所需的所有身分和安全資訊進行編碼。 此步驟在此中詳細說明 [節](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
-1. **將JWT交換為存取權杖** 透過POST要求或開發人員控制台介面。 此存取權杖必須用於API請求的每個標題中。
+1. **檢查您有數字證書**，或根據需要建立。 在以下步驟中需要隨證書提供的公鑰和私鑰。
+1. **建立新整合到 [!DNL Journey Orchestration] 服務** Adobe I/O並配置。 Journey Orchestration和Adobe Experience Platform需要產品配置檔案訪問。 然後將生成您的憑據（API密鑰、客戶端密鑰……）。
+1. **建立JSON Web令牌(JWT)** 從先前生成的憑據中，使用您的私鑰進行簽名。 JWT對Adobe驗證身份和授予您訪問API的權限所需的所有身份和安全資訊進行編碼。 此步驟在本中詳細介紹 [節](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
+1. **將JWT交換為訪問令牌** 通過POST請求或通過開發人員控制台介面。 此訪問令牌必須用於API請求的每個標頭。
 
-若要建立安全的服務對服務Adobe I/OAPI工作階段，對Adobe服務的每個要求都必須在授權標題中包含下列資訊。
+要建立安全的服務到服務Adobe I/OAPI會話，對Adobe服務的每個請求都必須在「授權」標頭中包含以下資訊。
 
 ```
 curl -X GET https://journey.adobe.io/authoring/XXX \
@@ -66,55 +66,55 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;organization>**:這是您的個人組織ID，由Adobe為每個執行個體提供一個組織ID:
+* **&lt;organization>**:這是您的個人組織ID,Adobe為每個實例提供一個組織ID:
 
-   * &lt;organization> :您的生產執行個體
-   若要取得組織ID值，請洽詢您的管理員或Adobe技術聯絡人。 建立新整合時，您也可以將其擷取至Adobe I/O中，位於授權清單中(請參閱 [Adobe I/O檔案](https://www.adobe.io/authentication.html))。
+   * &lt;organization> :您的生產實例
+   要獲取您的組織ID值，請咨詢您的管理員或Adobe技術聯繫人。 建立新整合時，您還可以在許可證清單中將其檢索到Adobe I/O(請參見 [Adobe I/O文檔](https://www.adobe.io/authentication.html))。
 
-* **&lt;access_token>**:您的個人存取權杖，此權杖是透過POST要求交換JWT時擷取的。
+* **&lt;access_token>**:通過POST請求交換JWT時檢索的個人訪問令牌。
 
-* **&lt;api_key>**:您的個人API金鑰。 它會在建立與 [!DNL Journey Orchestration] 服務。
+* **&lt;api_key>**:您的個人API密鑰。 在建立新整合後在Adobe I/O中提供 [!DNL Journey Orchestration] 服務。
 
 
 
-## 匯出匯入API說明
+## 導出 — 導入API說明
 
-此API可讓您匯出以其UID識別的歷程版本，以及以其uid匯出所有相關物件（歷程、事件、資料來源、欄位群組、自訂動作）。
-產生的裝載可用來匯入其他環境（沙箱或例項）中的歷程版本。
+此API允許您導出由其UID標識的行程版本，以及由其uid標識的所有相關對象（行程、事件、資料源、欄位組、自定義操作）。
+生成的負載可用於在另一個環境（沙盒或實例）中導入行程版本。
 
 | 方法 | 路徑 | 說明 |
 |---|---|---|
-| `[POST]` | /journeyVersions/import | 匯入從歷程版本匯出產生的歷程版本內容 |
-| `[GET]` | /journeyVersions/`{uid}`/export | 匯出歷程版本 |
-| `[GET]` | /journeys/`{uid}`/latest | 取得歷程的最新歷程版本 |
-| `[POST]` | /list/journeys | 列出歷程及其歷程版本的中繼資料 |
+| `[POST]` | /journeyVersions/import | 導入由行程版本導出生成的行程版本內容 |
+| `[GET]` | /journey版本/`{uid}`/導出 | 導出行程版本 |
+| `[GET]` | /reymers/`{uid}`/最新 | 獲取最新的旅程版本 |
+| `[POST]` | /list/rougers | 列出旅程的元資料及其旅程版本 |
 
 
 ### 導出特性和護欄
 
-* 匯出前，歷程必須有效。
+* 導出前，該行程必須有效。
 
-* 憑證不會匯出，且預留位置（即INSERT_SECRET_HERE）會插入回應裝載中。
-匯出呼叫後，您必須先手動插入新憑證（與目標環境對應），才能在目標環境中匯入裝載。
+* 不導出憑據，並在響應負載中插入佔位符（即INSERT_SECRET_HERE）。
+在導出調用後，必須手動插入新憑據（對應於目標環境），然後才能在目標環境中導入負載。
 
-* 將導出以下對象，但這些對象永遠不會在目標環境中導入。 這些是由Journey Orchestration自動管理的系統資源。 您不需要取代「INSERT_SECRET_HERE」。
-   * **DataProviders**:&quot;Adobe Campaign Standard Data Provider&quot;(acsDataProvider)和&quot;Experience Platform&quot;(acppsDataProvider)
-   * **欄位群組** (dataEntities):&quot;ProfileFieldGroup&quot;(acppsDataPack)
+* 將導出以下對象，但不會在目標環境中導入它們。 這些是由Journey Orchestration自動管理的系統資源。 您不需要替換「INSERT_SECRET_HERE」。
+   * **資料提供程式**:&quot;Adobe Campaign Standard資料提供程式&quot;(acsDataProvider)和&quot;Experience Platform&quot;(acppsDataProvider)
+   * **欄位組** （資料實體）:&quot;ProfileFieldGroup&quot;(acppsDataPack)
 
 
 
-### 匯入特徵
+### 導入特性
 
-* 在匯入期間，歷程物件會以新UID和新名稱建立，以確保目標環境（例項或沙箱）中的唯一性。
+* 在導入過程中，使用新的UID和新名稱建立行程對象，以確保目標環境（實例或沙盒）中的唯一性。
 
-* 如果匯入裝載包含機密預留位置，則會擲回錯誤。 您必須在POST呼叫前取代憑證資訊，才能匯入歷程。
+* 如果導入負載包含秘密佔位符，則會引發錯誤。 在POST呼叫導入行程之前，必須替換憑據資訊。
 
 ## 警告和錯誤
 
-潛在錯誤為：
+潛在錯誤有：
 
-* At **匯出時間**，如果歷程版本無效：錯誤500
+* 在 **導出時間**，如果行程版本無效：錯誤500
 
-* At **匯入時間**，如果修改後裝載無效，或裝載中未妥善定義憑證：錯誤400
+* 在 **導入時間**，如果負載在修改後無效，或者在負載中未正確定義憑據：錯誤400
 
-* 在匯入步驟後，如果目標環境中事件的XDM結構ID無效，Journey Orchestration應用程式中就會顯示錯誤。 在此情況下，將無法發佈歷程。
+* 在導入步驟後，如果目標環境中事件的XDM架構ID無效，則Journey Orchestration應用程式中會出現錯誤。 在這種情況下，將不可能公佈這段旅程。

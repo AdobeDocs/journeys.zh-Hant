@@ -47,7 +47,7 @@ ht-degree: 97%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推播至 [!DNL Journey Orchestration]。事實上，[!DNL Journey Orchestration] 會仰賴 Adobe Experience Platform 的串流獲取 API。因此，若發生事件相關問題，您可以參閱 [本頁](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) 疑難排解。
+不會直接將事件從來源推播至 [!DNL Journey Orchestration]。事實上，[!DNL Journey Orchestration] 會仰賴 Adobe Experience Platform 的串流獲取 API。因此，在發生事件相關問題時，您可以參考 [此頁](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) 用於流式接收API故障排除。
 
 ## 檢查是否有人進入歷程{#section_x4v_zzs_dgb}
 

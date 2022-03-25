@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: isEmpty
-description: 了解函式isEmpty
+description: 瞭解函式為Empty
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,9 +13,9 @@ ht-degree: 19%
 
 ---
 
-# isEmpty {#isEmpty}
+# 為空 {#isEmpty}
 
-如果參數中的字串沒有字元，則傳回true。
+如果參數中的字串沒有字元，則返回true。
 
 ## 類別
 
@@ -29,18 +29,18 @@ ht-degree: 19%
 
 * 字串
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `isEmpty(<string>)`
 
-傳回布林值。
+返回布爾值。
 
 ## 範例
 
 `isEmpty("")`
 
-傳回true。
+返回true。
 
 `isEmpty("Hello World")`
 
-傳回false。
+返回false。

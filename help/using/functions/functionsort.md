@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: sort
-description: 了解函式排序
+description: 瞭解函式排序
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 # 排序 {#sort}
 
-以自然順序排序值清單。 第一個引數是值清單，第二個引數是布林值，指出排序是遞增(true)還是遞減(false)。
+按自然順序對值清單進行排序。 第一個參數是值清單，第二個參數是指示排序是升序(true)還是降序(false)的布爾值。
 
 ## 類別
 
@@ -29,45 +29,45 @@ ht-degree: 16%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 清單 | listString |
-| 清單 | listBoolean |
+| 清單 | 清單字串 |
+| 清單 | list布爾 |
 | 清單 | listInteger |
-| 清單 | listDecimal |
-| 清單 | listDuration |
-| 清單 | listDateTime |
+| 清單 | 清單十進位 |
+| 清單 | listDuration（持續時間） |
+| 清單 | 清單日期時間 |
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
-| 布林值 | 布林值 |
+| 布爾型 | 布爾型 |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `sort(<listInteger>,<boolean>)`
 
-傳回整數清單。
+返回整數清單。
 
 `sort(<listDecimal>,<boolean>)`
 
-傳回小數清單。
+返回小數位清單。
 
 `sort(<listString>,<boolean>)`
 
-傳回字串清單。
+返回字串清單。
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-返回不考慮時區的datetimes清單。
+返回不考慮時區的日期時間清單。
 
 `sort(<listDateTime>,<boolean>)`
 
-返回datetimes清單。
+返回日期時間清單。
 
 `sort(<listDateOnly>,<boolean>)`
 
-傳回日期清單。
+返回日期清單。
 
 `sort(<listBoolean>,<boolean>)`
 
-傳回布林值清單。
+返回布爾值清單。
 
 ## 範例
 

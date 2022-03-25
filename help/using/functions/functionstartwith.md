@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: startWith
-description: 了解函式startWith
+description: 瞭解函式startWith
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,9 +13,9 @@ ht-degree: 25%
 
 ---
 
-# startWith {#startWith}
+# 開頭 {#startWith}
 
-如果第二個參數是第一個參數的前置詞，則傳回true。
+如果第二個參數是第一個參數的前置詞，則返回true。
 
 ## 類別
 
@@ -32,18 +32,18 @@ ht-degree: 25%
 | 字串 | 字串 |
 | 前置詞 | 字串 |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `startWith(<string>,<string>)`
 
-傳回布林值。
+返回布爾值。
 
 ## 範例
 
 `startWith("Hello World", "Hello")`
 
-傳回true。
+返回true。
 
 `startWith("Hello World", "World")`
 
-傳回false。
+返回false。

@@ -14,13 +14,13 @@ ht-degree: 4%
 
 # 查詢範例{#query-examples}
 
-本節列出數個在Data Lake中查詢歷程步驟事件的常用範例。
+本節列出了查詢Data Lake中的Journey Step Events的幾個常用示例。
 
 ## 消息/操作錯誤
 
-### 歷程中遇到的每個錯誤清單
+### 行程中遇到的每個錯誤清單
 
-此查詢可讓您列出執行訊息/動作時在歷程中遇到的每個錯誤。
+通過此查詢，可以列出執行消息/操作時在行程中遇到的每個錯誤。
 
 _資料湖查詢_
 
@@ -42,11 +42,11 @@ AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143
 GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 ```
 
-此查詢會傳回在歷程中執行動作時發生的所有不同錯誤，以及發生次數的計數。
+此查詢返回在執行行程中的操作時發生的所有不同錯誤以及發生的次數。
 
-## 設定檔查詢
+## 基於配置檔案的查詢
 
-### 尋找設定檔是否進入特定歷程
+### 查找配置檔案是否輸入了特定行程
 
 _資料湖查詢_
 
@@ -66,11 +66,11 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果應大於0。 此查詢會傳回設定檔已進入歷程的確切次數。
+結果應大於0。 此查詢返回配置檔案輸入行程的確切次數。
 
-### 尋找設定檔是否已傳送特定訊息
+### 查找配置檔案是否已發送特定消息
 
-**方法1:** 如果訊息名稱在歷程中並非唯一（會在多個位置使用）。
+**方法1:** 如果郵件名稱在行程中不唯一（它在多個位置使用）。
 
 _資料湖查詢_
 
@@ -92,9 +92,9 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-結果應大於0。 此查詢只會告訴我們訊息動作是否已在歷程端成功執行。
+結果應大於0。 此查詢僅告訴我們消息操作是否在行程端成功執行。
 
-**方法2:** 如果訊息的名稱在歷程中是唯一的。
+**方法2:** 消息的名稱在旅途中唯一。
 
 _資料湖查詢_
 
@@ -116,7 +116,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-查詢會傳回所有訊息的清單，以及為所選設定檔叫用的訊息計數。
+查詢返回所有消息的清單以及為所選配置檔案調用的消息計數。
 
 ## 查找配置檔案在過去30天內收到的所有郵件
 
@@ -142,9 +142,9 @@ timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 ```
 
-查詢會傳回所有訊息的清單，以及為所選設定檔叫用的訊息計數。
+查詢返回所有消息的清單以及為所選配置檔案調用的消息計數。
 
-### 尋找設定檔在過去30天內輸入的所有歷程
+### 查找配置檔案在過去30天內輸入的所有行程
 
 _資料湖查詢_
 
@@ -166,9 +166,9 @@ timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 ```
 
-查詢會傳回所有歷程名稱的清單，以及查詢的設定檔進入歷程的次數。
+查詢返回所有行程名稱的清單以及查詢的配置檔案輸入行程的次數。
 
-### 每日符合歷程資格的設定檔數
+### 每日符合行程條件的配置檔案數
 
 _資料湖查詢_
 
@@ -190,11 +190,11 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-查詢會在定義的期間內，停止每天輸入歷程的設定檔數。 如果透過多個身分輸入的設定檔，則會計算兩次。 如果已啟用重新入口，如果設定檔計數在不同日重新進入歷程，則可能會在不同日期重複計算。
+查詢將在定義的期間中列出每天輸入行程的配置檔案數。 如果通過多個身份輸入的配置檔案，則將對其計數兩次。 如果啟用重新入門，則如果在不同日期重新進入行程，則可能會在不同日期複製配置檔案計數。
 
-## 歷程型查詢
+## 基於行程的查詢
 
-### 每日作用中歷程次數
+### 每日活動行程數
 
 _資料湖查詢_
 
@@ -214,4 +214,4 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-查詢會在定義的期間內，傳回每天觸發的不重複歷程計數。 在多天觸發的單一歷程每天會計為一次。
+對於定義的期間，查詢返回每天觸發的唯一行程的計數。 單次多日行程觸發將每天計算一次。

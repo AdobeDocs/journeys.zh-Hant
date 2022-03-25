@@ -18,7 +18,7 @@ ht-degree: 64%
 本頁面列出 Journey Orchestration 的所有新功能和改善項目。
 您也可以參閱最新的[文件更新](../release-notes/documentation-updates.md)。
 
-## 2022 年 2 月發行 {#february-2022-release}
+## 2022 年 2 月發佈內容 {#february-2022-release}
 
 ### 改進項目
 

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 長度
-description: 了解函式長度
+description: 瞭解函式長度
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # 長度 {#length}
 
-傳回參數中字串運算式的字元數。
+返回參數中字串表達式的字元數。
 
 ## 類別
 
@@ -29,14 +29,14 @@ ht-degree: 20%
 
 * 字串
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `length(<string>)`
 
-傳回整數。
+返回整數。
 
 ## 範例
 
 `length("Hello World")`
 
-傳回11。
+返回11。

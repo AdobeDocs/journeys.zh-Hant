@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: sum
-description: 了解函式總和
+description: 瞭解函式和
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,9 +13,9 @@ ht-degree: 11%
 
 ---
 
-# sum {#sum}
+# 總和 {#sum}
 
-傳回一組運算式的值之和。 忽略Null值。
+返回一組表達式的值之和。 忽略空值。
 
 ## 類別
 
@@ -28,7 +28,7 @@ ht-degree: 11%
 ## 參數
 
 * listInteger
-* listDecimal
+* 清單十進位
 * 持續時間
 * 整數
 * 小數
@@ -37,19 +37,19 @@ ht-degree: 11%
 
 `sum(<listDecimal>)`
 
-傳回小數。
+返回十進位。
 
 `sum(<listInteger>)`
 
-傳回整數。
+返回整數。
 
 `sum(<integer>,<integer>)`
 
-傳回整數。
+返回整數。
 
 `sum(<decimal>,<decimal>)`
 
-傳回小數。
+返回十進位。
 
 ## 範例
 
@@ -57,7 +57,7 @@ ht-degree: 11%
 
 `sum([10,3,8])`
 
-傳回21。
+返回21。
 
 `sum([10.5,null,8.1])`
 

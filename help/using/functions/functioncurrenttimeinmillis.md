@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: currentTimeInMillis
-description: 了解函式currentTimeInMillis
+title: 當前時間
+description: 瞭解函式currentTimeInMillis
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,13 +13,13 @@ ht-degree: 12%
 
 ---
 
-# currentTimeInMillis {#currentTimeInMillis}
+# 當前時間 {#currentTimeInMillis}
 
-傳回目前時間（以Epoch毫秒為單位）。
+返回當前時間（以大紀元毫秒為單位）。
 
 ## 類別
 
-Date
+日期
 
 ## 函式語法
 
@@ -29,14 +29,14 @@ Date
 
 此函式不使用參數。
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `currentTimeInMillis()`
 
-傳回整數。
+返回整數。
 
 ## 範例
 
 `currentTimeInMillis()`
 
-傳回&quot;1544712617131&quot;。
+返回「1544712617131」。

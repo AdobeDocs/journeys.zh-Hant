@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: getListItem
-description: 了解函式gstListItem
+description: 瞭解gstListItem函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -29,33 +29,33 @@ ht-degree: 20%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| list | listString |
-| 清單 | listBoolean |
+| list | 清單字串 |
+| 清單 | list布爾 |
 | 清單 | listInteger |
-| 清單 | listDecimal |
-| 清單 | listDuration |
-| 清單 | listDateTime |
+| 清單 | 清單十進位 |
+| 清單 | listDuration（持續時間） |
+| 清單 | 清單日期時間 |
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 | 索引 | 整數 |
 
-## 簽名和返回類型
+## 簽名和返回的類型
 
 `getListItem(<listInteger>,<index>)`
 
-傳回整數。
+返回整數。
 
 `getListItem(<listDecimal>,<index>)`
 
-傳回小數。
+返回十進位。
 
 `getListItem(<listString>,<index>)`
 
-傳回字串。
+返回字串。
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-返回日期時間，而不考慮時區。
+返回不考慮時區的日期時間。
 
 `getListItem(<listDateTime>,<index>)`
 
@@ -63,26 +63,26 @@ ht-degree: 20%
 
 `getListItem(<listDateOnly>,<index>)`
 
-傳回日期清單。
+返回日期清單。
 
 `getListItem(<listBoolean>,<index>)`
 
-傳回布林值。
+返回布爾值。
 
 `getListItem(<listDuration>,<index>)`
 
-傳回持續時間。
+返回持續時間。
 
 ## 範例
 
 `getListItem([10, 2, 3], 1)`
 
-傳回&quot;2&quot;
+返回&quot;2&quot;
 
 `getListItem(["A", "B", "C"], 2)`
-傳回&quot;C&quot;
+返回&quot;C&quot;
 
-事件欄位為「event.appVersion」且具有值的範例：&quot;20.45.2.3434&quot;
+事件欄位「event.appVersion」的示例，其值為：&quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
@@ -90,4 +90,4 @@ ht-degree: 20%
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
-傳回&quot;20&quot;
+返回&quot;20&quot;

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 結束活動
-description: 了解結束活動
+description: 瞭解結束活動
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,6 +15,6 @@ ht-degree: 11%
 
 # 結束活動{#section_vqp_4ft_dgb}
 
-此 **[!UICONTROL End]** 活動可讓您標籤歷程每個路徑的結尾。 這不是強制性的，但建議使用，以便於視覺清晰度。 事實上，如果歷程有數個結束活動，建議您在每個結尾新增標籤，讓報表更容易閱讀。 請參閱[此頁面](../reporting/about-journey-reports.md)。
+的 **[!UICONTROL End]** 活動允許您標籤旅程的每條路徑的結束。 它不是強制性的，但建議使視覺清晰。 實際上，如果行程中有幾個結束活動，我們建議您在每個結束添加一個標籤，以便更容易閱讀報告。 請參閱[此頁面](../reporting/about-journey-reports.md)。
 
 ![](../assets/journey54.png)

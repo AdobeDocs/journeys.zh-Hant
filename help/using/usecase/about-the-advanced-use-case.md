@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 關於進階使用案例
-description: 深入了解歷程進階使用案例
+description: 更深入地瞭解高級使用案例
 feature: Journeys
 role: User
 level: Intermediate
@@ -17,43 +17,43 @@ ht-degree: 4%
 
 ## 用途 {#purpose}
 
-我們舉一個名為馬爾頓的酒店品牌為例。 在他們的酒店裡，他們在所有戰略區域附近都部署了信標設備：大廳、地板、餐廳、健身房、游泳池等
+我們舉一個名為馬爾頓的酒店品牌為例。 在酒店裡，他們把信標設備定位在所有戰略區域附近：大堂、地板、餐廳、健身房、游泳池等。
 
 >[!NOTE]
 >
->在此使用案例中，我們會使用Adobe Campaign Standard來傳送訊息。
+>在此使用情況下，我們使用Adobe Campaign Standard發送消息。
 
-在此使用案例中，我們將說明當客戶靠近特定信標時，如何即時傳送個人化訊息給客戶。
+在此使用案例中，我們將瞭解如何在客戶走近特定信標時即時向客戶發送個性化消息。
 
-首先，我們想在有人進入馬爾頓酒店時立即發送資訊。 我們只想在過去24小時內收到我們的任何通信時發送消息。
+首先，我們想在一個人進入馬爾頓酒店後立即發送資訊。 我們只想在過去24小時內收到我們的任何來文時發送消息。
 
 然後，我們檢查兩個條件：
 
-* 如果此人不是忠誠會員，我們會傳送電子郵件給他們，加入忠誠會員優惠。
-* 如果此人已是忠誠會員，我們會檢查他是否有客房預訂：
-   * 如果他沒有，我們會以房費向他們發送推播通知。
-   * 如果他有，我們會傳送歡迎推播通知給他們。 如果他在接下來的6小時內進入餐廳，我們會向他們發送一條推播通知，並在一餐中打折。
+* 如果此人不是會員，我們會向他們發送電子郵件以加入會員資格。
+* 如果此人已是忠誠會員，我們將檢查他是否有房間預訂：
+   * 如果他沒有，我們會給他們發一份按房費的推送通知。
+   * 如果他有，我們會向他們發送歡迎推送通知。 如果他在6小時內進入餐廳，我們會給他們發送一份推送通知，並在一頓飯上打折。
 
 ![](../assets/journeyuc2_29.png)
 
-對於此使用案例，我們需要建立兩個事件(請參閱 [本頁](../usecase/configuring-the-events.md)):
+對於此用例，我們需要建立兩個事件(請參見 [此頁](../usecase/configuring-the-events.md)):
 
-* 當客戶進入酒店時，會推送至系統的大堂信標事件。
-* 當客戶進入餐廳時，會推播的餐廳信標事件。
+* 當客戶進入酒店時，將推送到系統的大堂信標事件。
+* 當客戶進入餐廳時將推送的餐廳信標事件。
 
-我們需要設定與兩個資料來源的連線(請參閱 [本頁](../usecase/configuring-the-data-sources.md)):
+我們需要配置到兩個資料源的連接(請參見 [此頁](../usecase/configuring-the-data-sources.md)):
 
-* 內建的Adobe Experience Platform資料來源，可擷取我們兩個條件（忠誠會籍和上次聯絡日期）的資訊，以及訊息個人化資訊。
+* 內置的Adobe Experience Platform資料源，用於檢索我們兩個條件（會員資格和最後聯繫日期）的資訊以及消息個性化資訊。
 * 酒店預訂系統，用於檢索預訂狀態資訊。
 
 ## 先決條件 {#prerequisites}
 
-針對我們的使用案例，我們設計了三個Adobe Campaign Standard交易式訊息範本。 我們使用事件交易式訊息範本。 請參閱 [頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant).
+針對我們的使用案例，我們設計了三個Adobe Campaign Standard事務性消息傳遞模板。 我們使用事件事務性消息傳遞模板。 請參閱此 [頁](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)。
 
-Adobe Campaign Standard已設定為傳送電子郵件和推播通知。
+Adobe Campaign Standard配置為發送電子郵件和推送通知。
 
-Experience CloudID會作為識別酒店訂房系統中客戶的金鑰。
+Experience CloudID用作在酒店預訂系統中標識客戶的密鑰。
 
-當客戶在信標附近偵測到事件時，會從其行動電話傳送事件。 您需要設計行動應用程式，將事件從客戶的行動電話傳送至行動SDK。
+當在信標附近檢測到事件時，從客戶的行動電話發送事件。 您需要設計移動應用程式，以便將事件從客戶的手機發送到MobileSDK。
 
-「忠誠會員」欄位是自訂欄位，已針對特定組織ID在XDM中新增。
+「會員」成員欄位是自定義欄位，已添加到XDM中，用於特定組織ID。

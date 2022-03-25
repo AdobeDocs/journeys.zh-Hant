@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: distinct
-description: 了解不同的函式
+description: 瞭解不同的功能
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,9 +13,9 @@ ht-degree: 18%
 
 ---
 
-# 不重複 {#distinct}
+# 獨特 {#distinct}
 
-返回清單的不同值，但不帶空值。
+返回清單中不帶空值的不同值。
 
 ## 類別
 
@@ -29,12 +29,12 @@ ht-degree: 18%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 清單 | listString |
-| 清單 | listBoolean |
+| 清單 | 清單字串 |
+| 清單 | list布爾 |
 | 清單 | listInteger |
-| 清單 | listDecimal |
-| 清單 | listDuration |
-| 清單 | listDateTime |
+| 清單 | 清單十進位 |
+| 清單 | listDuration（持續時間） |
+| 清單 | 清單日期時間 |
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 
@@ -42,35 +42,35 @@ ht-degree: 18%
 
 `distinct(<listInteger>)`
 
-傳回整數清單。
+返回整數清單。
 
 `distinct(<listDecimal>)`
 
-傳回小數清單。
+返回小數位清單。
 
 `distinct(<listString>)`
 
-傳回字串清單。
+返回字串清單。
 
 `distinct(<listDateTimeOnly>)`
 
-返回不考慮時區的datetimes清單。
+返回不考慮時區的日期時間清單。
 
 `distinct(<listDateTime>)`
 
-返回datetimes清單。
+返回日期時間清單。
 
 `distinct(<listDateOnly>)`
 
-傳回日期清單。
+返回日期清單。
 
 `distinct(<listBoolean>)`
 
-傳回布林值清單。
+返回布爾值清單。
 
 `distinct(<listDuration>)`
 
-傳回持續時間清單。
+返回持續時間清單。
 
 ## 範例
 
