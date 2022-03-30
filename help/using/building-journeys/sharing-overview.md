@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 034473b318eddf93e4ed27d9cbe9e18dab1d96cb
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '506'
 ht-degree: 5%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->預設情況下，在所有實例上都會激活此功能，用於行程步驟事件。 對於行程簡檔步驟事件，應要求激活。 您不能修改或更新在為步驟事件設定期間建立的架構和資料集。 預設情況下，這些架構和資料集處於只讀模式。
+>預設情況下，在所有實例上都會激活此功能，用於行程步驟事件。 您不能修改或更新在為步驟事件設定期間建立的架構和資料集。 預設情況下，這些架構和資料集處於只讀模式。
 
 例如，您已設定了發送多個電子郵件的行程。 此功能允許您將 [!DNL Journey Orchestration] 與下游事件資料的資料，如發生了多少次轉換、網站上發生了多少項參與，或在儲存中發生了多少事務。 行程資訊可以與Adobe Experience Platform上的資料組合，或者從其他數字屬性或從離線屬性中組合，以提供更全面的效能視圖。
 
@@ -35,7 +35,6 @@ ht-degree: 5%
 
 將建立以下架構：
 
-* 行程步驟配置檔案事件架構 [!DNL Journey Orchestration]  — 體驗事件，用於在行程中執行的步驟以及用於映射到單個行程參與者的身份映射。
 * 行程步驟事件架構 [!DNL Journey Orchestration]  — 與行程元資料相關聯的行程步驟事件。
 * 帶行程欄位的行程架構 [!DNL Journey Orchestration]  — 描述旅程的旅程元資料。
 
@@ -45,7 +44,6 @@ ht-degree: 5%
 
 傳遞了以下資料集：
 
-* 行程步驟配置檔案事件架構 [!DNL Journey Orchestration]
 * 旅程事件
 * 歷程
 
