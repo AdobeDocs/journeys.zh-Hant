@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 141937cd16d5676a80412b2b72750710ee1e537f
+source-git-commit: 1e9cb572cbebf1434e236f18ce58ce45dc6c0409
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 2%
+source-wordcount: '1573'
+ht-degree: 3%
 
 ---
 
@@ -201,11 +201,3 @@ test模式也可用於使用基於規則的事件的行程。 有關基於規則
 當使用test模式觸發事件時，使用源的名稱自動生成資料集。
 
 test模式會自動建立「體驗事件」並將其發送到Adobe Experience Platform。 此體驗事件的源名稱為「Journey OrchestrationTest事件」。
-
-在從多次行程觸發的多個事件中
-
-存在從多個行程發送的多個事件具有不同方案的情況。 是否能將架構映射到1個資料集？ 否則，我們將需要多個資料集。
-
-如果體驗事件中未包括目標資料集，則執行這些資料集的自動建立和命名。 這就是為什麼我們今天看到&quot;為旅行者自動建立的資料集&quot;。
-
-源的命名驅動著自動建立。 如果有多個事件，我們應將其連接並設定為「Journey OrchestrationTest事件 — NAME OF SCHEMA」。 這將自動轉為「自動生成的Journey OrchestrationTest事件資料集 — NAME OF SCHEMA」。
