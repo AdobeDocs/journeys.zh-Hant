@@ -7,19 +7,20 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 文件更新
 
-本頁面列出 [!DNL Journey Orchestration] 所有文件更新。您也可以參閱[!DNL Journey Orchestration][發行說明](../release-notes/release-notes.md)。
+本頁面列出 [!DNL Journey Orchestration] 所有文件更新。
+您也可以參閱[!DNL Journey Orchestration][發行說明](../release-notes/release-notes.md)。
 
 ## 2022 年 3 月 {#march-2022}
 
-* 在表達式編輯器中添加了一個如何將表達式作為預設值添加的示例。 [閱讀全文](../expression/field-references.md#default-value)
+* 在運算式編輯器中新增了如何加入運算式作為預設值的範例。[閱讀全文](../expression/field-references.md#default-value)
 
 ## 2022 年 2 月 {#feb-2022}
 
