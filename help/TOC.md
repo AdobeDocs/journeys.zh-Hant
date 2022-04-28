@@ -6,7 +6,7 @@ user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 feature: Journeys
 source-git-commit: 95d9ce8ffd213e46320a4c131ffae8442cfb23bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
 
