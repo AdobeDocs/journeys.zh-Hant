@@ -2,19 +2,19 @@
 keywords: Journeys；家庭；熱門主題
 product: adobe campaign
 title: Journey Orchestration 產品文件
-description: Journey Orchestration 產品文件
+description: 請參閱我們的AdobeJourney Orchestration指南，瞭解有關實施和構建旅程的簡單說明。
 feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: b0bf5c12adc6e9c538f2264f79b7c43656424f05
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 93%
 
 ---
 
-# 說明中心 {#journeys-documentation}
+# Journey Orchestration指南 {#journeys-documentation}
 
 ![](using/assets/do-not-localize/bannerjourney.png)
 
