@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 1e9cb572cbebf1434e236f18ce58ce45dc6c0409
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1576'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >在行程中使用反應事件時，等待時間預設值為40秒。 請參閱[本節](../building-journeys/reaction-events.md)。
+   >在行程中使用超時的反應事件時，等待時間預設值為40秒。 請參閱[本節](../building-journeys/reaction-events.md)。
 
 1. 按一下 **[!UICONTROL Trigger an event]** 配置事件並將事件發送到旅程。
 
@@ -53,7 +53,7 @@ ht-degree: 3%
 
 ## 重要備註 {#important_notes}
 
-* 提供一個介面，用於將事件發射到所測試的旅程，但事件也可以由第三方系統發送，如Postman。
+* 提供一個介面，用於將事件發射到所測試的旅程，但事件也可以由諸如Postman的第三方系統發送。
 * 只允許在即時客戶配置檔案服務中標籤為「test配置檔案」的個人進入測試行程。 請參閱此 [節](../building-journeys/creating-test-profiles.md)。
 * test模式僅在使用命名空間的草稿行程中可用。 Test模式需要檢查進入行程的人員是否是test配置檔案，因此必須能夠到達Adobe Experience Platform。
 * 在test會話期間，最大可輸入行程的test配置檔案數為100。
@@ -135,7 +135,7 @@ curl -X POST \
 
 >[!NOTE]
 >
->將顯示一個下拉清單，用於預期枚舉的欄位。 只需選擇一個可用值。
+>將顯示一個下拉清單，用於預期枚舉的欄位。 只要選擇一個可用的值。
 
 如果您的行程包含多個事件，請使用下拉清單選擇一個事件。 然後，對於每個事件，配置傳遞的欄位和事件發送的執行。 該介面可幫助您在事件負載中傳遞正確的資訊並確保資訊類型正確。 test模式將保存test會話中使用的最後一個參數，以供以後使用。
 
@@ -155,7 +155,7 @@ curl -X POST \
 
 在test中開啟行程時，顯示的路徑對應於執行的最後一個test。
 
-無論事件是通過介面觸發還是從外部觸發（例如使用Postman），可視流都有效。
+無論事件是通過介面觸發還是從外部觸發(例如使用Postman)，可視流都有效。
 
 ## 基於規則的行程的test模式 {#test-rule-based}
 

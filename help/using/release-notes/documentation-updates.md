@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
-workflow-type: ht
-source-wordcount: '951'
-ht-degree: 100%
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 
 本頁面列出 [!DNL Journey Orchestration] 所有文件更新。
 您也可以參閱[!DNL Journey Orchestration][發行說明](../release-notes/release-notes.md)。
+
+## 2022 年 6 月 {#june-2022}
+
+* 已將新查詢示例添加到此 [頁](../building-journeys/query-examples.md)
 
 ## 2022 年 3 月 {#march-2022}
 

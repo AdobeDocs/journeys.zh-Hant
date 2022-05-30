@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
-source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 16%
+source-wordcount: '131'
+ht-degree: 9%
 
 ---
 
 # 排序 {#sort}
 
-按自然順序對值清單進行排序。 第一個參數是值清單，第二個參數是指示排序是升序(true)還是降序(false)的布爾值。
+按自然順序對值或對象清單進行排序。
 
 ## 類別
 
@@ -27,17 +27,11 @@ ht-degree: 16%
 
 ## 參數
 
-| 參數 | 類型 |
-|-----------|------------------|
-| 清單 | 清單字串 |
-| 清單 | list布爾 |
-| 清單 | listInteger |
-| 清單 | 清單十進位 |
-| 清單 | listDuration（持續時間） |
-| 清單 | 清單日期時間 |
-| 清單 | listDateTimeOnly |
-| 清單 | listDateOnly |
-| 布爾型 | 布爾型 |
+| 參數 | 類型 | 說明 |
+|-----------|------------------|------------------|
+| 清單排序 | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 清單進行排序。 對於listObject，它必須是欄位引用。 |
+| keyAttributeName | 字串 | 此參數僅用於listObject。 給定清單對象中的屬性名稱用作排序的鍵。 |
+| 排序順序 | 布林值 | 升序(true)或降序(false) |
 
 ## 簽名和返回的類型
 
@@ -69,6 +63,10 @@ ht-degree: 16%
 
 返回布爾值清單。
 
+`sort(<listObject>,<string>,<boolean>)`
+
+返回對象清單。
+
 ## 範例
 
 `sort(["A", "C", "B"], true)`
@@ -78,3 +76,4 @@ ht-degree: 16%
 `sort([1, 3, 2], false)`
 
 傳回 `[3, 2, 1]`.
+

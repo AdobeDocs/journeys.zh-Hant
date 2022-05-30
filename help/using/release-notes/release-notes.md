@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
-workflow-type: ht
-source-wordcount: '3226'
-ht-degree: 100%
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+workflow-type: tm+mt
+source-wordcount: '3274'
+ht-degree: 98%
 
 ---
 
@@ -18,11 +18,15 @@ ht-degree: 100%
 本頁面列出 Journey Orchestration 的所有新功能和改進項目。
 您也可以參閱最新的[文件更新](../release-notes/documentation-updates.md)。
 
-## 2022 年 3 月發行 {#feb-2022-release}
+## 2022 年 5 月發行 {#may-2022-release}
 
 ### 改進項目
 
-**歷程**
+* **表達式編輯器** - [限](../functions/functionlimit.md) 已添加函式，以允許您限制清單的項數。 的 [排序](../functions/functionsort.md) 函式現在允許您對清單對象進行排序。 對listObject的支援也添加到 [斷層](../functions/functiondistinct.md) 和 [distinctWithNull](../functions/functiondistinctwithnull.md) 的子菜單。
+
+## 2022 年 3 月發行 {#feb-2022-release}
+
+### 改進項目
 
 * 為避免統一設定檔綱要存在不必要的欄位，預設情況下不再為設定檔啟用「歷程步驟事件」綱要。 如有需要，可以啟用。 [了解更多](../building-journeys/sharing-overview.md)
 * 跟匯出工作有關的新步驟活動現在由 Journey Optimizer 傳送到 Adobe Experience Platform。 已在文件中新增查詢範例。 [了解更多](../building-journeys/query-examples.md)
