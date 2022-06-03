@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 使用自訂動作以動態方式傳遞集合
 description: 使用 Campaign v7/v8 傳送訊息
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 97d19cf9cb91c82587e5c94e43580f808d15e813
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 7%
@@ -66,6 +66,7 @@ ht-degree: 7%
     ]
    }
    ```
+
 * 要使用test模式test集合，需要使用代碼視圖模式。 當前不支援業務事件的代碼視圖模式。 您只能發送包含單個元素的集合。
 
 ## 一般程式 {#general-procedure}
