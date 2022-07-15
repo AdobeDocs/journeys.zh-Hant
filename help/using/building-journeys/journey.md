@@ -9,7 +9,7 @@ exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 
 每個行程只允許一個命名空間。 刪除第一個事件時，具有不同命名空間的事件將呈灰色顯示。 如果第一個事件沒有命名空間，則具有命名空間的所有事件將呈灰色顯示。 請參閱[此頁面](../event/selecting-the-namespace.md)。此外，如果行程中包含沒有命名空間的事件，則Adobe Experience Platform欄位組將呈灰色顯示。 最後，如果在同一行程中使用多個事件，它們需要使用相同的命名空間。
 
-開始新行程時，無法作為第一步放入畫布中的元素將被隱藏。 這涉及所有操作、條件活動、等待和反應。
+開始新行程時，無法作為第一步放入畫布中的元素將被隱藏。 這關係到所有動作、狀況活動、等待和反應。
 
 ## 快速入門 {#creating_journey}
 
