@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '355'
 ht-degree: 4%
 
 ---
@@ -18,9 +18,7 @@ ht-degree: 4%
 如果要在執行路徑中的下一個活動之前等待，可以使用 **[!UICONTROL Wait]** 的子菜單。 它允許您定義執行下一個活動的時間。 有三種選擇：
 
 * [持續時間](#duration)
-* [固定日期](#fixed_date)
 * [自訂](#custom)
-
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## 關於等待活動{#about_wait}
@@ -40,12 +38,6 @@ ht-degree: 4%
 選擇在執行下一活動之前等待的持續時間。
 
 ![](../assets/journey55.png)
-
-## 固定日期等待{#fixed_date}
-
-選擇下一活動的執行日期。
-
-![](../assets/journey56.png)
 
 ## 自定義等待{#custom}
 
