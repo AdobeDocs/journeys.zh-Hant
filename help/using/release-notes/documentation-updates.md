@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 96%
 
 ## 2022 年 7 月 {#july-2022}
 
-* 在旅程中， **配置檔案時區** 選項現在預設為禁用。 [閱讀全文](../building-journeys/timezone-management.md#timezone-from-profiles)
-* 在 **等待** 活動， **固定日期** 選項。 [閱讀全文](../building-journeys/wait-activity.md)
+* 歷程屬性的&#x200B;**個人資料時區**&#x200B;選項現在預設為停用。 [閱讀全文](../building-journeys/timezone-management.md#timezone-from-profiles)
+* **等待**&#x200B;活動的&#x200B;**固定日期**&#x200B;選項不再提供。 [閱讀全文](../building-journeys/wait-activity.md)
 
 ## 2022 年 6 月 {#june-2022}
 
-* 已將新查詢示例添加到此 [頁](../building-journeys/query-examples.md)
+* 已新增查詢範例至此[頁面](../building-journeys/query-examples.md)
 
 ## 2022 年 3 月 {#march-2022}
 
