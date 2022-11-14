@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3274'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 ### 改進項目
 
-* **表達式編輯器** - [限](../functions/functionlimit.md) 已添加函式，以允許您限制清單的項數。 的 [排序](../functions/functionsort.md) 函式現在允許您對清單對象進行排序。 對listObject的支援也添加到 [斷層](../functions/functiondistinct.md) 和 [distinctWithNull](../functions/functiondistinctwithnull.md) 的子菜單。
+* **運算式編輯器** - 已新增[限制](../functions/functionlimit.md)函式，以允許您限制清單項目的數目。 [排序](../functions/functionsort.md)函式現在允許您對清單物件進行排序。 對清單物件的支援也已新增到 [distinct](../functions/functiondistinct.md) 和 [distinctWithNull](../functions/functiondistinctwithnull.md) 的函式。
 
 ## 2022 年 3 月發行 {#feb-2022-release}
 
