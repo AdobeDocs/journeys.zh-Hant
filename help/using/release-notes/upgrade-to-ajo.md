@@ -3,13 +3,13 @@ title: 升級至Adobe Journey Optimizer
 description: 了解如何升級至Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8591ed266f5a360dbc7bea8dd8a6d7a089aa346f
+exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
+source-git-commit: 3e9ff02cecfe85ea38cce4b0d241156f6209202f
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '753'
 ht-degree: 2%
 
 ---
-
 
 # 將您的Journey Orchestration環境升級至Adobe Journey Optimizer{#ugrade-ajo}
 
@@ -55,7 +55,7 @@ Journey Orchestration是以Adobe Experience Platform為建置基礎的服務，�
 
 ## 如何升級我的Journey Orchestration環境？
 
-1. 請洽詢您的客戶團隊，以免費更新與Adobe的合約。
+1. 請洽詢您的客戶團隊，以更新您的Adobe合約。
 
 1. 等待工程團隊完成變更。
 
@@ -88,7 +88,7 @@ Journey Orchestration是以Adobe Experience Platform為建置基礎的服務，�
 
 ![](../assets/migration-ajo-9.png)
 
-是的，這是正常的。 升級後，您將可將Journey Orchestration存取權保留一個月。 這可讓您有足夠的時間更新所有使用者權限，以更熟悉Adobe Journey Optimizer。 一個月後，存取權將會移除。
+是的，這是正常的。 升級後幾天內，您仍可能看到Journey Orchestration項目。 請用Journey Optimizer。
 
 ### 今天若將Journey Orchestration與Adobe Campaign Standard搭配使用會發生什麼事？
 
