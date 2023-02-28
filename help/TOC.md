@@ -6,7 +6,7 @@ user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 feature: Journeys
 source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 
@@ -201,7 +201,7 @@ ht-degree: 100%
       + [關於進階使用案例](using/usecase/about-the-advanced-use-case.md)
       + [設定事件](using/usecase/configuring-the-events.md)
       + [設定資料來源](using/usecase/configuring-the-data-sources.md)
-      + [組建歷程](using/usecase/building-the-journey.md)
+      + [建立歷程](using/usecase/building-the-journey.md)
    + [使用 Campaign v7/v8 傳送訊息](using/usecase/campaign-classic-use-case.md)
    + [使用自訂動作以動態方式傳遞集合](using/usecase/collections.md)
 + 使用 API{#working-with-apis}

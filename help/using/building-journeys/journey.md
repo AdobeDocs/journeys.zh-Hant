@@ -9,7 +9,7 @@ exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 14%
 * 歷程會透過 **[!UICONTROL Close to new entrances]** 按鈕。
 * 已到達歷程的結束日期。
 
-歷程關閉時（基於上述任何原因），其狀態都會是 **[!UICONTROL Closed]**. 歷程將停止讓新人進入歷程。 已在歷程中的人員會正常完成歷程。 在30天的預設全域逾時後，歷程會切換至 **已完成** 狀態。 看這個 [節](../building-journeys/changing-properties.md#entrance).
+歷程關閉時（基於上述任何原因），其狀態都會是 **[!UICONTROL Closed]**. 歷程將停止讓新人進入歷程。 已在歷程中的人員會正常完成歷程。 在30天的預設全域逾時後，歷程會切換至 **已完成** 狀態。 請參閱[本章節](../building-journeys/changing-properties.md#entrance)。
 
 如果您需要停止歷程中所有個人的進度，您可以加以停止。 停止歷程會逾時歷程中的所有個人。
 
