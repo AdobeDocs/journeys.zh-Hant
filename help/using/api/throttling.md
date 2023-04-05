@@ -6,9 +6,9 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
+source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '788'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 >目前每個組織僅允許一個配置。 必須在生產沙箱上定義設定（透過標題中的x-sandbox-name提供）。
 >
 >組織層級會套用設定。
+>
+>達到API中設定的限制時，會將更多事件排入佇列，最多6小時。 無法修改此值。
 
 ## 限制API說明 {#description}
 

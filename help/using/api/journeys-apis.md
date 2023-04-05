@@ -6,9 +6,9 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
+source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '832'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Journeys API每秒可支援最多5000個事件，但某些外部系統或API的輸送量可能不相等。 要防止超出這些系統，可以使用 **限定** 和 **節流** 限制每秒傳送事件數的API。
 
-每次由歷程執行API呼叫時，都會通過API引擎。 如果達到API中設定的限制，若您使用上限設定API，則會拒絕呼叫，或如果您使用限制API，則會按照收到的順序盡快排入佇列並處理。
+每次由歷程執行API呼叫時，都會通過API引擎。 如果達到API中設定的限制，若您使用上限設定API，則會拒絕呼叫，或將佇列最多6小時，並在您使用限制API時，按照收到的順序盡快處理。
 
 例如，假設您已為外部系統定義每秒100次呼叫的上限或限制規則。 10個不同歷程中的自訂動作會呼叫您的系統。 如果一個歷程每秒收到200個呼叫，則會使用100個可用槽，並捨棄或將剩餘的100個槽加入佇列。 由於超出最大速率，其他9個歷程將沒有任何槽。 此粒度有助於保護外部系統免受過載和崩潰的影響。
 
