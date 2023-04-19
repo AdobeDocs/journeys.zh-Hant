@@ -6,9 +6,9 @@ user-guide-description: 提供實作和構建歷程的操作說明。
 index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -205,6 +205,6 @@ ht-degree: 97%
    + [使用 Campaign v7/v8 傳送訊息](using/usecase/campaign-classic-use-case.md)
    + [使用自訂動作以動態方式傳遞集合](using/usecase/collections.md)
 + 使用 API{#working-with-apis}
-   + [開始使用歷程API](using/api/journeys-apis.md)
-   + [設定API上限](using/api/capping.md)
-   + [限制API](using/api/throttling.md)
+   + [開始使用歷程 API](using/api/journeys-apis.md)
+   + [設定 API 上限](using/api/capping.md)
+   + [節流 API](using/api/throttling.md)
