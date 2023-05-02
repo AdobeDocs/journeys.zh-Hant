@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
-source-git-commit: 25d8dcd027f3f433759ce97f9a3a1dad85ba1427
+source-git-commit: 7b8c9d2bfe244b040a9064a7a240ea6f43cc8b41
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '800'
+ht-degree: 95%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 ## 使用案例 {#uc}
 
-為協助您進行測試和設定，可在[此處](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json)取得 Postman 集合。
+為協助您進行測試和設定，可在[此處](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Throttling-API_postman-collection.json)取得 Postman 集合。
 
 此 Postman 集合已設定為共用透過 __[Adobe I/O 主控台的整合](https://console.adobe.io/integrations)產生的 Postman 變數集合 > 試用 > 下載 Postman__，會產生包含選取整合值的 Postman 環境檔案。
 
