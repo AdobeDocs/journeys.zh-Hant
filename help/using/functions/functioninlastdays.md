@@ -9,11 +9,11 @@ exl-id: 1fc29153-3554-4af1-bb2e-7bba53ffce69
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
-# 在最後幾天 {#inLastDays}
+# inLastDays {#inLastDays}
 
 如果給定日期或dateTime介於現在和現在之間 — 增量天，則返回true。
 

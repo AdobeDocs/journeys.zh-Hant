@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: '在 '
+title: 在
 description: 瞭解中的函式
 feature: Journeys
 role: Data Engineer
@@ -9,7 +9,7 @@ exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 17%
 | 參數 | 類型 |
 |-----------|------------------|
 | 字串 | 字串 |
-| 布爾型 | 布爾型 |
+| 布林值 | 布林值 |
 | 整數 | 整數 |
 | 十進位 | 十進位 |
 | 持續時間 | 持續時間 |

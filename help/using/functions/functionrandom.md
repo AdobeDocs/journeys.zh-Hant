@@ -13,7 +13,7 @@ ht-degree: 16%
 
 ---
 
-# 隨機 {#random}
+# random {#random}
 
 生成介於0和1之間的隨機數。
 

@@ -9,7 +9,7 @@ exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## 關於段資格事件{#about-segment-qualification}
 
-本練習允許您在旅途中傾聽Adobe Experience Platform段的檔案出入，以便讓個人在旅途中進入或前進。 有關段建立的詳細資訊，請參閱 [節](../segment/about-segments.md)。
+本活動可讓您的歷程聆聽 Adobe Experience Platform 區段中設定檔的入口和出口，讓個人得以在歷程中進入或前進。有關段建立的詳細資訊，請參閱 [節](../segment/about-segments.md)。
 
 假設您有「銀色客戶」部分。 通過本練習，您可以讓所有新的銀發客戶輸入行程併發送一系列個性化消息。
 

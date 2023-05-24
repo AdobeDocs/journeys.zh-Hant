@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 100%
 
@@ -130,14 +130,13 @@ ht-degree: 100%
 ## 2020 年 1 月 {#january-2020}
 
 * 已在[體驗事件](../datasource/adobe-experience-platform-data-source.md)及[區段](../functions/functioninsegment.md)新增擷取限制。
-
-<!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
+   <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## 2019 年 12 月  {#december-2019}
 
 * 已更新所有螢幕擷取畫面以反映介面的變更。
 * 已更新測試模式章節。[閱讀全文](../building-journeys/testing-the-journey.md)
-<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
+   <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * 現在可刪除已停止的歷程。已更新相關文件頁面。
 * 在歷程中偵測到問題時，現在會顯示兩種顏色。紅色代表錯誤，橘色代表警告。[閱讀全文](../about/troubleshooting.md)
 * 已更新進階運算式編輯器章節。[閱讀全文](../expression/expressionadvanced.md).

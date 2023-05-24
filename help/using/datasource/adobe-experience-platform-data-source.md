@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 'Adobe Experience Platform 資料來源 '
-description: '瞭解如何配置Adobe Experience Platform資料源 '
+title: Adobe Experience Platform 資料來源
+description: 瞭解如何配置Adobe Experience Platform資料源
 feature: Journeys
 role: User
 level: Intermediate
@@ -9,13 +9,13 @@ exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
 # Adobe Experience Platform 資料來源 {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform資料源定義與即時客戶配置檔案服務的連接。 此資料源是內置的並預先配置的。 無法刪除。 此資料源旨在從即時客戶配置檔案服務中檢索和使用資料（例如，檢查輸入行程的人員是否為女性）。 它允許您使用配置檔案資料和體驗事件資料。 有關即時客戶配置檔案服務的詳細資訊，請參閱此 [頁](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)。
+Adobe Experience Platform資料源定義與即時客戶配置檔案服務的連接。 此資料源是內置的並預先配置的。 無法刪除。 此資料源旨在從即時客戶配置檔案服務中檢索和使用資料（例如，檢查輸入行程的人員是否為女性）。 其可讓您使用個人檔資料與體驗事件資料。 有關即時客戶配置檔案服務的詳細資訊，請參閱此 [頁](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)。
 
 >[!NOTE]
 >

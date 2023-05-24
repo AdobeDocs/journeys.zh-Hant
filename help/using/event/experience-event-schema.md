@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: '關於Journey Orchestration事件的ExperienceEvent架構 '
-description: '瞭解Journey Orchestration事件的ExperienceEvent架構 '
+title: 關於Journey Orchestration事件的ExperienceEvent架構
+description: 瞭解Journey Orchestration事件的ExperienceEvent架構
 feature: Journeys
 role: User
 level: Intermediate
@@ -9,7 +9,7 @@ exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
    ![](../assets/schema8.png)
 
-## 利用結構描述關係{#leverage_schema_relationships}
+## 利用綱要關係{#leverage_schema_relationships}
 
-Adobe Experience Platform允許定義架構之間的關係，以便將一個資料集用作另一個資料集的查找表。
+Adobe Experience Platform 可讓您定義綱要之間的關係，以便將一個資料集用作另一個資料集的查詢表。 
 
 假設您的品牌資料模型具有模式捕獲購買。 您還具有產品目錄的架構。 您可以在採購方案中捕獲產品ID，並使用關係從產品目錄中查找更完整的產品詳細資訊。 這允許您為購買筆記型電腦的所有客戶建立一個細分市場，而不必明確列出所有筆記型電腦ID或捕獲事務系統中的每個產品詳細資訊。
 

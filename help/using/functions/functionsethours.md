@@ -9,11 +9,11 @@ exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
-# 設定小時數 {#setHours}
+# setHours {#setHours}
 
 僅設定日期時間或日期時間的小時數。 例如，如果您想等到明天某個小時，您可以強制該小時。
 

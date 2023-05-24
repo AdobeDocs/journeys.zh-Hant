@@ -9,7 +9,7 @@ exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 
 有關資料源配置的其他資訊，請參閱 [此頁](../datasource/about-data-sources.md)。
 
-1. 在菜單窗格中，選擇 **[!UICONTROL Admin]**。 在 **[!UICONTROL Data sources]** ，按一下 **[!UICONTROL Manage]**。
+1. 在菜單窗格中，選擇 **[!UICONTROL Admin]**。 在 **[!UICONTROL Data sources]** 區段，按一下 **[!UICONTROL Manage]**。
 1. 選擇內置的Adobe Experience Platform資料源。
 
    ![](../assets/journey23.png)

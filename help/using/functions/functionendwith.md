@@ -13,7 +13,7 @@ ht-degree: 25%
 
 ---
 
-# 結尾 {#endWith}
+# endWith {#endWith}
 
 如果第二個參數是第一個參數的尾碼，則返回true。
 

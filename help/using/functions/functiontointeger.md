@@ -13,7 +13,7 @@ ht-degree: 14%
 
 ---
 
-# 到整數 {#toInteger}
+# toInteger {#toInteger}
 
 將參數值轉換為整數。
 

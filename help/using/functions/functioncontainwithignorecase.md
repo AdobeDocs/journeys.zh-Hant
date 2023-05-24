@@ -13,7 +13,7 @@ ht-degree: 22%
 
 ---
 
-# 包含IgnoreCase {#containIgnoreCase}
+# containIgnoreCase {#containIgnoreCase}
 
 檢查第二個參數字串是否包含在第一個參數字串中，而不考慮大小寫。
 

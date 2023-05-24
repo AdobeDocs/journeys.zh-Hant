@@ -25,7 +25,7 @@ ht-degree: 4%
 
    * 如果URL包含動態路徑，則只輸入該URL的靜態部分，即方案、主機、埠以及（可選）路徑的靜態部分。
 
-      範例: `https://xxx.yyy.com/somethingstatic/`
+      範例：`https://xxx.yyy.com/somethingstatic/`
 
       將自定義操作添加到行程時，將指定URL的動態路徑。 [了解更多](../building-journeys/using-custom-actions.md)。
    >[!NOTE]

@@ -13,7 +13,7 @@ ht-degree: 11%
 
 ---
 
-# 更新時區 {#updateTimeZone}
+# updateTimeZone {#updateTimeZone}
 
 返回新日期時間，同時返回新時區。
 

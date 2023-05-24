@@ -9,7 +9,7 @@ exl-id: b7568080-b88c-415c-9d3f-cc1361664838
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 16%
 | ID | 字串 | 給定行程的標識符 |
 | 版本ID | 字串 | 行程版本的ID。 此ID表示旅程的標識 |
 | 名稱 | 字串 | 行程名稱 |
-| 描述 | 字串 | 行程描述 |
-| 版本 | 字串 | 版本，表示為 `major`。`minor` |
+| 說明 | 字串 | 行程描述 |
+| version | 字串 | 版本，表示為 `major`。`minor` |
 
 ## 輪廓
 
@@ -68,4 +68,4 @@ ht-degree: 16%
 
 ## 步驟事件
 
-此類別包含原始步驟事件欄位。 請參閱此 [節](../building-journeys/sharing-legacy-fields.md)。
+此類別包含原始步驟事件欄位。 請參閱本[章節](../building-journeys/sharing-legacy-fields.md)。

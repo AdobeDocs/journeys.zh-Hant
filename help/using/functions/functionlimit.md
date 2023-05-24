@@ -1,18 +1,19 @@
 ---
 product: adobe campaign
-title: 限
+title: limit
 description: 瞭解函式限制
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+exl-id: 7e006660-1206-4b8a-9e5b-c6fbeee9cc8f
+source-git-commit: 9f5ef0497227a370e2e1f4a62450611ae2e336b9
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
-# 限 {#limit}
+# limit {#limit}
 
 返回清單的第一個或最後一個N元素。
 

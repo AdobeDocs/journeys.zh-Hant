@@ -13,7 +13,7 @@ ht-degree: 7%
 
 ---
 
-# 獨特 {#distinct}
+# distinct {#distinct}
 
 返回給定清單的不同值或對象。 忽略空項。
 

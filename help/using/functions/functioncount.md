@@ -13,7 +13,7 @@ ht-degree: 30%
 
 ---
 
-# 計數 {#count}
+# count {#count}
 
 計數清單的元素，而不考慮空值。
 

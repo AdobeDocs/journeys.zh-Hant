@@ -13,7 +13,7 @@ ht-degree: 10%
 
 ---
 
-# 替換 {#replace}
+# replace {#replace}
 
 用基本字串中的替換字串替換與目標字串匹配的第一個匹配項。
 

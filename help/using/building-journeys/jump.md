@@ -9,7 +9,7 @@ exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '791'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 4%
 
 的 **[!UICONTROL Jump]** 「操作」活動允許您將個人從一個旅程推向另一個旅程。 此功能允許您：
 
-* 將複雜旅程分成若干個，簡化其設計
-* 基於常用和可重複使用的行程模式構建行程
+* 將複雜歷程分割為數個歷程，以簡化極為複雜的設計
+* 根據常見且可重複使用的歷程模式來建立歷程
 
 在原點行程中，只需添加 **[!UICONTROL Jump]** 活動並選擇目標行程。 當個人進入 **[!UICONTROL Jump]** 步驟，將內部事件發送到目標行程的第一事件。 如果 **[!UICONTROL Jump]** 行動成功了，個人在旅途中繼續前進。 該行為與其他操作類似。
 

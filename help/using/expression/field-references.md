@@ -99,7 +99,7 @@ expression examples:
 
 使用特定函式引用集合中定義的元素 `all`。 `first` 和 `last`。 如需詳細資訊，請參閱[本頁面](../expression/collection-management-functions.md)。
 
-範例 :
+範例：
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()

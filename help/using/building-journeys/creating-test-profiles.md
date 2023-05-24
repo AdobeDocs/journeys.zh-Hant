@@ -6,7 +6,7 @@ exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 4%
 
 為了能夠建立配置檔案，您首先需要在Adobe Experience Platform建立一個模式和資料集。
 
-首先，你需要 **建立架構**。 執行以下步驟：
+首先，你需要 **建立架構**。 請按照以下步驟操作：
 
 1. 在Adobe Experience Platform，按一下 **[!UICONTROL Schemas]**的雙曲餘切值。
    ![](../assets/test-profiles-0.png)
 1. 按一下 **[!UICONTROL Create schema]**，在右上角，然後選擇一個架構類型，例如 **[!UICONTROL XDM Individual Profile]**。
    ![](../assets/test-profiles-1.png)
 1. 選擇架構的名稱。
-1. 在 **[!UICONTROL Mixins]** ，按一下 **[!UICONTROL Add]**。
+1. 在 **[!UICONTROL Mixins]** 區段，按一下 **[!UICONTROL Add]**。
    ![](../assets/test-profiles-1-bis.png)
 1. 選擇適當的混合。 確保添加 **[!UICONTROL Profile test details]** 混音。 按一下「**[!UICONTROL Add mixin]**」。
    ![](../assets/test-profiles-1-ter.png)
@@ -50,7 +50,7 @@ ht-degree: 4%
 >
 >有關建立架構的詳細資訊，請參閱 [XDM文檔](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites)。
 
-那你需要 **建立資料集** 將在其中導入配置檔案。 執行以下步驟：
+那你需要 **建立資料集** 將在其中導入配置檔案。 請按照以下步驟操作：
 
 1. 在Adobe Experience Platform，按一下 **[!UICONTROL Datasets]**，然後按一下 **[!UICONTROL Create dataset]**。
    ![](../assets/test-profiles-6.png)
@@ -99,7 +99,7 @@ ht-degree: 4%
 
 ## 使用API調用建立test配置檔案{#create-test-profiles-api}
 
-您還可以通過API調用建立test配置檔案。 請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
+您還可以通過API調用建立test配置檔案。 請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)。
 
 必須使用包含「配置式test詳細資訊」混合的配置式架構。 testProfile標誌是此混合的一部分。
 

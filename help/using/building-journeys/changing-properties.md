@@ -9,7 +9,7 @@ exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 當旅程「結束」時，它將具有 **[!UICONTROL Closed (no entrance)]**。 旅程將停止讓新人進入旅程。 已經在旅途中的人將正常完成旅程。
 
-在預設全局超時30天後，該行程將切換到 **已完成** 狀態。 查看 [節](#global_timeout)。
+在預設全局超時30天後，該行程將切換到 **已完成** 狀態。 請參閱[本章節](#global_timeout)。
 
 ## 行程活動超時和出錯 {#timeout_and_error}
 

@@ -13,7 +13,7 @@ ht-degree: 27%
 
 ---
 
-# 康 {#concat}
+# concat {#concat}
 
 連接兩個字串參數或字串清單。
 

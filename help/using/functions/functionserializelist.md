@@ -9,11 +9,11 @@ exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
-# 序列化清單 {#serializeList}
+# serializeList {#serializeList}
 
 將第一個參數中給定的清單（任何類型）轉換為字串。 第二個參數表示要使用的分隔符。 第三個參數是一個布爾值，指示表達式的每個元素是否應包含引號。
 
@@ -30,7 +30,7 @@ ht-degree: 20%
 | 參數 | 類型 |
 |-----------|------------------|
 | 字串 | 字串 |
-| 布爾型 | 布爾型 |
+| 布林值 | 布林值 |
 | 僅日期時間 | 僅日期時間 |
 | 清單 | 清單字串 |
 | 清單 | list布爾 |

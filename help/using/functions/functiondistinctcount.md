@@ -13,7 +13,7 @@ ht-degree: 32%
 
 ---
 
-# distinctCount（distinct計數）{#distinctCount}
+# distinctCount{#distinctCount}
 
 計數忽略空值的不同值數。
 

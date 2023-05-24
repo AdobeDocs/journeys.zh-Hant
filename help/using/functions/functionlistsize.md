@@ -13,7 +13,7 @@ ht-degree: 34%
 
 ---
 
-# 清單大小 {#listSize}
+# listSize {#listSize}
 
 計算清單中的元素數。
 

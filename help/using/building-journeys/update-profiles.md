@@ -9,7 +9,7 @@ exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
 source-git-commit: 64f415f3a4120685b64a4b1dc15bf004e86b35d2
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 ## 使用配置檔案更新
 
-1. 從活動開始設計您的旅程。 查看 [節](../building-journeys/journey.md)。
+1. 從活動開始設計您的旅程。 請參閱[本章節](../building-journeys/journey.md)。
 
 1. 在 **操作** 的下一頁 **更新配置檔案** 的下界。
 

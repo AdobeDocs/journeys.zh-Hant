@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 構建旅程 — 高級
-description: '瞭解如何建立進階的使用案例歷程 '
+description: 瞭解如何建立進階的使用案例歷程
 feature: Journeys
 role: User
 level: Intermediate

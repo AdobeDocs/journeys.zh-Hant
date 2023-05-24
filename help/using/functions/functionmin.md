@@ -9,11 +9,11 @@ exl-id: 7e13a08c-c51a-4d40-a3e2-ef70bd3edca5
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
-# 分鐘 {#min}
+# min {#min}
 
 返回一組表達式中的最小值，以清單或兩個表達式的形式給定。 忽略空值。
 

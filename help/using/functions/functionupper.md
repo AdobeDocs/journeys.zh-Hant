@@ -13,7 +13,7 @@ ht-degree: 17%
 
 ---
 
-# 上 {#upper}
+# upper {#upper}
 
 返回參數的大寫版本。
 

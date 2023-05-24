@@ -9,11 +9,11 @@ exl-id: 11d7013c-2190-4654-8466-920861c836f5
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
-# 到十進位 {#toDecimal}
+# toDecimal {#toDecimal}
 
 根據參數值的類型將參數值轉換為小數值。
 

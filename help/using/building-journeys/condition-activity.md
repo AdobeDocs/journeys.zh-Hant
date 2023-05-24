@@ -9,7 +9,7 @@ exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 9%
+ht-degree: 16%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 9%
 
 您可以通過選中為不符合定義條件條件的受眾建立其他路徑 **[!UICONTROL Show path for other cases than the one(s) above]**。 請注意，此選項在分解條件中不可用。 請參閱 [分解百分比](#percentage_split)。
 
-簡單模式允許您基於欄位組合執行簡單查詢。 螢幕左側顯示所有可用欄位。 將欄位拖放到主區域。 要組合不同的元素，請將它們互鎖到彼此中以建立不同的組和/或組級。 然後，您可以選取邏輯運算子來組合同一層級的元素：
+簡單模式允許您基於欄位組合執行簡單查詢。 所有可用的欄位都會顯示在螢幕的左側。將欄位拖放到主要區域中。若要合併不同的元素，請將它們互相聯鎖以建立不同的群組和/或群組層級。然後，您可以選取邏輯運算子來組合同一層級的元素：
 
 * 和：兩個標準的交集。 只考慮與所有條件匹配的元素。
 * 或：兩個標準的結合。 考慮匹配兩個條件中至少一個的元素。
@@ -56,7 +56,7 @@ ht-degree: 9%
 
 當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
-在簡單編輯器中，您還將在事件和資料源類別下找到「行程屬性」類別。 此類別包含與給定配置檔案的行程相關的技術欄位。 這是系統從即時行程中檢索的資訊，如行程ID或遇到的特定錯誤。 有關詳細資訊，請參見 [此頁](../expression/journey-properties.md)
+在簡單編輯器中，您還將在事件和資料源類別下找到「行程屬性」類別。 此類別包含與給定配置檔案的行程相關的技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程 ID 或遇到的特定錯誤。 有關詳細資訊，請參見 [此頁](../expression/journey-properties.md)
 
 ## 資料源條件 {#data_source_condition}
 

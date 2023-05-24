@@ -17,7 +17,7 @@ ht-degree: 75%
 
 函式可以具有不同的簽名（一組不同的有序參數）。 函式簽名可以具有0-N表達式作為有序參數。
 
-`<function name>`(`<expression as param 1>`。 `<expression as param 2>`,...。`<expression as param N>`)
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
 每個函式都具有特定的返回類型。
 
@@ -69,7 +69,7 @@ ht-degree: 75%
 | 清單 | [serializeList](../functions/functionserializelist.md) |
 | 清單 | [sort](../functions/functionsort.md) |
 | Math | [random](../functions/functionrandom.md) |
-| 數學 | [round](../functions/functionround.md) |
+| Math | [round](../functions/functionround.md) |
 | 字串 | [concat](../functions/functionconcat.md) |
 | 字串 | [contain](../functions/functioncontain.md) |
 | 字串 | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |

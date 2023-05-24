@@ -6,7 +6,7 @@ products: journeys
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
 source-wordcount: '1123'
-ht-degree: 1%
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Journey Orchestration導出 — 導入API在可用的Swagger檔案中描述 [這裡](https://adobedocs.github.io/JourneyAPI/docs/)。
 
-要將此API與Journey Orchestration實例一起使用，您需要使用AdobeI/O控制台。 您可以按照此操作 [Adobe開發人員控制台入門](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 然後使用此頁中的部分。
+要將此API與Journey Orchestration實例一起使用，您需要使用AdobeI/O控制台。 您可以按照此操作 [Adobe Developer控制台入門](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 然後使用此頁中的部分。
 
 要test和準備您的整合，可提供Postman收藏 [這裡](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json)。
 
@@ -46,18 +46,18 @@ Journey Orchestration導出 — 導入API在可用的Swagger檔案中描述 [這
 
 ### 設定 API 存取
 
-Journey OrchestrationAPI訪問通過以下步驟設定。 以下每個步驟均在 [Adobe I/O文檔](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)。
+Journey OrchestrationAPI訪問通過以下步驟設定。 [Adobe I/O 文件](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)詳細介紹了這些步驟。
 
 >[!CAUTION]
 >
->要在Adobe I/O中管理證書，請確保 <b>系統管理員</b> 組織或 [開發者帳戶](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html) 在管理控制台中。
+>若要在 Adobe I/O 管理憑證，請確認您在組織擁有<b>系統管理員</b>權限或在 Admin Console 擁有[開發人員帳戶](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)。
 
-1. **檢查您有數字證書**，或根據需要建立。 在以下步驟中需要隨證書提供的公鑰和私鑰。
-1. **建立新整合到 [!DNL Journey Orchestration] 服務** Adobe I/O並配置。 Journey Orchestration和Adobe Experience Platform需要產品配置檔案訪問。 然後將生成您的憑據（API密鑰、客戶端密鑰……）。
-1. **建立JSON Web令牌(JWT)** 從先前生成的憑據中，使用您的私鑰進行簽名。 JWT對Adobe驗證身份和授予您訪問API的權限所需的所有身份和安全資訊進行編碼。 此步驟在本中詳細介紹 [節](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
-1. **將JWT交換為訪問令牌** 通過POST請求或通過開發人員控制台介面。 此訪問令牌必須用於API請求的每個標頭。
+1. **請確認您擁有數位憑證**，或視需要建立。 下列步驟需要憑證隨附的公開金鑰與私人金鑰。
+1. 在 Adobe I/O **建立新整合以[!DNL Journey Orchestration]服務**&#x200B;並加以設定。 Journey Orchestration和Adobe Experience Platform需要產品配置檔案訪問。 然後，將產生您的憑證 (API 金鑰、用戶端密碼……)。
+1. 從之前產生的憑證&#x200B;**建立 JSON 網頁語彙基元 (JWT)**，並使用私人金鑰對其進行簽署。JWT 會對 Adobe 驗證身分並授予您存取 API 所需的所有身分與安全資訊進行編碼。 此步驟在此[章節](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)中有詳細說明
+1. 透過 POST 要求或透過 Developer Console 介面&#x200B;**將 JWT 換成存取權杖**。必須在 API 請求的每個標題中使用此存取權杖。
 
-要建立安全的服務到服務Adobe I/OAPI會話，對Adobe服務的每個請求都必須在「授權」標頭中包含以下資訊。
+若要建立安全的服務對服務 Adobe I/O API 工作階段，對 Adobe 服務的每個請求都必須在授權標題中包含下列資訊。
 
 ```
 curl -X GET https://journey.adobe.io/authoring/XXX \
@@ -69,11 +69,11 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;organization>**:這是您的個人組織ID,Adobe為每個實例提供一個組織ID:
 
    * &lt;organization> :您的生產實例
-   要獲取您的組織ID值，請咨詢您的管理員或Adobe技術聯繫人。 建立新整合時，您還可以在許可證清單中將其檢索到Adobe I/O(請參見 [Adobe I/O文檔](https://www.adobe.io/authentication.html))。
+   若要取得組織 ID 值，請洽詢您的管理員或 Adobe 技術聯絡人。 在授權清單中建立新整合時，您也可以將其擷取至 Adobe I/O (請參閱 [Adobe I/O 文件](https://www.adobe.io/authentication.html))。
 
-* **&lt;access_token>**:通過POST請求交換JWT時檢索的個人訪問令牌。
+* **&lt;ACCESS_TOKEN>**：您的個人存取權杖，此權杖是透過 POST 要求交換 JWT 時所擷取。
 
-* **&lt;api_key>**:您的個人API密鑰。 在建立新整合後在Adobe I/O中提供 [!DNL Journey Orchestration] 服務。
+* **&lt;API_KEY>**：您的個人 API 金鑰。 在建立與[!DNL Journey Orchestration]服務的新整合後，它會在 Adobe I/O 中提供。
 
 
 

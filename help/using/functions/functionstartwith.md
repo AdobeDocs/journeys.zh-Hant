@@ -13,7 +13,7 @@ ht-degree: 25%
 
 ---
 
-# 開頭 {#startWith}
+# startWith {#startWith}
 
 如果第二個參數是第一個參數的前置詞，則返回true。
 

@@ -13,7 +13,7 @@ ht-degree: 19%
 
 ---
 
-# 含 {#contain}
+# contain {#contain}
 
 檢查第二個參數字串是否包含在第一個參數字串中。
 

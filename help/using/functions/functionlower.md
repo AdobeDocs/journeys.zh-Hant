@@ -13,7 +13,7 @@ ht-degree: 23%
 
 ---
 
-# 下 {#lower}
+# lower {#lower}
 
 返回參數的小寫版本。
 

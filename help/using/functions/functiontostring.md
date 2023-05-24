@@ -9,11 +9,11 @@ exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 source-git-commit: c7730ecac062719e5e5adfd465d1cedb59b3eaf1
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
-# 到字串 {#toString}
+# toString {#toString}
 
 根據參數值的類型將參數值轉換為字串值。 有關資料類型的詳細資訊，請參閱 [此頁](../expression/data-types.md)。
 

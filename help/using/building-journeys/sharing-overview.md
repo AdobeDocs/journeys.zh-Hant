@@ -9,7 +9,7 @@ exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 5%
 
 ## 與客戶行程分析整合{#integration-cja}
 
-Journey Orchestration步驟事件可以連結到中的其他資料集 [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)。 以下是一般工作流：
+Journey Orchestration步驟事件可以連結到中的其他資料集 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)。 以下是一般工作流：
 
 * Customer Journey Analytics接收「Journey Step Event」資料集。
 * 的 **配置檔案ID** 關聯的「Journey Orchestration的行程步驟事件模式」中的欄位定義為「標識」欄位。 在Customer Journey Analytics中，然後可以將此資料集連結到與基於人員的標識符具有相同值的任何其他資料集。

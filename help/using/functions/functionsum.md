@@ -9,11 +9,11 @@ exl-id: 04289d72-aade-4725-b1f5-47cf55e3a40b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
-# 總和 {#sum}
+# sum {#sum}
 
 返回一組表達式的值之和。 忽略空值。
 

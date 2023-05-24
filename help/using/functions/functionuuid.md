@@ -13,7 +13,7 @@ ht-degree: 14%
 
 ---
 
-# UU {#uuid}
+# uuid {#uuid}
 
 生成隨機UUID（通用唯一IDentifier）。
 

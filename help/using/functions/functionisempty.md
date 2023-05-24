@@ -13,7 +13,7 @@ ht-degree: 19%
 
 ---
 
-# 為空 {#isEmpty}
+# isEmpty {#isEmpty}
 
 如果參數中的字串沒有字元，則返回true。
 

@@ -9,11 +9,11 @@ exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
-# 設定天數 {#setDays}
+# setDays {#setDays}
 
 僅設定日期時間或日期時間的日期。 例如，如果要等到月中某一天，則可以強制該日。
 

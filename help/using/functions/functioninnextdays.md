@@ -9,11 +9,11 @@ exl-id: 47d31b56-b0ed-426d-bd79-3db3e441454b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
-# 在下一天 {#inNextDays}
+# inNextDays {#inNextDays}
 
 如果給定日期或dateTime介於現在和現在+增量天之間，則返回true。
 

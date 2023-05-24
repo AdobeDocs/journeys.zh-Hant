@@ -9,11 +9,11 @@ exl-id: 7617bb25-ec4c-498f-947a-66bbdecd1069
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
-# 索引 {#indexOf}
+# indexOf {#indexOf}
 
 檢查第一個參數字串是否以特定字串結尾（第二個參數字串）。 如果找不到字串，則返回–1。
 
@@ -44,6 +44,6 @@ ht-degree: 18%
 
 返回2。
 
-說明：
+解釋:
 
 在&quot;Hello&quot;中，第一個出現的&quot;l&quot;位於位置2。

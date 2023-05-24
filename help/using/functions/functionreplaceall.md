@@ -13,7 +13,7 @@ ht-degree: 10%
 
 ---
 
-# 全部替換 {#replaceAll}
+# replaceAll {#replaceAll}
 
 用基本字串中的替換字串替換與目標字串匹配的所有匹配項。
 

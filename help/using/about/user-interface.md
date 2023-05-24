@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '985'
 ht-degree: 93%
 
 ---
@@ -95,7 +95,7 @@ Adobe Journey Optimizer的無障礙設施由Adobe Experience Platform提供：
 * 顏色對比
 * 驗證必填欄位
 
-在 Adobe Experience Platform 文件中[進一步了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+透過 Adobe Experience Platform 文件[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target="_blank"}。
 
 您可以在Adobe Journey Optimizer使用以下常用鍵盤快捷鍵：
 
@@ -107,7 +107,7 @@ Adobe Journey Optimizer的無障礙設施由Adobe Experience Platform提供：
 | 選取或清除焦點中的元素 | 輸入或空格鍵 |
 | 取消選取、折疊面板或關閉對話方塊 | Esc 鍵 |
 
-在 Adobe Experience Platform 文件中[進一步了解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hant){target=&quot;_blank&quot;}。
+透過 Adobe Experience Platform 文件[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hant){target="_blank"}。
 
 您可以在 Journey Optimizer 的特定部分使用下列快速鍵：
 

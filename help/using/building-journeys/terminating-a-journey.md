@@ -9,7 +9,7 @@ exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 您可以手動結束行程，以確保已輸入行程的客戶可以完成其路徑，但新用戶無法進入行程。
 
-關閉時，行程將具有 **[!UICONTROL Closed (no entrance)]**。 在預設全局超時30天後，該行程將切換到 **已完成** 狀態。 查看 [節](../building-journeys/changing-properties.md#entrance)。
+關閉時，行程將具有 **[!UICONTROL Closed (no entrance)]**。 在預設全局超時30天後，該行程將切換到 **已完成** 狀態。 請參閱[本章節](../building-journeys/changing-properties.md#entrance)。
 
 無法重新啟動或刪除已結束的行程版本。 您可以建立新版本或複製該版本。 只能刪除已完成的行程。
 

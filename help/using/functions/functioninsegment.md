@@ -13,7 +13,7 @@ ht-degree: 6%
 
 ---
 
-# 在段中 {#inSegment}
+# inSegment {#inSegment}
 
 檢查個人是否屬於給定段。
 
@@ -61,6 +61,6 @@ Adobe Experience Platform
 
 `inSegment("men over 50")`
 
-說明：
+解釋:
 
 函式將返回 **[!UICONTROL true]** 如果旅程實例中的個人是Adobe Experience Platform段&quot;50歲以上的男性&quot;的一部分， **[!UICONTROL false]** 否則。

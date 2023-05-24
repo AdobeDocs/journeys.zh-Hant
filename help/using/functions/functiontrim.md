@@ -13,7 +13,7 @@ ht-degree: 32%
 
 ---
 
-# 修剪 {#trim}
+# trim {#trim}
 
 刪除開始和結束空格。
 

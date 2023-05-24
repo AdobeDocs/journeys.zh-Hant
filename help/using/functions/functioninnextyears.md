@@ -9,11 +9,11 @@ exl-id: 8aab6f60-feba-4be2-9a32-ba4ed7f3d7de
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
-# 下一年 {#inNextYears}
+# inNextYears {#inNextYears}
 
 如果給定日期或dateTime介於現在和現在+增量年間，則返回true。
 

@@ -9,7 +9,7 @@ exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 20%
 | 參數 | 類型 |
 |-----------|------------------|
 | list | 清單字串 |
-| 清單 | list布爾 |
-| 清單 | listInteger |
-| 清單 | 清單十進位 |
-| 清單 | listDuration（持續時間） |
-| 清單 | 清單日期時間 |
-| 清單 | listDateTimeOnly |
-| 清單 | listDateOnly |
+| list | list布爾 |
+| list | listInteger |
+| list | 清單十進位 |
+| list | listDuration（持續時間） |
+| list | 清單日期時間 |
+| list | listDateTimeOnly |
+| list | listDateOnly |
 | 索引 | 整數 |
 
 ## 簽名和返回的類型

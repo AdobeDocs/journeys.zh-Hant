@@ -13,7 +13,7 @@ ht-degree: 18%
 
 ---
 
-# 現在 {#now}
+# now {#now}
 
 以日期時間格式返回當前日期。 有關資料類型的詳細資訊，請參閱 [此頁](../expression/data-types.md)。
 

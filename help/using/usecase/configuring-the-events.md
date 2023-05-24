@@ -49,7 +49,7 @@ ht-degree: 7%
 
 1. 按一下「**[!UICONTROL Save]**」。
 
-1. 按一下 **[!UICONTROL View Payload]** 表徵圖，預覽系統預期的負載，並將其與負責事件發送的人員共用。  需要在Mobile服務管理控制台的後台配置此負載。
+1. 按一下 **[!UICONTROL View Payload]** 表徵圖，預覽系統預期的負載，並將其與負責事件發送的人員共用。  需要在移動服務管理控制台的後退中配置此負載。
 
    ![](../assets/journeyuc2_5.png)
 
