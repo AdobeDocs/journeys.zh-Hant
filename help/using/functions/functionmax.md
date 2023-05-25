@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # max{#max}
 
-返回一組表達式中的最大值，以清單或兩個表達式的形式給定。 忽略空值。
+傳回一組運算式中的最大值，以清單或兩個運算式形式給出。 Null值會被忽略。
 
 ## 類別
 
@@ -27,63 +27,63 @@ ht-degree: 7%
 
 ## 參數
 
-* listDuration（持續時間）
+* listDuration
 * listInteger
-* 清單十進位
-* 清單日期時間
+* listDecimal
+* listDateTime
 * listDateTimeOnly
 * listDateOnly
 * 持續時間
 * 整數
 * 小數
-* 日期時間
-* 日期僅時間
+* dateTime
+* dateTimeOnly
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `max(<listDuration>)`
 
-返回持續時間。
+傳回持續時間。
 
 `max(<listInteger>)`
 
-返回持續時間。
+傳回持續時間。
 
 `max(<listDateTimeOnly>)`
 
-返回不考慮時區的日期時間。
+傳回不考慮時區的日期時間。
 
 `max(<listDateTime>)`
 
-返回日期時間。
+傳回日期時間。
 
 `max(<listDateOnly>)`
 
-返回日期。
+傳回日期。
 
 `max(<listDecimal>)`
 
-返回十進位。
+傳回小數。
 
 `max(<decimal>,<decimal>)`
 
-返回十進位。
+傳回小數。
 
 `max(<duration>,<duration>)`
 
-返回持續時間。
+傳回持續時間。
 
 `max(<dateTime>,<dateTime>)`
 
-返回日期時間。
+傳回日期時間。
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-返回不考慮時區的日期時間。
+傳回不考慮時區的日期時間。
 
 `max(<integer>,<integer>)`
 
-返回整數。
+傳回整數。
 
 ## 範例
 
@@ -91,8 +91,8 @@ ht-degree: 7%
 
 `max([10,3,8])`
 
-返回10。
+傳回10。
 
 `max([10,null,8])`
 
-返回10。
+傳回10。

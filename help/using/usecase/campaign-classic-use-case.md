@@ -13,40 +13,40 @@ ht-degree: 6%
 
 # 使用 Campaign v7/v8 傳送訊息 {#campaign-classic-use-case}
 
-此使用情形顯示了使用與Adobe Campaign Classicv7和Adobe Campaignv8的整合發送電子郵件所需的所有步驟。
+此使用案例提供使用與Adobe Campaign Classic v7和Adobe Campaign v8整合來傳送電子郵件所需的所有步驟。
 
-我們將首先在市場活動中建立事務性電子郵件模板。 然後，在Journey Orchestration中，我們將建立活動、行動和設計旅程。
+我們將先在Campaign中建立交易式電子郵件範本。 然後，在Journey Orchestration中，我們將建立事件、動作並設計歷程。
 
-要瞭解有關市場活動整合的詳細資訊，請參閱以下頁：
+若要深入瞭解Campaign整合，請參閱以下頁面：
 
-* [建立市場活動活動](../action/acc-action.md)
-* [在旅途中使用動作](../building-journeys/using-adobe-campaign-classic.md)。
+* [建立行銷活動動作](../action/acc-action.md)
+* [在歷程中使用動作](../building-journeys/using-adobe-campaign-classic.md).
 
 **Adobe Campaign**
 
-需要為此整合預配您的市場活動實例。 需要配置事務性消息傳遞功能。
+需要布建您的Campaign執行個體才能進行此整合。 需要設定異動訊息傳送功能。
 
-1. 登錄到您的市場活動控制實例。
+1. 登入您的Campaign控制例項。
 
-1. 下 **管理** > **平台** > **枚舉**，選擇 **事件類型** (eventType)枚舉。 建立新事件類型（在示例中為「journey-event」）。 以後寫入JSON檔案時，必須使用事件類型的內部名稱。
+1. 下 **管理** > **Platform** > **分項清單**，選取 **事件型別** (eventType)分項清單。 建立新的事件型別（範例中為「journey-event」）。 稍後寫入JSON檔案時，您必須使用事件型別的內部名稱。
 
    ![](../assets/accintegration-uc-1.png)
 
-1. 斷開連接並重新連接到實例，以使建立生效。
+1. 中斷連線並重新連線至執行個體，使建立生效。
 
-1. 下 **消息中心** > **事務性消息模板**，根據先前建立的事件類型建立新電子郵件模板。
+1. 下 **訊息中心** > **異動訊息範本**，根據先前建立的事件型別建立新的電子郵件範本。
 
    ![](../assets/accintegration-uc-2.png)
 
-1. 設計模板。 在本示例中，我們對配置檔案的名字和訂單號使用個性化。 名字在Adobe Experience Platform資料源中，訂單號是我們的Journey Orchestration事件中的欄位。 確保在「市場活動」中使用正確的欄位名稱。
+1. 設計您的範本。 在此範例中，我們對設定檔的名字和訂單編號使用個人化。 名字位於Adobe Experience Platform資料來源中，而訂單編號則是來自Journey Orchestration事件的欄位。 請務必在Campaign中使用正確的欄位名稱。
 
    ![](../assets/accintegration-uc-3.png)
 
-1. 發佈事務模板。
+1. 發佈您的交易式範本。
 
    ![](../assets/accintegration-uc-4.png)
 
-1. 現在，您需要編寫與模板對應的JSON負載。
+1. 現在您需要撰寫與範本相對應的JSON裝載。
 
 ```
 {
@@ -59,39 +59,39 @@ ht-degree: 6%
 }
 ```
 
-* 對於頻道，您需要鍵入「email」。
-* 對於eventType，使用先前建立的事件類型的內部名稱。
+* 對於頻道，您需要輸入「電子郵件」。
+* 對於eventType，請使用先前建立之事件型別的內部名稱。
 * 電子郵件地址將是變數，因此您可以鍵入任何標籤。
-* 在ctx下，個性化欄位也是變數。
+* 在ctx底下，個人化欄位也是變數。
 
 **Journey Orchestration**
 
-1. 首先，您需要建立一個事件。 確保包括「purchaseOrderNumber」欄位。
+1. 首先，您需要建立事件。 請務必加入「purchaseOrderNumber」欄位。
 
    ![](../assets/accintegration-uc-5.png)
 
-1. 然後，您需要以Journey Orchestration方式建立與市場活動模板對應的活動。 在 **操作類型** 下拉，選擇 **Adobe Campaign Classic**。
+1. 然後，您需要在Journey Orchestration中建立與您的Campaign範本對應的動作。 在 **動作型別** 下拉式清單，選取 **Adobe Campaign Classic**.
 
    ![](../assets/accintegration-uc-6.png)
 
-1. 按一下 **負載欄位** 並貼上以前建立的JSON。
+1. 按一下 **裝載欄位** 並貼上先前建立的JSON。
 
    ![](../assets/accintegration-uc-7.png)
 
-1. 對於電子郵件地址和兩個個性化欄位，請更改 **常數** 至 **變數**。
+1. 針對電子郵件地址和兩個個人化欄位，請變更 **常數** 至 **變數**.
 
    ![](../assets/accintegration-uc-8.png)
 
-1. 現在建立新行程，並從先前建立的事件開始。
+1. 現在建立新歷程，並從先前建立的事件開始。
 
    ![](../assets/accintegration-uc-9.png)
 
-1. 添加操作，並將每個欄位映射到Journey Orchestration中的正確欄位。
+1. 新增動作，並將每個欄位對應到Journey Orchestration中的正確欄位。
 
    ![](../assets/accintegration-uc-10.png)
 
-1. 添加 **結束** 活動，test旅程。
+1. 新增 **結束** 活動並測試您的歷程。
 
    ![](../assets/accintegration-uc-11.png)
 
-1. 你現在可以發表你的旅程。
+1. 您現在可以發佈您的歷程。

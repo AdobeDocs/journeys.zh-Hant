@@ -21,4 +21,4 @@ ht-degree: 79%
 
 在透過串流獲取 API 到達目的地之後，事件會流入名為 Pipeline 的內部服務，再流入 Adobe Experience Platform。如果事件結構已啟用「即時客戶個人檔案服務」標幟，且資料集 ID 也具有「即時客戶個人檔案」標幟，就會流入「即時客戶個人檔案服務」。
 
-對於系統生成的事件，管道將過濾具有包含負載的事件 [!DNL Journey Orchestration] 事件ID（請參閱下面的事件建立過程）由 [!DNL Journey Orchestration] 並包含在事件負載中。 對於基於規則的事件，系統使用eventID條件標識事件。 這些事件會由 [!DNL Journey Orchestration] 監聽，並會觸發相對應的歷程。
+對於系統產生的事件，Pipeline會篩選其裝載包含下列內容的事件 [!DNL Journey Orchestration] eventIDs （請參閱下方的事件建立程式），由 [!DNL Journey Orchestration] 和包含在事件裝載中。 對於規則型事件，系統會使用eventID條件來識別事件。 這些事件會由 [!DNL Journey Orchestration] 監聽，並會觸發相對應的歷程。

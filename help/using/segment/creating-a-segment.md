@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 建立區段
-description: 瞭解如何使用段
+description: 瞭解如何使用區段
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,14 +15,14 @@ ht-degree: 10%
 
 # 建立區段 {#creating-a-segment}
 
-可以使用 [Adobe Experience Platform分段服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) 或者直接訪問和建立 [!DNL Journey Orchestration]。
+您可以使用建立區段 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) 或者，您可以直接在中存取及建立它們 [!DNL Journey Orchestration].
 
-1. 在頂端功能表中，按一下 **[!UICONTROL Segments]** 索引標籤。將顯示Adobe Experience Platform段的清單。 可以在清單中搜索特定段。
+1. 在頂端功能表中，按一下 **[!UICONTROL Segments]** 索引標籤。隨即顯示Adobe Experience Platform區段清單。 您可以在清單中搜尋特定區段。
 
    ![](../assets/segment1.png)
 
-1. 按一下 **[!UICONTROL Add]** 的子菜單。 段定義螢幕允許您配置所有必需欄位以定義段。 配置與分段服務中的配置相同。 請參閱 [段生成器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)。
+1. 按一下 **[!UICONTROL Add]** 以建立新區段。 區段定義畫面可讓您設定定義區段所需的所有欄位。 此設定與分段服務中的設定相同。 請參閱 [區段產生器使用手冊](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](../assets/segment2.png)
 
-您的網段現在可用於構建條件或添加 **[!UICONTROL Segment qualification]** 的子菜單。 請參閱 [在條件中使用段](../segment/using-a-segment.md) 和 [活動活動](../building-journeys/segment-qualification-events.md)。
+您的區段現在可用於您的歷程，以建立條件或新增 **[!UICONTROL Segment qualification]** 事件。 另請參閱 [在條件中使用區段](../segment/using-a-segment.md) 和 [事件活動](../building-journeys/segment-qualification-events.md).

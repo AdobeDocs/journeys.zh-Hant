@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: round
-description: 瞭解函式捨入
+description: 瞭解函式回合
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 17%
 
 # round {#round}
 
-返回與參數最接近的整數值，並將捨入到正無窮大。
+傳回與引數最接近的整數值，並將四捨五入與正無窮大繫結。
 
 ## 類別
 
@@ -30,28 +30,28 @@ ht-degree: 17%
 * 小數
 * 整數
 
-## 簽名和返回的類型
+## 簽章和傳回型別
 
 `round(<decimal>)`
 
 `round(<integer>)`
 
-返回整數。
+傳回整數。
 
 ## 範例
 
 `round(3.14)`
 
-返回3。
+傳回3。
 
 `round(3.54)`
 
-返回4。
+傳回4。
 
 `round(-3.14)`
 
-返回–3。
+傳回–3。
 
 `round(3)`
 
-返回3。
+傳回3。

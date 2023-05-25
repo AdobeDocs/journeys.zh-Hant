@@ -13,42 +13,42 @@ ht-degree: 2%
 
 ---
 
-# 高級表達式示例
+# 進階運算式範例
 
-「高級」表達式編輯器可用於建立條件，以便篩選您的行程中的用戶。 通過這些條件，您可以按時間、日期、位置、持續時間或諸如購買或放棄購物車之類的操作來瞄準用戶，以便在行程中重新確定用戶的目標。
+進階運算式編輯器可用來建立條件，讓您在歷程中篩選使用者。 這些條件可讓您定位使用者時間、日期、位置、持續時間或動作，例如購買或放棄購物車，以便在歷程中重新定位他們。
 
 >[!NOTE]
 >
->事件以@開頭，資料源以#開頭。
+>事件以@開頭，資料來源以#開頭。
 
 ## 在體驗事件上建立條件
 
-高級表達式編輯器是對時間系列執行查詢（如購買清單或以前對消息的按一下）的必備項。 無法使用簡單編輯器執行此類查詢。
+進階運算式編輯器必須對時間序列執行查詢，例如購買清單或訊息的過去點按。 無法使用簡單編輯器執行此類查詢。
 
-從Adobe Experience Platform以按時間順序倒序的集合檢索經驗事件，因此：
+體驗事件會以相反時間順序的集合形式從Adobe Experience Platform中擷取，因此：
 
-* 第一個函式將返回最近的事件
-* 最後一個函式將返回最舊的函式。
+* 第一個函式將傳回最近的事件
+* 最後一個函式會傳回最舊的函式。
 
-例如，假設您希望在過去7天內放棄購物車的客戶在客戶接近商店時發送一條消息，並針對他們希望在商店中購買的物品提供優惠。
+例如，假設您想要將目標定位為過去7天內放棄購物車的客戶，以便在客戶接近商店時傳送訊息，提供他們想要的店內商品優惠。
 
-**您需要構建以下條件：**
+**您需要建置下列條件：**
 
-首先，目標客戶在過去7天內瀏覽了線上商店但未完成訂單。
+首先，鎖定瀏覽了線上商店但在過去7天內未完成訂單的客戶。
 
 <!--**This expression looks for a specified value in a string value:**
 
 `In (“addToCart”, #{field reference from experience event})`-->
 
-**此表達式查找此用戶在過去7天中指定的所有事件：**
+**此運算式會尋找此使用者在過去7天中指定的所有事件：**
 
-然後，它將選擇所有未轉換為completePurchase的addtocart事件。
+然後它會選取所有未轉換為completePurchase的addtocart事件。
 
 >[!NOTE]
 >
->要快速在表達式中插入欄位，請按兩下編輯器左面板中的欄位。
+>若要在運算式中快速插入欄位，請連按兩下編輯器左側面板中的欄位。
 
-指定的時間戳用作日期時間值，第二個是天數。
+指定的時間戳記會作為日期時間值，第二個是天數。
 
 ```json
         in( "addToCart", #{ExperiencePlatformDataSource
@@ -68,19 +68,19 @@ ht-degree: 2%
                         .productInteraction}))
 ```
 
-此表達式返回布爾值。
+此運算式會傳回布林值。
 
-**現在，我們構建一個表達式，檢查產品是否在庫存中**
+**現在來建置運算式，檢查產品有庫存**
 
-* 在庫存中，此表達式將查找產品的數量欄位並指定其應大於0。
+* 在「詳細目錄」中，此運算式會尋找產品的數量欄位，並指定數量欄位應大於0。
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* 在右側，指定了必要的值，在此，我們需要檢索儲存的位置，該位置是從事件「ErvirLumaStudio」的位置映射的：
+* 在右側，會指定必要的值，在這裡，我們需要擷取從事件「EndaysLumaStudio」的位置對應的存放區位置：
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* 使用函式指定SKU `first` 要檢索最近的「addToCart」交互元件：
+* 並使用函式指定SKU `first` 若要擷取最近的「addToCart」互動：
 
    ```json
        #{ExperiencePlatformDataSource
@@ -94,13 +94,13 @@ ht-degree: 2%
                        .SKU}
    ```
 
-在此處，您可以在行程中添加其他路徑，以便在產品不在商店時使用，並通過訂約優惠發送通知。 相應地配置消息並使用個性化資料來增強消息目標。
+從那裡，您可以在歷程中為產品不在商店時新增另一個路徑，並傳送包含參與選件的通知。 適當地設定訊息，並使用個人化資料來增強訊息目標。
 
-## 使用高級表達式編輯器進行字串操作的示例
+## 使用進階運算式編輯器的字串操作範例
 
 **條件**
 
-此條件僅檢索在「阿靈頓」中觸發的地理事件：
+此條件只會擷取「Arlington」中觸發的地理圍欄事件：
 
 ```json
         @{GeofenceEntry
@@ -110,9 +110,9 @@ ht-degree: 2%
                     .name} == "Arlington"
 ```
 
-說明：這是嚴格的字串比較（區分大小寫），相當於在簡單模式下使用的查詢 `equal to` 與 `Is sensitive` 選中。
+說明：這是嚴格的字串比較（區分大小寫），等同於使用的簡單模式中的查詢 `equal to` 替換為 `Is sensitive` 已核取。
 
-與 `Is sensitive` 取消選中將在高級模式下生成以下表達式：
+相同的查詢 `Is sensitive` 取消核取將在進階模式下產生下列運算式：
 
 ```json
         equalIgnoreCase(@{GeofenceEntry
@@ -122,9 +122,9 @@ ht-degree: 2%
                         .name}, "Arlington")
 ```
 
-**在操作中**
+**在動作中**
 
-以下表達式允許您在操作個性化欄位中定義CRM ID:
+下列運算式可讓您在動作個人化欄位中定義CRM ID：
 
 ```json
 substr(
@@ -143,6 +143,6 @@ substr(
 )
 ```
 
-說明：此示例使用 `substr` 和 `lastIndexOf` 函式，用於刪除用移動應用啟動事件傳遞的CRM ID所包圍的大括弧。
+說明：此範例使用 `substr` 和 `lastIndexOf` 移除括住透過行動應用程式啟動事件傳遞之CRM ID的大括弧函式。
 
-有關如何使用高級表達式編輯器的詳細資訊，請觀察 [這個視頻](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
+如需如何使用進階運算式編輯器的詳細資訊，請觀看 [此影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).

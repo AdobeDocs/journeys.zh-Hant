@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # isNotEmpty {#isNotEmpty}
 
-如果參數中的字串不為空，則返回true。
+如果引數中的字串不是空的，則傳回true。
 
 ## 類別
 
@@ -29,18 +29,18 @@ ht-degree: 19%
 
 * 字串
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `isNotEmpty(<string>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
 `isNotEmpty("")`
 
-返回false。
+傳回false。
 
 `isNotEmpty("hello")`
 
-返回true。
+傳回true。

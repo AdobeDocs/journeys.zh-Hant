@@ -15,52 +15,52 @@ ht-degree: 7%
 
 # journeyStep 事件資料擷取欄位 {#sharing-fetch-fields}
 
-此混合將由journeyStepEvent和journeyStepProfileEvent共用。
+此mixin將由journeyStepEvent和journeyStepProfileEvent共用。
 
-在步驟處理過程中，可以對欄位組進行N個資料提取。
+在步驟處理期間，我們可以在欄位群組中擷取N筆資料。
 
-## 提取總時間
+## fetchTotalTime
 
-在步驟處理期間以毫秒為單位的資料讀取所花費的總時間。
+在步驟處理期間，花費在資料擷取上的總時間（毫秒）。
 
-類型：長
+型別： long
 
 ## fetchTypeInError
 
-定義讀取錯誤是在Adobe Experience Platform上還是在自定義資料源上。
+定義擷取作業發生錯誤時是在Adobe Experience Platform上還是在自訂資料來源上。
 
 類型: 字串
 
 值：
-* 阿普
-* 自定義
+* aep
+* 自訂
 
 ## fetchError
 
-處理資料提取時發生的錯誤類型。
+處理資料擷取時發生的錯誤型別。
 
 類型: 字串
 
 值：
 * http
-* 封蓋
-* 滴
+* 上限
+* 逾時
 * error
 
 ## fetchErrorCode
 
-讀取錯誤的代碼。 如果錯誤有代碼（如HTTP代碼），則顯示。 例如，如果actionExecError為http，則代碼404表示HTTP 404錯誤。
+擷取錯誤的程式碼。 如果錯誤有程式碼（例如HTTP程式碼），則會出現。 例如，如果actionExecError是http，則代碼404代表HTTP 404錯誤。
 
 類型: 字串
 
 ## fetchOriginError
 
-在以下兩種情況下，可能會出現超時：
+在以下兩種情況下，可能會發生逾時：
 
-* 第一次嘗試時，執行該操作。 在這種情況下，執行未完成，因此不存在基本錯誤
-* 重試：在這種情況下，actionExecOrigError/actionExecOrigErrorCode描述重試前在嘗試時遇到的錯誤。
+* 在第一次嘗試執行動作時。 在此情況下，執行尚未完成，因此沒有基礎錯誤
+* 重試：在此情況下，actionExecOrigError/actionExecOrigErrorCode會說明在重試之前嘗試遇到的錯誤。
 
-例如，正在從Unified Profile Service中讀取資料，在第一次嘗試時返回HTTP 500錯誤。 重試讀取，但兩次嘗試的持續時間超過超時。 然後，將操作執行標籤為超時。 操作部分將如下所示：
+例如，正在從統一設定檔服務擷取資料，第一次嘗試時會傳回HTTP 500錯誤。 會重試擷取，但2次嘗試的持續時間超過逾時。 然後該動作執行會標籤為逾時。 動作部分看起來會像這樣：
 
 ```
     ...
@@ -75,36 +75,36 @@ ht-degree: 7%
 
 ## fetchOriginErrorCode
 
-系統提供的錯誤代碼 [!DNL Journey Orchestration] 正在查詢。 例如，它可以是404、500等。
+系統提供的錯誤代碼 [!DNL Journey Orchestration] 正在查詢。 例如，可以是404、500等。
 
 類型: 字串
 
-## 提取計數
+## fetchCount
 
-讀取資料的次數，與源類型無關。
+擷取資料的次數，無論來源型別為何。
 
-類型：長
+型別： long
 
 ## fetchPlatformTotalTime
 
-從以百萬為單位的Adobe Experience Platform獲取資料所花費的總時間。 備注：該時間量從引擎將富集事件發送到富集服務並接收響應的時間計算。
+從Adobe Experience Platform擷取資料所需的總時間（以毫秒為單位）。 備註：此時間長度是從引擎將擴充事件傳送至擴充服務並接收回應時算起。
 
-類型：長
+型別： long
 
 ## fetchPlatformCount
 
-從Adobe Experience Platform獲取資料的次數。
+從Adobe Experience Platform擷取資料的次數。
 
-類型：長
+型別： long
 
-## fetchCustomTotalTime
+## fetchCustomTotaltime
 
-以毫秒為單位提取自定義資料的時間。 備注：從引擎將富集事件發送到富集服務並接收響應的時間計算該時間量
+擷取自訂資料的時間長度（以毫秒為單位）。 備註：此時間長度是從引擎將擴充事件傳送至擴充服務並接收回應時算起
 
-類型：長
+型別： long
 
 ## fetchCustomCount
 
-從外部系統獲取自定義資料的次數。
+從外部系統擷取自訂資料的次數。
 
-類型：長
+型別： long

@@ -15,6 +15,6 @@ ht-degree: 67%
 
 # 結束活動{#section_vqp_4ft_dgb}
 
-的 **[!UICONTROL End]** 活動允許您標籤旅程的每條路徑的結束。 這並非強制性，但為了視覺清晰度建議使用。確實如此，如果歷程有多個結束活動，我們建議您為每個結束加上標籤，以使報表更易於閱讀。請參閱[此頁面](../reporting/about-journey-reports.md)。
+此 **[!UICONTROL End]** 活動可讓您標籤歷程每個路徑的結尾。 這並非強制性，但為了視覺清晰度建議使用。確實如此，如果歷程有多個結束活動，我們建議您為每個結束加上標籤，以使報表更易於閱讀。請參閱[此頁面](../reporting/about-journey-reports.md)。
 
 ![](../assets/journey54.png)

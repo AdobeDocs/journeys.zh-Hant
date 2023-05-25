@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: URL 組態
-description: 瞭解URL配置
+description: 瞭解URL設定
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,44 +15,44 @@ ht-degree: 4%
 
 # URL 組態 {#concept_gbg_1f1_2gb}
 
-配置自定義操作時，需要定義以下 **[!UICONTROL URL Configuration]** 參數：
+設定自訂動作時，您需要定義下列專案 **[!UICONTROL URL Configuration]** 引數：
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. 在 **[!UICONTROL URL]** 欄位，指定外部服務的URL:
+1. 在 **[!UICONTROL URL]** 欄位中，指定外部服務的URL：
 
    * 如果URL是靜態的，請在此欄位中輸入URL。
 
-   * 如果URL包含動態路徑，則只輸入該URL的靜態部分，即方案、主機、埠以及（可選）路徑的靜態部分。
+   * 如果URL包含動態路徑，請只輸入URL的靜態部分，即配置、主機、連線埠，以及（選擇性）路徑的靜態部分。
 
       範例：`https://xxx.yyy.com/somethingstatic/`
 
-      將自定義操作添加到行程時，將指定URL的動態路徑。 [了解更多](../building-journeys/using-custom-actions.md)。
+      將自訂動作新增至歷程時，您將指定URL的動態路徑。 [了解更多](../building-journeys/using-custom-actions.md)。
    >[!NOTE]
    >
-   >出於安全原因，強烈建議您將HTTPS方案用於URL。 我們不允許使用非公有的Adobe地址和IP地址。
+   >基於安全考量，強烈建議您針對URL使用HTTPS配置。 我們不允許使用非公開的Adobe位址和IP位址。
    >
-   >定義自定義操作時僅允許預設埠：80表示http,443表示https。
+   >定義自訂動作時只允許預設連線埠：80代表http，443代表https。
 
-1. 選擇呼叫 **[!UICONTROL Method]**:它可以 **[!UICONTROL POST]** 或 **[!UICONTROL PUT]**。
-1. 在 **[!UICONTROL Headers]** 定義要發送到外部服務的請求消息的HTTP標頭：
-   1. 要添加標題欄位，請按一下 **[!UICONTROL Add a header field]**。
-   1. 輸入標題欄位的鍵。
-   1. 要為鍵值對設定動態值，請選擇 **[!UICONTROL Variable]**。 否則，選擇 **[!UICONTROL Constant]**。
+1. 選取通話 **[!UICONTROL Method]**：它可以是以下任一值 **[!UICONTROL POST]** 或 **[!UICONTROL PUT]**.
+1. 在 **[!UICONTROL Headers]** 區段，定義要傳送至外部服務之要求訊息的HTTP標頭：
+   1. 若要新增標題欄位，請按一下 **[!UICONTROL Add a header field]**.
+   1. 輸入頁首欄位的鍵。
+   1. 若要設定索引鍵/值組的動態值，請選取 **[!UICONTROL Variable]**. 否則，請選取 **[!UICONTROL Constant]**.
 
-      例如，對於時間戳，可以設定動態值。
+      例如，對於時間戳記，您可以設定動態值。
 
-   1. 如果已選擇 **[!UICONTROL Constant]**，然後輸入常數值。
+   1. 如果您已選取 **[!UICONTROL Constant]**，然後輸入常數值。
 
-      如果已選擇 **[!UICONTROL Variable]**，則在將自定義操作添加到行程時將指定此變數。 [了解更多](../building-journeys/using-custom-actions.md)。
+      如果您已選取 **[!UICONTROL Variable]**，則會在將自訂動作新增至歷程時指定此變數。 [了解更多](../building-journeys/using-custom-actions.md)。
 
       ![](../assets/journeyurlconfiguration2.png)
 
-   1. 要刪除標題欄位，請指向標題欄位，然後按一下 **[!UICONTROL Delete]** 表徵圖
-   的 **[!UICONTROL Content-Type]** 和 **[!UICONTROL Charset]** 預設情況下設定標題欄位。 不能修改或刪除這些欄位。
+   1. 若要刪除標頭欄位，請指向標頭欄位並按一下 **[!UICONTROL Delete]** 圖示。
+   此 **[!UICONTROL Content-Type]** 和 **[!UICONTROL Charset]** 標頭欄位預設為設定。 您無法修改或刪除這些欄位。
 
-   在將自定義操作添加到行程後，如果行程處於草稿狀態，則仍可將題頭欄位添加到行程。 如果不希望行程受配置更改的影響，請複製自定義操作，並將標題欄位添加到新的自定義操作。
+   將自訂動作新增至歷程後，如果歷程處於草稿狀態，您仍可新增標題欄位至歷程。 如果您不想讓歷程受設定變更影響，請複製自訂動作，並將標題欄位新增到新的自訂動作。
 
    >[!NOTE]
    >
-   >根據欄位分析規則驗證標頭。 [了解更多](https://tools.ietf.org/html/rfc7230#section-3.2.4)。
+   >標頭會根據欄位剖析規則進行驗證。 [了解更多](https://tools.ietf.org/html/rfc7230#section-3.2.4)。

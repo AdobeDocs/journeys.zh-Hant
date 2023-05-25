@@ -15,7 +15,7 @@ ht-degree: 25%
 
 # startWith {#startWith}
 
-如果第二個參數是第一個參數的前置詞，則返回true。
+如果第二個引數是第一個引數的前置詞，則傳回true。
 
 ## 類別
 
@@ -32,18 +32,18 @@ ht-degree: 25%
 | 字串 | 字串 |
 | 前置詞 | 字串 |
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `startWith(<string>,<string>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
 `startWith("Hello World", "Hello")`
 
-返回true。
+傳回true。
 
 `startWith("Hello World", "World")`
 
-返回false。
+傳回false。

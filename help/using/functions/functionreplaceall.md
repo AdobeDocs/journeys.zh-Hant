@@ -15,9 +15,9 @@ ht-degree: 10%
 
 # replaceAll {#replaceAll}
 
-用基本字串中的替換字串替換與目標字串匹配的所有匹配項。
+以基礎字串中的取代字串取代符合目標字串的所有專案。
 
-替換從字串的開頭到結尾，例如，在字串&quot;aaa&quot;中將&quot;aa&quot;替換為&quot;b&quot;將導致&quot;ba&quot;而不是&quot;ab&quot;。
+取代會從字串的開頭到結尾進行，例如，將字串「aaa」中的「aa」取代為「b」將會產生「ba」而不是「ab」。
 
 ## 類別
 
@@ -31,20 +31,20 @@ ht-degree: 10%
 
 | 參數 | 類型 |
 |-----------|--------------|
-| 基礎 | 字串 |
+| 基底 | 字串 |
 | Target | 字串(RegExp) |
-| 替換 | 字串 |
+| 取代 | 字串 |
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `replaceAll(<baseString>,<sourceString>,<replacementString>)`
 
-返回字串。
+傳回字串。
 
 ## 範例{#example}
 
 `replaceAll("Hello World", "l", "x")`
 
-返回&quot;Hexxo Worxd&quot;。
+傳回「Hexxo Worxd」。
 
-由於目標參數是RegExp，因此您可能需要轉義一些字元，具體取決於要替換的字串。 請參閱中的示例 [此頁](../functions/functionreplace.md#example_2)。
+由於目標引數是RegExp，因此根據您要取代的字串，您可能需要逸出部分字元。 請參考中的範例 [此頁面](../functions/functionreplace.md#example_2).

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 使用自訂動作
-description: 瞭解操作活動
+description: 瞭解動作活動
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,28 +15,28 @@ ht-degree: 11%
 
 # 使用自訂動作 {#section_f2c_hbg_nhb}
 
-活動配置窗格顯示為自定義操作配置的URL配置參數和驗證參數。 [了解更多](../action/about-custom-action-configuration.md)。
+活動設定窗格會顯示URL設定引數，以及為自訂動作設定的驗證引數。 [了解更多](../action/about-custom-action-configuration.md)。
 
 ## URL 組態
 
 ### 動態路徑
 
-如果URL包含動態路徑，請在 **[!UICONTROL Path]** 的子菜單。
+如果URL包含動態路徑，請在 **[!UICONTROL Path]** 欄位。
 
 >[!NOTE]
 >
->您不能在行程中設定URL的靜態部分，而是在自定義操作的全局配置中。 [了解更多](../action/about-custom-action-configuration.md)。
+>您無法在歷程中設定URL的靜態部分，但可在自訂動作的全域設定中設定。 [了解更多](../action/about-custom-action-configuration.md)。
 
-要連接欄位和純文字檔案字串，請使用String函式或高級表達式編輯器中的加號(+)。 將純文字檔案字串用單引號(&#39;)或雙引號(&quot;)括起來。 [了解更多](../expression/expressionadvanced.md)。
+若要串連欄位和純文字字串，請使用字串函式或進階運算式編輯器中的加號(+)。 以單引號(&#39;)或雙引號(&#39;&#39;)括住純文字字串。 [了解更多](../expression/expressionadvanced.md)。
 
-下表顯示了配置示例：
+此表格顯示組態範例：
 
 | 欄位 | 值 |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
 | 路徑 | `The id of marketingCampaign + '/messages'` |
 
-連接的URL具有以下表單：
+串連URL的格式如下：
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
@@ -44,20 +44,20 @@ ht-degree: 11%
 
 ### 標頭
 
-的 **[!UICONTROL URL Configuration]** 部分顯示動態標題欄位，但不顯示常數標題欄位。 動態標頭欄位是其值配置為變數的HTTP標頭欄位。 [了解更多](../action/about-custom-action-configuration.md)。
+此 **[!UICONTROL URL Configuration]** 區段顯示動態標題欄位，但不顯示常數標題欄位。 動態標頭欄位是HTTP標頭欄位，其值已設定為變數。 [了解更多](../action/about-custom-action-configuration.md)。
 
-如果需要，請指定動態標題欄位的值：
+必要時，請指定動態標頭欄位的值：
 
-1. 選擇行程中的自定義操作。
-1. 在配置窗格中，按一下中標題欄位旁邊的鉛筆表徵圖 **[!UICONTROL URL Configuration]** 的子菜單。
+1. 選取歷程中的自訂動作。
+1. 在設定窗格中，按一下中標題欄位旁的鉛筆圖示 **[!UICONTROL URL Configuration]** 區段。
 
    ![](../assets/journey-dynamicheaderfield.png)
 
-1. 選擇一個欄位，然後按一下 **[!UICONTROL OK]**。
+1. 選取欄位並按一下 **[!UICONTROL OK]**.
 
-## 操作參數
+## 動作引數
 
-在 **[!UICONTROL Action parameters]** 部分，您將看到定義為 _&quot;變數&quot;_。 對於這些參數，可以定義獲取此資訊的位置(例如：事件、資料源)、手動傳遞值或使用高級表達式編輯器進行高級使用案例。 高級使用案例可以是資料操作和其他函式使用。 [了解更多](../expression/expressionadvanced.md)。
+在 **[!UICONTROL Action parameters]** 區段，您會看到訊息引數定義為 _&quot;Variable&quot;_. 對於這些引數，您可以定義從何處取得此資訊（例如：事件、資料來源）、手動傳遞值或使用進階運算式編輯器進行進階使用案例。 進階使用案例可以是資料操控和其他函式用途。 [了解更多](../expression/expressionadvanced.md)。
 
 **相關主題**
 

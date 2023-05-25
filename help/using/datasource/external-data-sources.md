@@ -30,7 +30,7 @@ ht-degree: 93%
 
 以下是建立和設定新外部資料來源的主要步驟：
 
-1. 在資料源清單中，按一下 **[!UICONTROL Create data source]** 建立新的外部資料源。
+1. 從資料來源清單中，按一下 **[!UICONTROL Create data source]** 以建立新的外部資料來源。
 
    ![](../assets/journey25.png)
 
@@ -53,7 +53,7 @@ ht-degree: 93%
 
    ![](../assets/journey27.png)
 
-1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。有關自定義身份驗證模式的詳細資訊，請參見 [此部分](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。 在我們的範例中，我們選擇：
+1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。如需自訂驗證模式的詳細資訊，請參閱 [本節](../datasource/external-data-sources.md#section_wjp_nl5_nhb). 在我們的範例中，我們選擇：
 
 
    * **[!UICONTROL Type]**：&quot;API key&quot;
@@ -186,4 +186,4 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->快取持續時間有助於避免對驗證終結點進行過多調用。 身份驗證令牌保留已快取到服務中，沒有持久性。 如果服務重新啟動，則它以乾淨的快取啟動。 預設情況下，快取持續時間為1小時。 在自定義驗證有效負載中，可以通過指定另一個保留持續時間來適應它。
+>快取持續時間有助於避免過多呼叫驗證端點。 驗證權杖保留在服務中會快取，沒有持續性。 如果重新啟動服務，它會從乾淨的快取開始。 快取持續時間預設為1小時。 在自訂驗證裝載中，可透過指定另一個保留期間來調整它。

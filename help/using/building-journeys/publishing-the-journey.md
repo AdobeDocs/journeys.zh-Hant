@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 發佈歷程
-description: 瞭解旅程出版
+description: 瞭解歷程發佈
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,15 +15,15 @@ ht-degree: 8%
 
 # 發佈歷程{#concept_mtc_lrt_52b}
 
-你可以在測試旅行的有效性後發佈它。
+您可以在測試歷程的有效性後發佈歷程。
 
-如果需要對已發佈的行程進行修改，則需要建立新版本的行程。 請參閱[此頁面](../building-journeys/journey-versions.md)。當行程為只讀時，您只能修改活動標籤和說明、行程名稱和行程說明。
+如果您需要修改已發佈的歷程，則需要建立歷程的新版本。 請參閱[此頁面](../building-journeys/journey-versions.md)。當歷程為唯讀時，您只能修改活動標籤和說明、歷程名稱和歷程說明。
 
-如果你停止一次旅行，它將永久停止。 旅途中流動的人將永久停止，旅途將停止允許新入口。 如果您需要再次使用該行程，則需要複製並發佈該行程。
+如果您停止歷程，歷程將會永久停止。 歷程中的所有人員將永久停止，且歷程將停止允許新入口。 如果您需要再次使用歷程，則需要複製並發佈。
 
-1. 在發佈您的行程之前，請驗證該行程是否有效且無錯誤。 您將無法發佈帶有錯誤的行程。 請參閱[本節](../about/troubleshooting.md#section_h3q_kqk_fhb)。還建議在發佈前test您的行程。 請參閱[此頁面](../building-journeys/testing-the-journey.md)。
-1. 要發佈行程，請按一下 **[!UICONTROL Publish]** 選項。
+1. 發佈您的歷程之前，請確認其有效且沒有錯誤。 您將無法發佈發生錯誤的歷程。 請參閱[本節](../about/troubleshooting.md#section_h3q_kqk_fhb)。也建議您在發佈前測試您的歷程。 請參閱[此頁面](../building-journeys/testing-the-journey.md)。
+1. 若要發佈歷程，請按一下 **[!UICONTROL Publish]** 選項，位於右上方的下拉式功能表中。
 
    ![](../assets/journeyuc1_18.png)
 
-發佈行程時，它處於只讀模式。
+發佈歷程時，歷程處於唯讀模式。

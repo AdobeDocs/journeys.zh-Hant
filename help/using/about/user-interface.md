@@ -23,7 +23,7 @@ ht-degree: 93%
 
 ## 存取 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-訪問 [!DNL Journey Orchestration]的介面，按一下 **[!UICONTROL App Selector]** 表徵圖，然後按一下 **[!UICONTROL Journey Orchestration]**。
+若要存取 [!DNL Journey Orchestration]的介面，按一下 **[!UICONTROL App Selector]** 圖示，然後在右上方，按一下 **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -55,7 +55,7 @@ ht-degree: 93%
 
 在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 清單中，使用 **[!UICONTROL Creation filters]** 建立篩選器以篩選建立日期和使用者。舉例來說，您可以選擇只顯示您在過去 30 天內建立的事件。
 
-在行程清單中(在 **[!UICONTROL Home]**)，除 **[!UICONTROL Creation filters]**，您還可以根據顯示的行程的狀態、類型和版本(**[!UICONTROL Status and version filters]**)。 類型可以是： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**。 您也可以選擇只顯示使用特定事件、欄位群組或動作（**[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]**）的歷程記錄。**[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。
+在歷程清單中（在下） **[!UICONTROL Home]**)，以及 **[!UICONTROL Creation filters]**，您也可以根據顯示的歷程狀態、型別和版本(**[!UICONTROL Status and version filters]**)。 型別可以是： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**. 您也可以選擇只顯示使用特定事件、欄位群組或動作（**[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]**）的歷程記錄。**[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ ht-degree: 93%
 
 ## 協助工具{#accessibility}
 
-Adobe Journey Optimizer的無障礙設施由Adobe Experience Platform提供：
+Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提供：
 
 * 鍵盤協助工具
 * 顏色對比
@@ -97,7 +97,7 @@ Adobe Journey Optimizer的無障礙設施由Adobe Experience Platform提供：
 
 透過 Adobe Experience Platform 文件[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target="_blank"}。
 
-您可以在Adobe Journey Optimizer使用以下常用鍵盤快捷鍵：
+您可以在Adobe Journey Optimizer中使用這些常見的鍵盤快速鍵：
 
 | 動作 | 快速鍵 |
 | --- | --- |

@@ -15,38 +15,38 @@ ht-degree: 2%
 
 # 時區管理 {#timezone_management}
 
-可在 [屬性](../building-journeys/changing-properties.md) 你的旅程。
+您可在以下位置定義時區： [屬性](../building-journeys/changing-properties.md) 您的歷程。
 
-要訪問「屬性」，請按一下螢幕右上角的鉛筆表徵圖。
+若要存取「屬性」，請按一下畫面右上方的鉛筆圖示。
 
-此時區將用於包含時間元素的行程的每個活動，如：
+此時區將用於包含時間元素的歷程的每個活動，例如：
 
 * [時間條件](../building-journeys/condition-activity.md#time_condition)
 * [日期條件](../building-journeys/condition-activity.md#date_condition)
-* [自定義等待](../building-journeys/wait-activity.md#custom)
+* [自訂等待](../building-journeys/wait-activity.md#custom)
 
-您可以選擇一個時區，或選擇使用用戶配置檔案中定義的時區。
+您可以選取時區，或選擇使用使用者設定檔中定義的時區。
 
 >[!NOTE]
 >
->配置檔案時區與 **時區** 欄位 **首選項詳細資訊** 欄位組。
+>設定檔時區可與 **時區** 欄位存在於 **偏好設定詳細資料** 欄位群組。
 
 ## 定義固定時區 {#fixed-timezone}
 
-時區也可以固定。 清除預定義的時區，然後從下拉清單中選擇一個時區。 如果使用固定的時區，則所有進入行程的個人將使用相同的時區。
+時區也可以固定。 清除預先定義的時區，並從下拉式清單中選取一個時區。 如果您使用固定時區，則所有進入歷程的個人都將使用相同的時區。
 
-為此，請在 **[!UICONTROL Properties]**，選擇時區。
+若要這麼做，請在中 **[!UICONTROL Properties]**，選取時區。
 
 ![](../assets/journey72.png)
 
-## 使用配置檔案定義行程時區 {#timezone-from-profiles}
+## 使用設定檔來定義歷程時區 {#timezone-from-profiles}
 
-如果旅程的入門事件具有命名空間，即此旅程可以到達Adobe Experience Platform的即時客戶概要檔案服務，則您可能希望使用在概要檔案級別定義的時區。 為此，請在 **屬性**&#x200B;選中 **在等待和條件中使用配置檔案時區**。 預設情況下不選中此選項。
+如果歷程的進入事件具有名稱空間，這表示歷程可以到達Adobe Experience Platform的即時客戶設定檔服務，您可能會想要使用設定檔層級定義的時區。 若要這麼做，請在中 **屬性**，檢查 **在等待和條件中使用設定檔時區**. 依預設，此選項未核取。
 
-如果已為配置檔案定義了時區，則該時區將被行程檢索並使用。 如果沒有，則使用的時區將是時區欄位中定義的時區。
+如果為設定檔定義了時區，則會擷取該時區並由歷程使用。 如果沒有，使用的時區將會是時區欄位中定義的時區。
 
 ![](../assets/journey73.png)
 
-## 在表達式中使用時區 {#timezone-in-expressions}
+## 在運算式中使用時區 {#timezone-in-expressions}
 
-行程的起始日期和終止日期不能連結到特定時區。 它們會自動與實例的時區關聯。
+歷程的開始和結束日期無法連結至特定時區。 它們會自動與執行個體的時區相關聯。

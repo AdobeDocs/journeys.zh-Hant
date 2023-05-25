@@ -15,7 +15,7 @@ ht-degree: 18%
 
 # matchRegExp {#matchRegExp}
 
-如果第一個參數中的字串與第二個參數中的規則運算式匹配，則返回true。 有關詳細資訊，請參見 [此頁](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)。
+如果第一個引數中的字串符合第二個引數中的規則運算式，則傳回true。 如需詳細資訊，請參閱 [此頁面](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## 類別
 
@@ -32,14 +32,14 @@ ht-degree: 18%
 | 字串 | 字串 |
 | regexp | 字串 |
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `matchRegExp(<string>,<string>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
 `matchRegExp("username@adobe.com", "*adobe")`
 
-返回true。
+傳回true。

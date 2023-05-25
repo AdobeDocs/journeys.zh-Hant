@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 條件指令（如果，則，else）
-description: 瞭解條件指令
+title: 條件式指令(if、then、else)
+description: 瞭解條件式指令
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# 條件指令（如果，則，else） {#section_cdz_lsk_w3b}
+# 條件式指令(if、then、else) {#section_cdz_lsk_w3b}
 
-在高級編輯器中支援條件指令（如果，則為else）。 它允許定義更複雜的表達式。 它由下列元素組成：
+進階編輯器支援條件式指令(if、then、else)。 它可讓您定義更複雜的運算式。 它由下列元素組成：
 
-* **[!UICONTROL if]**:要首先評估的條件。
-* **[!UICONTROL then]**:條件評估結果為真時要計算的表達式。
-* **[!UICONTROL else]**:條件評估結果為false時要計算的表達式。
+* **[!UICONTROL if]**：要先評估的條件。
+* **[!UICONTROL then]**：條件評估結果為true時要評估的運算式。
+* **[!UICONTROL else]**：條件評估結果為false時要評估的運算式。
 
 >[!NOTE]
 >
->所有表達式的周圍都需要括弧。
+>所有運算式都必須加上括弧。
 
 ```json
 if  (<expression1>)
@@ -33,9 +33,9 @@ else
    (<expression3>)
 ```
 
-`<expression1>` 必須返回 **布爾**。
+`<expression1>` 必須傳回 **布林值**.
 
-`<expression2>` 和 `<expression3>` 必須具有相同類型或相容類型。 支援的簽名和返回的類型包括：
+`<expression2>` 和 `<expression3>` 必須有相同型別或相容型別。 支援的簽章和傳回的型別包括：
 
 ```json
 boolean,boolean : boolean
@@ -57,9 +57,9 @@ listString,listString : listString
 
 **使用狀況**
 
-條件指令允許您通過減少條件活動數來優化行程工作流。 例如，在同一操作活動中，您只能使用一個條件表達式為欄位定義指定兩個替代方案。
+條件式指示可讓您透過減少條件活動的數量來最佳化歷程工作流程。 例如，在相同動作活動中，您僅需使用一個條件運算式，即可為欄位定義指定兩個替代專案。
 
-操作活動的示例（對於條件指令的結果需要字串的欄位）:
+動作活動的範例（適用於預期字串為條件式指令結果的欄位）：
 
 ```json
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))

@@ -15,18 +15,18 @@ ht-degree: 27%
 
 # journeyStep 事件識別欄位 {#sharing-identity-fields}
 
-此混合是特定於journeyStepEvent的：此事件與journey相關，並且沒有identityMap，無法描述配置檔案標識（如果有）。
+此Mixin專用於journeyStepEvent：此事件與歷程有關，沒有identityMap，無法描述設定檔身分（若有）。
 
-對於journeyStepEvent，我們還需要添加與標識相關的欄位：
+若為journeyStepEvent，我們還需要新增與身分相關的欄位：
 
-## 配置檔案ID
+## profileID
 
-配置檔案標識符
+設定檔識別碼
 
 類型: 字串
 
 ## profileNamespace
 
-配置檔案標識符命名空間
+設定檔識別碼名稱空間
 
 類型: 字串

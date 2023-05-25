@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: lower
-description: 瞭解函式下部
+description: 瞭解下方的函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 23%
 
 # lower {#lower}
 
-返回參數的小寫版本。
+傳回小寫版本的引數。
 
 ## 類別
 
@@ -29,14 +29,14 @@ ht-degree: 23%
 
 * 字串
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `lower(<string>)`
 
-返回字串。
+傳回字串。
 
 ## 範例
 
 `lower("A")`
 
-返回&quot;a&quot;。
+傳回「a」。

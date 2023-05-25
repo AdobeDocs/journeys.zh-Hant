@@ -15,7 +15,7 @@ ht-degree: 22%
 
 # serializeList {#serializeList}
 
-將第一個參數中給定的清單（任何類型）轉換為字串。 第二個參數表示要使用的分隔符。 第三個參數是一個布爾值，指示表達式的每個元素是否應包含引號。
+將第一個引數中指定的清單（任何型別）轉換為字串。 第二個引數代表要使用的分隔符號。 第三個引數是布林值，指出運算式的每個元素是否應該包含引號。
 
 ## 類別
 
@@ -31,17 +31,17 @@ ht-degree: 22%
 |-----------|------------------|
 | 字串 | 字串 |
 | 布林值 | 布林值 |
-| 僅日期時間 | 僅日期時間 |
-| 清單 | 清單字串 |
-| 清單 | list布爾 |
-| 清單 | 清單點 |
-| 清單 | 清單十進位 |
-| 清單 | listDuration（持續時間） |
-| 清單 | 清單日期時間 |
+| DateTimeOnly | DateTimeOnly |
+| 清單 | listString |
+| 清單 | listBoolean |
+| 清單 | listPoint |
+| 清單 | listDecimal |
+| 清單 | listDuration |
+| 清單 | listDateTime |
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `serializeList(<listInteger>,<string>,<boolean>)`
 
@@ -61,14 +61,14 @@ ht-degree: 22%
 
 `serializeList(<listPoint>,<string>,<boolean>)`
 
-返回字串。
+傳回字串。
 
 ## 範例
 
 `serializeList(["Hello","World"], " ", false)`
 
-返回「Hello World」。
+傳回「Hello World」。
 
 `serializeList(["Hello", "World"], ",", true)`
 
-返回「Hello」、「World」。
+傳回「Hello」、「World」。

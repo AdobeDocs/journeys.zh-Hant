@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toBool
-description: 瞭解到Bool的函式
+description: 瞭解函式toBool
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,10 +15,10 @@ ht-degree: 12%
 
 # toBool {#toBool}
 
-根據參數值的類型將參數值轉換為布爾值。
+根據其型別，將引數值轉換為布林值。
 
-* 從字串：嘗試將字串值轉換為布爾值，如果字串值為&quot;true&quot;，則從&quot;true&quot;轉換為false，否則
-* 從數字：如果數值不等於0，則返回true；否則返回false
+* 從字串：嘗試將字串值轉換為布林值，如果字串值為「true」，則從「true」，否則從「false」
+* 從數值：如果數值不等於0，則為true；否則為false
 
 ## 類別
 
@@ -35,7 +35,7 @@ ht-degree: 12%
 * 字串
 * 整數
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `toBool(<decimal>)`
 
@@ -45,7 +45,7 @@ ht-degree: 12%
 
 `toBool(<integer>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
@@ -53,8 +53,8 @@ ht-degree: 12%
 
 `toBool(1)`
 
-返回true。
+傳回true。
 
 `toBool("this is not a boolean")`
 
-返回false。
+傳回false。

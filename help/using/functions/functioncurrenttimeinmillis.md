@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 當前時間
+title: currentTimeInMillis
 description: 瞭解函式currentTimeInMillis
 feature: Journeys
 role: Data Engineer
@@ -13,9 +13,9 @@ ht-degree: 12%
 
 ---
 
-# 當前時間 {#currentTimeInMillis}
+# currentTimeInMillis {#currentTimeInMillis}
 
-返回當前時間（以大紀元毫秒為單位）。
+傳回目前時間（以epoch毫秒為單位）。
 
 ## 類別
 
@@ -27,16 +27,16 @@ ht-degree: 12%
 
 ## 參數
 
-此函式不使用參數。
+此函式不使用引數。
 
-## 簽名和返回的類型
+## 簽章和傳回型別
 
 `currentTimeInMillis()`
 
-返回整數。
+傳回整數。
 
 ## 範例
 
 `currentTimeInMillis()`
 
-返回「1544712617131」。
+傳回「1544712617131」。

@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # equalIgnoreCase {#equalIgnoreCase}
 
-將第一個參數字串與第二個參數字串進行比較，忽略大小寫注意事項。
+比較第一個引數字串與第二個引數字串，忽略大小寫考量。
 
 ## 類別
 
@@ -29,14 +29,14 @@ ht-degree: 19%
 
 * 字串
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `equalIgnoreCase(<string>,<string>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
 `equalIgnoreCase("rowing is great", "rowing is GREAT")`
 
-返回true。
+傳回true。

@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # sort {#sort}
 
-按自然順序對值或對象清單進行排序。
+以自然順序排序值清單或物件。
 
 ## 類別
 
@@ -29,43 +29,43 @@ ht-degree: 9%
 
 | 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
-| 清單排序 | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 清單進行排序。 對於listObject，它必須是欄位引用。 |
-| keyAttributeName | 字串 | 此參數僅用於listObject。 給定清單對象中的屬性名稱用作排序的鍵。 |
-| 排序順序 | 布林值 | 升序(true)或降序(false) |
+| listToSort | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要排序的清單。 對於listObject，它必須是欄位參考。 |
+| keyAttributeName | 字串 | 此引數僅適用於listObject。 給定清單的物件中的屬性名稱會用作排序的索引鍵。 |
+| sortingOrder | 布林值 | 遞增(true)或遞減(false) |
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `sort(<listInteger>,<boolean>)`
 
-返回整數清單。
+傳回整數清單。
 
 `sort(<listDecimal>,<boolean>)`
 
-返回小數位清單。
+傳回小數點清單。
 
 `sort(<listString>,<boolean>)`
 
-返回字串清單。
+傳回字串清單。
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-返回不考慮時區的日期時間清單。
+傳回日期時間清單，不考慮時區。
 
 `sort(<listDateTime>,<boolean>)`
 
-返回日期時間清單。
+傳回日期時間清單。
 
 `sort(<listDateOnly>,<boolean>)`
 
-返回日期清單。
+傳回日期清單。
 
 `sort(<listBoolean>,<boolean>)`
 
-返回布爾值清單。
+傳回布林值清單。
 
 `sort(<listObject>,<string>,<boolean>)`
 
-返回對象清單。
+傳回物件清單。
 
 ## 範例
 

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inNextYears
-description: 瞭解下一年的功能
+description: 瞭解函式inNextYears
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inNextYears {#inNextYears}
 
-如果給定日期或dateTime介於現在和現在+增量年間，則返回true。
+如果指定的日期或dateTime介於現在和現在+差異年度之間，則傳回true。
 
 ## 類別
 
@@ -29,17 +29,17 @@ ht-degree: 20%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 日期時間 | 日期時間 |
-| 三角 | 整數 |
+| 日期時間 | dateTime |
+| delta | 整數 |
 
-## 簽名和返回的類型
+## 簽章和傳回型別
 
 `inNextYears(<dateTime>,<integer>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
 `inNextYears(toDateTime('2021-12-12T01:11:00Z'), 4)`
 
-返回true。
+傳回true。

@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # limit {#limit}
 
-返回清單的第一個或最後一個N元素。
+傳回清單的第一個或最後的N個元素。
 
 ## 類別
 
@@ -29,56 +29,56 @@ ht-degree: 9%
 
 | 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
-| 清單至進程 | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 清單進行排序。 對於listObject，它必須是欄位引用。 |
-| 項目數 | 整數 | 要從給定清單返回的項數。 |
-| firstOrLastItems | 布林值 | 此參數是可選的（預設為true）。 true將返回第一個項。 false返回最後一個項。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要排序的清單。 對於listObject，它必須是欄位參考。 |
+| 專案數 | 整數 | 要從指定清單傳回的專案數。 |
+| firstOrLastItems | 布林值 | 此引數為選用（預設為true）。 true會傳回第一個專案。 false會傳回最後一個專案。 |
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `limit(<listString>,<integer>)`
 `limit(<listString>,<integer>,<boolean>)`
 
-返回字串清單。
+傳回字串清單。
 
 `limit(<listInteger>,<integer>)`
 `limit(<listInteger>,<integer>,<boolean>)`
 
-返回整數清單。
+傳回整數清單。
 
 `limit(<listDecimal>,<integer>)`
 `limit(<listDecimal>,<integer>,<boolean>)`
 
-返回小數位清單。
+傳回小數點清單。
 
 `limit(<listBoolean>,<integer>)`
 `limit(<listBoolean>,<integer>,<boolean>)`
 
-返回布爾值清單。
+傳回布林值清單。
 
 `limit(<listDateOnly>,<integer>)`
 `limit(<listDateOnly>,<integer>,<boolean>)`
 
-返回日期清單。
+傳回日期清單。
 
 `limit(<listDateTimeOnly>,<integer>)`
 `limit(<listDateTimeOnly>,<integer>,<boolean>)`
 
-返回不考慮時區的日期時間清單。
+傳回日期時間清單，不考慮時區。
 
 `limit(<listDateTime>,integer>)`
 `limit(<listDateTime>,<integer>,<boolean>)`
 
-返回日期時間清單。
+傳回日期時間清單。
 
 `limit(<listDuration>,<integer>)`
 `limit(<listDuration>,<integer>,<boolean>)`
 
-返回持續時間清單。
+傳回持續時間清單。
 
 `limit(<listObject>,<integer>)`
 `limit(<listObject>,<integer>,<boolean>)`
 
-返回對象清單。
+傳回物件清單。
 
 ## 範例
 

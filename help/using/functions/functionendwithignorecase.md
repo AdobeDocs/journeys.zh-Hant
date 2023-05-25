@@ -15,7 +15,7 @@ ht-degree: 18%
 
 # endWithIgnoreCase {#endWithIgnoreCase}
 
-檢查第一個參數字串是否以特定字串結尾（第二個參數字串），而不考慮大小寫。
+檢查第一個引數字串是否以特定字串（第二個引數字串）結尾，而不考慮大小寫。
 
 ## 類別
 
@@ -30,16 +30,16 @@ ht-degree: 18%
 | 參數 | 類型 |
 |-----------|------------------|
 | 字串 | 字串 |
-| 尾碼 | 字串 |
+| 字尾 | 字串 |
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `endWithIgnoreCase(<string>,<string>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
 `endWithIgnoreCase("rowing is great", "AT")`
 
-返回true。
+傳回true。

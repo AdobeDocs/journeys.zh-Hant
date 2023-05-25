@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: upper
-description: 瞭解函式上部
+description: 瞭解函式上限
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 17%
 
 # upper {#upper}
 
-返回參數的大寫版本。
+傳回引數的大寫版本。
 
 ## 類別
 
@@ -25,14 +25,14 @@ ht-degree: 17%
 
 `upper(<parameters>)`
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `upper(<string>)`
 
-返回字串。
+傳回字串。
 
 ## 範例
 
 `upper("b")`
 
-返回&quot;B&quot;。
+傳回「B」。

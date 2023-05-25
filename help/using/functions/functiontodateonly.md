@@ -15,7 +15,7 @@ ht-degree: 21%
 
 # toDateOnly{#toDateOnly}
 
-將參數值轉換為僅日期值。
+將引數值轉換為僅日期值。
 
 ## 類別
 
@@ -29,19 +29,19 @@ ht-degree: 21%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| ISO-8601或「YYYY-MM-DD」格式的日期（XDM日期格式） | 字串 |
+| ISO-8601或&quot;YYYY-MM-DD&quot;格式的日期（XDM日期格式） | 字串 |
 | 日期 | 日期 |
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `toDateOnly(<date>)`
 
 `toDateOnly(<string>)`
 
-返回不考慮時區的日期時間。
+傳回日期時間而不考慮時區。
 
 ## 範例
 
 `toDateOnly("2016-08-18")`
 
-返回表示2016-08-18的dateOnly對象。
+傳回代表2016-08-18的dateOnly物件。

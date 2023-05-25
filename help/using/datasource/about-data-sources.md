@@ -44,13 +44,13 @@ ht-degree: 84%
 >
 >資料來源設定一律會由&#x200B;**技術使用者**&#x200B;執行。
 
-1. 在菜單窗格中，選擇 **[!UICONTROL Admin]**。 在 **[!UICONTROL Data sources]** 區段，按一下 **[!UICONTROL Manage]**。
+1. 在功能表窗格中，選取 **[!UICONTROL Admin]**. 在 **[!UICONTROL Data sources]** 區段，按一下 **[!UICONTROL Manage]**。
 
-   畫面隨即顯示資料來源。請參閱 [此頁](../about/user-interface.md) 的上界。
+   畫面隨即顯示資料來源。另請參閱 [此頁面](../about/user-interface.md) 以取得介面的詳細資訊。
 
    ![](../assets/journey18.png)
 
-1. 然後，您可以將欄位組添加到內置資料源(請參見 [此頁](../datasource/adobe-experience-platform-data-source.md))或建立新的外部資料源(請參見 [此頁](../datasource/external-data-sources.md))和關聯的欄位組(請參見 [此頁](../datasource/field-groups.md))。
+1. 然後，您就可以將欄位群組新增至內建的資料來源(請參閱 [此頁面](../datasource/adobe-experience-platform-data-source.md))或建立新的外部資料來源(請參閱 [此頁面](../datasource/external-data-sources.md))和相關聯的欄位群組(請參閱 [此頁面](../datasource/field-groups.md))。
 
    ![](../assets/journey23.png)
 

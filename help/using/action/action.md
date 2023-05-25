@@ -24,21 +24,21 @@ ht-degree: 82%
 
 自訂動作可讓您設定協力廠商系統的連線，以傳送訊息或 API 呼叫。您可以使用任何提供者提供的任何服務來設定動作，這些服務可透過具有 JSON 格式的裝載，透過 REST API 進行呼叫。
 
-這些操作可在您行程的左側調色板中使用。 **[!UICONTROL Action]** 的子菜單。 請參閱[此頁面](../building-journeys/about-action-activities.md)。
+這些動作會顯示在您歷程的左側浮動視窗中，位於 **[!UICONTROL Action]** 類別。 請參閱[此頁面](../building-journeys/about-action-activities.md)。
 
 >[!NOTE]
 >
 >自訂動作的設定一律由&#x200B;**技術使用者**&#x200B;執行。
 
-在 **Actions** 清單中，您可以按下 C 鍵以建立新的歷程、動作、資料來源或事件。有關中快捷方式的詳細資訊 [!DNL Journey Orchestration]，請參閱 [此部分](../about/user-interface.md#section_ksq_zr1_ffb)。
+在 **Actions** 清單中，您可以按下 C 鍵以建立新的歷程、動作、資料來源或事件。如需捷徑的詳細資訊，請參閱 [!DNL Journey Orchestration]，請參閱 [本節](../about/user-interface.md#section_ksq_zr1_ffb).
 
-若要檢查動作清單或要設定新動作，請按一下頂端功能表的 **[!UICONTROL Actions]**，畫面隨即顯示動作清單。請參閱 [此頁](../about/user-interface.md) 的上界。
+若要檢查動作清單或要設定新動作，請按一下頂端功能表的 **[!UICONTROL Actions]**，畫面隨即顯示動作清單。另請參閱 [此頁面](../about/user-interface.md) 以取得介面的詳細資訊。
 
 ![](../assets/custom1.png)
 
 如果您有 Adobe Campaign Standard，則需要使用 Adobe Campaign Standard 的「交易訊息」功能來設定立即可用的動作，以便傳送電子郵件、推播通知和簡訊。請參見[此頁面](../action/working-with-adobe-campaign.md)。
 
-如果您有Adobe Campaignv7或v8，可應要求提供整合。 請參見[此頁面](../action/acc-action.md)。
+如果您有Adobe Campaign v7或v8，可應要求提供整合。 請參見[此頁面](../action/acc-action.md)。
 
 如果您使用協力廠商系統來傳送訊息，例如 Epsilon、Facebook、Adobe.io、Firebase 等等，則需要新增和設定自訂動作。請參見[此頁面](../action/about-custom-action-configuration.md)。
 

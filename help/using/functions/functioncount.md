@@ -15,7 +15,7 @@ ht-degree: 30%
 
 # count {#count}
 
-計數清單的元素，而不考慮空值。
+計算清單的元素而不考慮null值。
 
 ## 類別
 
@@ -29,23 +29,23 @@ ht-degree: 30%
 
 | 參數 | 類型 |
 |-----------|------------------|
-| 清單 | 清單字串 |
-| 清單 | list布爾 |
+| 清單 | listString |
+| 清單 | listBoolean |
 | 清單 | listInteger |
-| 清單 | 清單十進位 |
-| 清單 | listDuration（持續時間） |
-| 清單 | 清單日期時間 |
+| 清單 | listDecimal |
+| 清單 | listDuration |
+| 清單 | listDateTime |
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 
-## 簽名和返回的類型
+## 簽章和傳回型別
 
 `count(<listAny>)`
 
-返回整數。
+傳回整數。
 
 ## 範例
 
 `count([10,2,10,null])`
 
-返回3。
+傳回3。

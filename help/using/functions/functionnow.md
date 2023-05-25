@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: now
-description: 立即瞭解該功能
+description: 立即瞭解函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 18%
 
 # now {#now}
 
-以日期時間格式返回當前日期。 有關資料類型的詳細資訊，請參閱 [此頁](../expression/data-types.md)。
+以日期時間格式傳回目前日期。 如需資料型別的詳細資訊，請參閱 [此頁面](../expression/data-types.md).
 
 ## 類別
 
@@ -31,24 +31,24 @@ ht-degree: 18%
 |--- |--- |
 | 字串 |  |
 
-## 簽名和返回的類型
+## 簽章和傳回型別
 
 `now()`
 
 `now("<timeZone id>")`
 
-返回dateTime。
+傳回日期時間。
 
 ## 範例
 
 `now()`
 
-返回2019-06-03T06:30Z。
+傳回2019-06-03T06:30Z。
 
 `toString(now())`
 
-返回「2019-06-03T06:30Z」
+傳回「2019-06-03T06:30Z」
 
 `now("Europe/Paris")`
 
-返回2019-06-03T08:30+02:00。
+傳回2019-06-03T08:30+02:00。

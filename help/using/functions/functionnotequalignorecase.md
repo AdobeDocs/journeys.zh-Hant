@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # notEqualIgnoreCase {#notEqualIgnoreCase}
 
-檢查帶有第二個參數字串的第一個參數字串是否不同，忽略大小寫注意事項。
+檢查第一個引數字串與第二個引數字串是否不同，忽略大小寫考量。
 
 ## 類別
 
@@ -29,11 +29,11 @@ ht-degree: 13%
 
 * 字串
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `notEqualIgnoreCase(<string>,<string>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 

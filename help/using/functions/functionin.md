@@ -15,9 +15,9 @@ ht-degree: 19%
 
 # 在  {#in}
 
-檢查清單中是否有第一個參數值。 檢查通過每個參數值上的Equal來執行。 如果找到參數值，則返回true，否則返回false。
+檢查第一個引數值是否在清單中。 檢查會透過每個引數值上的「等於」來執行。 如果找到引數值，則會傳回true，否則會傳回false。
 
-類型 `<expression>` 必須與清單項匹配。 清單中項的類型（作為提醒）必須相互匹配。
+型別 `<expression>` 必須與清單專案相符。 作為提醒，清單的專案型別必須彼此相符。
 
 ## 類別
 
@@ -34,20 +34,20 @@ ht-degree: 19%
 | 字串 | 字串 |
 | 布林值 | 布林值 |
 | 整數 | 整數 |
-| 十進位 | 十進位 |
+| 小數 | 小數 |
 | 持續時間 | 持續時間 |
 | 日期時間 | 日期時間 |
-| 僅日期時間 | 僅日期時間 |
-| 清單 | 清單字串 |
-| 清單 | list布爾 |
+| DateTimeOnly | DateTimeOnly |
+| 清單 | listString |
+| 清單 | listBoolean |
 | 清單 | listInteger |
-| 清單 | 清單十進位 |
-| 清單 | listDuration（持續時間） |
-| 清單 | 清單日期時間 |
+| 清單 | listDecimal |
+| 清單 | listDuration |
+| 清單 | listDateTime |
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
 `in(<integer>,<listInteger>)`
 
@@ -65,16 +65,16 @@ ht-degree: 19%
 
 `in(<duration>,<listDuration>)`
 
-返回布爾值。
+傳回布林值。
 
 ## 範例
 
 `in(4,[4,5,3,4])`
 
-返回true。
+傳回true。
 
 `in(8,[4,5,3,4])`
 
-返回false。
+傳回false。
 
 `in(#{ExperiencePlatform.ProfileFieldGroup.profile.person.gender}, ["male"])`

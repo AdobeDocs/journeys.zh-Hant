@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 關於歷程報告
-description: 瞭解如何構建行程報告
+description: 瞭解如何建立您的歷程報告
 feature: Journeys
 role: User
 level: Intermediate
@@ -17,98 +17,98 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->只有在您具有Adobe Campaign Standard時，才會填充交付資料和段元件。
+>只有在您有Adobe Campaign Standard的情況下，才會填入傳遞資料和區段元件。
 
-本節將介紹如何訪問和使用報告來衡量您的旅程的有效性。
+本節將說明如何存取及使用報表來測量歷程的成效。
 
 ## 報告介面 {#reporting-interface}
 
-例如，頂部工具欄允許您修改、保存或打印報表。
+例如，頂端工具列可讓您修改、儲存或列印報表。
 
 ![](../assets/dynamic_report_toolbar.png)
 
-使用 **[!UICONTROL Project]** 頁籤：
+使用 **[!UICONTROL Project]** 按Tab鍵以：
 
-* **[!UICONTROL Open]**:開啟以前建立的報告或模板。
-* **[!UICONTROL Save As]**:複製模板以便能夠修改它們。
-* **[!UICONTROL Refresh project]**:根據新資料和對篩選器的更改更新報告。
-* **[!UICONTROL Download CSV]**:將報告導出為CSV檔案。
-* **[!UICONTROL Print]**:打印報告。
+* **[!UICONTROL Open]**：開啟先前建立的報表或範本。
+* **[!UICONTROL Save As]**：複製範本以便修改。
+* **[!UICONTROL Refresh project]**：根據新資料和篩選器的變更來更新您的報表。
+* **[!UICONTROL Download CSV]**：將報表匯出至CSV檔案。
+* **[!UICONTROL Print]**：列印您的報表。
 
-的 **[!UICONTROL Edit]** 頁籤
+此 **[!UICONTROL Edit]** 索引標籤可讓您：
 
-* **[!UICONTROL Undo]**:取消儀表板上的上一操作。
-* **[!UICONTROL Redo]**:取消上次 **[!UICONTROL Undo]** 操作。
-* **[!UICONTROL Clear all]**:刪除儀表板上的每個面板。
+* **[!UICONTROL Undo]**：取消您在控制面板上的上一個動作。
+* **[!UICONTROL Redo]**：取消您的最後一個 **[!UICONTROL Undo]** 動作。
+* **[!UICONTROL Clear all]**：刪除控制面板上的每個面板。
 
-的 **[!UICONTROL Insert]** 表：通過將圖形和表添加到面板來定制報表：
+此 **[!UICONTROL Insert]** 表格可讓您藉由將圖表和表格新增至控制面板來自訂報表：
 
-* **[!UICONTROL New Blank Panel]**:將新的空白麵板添加到儀表板。
-* **[!UICONTROL New Freeform]**:將新的自由形式表格添加到操控板。
-* **[!UICONTROL New Line]**:將新線形圖添加到儀表板。
-* **[!UICONTROL New Bar]**:將新條形圖添加到儀表板。
+* **[!UICONTROL New Blank Panel]**：新增空白面板至您的儀表板。
+* **[!UICONTROL New Freeform]**：新增自由表格至您的儀表板。
+* **[!UICONTROL New Line]**：新增折線圖至您的儀表板。
+* **[!UICONTROL New Bar]**：新增橫條圖至您的儀表板。
 
-左側的頁籤允許您生成報告並根據需要篩選資料。
+左側標籤可讓您建立報告並視需要篩選資料。
 
 ![](../assets/dynamic_report_interface.png)
 
-這些頁籤允許您訪問以下項目：
+這些標籤可讓您存取下列專案：
 
-* **[!UICONTROL Panels]**:將空白麵板或自由格式添加到報表以開始篩選資料。 有關詳細資訊，請參閱 [添加面板](../reporting/creating-your-journey-reports.md#adding-panels) 節
-* **[!UICONTROL Visualizations]**:拖放選定的可視化項目，為報表提供圖形尺寸。 有關詳細資訊，請參閱 [添加可視化效果](../reporting/creating-your-journey-reports.md#adding-visualizations) 的子菜單。
-* **[!UICONTROL Components]**:使用不同的維度、度量、段和時段自定義報表。 有關詳細資訊，請參閱 [添加元件](../reporting/creating-your-journey-reports.md#adding-components) 的子菜單。
+* **[!UICONTROL Panels]**：新增空白面板或自由格式至您的報表，以開始篩選資料。 如需詳細資訊，請參閱 [新增面板](../reporting/creating-your-journey-reports.md#adding-panels) 區段
+* **[!UICONTROL Visualizations]**：拖放選取的視覺效果專案，為您的報表提供圖形維度。 如需詳細資訊，請參閱 [新增視覺效果](../reporting/creating-your-journey-reports.md#adding-visualizations) 區段。
+* **[!UICONTROL Components]**：使用不同的維度、量度、區段和時段來自訂報表。 如需詳細資訊，請參閱 [新增元件](../reporting/creating-your-journey-reports.md#adding-components) 區段。
 
-## 行程摘要模板 {#ootb-template}
+## 歷程摘要範本 {#ootb-template}
 
-報告分為兩類：現成模板和自定義報告。
-現成模板， **[!UICONTROL Journey summary]**，可以清楚地查看最重要的跟蹤資料。
+報告分為兩個類別：現成可用的範本和自訂報告。
+現成可用的範本， **[!UICONTROL Journey summary]**，可讓您清楚地檢視最重要的追蹤資料。
 
 ![](../assets/dynamic_report_journey_8.png)
 
-每個表都由摘要數字和圖表表示。 您可以更改詳細資訊在其各自的可視化設定中的顯示方式。
+每個表格都以摘要數字和圖表表示。 您可以變更詳細資訊在其各自視覺效果設定中的顯示方式。
 
-以下KPI可在報表頂部使用：
+報表頂端提供下列KPI：
 
-* **[!UICONTROL Journey - Entered]**:到達旅程的入門事件的個人總數。
-* **[!UICONTROL Journey - Completion rate]**:到達行程終點的個人總數（或當個人不符合任何條件時）與進入行程的個人總數之比。
-* **[!UICONTROL Journey - Current]**:當前在旅途中的個人總數。
-* **[!UICONTROL Journey - Failed rate]**:未成功執行的行程總數與運行行程總數相比。
-* **[!UICONTROL Delivery - Messages sent]**:發送的消息總數。
-* **[!UICONTROL Delivery rate]**:與發送的消息相比，成功傳遞的消息總數。
-* **[!UICONTROL Delivery - Bounce rate]**:與發送的消息相比，跳轉的消息總數。
-* **[!UICONTROL Delivery - Unsubscribed rate]**:與已傳遞郵件相比，收件人未訂閱的總數。
-* **[!UICONTROL Delivery - Open rate]**:與已傳遞郵件數相比，已開啟郵件總數。
-* **[!UICONTROL Delivery - Click rate]**:傳遞中的點擊總數與傳遞的郵件數相比。
+* **[!UICONTROL Journey - Entered]**：到達歷程進入事件的個人總數。
+* **[!UICONTROL Journey - Completion rate]**：已到達歷程結束的個人總數（或如果個人不符合任何條件），與進入歷程的個人總數比較。
+* **[!UICONTROL Journey - Current]**：目前歷程中的個人總數。
+* **[!UICONTROL Journey - Failed rate]**：與執行歷程數相比，未成功執行的歷程總數。
+* **[!UICONTROL Delivery - Messages sent]**：已傳送的訊息總數。
+* **[!UICONTROL Delivery rate]**：與已傳送的訊息相比，成功傳送的訊息總數。
+* **[!UICONTROL Delivery - Bounce rate]**：與已傳送的訊息相比，跳出的訊息總數。
+* **[!UICONTROL Delivery - Unsubscribed rate]**：收件者與已傳送訊息相比的取消訂閱總數。
+* **[!UICONTROL Delivery - Open rate]**：已開啟的訊息總數，與已傳遞的訊息數比較。
+* **[!UICONTROL Delivery - Click rate]**：與已傳送訊息數量相較的傳送中點按總數。
 
-Journey流可視化允許您逐步查看目標配置檔案的路徑。 這隻適用於一次行程。 它是自動生成的，無法修改。
+歷程流量視覺效果可讓您檢視目標設定檔在歷程中的逐步路徑。 這僅在鎖定一個歷程時可用。 這會自動產生，且無法修改。
 
 ![](../assets/dynamic_report_journey_10.png)
 
-的 **[!UICONTROL Journey summary]** 表包含可用於行程的資料，例如：
+此 **[!UICONTROL Journey summary]** 表格包含可用於您歷程的資料，例如：
 
-* **[!UICONTROL Entered]**:到達旅程的入門事件的個人總數。
-* **[!UICONTROL Completion rate]**:到達行程的最終流控制的個人總數，與進入行程的個人總數相比。
-* **[!UICONTROL Current]**:當前在旅途中的個人總數。
-* **[!UICONTROL Failed]**:未成功執行的行程總數。
-* **[!UICONTROL Failed rate]**:未成功執行的行程總數與運行行程總數相比。
+* **[!UICONTROL Entered]**：到達歷程進入事件的個人總數。
+* **[!UICONTROL Completion rate]**：與進入歷程的個人總數相比，達到歷程的結束流量控制的個人總數。
+* **[!UICONTROL Current]**：目前歷程中的個人總數。
+* **[!UICONTROL Failed]**：未成功執行的歷程總數。
+* **[!UICONTROL Failed rate]**：與執行歷程數相比，未成功執行的歷程總數。
 
-的 **[!UICONTROL Top events]** 表顯示最成功的事件， **[!UICONTROL Top action]**&#x200B;是你旅途中最成功的行動。
+此 **[!UICONTROL Top events]** 表格會顯示最成功的事件，以及 **[!UICONTROL Top action]**，此元件為歷程中最成功的動作。
 
 ![](../assets/dynamic_report_journey_11.png)
 
-的 **[!UICONTROL Delivery - Sending summary]** 表包含可用於行程交貨的資料，例如：
+此 **[!UICONTROL Delivery - Sending summary]** 此表格包含可用於您歷程傳送的資料，例如：
 
-* **[!UICONTROL Processed/sent]**:發送的消息總數。
-* **[!UICONTROL Delivered rate]**:與發送的消息相比，成功傳遞的消息總數。
-* **[!UICONTROL Delivered]**:成功發送的消息數，與已發送的消息總數相關。
-* **[!UICONTROL Bounce + error rate]**:與發送的消息相比，跳轉的消息總數。
-* **[!UICONTROL Bounces + errors]**:在傳遞和自動返回處理期間累積的與已發送消息總數有關的錯誤總數。
+* **[!UICONTROL Processed/sent]**：已傳送的訊息總數。
+* **[!UICONTROL Delivered rate]**：與已傳送的訊息相比，成功傳送的訊息總數。
+* **[!UICONTROL Delivered]**：成功傳送的訊息數，與已傳送訊息總數相關。
+* **[!UICONTROL Bounce + error rate]**：與已傳送的訊息相比，跳出的訊息總數。
+* **[!UICONTROL Bounces + errors]**：與已傳送訊息總數相關的傳送和自動傳回處理期間累計的錯誤總數。
 
-的 **[!UICONTROL Delivery - Tracking summary]** 表包含用於跟蹤您的行程交付成功的資料，例如：
+此 **[!UICONTROL Delivery - Tracking summary]** 此表格包含可用於追蹤歷程傳送成功與否的資料，例如：
 
-* **[!UICONTROL Open Rate]**:已開啟郵件的百分比。
-* **[!UICONTROL Open]**:在傳遞中開啟消息的次數。
-* **[!UICONTROL Click trough rate]**:傳遞中的點擊總數與傳遞的郵件數相比。
-* **[!UICONTROL Click]**:在傳遞中按一下內容的次數。
-* **[!UICONTROL Unsubscribe rate]**:接收方未訂閱與已傳遞郵件的百分比。
-* **[!UICONTROL Unsubscribed]**:與已傳遞郵件相比，收件人未訂閱的總數。
+* **[!UICONTROL Open Rate]**：已開啟訊息的百分比。
+* **[!UICONTROL Open]**：在傳遞中開啟訊息的次數。
+* **[!UICONTROL Click trough rate]**：與已傳送訊息數量相較的傳送中點按總數。
+* **[!UICONTROL Click]**：內容在傳遞中的點按次數。
+* **[!UICONTROL Unsubscribe rate]**：收件者相對於已傳遞訊息的取消訂閱百分比。
+* **[!UICONTROL Unsubscribed]**：收件者與已傳送訊息相比的取消訂閱總數。

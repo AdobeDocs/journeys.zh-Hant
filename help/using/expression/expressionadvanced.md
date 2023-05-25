@@ -57,9 +57,9 @@ _進階運算式編輯器介面_
 在畫面左側，會顯示可用的欄位和函式：
 
 * **[!UICONTROL Events]**：從入站事件接收的其中一個欄位。顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。[閱讀全文](../event/about-events.md)
-* **[!UICONTROL Segments]**:如果你掉了 **[!UICONTROL Segment qualification]** 事件，選擇要在表達式中使用的段。 [閱讀全文](../segment/using-a-segment.md)
+* **[!UICONTROL Segments]**：如果您已卸除 **[!UICONTROL Segment qualification]** 事件，選擇您要在運算式中使用的區段。 [閱讀全文](../segment/using-a-segment.md)
 * **[!UICONTROL Data Sources]**：從資料來源欄位群組中的可用欄位清單中選擇。[閱讀全文](../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**:本節將為給定配置檔案重新分組與行程相關的技術欄位。 [閱讀全文](../expression/journey-properties.md)
+* **[!UICONTROL Journey properties]**：本節會對特定設定檔中與歷程相關的技術欄位進行重新分組。 [閱讀全文](../expression/journey-properties.md)
 * **[!UICONTROL Functions]**：從可執行複雜篩選的內建函式清單中選擇。函式會依類別組織。[閱讀全文](../expression/functions.md)
 
 ![](../assets/journey65.png)
@@ -74,7 +74,7 @@ _進階運算式編輯器介面_
 
 **使用進階運算式編輯器建立條件時，需要使用參數**
 
-如果從外部資料源中選擇一個需要調用參數的欄位(請參見 [此頁](../datasource/external-data-sources.md)。 例如，在天氣相關資料來源中，常用的參數為 &quot;city&quot;。因此，您必須選擇要取得此城市參數的位置。也可將函式套用至參數，以執行格式變更或串聯。
+如果您從外部資料來源選取欄位，需要呼叫引數(請參閱 [此頁面](../datasource/external-data-sources.md). 例如，在天氣相關資料來源中，常用的參數為 &quot;city&quot;。因此，您必須選擇要取得此城市參數的位置。也可將函式套用至參數，以執行格式變更或串聯。
 
 ![](../assets/journeyuc2_19.png)
 

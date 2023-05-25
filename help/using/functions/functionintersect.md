@@ -15,7 +15,7 @@ ht-degree: 12%
 
 # 相交{#intersect}
 
-返回兩個輸入清單中的公用值。 如果兩個清單之一為Null，則返回空清單。
+傳回兩個輸入清單中的通用值。 如果兩個清單之一為Null，則傳回空白清單。
 
 ## 類別
 
@@ -32,18 +32,18 @@ ht-degree: 12%
 | 清單1 | list |
 | 清單2 | list |
 
-## 簽名和返回的類型
+## 簽章和傳回的型別
 
-`intersect(listString,listString)`:清單字串
-`intersect(listDecimal,listDecimal)`:清單十進位
-`intersect(listInteger,listInteger)`:listInteger
-`intersect(listDateTime,listDateTime)`:清單日期時間
-`intersect(listDateTimeOnly,listDateTimeOnly)`:listDateTimeOnly
-`intersect(listDateOnly,listDateOnly)`:listDateOnly
-`intersect(listDuration,listDuration)`:listDuration（持續時間）
-`intersect(listBoolean,listBoolean)`:list布爾
+`intersect(listString,listString)`： listString
+`intersect(listDecimal,listDecimal)`： listDecimal
+`intersect(listInteger,listInteger)`： listInteger
+`intersect(listDateTime,listDateTime)`： listDateTime
+`intersect(listDateTimeOnly,listDateTimeOnly)`： listDateTimeOnly
+`intersect(listDateOnly,listDateOnly)`： listDateOnly
+`intersect(listDuration,listDuration)`： listDuration
+`intersect(listBoolean,listBoolean)`：listBoolean
 
-返回清單。
+傳回清單。
 
 ## 範例
 
@@ -54,7 +54,7 @@ intersect(
 )
 ```
 
-返回 [&quot;體育&quot;、&quot;新聞&quot;]
+傳回 [&quot;sports&quot;， &quot;news&quot;]
 
 ```json
 intersect(
@@ -63,7 +63,7 @@ intersect(
 )
 ```
 
-返回配置檔案屬性和給定類別清單之間的公用項。
+傳回設定檔屬性與指定類別清單之間的通用專案。
 
 ```json
 intersect(
@@ -72,4 +72,4 @@ intersect(
 )
 ```
 
-返回配置檔案屬性和給定事件欄位之間的公用項。
+傳回設定檔屬性和指定事件欄位之間的通用專案。
