@@ -1,16 +1,16 @@
 ---
 product: adobe campaign
 title: 設定API說明上限
-description: 深入瞭解上限API。
+description: 進一步瞭解上限API。
 products: journeys
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
+source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 32%
+source-wordcount: '580'
+ht-degree: 29%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 32%
     "methods": [ "<HTTP method such as GET, POST, >, ...],
     "services": {
         "<service name>": { . //must be "action" or "dataSource" 
-            "maxHttpConnections": <max connections count to the endpoint>
+            "maxHttpConnections": <max connections count to the endpoint (optional)>
             "rating": {          
                 "maxCallsCount": <max calls to be performed in the period defined by period/timeUnit>,
                 "periodInMs": <integer value greater than 0>
@@ -55,6 +55,12 @@ ht-degree: 32%
     }
 }
 ```
+
+>[!IMPORTANT]
+>
+>此 **maxHttpConnections** 引數為選用。 它可讓您限制Journey Optimizer將開啟給外部系統的連線數量。
+>
+>可設定的最大值為400。 如果未指定任何專案，則系統可能會開啟數千個連線，視系統的動態縮放而定。
 
 ### 範例：
 
@@ -66,9 +72,9 @@ ht-degree: 32%
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 30000,
+      "maxHttpConnections": 50,
       "rating": {
-        "maxCallsCount": 5000,
+        "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
@@ -79,7 +85,7 @@ ht-degree: 32%
 
 ## 警告和錯誤
 
-當 **canDeploy** 方法呼叫，該程式會驗證設定並傳回由其唯一ID識別的驗證狀態，其形式為：
+當 **canDeploy** 方法呼叫後，該程式會驗證設定並傳回由其唯一ID識別的驗證狀態，其中之一為：
 
 ```
 "ok" or "error"
@@ -90,21 +96,21 @@ ht-degree: 32%
 * **ERR_ENDPOINTCONFIG_100**：上限設定：遺失或無效的url
 * **ERR_ENDPOINTCONFIG_101**：上限設定：格式錯誤的url
 * **ERR_ENDPOINTCONFIG_102**：上限設定：格式錯誤的url：host：port中不允許url中的wildchar
-* **ERR_ENDPOINTCONFIG_103**：上限設定：遺失HTTP方法
+* **ERR_ENDPOINTCONFIG_103**：上限設定：缺少HTTP方法
 * **ERR_ENDPOINTCONFIG_104**：上限設定：未定義任何通話分級
 * **ERR_ENDPOINTCONFIG_107**：上限設定：無效的最大呼叫計數(maxCallsCount)
 * **ERR_ENDPOINTCONFIG_108**：上限設定：無效的最大呼叫計數(periodInMs)
 * **ERR_ENDPOINTCONFIG_111**：上限設定：無法建立端點設定：無效的承載
-* **ERR_ENDPOINTCONFIG_112**：上限設定：無法建立端點設定：預期JSON裝載
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**：無效的服務名稱 `<!--<given value>-->`：必須為「dataSource」或「action」
+* **ERR_ENDPOINTCONFIG_112**：上限設定：無法建立端點設定：期望JSON裝載
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**：無效的服務名稱 `<!--<given value>-->`：必須是「dataSource」或「action」
 
-可能的警告是：
+可能的警告為：
 
 **ERR_ENDPOINTCONFIG_106**：上限設定：未定義最大HTTP連線：預設無限制
 
 ## 使用案例
 
-在本節中，您將找到五個主要使用案例，您可以執行這些案例來管理您的上限設定，位置在 [!DNL Journey Orchestration].
+在本節中，您將找到五個主要使用案例，您可執行這些案例來管理您的上限設定，位置在 [!DNL Journey Orchestration].
 
 為協助您進行測試和設定，可在[此處](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)取得 Postman 集合。
 
