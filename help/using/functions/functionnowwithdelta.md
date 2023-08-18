@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: nowWithDelta
-description: 瞭解nowWithDelta函式
+description: 瞭解函式nowWithDelta
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -29,11 +29,11 @@ ht-degree: 7%
 
 | 參數 | 說明 |
 |--- |--- |
-| delta | 正整數或負整數 |
-| 日期部分 | 年、月、日、小時、分鐘或秒作為字串 |
-| 時區id | 時區值的字串表示。 如需詳細資訊，請參閱 [資料型別](../expression/data-types.md). 時區ID必須是字串常數。 它不能是欄位參考或運算式。 |
+| delta | 正或負整數值 |
+| 日期部分 | 年、月、日、小時、分鐘或秒做為字串 |
+| 時區id | 時區值的字串表示法。 如需詳細資訊，請參閱 [資料型別](../expression/data-types.md). 時區ID必須是字串常數。 它不能是欄位參考或運算式。 |
 
-## 簽章和傳回型別
+## 簽章與傳回型別
 
 `nowWithDelta(<delta>,<date part>`
 
@@ -47,4 +47,4 @@ ht-degree: 7%
 
 `nowWithDelta(-2, "hours", "Europe/Paris")`
 
-傳回2小時前的日期時間。
+傳回2小時前的dateTime。

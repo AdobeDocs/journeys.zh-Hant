@@ -43,7 +43,7 @@ _進階運算式編輯器介面_
 
 * 建立資料來源條件時，可按一下 **[!UICONTROL Advanced mode]** 以存取進階編輯器。
 
-   ![](../assets/journeyuc2_33.png)
+  ![](../assets/journeyuc2_33.png)
 
 * 建立自訂計時器時，會直接顯示進階編輯器。
 * 對應動作參數時，按一下 **[!UICONTROL Advanced mode]**。
@@ -57,9 +57,9 @@ _進階運算式編輯器介面_
 在畫面左側，會顯示可用的欄位和函式：
 
 * **[!UICONTROL Events]**：從入站事件接收的其中一個欄位。顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。[閱讀全文](../event/about-events.md)
-* **[!UICONTROL Segments]**：如果您已卸除 **[!UICONTROL Segment qualification]** 事件，選擇您要在運算式中使用的區段。 [閱讀全文](../segment/using-a-segment.md)
+* **[!UICONTROL Segments]**：如果您已刪除 **[!UICONTROL Segment qualification]** 事件，選擇您要在運算式中使用的區段。 [閱讀全文](../segment/using-a-segment.md)
 * **[!UICONTROL Data Sources]**：從資料來源欄位群組中的可用欄位清單中選擇。[閱讀全文](../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**：本節會對特定設定檔中與歷程相關的技術欄位進行重新分組。 [閱讀全文](../expression/journey-properties.md)
+* **[!UICONTROL Journey properties]**：本節會對與指定設定檔的歷程相關的技術欄位進行重新分組。 [閱讀全文](../expression/journey-properties.md)
 * **[!UICONTROL Functions]**：從可執行複雜篩選的內建函式清單中選擇。函式會依類別組織。[閱讀全文](../expression/functions.md)
 
 ![](../assets/journey65.png)

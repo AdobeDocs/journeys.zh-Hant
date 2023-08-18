@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inNextMonths {#inNextMonths}
 
-如果指定的日期或日期時間介於現在和現在+差異月份之間，則傳回true。
+如果指定的日期或dateTime介於現在和現在+差異月份之間，則傳回true。
 
 ## 類別
 
@@ -32,7 +32,7 @@ ht-degree: 20%
 | 日期時間 | dateTime |
 | delta | 整數 |
 
-## 簽章和傳回型別
+## 簽章與傳回型別
 
 `inNextMonths(<dateTime>,<integer>)`
 

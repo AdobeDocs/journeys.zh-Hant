@@ -15,7 +15,7 @@ ht-degree: 12%
 
 # journeyStep 事件動作執行欄位 {#sharing-execution-fields}
 
-此mixin將由journeyStepEvent和journeyStepProfileEvent共用。
+此Mixin將由journeyStepEvent和journeyStepProfileEvent共用。
 
 如果步驟有要處理的動作，這些欄位將會新增至事件裝載。
 
@@ -63,18 +63,18 @@ ht-degree: 12%
 
 ## actionExecutionErrorCode
 
-動作執行錯誤的程式碼。 如果錯誤有程式碼（例如HTTP程式碼），則會出現。
+動作執行錯誤的程式碼。 如果錯誤有程式碼（例如HTTP程式碼）則會出現。
 
 類型: 字串
 
 ## actionExecutionOriginError
 
-在以下兩種情況下，可能會發生逾時：
+在兩種情況下，可能會發生逾時：
 
-* 在第一次嘗試時會執行動作。 在此情況下，執行尚未完成，因此沒有基礎錯誤
+* 在第一次嘗試時會執行動作。 在此情況下，執行未完成，因此沒有基礎錯誤
 * 重試：在此情況下，actionExecOrigError/actionExecOrigErrorCode會說明在重試之前嘗試遇到的錯誤。
 
-例如，會傳送電子郵件，而第一次嘗試時會傳回HTTP 500錯誤。 會重試擷取，但2次嘗試的持續時間超過逾時。 然後該動作執行會標籤為逾時。 動作部分看起來會像這樣：
+例如，會傳送電子郵件，而第一次嘗試時會傳回HTTP 500錯誤。 會重試擷取，但嘗試2次的持續時間超過逾時。 之後，該動作執行會被標籤為逾時。 動作部分看起來會像這樣：
 
 ```
     ...
@@ -111,15 +111,15 @@ actionExecOrigError的錯誤碼。
 
 類型: 字串
 
-## deliveryJobID
+## deliveryJobId
 
-這描述了批次歷程的傳遞工作ID。
+此屬性說明批次歷程的傳送工作ID。
 
 類型: 字串
 
-## batchdeliveriyid
+## batchdeliveryid
 
-這描述了批次歷程的傳遞ID。
+此屬性說明批次歷程的傳遞ID。
 
 類型: 字串
 
@@ -131,6 +131,6 @@ actionExecOrigError的錯誤碼。
 
 ## actionSchedulerCount
 
-在步驟處理期間傳送至排程器服務的排程器通知要求計數。
+在步驟處理期間傳送給排程器服務的排程器通知要求計數。
 
 型別： long

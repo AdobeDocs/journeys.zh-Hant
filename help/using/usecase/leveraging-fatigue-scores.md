@@ -12,7 +12,7 @@ ht-degree: 12%
 
 # 善用歷程 AI {#concept_dsh_1ry_wfb}
 
-此使用案例將向您展示如何運用疲勞分數，以避免在您的歷程中過度向客戶提供請求。
+此使用案例會說明如何運用疲勞分數，避免在您的歷程中過度向客戶提供促銷。
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 12%
 
    ![](../assets/journey23.png)
 
-1. 檢查是否選取了使用案例所需的欄位。
+1. 檢查是否選取使用案例所需的欄位。
 1. 按一下 **[!UICONTROL Add a New Field Group]**，選取 **[!UICONTROL Profiles]** 模型並新增 **[!UICONTROL fatigueLevel]** 和 **[!UICONTROL fatigueScore]** 欄位(在 _journeyAI > emailScore >疲勞_)。
 
    ![](../assets/journeyuc3_1.png)
@@ -44,7 +44,7 @@ ht-degree: 12%
 
 在我們的使用案例中，我們運用 **[!UICONTROL fatigueLevel]** 欄位。 您也可以使用 **[!UICONTROL fatigueScore]** 欄位。
 
-執行以下步驟，在您的歷程中運用疲勞層級：
+執行以下步驟來運用歷程中的疲勞層級：
 
 1. 在您的歷程中新增事件和條件。
 
@@ -64,7 +64,7 @@ ht-degree: 12%
    #{ExperiencePlatformDataSource.JourneyAIScores.Profile.journeyAI.emailScore.fatigue.fatigueLevel} == "low"
    ```
 
-1. 在條件中，為中和高疲勞等級建立另外兩個路徑。
+1. 在條件中，為中及高疲勞等級建立另外兩個路徑。
 
    ![](../assets/journeyuc3_4.png)
 

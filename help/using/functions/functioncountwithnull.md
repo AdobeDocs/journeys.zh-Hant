@@ -15,7 +15,7 @@ ht-degree: 32%
 
 # countWithNull {#countWithNull}
 
-計算清單中的所有元素，包括null值。
+計算清單的所有元素，包括null值。
 
 ## 類別
 
@@ -38,7 +38,7 @@ ht-degree: 32%
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `countWithNull(<listAny>)`
 

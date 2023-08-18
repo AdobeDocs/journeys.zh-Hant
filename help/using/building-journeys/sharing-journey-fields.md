@@ -15,7 +15,7 @@ ht-degree: 28%
 
 # 歷程欄位 {#sharing-journey-fields}
 
-此Mixin用於歷程結構描述（與journeyStepEvent相關）。 它包含下列欄位：
+此Mixin用於歷程結構描述中（與journeyStepEvent相關）。 它包含下列欄位：
 
 ## journeyID
 

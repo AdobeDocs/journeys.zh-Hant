@@ -38,7 +38,7 @@ ht-degree: 82%
 
 如果您有 Adobe Campaign Standard，則需要使用 Adobe Campaign Standard 的「交易訊息」功能來設定立即可用的動作，以便傳送電子郵件、推播通知和簡訊。請參見[此頁面](../action/working-with-adobe-campaign.md)。
 
-如果您有Adobe Campaign v7或v8，可應要求提供整合。 請參見[此頁面](../action/acc-action.md)。
+如果您有Adobe Campaign v7或v8，則可應要求使用整合。 請參見[此頁面](../action/acc-action.md)。
 
 如果您使用協力廠商系統來傳送訊息，例如 Epsilon、Facebook、Adobe.io、Firebase 等等，則需要新增和設定自訂動作。請參見[此頁面](../action/about-custom-action-configuration.md)。
 

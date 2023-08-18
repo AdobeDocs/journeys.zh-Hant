@@ -27,7 +27,7 @@ ht-degree: 91%
 >
 >只有當您具有 Adobe Campaign Standard　時，浮動視窗才能使用　**[!UICONTROL Push]**　及 **[!UICONTROL Email]**　活動。
 
-有關如何建立歷程的其他資訊，請參閱 [此頁面](../building-journeys/journey.md).
+如需如何建立歷程的詳細資訊，請參閱 [此頁面](../building-journeys/journey.md).
 
 ## 第一步{#section_ntb_ws1_ffb}
 
@@ -102,7 +102,7 @@ ht-degree: 91%
 
    ![](../assets/journeyuc2_18.png)
 
-1. 當您從外部資料來源選取欄位時，畫面的右側會顯示設定外部資料來源時定義的引數清單(請參閱 [此頁面](../usecase/configuring-the-data-sources.md))。 在範例中，按一下參數名稱並定義訂房系統索引鍵 (Experience Cloud ID) 的值：
+1. 當您從外部資料來源選取欄位時，畫面的右側會顯示設定外部資料來源時所定義的引數清單(請參閱 [此頁面](../usecase/configuring-the-data-sources.md))。 在範例中，按一下參數名稱並定義訂房系統索引鍵 (Experience Cloud ID) 的值：
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -130,9 +130,9 @@ ht-degree: 91%
    * **[!UICONTROL Push platform]**：選取平台：**[!UICONTROL Apple Push Notification Server]** (Apple) 或 **[!UICONTROL Firebase Cloud Messaging]** (Android)。
    * **[!UICONTROL Registration token]**：使用進階模式，新增下列運算式（根據已設定的事件）:
 
-      ```
-      @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
-      ```
+     ```
+     @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+     ```
 
 1. 定義推播通知個人化欄位。在範例中：名字和姓氏。
 

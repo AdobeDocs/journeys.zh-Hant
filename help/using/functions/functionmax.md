@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: max
-description: 瞭解函式max
+description: 瞭解函式最大值
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # max{#max}
 
-傳回一組運算式中的最大值，以清單或兩個運算式形式給出。 Null值會被忽略。
+傳回一組運算式中的最大值，以清單或兩個運算式形式提供。 會忽略Null值。
 
 ## 類別
 
@@ -33,13 +33,13 @@ ht-degree: 7%
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* 持續時間
+* 期間
 * 整數
 * 小數
 * dateTime
 * dateTimeOnly
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `max(<listDuration>)`
 
@@ -51,7 +51,7 @@ ht-degree: 7%
 
 `max(<listDateTimeOnly>)`
 
-傳回不考慮時區的日期時間。
+傳回日期時間，不考慮時區。
 
 `max(<listDateTime>)`
 
@@ -79,7 +79,7 @@ ht-degree: 7%
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-傳回不考慮時區的日期時間。
+傳回日期時間，不考慮時區。
 
 `max(<integer>,<integer>)`
 

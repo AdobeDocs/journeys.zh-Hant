@@ -15,7 +15,7 @@ ht-degree: 12%
 
 # 相交{#intersect}
 
-傳回兩個輸入清單中的通用值。 如果兩個清單之一為Null，則傳回空白清單。
+傳回兩個輸入清單中的通用值。 如果兩個清單之一為空，則會傳回空白清單。
 
 ## 類別
 
@@ -32,7 +32,7 @@ ht-degree: 12%
 | 清單1 | list |
 | 清單2 | list |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `intersect(listString,listString)`： listString
 `intersect(listDecimal,listDecimal)`： listDecimal
@@ -63,7 +63,7 @@ intersect(
 )
 ```
 
-傳回設定檔屬性與指定類別清單之間的通用專案。
+傳回設定檔屬性和指定類別清單之間的通用專案。
 
 ```json
 intersect(

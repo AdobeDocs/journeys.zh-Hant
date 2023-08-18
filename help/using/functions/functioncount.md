@@ -38,7 +38,7 @@ ht-degree: 30%
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 
-## 簽章和傳回型別
+## 簽章與傳回型別
 
 `count(<listAny>)`
 

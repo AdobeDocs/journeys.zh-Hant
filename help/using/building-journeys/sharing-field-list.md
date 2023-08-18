@@ -30,19 +30,19 @@ ht-degree: 18%
 
 ## 歷程
 
-此欄位群組用於歷程綱要（與journeyStepEvent相關）。 它包含下列欄位：
+此欄位群組用於歷程結構描述中（與journeyStepEvent相關）。 它包含下列欄位：
 
 | 欄位名稱 | 類型 | 說明 |
 |---|---|------------|
-| ID | 字串 | 指定歷程的識別碼 |
-| VersionID | 字串 | 歷程版本的ID。 此ID代表歷程的身分 |
-| 名稱 | 字串 | 歷程名稱 |
+| ID | 字串 | 給定歷程的識別碼 |
+| 版本ID | 字串 | 歷程版本的ID。 此ID代表歷程的身分 |
+| 名稱 | 字串 | 歷程的名稱 |
 | 說明 | 字串 | 歷程描述 |
 | version | 字串 | 版本，表示為 `major`.`minor` |
 
 ## 設定檔
 
-此欄位群組是journeyStepEvent的專屬群組：此事件與歷程有關，且沒有identityMap，說明設定檔身分（如有）。
+此欄位群組是journeyStepEvent專屬的：此事件與歷程有關，且沒有identityMap，說明設定檔身分（如有）。
 
 若為journeyStepEvent，我們還需要新增與身分相關的欄位：
 
@@ -62,9 +62,9 @@ ht-degree: 18%
 | exportCountTotal | 整數 | 區段匯出作業的最大可能值 |
 | exportCountRealized | 整數 | 透過工作匯出的實際區段數 |
 | exportCountFailed | 整數 | 透過工作匯出時失敗的區段數 |
-| exportSegmentID | 字串 | 正在匯出的區段識別碼 |
-| 事件型別 | 字串 | 表示它是否為資訊事件的錯誤事件的事件型別：資訊、錯誤 |
-| eventcode | 字串 | 指示對應eventType原因的錯誤代碼 |
+| exportsegmentid | 字串 | 正在匯出的區段識別碼 |
+| eventtype | 字串 | 事件型別，指出它是否為資訊事件的錯誤事件：資訊、錯誤 |
+| eventcode | 字串 | 指示對應eventType原因的錯誤碼 |
 
 ## stepEvents
 

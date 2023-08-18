@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 設定事件 {#concept_sbp_5cy_w2b}
 
-在我們的案例中，每次有人進入馬爾頓飯店和餐廳時，我們都需要收到一個事件。 此 **技術使用者** 需要設定兩個事件，讓系統在歷程中接聽。
+在我們的案例中，每次有人進入瑪爾頓飯店和餐廳時，我們都需要收到一個事件。 此 **技術使用者** 需要設定兩個事件，讓系統在歷程中接聽。
 
 有關事件設定的其他資訊，請參閱 [此頁面](../event/about-events.md).
 
@@ -23,21 +23,21 @@ ht-degree: 7%
 
    ![](../assets/journeyuc1_1.png)
 
-1. 我們輸入不含空格或特殊字元的名稱：「LobbyBeacon」。
+1. 我們輸入的名稱不含空格或特殊字元：「LobbyBeacon」。
 
    ![](../assets/journeyuc2_1.png)
 
-1. 然後，我們選取結構描述並定義此事件預期的裝載。 我們從XDM標準化模型中選取所需的欄位。 我們需要Experience CloudID來識別即時客戶設定檔資料庫中的人員：「endUserIDs > _experience > mcid > id」。
+1. 接著，我們選取結構描述，並定義此事件預期的裝載。 我們從XDM標準化模型中選取所需的欄位。 我們需要Experience CloudID才能在即時客戶設定檔資料庫中識別人員：「endUserIDs > _experience > mcid > id」。
 
-   我們還需要註冊Token才能傳送推送訊息：「_experience > campaign >訊息>設定檔> pushNotificationToken > token」
+   我們還需要註冊Token才能傳送推送訊息：「_experience > campaign > message > profile > pushNotificationToken > token」
 
-   系統會自動為此事件產生ID。 此ID儲存在 **[!UICONTROL eventID]** 欄位（「_experience > campaign >協調流程> eventID」）。 推播事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 在我們的使用案例中，此ID可用來識別信標位置。 每次有人靠近大廳信標時，系統都會傳送包含此特定事件ID的事件。 相同的原則適用於餐廳信標事件。 這可讓系統知道哪個信標觸發了事件傳送。
+   系統會自動為此事件產生ID。 此ID儲存在 **[!UICONTROL eventID]** 欄位（「_experience > campaign >協調流程> eventID」）。 推播事件的系統不應產生ID，而應使用裝載預覽中可用的ID。 在我們的使用案例中，此ID可用來識別信標位置。 每次有人靠近大廳信標時，系統都會傳送包含此特定事件ID的事件。 同一原則適用於餐廳信標事件。 這可讓系統知道哪些信標觸發了事件傳送。
 
    ![](../assets/journeyuc2_2.png)
 
    >[!NOTE]
    >
-   >欄位清單會因結構描述而異。 根據結構描述定義，某些欄位可能是必填欄位並預先選定。
+   >欄位清單會因結構描述而異。 根據結構描述定義，某些欄位可能是必填欄位並預先選取。
 
 1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。如需名稱空間的詳細資訊，請參閱 [此頁面](../event/selecting-the-namespace.md).
 
@@ -53,4 +53,4 @@ ht-degree: 7%
 
    ![](../assets/journeyuc2_5.png)
 
-以相同方式建立「RestaurantBeacon」事件。 您的兩個指標事件已建立，且現在可用於我們的歷程。 您現在需要設定行動應用程式，好讓它能將預期的裝載傳送至串流獲取API端點。 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+同樣地，建立「RestaurantBeacon」事件。 您的兩個Beacon事件已建立，現在可用於我們的歷程。 您現在需要設定行動應用程式，才能將預期的裝載傳送至串流獲取API端點。 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。

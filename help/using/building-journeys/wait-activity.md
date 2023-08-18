@@ -19,19 +19,19 @@ ht-degree: 8%
 
 * [持續時間](#duration)
 * [自訂](#custom)
-   <!--* [Email send time optimization](#email_send_time_optimization)-->
+  <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## 關於等待活動{#about_wait}
 
-以下說明當您同時使用數個等待時，如何排定等待的優先順序。 如果它們具有相同的時間設定和不同的但重疊的條件，則位於上方的等待將會是優先的等待。 例如，第一次等待的條件是「成為女性」，而第二次平行等待的條件是「成為VIP」。 系統會優先處理第一個等待活動。
+以下說明當您同時使用數個等待時，等待的優先順序。 如果它們具有相同的時間設定和不同的重疊條件，則位於上方的等待將會是優先的等待。 例如，第一次等待的條件是「成為女性」，而第二次平行等待的條件是「成為VIP」。 第一個等待活動將排定優先順序。
 
-另請注意，如果兩個不同的等待是平行的，則無論其垂直位置為何，先發生的等待將會獲得優先順序。 例如，如果等待1小時以上，等待30分鐘以下，則在30分鐘後，將處理30分鐘等待。
+另請注意，如果兩個不同的等待是平行的，則無論其垂直位置為何，都會優先處理第一個出現的等待。 例如，如果等待1小時以上，等待30分鐘以下，則在30分鐘後會處理30分鐘等待。
 
 >[!NOTE]
 >
 >最長等待時間為30天。
 >
->在測試模式中， **[!UICONTROL Wait time in test]** 引數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這可確保您快速獲得測試結果。 另請參閱 [此頁面](../building-journeys/testing-the-journey.md)
+>在測試模式中， **[!UICONTROL Wait time in test]** 引數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這將確保您能快速獲得測試結果。 另請參閱 [此頁面](../building-journeys/testing-the-journey.md)
 
 ## 持續時間等待{#duration}
 
@@ -45,9 +45,9 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->您可以運用dateTimeOnly運算式，或使用函式轉換為dateTimeOnly。 例如： toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06Z。
+>您可以利用dateTimeOnly運算式或使用函式來轉換為dateTimeOnly。 例如： toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06Z
 >
->此 **時區** 應在您歷程的屬性中找到。 因此，目前無法從介面直接指向完整的ISO-8601時間戳記，混合時間和時區位移，例如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
+>此 **時區** 應在您歷程的屬性中找到。 因此，現今無法從介面直接指向完整的ISO-8601時間戳記混合時間和時區位移，例如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 

@@ -22,7 +22,7 @@ ht-degree: 4%
 1. 開啟歷程，拖放 **[!UICONTROL Condition]** 活動並選擇 **資料來源條件**.
    ![](../assets/journey47.png)
 
-1. 按一下 **[!UICONTROL Add a path]** 每個需要的額外路徑。 對於每個路徑，按一下 **[!UICONTROL Expression]** 欄位。
+1. 按一下 **[!UICONTROL Add a path]** 以取得所需的每個額外路徑。 對於每個路徑，按一下 **[!UICONTROL Expression]** 欄位。
 
    ![](../assets/segment3.png)
 
@@ -32,6 +32,6 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >只有具備下列條件的個人 **已實現** 和 **現有** 區段參與狀態會視為區段的成員。 如需如何評估區段的詳細資訊，請參閱 [Segment Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >只有具備以下條件的個人： **已實現** 和 **現有** 區段參與狀態會視為區段的成員。 如需如何評估區段的詳細資訊，請參閱 [分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 有關歷程條件以及如何使用簡單運算式編輯器的詳細資訊，請參閱 [條件活動](../building-journeys/condition-activity.md#about_condition).

@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # updateTimeZone {#updateTimeZone}
 
-傳回新的日期時間，並在同一時間點使用新的時區。
+傳回新的日期時間，而在同一時間傳回新的時區。
 
 ## 類別
 
@@ -30,7 +30,7 @@ ht-degree: 11%
 * 時區id：字串
 * dateTime
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `updateTimeZone(<dateTime>,<timeZone id>)`
 

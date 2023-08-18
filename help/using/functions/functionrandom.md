@@ -25,7 +25,7 @@ ht-degree: 16%
 
 `random(<parameters>)`
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `random()`
 

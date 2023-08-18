@@ -55,7 +55,7 @@ ht-degree: 93%
 
 在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 清單中，使用 **[!UICONTROL Creation filters]** 建立篩選器以篩選建立日期和使用者。舉例來說，您可以選擇只顯示您在過去 30 天內建立的事件。
 
-在歷程清單中（在下） **[!UICONTROL Home]**)，以及 **[!UICONTROL Creation filters]**，您也可以根據顯示的歷程狀態、型別和版本(**[!UICONTROL Status and version filters]**)。 型別可以是： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**. 您也可以選擇只顯示使用特定事件、欄位群組或動作（**[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]**）的歷程記錄。**[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。
+在歷程清單中(在 **[!UICONTROL Home]**)，以及 **[!UICONTROL Creation filters]**，您也可以根據顯示的歷程狀態、型別和版本(**[!UICONTROL Status and version filters]**)。 型別可以是： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**. 您也可以選擇只顯示使用特定事件、欄位群組或動作（**[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]**）的歷程記錄。**[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >

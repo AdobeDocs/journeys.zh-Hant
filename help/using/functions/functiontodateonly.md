@@ -32,7 +32,7 @@ ht-degree: 21%
 | ISO-8601或&quot;YYYY-MM-DD&quot;格式的日期（XDM日期格式） | 字串 |
 | 日期 | 日期 |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `toDateOnly(<date>)`
 

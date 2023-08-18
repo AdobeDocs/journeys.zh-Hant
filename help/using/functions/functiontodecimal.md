@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toDecimal
-description: 瞭解toDecimal函式
+description: 瞭解函式toDecimal
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 15%
 
 # toDecimal {#toDecimal}
 
-視其型別而定，將引數值轉換為十進位值。
+根據其型別，將引數值轉換為十進位值。
 
 ## 類別
 
@@ -31,10 +31,10 @@ ht-degree: 15%
 |--- |--- |
 | 字串 | 將字串值轉換為小數 |
 | dateTime | 將日期轉換為毫秒數（紀元毫秒） |
-| 布林值 | 將布林值轉換為1 （如果為true）、0 （如果為false） |
-| 整數 | 轉換為小數（範例）。：1變成1.0) |
+| 布林值 | 如果為true，則將布林值轉換為1，如果為false，則轉換為0 |
+| 整數 | 轉換為小數（範例）。：1變為1.0) |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `toDecimal(<integer>)`
 

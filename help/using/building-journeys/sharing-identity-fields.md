@@ -15,7 +15,7 @@ ht-degree: 27%
 
 # journeyStep 事件識別欄位 {#sharing-identity-fields}
 
-此Mixin專用於journeyStepEvent：此事件與歷程有關，沒有identityMap，無法描述設定檔身分（若有）。
+此Mixin專用於journeyStepEvent：此事件與歷程相關，且沒有identityMap，無法描述設定檔身分（如有）。
 
 若為journeyStepEvent，我們還需要新增與身分相關的欄位：
 

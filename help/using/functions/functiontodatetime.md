@@ -38,7 +38,7 @@ ht-degree: 11%
 >
 >時區ID必須是字串常數。 它不能是欄位參考或運算式。 如需資料型別的詳細資訊，請參閱 [此頁面](../expression/data-types.md).
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `toDateTime(<string>)`
 

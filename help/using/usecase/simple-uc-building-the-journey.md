@@ -17,8 +17,8 @@ ht-degree: 35%
 
 **商業使用者**&#x200B;現在可以建立歷程。我們的歷程將僅包含一個包含以下活動的路徑：
 
-* 「SpaBeacon」 **[!UICONTROL Event]**：當有人接近spa信標時，系統將會收到事件，且會為該人開始歷程。
-* a **[!UICONTROL Condition]** 活動以檢查該人員是否為女性
+* 「SpaBeacon」 **[!UICONTROL Event]**：當使用者接近spa信標時，系統將收到事件且將開始該使用者的歷程。
+* a **[!UICONTROL Condition]** 活動以檢查該人士是否為女性
 * 一個 **[!UICONTROL Email]** 活動(使用Adobe Campaign Standard)
 * 一個 **[!UICONTROL End]** 活動
 
@@ -26,7 +26,7 @@ ht-degree: 35%
 >
 >只有當您具有 Adobe Campaign Standard　時，浮動視窗才能使用　**[!UICONTROL Push]**　及 **[!UICONTROL Email]**　活動。
 
-有關如何建立歷程的其他資訊，請參閱 [此頁面](../building-journeys/journey.md).
+如需如何建立歷程的詳細資訊，請參閱 [此頁面](../building-journeys/journey.md).
 
 1. 在頂端功能表中，按一下 **[!UICONTROL Home]** 索引標籤及 **[!UICONTROL Create]**，以建立新的歷程。
 
@@ -40,7 +40,7 @@ ht-degree: 35%
 
    ![](../assets/journeyuc1_9.png)
 
-1. 現在新增條件，以檢查該人員是否為女性。 將條件活動拖放至歷程中。
+1. 現在，新增條件以檢查該人員是否為女性。 將條件活動拖放至歷程中。
 
    ![](../assets/journeyuc1_10.png)
 
@@ -48,11 +48,11 @@ ht-degree: 35%
 
    ![](../assets/journeyuc1_11.png)
 
-1. 使用簡單運算式編輯器，尋找性別欄位(_人員>性別_)，並拖曳至右側以建立下列條件：「性別等於」女性。
+1. 使用簡單運算式編輯器，尋找性別欄位(_人員>性別_)並拖曳至右側，以建立下列條件：「性別等於」女性。
 
    ![](../assets/journeyuc1_12.png)
 
-1. 放置 **[!UICONTROL Email]** 活動並選取您的「Spa折扣」交易式訊息範本。 此範本是使用Adobe Campaign設計的。 請參閱此 [頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant).
+1. 放下 **[!UICONTROL Email]** 活動並選取您的「Spa折扣」交易式訊息範本。 此範本是使用Adobe Campaign設計的。 請參閱此 [頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant).
 
    ![](../assets/journeyuc1_13.png)
 
@@ -64,7 +64,7 @@ ht-degree: 35%
 
    ![](../assets/journeyuc1_15.png)
 
-1. 放置 **[!UICONTROL End]** 活動。
+1. 放下 **[!UICONTROL End]** 活動。
 
    ![](../assets/journeyuc1_17.png)
 
@@ -76,4 +76,4 @@ ht-degree: 35%
 
    ![](../assets/journeyuc1_18.png)
 
-下次當女性在Spa指標附近散步時，會立即收到「Spa折扣」個人化電子郵件。
+下次女性靠近水療信標時，會立即收到「Spa折扣」個人化電子郵件。

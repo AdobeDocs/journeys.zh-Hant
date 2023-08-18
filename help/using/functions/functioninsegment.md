@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inSegment
-description: 瞭解inSegment函式
+description: 瞭解中的函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # inSegment {#inSegment}
 
-檢查個人是否屬於指定的區段。
+檢查個人是否屬於指定區段。
 
 >[!NOTE]
 >
@@ -27,13 +27,13 @@ ht-degree: 6%
 
 區段可以有三種狀態：
 
-* existing： entity會繼續存在於區段中。
+* existing：實體繼續位於區段中。
 * 已實現：實體正在進入區段。
-* 退出：實體正在退出區段。
+* 已退出：實體正在退出區段。
 
-只有具備下列條件的個人 **已實現** 和 **現有** 區段參與狀態會視為區段的成員。 如需如何評估區段的詳細資訊，請參閱 [Segment Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+只有具備以下條件的個人： **已實現** 和 **現有** 區段參與狀態會視為區段的成員。 如需如何評估區段的詳細資訊，請參閱 [分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
-`IF inSegment('segmentName') == true` 表示您擁有狀態為已輸入/現有狀態的segmentMembership。
+`IF inSegment('segmentName') == true` 表示您擁有segmentMembership且狀態為entered/existing。
 
 `ELSE inSegment('segmentName') == false` 表示您擁有退出狀態的segmentMembership。
 
@@ -51,7 +51,7 @@ Adobe Experience Platform
 |--- |--- |--- |
 | 區段 | 區段名稱 | `<string>` |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `inSegment(<string>)`
 

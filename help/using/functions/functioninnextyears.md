@@ -32,7 +32,7 @@ ht-degree: 20%
 | 日期時間 | dateTime |
 | delta | 整數 |
 
-## 簽章和傳回型別
+## 簽章與傳回型別
 
 `inNextYears(<dateTime>,<integer>)`
 

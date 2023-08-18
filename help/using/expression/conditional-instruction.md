@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 條件式指令(if、then、else)
+title: 條件式指令(if， then， else)
 description: 瞭解條件式指令
 feature: Journeys
 role: Data Engineer
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# 條件式指令(if、then、else) {#section_cdz_lsk_w3b}
+# 條件式指令(if， then， else) {#section_cdz_lsk_w3b}
 
-進階編輯器支援條件式指令(if、then、else)。 它可讓您定義更複雜的運算式。 它由下列元素組成：
+進階編輯器支援條件式指令(if， then， else)。 它可讓您定義更複雜的運算式。 它由下列元素組成：
 
 * **[!UICONTROL if]**：要先評估的條件。
 * **[!UICONTROL then]**：條件評估結果為true時要評估的運算式。
@@ -57,9 +57,9 @@ listString,listString : listString
 
 **使用狀況**
 
-條件式指示可讓您透過減少條件活動的數量來最佳化歷程工作流程。 例如，在相同動作活動中，您僅需使用一個條件運算式，即可為欄位定義指定兩個替代專案。
+條件式指示可讓您透過減少條件活動的數量，將歷程工作流程最佳化。 例如，在相同動作活動中，您僅能使用一個條件運算式，即可為欄位定義指定兩個替代方案。
 
-動作活動的範例（適用於預期字串為條件式指令結果的欄位）：
+動作活動的範例（適用於預期字串為條件指令結果的欄位）：
 
 ```json
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))

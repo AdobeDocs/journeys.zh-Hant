@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 設定資料來源
-description: 瞭解如何為歷程簡單使用案例設定資料來源
+description: 瞭解如何設定歷程簡單使用案例的資料來源
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,9 +15,9 @@ ht-degree: 9%
 
 # 設定資料來源{#concept_ax3_bcy_w2b}
 
-在我們的使用案例中，我們希望對訊息使用個人化資料。 我們還需要檢查這個人是不是女性。 此資訊儲存在即時客戶設定檔資料庫中。 此 **技術使用者** 需要檢查這些欄位是否在內建的Adobe Experience Platform資料來源中定義。
+在我們的使用案例中，我們希望對訊息使用個人化資料。 我們還需要檢查這個人是不是女性。 此資訊儲存在「即時客戶個人檔案」資料庫中。 此 **技術使用者** 需要檢查這些欄位是否在內建的Adobe Experience Platform資料來源中定義。
 
-有關資料來源設定的其他資訊，請參閱 [此頁面](../datasource/about-data-sources.md).
+如需資料來源組態的詳細資訊，請參閱 [此頁面](../datasource/about-data-sources.md).
 
 1. 在功能表窗格中，選取 **[!UICONTROL Admin]**. 在 **[!UICONTROL Data sources]** 區段，按一下 **[!UICONTROL Manage]**。
 1. 選取內建的Adobe Experience Platform資料來源。
@@ -26,11 +26,11 @@ ht-degree: 9%
 
 1. 在欄位群組中，檢查是否已選取下列欄位：
 
-   * _person > name > firstName_
-   * _person > name > lastName_
+   * _人員>姓名>名字_
+   * _人員>姓名>姓氏_
    * _人員>性別_
    * _personalEmail >地址_
 
 1. 按一下「**[!UICONTROL Save]**」。
 
-資料來源現已設定完畢，可隨時用於您的歷程。
+資料來源現在已設定完畢，且可供您在歷程中使用。

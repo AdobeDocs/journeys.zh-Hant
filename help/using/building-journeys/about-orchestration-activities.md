@@ -15,7 +15,7 @@ ht-degree: 37%
 
 # 關於協調活動 {#concept_ksq_2rt_52b}
 
-從浮動視窗的畫面左側，提供下列協調活動：
+從浮動視窗的畫面左側，有下列協調活動：
 
 * [條件活動](../building-journeys/condition-activity.md)
 * [結束活動](../building-journeys/end-activity.md)

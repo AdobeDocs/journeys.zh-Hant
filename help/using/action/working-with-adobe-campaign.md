@@ -19,13 +19,13 @@ ht-degree: 4%
 
 [!DNL Journey Orchestration] 隨附立即可用的動作，可連線至Adobe Campaign Standard。
 
-必須發佈Campaign Standard交易式訊息及其相關事件，才能在Journey Orchestration中使用。 如果事件已發佈，但訊息尚未發佈，則不會顯示在Journey Orchestration介面中。 如果訊息已發佈，但其關聯事件尚未發佈，則會顯示在Journey Orchestration介面中，但無法使用。
+必須發佈Campaign Standard交易式訊息及其相關事件，才能在Journey Orchestration中使用。 如果事件已發佈，但訊息尚未發佈，則不會顯示在Journey Orchestration介面中。 如果訊息已發佈，但其關聯事件尚未發佈，則會在Journey Orchestration介面中看到該訊息，但無法使用它。
 
 >[!NOTE]
 >
->設定Adobe Campaign Standard整合後，Adobe Campaign Standard動作就會自動定義每5分鐘4000次呼叫的上限規則。 這與Adobe Campaign Standard交易式訊息的官方規模相對應。
+>設定Adobe Campaign Standard整合後，Adobe Campaign Standard動作就會自動定義每5分鐘4000次呼叫的上限規則。 此量度與Adobe Campaign Standard交易式訊息的官方量度相對應。
 >
->閱讀中有關交易式訊息傳送SLA的詳細資訊 [Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
+>閱讀更多有關交易式訊息SLA的資訊 [Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
 
 以下是設定它的步驟：
 
@@ -47,7 +47,7 @@ ht-degree: 4%
    >
    >與此Adobe Campaign Standard例項關聯的組織與Journey Orchestration的組織相同。
 
-設計您的歷程時，三個動作將適用於 **[!UICONTROL Action]** 類別： **[!UICONTROL Email]**， **[!UICONTROL Push]**， **[!UICONTROL SMS]** (請參閱 [使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-actions.md))。 **回應事件** 也可讓您對訊息點按、開啟等做出反應。 (請參閱 [回應事件](../building-journeys/reaction-events.md))。
+設計歷程時，三個動作將適用於 **[!UICONTROL Action]** 類別： **[!UICONTROL Email]**， **[!UICONTROL Push]**， **[!UICONTROL SMS]** (請參閱 [使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-actions.md))。 **回應事件** 也可讓您對訊息點按、開啟等做出反應。 (請參閱 [回應事件](../building-journeys/reaction-events.md))。
 
 ![](../assets/journey58.png)
 

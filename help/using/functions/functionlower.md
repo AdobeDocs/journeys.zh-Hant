@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: lower
-description: 瞭解下方的函式
+description: 瞭解函式下層
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -29,7 +29,7 @@ ht-degree: 23%
 
 * 字串
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `lower(<string>)`
 

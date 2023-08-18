@@ -33,7 +33,7 @@ ht-degree: 13%
 | 不考慮時區的日期時間 | dateTimeOnly |
 | 天 | 整數 |
 
-## 簽章和傳回型別
+## 簽章與傳回型別
 
 `setDays(<dateTime>,<days>)`
 
@@ -41,7 +41,7 @@ ht-degree: 13%
 
 `setDays(<dateTimeOnly>,<days>)`
 
-傳回不考慮時區的日期時間。
+傳回日期時間，不考慮時區。
 
 ## 範例
 

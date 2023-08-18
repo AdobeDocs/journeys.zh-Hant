@@ -15,7 +15,7 @@ ht-degree: 75%
 
 # 函式 {#concept_p1r_qj5_dgb}
 
-函式可以有不同的簽名（一組不同的有序引數）。 函式簽章可以有0-N運算式做為有序引數。
+函式可以有不同的簽章（不同的有序引數集）。 函式簽章可以有0-N個運算式做為排序引數。
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
@@ -25,7 +25,7 @@ ht-degree: 75%
 
 ## 主要函式
 
-| 類別 | 函數 |
+| 類別 | 功能 |
 |-------------|-----------------------|
 | Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
 | 彙總 | [avg](../functions/functionavg.md) |

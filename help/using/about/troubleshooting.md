@@ -64,10 +64,10 @@ ht-degree: 97%
 * 您是否依照串流獲取 API 有效負載結構，而在事件設定窗格中使用有效負載結構預覽？請參閱[此頁面](../event/previewing-the-payload.md)。
 * 您在事件標題中是否使用正確的金鑰/值配對？
 
-   ```
-   X-gw-ims-org-id - your ORGID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your ORGID
+  Content-type - application/json
+  ```
 
 ## 檢查人們如何導覽歷程{#section_l5y_yzs_dgb}
 

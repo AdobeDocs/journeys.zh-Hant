@@ -33,7 +33,7 @@ ht-degree: 10%
 | keyAttributeName | 字串 | 指定清單物件中的屬性名稱，用來作為篩選的索引鍵 |
 | keyValueList | list | 用於篩選的索引鍵值陣列 |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `filter(listObject, string, listString)`
 
@@ -83,4 +83,4 @@ filter(
 )
 ```
 
-傳回listObject，其中包含以&quot;product2&quot;和&quot;product3&quot;作為id的兩個物件。
+傳回listObject，其中包含以&quot;product2&quot;和&quot;product3&quot;作為ID的兩個物件。

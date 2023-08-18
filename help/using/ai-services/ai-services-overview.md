@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 關於 AI 整合 {#ai-overview}
 
-與Intelligent Services的整合可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司需求設定專屬預測，而不需要資料科學專業知識。
+與智慧型服務整合可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司需求設定專屬預測，而不需要資料科學專業知識。
 
 如需Intelligent Services的詳細資訊，請參閱 [檔案](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html).
 

@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # journeysteps事件常見欄位 {#sharing-common-fields}
 
-此mixin將由journeyStepEvent和journeyStepProfileEvent共用。
+此Mixin將由journeyStepEvent和journeyStepProfileEvent共用。
 
 這些是常見的XDM欄位， [!DNL Journey Orchestration] 傳送至Adobe Experience Platform。 歷程中處理的每個步驟都會傳送通用欄位。 自訂動作和增強功能會使用更具體的欄位。
 
@@ -31,7 +31,7 @@ ht-degree: 9%
 
 ## 重新進入
 
-指出使用者是否已重新進入具有相同執行個體的歷程。 如果不存在，我們會假設值為false。
+指出使用者是否已使用相同執行個體重新進入歷程。 如果不存在，我們會假設值為false。
 
 類型: 布林值
 
@@ -39,7 +39,7 @@ ht-degree: 9%
 
 ## instanceEnded
 
-指示執行個體是否已結束（成功或失敗）。
+表示執行個體是否已結束（成功或失敗）。
 
 類型: 布林值
 
@@ -57,7 +57,7 @@ ht-degree: 9%
 
 ## stepID
 
-目前正在處理的步驟的唯一ID。
+目前正在處理之步驟的唯一ID。
 
 類型: 字串
 
@@ -82,7 +82,7 @@ ht-degree: 9%
 
 ## 步驟狀態
 
-步驟的狀態，代表步驟的狀態，表示其處理已完成（且已引發步驟事件）的時間。
+步驟的狀態，代表步驟在處理完成（且引發步驟事件）時的狀態。
 
 類型: 字串
 
@@ -91,7 +91,7 @@ ht-degree: 9%
 * 已結束：步驟沒有轉變，其處理已成功結束。
 * 錯誤：步驟處理發生錯誤。
 * 轉變：步驟正在等待事件轉變到另一個步驟。
-* 上限：步驟因上限錯誤而失敗，在動作或擴充期間引發。
+* 上限：步驟因上限錯誤而失敗，在動作或擴充期間發生。
 * 逾時：步驟因逾時錯誤而失敗，在動作或擴充期間發生。
 * instanceTimedout：步驟已停止處理，因為執行個體已達到其逾時。
 
@@ -119,7 +119,7 @@ ht-degree: 9%
 
 類型: 字串
 
-## 執行個體識別碼
+## instanceID
 
 歷程執行個體的內部ID。
 
@@ -127,7 +127,7 @@ ht-degree: 9%
 
 ## externalKey
 
-從事件擷取以處理的外部金鑰。
+從事件擷取的外部索引鍵加以處理。
 
 類型: 字串
 
@@ -157,19 +157,19 @@ ht-degree: 9%
 
 ## inTest
 
-指出此歷程是否處於測試模式。
+表示此歷程是否處於測試模式。
 
 類型: 布林值
 
-## processingTime
+## processingtime
 
-從執行個體步驟進入到處理結束的總時間量（毫秒）。
+從執行個體步驟進入到處理結束的總時間量（以毫秒為單位）。
 
 型別： long
 
 ## instanceType
 
-指示執行個體型別（如果是批次或單一）。
+指示執行個體型別（若為批次或單一）。
 
 類型: 字串
 
@@ -177,23 +177,23 @@ ht-degree: 9%
 
 ## recurrenceIndex
 
-如果歷程是批次和週期性（第一次執行有recurrenceIndex = 1）的週期索引。
+如果歷程是批次和週期性（第一次執行有recurrenceIndex = 1），則為週期性的索引。
 
 型別： long
 
-## isBatchToUnitary
+## isBatchToUniary
 
-指出此單一執行個體是否已從批次執行個體觸發。
+表示此單一執行個體是否已從批次執行個體觸發。
 
 類型: 布林值
 
 ## batchExternalKey
 
-批次事件的外部金鑰。
+批次事件的外部索引鍵。
 
 類型: 字串
 
-## batchInstanceID
+## batchinstanceid
 
 這是批次例項ID。
 
@@ -201,6 +201,6 @@ ht-degree: 9%
 
 ## batchUnitaryBranchID
 
-如果執行個體是從批次執行個體觸發，則為單一分支ID。
+如果執行個體是從批次執行個體觸發的，則為單一分支ID。
 
 類型: 字串

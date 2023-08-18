@@ -15,7 +15,7 @@ ht-degree: 32%
 
 # distinctCountWithNull {#distinctCountWithNull}
 
-計算包括null值的不同值數目。
+計算不同值的數量，包括null值。
 
 ## 類別
 
@@ -38,7 +38,7 @@ ht-degree: 32%
 | 清單 | listDateTimeOnly |
 | 清單 | listDateOnly |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `distinctCountWithNull(<listAny>)`
 

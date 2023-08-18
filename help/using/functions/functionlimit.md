@@ -30,10 +30,10 @@ ht-degree: 9%
 | 參數 | 類型 | 說明 |
 |-----------|------------------|------------------|
 | listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要排序的清單。 對於listObject，它必須是欄位參考。 |
-| 專案數 | 整數 | 要從指定清單傳回的專案數。 |
+| numberofItems | 整數 | 要從指定清單傳回的專案數。 |
 | firstOrLastItems | 布林值 | 此引數為選用（預設為true）。 true會傳回第一個專案。 false會傳回最後一個專案。 |
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `limit(<listString>,<integer>)`
 `limit(<listString>,<integer>,<boolean>)`

@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # sum {#sum}
 
-傳回一組運算式的值總和。 Null值會被忽略。
+傳回一組運算式的值總和。 會忽略Null值。
 
 ## 類別
 
@@ -29,11 +29,11 @@ ht-degree: 13%
 
 * listInteger
 * listDecimal
-* 持續時間
+* 期間
 * 整數
 * 小數
 
-## 簽章和傳回的型別
+## 簽章與傳回的型別
 
 `sum(<listDecimal>)`
 
