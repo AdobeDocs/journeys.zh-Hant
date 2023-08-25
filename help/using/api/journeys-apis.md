@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 03a58d765a6c98df6a976a5b9c537bdb5cc3ce99
+source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '828'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 歷程每次執行 API 呼叫時，都會透過 API 引擎。如果達到 API 設定的限制，如果您使用的是設定 API 上限，則會拒絕呼叫，或者如果您使用的是節流 API，則呼叫最多佇列 6 小時並按照收到的順序盡快處理。
 
-例如，假設您已為外部系統定義每秒 100 次呼叫的上限或節流規則。10 個不同歷程的自訂動作會呼叫您的系統。 如果一個歷程每秒收到 200 個呼叫，則將使用 100 個可用插槽，並捨棄或將剩餘的 100 個插槽加入佇列。由於已超過最大速率，其他 9 個歷程將沒有任何插槽。 此詳細程度有助於保護外部系統免於過載及損毀。
+例如，假設您已為外部系統定義每秒100次呼叫的上限或節流規則。 10 個不同歷程的自訂動作會呼叫您的系統。 如果一個歷程每秒收到 200 個呼叫，則將使用 100 個可用插槽，並捨棄或將剩餘的 100 個插槽加入佇列。由於已超過最大速率，其他 9 個歷程將沒有任何插槽。 此詳細程度有助於保護外部系統免於過載及損毀。
 
 >[!IMPORTANT]
 >
@@ -59,8 +59,15 @@ ht-degree: 100%
 
 1. **請確認您擁有數位憑證**，或視需要建立。 下列步驟需要憑證隨附的公開金鑰與私人金鑰。
 1. 在 Adobe I/O **建立新整合以[!DNL Journey Orchestration]服務**&#x200B;並加以設定。 [!DNL Journey Orchestration]和 Adobe Experience Platform 需要產品設定檔存取權。然後，將產生您的憑證 (API 金鑰、用戶端密碼……)。
-1. 從之前產生的憑證&#x200B;**建立 JSON 網頁語彙基元 (JWT)**，並使用私人金鑰對其進行簽署。JWT 會對 Adobe 驗證身分並授予您存取 API 所需的所有身分與安全資訊進行編碼。 此步驟在此[章節](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)中有詳細說明
-1. 透過 POST 要求或透過 Developer Console 介面&#x200B;**將 JWT 換成存取權杖**。必須在 API 請求的每個標題中使用此存取權杖。
+
+>[!CAUTION]
+>
+>不建議使用產生存取權杖的JWT方法。 所有新的整合必須使用 [OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe 也建議您將現有的整合移轉至 OAuth 方法。 
+>
+>閱讀下列重要檔案：
+>[應用程式從JWT移轉至OAuth的移轉指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)，
+>[OAuth 新舊應用程式的實施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[使用OAuth伺服器對伺服器憑證方法的優勢](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 若要建立安全的服務對服務 Adobe I/O API 工作階段，對 Adobe 服務的每個請求都必須在授權標題中包含下列資訊。
 
@@ -73,6 +80,6 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ORGANIZATION>**：這是您的個人組織 ID，Adobe 為每個執行個體提供一個組織 ID。 若要取得組織 ID 值，請洽詢您的管理員或 Adobe 技術聯絡人。 在授權清單中建立新整合時，您也可以將其擷取至 Adobe I/O (請參閱 <a href="https://www.adobe.io/authentication.html">Adobe I/O 文件</a>)。
 
-* **&lt;ACCESS_TOKEN>**：您的個人存取權杖，此權杖是透過 POST 要求交換 JWT 時所擷取。
+* **&lt;access_token>**：您的個人存取權杖
 
 * **&lt;API_KEY>**：您的個人 API 金鑰。 在建立與[!DNL Journey Orchestration]服務的新整合後，它會在 Adobe I/O 中提供。

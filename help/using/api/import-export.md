@@ -3,10 +3,10 @@ product: adobe campaign
 title: 匯入匯出API說明
 description: 進一步瞭解匯入匯出API。
 products: journeys
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 27%
+source-wordcount: '1119'
+ht-degree: 21%
 
 ---
 
@@ -54,8 +54,16 @@ Journey Orchestration API存取可透過下列步驟設定。 [Adobe I/O 文件]
 
 1. **請確認您擁有數位憑證**，或視需要建立。 下列步驟需要憑證隨附的公開金鑰與私人金鑰。
 1. 在 Adobe I/O **建立新整合以[!DNL Journey Orchestration]服務**&#x200B;並加以設定。 Journey Orchestration和Adobe Experience Platform需要產品設定檔存取權。 然後，將產生您的憑證 (API 金鑰、用戶端密碼……)。
-1. 從之前產生的憑證&#x200B;**建立 JSON 網頁語彙基元 (JWT)**，並使用私人金鑰對其進行簽署。JWT 會對 Adobe 驗證身分並授予您存取 API 所需的所有身分與安全資訊進行編碼。 此步驟在此[章節](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)中有詳細說明
-1. 透過 POST 要求或透過 Developer Console 介面&#x200B;**將 JWT 換成存取權杖**。必須在 API 請求的每個標題中使用此存取權杖。
+
+>[!CAUTION]
+>
+>不建議使用產生存取權杖的JWT方法。 所有新的整合必須使用 [OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe 也建議您將現有的整合移轉至 OAuth 方法。 
+>
+>閱讀下列重要檔案：
+>[應用程式從JWT移轉至OAuth的移轉指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)，
+>[OAuth 新舊應用程式的實施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[使用OAuth伺服器對伺服器憑證方法的優勢](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+
 
 若要建立安全的服務對服務 Adobe I/O API 工作階段，對 Adobe 服務的每個請求都必須在授權標題中包含下列資訊。
 
@@ -72,7 +80,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
   若要取得組織 ID 值，請洽詢您的管理員或 Adobe 技術聯絡人。 在授權清單中建立新整合時，您也可以將其擷取至 Adobe I/O (請參閱 [Adobe I/O 文件](https://www.adobe.io/authentication.html))。
 
-* **&lt;ACCESS_TOKEN>**：您的個人存取權杖，此權杖是透過 POST 要求交換 JWT 時所擷取。
+* **&lt;access_token>**：您的個人存取權杖
 
 * **&lt;API_KEY>**：您的個人 API 金鑰。 在建立與[!DNL Journey Orchestration]服務的新整合後，它會在 Adobe I/O 中提供。
 
