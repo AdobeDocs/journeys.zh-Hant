@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
+source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
 workflow-type: tm+mt
-source-wordcount: '4188'
-ht-degree: 100%
+source-wordcount: '4232'
+ht-degree: 99%
 
 ---
 
@@ -21,11 +21,15 @@ ht-degree: 100%
 >
 >若為 2022 和 2023 年發行的功能，連結會導至 Adobe Journey Optimizer 文件。
 
+## 2023 年 8 月發行版本 {#aug-rn-2023}
+
+### 改進項目 {#aug-2023-improvements}
+
+* 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。此功能目前以 Private Beta 的形式提供。請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html)。
+
 ## 2023 年 4 月發行版本 {#apr-rn-2023}
 
 ### 改進項目 {#april-2023-improvements}
-
-**歷程**
 
 * 顯示在動作、資料來源、事件和歷程中的設定窗格，其版面配置已有所改善。
 * 您現在可以在自訂動作中定義靜態或動態查詢參數。請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hant#url-configuration)。
