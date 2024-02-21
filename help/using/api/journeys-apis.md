@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
+source-git-commit: 87d5cf223d9adec27eabcb55f2e09aa6d40b23a6
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 89%
+source-wordcount: '791'
+ht-degree: 87%
 
 ---
 
@@ -62,11 +62,11 @@ ht-degree: 89%
 
 >[!CAUTION]
 >
->不建議使用產生存取權杖的JWT方法。 所有新的整合必須使用 [OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe 也建議您將現有的整合移轉至 OAuth 方法。 
+>不建議使用產生存取權杖的JWT方法。 所有新的整合必須使用 [OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe也建議您將現有的整合移轉至OAuth方法。
 >
 >閱讀下列重要檔案：
 >[應用程式從JWT移轉至OAuth的移轉指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)，
->[OAuth 新舊應用程式的實施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[使用OAuth的新舊應用程式實作指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)，
 >[使用OAuth伺服器對伺服器憑證方法的優勢](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 若要建立安全的服務對服務 Adobe I/O API 工作階段，對 Adobe 服務的每個請求都必須在授權標題中包含下列資訊。
@@ -78,7 +78,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;ORGANIZATION>**：這是您的個人組織 ID，Adobe 為每個執行個體提供一個組織 ID。 若要取得組織 ID 值，請洽詢您的管理員或 Adobe 技術聯絡人。 在授權清單中建立新整合時，您也可以將其擷取至 Adobe I/O (請參閱 <a href="https://www.adobe.io/authentication.html">Adobe I/O 文件</a>)。
+* **&lt;ORGANIZATION>**：這是您的個人組織 ID，Adobe 為每個執行個體提供一個組織 ID。 若要取得組織 ID 值，請洽詢您的管理員或 Adobe 技術聯絡人。 在授權清單中建立新整合時，您也可以將其擷取至 Adobe I/O (請參閱 [Adobe I/O 文件](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md))。
 
 * **&lt;access_token>**：您的個人存取權杖
 
