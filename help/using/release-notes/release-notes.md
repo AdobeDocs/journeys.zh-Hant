@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
+source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
 workflow-type: tm+mt
-source-wordcount: '4232'
-ht-degree: 99%
+source-wordcount: '4352'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,23 @@ ht-degree: 99%
 >[!NOTE]
 >
 >若為 2022 和 2023 年發行的功能，連結會導至 Adobe Journey Optimizer 文件。
+
+## 2024 年 2 月發行版本 {#feb-rn-2024}
+
+### 改進項目 {#feb-2024-improvements}
+
+* **篩選您的歷程**  — 您現在可以使用 **用於篩選歷程的自訂日期** 清查，以及現有的預先定義日期篩選器。 這可讓您調整清單，顯示在特定日期、特定月內、整年或指定時間範圍內建立或發佈的歷程。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **自訂動作**  — 您現在可以更新 **content-type** 標頭。 這個新的 **content-type** 應該參考JSON內容。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hant#url-configuration)
+* **設定** - stepEvents中的identityMap屬性現在已預先填入。 主要身分定義為「primary = true」。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **使用者介面**  — 歷程畫面中的頂端列已重新整理，以改善體驗。 在不同的更新中，請注意允許您存取歷程屬性的「鉛筆」圖示現在會顯示在頂端列的左側、歷程名稱旁邊。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+
+## 2024 年 1 月發行版本 {#jan-rn-2024}
+
+### 改進項目 {#jan-2024-improvements}
+
+* **反應事件期間** - 您可在&#x200B;**反應事件**&#x200B;中定義的最長期間現在為 29 天，而非 30 天。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html)
+* **欄位群組**  — 此版本修正某些情況下無法儲存欄位群組的問題。
+* 已在多個函數中修改 `<listObject>` 的支援。
 
 ## 2023 年 8 月發行版本 {#aug-rn-2023}
 
@@ -129,8 +146,8 @@ ht-degree: 99%
 
 * **運算式編輯器**  - 身為超級使用者，您現在可以使用函式來處理地圖。 [了解更多](../expression/field-references.md)
 * **協助工具**  - 已實施協助工具增強功能。Journey Orchestration 的協助工具現在可完全相容。
-* **集合**  - 現在支援包含子物件的物件陣列。 [閱讀全文](../usecase/collections.md)
-* **監控**  - 已增強即時歷程和測試模式的步驟事件。 [新欄位](../building-journeys/sharing-field-list.md#serviceevents) 已新增與設定檔匯出作業有關的內容。 為了獲得更好的使用者體驗，步驟事件欄位現已移至「歷程步驟事件」綱要的其他類別以便進行 Journey Orchestration。所有先前的步驟事件欄位仍可在 [stepEvents](../building-journeys/sharing-legacy-fields.md) 類別中使用。
+* **集合** - 現在支援包含子物件的物件陣列。 [閱讀全文](../usecase/collections.md)
+* **監控** - 已增強即時歷程和測試模式的步驟事件。 [新欄位](../building-journeys/sharing-field-list.md#serviceevents) 已新增與設定檔匯出作業有關的內容。 為了獲得更好的使用者體驗，步驟事件欄位現已移至「歷程步驟事件」綱要的其他類別以便進行 Journey Orchestration。所有先前的步驟事件欄位仍可在 [stepEvents](../building-journeys/sharing-legacy-fields.md) 類別中使用。
 
 ## 2021 年 9 月發行版本 {#september-2021-release}
 
@@ -202,7 +219,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>透過 Adobe Campaign Classic 的整合功能現在整合為 GA。 這允許您使用 Adobe Campaign v7 或 v8 傳送訊息的能力來傳送電子郵件、傳送通知及 SMS。</p>
+<p>透過 Adobe Campaign Classic 的整合功能現在整合為 GA。 這允許您使用 Adobe Campaign v7 或 v8 傳送訊息的能力來傳送電子郵件、傳送通知及簡訊。</p>
 <p>Journey Orchestration 與 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。</p>
 <p>如需詳細資訊，請參閱<a href="../action/acc-action.md">詳細文件</a>。</p>
 </td>
@@ -305,7 +322,7 @@ ht-degree: 99%
 <td>
 <p>我們進階運算式編輯器的欄位和函式清單加入了新選項。 這是系統從即時歷程擷取的資訊，例如歷程 ID 或遇到的特定錯誤。 當您建立歷程時，這可為您帶來更多可能性。 例如，如果在狀況或動作中發生錯誤，您能夠提醒協力廠商系統。
 </p>
-<p>如需詳細資訊，請參閱<a href="../expression/journey-properties.md">相關的文件</a>，以瞭解詳情。</p>
+<p>如需詳細資訊，請參閱<a href="../expression/journey-properties.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -314,7 +331,7 @@ ht-degree: 99%
 <table>
 <thead>
 <tr>
-<th><strong>規則型事件(beta)</strong><br/></th>
+<th><strong>規則型事件（測試版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
