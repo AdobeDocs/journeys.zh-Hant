@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
+source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
 workflow-type: tm+mt
-source-wordcount: '4352'
-ht-degree: 96%
+source-wordcount: '4418'
+ht-degree: 98%
 
 ---
 
@@ -21,14 +21,26 @@ ht-degree: 96%
 >
 >若為 2022 和 2023 年發行的功能，連結會導至 Adobe Journey Optimizer 文件。
 
+## 2024 年 3 月發行版本 {#mar-rn-2024}
+
+### 改進項目 {#mar-2024-improvements}
+
+歷程編寫生命週期已新增新的中繼狀態：
+
+* **發佈** 介於兩者之間的狀態： **草稿** 狀態與 **即時** 狀態
+* **正在停止** 介於兩者之間的狀態： **即時** 狀態與 **已停止** 狀態
+* **啟用測試模式** 或 **停用測試模式** 介於兩者之間的狀態： **草稿** 狀態與 **草稿（測試）** 狀態
+
+當歷程處於中繼狀態時，它是唯讀的。 [了解更多](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+
 ## 2024 年 2 月發行版本 {#feb-rn-2024}
 
 ### 改進項目 {#feb-2024-improvements}
 
-* **篩選您的歷程**  — 您現在可以使用 **用於篩選歷程的自訂日期** 清查，以及現有的預先定義日期篩選器。 這可讓您調整清單，顯示在特定日期、特定月內、整年或指定時間範圍內建立或發佈的歷程。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
-* **自訂動作**  — 您現在可以更新 **content-type** 標頭。 這個新的 **content-type** 應該參考JSON內容。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hant#url-configuration)
-* **設定** - stepEvents中的identityMap屬性現在已預先填入。 主要身分定義為「primary = true」。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
-* **使用者介面**  — 歷程畫面中的頂端列已重新整理，以改善體驗。 在不同的更新中，請注意允許您存取歷程屬性的「鉛筆」圖示現在會顯示在頂端列的左側、歷程名稱旁邊。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+* **篩選您的歷程** - 除了現有的預定義日期篩選器之外，您現在可以使用&#x200B;**自訂日期篩選歷程**&#x200B;詳細目錄。這使您可以透過顯示在特定日期、特定月份、全年或指定時間範圍內發布的歷程來細化清單。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **自訂動作** - 您現在可以更新 **content-type** 標題。 這個新的 **content-type** 應參考 JSON 內容。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hant#url-configuration)
+* **設定** - stepEvents 中的 IdentityMap 屬性現在已預先填入。主要身分定義為「primary = true」。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **使用者介面** - 歷程畫面中的頂部欄已重新組織，以改善體驗。 在不同的更新中，請注意，允許您存取歷程屬性的「鉛筆」圖示現在顯示在頂部欄的左側，歷程名稱旁邊。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
 
 ## 2024 年 1 月發行版本 {#jan-rn-2024}
 
