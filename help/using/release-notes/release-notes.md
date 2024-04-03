@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4418'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,36 +25,36 @@ ht-degree: 98%
 
 ### 改進項目 {#mar-2024-improvements}
 
-歷程編寫生命週期已新增新的中繼狀態：
+歷程編寫生命週期已新增新中介狀態：
 
-* **發佈** 介於兩者之間的狀態： **草稿** 狀態與 **即時** 狀態
-* **正在停止** 介於兩者之間的狀態： **即時** 狀態與 **已停止** 狀態
-* **啟用測試模式** 或 **停用測試模式** 介於兩者之間的狀態： **草稿** 狀態與 **草稿（測試）** 狀態
+* **正在發佈**&#x200B;狀態介於&#x200B;**草稿**&#x200B;狀態與&#x200B;**即時**&#x200B;狀態之間
+* **正在停止**&#x200B;狀態介於&#x200B;**即時**&#x200B;狀態與&#x200B;**已停止**&#x200B;狀態之間
+* **正在啟用測試模式**&#x200B;或&#x200B;**正在停用測試模式**&#x200B;狀態介於&#x200B;**草稿**&#x200B;狀態與&#x200B;**草稿 (測試)**&#x200B;狀態
 
-當歷程處於中繼狀態時，它是唯讀的。 [了解更多](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+當歷程處於中介狀態時，其是唯讀。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
 
 ## 2024 年 2 月發行版本 {#feb-rn-2024}
 
 ### 改進項目 {#feb-2024-improvements}
 
-* **篩選您的歷程** - 除了現有的預定義日期篩選器之外，您現在可以使用&#x200B;**自訂日期篩選歷程**&#x200B;詳細目錄。這使您可以透過顯示在特定日期、特定月份、全年或指定時間範圍內發布的歷程來細化清單。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **篩選您的歷程** - 除了現有的預定義日期篩選器之外，您現在可以使用&#x200B;**自訂日期篩選歷程**&#x200B;詳細目錄。這使您可以透過顯示在特定日期、特定月份、全年或指定時間範圍內發布的歷程來細化清單。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hant#filter)
 * **自訂動作** - 您現在可以更新 **content-type** 標題。 這個新的 **content-type** 應參考 JSON 內容。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hant#url-configuration)
-* **設定** - stepEvents 中的 IdentityMap 屬性現在已預先填入。主要身分定義為「primary = true」。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
-* **使用者介面** - 歷程畫面中的頂部欄已重新組織，以改善體驗。 在不同的更新中，請注意，允許您存取歷程屬性的「鉛筆」圖示現在顯示在頂部欄的左側，歷程名稱旁邊。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+* **設定** - stepEvents 中的 IdentityMap 屬性現在已預先填入。主要身分定義為「primary = true」。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=zh-Hant)
+* **使用者介面** - 歷程畫面中的頂部欄已重新組織，以改善體驗。 在不同的更新中，請注意，允許您存取歷程屬性的「鉛筆」圖示現在顯示在頂部欄的左側，歷程名稱旁邊。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hant#change-properties)
 
 ## 2024 年 1 月發行版本 {#jan-rn-2024}
 
 ### 改進項目 {#jan-2024-improvements}
 
-* **反應事件期間** - 您可在&#x200B;**反應事件**&#x200B;中定義的最長期間現在為 29 天，而非 30 天。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html)
-* **欄位群組**  — 此版本修正某些情況下無法儲存欄位群組的問題。
+* **反應事件期間** - 您可在&#x200B;**反應事件**&#x200B;中定義的最長期間現在為 29 天，而非 30 天。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html?lang=zh-Hant)
+* **欄位群組** - 此發行版本修正在特定情況下無法儲存欄位群組的問題。
 * 已在多個函數中修改 `<listObject>` 的支援。
 
 ## 2023 年 8 月發行版本 {#aug-rn-2023}
 
 ### 改進項目 {#aug-2023-improvements}
 
-* 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。此功能目前以 Private Beta 的形式提供。請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html)。
+* 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。此功能目前以 Private Beta 的形式提供。請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=zh-Hant)。
 
 ## 2023 年 4 月發行版本 {#apr-rn-2023}
 
@@ -124,7 +124,7 @@ ht-degree: 98%
 
 * **結束歷程** — 在歷程畫布中， **結束**&#x200B;活動已從調色盤中刪除。 現在，每個路徑的末端預設新增結束標籤而且無法移除。 這種改善能夠更好地報告客戶從歷程退出的位置，不需要由歷程業者採取任何動作。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=zh-Hant)。
 
-* 此 **個人資料時區** 「歷程屬性」中的選項現在預設為未勾選。 [了解更多](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=zh-Hant#timezone-from-profiles)。
+* 此&#x200B;**個人資料時區**「歷程屬性」中的選項現在預設為未勾選。 [了解更多](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=zh-Hant#timezone-from-profiles)。
 
 ## 2022 年 5 月發行 {#may-2022-release}
 
@@ -343,7 +343,7 @@ ht-degree: 98%
 <table>
 <thead>
 <tr>
-<th><strong>規則型事件（測試版）</strong><br/></th>
+<th><strong>基於規則的事件 (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
