@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 93%
+source-wordcount: '959'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 ## 存取 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-若要存取 [!DNL Journey Orchestration]的介面，按一下 **[!UICONTROL App Selector]** 圖示，然後在右上方，按一下 **[!UICONTROL Journey Orchestration]**.
+若要存取[!DNL Journey Orchestration]的介面，請按一下右上方的&#x200B;**[!UICONTROL App Selector]**&#x200B;圖示，然後按一下&#x200B;**[!UICONTROL Journey Orchestration]**。
 
 ![](../assets/journey1.png)
 
@@ -55,7 +55,7 @@ ht-degree: 93%
 
 在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 清單中，使用 **[!UICONTROL Creation filters]** 建立篩選器以篩選建立日期和使用者。舉例來說，您可以選擇只顯示您在過去 30 天內建立的事件。
 
-在歷程清單中(在 **[!UICONTROL Home]**)，以及 **[!UICONTROL Creation filters]**，您也可以根據顯示的歷程狀態、型別和版本(**[!UICONTROL Status and version filters]**)。 型別可以是： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**. 您也可以選擇只顯示使用特定事件、欄位群組或動作（**[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]**）的歷程記錄。**[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。
+在歷程清單（**[!UICONTROL Home]**&#x200B;下）中，除了&#x200B;**[!UICONTROL Creation filters]**&#x200B;之外，您還可以根據其狀態、型別和版本(**[!UICONTROL Status and version filters]**)篩選顯示的歷程。 型別可以是： **[!UICONTROL Unitary event]**&#x200B;或&#x200B;**[!UICONTROL Segment qualification]**。 您也可以選擇只顯示使用特定事件、欄位群組或動作（**[!UICONTROL Activity filters]** 和 **[!UICONTROL Data filters]**）的歷程記錄。**[!UICONTROL Publication filters]** 可讓您選取出版日期或使用者。舉例來說，您可以選擇只顯示昨天發佈之即時歷程的最新版本。請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ ht-degree: 93%
 
 ![](../assets/journey4.png)
 
-## 瀏覽 Adobe Experience Platform 欄位 {#friendly-names-display}
+## 瀏覽Adobe Experience Platform欄位 {#friendly-names-display}
 
 定義[事件有效負載](../event/defining-the-payload-fields.md)、[欄位群組有效負載](../datasource/field-groups.md)，以及在[運算式編輯器](../expression/expressionadvanced.md)中選取欄位時，除了欄位名稱外，還會顯示顯示名稱。此資訊會從「Experience 資料模型」的結構定義中擷取。
 

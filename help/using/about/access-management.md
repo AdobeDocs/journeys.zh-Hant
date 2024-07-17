@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 98%
+source-wordcount: '828'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
   >[!NOTE]
   >
-  >**[!UICONTROL Administrators]** 是唯一可在 Adobe Campaign Standard 中建立、編輯及發佈交易訊息（或訊息範本）的產品設定檔。如果您使用 Adobe Campaign Standard 在歷程中傳送訊息，則需要此產品設定檔。請勿在Admin Console中重新命名。
+  >**[!UICONTROL Administrators]** 是唯一可在 Adobe Campaign Standard 中建立、編輯及發佈交易訊息（或訊息範本）的產品設定檔。如果您使用Adobe Campaign Standard在歷程中傳送訊息，則需要此產品設定檔。 請勿在Admin Console中重新命名。
 
 * **[!UICONTROL Standard User]**：具有基本存取權限的使用者，例如歷程管理。此產品設定檔包含下列權限：
    * 管理歷程

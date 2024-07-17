@@ -32,7 +32,7 @@ ht-degree: 10%
 | 參數 | 類型 |
 |-----------|--------------|
 | 基底 | 字串 |
-| Target | 字串(RegExp) |
+| 目標 | 字串(RegExp) |
 | 取代 | 字串 |
 
 ## 簽章與傳回的型別
@@ -47,4 +47,4 @@ ht-degree: 10%
 
 傳回「Hexxo Worxd」。
 
-由於目標引數是RegExp，因此根據您要取代的字串，您可能需要將部分字元逸出。 請參閱中的範例 [此頁面](../functions/functionreplace.md#example_2).
+由於目標引數是RegExp，因此根據您要取代的字串，您可能需要將部分字元逸出。 請參考[此頁面](../functions/functionreplace.md#example_2)中的範例。

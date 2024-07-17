@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: isEmpty
+title: IsEmpty
 description: 瞭解函式isEmpty
 feature: Journeys
 role: Data Engineer
@@ -13,7 +13,7 @@ ht-degree: 19%
 
 ---
 
-# isEmpty {#isEmpty}
+# IsEmpty {#isEmpty}
 
 如果引數中的字串沒有字元，則傳回true。
 

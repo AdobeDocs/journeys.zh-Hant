@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 4%
+source-wordcount: '411'
+ht-degree: 2%
 
 ---
 
 # 關於進階使用案例{#concept_vzy_ncy_w2b}
 
-## 用途 {#purpose}
+## 目的 {#purpose}
 
 以一個名為Marlton的飯店品牌為例。 他們在飯店中，在所有策略區域附近都放置了信標裝置：大廳、地板、餐廳、健身房、游泳池等。
 
@@ -36,19 +36,19 @@ ht-degree: 4%
 
 ![](../assets/journeyuc2_29.png)
 
-對於此使用案例，我們將需要建立兩個事件(請參閱 [此頁面](../usecase/configuring-the-events.md))：
+針對此使用案例，我們需要建立兩個事件（請參閱[此頁面](../usecase/configuring-the-events.md)）：
 
 * 當客戶進入飯店時推送至系統的大廳信標事件。
 * 當客戶進入餐廳時將推送的餐廳信標事件。
 
-我們需要設定與兩個資料來源的連線(請參閱 [此頁面](../usecase/configuring-the-data-sources.md))：
+我們需要設定兩個資料來源的連線（請參閱[此頁面](../usecase/configuring-the-data-sources.md)）：
 
 * 內建的Adobe Experience Platform資料來源，可擷取我們兩個條件（忠誠會員資格和上次聯絡日期）的資訊以及訊息個人化資訊。
 * 飯店訂房系統，用來擷取訂房狀態資訊。
 
 ## 先決條件 {#prerequisites}
 
-針對我們的使用案例，我們已設計三個Adobe Campaign Standard異動訊息範本。 我們正在使用事件異動訊息範本。 請參閱此 [頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant).
+針對我們的使用案例，我們已設計三個Adobe Campaign Standard異動訊息範本。 我們正在使用事件異動訊息範本。 請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)。
 
 Adobe Campaign Standard已設定為傳送電子郵件和推播通知。
 

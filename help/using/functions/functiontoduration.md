@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 77f068fa-678e-49a4-b45f-843c3287390a
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '285'
 ht-degree: 3%
 
 ---
 
 # toDuration {#toDuration}
 
-將引數值轉換為持續時間。 如需資料型別的詳細資訊，請參閱 [此頁面](../expression/data-types.md).
+將引數值轉換為持續時間。 如需資料型別的詳細資訊，請參閱[此頁面](../expression/data-types.md)。
 
 ## 類別
 

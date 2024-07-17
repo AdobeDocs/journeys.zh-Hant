@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '100'
 ht-degree: 11%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->時區ID必須是字串常數。 它不能是欄位參考或運算式。 如需資料型別的詳細資訊，請參閱 [此頁面](../expression/data-types.md).
+>時區ID必須是字串常數。 它不能是欄位參考或運算式。 如需資料型別的詳細資訊，請參閱[此頁面](../expression/data-types.md)。
 
 ## 簽章與傳回的型別
 
@@ -46,7 +46,7 @@ ht-degree: 11%
 
 `toDateTime(<integer>)`
 
-傳回 **dateTime**.
+傳回&#x200B;**日期時間**。
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
@@ -73,15 +73,15 @@ Return a datetime.
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-傳回2016-08-18T23:17:59.123赫
+傳回2016-08-18T23:17:59.123Z
 
 `toDateTime(toDateTimeOnly("UTC", "2016-08-18T23:17:59.123"))`
 
-傳回2016-08-18T23:17:59.123赫
+傳回2016-08-18T23:17:59.123Z
 
 `toDateTime(1560762190189)`
 
-傳回2019-06-17T09:03:10.189盎司
+傳回2019-06-17T09:03:10.189Z
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

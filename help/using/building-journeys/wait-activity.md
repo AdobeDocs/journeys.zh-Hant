@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 8%
+source-wordcount: '368'
+ht-degree: 7%
 
 ---
 
 # 等待活動{#section_rlm_nft_dgb}
 
-如果您想在執行路徑中的下一個活動之前等待，可以使用 **[!UICONTROL Wait]** 活動。 這項功能可讓您定義執行下一個活動的時刻。有三個可用選項：
+如果您想在執行路徑中的下一個活動之前先等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活動。 這項功能可讓您定義執行下一個活動的時刻。有三個可用選項：
 
 * [持續時間](#duration)
 * [自訂](#custom)
@@ -31,7 +31,7 @@ ht-degree: 8%
 >
 >最長等待時間為30天。
 >
->在測試模式中， **[!UICONTROL Wait time in test]** 引數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這將確保您能快速獲得測試結果。 另請參閱 [此頁面](../building-journeys/testing-the-journey.md)
+>在測試模式中，**[!UICONTROL Wait time in test]**&#x200B;引數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這將確保您能快速獲得測試結果。 檢視[此頁面](../building-journeys/testing-the-journey.md)
 
 ## 持續時間等待{#duration}
 
@@ -41,13 +41,13 @@ ht-degree: 8%
 
 ## 自訂等待{#custom}
 
-此選項可讓您根據來自事件或資料來源的欄位，使用進階運算式來定義自訂日期，例如2020年7月12日下午5點。 它無法讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱[此頁面](../expression/expressionadvanced.md)。如需dateTimeOnly格式的詳細資訊，請參閱 [此頁面](../expression/data-types.md).
+此選項可讓您根據來自事件或資料來源的欄位，使用進階運算式來定義自訂日期，例如2020年7月12日下午5點。 它無法讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 請參閱[此頁面](../expression/expressionadvanced.md)。 如需dateTimeOnly格式的詳細資訊，請參閱[此頁面](../expression/data-types.md)。
 
 >[!NOTE]
 >
->您可以利用dateTimeOnly運算式或使用函式來轉換為dateTimeOnly。 例如： toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06Z
+>您可以利用dateTimeOnly運算式或使用函式來轉換為dateTimeOnly。 例如： toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06Z。
 >
->此 **時區** 應在您歷程的屬性中找到。 因此，現今無法從介面直接指向完整的ISO-8601時間戳記混合時間和時區位移，例如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
+>您歷程的屬性中應該有&#x200B;**時區**。 因此，目前無法從介面直接指向完整的ISO-8601時間戳記混合時間和時區位移，例如2016-08-12T09:46:06.982-05。 請參閱[此頁面](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 

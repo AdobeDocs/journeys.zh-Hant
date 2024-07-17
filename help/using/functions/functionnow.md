@@ -8,14 +8,14 @@ level: Experienced
 exl-id: ab1f9efe-cbb7-4e3a-ace0-24f2fb6165cb
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 18%
+source-wordcount: '58'
+ht-degree: 15%
 
 ---
 
 # now {#now}
 
-以日期時間格式傳回目前日期。 如需資料型別的詳細資訊，請參閱 [此頁面](../expression/data-types.md).
+以日期時間格式傳回目前日期。 如需資料型別的詳細資訊，請參閱[此頁面](../expression/data-types.md)。
 
 ## 類別
 

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 84%
+source-wordcount: '338'
+ht-degree: 82%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="關於資料來源"
->abstract="資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊。"
+>abstract="此資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊。"
 
 資料來源設定可讓您定義系統連線，以擷取將用於歷程的其他資訊，例如：
 
 * [條件定義](../building-journeys/condition-activity.md)
 * [動作](../action/action.md)中的參數和個人化資料
-* [自定等待定義](../building-journeys/wait-activity.md#custom)
+* [自訂等待定義](../building-journeys/wait-activity.md#custom)
 * [時區定義](../building-journeys/timezone-management.md)
 
 如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。例如，如果您的歷程是由事件組成，之後僅會使用來自事件資料的電子郵件活動，則不需要設定資料來源。
@@ -44,13 +44,13 @@ ht-degree: 84%
 >
 >資料來源設定一律會由&#x200B;**技術使用者**&#x200B;執行。
 
-1. 在功能表窗格中，選取 **[!UICONTROL Admin]**. 在 **[!UICONTROL Data sources]** 區段，按一下 **[!UICONTROL Manage]**。
+1. 在功能表窗格中，選取&#x200B;**[!UICONTROL Admin]**。 在&#x200B;**[!UICONTROL Data sources]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Manage]**。
 
-   畫面隨即顯示資料來源。另請參閱 [此頁面](../about/user-interface.md) 以取得介面的詳細資訊。
+   畫面隨即顯示資料來源。如需介面的詳細資訊，請參閱[此頁面](../about/user-interface.md)。
 
    ![](../assets/journey18.png)
 
-1. 然後，您就可以將欄位群組新增至內建的資料來源(請參閱 [此頁面](../datasource/adobe-experience-platform-data-source.md))或建立新的外部資料來源(請參閱 [此頁面](../datasource/external-data-sources.md))和相關聯的欄位群組(請參閱 [此頁面](../datasource/field-groups.md))。
+1. 然後，您可以將欄位群組新增至內建的資料來源（請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)），或建立新的外部資料來源（請參閱[此頁面](../datasource/external-data-sources.md)）和相關聯的欄位群組（請參閱[此頁面](../datasource/field-groups.md)）。
 
    ![](../assets/journey23.png)
 

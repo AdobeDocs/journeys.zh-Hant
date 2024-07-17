@@ -8,18 +8,18 @@ level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '437'
 ht-degree: 13%
 
 ---
 
 # 使用 Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
-此整合適用於Adobe Campaign Classic v7 （從21.1版開始）和Adobe Campaign v8。 這可讓您使用 Adobe Campaign 異動訊息功能來傳送電子郵件、推播通知及簡訊。
+此整合適用於Adobe Campaign Classic v7 （從21.1版開始）和Adobe Campaign v8。 這可讓您使用 Adobe Campaign 交易型訊息功能來傳送電子郵件、推播通知及簡訊。
 
 Journey Orchestration 與 Campaign 執行個體之間的連線在佈建時由 Adobe 設定。
 
-本頁面介紹端對端使用案例 [區段](../usecase/campaign-classic-use-case.md).
+此[區段](../usecase/campaign-classic-use-case.md)中呈現端對端使用案例。
 
 對於已設定的每個動作，歷程設計器浮動視窗中都提供動作活動。 請參閱本[章節](../building-journeys/using-adobe-campaign-classic.md)。
 
@@ -37,7 +37,7 @@ Journey Orchestration 與 Campaign 執行個體之間的連線在佈建時由 Ad
 
 ## 先決條件
 
-在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱 [Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
+在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging)。
 
 您可以依照以下模式，建置與每則訊息相對應的JSON裝載。 接著，當您在Journey Orchestration中設定動作時，就會貼上此裝載（請參閱下文）
 
@@ -54,18 +54,18 @@ Journey Orchestration 與 Campaign 執行個體之間的連線在佈建時由 Ad
 }
 ```
 
-* **頻道**：為您的Campaign交易範本定義的管道
-* **eventtype**：Campaign事件的內部名稱
+* **頻道**：為您的Campaign交易範本定義的頻道
+* **eventType**：您的行銷活動事件的內部名稱
 * **ctx**：變數，根據您訊息中的個人化設定而定。
 
 ## 設定動作
 
-在Journey Orchestration中，您需要為每個交易式訊息設定一個動作。 請按照以下步驟操作：
+在Journey Orchestration中，您需要為每個交易式訊息設定一個動作。 請依照下列步驟操作：
 
 1. 建立新動作。 請參閱本[章節](../action/action.md)。
 1. 輸入名稱和說明。
-1. 在 **動作型別** 欄位，選取 **Adobe Campaign Classic**.
-1. 按一下 **裝載** 欄位並貼上與Campaign訊息相對應的JSON裝載範例。 聯絡Adobe以取得此裝載。
+1. 在&#x200B;**動作型別**&#x200B;欄位中，選取&#x200B;**Adobe Campaign Classic**。
+1. 按一下&#x200B;**裝載**&#x200B;欄位，然後貼上與Campaign訊息相對應的JSON裝載範例。 聯絡Adobe以取得此裝載。
 1. 視您想要在歷程畫布上對應欄位，將不同的欄位調整為靜態或變數。 某些欄位，例如電子郵件地址和個人化欄位(ctx)的管道引數，您可能會想要定義為歷程內容中對應的變數。
 1. 按一下&#x200B;**儲存**。
 

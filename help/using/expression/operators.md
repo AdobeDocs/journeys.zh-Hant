@@ -8,8 +8,8 @@ level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: a0b6ab595bc16a75aa5a56a858900418e2381ab9
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 7%
+source-wordcount: '459'
+ht-degree: 6%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 7%
 
 ## 重要備註{#important-notes}
 
-* 使用乘法時(`*`)，則兩個作業欄位都必須有相同的型別，可以是整數或小數。 範例：
+* 使用乘法(`*`)時，兩個作業欄位必須具有相同的型別，可以是整數或小數。 範例：
    * 下列範例是正確的： `3.0 * 4.0`
-   * `3 * 4.0` 會導致錯誤
+   * `3 * 4.0`將導致錯誤
 
 ## 邏輯  {#logical}
 
@@ -46,7 +46,7 @@ ht-degree: 7%
 <expression1> and <expression2>
 ```
 
-兩者 &lt;expression1> 和 &lt;expression2> 必須為布林值。 結果是布林值。
+&lt;expression1>和&lt;expression2>都必須是布林值。 結果是布林值。
 
 範例：
 
@@ -62,7 +62,7 @@ ht-degree: 7%
 <expression1> or <expression2>
 ```
 
-兩者 &lt;expression1> 和 &lt;expression2> 必須為布林值。 結果是布林值。
+&lt;expression1>和&lt;expression2>都必須是布林值。 結果是布林值。
 
 範例：
 
@@ -78,7 +78,7 @@ ht-degree: 7%
 not <expression>
 ```
 
-&lt;expression> 必須為布林值。 結果是布林值。
+&lt;expression>必須為布林值。 結果是布林值。
 
 範例：
 
@@ -132,7 +132,7 @@ not 3.15 < 1
 <expression> has null
 ```
 
-&lt;expression> 必須為清單。 結果是布林值。
+&lt;expression>必須是清單。 結果是布林值。
 
 用於識別清單是否包含至少一個Null值。
 
@@ -154,7 +154,7 @@ not 3.15 < 1
 <expression1> == <expression2>
 ```
 
-兩者 &lt;expression1> 和 &lt;expression2> 必須有相同的資料型別。 結果是布林值。
+&lt;expression1>和&lt;expression2>必須有相同的資料型別。 結果是布林值。
 
 範例：
 
@@ -166,7 +166,7 @@ not 3.15 < 1
 "foo" == "bar"
 ```
 
-### !=
+### ！=
 
 
 
@@ -174,7 +174,7 @@ not 3.15 < 1
 <expression1> != <expression2>
 ```
 
-兩者 &lt;expression1> 和 &lt;expression2> 必須有相同的資料型別。 結果是布林值。
+&lt;expression1>和&lt;expression2>必須有相同的資料型別。 結果是布林值。
 
 範例：
 
@@ -332,7 +332,7 @@ Datetimeonly可以與Datetimeonly比較。
 
 結果也是數字。
 
-&lt;expression2> 不得等於0 （傳回0）。
+&lt;expression2>不可以等於0 （傳回0）。
 
 範例：
 

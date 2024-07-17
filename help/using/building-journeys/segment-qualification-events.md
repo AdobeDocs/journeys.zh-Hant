@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 5%
+source-wordcount: '776'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 ## 關於區段資格事件{#about-segment-qualification}
 
-本活動可讓您的歷程聆聽 Adobe Experience Platform 區段中設定檔的入口和出口，讓個人得以在歷程中進入或前進。如需建立區段的詳細資訊，請參閱本節 [區段](../segment/about-segments.md).
+此活動可讓您的歷程聆聽Adobe Experience Platform區段中設定檔的入口和出口，讓個人進入歷程或是在歷程中前進。 如需建立區段的詳細資訊，請參閱此[區段](../segment/about-segments.md)。
 
 假設您有「銀級客戶」區段。 透過此活動，您可以讓所有新的銀級客戶進入歷程，並向他們傳送一系列個人化訊息。
 
@@ -25,18 +25,18 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->請記住，Adobe Experience Platform區段每天計算一次(**批次** 區段)或即時(**串流** 區段(使用Adobe Experience Platform的「高頻對象」選項)。
+>請記住，Adobe Experience Platform區段每天計算一次（**批次**&#x200B;區段）或即時計算(**串流**&#x200B;區段，使用Adobe Experience Platform的「高頻對象」選項)。
 >
 >如果選取的區段經過串流處理，屬於此區段的個人可能會即時進入歷程。 如果區段為批次，則新符合此區段資格的人可能會在Adobe Experience Platform上執行區段計算時進入歷程。
 
 
-1. 展開 **[!UICONTROL Events]** 類別與拖放 **[!UICONTROL Segment qualification]** 活動至您的畫布。
+1. 展開&#x200B;**[!UICONTROL Events]**&#x200B;類別並將&#x200B;**[!UICONTROL Segment qualification]**&#x200B;活動拖放到畫布中。
 
    ![](../assets/segment5.png)
 
-1. 新增 **[!UICONTROL Label]** 至活動。 此步驟為選填。
+1. 將&#x200B;**[!UICONTROL Label]**&#x200B;新增至活動。 此步驟為選填。
 
-1. 按一下 **[!UICONTROL Segment]** 欄位並選取您要運用的區段。
+1. 按一下「**[!UICONTROL Segment]**」欄位，然後選取您要使用的區段。
 
    >[!NOTE]
    >
@@ -44,17 +44,17 @@ ht-degree: 5%
 
    ![](../assets/segment6.png)
 
-   新增區段後， **[!UICONTROL Copy]** 按鈕可讓您複製其名稱和ID：
+   新增區段後，**[!UICONTROL Copy]**&#x200B;按鈕可讓您複製其名稱和ID：
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/segment-copy.png)
 
-1. 在 **[!UICONTROL Behaviour]** 欄位，選擇要監聽區段入口、出口或兩者。
+1. 在&#x200B;**[!UICONTROL Behaviour]**&#x200B;欄位中，選擇您要聆聽區段入口、出口或兩者。
 
    >[!NOTE]
    >
-   >請注意 **[!UICONTROL Enter]** 和 **[!UICONTROL Exit]** 對應至 **已實現** 和 **已退出** Adobe Experience Platform的區段參與狀態。 如需如何評估區段的詳細資訊，請參閱 [分段服務檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >請注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**已實現**&#x200B;和&#x200B;**已退出**&#x200B;區段參與狀態。 如需如何評估區段的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
 
 1. 選取名稱空間。 只有在將事件定位為歷程的第一步時，才需要此專案。
 
@@ -66,17 +66,17 @@ ht-degree: 5%
 * 資格的時間戳記
 * 區段id
 
-在後續的條件或動作中使用運算式編輯器時 **[!UICONTROL Segment qualification]** 活動，則您可存取 **[!UICONTROL SegmentQualification]** 節點。 您可以選擇 **[!UICONTROL Last qualification time]** 和 **[!UICONTROL status]** （進入或退出）。
+在&#x200B;**[!UICONTROL Segment qualification]**&#x200B;活動之後的條件或動作中使用運算式編輯器時，您有權存取&#x200B;**[!UICONTROL SegmentQualification]**&#x200B;節點。 您可以選擇&#x200B;**[!UICONTROL Last qualification time]**&#x200B;與&#x200B;**[!UICONTROL status]** （進入或退出）。
 
-另請參閱 [條件活動](../building-journeys/condition-activity.md#about_condition).
+檢視[條件活動](../building-journeys/condition-activity.md#about_condition)。
 
 ![](../assets/segment8.png)
 
 包含區段資格事件的新歷程在發佈後10分鐘即可運作。 此時間間隔對應到專用服務的快取重新整理間隔。 因此，您必須等待10分鐘才能使用此歷程。
 
-## 最佳做法 {#best-practices-segments}
+## 最佳作法 {#best-practices-segments}
 
-此 **[!UICONTROL Segment Qualification]** 活動可讓在Adobe Experience Platform區段中取得資格或被取消資格的個人在歷程中立即進入。
+**[!UICONTROL Segment Qualification]**&#x200B;活動可讓在Adobe Experience Platform區段中取得資格或被取消資格的個人在歷程中立即進入。
 
 此資訊的接收速度很快。 所做的測量顯示速度為每秒接收10,000個事件。 因此，您應該確保瞭解入口尖峰可能如何發生、如何避免以及如何讓您的歷程準備好迎接他們。
 
@@ -90,18 +90,18 @@ ht-degree: 5%
 
 針對串流區段使用區段資格時，由於持續評估區段，入口/出口出現大型峰值的風險較低。 然而，如果區段定義導致大量客戶同時符合資格，則也可能出現峰值。
 
-如需串流細分的詳細資訊，請參閱此 [頁面](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+如需串流區段的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### 如何避免多載{#overloads-speed-segment-qualification}
 
 以下是將有助於避免讓歷程中所運用的系統(資料來源、自訂動作、Adobe Campaign Standard動作)過載的一些最佳做法。
 
-請勿使用，在 **[!UICONTROL Segment Qualification]** 活動，批次區段建立後立即生效。 它會避免第一個計算尖峰。 請注意，如果您即將使用從未計算的區段，歷程畫布中將會出現黃色警告。
+在&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活動中，請勿在建立批次區段後立即使用該批次區段。 它會避免第一個計算尖峰。 請注意，如果您即將使用從未計算的區段，歷程畫布中將會出現黃色警告。
 
 ![](../assets/segment-error.png)
 
-為歷程中使用的資料來源和動作設定上限規則，以避免其過載(請參閱此 [區段](../api/capping.md))。 請注意，上限規則沒有重試。 如果您需要重試，您必須核取方塊，以在歷程中使用替代路徑 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 在條件或動作中。
+為歷程中使用的資料來源和動作設定上限規則，以避免其過載（請參閱此[區段](../api/capping.md)）。 請注意，上限規則沒有重試。 如果您需要重試，則必須在條件或動作中核取方塊&#x200B;**[!UICONTROL Add an alternative path in case of a timeout or an error]**，以在歷程中使用替代路徑。
 
-在生產歷程中使用區段之前，請一律先評估每天符合此區段資格的個人數量。 若要這麼做，您可以檢查 **[!UICONTROL Segments]** Adobe Experience Platform區段，並檢視右側的圖表。
+在生產歷程中使用區段之前，請一律先評估每天符合此區段資格的個人數量。 若要這麼做，您可以檢查Adobe Experience Platform中的&#x200B;**[!UICONTROL Segments]**&#x200B;區段，並檢視右側的圖表。
 
 ![](../assets/segment-overload.png)

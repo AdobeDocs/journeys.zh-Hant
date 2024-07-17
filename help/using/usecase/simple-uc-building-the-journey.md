@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 35%
+source-wordcount: '387'
+ht-degree: 30%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 35%
 
 **商業使用者**&#x200B;現在可以建立歷程。我們的歷程將僅包含一個包含以下活動的路徑：
 
-* 「SpaBeacon」 **[!UICONTROL Event]**：當使用者接近spa信標時，系統將收到事件且將開始該使用者的歷程。
-* a **[!UICONTROL Condition]** 活動以檢查該人士是否為女性
-* 一個 **[!UICONTROL Email]** 活動(使用Adobe Campaign Standard)
-* 一個 **[!UICONTROL End]** 活動
+* 「SpaBeacon」 **[!UICONTROL Event]**：當某人接近spa信標時，系統將收到一個事件，且會為該人開始歷程。
+* **[!UICONTROL Condition]**&#x200B;活動，用於檢查該人員是否為女性
+* **[!UICONTROL Email]**&#x200B;活動(使用Adobe Campaign Standard)
+* **[!UICONTROL End]**&#x200B;活動
 
 >[!NOTE]
 >
 >只有當您具有 Adobe Campaign Standard　時，浮動視窗才能使用　**[!UICONTROL Push]**　及 **[!UICONTROL Email]**　活動。
 
-如需如何建立歷程的詳細資訊，請參閱 [此頁面](../building-journeys/journey.md).
+如需如何建立歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey.md)。
 
 1. 在頂端功能表中，按一下 **[!UICONTROL Home]** 索引標籤及 **[!UICONTROL Create]**，以建立新的歷程。
 
@@ -44,19 +44,19 @@ ht-degree: 35%
 
    ![](../assets/journeyuc1_10.png)
 
-1. 選擇 **[!UICONTROL Data Source Condition]** 類型，然後按一下 **[!UICONTROL Expression]** 欄位。您也可以定義條件標籤，該標籤將顯示在畫布的箭頭上。
+1. 選擇 **[!UICONTROL Data Source Condition]** 類型，然後按一下 **[!UICONTROL Expression]** 欄位。您也可以定義條件標籤，此標籤將顯示在畫布的箭頭上。
 
    ![](../assets/journeyuc1_11.png)
 
-1. 使用簡單運算式編輯器，尋找性別欄位(_人員>性別_)並拖曳至右側，以建立下列條件：「性別等於」女性。
+1. 使用簡單運算式編輯器，尋找性別欄位(_person > gender_)，並將其拖曳至右側，以建立下列條件：「性別等於」女性。
 
    ![](../assets/journeyuc1_12.png)
 
-1. 放下 **[!UICONTROL Email]** 活動並選取您的「Spa折扣」交易式訊息範本。 此範本是使用Adobe Campaign設計的。 請參閱此 [頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant).
+1. 拖放&#x200B;**[!UICONTROL Email]**&#x200B;活動並選取您的「Spa折扣」交易式訊息範本。 此範本是使用Adobe Campaign設計的。 請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)。
 
    ![](../assets/journeyuc1_13.png)
 
-1. 按一下 **[!UICONTROL Email]** 欄位並從資料來源選取電子郵件地址。
+1. 按一下「**[!UICONTROL Email]**」欄位，然後從資料來源選取電子郵件地址。
 
    ![](../assets/journeyuc1_14.png)
 
@@ -64,11 +64,11 @@ ht-degree: 35%
 
    ![](../assets/journeyuc1_15.png)
 
-1. 放下 **[!UICONTROL End]** 活動。
+1. 卸除&#x200B;**[!UICONTROL End]**&#x200B;活動。
 
    ![](../assets/journeyuc1_17.png)
 
-1. 按一下 **[!UICONTROL Test]** 使用測試設定檔切換及測試您的歷程。 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。有關測試模式的詳細資訊，請參閱 [此頁面](../building-journeys/testing-the-journey.md).
+1. 按一下&#x200B;**[!UICONTROL Test]**&#x200B;切換並使用測試設定檔測試您的歷程。 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。如需測試模式的詳細資訊，請參閱[此頁面](../building-journeys/testing-the-journey.md)。
 
    ![](../assets/journeyuc1_18bis.png)
 

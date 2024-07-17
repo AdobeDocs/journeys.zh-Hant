@@ -33,9 +33,9 @@ else
    (<expression3>)
 ```
 
-`<expression1>` 必須傳回 **布林值**.
+`<expression1>`必須傳回&#x200B;**布林值**。
 
-`<expression2>` 和 `<expression3>` 必須有相同型別或相容型別。 支援的簽章和傳回的型別包括：
+`<expression2>`和`<expression3>`必須具有相同的型別或相容的型別。 支援的簽章和傳回的型別包括：
 
 ```json
 boolean,boolean : boolean

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 91%
+source-wordcount: '857'
+ht-degree: 89%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 91%
 >
 >只有當您具有 Adobe Campaign Standard　時，浮動視窗才能使用　**[!UICONTROL Push]**　及 **[!UICONTROL Email]**　活動。
 
-如需如何建立歷程的詳細資訊，請參閱 [此頁面](../building-journeys/journey.md).
+如需如何建立歷程的詳細資訊，請參閱[此頁面](../building-journeys/journey.md)。
 
-## 第一步{#section_ntb_ws1_ffb}
+## 首要步驟{#section_ntb_ws1_ffb}
 
 1. 在頂端功能表中，按一下 **[!UICONTROL Home]** 索引標籤及 **[!UICONTROL Create]**，以建立新的歷程。
 
@@ -77,7 +77,7 @@ ht-degree: 91%
    >
    >在運算式的第二部分中，「設定檔」是選填欄位。
 
-1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。如需名稱空間的詳細資訊，請參閱 [此頁面](../event/selecting-the-namespace.md).
+1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。如需名稱空間的詳細資訊，請參閱[此頁面](../event/selecting-the-namespace.md)。
 
 在我們的使用案例中，我們只想對這兩種情況做出反應，所以不需要核取方塊 **[!UICONTROL Show path for other cases than the one(s) above]**。
 
@@ -102,7 +102,7 @@ ht-degree: 91%
 
    ![](../assets/journeyuc2_18.png)
 
-1. 當您從外部資料來源選取欄位時，畫面的右側會顯示設定外部資料來源時所定義的引數清單(請參閱 [此頁面](../usecase/configuring-the-data-sources.md))。 在範例中，按一下參數名稱並定義訂房系統索引鍵 (Experience Cloud ID) 的值：
+1. 當您從外部資料來源選取欄位時，畫面的右側會顯示設定外部資料來源時所定義的引數清單（請參閱[此頁面](../usecase/configuring-the-data-sources.md)）。 在範例中，按一下參數名稱並定義訂房系統索引鍵 (Experience Cloud ID) 的值：
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -152,7 +152,7 @@ ht-degree: 91%
 
    ![](../assets/journeyuc2_25.png)
 
-## 第二條路徑：客戶不是忠誠會員{#section_ptb_ws1_ffb}
+## 第二個路徑：客戶不是忠誠會員{#section_ptb_ws1_ffb}
 
 1. 在第一個條件（客戶不是忠誠會員）之後的第二個路徑，新增 **[!UICONTROL Email]** 活動並選取「忠誠會員資格」範本。
 
@@ -168,7 +168,7 @@ ht-degree: 91%
 
 1. 新增 **[!UICONTROL End]** 活動。
 
-按一下 **[!UICONTROL Test]** 切換並測試您的歷程。如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。有關測試模式的詳細資訊，請參閱 [此頁面](../building-journeys/testing-the-journey.md).
+按一下 **[!UICONTROL Test]** 切換並測試您的歷程。如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。如需測試模式的詳細資訊，請參閱[此頁面](../building-journeys/testing-the-journey.md)。
 
 ![](../assets/journeyuc2_32bis.png)
 

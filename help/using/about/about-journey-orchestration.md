@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 [!DNL Journey Orchestration] 能以事件中的情境資料、Adobe Experience Platform 的資訊或來自協力廠商 API 服務的資料，進行即時協調。如果您使用協力廠商系統來傳送訊息，則可設定自訂動作。如果您有 Adobe Campaign Standard，則可使用 Adobe Campaign Standard 的[「交易訊息」功能](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)來傳送電子郵件、推播通知和簡訊。
 
-在事件設定索引標籤中，**技術使用者**&#x200B;會設定歷程中預期的事件。會依照 Adobe Experience Data Model (XDM)，對傳入事件的資料進行標準化。事件來自串流擷取 API，適用於驗證和未驗證的事件 (例如 Adobe Mobile SDK 事件)。
+在事件設定索引標籤中，**技術使用者**&#x200B;會設定歷程中預期的事件。會依照 Adobe Experience Data Model (XDM)，對傳入事件的資料進行標準化。事件來自串流獲取 API，適用於驗證和未驗證的事件（例如 Adobe Mobile SDK 事件）。
 
 在資料來源設定索引標籤中，**技術使用者**&#x200B;會設定：
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 之後，您就能根據下列項目建立條件：
 
-* time
+* 時間
 * 來自事件有效負載的資料
 * 來自資料來源的資訊：即時客戶設定檔資料來源或自訂資料來源
 

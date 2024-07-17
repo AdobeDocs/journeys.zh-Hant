@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 7%
+source-wordcount: '377'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 7%
 
 定義擷取作業錯誤是在Adobe Experience Platform上還是在自訂資料來源上。
 
-類型: 字串
+型別：字串
 
 值：
 * aep
@@ -39,19 +39,19 @@ ht-degree: 7%
 
 處理資料擷取時發生的錯誤型別。
 
-類型: 字串
+型別：字串
 
 值：
 * http
 * 上限
 * 逾時
-* error
+* 錯誤
 
 ## fetchErrorCode
 
 擷取錯誤的程式碼。 如果錯誤有程式碼（例如HTTP程式碼）則會出現。 例如，如果actionExecError是http，則代碼404代表HTTP 404錯誤。
 
-類型: 字串
+型別：字串
 
 ## fetchOriginError
 
@@ -71,13 +71,13 @@ ht-degree: 7%
     "fetchOrigErrorCode": "500"
 ```
 
-類型: 字串
+型別：字串
 
 ## fetchOriginErrorCode
 
-系統提供的錯誤碼 [!DNL Journey Orchestration] 正在查詢。 例如，可以是404、500等。
+系統[!DNL Journey Orchestration]提供的錯誤碼正在查詢。 例如，可以是404、500等。
 
-類型: 字串
+型別：字串
 
 ## fetchCount
 

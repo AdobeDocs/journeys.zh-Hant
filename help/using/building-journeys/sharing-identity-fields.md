@@ -9,7 +9,7 @@ exl-id: 9c0ff38f-51dd-40bd-8c19-d142b9c23308
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 27%
+ht-degree: 20%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 27%
 
 設定檔識別碼
 
-類型: 字串
+型別：字串
 
 ## profileNamespace
 
 設定檔識別碼名稱空間
 
-類型: 字串
+型別：字串

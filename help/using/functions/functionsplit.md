@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 44499a09-19e2-4085-bf2f-7d9080ec382d
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 19%
+source-wordcount: '65'
+ht-degree: 15%
 
 ---
 
@@ -42,10 +42,10 @@ ht-degree: 19%
 
 `split(["A_B_C"], "_")`
 
-傳回 `["A","B","C"]`
+傳回`["A","B","C"]`
 
 具有下列值的事件欄位「event.appVersion」範例：「20.45.2.3434」
 
 `split(@{event.appVersion}, "\\.")`
 
-傳回 `["20", "45", "2", "3434"]`
+傳回`["20", "45", "2", "3434"]`

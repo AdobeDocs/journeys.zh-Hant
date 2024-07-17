@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 source-git-commit: 3856e323569054fac9e73f2a6af2b86518f62ab9
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1305'
 ht-degree: 93%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 以下是建立和設定新外部資料來源的主要步驟：
 
-1. 從資料來源清單中，按一下 **[!UICONTROL Create data source]** 以建立新的外部資料來源。
+1. 從資料來源清單中，按一下&#x200B;**[!UICONTROL Create data source]**&#x200B;以建立新的外部資料來源。
 
    ![](../assets/journey25.png)
 
@@ -53,7 +53,7 @@ ht-degree: 93%
 
    ![](../assets/journey27.png)
 
-1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。如需自訂驗證模式的詳細資訊，請參閱 [本節](../datasource/external-data-sources.md#section_wjp_nl5_nhb). 在我們的範例中，我們選擇：
+1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。如需自訂驗證模式的詳細資訊，請參閱[本節](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。 在我們的範例中，我們選擇：
 
 
    * **[!UICONTROL Type]**：&quot;API key&quot;

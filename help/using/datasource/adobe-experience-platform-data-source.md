@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 14%
+source-wordcount: '346'
+ht-degree: 13%
 
 ---
 
 # Adobe Experience Platform 資料來源 {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform資料來源會定義與即時客戶個人檔案服務的連線。 此資料來源是內建並預先設定的。 無法刪除它。 此資料來源旨在擷取及使用即時客戶個人檔案服務的資料（例如，檢查進入歷程的人員是否為女性）。 其可讓您使用個人檔資料與體驗事件資料。 如需即時客戶個人檔案服務的詳細資訊，請參閱本 [頁面](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant).
+Adobe Experience Platform資料來源會定義與即時客戶個人檔案服務的連線。 此資料來源是內建並預先設定的。 無法刪除它。 此資料來源旨在擷取及使用即時客戶個人檔案服務的資料（例如，檢查進入歷程的人員是否為女性）。 其可讓您使用個人檔資料與體驗事件資料。 如需即時客戶個人檔案服務的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)。
 
 >[!NOTE]
 >
@@ -33,12 +33,12 @@ Adobe Experience Platform資料來源會定義與即時客戶個人檔案服務�
 
    ![](../assets/journey23.png)
 
-1. 按一下 **[!UICONTROL Add a New Field Group]** 以定義要擷取的一系列新欄位。 請參閱[此頁面](../datasource/field-groups.md)。
+1. 按一下&#x200B;**[!UICONTROL Add a New Field Group]**&#x200B;以定義要擷取的一系列新欄位。 請參閱[此頁面](../datasource/field-groups.md)。
 
    ![](../assets/journey24.png)
 
-1. 從以下專案選取結構描述： **[!UICONTROL Schema]** 下拉式清單。 此欄位列出Adobe Experience Platform中可用的設定檔和體驗事件結構。 結構描述建立不會在中執行 [!DNL Journey Orchestration]. 在Adobe Experience Platform中執行。
+1. 從&#x200B;**[!UICONTROL Schema]**&#x200B;下拉式清單中選取結構描述。 此欄位列出Adobe Experience Platform中可用的設定檔和體驗事件結構。 未在[!DNL Journey Orchestration]中執行結構描述建立。 在Adobe Experience Platform中執行。
 1. 選取您要使用的欄位。
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-將游標放在欄位群組的名稱上時，您會在右側看到兩個圖示。 它們可讓您刪除和複製欄位群組。 請注意 **[!UICONTROL Delete]** 圖示僅適用於未在任何即時或草稿歷程中使用欄位群組的情況(資訊顯示在 **[!UICONTROL Used in]** 欄位)。
+將游標放在欄位群組的名稱上時，您會在右側看到兩個圖示。 它們可讓您刪除和複製欄位群組。 請注意，**[!UICONTROL Delete]**&#x200B;圖示僅適用於未在任何即時或草稿歷程中使用欄位群組（**[!UICONTROL Used in]**&#x200B;欄位中顯示的資訊）。

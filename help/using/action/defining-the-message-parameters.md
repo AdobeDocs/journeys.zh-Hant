@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 4%
+source-wordcount: '226'
+ht-degree: 3%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 4%
 
 ![](../assets/messageparameterssection.png)
 
-在 **[!UICONTROL Action parameters]** 區段，貼上要傳送至外部服務的JSON裝載範例。
+在&#x200B;**[!UICONTROL Action parameters]**&#x200B;區段中，貼上要傳送至外部服務的JSON裝載範例。
 
 ![](../assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
->承載中的欄位名稱不得包含「。」 字元. 開頭不能為「$」字元。
+>承載中的欄位名稱不得包含「。」 字元。 開頭不能為「$」字元。
 
 您將能夠定義引數型別（例如：字串、整數等）。
 

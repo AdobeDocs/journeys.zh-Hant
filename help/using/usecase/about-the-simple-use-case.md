@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 11%
+source-wordcount: '166'
+ht-degree: 7%
 
 ---
 
 # 關於簡單使用案例{#concept_grh_vby_w2b}
 
-## 用途 {#purpose}
+## 目的 {#purpose}
 
 以一個名為Marlton的飯店品牌為例。 他們在飯店中，在所有策略區域附近都放置了信標裝置：大廳、地板、餐廳、健身房、游泳池等。
 
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 ## 先決條件 {#prerequisites}
 
-針對我們的使用案例，我們在Adobe Campaign Standard中設計了一個電子郵件交易式訊息範本。 我們正在使用事件交易式訊息範本。 請參閱此 [頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant).
+針對我們的使用案例，我們在Adobe Campaign Standard中設計了一個電子郵件交易式訊息範本。 我們正在使用事件交易式訊息範本。 請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)。
 
 Adobe Campaign Standard已設定為傳送電子郵件。
 

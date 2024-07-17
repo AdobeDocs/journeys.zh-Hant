@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: count
+title: 計數
 description: 瞭解函式計數
 feature: Journeys
 role: Data Engineer
@@ -8,12 +8,12 @@ level: Experienced
 exl-id: 46528642-18d5-4ca9-a344-de2c7f939d00
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '53'
 ht-degree: 30%
 
 ---
 
-# count {#count}
+# 計數 {#count}
 
 計算清單的元素而不考慮null值。
 

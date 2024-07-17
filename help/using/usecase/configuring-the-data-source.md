@@ -9,17 +9,17 @@ exl-id: 87f63d7d-b7d9-4243-a5ce-8948939f3d93
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
 # 設定資料來源{#concept_ax3_bcy_w2b}
 
-在我們的使用案例中，我們希望對訊息使用個人化資料。 我們還需要檢查這個人是不是女性。 此資訊儲存在「即時客戶個人檔案」資料庫中。 此 **技術使用者** 需要檢查這些欄位是否在內建的Adobe Experience Platform資料來源中定義。
+在我們的使用案例中，我們希望對訊息使用個人化資料。 我們還需要檢查這個人是不是女性。 此資訊儲存在「即時客戶個人檔案」資料庫中。 **技術使用者**&#x200B;需要檢查這些欄位是否已在內建Adobe Experience Platform資料來源中定義。
 
-如需資料來源組態的詳細資訊，請參閱 [此頁面](../datasource/about-data-sources.md).
+如需資料來源組態的詳細資訊，請參閱[此頁面](../datasource/about-data-sources.md)。
 
-1. 在功能表窗格中，選取 **[!UICONTROL Admin]**. 在 **[!UICONTROL Data sources]** 區段，按一下 **[!UICONTROL Manage]**。
+1. 在功能表窗格中，選取&#x200B;**[!UICONTROL Admin]**。 在&#x200B;**[!UICONTROL Data sources]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Manage]**。
 1. 選取內建的Adobe Experience Platform資料來源。
 
    ![](../assets/journey23.png)
@@ -29,7 +29,7 @@ ht-degree: 9%
    * _人員>姓名>名字_
    * _人員>姓名>姓氏_
    * _人員>性別_
-   * _personalEmail >地址_
+   * _個人電子郵件>地址_
 
 1. 按一下「**[!UICONTROL Save]**」。
 

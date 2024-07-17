@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 97%
+source-wordcount: '1030'
+ht-degree: 95%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推播至 [!DNL Journey Orchestration]。事實上，[!DNL Journey Orchestration] 會仰賴 Adobe Experience Platform 的串流獲取 API。因此，若發生事件相關問題，您可以參閱 [此頁面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) 適用於串流獲取API的疑難排解。
+不會直接將事件從來源推播至 [!DNL Journey Orchestration]。事實上，[!DNL Journey Orchestration] 會仰賴 Adobe Experience Platform 的串流獲取 API。因此，如果發生事件相關問題，您可以參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)，以疑難排解串流獲取API。
 
 ## 檢查是否有人進入歷程{#section_x4v_zzs_dgb}
 

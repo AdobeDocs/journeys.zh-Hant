@@ -9,7 +9,7 @@ exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 28%
+ht-degree: 11%
 
 ---
 
@@ -21,28 +21,28 @@ ht-degree: 28%
 
 主要歷程的ID。
 
-類型: 字串
+型別：字串
 
 ## journeyVersionID
 
 歷程版本的ID。 此ID代表歷程的身分。
 
-類型: 字串
+型別：字串
 
 ## 名稱
 
 歷程的名稱。
 
-類型: 字串
+型別：字串
 
 ## 說明
 
 歷程的說明。
 
-類型: 字串
+型別：字串
 
-## version
+## 版本
 
-版本，表示為 `major`.`minor`
+版本，表示為`major`.`minor`
 
-類型: 字串
+型別：字串

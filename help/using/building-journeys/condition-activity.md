@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '824'
 ht-degree: 17%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 有四種型別的條件可供使用：
 
-* [資料來源條件](#data_source_condition)
+* [資料Source條件](#data_source_condition)
 * [時間條件](#time_condition)
 * [百分比分割](#percentage_split)
 * [日期條件](#date_condition)
@@ -28,7 +28,7 @@ ht-degree: 17%
 
 在歷程中使用數個條件時，您可以為每個條件定義標籤，以更輕鬆地識別它們。
 
-按一下 **[!UICONTROL Add a path]** 如果要定義多個條件。 對於每個條件，活動後都會在畫布中新增新路徑。
+如果要定義多個條件，請按一下&#x200B;**[!UICONTROL Add a path]**。 對於每個條件，活動後都會在畫布中新增新路徑。
 
 ![](../assets/journey47.png)
 
@@ -38,7 +38,7 @@ ht-degree: 17%
 
 ![](../assets/journey48.png)
 
-您可以核取「 」，為不符合所定義條件的對象建立其他路徑 **[!UICONTROL Show path for other cases than the one(s) above]**. 請注意，此選項不適用於分割條件。 另請參閱 [百分比分割](#percentage_split).
+您可以勾選&#x200B;**[!UICONTROL Show path for other cases than the one(s) above]**，為不符合定義條件的對象建立另一個路徑。 請注意，此選項不適用於分割條件。 請參閱[百分比分割](#percentage_split)。
 
 簡單模式可讓您根據欄位組合執行簡單查詢。 所有可用的欄位都會顯示在螢幕的左側。將欄位拖放到主要區域中。若要合併不同的元素，請將它們互相聯鎖以建立不同的群組和/或群組層級。然後，您可以選取邏輯運算子來組合同一層級的元素：
 
@@ -47,7 +47,7 @@ ht-degree: 17%
 
 ![](../assets/journey64.png)
 
-如果您使用 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant) 若要建立區段，您可以在歷程條件中運用這些區段。 請參閱 [在條件中使用區段](../segment/using-a-segment.md).
+如果您使用[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant)建立區段，可以在歷程條件中加以運用。 請參閱[在條件](../segment/using-a-segment.md)中使用區段。
 
 
 >[!NOTE]
@@ -56,11 +56,11 @@ ht-degree: 17%
 
 當動作或條件發生錯誤時，個人的歷程就會停止。唯一能讓它繼續的方法就是勾選方塊 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。請參閱[本節](../building-journeys/using-the-journey-designer.md#paths)。
 
-在簡單編輯器中，您也會在事件和資料來源類別下方找到歷程屬性類別。 此類別包含與特定設定檔的歷程相關的技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程 ID 或遇到的特定錯誤。 如需詳細資訊，請參閱 [此頁面](../expression/journey-properties.md)
+在簡單編輯器中，您也會在事件和資料來源類別下方找到歷程屬性類別。 此類別包含與特定設定檔的歷程相關的技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程 ID 或遇到的特定錯誤。 如需詳細資訊，請參閱[此頁面](../expression/journey-properties.md)
 
-## 資料來源條件 {#data_source_condition}
+## 資料Source條件 {#data_source_condition}
 
-這可讓您根據資料來源的欄位或先前位於歷程中的事件來定義條件。 若要瞭解如何使用運算式編輯器，請參閱 [此頁面](../expression/expressionadvanced.md). 使用進階運算式編輯器，您可以設定更進階的條件，以操控集合或使用需要傳遞引數的資料來源。 請參閱[此頁面](../datasource/external-data-sources.md)。
+這可讓您根據資料來源的欄位或先前位於歷程中的事件來定義條件。 若要瞭解如何使用運算式編輯器，請參閱[此頁面](../expression/expressionadvanced.md)。 使用進階運算式編輯器，您可以設定更進階的條件，以操控集合或使用需要傳遞引數的資料來源。 請參閱[此頁面](../datasource/external-data-sources.md)。
 
 ![](../assets/journey50.png)
 
@@ -76,7 +76,7 @@ ht-degree: 17%
 
 ## 百分比分割 {#percentage_split}
 
-此選項可讓您隨機分割對象，以針對每個群組定義不同的動作。 定義每個路徑的分割數與重新分割區。 分割計算是統計性的，因為系統無法預測有多少人會在此歷程的活動中流動。 因此，分割的錯誤邊界非常低。 此函式以Java隨機機製為基礎(請參閱此 [頁面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html))。
+此選項可讓您隨機分割對象，以針對每個群組定義不同的動作。 定義每個路徑的分割數與重新分割區。 分割計算是統計性的，因為系統無法預測有多少人會在此歷程的活動中流動。 因此，分割的錯誤邊界非常低。 此函式以Java隨機機製為基礎（請參閱此[頁面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)）。
 
 在測試模式中，達到分割時，一律選擇頂端分支。 如果您希望測試選擇不同的路徑，可以重新組織分割分支的位置。 請參見[此頁面](../building-journeys/testing-the-journey.md)。
 

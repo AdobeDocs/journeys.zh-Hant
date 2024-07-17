@@ -8,8 +8,8 @@ level: Experienced
 exl-id: b19adbd0-8449-4bd4-bc4d-f1f305f87cb0
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 16%
+source-wordcount: '59'
+ht-degree: 15%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 16%
 
 `toDateTimeOnly ("2016-08-18")`
 
-傳回代表2016-08-18T00的dateTime:00:00.000
+傳回代表2016-08-18T00:00:00.000的dateTime
 
 `toDateTimeOnly(now())`
 

@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: uuid
+title: UUID
 description: 瞭解函式uuid
 feature: Journeys
 role: Data Engineer
@@ -8,12 +8,12 @@ level: Experienced
 exl-id: 8105ea5c-c06b-4afa-baa5-41feddff8d0a
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 14%
+source-wordcount: '39'
+ht-degree: 15%
 
 ---
 
-# uuid {#uuid}
+# UUID {#uuid}
 
 產生隨機UUID （通用唯一識別碼）。
 

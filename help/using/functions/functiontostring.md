@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 source-git-commit: c7730ecac062719e5e5adfd465d1cedb59b3eaf1
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '107'
 ht-degree: 9%
 
 ---
 
 # toString {#toString}
 
-根據其型別，將引數值轉換為字串值。 如需資料型別的詳細資訊，請參閱 [此頁面](../expression/data-types.md).
+根據其型別，將引數值轉換為字串值。 如需資料型別的詳細資訊，請參閱[此頁面](../expression/data-types.md)。
 
 ## 類別
 

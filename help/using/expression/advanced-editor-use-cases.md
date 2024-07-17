@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
 source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 2%
+source-wordcount: '490'
+ht-degree: 1%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 此運算式會傳回布林值。
 
-**現在來建置運算式，檢查產品是否有庫存**
+**現在讓我們建置運算式，檢查產品是否有庫存**
 
 * 在「詳細目錄」中，此運算式會尋找產品的數量欄位，並指定數量欄位應大於0。
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* 並使用函式指定SKU `first` 若要擷取最新的「addToCart」互動：
+* 並使用函式`first`指定SKU以擷取最近的「addToCart」互動：
 
   ```json
       #{ExperiencePlatformDataSource
@@ -110,9 +110,9 @@ ht-degree: 2%
                     .name} == "Arlington"
 ```
 
-說明：這是嚴格的字串比較（區分大小寫），等同於使用的簡單模式中的查詢 `equal to` 替換為 `Is sensitive` 已勾選。
+說明：這是嚴格的字串比較（區分大小寫），相當於簡單模式中的查詢，其使用`equal to`並勾選`Is sensitive`。
 
-相同的查詢 `Is sensitive` 取消勾選將在進階模式下產生以下運算式：
+取消勾選`Is sensitive`的相同查詢將在進階模式下產生下列運算式：
 
 ```json
         equalIgnoreCase(@{GeofenceEntry
@@ -122,7 +122,7 @@ ht-degree: 2%
                         .name}, "Arlington")
 ```
 
-**動作**
+**在動作中**
 
 下列運算式可讓您在動作個人化欄位中定義CRM ID：
 
@@ -143,6 +143,6 @@ substr(
 )
 ```
 
-說明：此範例使用 `substr` 和 `lastIndexOf` 移除括住與行動應用程式啟動事件一併傳遞之CRM ID的大括弧函式。
+說明：此範例使用`substr`和`lastIndexOf`函式，移除在行動應用程式啟動事件中傳遞之CRM ID所括的大括弧。
 
-如需如何使用進階運算式編輯器的詳細資訊，請觀看 [此影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+如需如何使用進階運算式編輯器的詳細資訊，請觀看[此影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。

@@ -8,30 +8,30 @@ level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 4%
+source-wordcount: '717'
+ht-degree: 0%
 
 ---
 
-# 關於ExperienceEvent綱要 [!DNL Journey Orchestration] 活動
+# 關於[!DNL Journey Orchestration]事件的ExperienceEvent結構描述
 
-[!DNL Journey Orchestration] 事件是指透過串流擷取傳送至Adobe Experience Platform的XDM體驗事件。
+[!DNL Journey Orchestration]事件是指透過串流擷取傳送至Adobe Experience Platform的XDM體驗事件。
 
-因此，設定事件的重要先決條件 [!DNL Journey Orchestration] 您是否熟悉Adobe Experience Platform的Experience Data Model （或XDM）、如何組成XDM Experience Event結構，以及如何將XDM格式的資料串流到Adobe Experience Platform。
+因此，為[!DNL Journey Orchestration]設定事件的重要先決條件是，您熟悉Adobe Experience Platform的Experience Data Model （或XDM）、如何組成XDM Experience Event結構描述，以及如何將XDM格式的資料串流到Adobe Experience Platform。
 
-## 的結構描述需求 [!DNL Journey Orchestration] 活動
+## [!DNL Journey Orchestration]個事件的結構描述需求
 
-設定事件的第一步 [!DNL Journey Orchestration] 是用來確保您已定義代表事件的XDM結構描述，且已建立資料集以在Adobe Experience Platform上記錄事件的例項。 嚴格來說，沒有必要為事件建立資料集，但將事件傳送至特定資料集可讓您維護使用者的事件歷史記錄，以供日後參考和分析，因此總是不錯的做法。 如果您還沒有適合事件的結構描述和資料集，這兩項工作都可以在Adobe Experience Platform網頁介面中完成。
+為[!DNL Journey Orchestration]設定事件的第一步是確保您已定義代表該事件的XDM結構描述，以及已建立資料集以在Adobe Experience Platform上記錄該事件的執行個體。 嚴格來說，沒有必要為事件建立資料集，但將事件傳送至特定資料集可讓您維護使用者的事件歷史記錄，以供日後參考和分析，因此總是不錯的做法。 如果您還沒有適合事件的結構描述和資料集，這兩項工作都可以在Adobe Experience Platform網頁介面中完成。
 
 ![](../assets/schema1.png)
 
-任何將用於下列XDM結構描述： [!DNL Journey Orchestration] 事件應符合下列需求：
+將用於[!DNL Journey Orchestration]事件的任何XDM結構描述都應符合下列要求：
 
 * 結構描述必須是XDM ExperienceEvent類別。
 
   ![](../assets/schema2.png)
 
-* 對於系統產生的事件，結構描述必須包括Orchestration eventID mixin。 [!DNL Journey Orchestration] 使用此欄位來識別歷程中使用的事件。
+* 對於系統產生的事件，結構描述必須包括Orchestration eventID mixin。 [!DNL Journey Orchestration]使用此欄位來識別歷程中使用的事件。
 
   ![](../assets/schema3.png)
 
@@ -53,7 +53,7 @@ ht-degree: 4%
 
 ## 利用綱要關係{#leverage_schema_relationships}
 
-Adobe Experience Platform 可讓您定義綱要之間的關係，以便將一個資料集用作另一個資料集的查詢表。 
+Adobe Experience Platform可讓您定義結構描述之間的關係，以便將一個資料集用作另一個資料集的查詢表。
 
 假設您的品牌資料模型有一個結構描述擷取購買。 您也有產品目錄的結構描述。 您可以擷取購買結構描述中的產品ID，並使用關係從產品目錄中查詢更完整的產品詳細資訊。 舉例來說，這可讓您為所有購買筆記型電腦的客戶建立區段，而不需明確列出所有筆記型電腦ID，或擷取異動系統中的每個單一產品詳細資訊。
 
@@ -69,13 +69,13 @@ Adobe Experience Platform 可讓您定義綱要之間的關係，以便將一個
 
 >[!NOTE]
 >
->進一步瞭解中的結構描述關係 [Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>在[Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)中進一步瞭解結構描述關係。
 
 在Journey Orchestration中，您可以善用連結表格中的所有欄位：
 
-* 設定單一事件時， [閱讀全文](../event/experience-event-schema.md#unitary_event_configuration)
-* 在歷程中使用條件時， [閱讀全文](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* 在自訂動作個人化中， [閱讀全文](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* 設定單一事件時，[瞭解詳情](../event/experience-event-schema.md#unitary_event_configuration)
+* 在歷程中使用條件時，[瞭解詳情](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* 在自訂動作個人化中，[瞭解詳情](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### 單一事件設定{#unitary_event_configuration}
 
@@ -91,7 +91,7 @@ Adobe Experience Platform 可讓您定義綱要之間的關係，以便將一個
 * 在事件索引鍵公式中
 * 在事件id條件中（規則型事件）
 
-若要瞭解如何設定單一事件，請參閱此 [頁面](../event/about-creating.md).
+若要瞭解如何設定單一事件，請參閱此[頁面](../event/about-creating.md)。
 
 ### 使用事件內容的歷程條件{#journey_conditions_using_event_context}
 
@@ -101,7 +101,7 @@ Adobe Experience Platform 可讓您定義綱要之間的關係，以便將一個
 
 ![](../assets/schema12.png)
 
-若要瞭解如何定義歷程條件，請參閱此 [頁面](../building-journeys/condition-activity.md).
+若要瞭解如何定義歷程條件，請參閱此[頁面](../building-journeys/condition-activity.md)。
 
 ### 使用歷程事件內容的動作個人化{#custom_action_personalization_with_journey_event_context}
 
@@ -109,5 +109,5 @@ Adobe Experience Platform 可讓您定義綱要之間的關係，以便將一個
 
 ![](../assets/schema13.png)
 
-若要瞭解如何使用自訂動作，請參閱本節 [頁面](../building-journeys/using-custom-actions.md).
+若要瞭解如何使用自訂動作，請參閱此[頁面](../building-journeys/using-custom-actions.md)。
 

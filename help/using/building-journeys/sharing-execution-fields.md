@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 12%
+source-wordcount: '322'
+ht-degree: 5%
 
 ---
 
@@ -23,25 +23,25 @@ ht-degree: 12%
 
 正在執行的動作ID。
 
-類型: 字串
+型別：字串
 
 ## actionName
 
 動作的名稱。 如果尚未設定名稱，則會採用stepName。
 
-類型: 字串
+型別：字串
 
 ## actionType
 
 動作的型別。
 
-類型: 字串
+型別：字串
 
 ## actionParameterized
 
 指出動作是否已引數化。
 
-類型: 布林值
+型別：布林值
 
 ## actionExecutionTime
 
@@ -53,19 +53,19 @@ ht-degree: 12%
 
 呼叫動作時發生的錯誤型別。
 
-類型: 字串
+型別：字串
 
 值：
 * http
 * 上限
-* timeout
-* error
+* 逾時
+* 錯誤
 
 ## actionExecutionErrorCode
 
 動作執行錯誤的程式碼。 如果錯誤有程式碼（例如HTTP程式碼）則會出現。
 
-類型: 字串
+型別：字串
 
 ## actionExecutionOriginError
 
@@ -87,13 +87,13 @@ ht-degree: 12%
     "actionExecOrigErrorCode": "500"
 ```
 
-類型: 字串
+型別：字串
 
 ## actionExecutionOriginCode
 
 actionExecOrigError的錯誤碼。
 
-類型: 字串
+型別：字串
 
 ## actionBusinessType
 
@@ -109,25 +109,25 @@ actionExecOrigError的錯誤碼。
 * Epsilon
 * ...
 
-類型: 字串
+型別：字串
 
 ## deliveryJobId
 
 此屬性說明批次歷程的傳送工作ID。
 
-類型: 字串
+型別：字串
 
 ## batchdeliveryid
 
 此屬性說明批次歷程的傳遞ID。
 
-類型: 字串
+型別：字串
 
 ## fromSegmentTrigger
 
 這描述了批次歷程是否從受眾區段觸發。
 
-類型: 布林值
+型別：布林值
 
 ## actionSchedulerCount
 

@@ -7,7 +7,7 @@ index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 100%
       + 事件活動 {#events-activities}
          + [關於事件活動](using/building-journeys/event-activities.md)
          + [一般事件](using/building-journeys/general-events.md)
-         + [反應events](using/building-journeys/reaction-events.md)
+         + [反應事件](using/building-journeys/reaction-events.md)
          + [區段資格事件](using/building-journeys/segment-qualification-events.md)
       + 協調活動 {#orchestration-activities}
          + [關於協調活動](using/building-journeys/about-orchestration-activities.md)
@@ -101,20 +101,20 @@ ht-degree: 100%
    + [總覽](using/expression/expressionadvanced.md)
    + 語法 {#syntax}
       + [一般性](using/expression/generalities.md)
-      + [條件式指令](using/expression/conditional-instruction.md)
+      + [條件指令](using/expression/conditional-instruction.md)
       + [資料類型](using/expression/data-types.md)
       + [欄位參考](using/expression/field-references.md)
-      + [收集管理函式](using/expression/collection-management-functions.md)
+      + [集合管理功能](using/expression/collection-management-functions.md)
       + [操作者](using/expression/operators.md)
       + [歷程屬性](using/expression/journey-properties.md)
       + [範例](using/expression/advanced-editor-use-cases.md)
    + 函式 {#main-functions-journey}
-      + [主要函式](using/expression/functions.md)
+      + [主要功能](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
          + [inSegment](using/functions/functioninsegment.md)
       + 彙總 {#aggregation}
          + [avg](using/functions/functionavg.md)
-         + [count](using/functions/functioncount.md)
+         + [計數](using/functions/functioncount.md)
          + [countOnlyNull](using/functions/functioncountonlynull.md)
          + [countWithNull](using/functions/functioncountwithnull.md)
          + [distinctCount](using/functions/functiondistinctcount.md)
@@ -168,7 +168,7 @@ ht-degree: 100%
          + [endWithIgnorecase](using/functions/functionendwithignorecase.md)
          + [equalIgnoreCase](using/functions/functionequalignorecase.md)
          + [indexOf](using/functions/functionindexof.md)
-         + [isEmpty](using/functions/functionisempty.md)
+         + [IsEmpty](using/functions/functionisempty.md)
          + [isNotEmpty](using/functions/functionisnotempty.md)
          + [lastIndexOf](using/functions/functionlastindexof.md)
          + [長度](using/functions/functionlength.md)
@@ -183,7 +183,7 @@ ht-degree: 100%
          + [substr](using/functions/functionsubstr.md)
          + [trim](using/functions/functiontrim.md)
          + [upper](using/functions/functionupper.md)
-         + [uuid](using/functions/functionuuid.md)
+         + [UUID](using/functions/functionuuid.md)
 + 建立報告{#journey-reports}
    + [關於歷程報告](using/reporting/about-journey-reports.md)
    + [建立您的歷程報告](using/reporting/creating-your-journey-reports.md)

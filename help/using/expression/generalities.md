@@ -8,8 +8,8 @@ level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 5%
+source-wordcount: '224'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 ## 括弧和運算式優先順序{#section_edf_fks_bgb}
 
-括弧可用來讓複雜的運算式更容易閱讀。 _(&lt;expression>)_ 相當於 _&lt;expression>_. 括弧也可用來定義評估順序和關聯性。
+括弧可用來讓複雜的運算式更容易閱讀。 _（&lt;運算式>）_&#x200B;相當於&#x200B;_&lt;運算式>_。 括弧也可用來定義評估順序和關聯性。
 
 運算式將由左至右評估。 必須套用算術運運算元的關聯性：乘法和除法優先於加法和減法。 為了強制特定順序，必須加入括弧以分隔操作。 例如：
 
@@ -32,8 +32,8 @@ ht-degree: 5%
 
 以下是不同的區分大小寫規則：
 
-* 所有運運算元（和、或等） 應該寫成小寫。 例如， _`<expression1>`和`<expression2>`_ 是有效的運算式，但運算式 _`<expression1>`和`<expression2>`_ 不是。
-* 所有函式名稱都區分大小寫。 例如， _inSegment()_ 有效，但函式 _INSEGMENT()_ 不是。
+* 所有運運算元（和、或等） 應該寫成小寫。 例如，_`<expression1>`和`<expression2>`_&#x200B;是有效的運算式，而運算式&#x200B;_`<expression1>`AND`<expression2>`_&#x200B;則否。
+* 所有函式名稱都區分大小寫。 例如，_inSegment()_&#x200B;有效，而函式&#x200B;_INSEGMENT()_&#x200B;無效。
 * 欄位參照和常數值區分大小寫：它們不是語言的內建元素（與運運算元和函式相反），而是由一般使用者撰寫。
 
 ## 傳回的運算式型別{#section_gyc_435_53b}

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 使用自訂動作以動態方式傳遞集合
+title: 使用自訂動作動態傳遞集合
 description: 使用 Campaign v7/v8 傳送訊息
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
 source-git-commit: 97d19cf9cb91c82587e5c94e43580f808d15e813
@@ -11,7 +11,7 @@ ht-degree: 7%
 
 ---
 
-# 使用自訂動作以動態方式傳遞集合{#passing-collection}
+# 使用自訂動作動態傳遞集合{#passing-collection}
 
 您可以在自訂動作引數中傳遞集合，這些引數將在執行階段以動態方式填入。 支援兩種集合：
 
@@ -101,7 +101,7 @@ ht-degree: 7%
 
 1. 建立您的自訂動作。 請參閱[此頁面](../action/about-custom-action-configuration.md)。
 
-1. 在 **[!UICONTROL Action parameters]** 區段，貼上JSON範例。 顯示的結構為靜態：貼上裝載時，所有欄位都會定義為常數。
+1. 在&#x200B;**[!UICONTROL Action parameters]**&#x200B;區段中，貼上JSON範例。 顯示的結構為靜態：貼上裝載時，所有欄位都會定義為常數。
 
    ![](../assets/uc-collection-1.png)
 
@@ -123,7 +123,7 @@ ht-degree: 7%
 
 1. 建立您的歷程並新增您建立的自訂動作。 請參閱[此頁面](../building-journeys/using-custom-actions.md)。
 
-1. 在 **[!UICONTROL Action parameters]** 區段，使用進階運算式編輯器來定義陣列引數（範例中為「products」）。
+1. 在&#x200B;**[!UICONTROL Action parameters]**&#x200B;區段中，使用進階運算式編輯器定義陣列引數（範例中為「products」）。
 
    ![](../assets/uc-collection-3.png)
 
@@ -131,7 +131,7 @@ ht-degree: 7%
 
    ![](../assets/uc-collection-4.png)
 
-針對陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在以下範例中，我們使用 [篩選](../functions/functionfilter.md) 和 [相交](../functions/functionintersect.md) 函式：
+針對陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在下列範例中，我們使用[篩選器](../functions/functionfilter.md)和[交集](../functions/functionintersect.md)函式：
 
 ![](../assets/uc-collection-5.png)
 

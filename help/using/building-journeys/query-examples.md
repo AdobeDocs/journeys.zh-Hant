@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1283'
 ht-degree: 2%
 
 ---
@@ -146,11 +146,11 @@ group by
 
 ## 訊息/動作錯誤 {#message-action-errors}
 
-**歷程中遇到的每個錯誤的清單**
+**歷程中遇到的每個錯誤清單**
 
 此查詢可讓您列出執行訊息/動作時，在歷程中遇到的每個錯誤。
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
@@ -174,9 +174,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 ## 設定檔查詢 {#profile-based-queries}
 
-**尋找設定檔是否已進入特定歷程**
+**尋找設定檔是否進入特定歷程**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events
@@ -200,7 +200,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 方法1：如果訊息名稱在歷程中不是唯一的（它用於多個位置）。
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
@@ -224,7 +224,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 方法2：如果您的訊息名稱在歷程中是唯一的。
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
@@ -246,9 +246,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 查詢會傳回所有訊息的清單，連同針對所選設定檔叫用的訊息計數。
 
-**尋找設定檔在過去30天內收到的所有訊息**
+**尋找設定檔在過去30天內收到的所有郵件**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
@@ -274,7 +274,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 **尋找設定檔在過去30天內輸入的所有歷程**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
@@ -296,9 +296,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 查詢會傳回所有歷程名稱的清單，以及查詢的設定檔進入歷程的次數。
 
-**符合歷程每日資格的設定檔數**
+**每日符合歷程資格的設定檔數目**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
@@ -322,9 +322,9 @@ ORDER BY DATE(timestamp) desc
 
 ## 與讀取區段相關的查詢 {#read-segment-queries}
 
-**完成區段匯出工作所花的時間**
+**完成區段匯出作業所花的時間**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 select DATEDIFF (minute,
@@ -354,9 +354,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 查詢會傳回區段匯出作業排入佇列的時間與最終結束時間之間的時間差（以分鐘為單位）。
 
-**歷程因為重複而捨棄的設定檔數**
+**歷程捨棄的設定檔數目，因為這些設定檔重複**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -376,9 +376,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 查詢會傳回歷程捨棄的所有設定檔ID，因為這些設定檔ID重複。
 
-**歷程因名稱空間無效而捨棄的設定檔數**
+**由於名稱空間無效而被歷程捨棄的設定檔數目**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT count(*) FROM journey_step_events
@@ -398,9 +398,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 查詢會傳回歷程捨棄的所有設定檔ID，因為這些設定檔ID具有無效的名稱空間，或沒有該名稱空間的身分。
 
-**歷程因無身分對應而捨棄的設定檔數**
+**由於沒有身分對應而被歷程捨棄的設定檔數目**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT count(*) FROM journey_step_events
@@ -420,9 +420,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 查詢會傳回歷程捨棄的所有設定檔ID，因為缺少身分對應。
 
-**由於歷程在測試節點中且該設定檔不是測試設定檔，因此被歷程捨棄的設定檔數**
+**由於歷程在測試節點中，且該設定檔不是測試設定檔，因此歷程捨棄的設定檔數目**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -442,9 +442,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 查詢會傳回歷程捨棄的所有設定檔ID，因為匯出作業是在測試模式下執行，但設定檔的testProfile屬性未設定為true。
 
-**歷程因內部錯誤而捨棄的設定檔數**
+**歷程因內部錯誤而捨棄的設定檔數目**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -464,9 +464,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 查詢會傳回歷程因某些內部錯誤而捨棄的所有設定檔ID。
 
-**特定歷程版本的讀取區段總覽**
+**特定歷程版本**&#x200B;的讀取區段概觀
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT
@@ -502,9 +502,9 @@ WHERE
 * 歷程版本尚未達到排程
 * 如果歷程版本應該透過呼叫orchestrator來觸發匯出作業，則上行流程會出現問題：歷程部署問題、業務事件或排程器問題。
 
-**取得特定歷程版本的讀取區段錯誤**
+**取得特定歷程版本**&#x200B;的讀取區段錯誤
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT
@@ -528,9 +528,9 @@ WHERE
     )
 ```
 
-**取得匯出作業處理狀態**
+**取得匯出工作處理狀態**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT
@@ -557,9 +557,9 @@ WHERE
 * 建立主題或匯出工作時發生錯誤
 * 匯出工作仍在執行中
 
-**取得已匯出設定檔的量度，包括每個匯出作業的丟棄和匯出作業量度**
+**取得已匯出設定檔的量度，包括每個匯出工作的放棄與匯出工作量度**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 WITH
@@ -619,7 +619,7 @@ WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 
 **取得所有匯出作業的彙總量度（區段匯出作業和捨棄）**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 WITH
@@ -682,9 +682,9 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 ## 與區段資格相關的查詢 {#segment-qualification-queries}
 
-**已捨棄設定檔，因為區段實現與設定的區段實現不同**
+**已捨棄設定檔，因為與設定的區段實現不同**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
@@ -706,9 +706,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 
 此查詢會傳回歷程版本因錯誤區段實現而捨棄的所有設定檔ID。
 
-**特定設定檔因任何其他原因而捨棄的區段資格事件**
+**特定設定檔因任何其他原因而捨棄區段資格事件**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
@@ -734,9 +734,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 ## 事件型查詢 {#event-based-queries}
 
-**檢查是否已收到歷程的業務事件**
+**檢查是否收到歷程的業務事件**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _id)
@@ -762,7 +762,7 @@ WHERE DATE(timestamp) > (now() - interval '6' hour)
 
 **檢查設定檔的外部事件是否因為找不到相關歷程而被捨棄**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
@@ -784,9 +784,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**檢查設定檔的外部事件是否因任何其他原因而捨棄**
+**檢查設定檔的外部事件是否因為任何其他原因而被捨棄**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
@@ -812,7 +812,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 **檢查stateMachine依errorCode捨棄的所有事件計數**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
@@ -828,9 +828,9 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**檢查所有已捨棄的事件，因為不允許重新進入**
+**檢查所有捨棄的事件，因為不允許重新進入**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
@@ -854,9 +854,9 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 ## 常見的歷程型查詢 {#journey-based-queries}
 
-**每日作用中歷程的數量**
+**每日使用中歷程數**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
@@ -878,9 +878,9 @@ ORDER BY DATE(timestamp) desc
 
 ## 歷程執行個體上的查詢 {#journey-instances-queries}
 
-**特定時間內處於特定狀態的設定檔數**
+**特定時間內處於特定狀態的設定檔數目**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 WITH
@@ -1028,7 +1028,7 @@ ORDER BY
 
 **在特定時段內有多少設定檔已退出歷程**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT
@@ -1066,7 +1066,7 @@ ORDER BY
 
 **在特定時段內，有多少設定檔退出具有節點/狀態的歷程**
 
-_Data Lake查詢_
+_資料湖查詢_
 
 ```sql
 SELECT

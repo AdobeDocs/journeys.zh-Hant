@@ -9,7 +9,7 @@ exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 19%
+ht-degree: 24%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 檢查第一個引數值是否在清單中。 檢查會透過每個引數值上的「等於」來執行。 如果找到引數值，則傳回true，否則傳回false。
 
-型別 `<expression>` 必須符合清單的專案。 提醒清單的專案型別必須彼此相符。
+`<expression>`的型別必須與清單的專案相符。 提醒清單的專案型別必須彼此相符。
 
 ## 類別
 

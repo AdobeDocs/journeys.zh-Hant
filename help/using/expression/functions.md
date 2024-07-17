@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 函式
+title: 函數
 description: 瞭解函式
 feature: Journeys
 role: Data Engineer
@@ -9,15 +9,15 @@ exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 75%
+ht-degree: 70%
 
 ---
 
-# 函式 {#concept_p1r_qj5_dgb}
+# 函數 {#concept_p1r_qj5_dgb}
 
 函式可以有不同的簽章（不同的有序引數集）。 函式簽章可以有0-N個運算式做為排序引數。
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`， `<expression as param 2>`， ... ，`<expression as param N>`)
 
 每個函式都有特定的傳回型別。
 
@@ -25,7 +25,7 @@ ht-degree: 75%
 
 ## 主要函式
 
-| 類別 | 功能 |
+| 類別 | 函數 |
 |-------------|-----------------------|
 | Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
 | 彙總 | [avg](../functions/functionavg.md) |
@@ -61,9 +61,9 @@ ht-degree: 75%
 | 日期 | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | 清單 | [distinct](../functions/functiondistinct.md) |
 | 清單 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| 清單 | [篩選](../functions/functionfilter.md) |
+| 清單 | [篩選器](../functions/functionfilter.md) |
 | 清單 | [getListItem](../functions/functiongetlistitem.md) |
-| 清單 | [在 ](../functions/functionin.md) |
+| 清單 | [in](../functions/functionin.md) |
 | 清單 | [相交](../functions/functionintersect.md) |
 | 清單 | [listSize](../functions/functionlistsize.md) |
 | 清單 | [serializeList](../functions/functionserializelist.md) |
@@ -80,7 +80,7 @@ ht-degree: 75%
 | 字串 | [isEmpty](../functions/functionisempty.md) |
 | 字串 | [isNotEmpty](../functions/functionisnotempty.md) |
 | 字串 | [lastIndexOf](../functions/functionlastindexof.md) |
-| 字串 | [長度](../functions/functionlength.md) |
+| 字串 | [length](../functions/functionlength.md) |
 | 字串 | [lower](../functions/functionlower.md) |
 | 字串 | [matchRegExp](../functions/functionmatchregexp.md) |
 | 字串 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
