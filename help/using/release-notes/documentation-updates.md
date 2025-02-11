@@ -5,8 +5,10 @@ description: 瞭解文件更新
 feature: Journeys
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
+source-git-commit: af224593ca69f79c3e4458f26f77b92197ad73a2
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 100%
@@ -20,7 +22,7 @@ ht-degree: 100%
 
 ## 2022 年 7 月 {#july-2022}
 
-* 歷程屬性的&#x200B;**個人資料時區**&#x200B;選項現在預設為停用。 [閱讀全文](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 歷程屬性的&#x200B;**輪廓時區**&#x200B;選項現在預設為停用。 [閱讀全文](../building-journeys/timezone-management.md#timezone-from-profiles)
 * **等待**&#x200B;活動的&#x200B;**固定日期**&#x200B;選項不再提供。 [閱讀全文](../building-journeys/wait-activity.md)
 
 ## 2022 年 6 月 {#june-2022}
@@ -58,11 +60,11 @@ ht-degree: 100%
 
 ## 2021 年 3 月 {#march-2021}
 
-* 我們已詳細說明在 Adobe Experience Platform 中建立測試設定檔的完整流程。 [閱讀全文](../building-journeys/creating-test-profiles.md).
+* 我們已詳細說明在 Adobe Experience Platform 中建立測試輪廓的完整流程。 [閱讀全文](../building-journeys/creating-test-profiles.md).
 
 ## 2021 年 1 月 {#january-2021}
 
-* 新增在建立設定檔時觸發歷程的最佳實務。 [閱讀全文](../about/limitations.md#journeys-limitation-profile-creation).
+* 新增在建立輪廓時觸發歷程的最佳做法。 [閱讀全文](../about/limitations.md#journeys-limitation-profile-creation).
 
 ## 2020 年 10 月 {#october-2020}
 
@@ -83,11 +85,11 @@ ht-degree: 100%
 
 * 已新增新教學課程影片的連結，其中說明向 Adobe Experience Platform 報告事件的步驟。[閱讀全文](../building-journeys/sharing-overview.md)
 * 以針對每種類型的事件，將事件活動區段重新組織到專屬子區段。[閱讀全文](../building-journeys/event-activities.md)
-* 已新增最佳實務，以避免區段資格超載。[閱讀全文](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* 已新增最佳做法，以避免細分資格篩選超載。[閱讀全文](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * 已新增附註，說明在動作或條件發生錯誤後，如何讓歷程繼續。[閱讀全文](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 已新增 Alpha 功能的新章節，這些功能會在有限的客戶群中進行測試。
 * 已新增與智慧型服務整合的區段。[閱讀全文](../ai-services/ai-services-overview.md)
-* 已新增測試設定檔建立的區段。[閱讀全文](../building-journeys/testing-the-journey.md)
+* 已新增測試輪廓建立的區段。[閱讀全文](../building-journeys/testing-the-journey.md)
 * 已新增如何在歷程條件或動作中使用 **[!UICONTROL SegmentQualification]** 節點的資訊。[閱讀全文](../building-journeys/segment-qualification-events.md)
 * 已在 Campaign 交易訊息及事件發佈中新增附註。請參閱[使用 Adobe Campaign ](../action/working-with-adobe-campaign.md)及[使用 Adobe Campaign 動作](../building-journeys/using-adobe-campaign-actions.md)。
 * 已新增對於檢查的資訊，這些檢查會在測試 Campaign Standard 執行個體 URL 時執行。[閱讀全文](../action/working-with-adobe-campaign.md)
@@ -104,7 +106,7 @@ ht-degree: 100%
 
 ## 2020 年 4 月 {#april-2020}
 
-* 已新增體驗事件綱要的新區段，以協助使用者設定其第一個事件。[閱讀全文](../event/experience-event-schema.md)
+* 已新增體驗事件結構描述的新區段，以協助使用者設定其第一個事件。[閱讀全文](../event/experience-event-schema.md)
 * [!DNL Journey Orchestration]文件的首頁已經更新，且包含其他實用連結。[閱讀全文](../../journey-orchestration-home.md)
 
 ## 2020 年 3 月 {#march-2020}
