@@ -6,14 +6,20 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
+source-git-commit: 6a5226ea0f7b5a87f236eeac108737fc69d4f9c8
 workflow-type: tm+mt
-source-wordcount: '4418'
-ht-degree: 100%
+source-wordcount: '4463'
+ht-degree: 98%
 
 ---
 
 # 版本注意事項 {#release-notes}
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>本檔案旨在說明已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。
 
 本頁面列出 Journey Orchestration 的所有新功能和改進項目。針對 Experience Platform 功能，請參閱以下[發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)。
 
@@ -39,7 +45,7 @@ ht-degree: 100%
 
 * **篩選您的歷程** - 除了現有的預定義日期篩選器之外，您現在可以使用&#x200B;**自訂日期篩選歷程**&#x200B;詳細目錄。這使您可以透過顯示在特定日期、特定月份、全年或指定時間範圍內發布的歷程來細化清單。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hant#filter)
 * **自訂動作** - 您現在可以更新 **content-type** 標題。 這個新的 **content-type** 應參考 JSON 內容。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hant#url-configuration)
-* **設定** - stepEvents 中的 IdentityMap 屬性現在已預先填入。主要身分定義為「primary = true」。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=zh-Hant)
+* **設定** - stepEvents 中的 IdentityMap 屬性現在已預先填入。主要身分識別定義為「primary = true」。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=zh-Hant)
 * **使用者介面** - 歷程畫面中的頂部欄已重新組織，以改善體驗。 在不同的更新中，請注意，允許您存取歷程屬性的「鉛筆」圖示現在顯示在頂部欄的左側，歷程名稱旁邊。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hant#change-properties)
 
 ## 2024 年 1 月發行版本 {#jan-rn-2024}
@@ -80,14 +86,14 @@ ht-degree: 100%
 
 ### 改進項目 {#feb-2023-improvements}
 
-* 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。 此欄位可讓您定義在允許設定檔在單一歷程中再次進入歷程 (從事件或區段資格開始) 之前等待的時間。這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hant#entrance)。
-* 改進了&#x200B;**歷程開始與結束日期**。如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。這可讓設定檔在達到日期時自動退出。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hant#dates)。
+* 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或細分資格篩選開始) 之前等待的時間。這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hant#entrance)。
+* 改進了&#x200B;**歷程開始與結束日期**。如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。這可讓輪廓在達到日期時自動退出。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hant#dates)。
 
 ## 2023 年 1 月發行版本 {#jan-2023-release}
 
 ### 改進項目 {#jan-2023-improvements}
 
-* 在歷程中新增&#x200B;**區段資格**&#x200B;時，現已預設為使用上次使用的命名空間預先填入命名空間。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=zh-Hant#about-segment-qualification)。
+* 在歷程中新增&#x200B;**細分資格篩選**&#x200B;時，現已預設為使用上次使用的命名空間預先填入命名空間。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=zh-Hant#about-segment-qualification)。
 * 在歷程畫布中，工具列提供新按鈕，可讓您下載歷程的螢幕擷取畫面。
 
 ## 2022 年 9 月發行版本{#sept-2022-release}
@@ -114,17 +120,17 @@ ht-degree: 100%
 
 ### 改進項目{#sept-2022-improvements}
 
-* 已將新護欄新增至單一歷程（從事件或區段資格開始），以防止同一事件多次錯誤觸發歷程。 設定檔重新進入現在會依預設暫時封鎖 5 分鐘。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hant#events-g)。
+* 已將新護欄新增至單一歷程（從事件或細分資格篩選開始），以防止同一事件多次錯誤觸發歷程。 輪廓重新進入現在會依預設暫時封鎖 5 分鐘。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hant#events-g)。
 
 ### 其他變更{#sept-2022-other}
 
-* 為了改善效能，從區段資格活動起的歷程中，無法再使用體驗事件欄位群組。 此變更僅適用於新歷程。 現有行為會保留目前的行為。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hant#expression-editor)。
+* 為了改善效能，從細分資格篩選活動起的歷程中，無法再使用體驗事件欄位群組。 此變更僅適用於新歷程。 現有行為會保留目前的行為。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hant#expression-editor)。
 
 ### 改進項目
 
 * **結束歷程** — 在歷程畫布中， **結束**&#x200B;活動已從調色盤中刪除。 現在，每個路徑的末端預設新增結束標籤而且無法移除。 這種改善能夠更好地報告客戶從歷程退出的位置，不需要由歷程業者採取任何動作。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=zh-Hant)。
 
-* 此&#x200B;**個人資料時區**「歷程屬性」中的選項現在預設為未勾選。 [了解更多](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=zh-Hant#timezone-from-profiles)。
+* 此&#x200B;**輪廓時區**「歷程屬性」中的選項現在預設為未勾選。 [了解更多](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=zh-Hant#timezone-from-profiles)。
 
 ## 2022 年 5 月發行 {#may-2022-release}
 
@@ -136,7 +142,7 @@ ht-degree: 100%
 
 ### 改進項目
 
-* 為避免統一設定檔綱要存在不必要的欄位，預設情況下不再為設定檔啟用「歷程步驟事件」綱要。 如有需要，可以啟用。 [了解更多](../building-journeys/sharing-overview.md)
+* 為避免統一輪廓結構描述存在不必要的欄位，預設情況下不再為輪廓啟用「歷程步驟事件」結構描述。 如有需要，可以啟用。 [了解更多](../building-journeys/sharing-overview.md)
 * 跟匯出工作有關的新步驟活動現在由 Journey Optimizer 傳送到 Adobe Experience Platform。 已在文件中新增查詢範例。 [了解更多](../building-journeys/query-examples.md)
 
 ## 2022 年 2 月發佈內容 {#february-2022-release}
@@ -149,7 +155,7 @@ ht-degree: 100%
 
 ### 改進項目
 
-* Journey Orchestration 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。  內建「歷程步驟事件」方案中的 **profileID** 欄位現在定義為身分欄位。 [了解更多](../building-journeys/sharing-overview.md#integration-cja)
+* Journey Orchestration 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 中的其他資料集。  內建「歷程步驟事件」結構描述中的 **profileID** 欄位現在定義為身分識別欄位。 [了解更多](../building-journeys/sharing-overview.md#integration-cja)
 * Adobe Campaign Standard 操作的上限規則已更改為 4000 次呼叫 / 5 分鐘。[閱讀全文](../action/working-with-adobe-campaign.md)
 
 ## 2021 年 10 月發行版本 {#october-2021-release}
@@ -159,7 +165,7 @@ ht-degree: 100%
 * **運算式編輯器**  - 身為超級使用者，您現在可以使用函式來處理地圖。 [了解更多](../expression/field-references.md)
 * **協助工具**  - 已實施協助工具增強功能。Journey Orchestration 的協助工具現在可完全相容。
 * **集合** - 現在支援包含子物件的物件陣列。 [閱讀全文](../usecase/collections.md)
-* **監控** - 已增強即時歷程和測試模式的步驟事件。 [新欄位](../building-journeys/sharing-field-list.md#serviceevents) 已新增與設定檔匯出作業有關的內容。 為了獲得更好的使用者體驗，步驟事件欄位現已移至「歷程步驟事件」綱要的其他類別以便進行 Journey Orchestration。所有先前的步驟事件欄位仍可在 [stepEvents](../building-journeys/sharing-legacy-fields.md) 類別中使用。
+* **監控** - 已增強即時歷程和測試模式的步驟事件。 [新欄位](../building-journeys/sharing-field-list.md#serviceevents) 已新增與輪廓匯出作業有關的內容。 為了獲得更好的使用者體驗，步驟事件欄位現已移至「歷程步驟事件」結構描述的其他類別以便進行 Journey Orchestration。所有先前的步驟事件欄位仍可在 [stepEvents](../building-journeys/sharing-legacy-fields.md) 類別中使用。
 
 ## 2021 年 9 月發行版本 {#september-2021-release}
 
@@ -183,7 +189,7 @@ ht-degree: 100%
 
 ### 改進項目
 
-* 在佈建步驟事件期間建立並由系統產生的方案和資料集現在改為唯讀模式，可避免重要方案發生任何意外修改。 [進一步了解](../building-journeys/sharing-overview.md)
+* 在佈建步驟事件期間建立並由系統產生的結構描述和資料集現在改為唯讀模式，可避免重要結構描述發生任何意外修改。 [進一步了解](../building-journeys/sharing-overview.md)
 * 簡潔標示&#x200B;**等待**&#x200B;活動，並在畫布中顯示標籤。 標籤也會用於報告和測試模式記錄，以清楚識別您正在執行的動作。 [進一步了解](../building-journeys/using-the-journey-designer.md)
 * 使用搜尋，透過篩選&#x200B;**事件**&#x200B;和&#x200B;**動作**&#x200B;類別中的元素，更快找到您的事件和動作。 不再篩選協調活動。 [進一步了解](../building-journeys/using-the-journey-designer.md)
 * 在為規則型事件定義事件 ID 條件時，「contains」運算元現在可用於字串類型欄位。 [進一步了解](../event/about-creating.md)
@@ -202,13 +208,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>利用綱要關係</strong><br/></th>
+<th><strong>利用結構描述關係</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform 可讓您定義綱要之間的關係，以便將一個資料集用作另一個資料集的查詢表。 Journey Orchestration 現在可以利用來自連結綱要的資料。</p>
+<p>Adobe Experience Platform 可讓您定義結構描述之間的關係，以便將一個資料集用作另一個資料集的查詢表。 Journey Orchestration 現在可以利用來自連結結構描述的資料。</p>
 <p>可在單一事件設定、歷程狀況和自訂動作個人化提供這些欄位。
 <p>如需詳細資訊，請參閱<a href="../event/experience-event-schema.md#leverage_schema_relationships">詳細文件</a>。</p>
 </td>
@@ -258,7 +264,7 @@ ht-degree: 100%
 
 * 已在歷程加入新狀態。 歷程結束或手動關閉時，其狀態將在關閉 30 天後從&#x200B;**已關閉**&#x200B;轉換為&#x200B;**已完成**。 這樣您就可以更輕鬆辨識未啟用的歷程，同時確保仍在場的所有個人有時間完成歷程。 [閱讀全文](../building-journeys/journey.md#ending_a_journey)
 * 在歷程草稿的活動右窗格，唯讀欄位預設為隱藏。 這種介面簡化可讓您設定活動更輕鬆。 如要顯示，請按一下&#x200B;**顯示唯讀欄位**&#x200B;圖示，可在活動設定窗格的左上角找到。 [閱讀全文](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* 在測試模式的&#x200B;**事件設定**&#x200B;畫面， 用於定義測試個人檔案 ID 的&#x200B;**鍵值**&#x200B;欄位已更名為&#x200B;**個人檔案識別碼**&#x200B;以便獲得更好的使用者體驗。 [閱讀全文](../building-journeys/testing-the-journey.md)。
+* 在測試模式的&#x200B;**事件設定**&#x200B;畫面， 用於定義測試輪廓 ID 的&#x200B;**鍵值**&#x200B;欄位已更名為&#x200B;**輪廓識別碼**&#x200B;以便獲得更好的使用者體驗。 [閱讀全文](../building-journeys/testing-the-journey.md)。
 * 對於反應事件，現在只能把逾時期間設定在 40 秒到 30 天之間。 測試歷程的反應事件時，測試模式 **[!UICONTROL Wait time]** 預設值及最小值現在是 40 秒。 [閱讀全文](../building-journeys/reaction-events.md)。
 
 ## 2021 年 2 月發行版本 {#february-2021-release}
@@ -266,13 +272,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>更新個人檔案活動</strong><br/></th>
+<th><strong>更新輪廓活動</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>這個新的動作活動可讓您利用來自事件、資料來源或使用特定值的資料來更新現有 Adobe Experience Platform 個人資料。</p>
+<p>這個新的動作活動可讓您利用來自事件、資料來源或使用特定值的資料來更新現有 Adobe Experience Platform 輪廓。</p>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/update-profiles.md">詳細文件</a>。</p>
 </td>
 </tr>
@@ -288,7 +294,7 @@ ht-degree: 100%
 
 ## 2021 年 1 月發行版本 {#january-2021-release}
 
-在事件設定中選擇綱要時，只會選擇事件的必要欄位，以使 Journey Orchestration 正確接收事件。 [閱讀全文](../event/defining-the-payload-fields.md)
+在事件設定中選擇結構描述時，只會選擇事件的必要欄位，以使 Journey Orchestration 正確接收事件。 [閱讀全文](../event/defining-the-payload-fields.md)
 
 現可在簡易運算式編輯器使用歷程屬性。 [閱讀全文](../expression/journey-properties.md)
 
@@ -360,7 +366,7 @@ ht-degree: 100%
 
 在建立歷程的新版本時增加了限制。 這些限制避免歷程變化過於劇烈，讓版本之間保持部分一致性。 [閱讀全文](../about/limitations.md#journey-versions-limitations)
 
-**區段資格**&#x200B;活動不能再用於包含 Campaign Standard 訊息活動的歷程。 這個限制保護了 Adobe Campaign Standard 執行個體的完整性。 事實上，使用區段資格可能會導致每天傳送訊息的高峰，讓 Campaign Standard 異動訊息過載。 [閱讀全文](../about/limitations.md#segment-qualification)
+**細分資格篩選**&#x200B;活動不能再用於包含 Campaign Standard 訊息活動的歷程。 這個限制保護了 Adobe Campaign Standard 執行個體的完整性。 事實上，使用細分資格篩選可能會導致每天傳送訊息的高峰，讓 Campaign Standard 異動訊息過載。 [閱讀全文](../about/limitations.md#segment-qualification)
 
 ## 2020 年 10 月發行版本 {#october-release}
 
@@ -434,7 +440,7 @@ ht-degree: 100%
 
 ### GA 更新{#august-ga-update}
 
-「區段資格」事件的裝載現在包含下列內容資訊，您可在條件和動作中使用：行為（入口、出口）、資格的時間戳記及區段 ID。[閱讀全文](../building-journeys/segment-qualification-events.md)
+「細分資格篩選」事件的裝載現在包含下列內容資訊，您可在條件和動作中使用：行為（入口、出口）、資格的時間戳記及細分 ID。[閱讀全文](../building-journeys/segment-qualification-events.md)
 
 ### Alpha 更新{#august-alpha-update}
 
@@ -452,9 +458,9 @@ ht-degree: 100%
 <ul>
 <li><p>活動的名稱已變更為「閱讀區段」。 </p>
 </li>
-<li><p>已從活動屬性移除歷程排程器的設定。現在可直接從「歷程」的屬性存取，在專用區段中，將「閱讀區段」活動拖曳至畫布時，其就會顯示。 </p>
+<li><p>已從活動的屬性移除歷程排程器的設定。 現在可直接從「歷程」的屬性存取，在專用區段中，將「閱讀區段」活動拖曳至畫布時，其就會顯示。 </p>
 </li>
-<li><p>您現在可以在單一設定檔上測試歷程，並使用視覺流量追蹤歷程的進度。</p>
+<li><p>您現在可以在單一輪廓上測試歷程，並使用視覺流量追蹤歷程的進度。</p>
 </li>
 </ul>
 </td>
@@ -592,7 +598,7 @@ Alpha 方案提供目前在有限客戶群中進行測試的功能。這可讓�
 <li><p>您現在可以選取 1 或 N 個歷程活動，而在歷程之間複製和貼上活動。<a href="../building-journeys/using-the-journey-designer.md#copy-paste">閱讀全文</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>在觸發事件而讓測試設定檔進入歷程後，您現在可以透過彩色視覺流程，而瞭解其在歷程中的進度。在歷程中發生錯誤時，也會顯示錯誤的詳細資料。<a href="../building-journeys/testing-the-journey.md#firing_events">閱讀全文</a></p>
+<li><p>在觸發事件而讓測試輪廓進入歷程後，您現在可以透過彩色視覺流程，而瞭解其在歷程中的進度。在歷程中發生錯誤時，也會顯示錯誤的詳細資料。<a href="../building-journeys/testing-the-journey.md#firing_events">閱讀全文</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
 <li>已將 <strong>Finished</strong> 歷程重新命名為 <strong>Closed (no entrance)</strong>，以便更妥善地反映此狀態代表的意義。</li>
@@ -604,7 +610,7 @@ Alpha 方案提供目前在有限客戶群中進行測試的功能。這可讓�
 
 **其他改善項目**
 
-為了避免傳送過多 API 呼叫至協力廠商系統，我們推出新的公用 API 來設定 &quot;capping&quot; 規則。上限規則可定義每毫秒對 API 端點的呼叫數量上限。[閱讀全文](../api/capping.md)
+為了避免傳送過多 API 呼叫至協力廠商系統，我們推出新的公用 API 來設定「上限」規則。上限規則可定義每毫秒對 API 端點的呼叫數量上限。[閱讀全文](../api/capping.md)
 
 存取控制現在可以更精細地管理使用者的存取權限。生效日期：2020 年 6 月 30 日。[閱讀全文](../about/access-management.md#create-product-profile)
 
@@ -649,7 +655,7 @@ Journey Orchestration　介面提供日文版。
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li><strong>「時區」</strong>下拉式清單可讓您選取特定時區。依預設，系統會使用瀏覽器的時區。 </li>
-<li><strong>「設定檔時區」</strong>核取方塊可讓您使用進入歷程之人員的 Adobe Experience Platform 設定檔時區（若有）。否則，系統會使用下拉式清單中定義的時區。此功能與使用沒有命名空間之事件的歷程不相容。</li>
+<li><strong>「輪廓時區」</strong>核取方塊可讓您使用進入歷程之人員的 Adobe Experience Platform 輪廓時區 (若有)。否則，系統會使用下拉式清單中定義的時區。此功能與使用沒有命名空間之事件的歷程不相容。</li>
 </ul>
 <p>如需詳細資訊，請參閱<a href="../building-journeys/changing-properties.md#timezone">變更屬性</a>和<a href="../building-journeys/timezone-management.md">時區管理</a>區段。</p>
 </td>
@@ -716,7 +722,7 @@ Journey Orchestration　介面提供日文版。
 
 運用儲存在事件或資料來源中的內容資料，建立即時協調使用案例。
 
-Journey Orchestration 能以事件中的情境資料、Adobe Experience Platform 的資訊或來自協力廠商 API 服務的資料，進行即時協調。應用程式會根據消費者的個人檔案和行為，在稱為歷程的多步驟流程中，決定對該消費者來說下一個最佳的動作。這包括最佳時機和動作類型，例如透過 Adobe Campaign Standard 交易訊息功能（需要有 Adobe Campaign Standard）向消費者傳送推播通知或來自協力廠商系統的通知。這些決定是依據規則和 Sensei 分數加以制定。
+Journey Orchestration 能以事件中的情境資料、Adobe Experience Platform 的資訊或來自協力廠商 API 服務的資料，進行即時協調。應用程式會根據消費者的輪廓和行為，在稱為歷程的多步驟流程中，決定對該消費者來說下一個最佳的動作。這包括最佳時機和動作類型，例如透過 Adobe Campaign Standard 交易訊息功能（需要有 Adobe Campaign Standard）向消費者傳送推播通知或來自協力廠商系統的通知。這些決定是依據規則和 Sensei 分數加以制定。
 
 [進一步瞭解](../action/working-with-adobe-campaign.md) Journey Orchestration。
 
