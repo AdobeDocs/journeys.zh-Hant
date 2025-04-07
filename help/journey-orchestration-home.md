@@ -7,7 +7,7 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 6a5226ea0f7b5a87f236eeac108737fc69d4f9c8
+source-git-commit: 9fb1f031df4084b78cfca8a693098a36bfb51435
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 78%
@@ -16,13 +16,12 @@ ht-degree: 78%
 
 # Journey Orchestration 指南 {#journeys-documentation}
 
-<!--![](using/assets/do-not-localize/bannerjourney.png) -->
-
 >[!CAUTION]
 >
 >**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
 >
->本檔案旨在說明已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 ## 開始使用
