@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '777'
 ht-degree: 6%
 
 ---
@@ -23,10 +23,6 @@ ht-degree: 6%
 在來源歷程中，只要新增&#x200B;**[!UICONTROL Jump]**&#x200B;活動並選取目標歷程即可。 當個人進入&#x200B;**[!UICONTROL Jump]**&#x200B;步驟時，會傳送內部事件至目標歷程的第一個事件。 如果&#x200B;**[!UICONTROL Jump]**&#x200B;動作成功，個人會繼續進行歷程。 此行為與其他動作類似。
 
 在目標歷程中，**[!UICONTROL Jump]**&#x200B;活動在內部觸發的第一個事件將造成歷程中的個別流程。
-
->[!NOTE]
->
->另請參閱教學課程影片[這裡](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hant)
 
 ## 生命週期
 

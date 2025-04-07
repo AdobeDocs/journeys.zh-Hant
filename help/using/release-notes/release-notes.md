@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 53e4d6af0e3d5fa2f3870802dc67c6200fec3ce8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '4462'
+source-wordcount: '4452'
 ht-degree: 96%
 
 ---
@@ -322,7 +322,7 @@ ht-degree: 96%
 <li>將複雜歷程分割為數個歷程，以簡化極為複雜的設計 </li>
 <li>根據常見且可重複使用的歷程模式來建立歷程</li>
 </ul>
-<p>如需更多詳細資訊，請參閱<a href="../building-journeys/jump.md">詳細文件</a>及<a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hant">教學影片</a>。</p>
+<p>如需詳細資訊，請參閱<a href="../building-journeys/jump.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -724,8 +724,3 @@ Journey Orchestration　介面提供日文版。
 Journey Orchestration 能以事件中的情境資料、Adobe Experience Platform 的資訊或來自協力廠商 API 服務的資料，進行即時協調。應用程式會根據消費者的輪廓和行為，在稱為歷程的多步驟流程中，決定對該消費者來說下一個最佳的動作。這包括最佳時機和動作類型，例如透過 Adobe Campaign Standard 交易訊息功能（需要有 Adobe Campaign Standard）向消費者傳送推播通知或來自協力廠商系統的通知。這些決定是依據規則和 Sensei 分數加以制定。
 
 [進一步瞭解](../action/working-with-adobe-campaign.md) Journey Orchestration。
-
-其他資源:
-
-* [教學課程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=zh-Hant)
-* [社群](https://www.adobe.com/go/journeyorchestrationcommunity)

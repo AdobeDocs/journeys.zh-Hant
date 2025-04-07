@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '473'
 ht-degree: 3%
 
 ---
@@ -54,12 +54,11 @@ ht-degree: 3%
 * [步驟事件欄位清單](../building-journeys/sharing-field-list.md)
 * [舊版步驟事件欄位](../building-journeys/sharing-legacy-fields.md)
 
-如需向Adobe Experience Platform報告之步驟事件的詳細資訊，請觀看此[教學課程影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)。
 
 ## 與Customer Journey Analytics整合{#integration-cja}
 
 Journey Orchestration步驟事件可以連結到[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)中的其他資料集。 以下是一般工作流程：
 
 * Customer Journey Analytics會擷取「歷程步驟事件」資料集。
-* 關聯的「用於Journey Orchestration的歷程步驟事件結構描述」中的&#x200B;**profileID**&#x200B;欄位定義為身分欄位。 在Customer Journey Analytics中，您可以將此資料集連結至與以人員為基礎的識別碼具有相同值的任何其他資料集。
+* 關聯的「Journey Orchestration的歷程步驟事件結構描述」中的&#x200B;**profileID**&#x200B;欄位定義為身分欄位。 在Customer Journey Analytics中，您可以將此資料集連結至與人員型識別碼具有相同值的任何其他資料集。
 * 如果您想要在Customer Journey Analytics中使用此資料集，如需進行跨管道歷程分析，請參閱此[檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)。
