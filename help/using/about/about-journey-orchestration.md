@@ -6,20 +6,27 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 89%
 
 ---
 
 # 關於 [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
+
 運用儲存在事件或資料來源中的內容資料，建立即時協調使用案例。
 
 [!DNL Journey Orchestration] 是與 Adobe Experience Platform 整合的應用程式服務。
-
-![](../assets/journeydiagram.png)
 
 [!DNL Journey Orchestration] 能以事件中的情境資料、Adobe Experience Platform 的資訊或來自協力廠商 API 服務的資料，進行即時協調。如果您使用協力廠商系統來傳送訊息，則可設定自訂動作。如果您有 Adobe Campaign Standard，則可使用 Adobe Campaign Standard 的[「交易訊息」功能](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)來傳送電子郵件、推播通知和簡訊。
 
@@ -36,7 +43,7 @@ ht-degree: 100%
 
 * 時間
 * 來自事件有效負載的資料
-* 來自資料來源的資訊：即時客戶設定檔資料來源或自訂資料來源
+* 來自資料來源的資訊：即時客戶輪廓資料來源或自訂資料來源
 
 您可以使用分割條件，將歷程中的人們引導至不同的方向。
 

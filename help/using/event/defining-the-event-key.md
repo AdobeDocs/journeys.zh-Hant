@@ -6,16 +6,25 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 3%
+source-wordcount: '439'
+ht-degree: 2%
 
 ---
 
 # 定義事件鍵 {#concept_ond_hqt_52b}
 
-索引鍵是欄位或欄位組合是事件裝載資料的一部分，可讓系統識別與事件相關聯的人員。 例如，索引鍵可以是Experience CloudID、CRM ID或電子郵件地址。
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
+
+索引鍵是欄位或欄位組合是事件裝載資料的一部分，可讓系統識別與事件相關聯的人員。 例如，索引鍵可以是Experience Cloud ID、CRM ID或電子郵件地址。
 
 如果您打算使用儲存在即時客戶設定檔資料庫中的資料，您必須選取您在[即時客戶設定檔服務](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)中定義為設定檔身分的資訊作為事件索引鍵。
 

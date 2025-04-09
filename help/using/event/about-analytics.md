@@ -1,36 +1,45 @@
 ---
 product: adobe campaign
-title: 關於Adobe Analytics資料
-description: 瞭解如何善用Adobe Analytics資料
+title: 關於Adobe Analytics數據
+description: 瞭解如何善用Adobe Analytics數據
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
 
-# 善用Adobe Analytics資料{#analytics-data}
+# 善用Adobe Analytics數據{#analytics-data}
+
+
+>[!CAUTION]
+>
+>**在尋找 Adobe Systems Journey Optimizer**？ 按兩下這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以[取得Journey Optimizer 檔。
+>
+>
+>_本檔涉及已被Journey Optimizer 取代的舊版Journey Orchestration資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的訪問許可權有疑問，請連絡您的帳戶團隊。_
+
 
 >[!NOTE]
 >
->本節僅適用於規則型事件以及需要使用Adobe Analytics資料的客戶。
+>本節僅適用於基於規則的事件和需要使用Adobe Analytics數據的客戶。
 
-您可以善用您已擷取並串流至Platform的所有Adobe Analytics行為事件資料，以觸發歷程並自動化客戶體驗。
+您可以善用所有已捕獲並流式傳輸到Platform的Adobe Analytics行為事件資料，以便觸發旅程併為客戶自動化體驗。
 
-為了讓此功能發揮作用，您需要在Adobe Experience Platform中啟用您要運用的報表套裝：
+為此，您需要Adobe Experience Platform激活要善用的報告套裝：
 
-1. 在Adobe Experience Platform中，在Adobe Analytics區段中依序選取&#x200B;**[!UICONTROL Sources]**&#x200B;和&#x200B;**[!UICONTROL Add data]**。 畫面隨即顯示可用Adobe Analytics報表套裝清單。
+1. 在“Adobe Experience Platform”中，然後在“Adobe Analytics”部分中選擇&#x200B;**[!UICONTROL Sources]****[!UICONTROL Add data]**。將顯示可用Adobe Analytics報表套裝清單。
 
-1. 挑選您要啟用的報表套裝，按一下&#x200B;**[!UICONTROL Next]**&#x200B;並按一下&#x200B;**[!UICONTROL Finish]**。
+1. 選擇要啟用報告套裝，按兩下 **[!UICONTROL Next]** 並按一下 **[!UICONTROL Finish]**。
 
-1. 與您的Alpha方案聯絡人共用來源資料ID。
+1. 與Alpha方案聯絡人共用來源數據ID。
 
-如此將可啟用該報表套裝的Analytics來源聯結器。 只要有資料進來，就會轉換為Experience事件並傳送到Adobe Experience Platform。
+這將啟用該報告套裝的Analytics源連接器。 每當數據進入時，都會轉換為體驗事件並傳送到Adobe Experience Platform中。
 
 ![](../assets/alpha-event9.png)
 
-如需Adobe Analytics來源聯結器的詳細資訊，請參閱[檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)和[教學課程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)。
+有關Adobe Analytics源連接器的詳細信息，請參閱 [文檔](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 和 [教學課程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)。

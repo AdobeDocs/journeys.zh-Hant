@@ -6,14 +6,23 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b7568080-b88c-415c-9d3f-cc1361664838
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 18%
+source-wordcount: '351'
+ht-degree: 16%
 
 ---
 
 # 步驟事件欄位清單 {#sharing-field-list}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 步驟事件欄位會依類別組織。
 

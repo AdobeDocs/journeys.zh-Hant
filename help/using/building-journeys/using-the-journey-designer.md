@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: a7a49113a8b53e9c15123e788d50bb72310d949d
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1474'
 ht-degree: 5%
 
 ---
 
 # 使用歷程設計器 {#concept_m1g_5qt_52b}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 歷程首頁功能表可讓您檢視歷程的&#x200B;**清單**。 建立新歷程或按一下現有歷程以開啟&#x200B;**歷程設計工具的介面**。 設計工具由下列區域組成：浮動視窗、畫布和活動設定窗格。
 

@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
-source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 89%
+source-wordcount: '902'
+ht-degree: 85%
 
 ---
 
 # 建立歷程 {#concept_owm_kdy_w2b}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 **商業使用者**&#x200B;現在可以建立歷程。我們的歷程將包含下列活動：
 
@@ -75,9 +84,9 @@ ht-degree: 89%
 
    >[!NOTE]
    >
-   >在運算式的第二部分中，「設定檔」是選填欄位。
+   >在運算式的第二部分中，「輪廓」是選填欄位。
 
-1. 我們需要選擇一個命名空間。根據架構屬性，預先選取命名空間。您可以將命名空間保持預選狀態。如需名稱空間的詳細資訊，請參閱[此頁面](../event/selecting-the-namespace.md)。
+1. 我們需要選擇一個命名空間。根據結構描述屬性，預先選取命名空間。您可以將命名空間保持預選狀態。如需名稱空間的詳細資訊，請參閱[此頁面](../event/selecting-the-namespace.md)。
 
 在我們的使用案例中，我們只想對這兩種情況做出反應，所以不需要核取方塊 **[!UICONTROL Show path for other cases than the one(s) above]**。
 

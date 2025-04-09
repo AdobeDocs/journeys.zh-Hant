@@ -6,14 +6,25 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '367'
+ht-degree: 88%
 
 ---
 
 # 開始使用{#concept_y4b_4qt_52b}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
+
+
 
 [!DNL Journey Orchestration] 中有兩種使用者，每一種都負責執行特定工作，他們分別是&#x200B;**技術使用者**&#x200B;和&#x200B;**業務使用者**。可透過產品設定檔和權限管理使用者權限。請參閱[此頁面](../about/access-management.md)，以瞭解如何設定使用者存取權限。
 

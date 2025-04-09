@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 6%
+source-wordcount: '401'
+ht-degree: 5%
 
 ---
 
 # 結束歷程
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 **[!UICONTROL Stop]**&#x200B;和&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;選項可讓您終止&#x200B;**即時**&#x200B;歷程。 關閉歷程涉及&#x200B;**在歷程中新客戶的到達被封鎖**，並且已經在歷程中進入的客戶能夠體驗到它的結尾。 這是結束歷程的最建議方式，因為它為客戶提供最佳體驗。 停止歷程涉及已經進入歷程的人員都在進度中停止。 歷程已基本關閉。
 

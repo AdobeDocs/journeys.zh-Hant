@@ -1,19 +1,29 @@
 ---
 product: adobe campaign
 title: 關於Journey Orchestration事件的ExperienceEvent結構
-description: 瞭解用於Journey Orchestration事件的ExperienceEvent結構描述
+description: 瞭解適用於Journey Orchestration事件的ExperienceEvent結構描述
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 0%
+source-wordcount: '762'
+ht-degree: 1%
 
 ---
 
 # 關於[!DNL Journey Orchestration]事件的ExperienceEvent結構描述
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
+
 
 [!DNL Journey Orchestration]事件是指透過串流擷取傳送至Adobe Experience Platform的XDM體驗事件。
 
@@ -51,7 +61,7 @@ ht-degree: 0%
 
   ![](../assets/schema8.png)
 
-## 利用綱要關係{#leverage_schema_relationships}
+## 利用結構描述關係{#leverage_schema_relationships}
 
 Adobe Experience Platform可讓您定義結構描述之間的關係，以便將一個資料集用作另一個資料集的查詢表。
 

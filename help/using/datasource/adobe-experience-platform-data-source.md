@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 13%
+source-wordcount: '391'
+ht-degree: 11%
 
 ---
 
 # Adobe Experience Platform 資料來源 {#concept_zrb_nqt_52b}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 Adobe Experience Platform資料來源會定義與即時客戶個人檔案服務的連線。 此資料來源是內建並預先設定的。 無法刪除它。 此資料來源旨在擷取及使用即時客戶個人檔案服務的資料（例如，檢查進入歷程的人員是否為女性）。 其可讓您使用個人檔資料與體驗事件資料。 如需即時客戶個人檔案服務的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)。
 

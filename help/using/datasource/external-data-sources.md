@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 3856e323569054fac9e73f2a6af2b86518f62ab9
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 93%
+source-wordcount: '1350'
+ht-degree: 88%
 
 ---
 
 # 外部資料來源 {#concept_t2s_kqt_52b}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 外部資料來源可讓您定義與協力廠商系統的連線，例如使用飯店訂房系統來檢查某人是否已登記客房。與內建的 Adobe Experience Platform 資料來源不同，您可以視需要儘量建立外部資料來源。
 
@@ -75,8 +84,8 @@ ht-degree: 93%
 
 若是 GET 呼叫所需的參數，您會在 **[!UICONTROL Dynamic Values]** 欄位中輸入參數，系統就會在呼叫結束時自動新增這些參數。若是 POST 呼叫，您需要：
 
-* 在 **[!UICONTROL Dynamic Values]** 欄位中列出呼叫時要傳遞的參數（在以下範例中：“identifier”）。
-* 在已傳送有效負載的正文中，也使用完全相同的語法指定它們。若要這麼做，您必須新增：&quot;param&quot;: “name of your parameter”（在以下範例中：“identifier”）。請遵循下列語法：
+* 在&#x200B;**[!UICONTROL Dynamic Values]**&#x200B;欄位中列出呼叫時要傳遞的引數（在以下範例中：「identifier」）。
+* 在已傳送有效負載的正文中，也使用完全相同的語法指定它們。若要這麼做，您必須新增：&quot;param&quot;： 「name of your parameter」 （在以下範例中：「identifier」）。 請遵循下列語法：
 
   ```
   {"id":{"param":"identifier"}}

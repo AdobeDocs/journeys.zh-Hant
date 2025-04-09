@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '535'
 ht-degree: 1%
 
 ---
 
 # 進階運算式範例
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 進階運算式編輯器可用來建立條件，以允許您篩選歷程中的使用者。 這些條件能讓您鎖定時間、日期、位置、持續時間或動作（例如購買或放棄購物車）的使用者，以便在歷程中重新鎖定他們。
 
@@ -38,7 +47,7 @@ ht-degree: 1%
 
 <!--**This expression looks for a specified value in a string value:**
 
-`In (“addToCart”, #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`-->
 
 **此運算式會尋找此使用者在過去7天中指定的所有事件：**
 

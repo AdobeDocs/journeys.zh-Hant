@@ -1,19 +1,28 @@
 ---
 product: adobe campaign
-title: 更新設定檔
-description: 更新設定檔
+title: 更新輪廓
+description: 更新輪廓
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 64f415f3a4120685b64a4b1dc15bf004e86b35d2
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
 
-# 更新設定檔 {#update-profile}
+# 更新輪廓 {#update-profile}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 **[!UICONTROL Update profile]**&#x200B;動作活動可讓您使用來自事件、資料來源的資訊或使用特定值，更新現有的Adobe Experience Platform設定檔。
 

@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 95%
+source-wordcount: '1075'
+ht-degree: 81%
 
 ---
 
 # 疑難排解{#concept_nlv_bcv_2fb}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
+
 
 在此區段中，您會瞭解如何先疑難排解歷程，然後再進行測試或發佈。下列所有檢查皆可在歷程處於測試模式或歷程為即時狀態時執行。建議您在測試模式中進行下列所有檢查，然後繼續發佈。請參閱[此頁面](../building-journeys/testing-the-journey.md)。
 
@@ -29,7 +39,7 @@ ht-degree: 95%
 
 ![](../assets/canvas-disconnected.png)
 
-在 **[!UICONTROL Test]** 切換開關及 **[!UICONTROL Publish]** 按鈕旁邊，會顯示警告符號。此警告符號會顯示系統偵測到的錯誤，而且可防止測試模式啟動或歷程發佈。在大多數情況下，系統偵測到的錯誤會連結到活動上的可見錯誤，但有時候會連結到其他問題。在這種情況下，您可以顯示這些問題，嘗試識別用於說明錯誤的問題。如果您無法識別問題，則可複製詳細資料並將之傳送給管理員或支援。請注意，會封鎖測試的錯誤和封鎖發佈的錯誤是類似的。
+在 **[!UICONTROL Test]** 切換開關及 **[!UICONTROL Publish]** 按鈕旁邊，會顯示警告符號。此警告符號會顯示系統偵測到的錯誤，而且可防止測試模式啟動或歷程發佈。在大多數情況下，系統偵測到的錯誤會連結到活動上的可見錯誤，但有時候會連結到其他問題。在這種情況下，您可以顯示這些問題，嘗試識別用於說明錯誤的問題。如果您無法識別問題，可以複製詳細資料並傳送給管理員或支援人員。 請注意，會封鎖測試的錯誤和封鎖發佈的錯誤是類似的。
 
 系統偵測到兩種問題：錯誤及警告。錯誤會封鎖發佈及測試啟動。警告指出未封鎖測試啟動或發佈的潛在問題。您會看到問題的說明，以及類型 ERR_XXX_XXX 的問題日誌 ID。這將有助於技術支援人員找出問題。
 
@@ -47,7 +57,7 @@ ht-degree: 95%
 
 您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。如果您收到錯誤，則表示您的呼叫發生問題。再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。您可以諮詢管理員哪個是要點擊的正確 URL。
 
-不會直接將事件從來源推播至 [!DNL Journey Orchestration]。事實上，[!DNL Journey Orchestration] 會仰賴 Adobe Experience Platform 的串流獲取 API。因此，如果發生事件相關問題，您可以參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)，以疑難排解串流獲取API。
+不會直接將事件從來源推播至 [!DNL Journey Orchestration]。事實上，[!DNL Journey Orchestration]會仰賴Adobe Experience Platform的串流獲取API。 因此，如果發生事件相關問題，您可以參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)，以疑難排解串流獲取API。
 
 ## 檢查是否有人進入歷程{#section_x4v_zzs_dgb}
 
@@ -85,4 +95,4 @@ ht-degree: 95%
 * 「交易訊息」已正確考量要傳送訊息的要求。業務使用者可以存取應傳送的交易訊息，以及檢查與歷程執行時間相對應的最後執行時間。他也可以檢查透過交易傳訊接收的最新 API 呼叫/事件。
 * 交易傳訊已成功傳送訊息。在交易訊息的傳送日誌中，您可以檢視每個執行的狀態。您可以看到狀態是綠色、紅色，以及問題內容為何。業務使用者可以存取此畫面並將日誌傳送給管理員，以進行進一步的調查。
 
-若是透過自訂動作傳送訊息，在歷程測試期間唯一可以檢查的事項，就是自訂動作系統的呼叫是否會導致錯誤。如果呼叫與自訂動作相關聯的外部系統並未造成錯誤，但並未導致訊息傳送，則應在外部系統端進行一些調查。
+若是透過自訂動作傳送訊息，在歷程測試期間唯一可以檢查的事項，就是自訂動作系統的呼叫是否會導致錯誤。 如果呼叫與自訂動作相關聯的外部系統並未導致錯誤，但並未導致訊息傳送，則應在外部系統端進行一些調查。

@@ -7,34 +7,44 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1084'
 ht-degree: 5%
 
 ---
 
 # 與外部系統整合 {#external-systems}
 
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
+
+
 本頁介紹Journey Orchestration在整合外部系統時提供的各種護欄，以及最佳實務：如何使用上限API最佳化外部系統的保護、如何設定歷程逾時，以及重試如何運作。
 
-Journey Orchestration可讓您透過自訂資料來源和自訂動作來設定與外部系統的連線。 舉例來說，這可讓您利用來自外部訂房系統的資料，或利用第三方系統(例如Epsilon或Facebook)傳送訊息，讓您的歷程更為豐富。
+Journey Orchestration可讓您透過自訂資料來源和自訂動作來設定與外部系統的連線。 舉例來說，這可讓您利用來自外部訂房系統的資料，豐富您的歷程，或是使用Epsilon或Facebook等協力廠商系統傳送訊息。
 
 整合外部系統時，您可能會遇到幾個問題：系統可能緩慢、停止回應，或是可能無法處理較大的磁碟區。 Journey Orchestration提供數個護欄，可保護您的系統避免過載。
 
 所有外部系統的效能都不同。 您需要調整設定以符合使用案例。
 
-當Journey Orchestration執行對外部API的呼叫時，技術護欄會以下列方式執行：
+Journey Orchestration執行外部API呼叫時，技術護欄會依照以下方式執行：
 
 1. 套用上限規則：如果達到最大速率，則會捨棄剩餘的呼叫。
 
-2. 逾時並重試：如果已履行上限規則，則Journey Orchestration會嘗試執行呼叫，直到逾時期間結束時為止。
+2. 逾時並重試：如果已履行上限規則，Journey Orchestration會嘗試執行呼叫，直到逾時期間結束時為止。
 
-## 頻率限定{#capping}
+## 頻率上限{#capping}
 
 內建的上限API提供上游技術護欄，可協助保護您的外部系統。
 
-對於外部資料來源，每秒呼叫數上限設為15。 如果通話次數超過每秒15次，則會捨棄剩餘的通話。 您可以提高私人外部資料來源的此限制。 聯絡Adobe以在允許清單中包含端點。 公開外部資料來源無法執行此操作。
+對於外部資料來源，每秒呼叫數上限設為15。 如果通話次數超過每秒15次，則會捨棄剩餘的通話。 您可以提高私人外部資料來源的此限制。 請聯絡Adobe以將此端點加入允許清單中。 公開外部資料來源無法執行此操作。
 
 對於自訂動作，您需要評估外部API的容量。 例如，如果Journey Optimizer每秒傳送1000個呼叫，而您的系統僅支援每秒100個呼叫，則您需要定義上限規則，讓系統不會飽和。
 
@@ -68,7 +78,7 @@ Journey Orchestration可讓您透過自訂資料來源和自訂動作來設定�
    * 如果在5秒結束前三次重試其中一次成功，則會執行呼叫，而且不會發生錯誤。
    * 如果在重試期間到達逾時持續時間的結尾，則會取消呼叫，並在報表中計為逾時錯誤。
 
-## 常見問答{#faq}
+## 常見問題{#faq}
 
 **如何設定上限規則？ 是否有預設的上限規則？**
 

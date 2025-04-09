@@ -6,20 +6,29 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 545352efdcda80cb9940010c4587a20f53326085
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '345'
 ht-degree: 2%
 
 ---
 
 # 使用 Adobe Campaign Standard {#using_adobe_campaign_standard}
 
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
+
 您可以使用Adobe Campaign Standard的「交易訊息」功能來傳送電子郵件、推播通知和簡訊。
 
 [!DNL Journey Orchestration]隨附立即可用的動作，可連線至Adobe Campaign Standard。
 
-必須發佈Campaign Standard交易式訊息及其相關事件，才能在Journey Orchestration中使用。 如果事件已發佈，但訊息尚未發佈，則不會顯示在Journey Orchestration介面中。 如果訊息已發佈，但其關聯事件尚未發佈，則會在Journey Orchestration介面中看到該訊息，但無法使用它。
+必須發佈Campaign Standard交易式訊息及其相關事件，才能在Journey Orchestration中使用。 如果事件已發佈，但訊息尚未發佈，將無法在Journey Orchestration介面中看見。 如果訊息已發佈，但其關聯事件尚未發佈，則會顯示在Journey Orchestration介面中，但將無法使用。
 
 >[!NOTE]
 >

@@ -7,14 +7,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 87d5cf223d9adec27eabcb55f2e09aa6d40b23a6
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 87%
+source-wordcount: '836'
+ht-degree: 83%
 
 ---
 
 # 開始使用歷程 API
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 ## 關於設定上限與節流 API
 
@@ -58,7 +67,7 @@ ht-degree: 87%
 >若要在 Adobe I/O 管理憑證，請確認您在組織擁有<b>系統管理員</b>權限或在 Admin Console 擁有[開發人員帳戶](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)。
 
 1. **請確認您擁有數位憑證**，或視需要建立。 下列步驟需要憑證隨附的公開金鑰與私人金鑰。
-1. 在 Adobe I/O **建立新整合以[!DNL Journey Orchestration]服務**&#x200B;並加以設定。 [!DNL Journey Orchestration]和 Adobe Experience Platform 需要產品設定檔存取權。然後，將產生您的憑證 (API 金鑰、用戶端密碼……)。
+1. 在 Adobe I/O **建立新整合以[!DNL Journey Orchestration]服務**&#x200B;並加以設定。 [!DNL Journey Orchestration]和 Adobe Experience Platform 需要產品設定檔存取權。然後，將產生您的認證 (API 金鑰、用戶端密碼……)。
 
 >[!CAUTION]
 >

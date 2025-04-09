@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: b2e5c333-d0d8-4fe1-a6b8-5f2e6b3624a4
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '922'
 ht-degree: 2%
 
 ---
 
 # 使用 Adobe Campaign Standard {#using_campaign_action}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
+
 
 如果您有Adobe Campaign Standard，則可使用下列現成的動作活動： **[!UICONTROL Email]**、**[!UICONTROL Push]**&#x200B;和&#x200B;**[!UICONTROL SMS]**。
 
@@ -25,7 +35,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->必須發佈Campaign Standard交易式訊息及其相關事件，才能在Journey Orchestration中使用。 如果事件已發佈，但訊息尚未發佈，則不會顯示在Journey Orchestration介面中。 如果訊息已發佈，但其關聯事件尚未發佈，則會在Journey Orchestration介面中看到該訊息，但無法使用它。
+>必須發佈Campaign Standard交易式訊息及其相關事件，才能在Journey Orchestration中使用。 如果事件已發佈，但訊息尚未發佈，將無法在Journey Orchestration介面中看見。 如果訊息已發佈，但其關聯事件尚未發佈，則會顯示在Journey Orchestration介面中，但將無法使用。
 
 ![](../assets/journey59.png)
 
@@ -45,7 +55,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->對於電子郵件，如果您使用設定檔交易式範本，則會透過Campaign Standard立即處理取消訂閱機制。 您只需在範本中新增&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;內容區塊（[深入瞭解](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)）。 如果您使用事件型範本(rtEvent)，則需要在訊息中新增連結，在URL引數中傳遞人員的電子郵件，並指向取消訂閱的登入頁面。 您需要建立此登入頁面，並確保將人員取消訂閱的決策傳送至Adobe。
+>對於電子郵件，如果您使用設定檔交易式範本，Campaign Standard會立即處理取消訂閱機制。 您只需在範本中新增&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;內容區塊（[深入瞭解](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)）。 如果您使用事件型範本(rtEvent)，則需要在訊息中新增連結，在URL引數中傳遞人員的電子郵件，並指向取消訂閱的登入頁面。 您需要建立此登入頁面，並確保將人員取消訂閱的決策傳送至Adobe。
 
 首先，您需要選擇異動訊息範本。 請參見[此頁面](../building-journeys/about-action-activities.md)。
 

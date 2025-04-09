@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 70%
+source-wordcount: '222'
+ht-degree: 57%
 
 ---
 
 # 函數 {#concept_p1r_qj5_dgb}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 函式可以有不同的簽章（不同的有序引數集）。 函式簽章可以有0-N個運算式做為排序引數。
 
@@ -68,8 +77,8 @@ ht-degree: 70%
 | 清單 | [listSize](../functions/functionlistsize.md) |
 | 清單 | [serializeList](../functions/functionserializelist.md) |
 | 清單 | [sort](../functions/functionsort.md) |
-| Math | [random](../functions/functionrandom.md) |
-| Math | [round](../functions/functionround.md) |
+| 數學 | [random](../functions/functionrandom.md) |
+| 數學 | [round](../functions/functionround.md) |
 | 字串 | [concat](../functions/functionconcat.md) |
 | 字串 | [contain](../functions/functioncontain.md) |
 | 字串 | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |

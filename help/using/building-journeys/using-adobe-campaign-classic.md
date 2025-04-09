@@ -1,31 +1,40 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 使用Adobe Campaign v7/v8動作
-description: 瞭解Adobe Campaign v7/v8動作
+title: 使用 Adobe Campaign v7/v8 動作
+description: 瞭解 v7/v8 Adobe Campaign動作
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 17%
+source-wordcount: '209'
+ht-degree: 13%
 
 ---
 
 # 使用 Adobe Campaign v7/v8 {#using_campaign_classic}
 
-如果您有 Adobe Campaign v7 或 v8，則可整合。 其可讓您使用Adobe Campaign異動訊息功能來傳送電子郵件、推播通知及簡訊。
 
-Journey Orchestration與Campaign執行個體之間的連線在布建時由Adobe設定。 連絡Adobe。
+>[!CAUTION]
+>
+>**在尋找 Adobe Systems Journey Optimizer**？ 按兩下這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以[取得Journey Optimizer 檔。
+>
+>
+>_本檔涉及已被Journey Optimizer 取代的舊版Journey Orchestration資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的訪問許可權有疑問，請連絡您的帳戶團隊。_
 
-為了讓此功能發揮作用，您需要設定專用動作。 請參閱本[章節](../action/acc-action.md)。
 
-此[區段](../usecase/campaign-classic-use-case.md)中呈現端對端使用案例。
+如果您有 Adobe Campaign v7 或 v8，則可整合。 它將允許您使用Adobe Campaign交易消息傳遞功能發送電子郵件，推送通知和SMS。
 
-1. 設計您的歷程，從事件開始。 請參閱[本章節](../building-journeys/journey.md)。
-1. 在浮動視窗的&#x200B;**動作**&#x200B;區段中，選取行銷活動動作並將其新增至您的歷程。
-1. 在&#x200B;**動作引數**&#x200B;中，會顯示訊息裝載中預期的所有欄位。 您需要將每個欄位與您要使用的欄位相對應，無論是從事件還是從資料來源進行。 這類似於自訂動作。 請參閱本[章節](../building-journeys/using-custom-actions.md)。
+Journey Orchestration 實例和Campaign實例之間的連接是在預置時通過Adobe Systems設置的。 聯絡Adobe Systems。
+
+為此，您需要配置專用作。 請參閱本[章節](../action/acc-action.md)。
+
+本節[](../usecase/campaign-classic-use-case.md)介紹了端到端用例。
+
+1. 設計您的旅程，從事件開始。 請參閱[本章節](../building-journeys/journey.md)。
+1. 在調色板的“ **作** ”部分中，選擇一個Campaign作並將其添加到您的旅程中。
+1. **在 Action 參數**&#x200B;中，將顯示消息負載中所需的所有欄位。您需要從事件或資料來源將每個字段與要使用的欄位對應。 這類似於自定義作。 請參閱本[章節](../building-journeys/using-custom-actions.md)。
 
 ![](../assets/accintegration2.png)

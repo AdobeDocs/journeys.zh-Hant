@@ -3,14 +3,23 @@ product: adobe campaign
 title: 建立測試設定檔
 description: 瞭解如何建立測試設定檔
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '681'
 ht-degree: 3%
 
 ---
 
-# 建立測試設定檔 {#create-test-profiles}
+# 建立測試輪廓 {#create-test-profiles}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 在歷程中使用測試模式時需要測試設定檔。 若要瞭解如何使用測試模式，請參閱[本節](../building-journeys/testing-the-journey.md)。
 

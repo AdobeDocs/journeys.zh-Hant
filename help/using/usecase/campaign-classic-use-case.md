@@ -4,14 +4,23 @@ solution: Journey Orchestration
 title: 使用 Campaign v7/v8 傳送訊息
 description: 使用 Campaign v7/v8 傳送訊息
 exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 6%
+source-wordcount: '439'
+ht-degree: 5%
 
 ---
 
 # 使用 Campaign v7/v8 傳送訊息 {#campaign-classic-use-case}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 此使用案例會介紹使用與Adobe Campaign Classic v7和Adobe Campaign v8的整合來傳送電子郵件所需的所有步驟。
 
@@ -42,7 +51,7 @@ ht-degree: 6%
 
    ![](../assets/accintegration-uc-3.png)
 
-1. Publish您的交易式範本。
+1. 發佈您的交易式範本。
 
    ![](../assets/accintegration-uc-4.png)
 
@@ -86,7 +95,7 @@ ht-degree: 6%
 
    ![](../assets/accintegration-uc-9.png)
 
-1. 新增動作並將每個欄位對應到Journey Orchestration中的正確欄位。
+1. 新增動作，並將每個欄位對應至Journey Orchestration中的正確欄位。
 
    ![](../assets/accintegration-uc-10.png)
 

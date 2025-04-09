@@ -4,14 +4,23 @@ solution: Journey Orchestration
 title: 使用自訂動作動態傳遞集合
 description: 使用 Campaign v7/v8 傳送訊息
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
-source-git-commit: 97d19cf9cb91c82587e5c94e43580f808d15e813
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '469'
 ht-degree: 7%
 
 ---
 
 # 使用自訂動作動態傳遞集合{#passing-collection}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 您可以在自訂動作引數中傳遞集合，這些引數將在執行階段以動態方式填入。 支援兩種集合：
 

@@ -6,20 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 92%
+source-wordcount: '944'
+ht-degree: 83%
 
 ---
 
 # 使用者介面{#concept_rcq_lqt_52b}
 
->[!NOTE]
+
+>[!CAUTION]
 >
->若要充分利用 [!DNL Journey Orchestration] 的功能，我們建議使用 Chrome 作為網際網路瀏覽器。介面會以 IMS 中定義的語言顯示。如果 [!DNL Journey Orchestration] 不支援您的 IMS 語言，介面則會以英文顯示。
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
 >
->本文件將經常更新，以反應產品近期異動。不過，有些螢幕擷取畫面可能會與產品的介面稍有不同。
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 ## 存取 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
@@ -77,7 +80,7 @@ ht-degree: 92%
 
 定義[事件有效負載](../event/defining-the-payload-fields.md)、[欄位群組有效負載](../datasource/field-groups.md)，以及在[運算式編輯器](../expression/expressionadvanced.md)中選取欄位時，除了欄位名稱外，還會顯示顯示名稱。此資訊會從「Experience 資料模型」的結構定義中擷取。
 
-如果在設定結構時提供了 &quot;xdm:alternateDisplayInfo&quot; 之類的描述元，則好記的名稱會取代顯示名稱。它在使用 “eVars” 和一般欄位時特別有用。您可以透過 API 呼叫來設定好記的名稱描述元。如需詳細資訊，請參閱 [Schema Registry 開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)。
+如果在設定結構時提供了 &quot;xdm:alternateDisplayInfo&quot; 之類的描述元，則好記的名稱會取代顯示名稱。它在使用「eVars」和一般欄位時特別有用。您可以透過API呼叫來設定好記的名稱描述元。 如需詳細資訊，請參閱 [Schema Registry 開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)。
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -95,7 +98,7 @@ Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提�
 * 顏色對比
 * 驗證必填欄位
 
-透過 Adobe Experience Platform 文件[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target="_blank"}。
+[在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hant){target="_blank"}。
 
 您可以在Adobe Journey Optimizer中使用這些常見的鍵盤快速鍵：
 
@@ -107,7 +110,7 @@ Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提�
 | 選取或清除焦點中的元素 | 輸入或空格鍵 |
 | 取消選取、折疊面板或關閉對話方塊 | Esc 鍵 |
 
-透過 Adobe Experience Platform 文件[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hant){target="_blank"}。
+[在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hant){target="_blank"}。
 
 您可以在 Journey Optimizer 的特定部分使用下列快速鍵：
 

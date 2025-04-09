@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '451'
 ht-degree: 2%
 
 ---
 
 # 反應事件 {#section_dhx_gss_dgb}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
+
 
 在浮動視窗中可用的不同事件活動中，您會找到內建&#x200B;**[!UICONTROL Reactions]**&#x200B;事件。 此活動可讓您對透過電子郵件、簡訊或推播活動傳送之訊息的追蹤資料，在同一歷程中做出反應。 此資訊來自Adobe Campaign Standard中的交易式傳訊。 我們會在與Adobe Experience Platform共用此資訊時即時擷取該資訊。 對於推播通知，您可以對點選、傳送或失敗的訊息做出反應。 對於SMS訊息，您可以對已傳送或失敗的訊息做出反應。 對於電子郵件，您可以對點按、傳送、開啟或失敗的訊息做出反應。
 

@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: a0b6ab595bc16a75aa5a56a858900418e2381ab9
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '504'
 ht-degree: 6%
 
 ---
 
 # 操作者 {#concept_wd5_pj5_dgb}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
 
 運運算元有兩種型別：一元運運算元和二進位運運算元。 有左一元運運算元和右一元運運算元。
 
@@ -38,7 +47,7 @@ ht-degree: 6%
    * 下列範例是正確的： `3.0 * 4.0`
    * `3 * 4.0`將導致錯誤
 
-## 邏輯  {#logical}
+## 邏輯 {#logical}
 
 ### 和
 
@@ -376,7 +385,7 @@ Datetimeonly可以與Datetimeonly比較。
 3 % 2 -- returns 1.
 ```
 
-## Math {#math}
+## 數學 {#math}
 
 ### 是數值
 

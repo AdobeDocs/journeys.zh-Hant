@@ -1,19 +1,29 @@
 ---
 product: adobe campaign
-title: 區段資格事件
+title: 細分資格篩選事件
 description: 瞭解區段資格事件
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '821'
 ht-degree: 1%
 
 ---
 
-# 區段資格事件 {#segment-qualification}
+# 細分資格篩選事件 {#segment-qualification}
+
+
+>[!CAUTION]
+>
+>**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>
+>
+>_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+
+
 
 ## 關於區段資格事件{#about-segment-qualification}
 
@@ -25,9 +35,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->請記住，Adobe Experience Platform區段每天計算一次（**批次**&#x200B;區段）或即時計算(**串流**&#x200B;區段，使用Adobe Experience Platform的「高頻對象」選項)。
+>請記住，Adobe Experience Platform段是每天計算一次（**批量** 區段）或實時&#x200B;**計算（流式** 區段，使用 Adobe Experience Platform 的高頻Audiences選項）。
 >
->如果選取的區段經過串流處理，屬於此區段的個人可能會即時進入歷程。 如果區段為批次，則新符合此區段資格的人可能會在Adobe Experience Platform上執行區段計算時進入歷程。
+>如果所選區段已流式傳輸，則屬於此區段的個人可能會實時進入旅程。 如果區段為批次，則新符合此區段資格的人可能會在Adobe Experience Platform上執行區段計算時進入歷程。
 
 
 1. 展開&#x200B;**[!UICONTROL Events]**&#x200B;類別並將&#x200B;**[!UICONTROL Segment qualification]**&#x200B;活動拖放到畫布中。
@@ -46,7 +56,7 @@ ht-degree: 1%
 
    新增區段後，**[!UICONTROL Copy]**&#x200B;按鈕可讓您複製其名稱和ID：
 
-   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/segment-copy.png)
 
@@ -76,9 +86,9 @@ ht-degree: 1%
 
 ## 最佳作法 {#best-practices-segments}
 
-**[!UICONTROL Segment Qualification]**&#x200B;活動可讓在Adobe Experience Platform區段中取得資格或被取消資格的個人在歷程中立即進入。
+該 **[!UICONTROL Segment Qualification]** 活動使獲得Adobe Experience Platform區段資格或取消資格的個人能夠立即進入旅程。
 
-此資訊的接收速度很快。 所做的測量顯示速度為每秒接收10,000個事件。 因此，您應該確保瞭解入口尖峰可能如何發生、如何避免以及如何讓您的歷程準備好迎接他們。
+這些資訊的接收速度很高。 測量顯示每秒接收 10,000 個事件的速度。 因此，您應該確保瞭解入口尖峰可能如何發生、如何避免以及如何讓您的歷程準備好迎接他們。
 
 ### 批次區段{#batch-speed-segment-qualification}
 
@@ -102,6 +112,6 @@ ht-degree: 1%
 
 為歷程中使用的資料來源和動作設定上限規則，以避免其過載（請參閱此[區段](../api/capping.md)）。 請注意，上限規則沒有重試。 如果您需要重試，則必須在條件或動作中核取方塊&#x200B;**[!UICONTROL Add an alternative path in case of a timeout or an error]**，以在歷程中使用替代路徑。
 
-在生產歷程中使用區段之前，請一律先評估每天符合此區段資格的個人數量。 若要這麼做，您可以檢查Adobe Experience Platform中的&#x200B;**[!UICONTROL Segments]**&#x200B;區段，並檢視右側的圖表。
+在生產旅程中使用區段之前，請始終首先評估每天有資格獲得此區段的人員數量。 若要這麼做，您可以檢查Adobe Experience Platform中的&#x200B;**[!UICONTROL Segments]**&#x200B;區段，並檢視右側的圖表。
 
 ![](../assets/segment-overload.png)
