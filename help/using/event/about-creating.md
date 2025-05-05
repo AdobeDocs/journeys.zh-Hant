@@ -55,7 +55,7 @@ ht-degree: 47%
    >
    >當您選取&#x200B;**[!UICONTROL System Generated]**&#x200B;型別時，只有具有eventID型別mixin的結構描述才可使用。 當您選取&#x200B;**[!UICONTROL Rule Based]**&#x200B;型別時，所有體驗事件結構描述都可使用。
 
-1. 對於規則型事件，請在&#x200B;**[!UICONTROL Event ID condition]**欄位內按一下。 使用簡單運算式編輯器，定義系統將使用的條件，以識別將觸發您歷程的事件。
+1. 對於規則型事件，請在&#x200B;**[!UICONTROL Event ID condition]**&#x200B;欄位內按一下。 使用簡單運算式編輯器，定義系統將使用的條件，以識別將觸發您歷程的事件。
    ![](../assets/alpha-event6.png)
 
    在我們的範例中，我們根據設定檔的城市來撰寫條件。 這表示每當系統收到符合此條件（**[!UICONTROL City]**&#x200B;欄位和&#x200B;**[!UICONTROL Paris]**&#x200B;值）的事件時，都會將其傳遞至Journey Orchestration。

@@ -18,7 +18,7 @@ ht-degree: 11%
 
 >[!CAUTION]
 >
->**在尋找 Adobe Systems Journey Optimizer**？ 按兩下這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以[取得Journey Optimizer 檔。
+>**在尋找 Adobe Systems Journey Optimizer**？ 按兩下這裡[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得Journey Optimizer 檔。
 >
 >
 >_本檔涉及已被Journey Optimizer 取代的舊版Journey Orchestration資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的訪問許可權有疑問，請連絡您的帳戶團隊。_
@@ -26,7 +26,7 @@ ht-degree: 11%
 
 如果您使用 協力廠商 系統發送消息，或者想要 [!DNL Journey Orchestration] 向 協力廠商 系統發送 API 調用，則可以在此處配置其連接 [!DNL Journey Orchestration]。 然後，技術用戶定義的自定義作將在旅程 **[!UICONTROL Action]** 的左側調色板類別中可用（請參閱 [此頁面](../building-journeys/about-action-activities.md)。 以下是您可以使用自定義作連接到的一些系統示例：Epsilon、Facebook、Adobe.io、Firebase 等。
 
-此頁面](../about/limitations.md)中[列出了限制。
+此頁面[&#128279;](../about/limitations.md)中列出了限制。
 
 在自訂動作參數中，您可以傳遞簡單集合以及物件集合。 關於限制，請参閱 [此頁面](../usecase/collections.md#limitations)。 另請注意，參數具有預期的格式 （例如：字串、小數等）。 您必須小心遵守這些預期的格式。 請參閱此 [使用案例](../usecase/collections.md)。
 

@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 按兩下這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以[取得Journey Optimizer 檔。
+>**正在尋找Adobe Journey Optimizer**？ 按兩下這裡[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得Journey Optimizer 檔。
 >
 >
 >_本檔涉及已被Journey Optimizer 取代的舊版Journey Orchestration資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的訪問許可權有疑問，請連絡您的帳戶團隊。_

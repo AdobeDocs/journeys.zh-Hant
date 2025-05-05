@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**在尋找 Adobe Systems Journey Optimizer**？ 按兩下這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以[取得Journey Optimizer 檔。
+>**在尋找 Adobe Systems Journey Optimizer**？ 按兩下這裡[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得Journey Optimizer 檔。
 >
 >
 >_本檔涉及已被Journey Optimizer 取代的舊版Journey Orchestration資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的訪問許可權有疑問，請連絡您的帳戶團隊。_
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 為此，您需要Adobe Experience Platform激活要善用的報告套裝：
 
-1. 在“Adobe Experience Platform”中，然後在“Adobe Analytics”部分中選擇&#x200B;**[!UICONTROL Sources]****[!UICONTROL Add data]**。將顯示可用Adobe Analytics報表套裝清單。
+1. 在“Adobe Experience Platform”中，然後在“Adobe Analytics”部分中選擇&#x200B;**[!UICONTROL Sources]**&#x200B;**[!UICONTROL Add data]**。將顯示可用Adobe Analytics報表套裝清單。
 
 1. 選擇要啟用報告套裝，按兩下 **[!UICONTROL Next]** 並按一下 **[!UICONTROL Finish]**。
 

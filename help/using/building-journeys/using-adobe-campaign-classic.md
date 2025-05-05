@@ -19,7 +19,7 @@ ht-degree: 13%
 
 >[!CAUTION]
 >
->**在尋找 Adobe Systems Journey Optimizer**？ 按兩下這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以[取得Journey Optimizer 檔。
+>**在尋找 Adobe Systems Journey Optimizer**？ 按兩下這裡[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得Journey Optimizer 檔。
 >
 >
 >_本檔涉及已被Journey Optimizer 取代的舊版Journey Orchestration資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的訪問許可權有疑問，請連絡您的帳戶團隊。_
@@ -31,7 +31,7 @@ Journey Orchestration 實例和Campaign實例之間的連接是在預置時通�
 
 為此，您需要配置專用作。 請參閱本[章節](../action/acc-action.md)。
 
-本節[](../usecase/campaign-classic-use-case.md)介紹了端到端用例。
+本節[&#128279;](../usecase/campaign-classic-use-case.md)介紹了端到端用例。
 
 1. 設計您的旅程，從事件開始。 請參閱[本章節](../building-journeys/journey.md)。
 1. 在調色板的“ **作** ”部分中，選擇一個Campaign作並將其添加到您的旅程中。

@@ -48,6 +48,7 @@ ht-degree: 42%
 
 * 由於輸送量限制，**區段資格**&#x200B;活動不能與Adobe Campaign Standard異動訊息結合使用。 請參閱[Adobe Campaign Standard產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)。 
  
+
 ## 自訂動作限制
 
 * 自訂動作 URL 不支援動態參數。 
@@ -56,14 +57,17 @@ ht-degree: 42%
 * 不允許IP位址。 
 * 不允許內部Adobe位址(.adobe.)。
  
+
 ## Adobe Campaign動作限制
 
 * 對於特定執行個體，Adobe Campaign Standard交易式訊息每小時最大規模為50,000則訊息。 請參閱[Adobe Campaign Standard產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)。 
  
+
 ## 事件限制
 
 * 對於系統產生的事件，必須先在Journey Orchestration中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程ID。 此協調流程ID必須附加至傳入Adobe Experience Platform的串流裝載。 此限制不適用於規則型事件。
  
+
 ## 資料來源限制
 
 * 可在客戶歷程中利用外部資料來源即時查詢外部資料。 這些來源必須可透過REST API使用、支援JSON並且能夠處理大量請求。

@@ -50,7 +50,7 @@ Mixin清單會顯示在架構概觀畫面上。
    ![](../assets/test-profiles-3.png)
 1. 在&#x200B;**[!UICONTROL Field properties]**&#x200B;右側面板中，檢查&#x200B;**[!UICONTROL Identity]**&#x200B;和&#x200B;**[!UICONTROL Primary Identity]**&#x200B;選項並選取名稱空間。 如果您希望主要身分識別是電子郵件地址，請選擇&#x200B;**[!UICONTROL Email]**&#x200B;名稱空間。 按一下「**[!UICONTROL Apply]**」。
    ![](../assets/test-profiles-4.png)
-1. 選取結構描述並在&#x200B;**[!UICONTROL Schema properties]**&#x200B;中啟用&#x200B;**[!UICONTROL Profile]**選項。
+1. 選取結構描述並在&#x200B;**[!UICONTROL Schema properties]**&#x200B;中啟用&#x200B;**[!UICONTROL Profile]**&#x200B;選項。
    ![](../assets/test-profiles-5.png)
 1. 按一下「**[!UICONTROL Save]**」。
 
@@ -68,7 +68,7 @@ Mixin清單會顯示在架構概觀畫面上。
    ![](../assets/test-profiles-8.png)
 1. 選擇名稱，然後按一下&#x200B;**[!UICONTROL Finish]**。
    ![](../assets/test-profiles-9.png)
-1. 啟用&#x200B;**[!UICONTROL Profile]**選項。
+1. 啟用&#x200B;**[!UICONTROL Profile]**&#x200B;選項。
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
