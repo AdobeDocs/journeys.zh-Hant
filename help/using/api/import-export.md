@@ -30,16 +30,16 @@ Journey Orchestration匯出 — 匯入API在[此處](https://adobedocs.github.io
 
 我們建議遵循下列步驟，在不同環境中匯出和匯入您的歷程：
 
-1. 在您的開始環境中建立歷程並輸入引數。 [更多資訊在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
-1. 檢查歷程版本是否沒有錯誤。 [更多資訊在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
+1. 在您的開始環境中建立歷程並輸入引數。 [更多資訊在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=zh-Hant)
+1. 檢查歷程版本是否沒有錯誤。 [更多資訊在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=zh-Hant)
 1. 呼叫&#x200B;**/list/journeys** API以擷取您最新歷程版本的UID歷程和UID。 如有需要，您可以呼叫&#x200B;**/journeys/`{uid}`/latest**&#x200B;來尋找您最新歷程版本的UID。
 1. 使用您的啟動環境引數（orgID和sandboxName）呼叫&#x200B;**export** API。
 1. 開啟傳回裝載，然後檢查下列專案：
    * 如果您的匯出歷程包含&#x200B;**特定認證**，您需要將這些認證取代為與新環境相對應的認證。
-   * 如果您的匯出歷程包含指向&#x200B;**XDM結構描述**&#x200B;的&#x200B;**事件**，且如果ID值不同，則需要在xdmEntity節點中手動更新結構描述ID參考，並使用新環境的結構描述ID。 每個事件都需要進行此更新。 [更多資訊在此](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
+   * 如果您的匯出歷程包含指向&#x200B;**XDM結構描述**&#x200B;的&#x200B;**事件**，且如果ID值不同，則需要在xdmEntity節點中手動更新結構描述ID參考，並使用新環境的結構描述ID。 每個事件都需要進行此更新。 [更多資訊在此](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=zh-Hant)
    * 如果您的歷程包含電子郵件、簡訊或推播動作，如果目標環境中的名稱與開始環境中的名稱不同，您可能需要更新範本名稱或行動應用程式名稱。
 1. 使用您的目標環境引數（orgID和sandboxName）呼叫&#x200B;**Import** API。 請注意，您可以視需要多次呼叫匯入API。 每次呼叫匯入API時，都會產生歷程中包含之每個物件的UUID和名稱。
-1. 匯入歷程後，您可以在Journey Orchestration應用程式中發佈歷程。 更多資訊[在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
+1. 匯入歷程後，您可以在Journey Orchestration應用程式中發佈歷程。 更多資訊[在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=zh-Hant)
 
 
 ## 驗證
@@ -57,7 +57,7 @@ Journey Orchestration API存取可透過下列步驟設定。 [Adobe I/O 文件]
 
 >[!CAUTION]
 >
->不建議使用產生存取權杖的JWT方法。 所有新的整合都必須使用[OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)來建立。 Adobe也建議您將現有的整合移轉至OAuth方法。
+>不建議使用產生存取權杖的JWT方法。 所有新的整合都必須使用[OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hant#select-oauth-server-to-server)來建立。 Adobe也建議您將現有的整合移轉至OAuth方法。
 >
 >閱讀下列重要檔案：
 >[您的應用程式從JWT移轉至OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)的移轉指南，

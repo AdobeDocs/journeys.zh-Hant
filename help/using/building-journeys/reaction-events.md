@@ -48,7 +48,7 @@ ht-degree: 2%
 >
 >反應事件無法追蹤發生在不同歷程的電子郵件、簡訊或推播動作。
 >
->反應事件追蹤「已追蹤」型別連結的點按（請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)）。 未考慮取消訂閱和映象頁面連結。
+>反應事件追蹤「已追蹤」型別連結的點按（請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html?lang=zh-Hant#about-tracked-urls)）。 未考慮取消訂閱和映象頁面連結。
 
 >[!IMPORTANT]
 >

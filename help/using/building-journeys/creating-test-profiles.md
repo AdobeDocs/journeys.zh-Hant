@@ -23,7 +23,7 @@ ht-degree: 3%
 
 在歷程中使用測試模式時需要測試設定檔。 若要瞭解如何使用測試模式，請參閱[本節](../building-journeys/testing-the-journey.md)。
 
-在Adobe Experience Platform中建立測試設定檔有不同的方式。 在本檔案中，我們著重於兩種方法：上傳[csv檔案](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)和使用[API呼叫](../building-journeys/creating-test-profiles.md#create-test-profiles-api)。 您也可以上傳資料集中的json檔案，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)。
+在Adobe Experience Platform中建立測試設定檔有不同的方式。 在本檔案中，我們著重於兩種方法：上傳[csv檔案](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)和使用[API呼叫](../building-journeys/creating-test-profiles.md#create-test-profiles-api)。 您也可以上傳資料集中的json檔案，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hant#add-data-to-dataset)。
 
 這些匯入方法也可讓您更新設定檔屬性。 如此一來，您就可以將現有的設定檔轉換為測試設定檔。 只需使用類似的檔案或API呼叫，且僅加入值為「true」的「testProfile」欄位。
 
@@ -56,7 +56,7 @@ Mixin清單會顯示在架構概觀畫面上。
 
 >[!NOTE]
 >
->如需建立結構描述的詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites)。
+>如需建立結構描述的詳細資訊，請參閱[XDM檔案](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hant#prerequisites)。
 
 然後，您需要&#x200B;**建立將匯入設定檔的資料集**。 請依照下列步驟操作：
 
@@ -73,7 +73,7 @@ Mixin清單會顯示在架構概觀畫面上。
 
 >[!NOTE]
 >
-> 如需建立資料集的詳細資訊，請參閱[目錄服務檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)。
+> 如需建立資料集的詳細資訊，請參閱[目錄服務檔案](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant#getting-started)。
 
 ## 使用csv檔案建立測試設定檔{#create-test-profiles-csv}
 
@@ -103,7 +103,7 @@ Mixin清單會顯示在架構概觀畫面上。
 您的測試設定檔已新增，現在可用於測試歷程。 請參閱[本節](../building-journeys/testing-the-journey.md)。
 >[!NOTE]
 >
-> 如需csv匯入的詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials)。
+> 如需csv匯入的詳細資訊，請參閱[資料擷取檔案](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hant#tutorials)。
 
 ## 使用API呼叫建立測試設定檔{#create-test-profiles-api}
 

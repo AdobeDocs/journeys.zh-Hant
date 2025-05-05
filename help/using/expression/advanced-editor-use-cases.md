@@ -154,4 +154,4 @@ substr(
 
 說明：此範例使用`substr`和`lastIndexOf`函式，移除在行動應用程式啟動事件中傳遞之CRM ID所括的大括弧。
 
-如需如何使用進階運算式編輯器的詳細資訊，請觀看[此影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
+如需如何使用進階運算式編輯器的詳細資訊，請觀看[此影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html?lang=zh-Hant)。

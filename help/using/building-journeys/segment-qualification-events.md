@@ -64,7 +64,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >請注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**已實現**&#x200B;和&#x200B;**已退出**&#x200B;區段參與狀態。 如需如何評估區段的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
+   >請注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**已實現**&#x200B;和&#x200B;**已退出**&#x200B;區段參與狀態。 如需如何評估區段的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results)。
 
 1. 選取名稱空間。 只有在將事件定位為歷程的第一步時，才需要此專案。
 
@@ -100,7 +100,7 @@ ht-degree: 1%
 
 針對串流區段使用區段資格時，由於持續評估區段，入口/出口出現大型峰值的風險較低。 然而，如果區段定義導致大量客戶同時符合資格，則也可能出現峰值。
 
-如需串流區段的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+如需串流區段的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hant#api)
 
 ### 如何避免多載{#overloads-speed-segment-qualification}
 

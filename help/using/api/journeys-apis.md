@@ -71,7 +71,7 @@ ht-degree: 83%
 
 >[!CAUTION]
 >
->不建議使用產生存取權杖的JWT方法。 所有新的整合都必須使用[OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)來建立。 Adobe也建議您將現有的整合移轉至OAuth方法。
+>不建議使用產生存取權杖的JWT方法。 所有新的整合都必須使用[OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hant#select-oauth-server-to-server)來建立。 Adobe也建議您將現有的整合移轉至OAuth方法。
 >
 >閱讀下列重要檔案：
 >[您的應用程式從JWT移轉至OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)的移轉指南，

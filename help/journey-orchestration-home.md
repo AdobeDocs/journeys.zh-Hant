@@ -83,5 +83,5 @@ ht-degree: 100%
 * [Experience Cloud XDM 欄位定義](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)
 * [識別命名空間文件](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)
 * [串流擷取 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant)
-* [Campaign Standard 交易訊息文件](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)
+* [Campaign Standard 交易訊息文件](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)
 
