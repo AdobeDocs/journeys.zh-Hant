@@ -3,13 +3,13 @@ product: adobe campaign
 title: 操作者
 description: 瞭解進階運算式中的運運算元
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 6%
+ht-degree: 15%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 運運算元有兩種型別：一元運運算元和二進位運運算元。 有左一元運運算元和右一元運運算元。
@@ -47,7 +47,7 @@ ht-degree: 6%
    * 下列範例是正確的： `3.0 * 4.0`
    * `3 * 4.0`將導致錯誤
 
-## 邏輯 {#logical}
+## 邏輯  {#logical}
 
 ### 和
 

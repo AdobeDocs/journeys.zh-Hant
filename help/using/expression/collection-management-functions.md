@@ -3,10 +3,10 @@ product: adobe campaign
 title: 集合管理功能
 description: 瞭解集合管理函式中的資料型別
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 1%
@@ -167,8 +167,8 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]**&#x200B;僅可在操控事件集合和&#x200B;**currentDataPackField**&#x200B;時使用
->操控資料來源集合時。 處理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**&#x200B;的集合時，我們
+>**[!UICONTROL currentEventField]**&#x200B;僅可在操控事件集合和&#x200B;**currentDataPackField**時使用
+>操控資料來源集合時。 處理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**的集合時，我們
 >逐一在集合的每個元素上回圈。 **[!UICONTROL currentEventField]**&#x200B;和&#x200B;**currentDataPackField**
 >與正在循環的元素相對應。
 
@@ -218,7 +218,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函式&quot;at(`<index>`)&quot;**
 
-**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。
+**[!UICONTROL at]**函式可讓您根據索引來參照集合中的特定專案。
 索引0是集合的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_
