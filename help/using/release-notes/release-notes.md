@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4452'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 99%
 
 對於 2022 年發布的新功能，連結會導向至 [Adobe Journey Optimizer 文件](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
 
-## 2024 年 3 月發行 {#mar-rn-2024}
+## 2024 年 3 月發行版本 {#mar-rn-2024}
 
-### 改善 {#mar-2024-improvements}
+### 改進 {#mar-2024-improvements}
 
 歷程編寫生命週期已新增新中介狀態：
 
@@ -38,9 +38,9 @@ ht-degree: 99%
 
 當歷程處於中介狀態時，其是唯讀。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter){target="_blank"}
 
-## 2024 年 2 月發佈內容 {#feb-rn-2024}
+## 2024 年 2 月發行版本 {#feb-rn-2024}
 
-### 改善 {#feb-2024-improvements}
+### 改進 {#feb-2024-improvements}
 
 * **篩選您的歷程** - 除了現有的預定義日期篩選器之外，您現在可以使用&#x200B;**自訂日期篩選歷程**&#x200B;庫存。這使您可以透過顯示在特定日期、特定月份、全年或指定時間範圍內發布的歷程來細化清單。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hant#filter){target="_blank"}
 * **自訂動作** - 您現在可以更新 **content-type** 標題。 這個新的 **content-type** 應參考 JSON 內容。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hant#url-configuration){target="_blank"}
@@ -49,7 +49,7 @@ ht-degree: 99%
 
 ## 2024 年 1 月發行版本 {#jan-rn-2024}
 
-### 改善 {#jan-2024-improvements}
+### 改進 {#jan-2024-improvements}
 
 * **反應事件期間** - 您可在&#x200B;**反應事件**&#x200B;中定義的最長期間現在為 29 天，而非 30 天。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html?lang=zh-Hant){target="_blank"}
 * **欄位群組** - 此發行版本修正在特定情況下無法儲存欄位群組的問題。
@@ -57,13 +57,13 @@ ht-degree: 99%
 
 ## 2023 年 8 月發行版本 {#aug-rn-2023}
 
-### 改善 {#aug-2023-improvements}
+### 改進 {#aug-2023-improvements}
 
 * 您現在可以在自訂動作中運用 API 呼叫回應，並根據這些回應精心安排您的歷程。此功能目前以 Private Beta 的形式提供。請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=zh-Hant){target="_blank"}。
 
 ## 2023 年 4 月發行版本 {#apr-rn-2023}
 
-### 改善 {#april-2023-improvements}
+### 改進 {#april-2023-improvements}
 
 * 顯示在動作、資料來源、事件和歷程中的設定窗格，其版面配置已有所改善。
 * 您現在可以在自訂動作中定義靜態或動態查詢參數。請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hant#url-configuration){target="_blank"}。
@@ -71,9 +71,9 @@ ht-degree: 99%
    * 建議您將節點數量限制在 50 個以內，以確保歷程的效能、可讀性、QA 及疑難排解。 活動數量會顯示於歷程畫布的左上方區段。請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hant#journeys-guardrails-journeys){target="_blank"}
    * 當您開發和啟動歷程時，我們會在您一次接近 100 個即時歷程的里程碑時通知您。 如果您計劃一次需要超過 100 個歷程，請在看到通知後建立支援服務單，我們將為您提供協助。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hant#journeys-guardrails-journeys){target="_blank"}
 
-## 2023 年 3 月發行 {#mar-2023}
+## 2023 年 3 月發行版本 {#mar-2023}
 
-### 改善 {#mar-2023-improvements}
+### 改進 {#mar-2023-improvements}
 
 * 新&#x200B;**限制 API** 可讓您設定每秒傳送事件數的上限，防止外部系統或 API 出現流量尖峰。當達到設定限制時，所有後續 API 呼叫會以接收順序排入佇列並盡快處理。請注意，此功能僅支援跨所有沙箱進行一種限制設定。[了解更多](../api/throttling.md)
 * 已增強歷程畫布，提供更簡單且改善的使用者體驗。 在畫布的每個路徑結尾處，已移除空白預留位置。 您現在只需將活動拖曳到路徑結尾即可新增活動。
@@ -81,16 +81,16 @@ ht-degree: 99%
 * 歷程屬性中的預設逾時和錯誤持續時間已從 5 秒變更為 30 秒。請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=zh-Hant#timeout){target="_blank"}。
 * 已將護欄新增至測試模式，以只監聽透過介面傳送的事件。透過外部工具傳送的事件不會納入考量。請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=zh-Hant){target="_blank"}。
 
-## 2023 年 2 月發佈內容 {#feb-2023}
+## 2023 年 2 月發行版本 {#feb-2023}
 
-### 改善 {#feb-2023-improvements}
+### 改進 {#feb-2023-improvements}
 
 * 此&#x200B;**重新進入等待期**&#x200B;欄位已新增至歷程屬性。 此欄位可讓您定義在允許輪廓在單一歷程中再次進入歷程 (從事件或細分資格篩選開始) 之前等待的時間。這可防止同一事件多次錯誤觸發歷程。預設情況下，欄位會設為 5 分鐘。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hant#entrance){target="_blank"}。
 * 改進了&#x200B;**歷程開始與結束日期**。如果您尚未指定開始日期，則現在會在發佈時自動新增開始日期。這可讓輪廓在達到日期時自動退出。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hant#dates){target="_blank"}。
 
 ## 2023 年 1 月發行版本 {#jan-2023-release}
 
-### 改善 {#jan-2023-improvements}
+### 改進 {#jan-2023-improvements}
 
 * 在歷程中新增&#x200B;**細分資格篩選**&#x200B;時，現已預設為使用上次使用的命名空間預先填入命名空間。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=zh-Hant#about-segment-qualification){target="_blank"}。
 * 在歷程畫布中，工具列提供新按鈕，可讓您下載歷程的螢幕擷取畫面。
@@ -117,7 +117,7 @@ ht-degree: 99%
 </tbody>
 </table>
 
-### 改善{#sept-2022-improvements}
+### 改進{#sept-2022-improvements}
 
 * 已將新護欄新增至單一歷程（從事件或細分資格篩選開始），以防止同一事件多次錯誤觸發歷程。 輪廓重新進入現在會依預設暫時封鎖 5 分鐘。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hant#events-g){target="_blank"}。
 
@@ -125,41 +125,41 @@ ht-degree: 99%
 
 * 為了改善效能，從細分資格篩選活動起的歷程中，無法再使用體驗事件欄位群組。 此變更僅適用於新歷程。 現有行為會保留目前的行為。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hant#expression-editor){target="_blank"}。
 
-### 改善
+### 改進
 
 * **結束歷程** — 在歷程畫布中， **結束**&#x200B;活動已從調色盤中刪除。 現在，每個路徑的末端預設新增結束標籤而且無法移除。 這種改善能夠更好地報告客戶從歷程退出的位置，不需要由歷程業者採取任何動作。 請參閱 Journey Optimizer [文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=zh-Hant){target="_blank"}。
 
-* 此 **輪廓時區** 「歷程屬性」中的選項現在預設為未勾選。 [了解更多](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=zh-Hant#timezone-from-profiles){target="_blank"}。
+* 在「歷程屬性」中，此&#x200B;**輪廓時區**&#x200B;的選項現在預設為未核取。[了解更多](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=zh-Hant#timezone-from-profiles){target="_blank"}。
 
-## 2022 年 5 月發行 {#may-2022-release}
+## 2022 年 5 月發行版本 {#may-2022-release}
 
-### 改善
+### 改進
 
 * **運算式編輯器** - 已新增[限制](../functions/functionlimit.md)函式，以允許您限制清單項目的數目。 [排序](../functions/functionsort.md)函式現在允許您對清單物件進行排序。 對清單物件的支援也已新增到 [distinct](../functions/functiondistinct.md) 和 [distinctWithNull](../functions/functiondistinctwithnull.md) 的函式。
 
 ## 2022 年 3 月發行 {#feb-2022-release}
 
-### 功能改進
+### 改進
 
 * 為避免統一輪廓結構描述存在不必要的欄位，預設情況下不再為輪廓啟用「歷程步驟事件」結構描述。 如有需要，可以啟用。 [了解更多](../building-journeys/sharing-overview.md)
 * 跟匯出工作有關的新步驟活動現在由 Journey Optimizer 傳送到 Adobe Experience Platform。 已在文件中新增查詢範例。 [進一步了解](../building-journeys/query-examples.md)
 
 ## 2022 年 2 月發佈內容 {#february-2022-release}
 
-### 改善
+### 改進
 
 * 為了最佳化效能和避免過時資源的使用，所有處於測試模式且一週內未觸發的歷程現在將切換回「草稿」狀態。 [閱讀全文](../building-journeys/testing-the-journey.md#important_notes)
 
 ## 2022 年 1 月發行版本 {#january-2022-release}
 
-### 改善
+### 改進
 
 * Journey Orchestration 步驟事件現在可以連結到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant){target="_blank"} 中的其他資料集。  內建「歷程步驟事件」結構描述中的 **profileID** 欄位現在定義為身分識別欄位。 [了解更多](../building-journeys/sharing-overview.md#integration-cja)
 * Adobe Campaign Standard 操作的上限規則已更改為 4000 次呼叫 / 5 分鐘。[閱讀全文](../action/working-with-adobe-campaign.md)
 
 ## 2021 年 10 月發行版本 {#october-2021-release}
 
-### 改善
+### 改進
 
 * **運算式編輯器**  - 身為超級使用者，您現在可以使用函式來處理地圖。 [了解更多](../expression/field-references.md)
 * **協助工具**  - 已實施協助工具增強功能。Journey Orchestration 的協助工具現在可完全相容。
@@ -186,7 +186,7 @@ ht-degree: 99%
 </tbody>
 </table>
 
-### 改善
+### 改進
 
 * 在佈建步驟事件期間建立並由系統產生的結構描述和資料集現在改為唯讀模式，可避免重要結構描述發生任何意外修改。 [了解更多](../building-journeys/sharing-overview.md)
 * 簡潔標示&#x200B;**等待**&#x200B;活動，並在畫布中顯示標籤。 標籤也會用於報告和測試模式記錄，以清楚識別您正在執行的動作。 [了解更多](../building-journeys/using-the-journey-designer.md)
@@ -195,7 +195,7 @@ ht-degree: 99%
 
 ## 2021 年 8 月發行版本 {#august-2021-release}
 
-### 功能改進
+### 改進
 
 **歷程**
 
@@ -221,7 +221,7 @@ ht-degree: 99%
 </tbody>
 </table>
 
-### 改善
+### 改進
 
 * **快取期間** 欄位已從資料來源設定窗格中移除。 [閱讀全文](../datasource/about-data-sources.md)
 
@@ -244,7 +244,7 @@ ht-degree: 99%
 </tbody>
 </table>
 
-### 改善
+### 改進
 
 * 對於外部資料來源，現在會自動定義每秒 15 次呼叫的上限規則。 [閱讀全文](../about/external-systems.md#capping)
 * 簡易和進階運算式編輯器現在支援 XDM 日期格式。
@@ -253,20 +253,20 @@ ht-degree: 99%
 
 ## 2021 年 4 月發行版本 {#april-2021-release}
 
-### 改善
+### 改進
 
 * 在測試模式的&#x200B;**事件設定**&#x200B;畫面中，對於預期分項清單的欄位，現在會顯示下拉清單。 只要選擇一個可用的值。如果定義了錯誤值，這可避免在觸發事件時發生錯誤。 [閱讀全文](../building-journeys/testing-the-journey.md#firing_events)
 
-## 2021 年 3 月發行 {#march-2021-release}
+## 2021 年 3 月發行版本 {#march-2021-release}
 
-### 改善
+### 改進
 
 * 已在歷程加入新狀態。 歷程結束或手動關閉時，其狀態將在關閉 30 天後從&#x200B;**已關閉**&#x200B;轉換為&#x200B;**已完成**。 這樣您就可以更輕鬆辨識未啟用的歷程，同時確保仍在場的所有個人有時間完成歷程。 [閱讀全文](../building-journeys/journey.md#ending_a_journey)
 * 在歷程草稿的活動右窗格，唯讀欄位預設為隱藏。 這種介面簡化可讓您設定活動更輕鬆。 如要顯示，請按一下&#x200B;**顯示唯讀欄位**&#x200B;圖示，可在活動設定窗格的左上角找到。 [閱讀全文](../building-journeys/using-the-journey-designer.md#configuration_pane)
 * 在測試模式的&#x200B;**事件設定**&#x200B;畫面， 用於定義測試輪廓 ID 的&#x200B;**鍵值**&#x200B;欄位已更名為&#x200B;**輪廓識別碼**&#x200B;以便獲得更好的使用者體驗。 [閱讀全文](../building-journeys/testing-the-journey.md)。
 * 對於反應事件，現在只能把逾時期間設定在 40 秒到 30 天之間。 測試歷程的反應事件時，測試模式 **[!UICONTROL Wait time]** 預設值及最小值現在是 40 秒。 [閱讀全文](../building-journeys/reaction-events.md)。
 
-## 2021 年 2 月發佈內容 {#february-2021-release}
+## 2021 年 2 月發行版本 {#february-2021-release}
 
 <table>
 <thead>
@@ -721,6 +721,6 @@ Journey Orchestration　介面提供日文版。
 
 運用儲存在事件或資料來源中的內容資料，建立即時協調使用案例。
 
-Journey Orchestration 允許以事件中的情境資料、Adobe Experience Platform 的資訊或來自第三方 API 服務的資料，進行即時協調。應用程式會根據消費者的輪廓和行為，在稱為歷程的多步驟流程中，決定對該消費者來說下一個最佳的動作。這包括最佳時機和動作類型，例如透過 Adobe Campaign Standard 交易訊息功能 (需要有 Adobe Campaign Standard) 向消費者傳送推播通知或來自第三方系統的通知。這些決定是根據規則和AI分數做出的。
+Journey Orchestration 允許以事件中的情境資料、Adobe Experience Platform 的資訊或來自第三方 API 服務的資料，進行即時協調。應用程式會根據消費者的輪廓和行為，在稱為歷程的多步驟流程中，決定對該消費者來說下一個最佳的動作。這包括最佳時機和動作類型，例如透過 Adobe Campaign Standard 交易訊息功能 (需要有 Adobe Campaign Standard) 向消費者傳送推播通知或來自第三方系統的通知。這些決策是根據規則、AI 分數得出。
 
 [進一步瞭解](../action/working-with-adobe-campaign.md) Journey Orchestration。
