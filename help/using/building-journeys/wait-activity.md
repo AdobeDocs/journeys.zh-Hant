@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 7%
+source-wordcount: '421'
+ht-degree: 19%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 
-如果您想在執行路徑中的下一個活動之前先等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活動。 這項功能可讓您定義執行下一個活動的時刻。有三個可用選項：
+如果您想在執行路徑中的下一個活動之前先等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活動。 這項功能可讓您定義執行下一個活動的時刻。 有三個可用選項：
 
 * [持續時間](#duration)
 * [自訂](#custom)
@@ -41,7 +41,7 @@ ht-degree: 7%
 >
 >最長等待時間為30天。
 >
->在測試模式中，**[!UICONTROL Wait time in test]**&#x200B;引數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。這將確保您能快速獲得測試結果。 檢視[此頁面](../building-journeys/testing-the-journey.md)
+>在測試模式中，**[!UICONTROL Wait time in test]**&#x200B;引數可讓您定義每個等待活動的持續時間。 預設時間為 10 秒。 這將確保您能快速獲得測試結果。 檢視[此頁面](../building-journeys/testing-the-journey.md)
 
 ## 持續時間等待{#duration}
 
@@ -61,7 +61,8 @@ ht-degree: 7%
 
 ![](../assets/journey57.png)
 
-<!--## Email send time optimization{#email_send_time_optimization}
+<!--
+## Email send time optimization{#email_send_time_optimization}
 
 >[!CAUTION]
 >
@@ -83,4 +84,5 @@ This type of wait uses a score calculated in the Adobe Experience Platform. The 
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)-->
+![](../assets/journey57bis.png)
+-->

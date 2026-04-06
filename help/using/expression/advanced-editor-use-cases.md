@@ -6,10 +6,10 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 9%
+source-wordcount: '554'
+ht-degree: 10%
 
 ---
 
@@ -45,9 +45,11 @@ ht-degree: 9%
 
 首先，鎖定瀏覽過線上商店但在過去7天內未完成訂單的客戶。
 
-<!--**This expression looks for a specified value in a string value:**
+<!--
+**This expression looks for a specified value in a string value:**
 
-`In ("addToCart", #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`
+-->
 
 **此運算式會尋找此使用者在過去7天中指定的所有事件：**
 
@@ -154,4 +156,4 @@ substr(
 
 說明：此範例使用`substr`和`lastIndexOf`函式，移除在行動應用程式啟動事件中傳遞之CRM ID所括的大括弧。
 
-如需如何使用進階運算式編輯器的詳細資訊，請觀看[此影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html?lang=zh-Hant)。
+如需如何使用進階運算式編輯器的詳細資訊，請觀看[此影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
