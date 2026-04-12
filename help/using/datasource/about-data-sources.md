@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 70%
+source-wordcount: '362'
+ht-degree: 83%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 70%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 
@@ -37,14 +37,14 @@ ht-degree: 70%
 * [自訂等待定義](../building-journeys/wait-activity.md#custom)
 * [時區定義](../building-journeys/timezone-management.md)
 
-如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。例如，如果您的歷程是由事件組成，之後僅會使用來自事件資料的電子郵件活動，則不需要設定資料來源。
+如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。 例如，如果您的歷程是由事件組成，之後僅會使用來自事件資料的電子郵件活動，則不需要設定資料來源。
 
 資料來源有兩種類型：
 
-* 預先設定的 Adobe Experience Platform 資料來源可定義「即時客戶輪廓服務」的連線，這是內建的資料來源。請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)。
-* 外部資料來源可讓您定義外部系統的連線，這些是您可以建立的資料來源。請參閱[此頁面](../datasource/external-data-sources.md)。
+* 預先設定的 Adobe Experience Platform 資料來源可定義「即時客戶輪廓服務」的連線， 這是內建的資料來源。 請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)。
+* 外部資料來源可讓您定義外部系統的連線， 這些是您可以建立的資料來源。 請參閱[此頁面](../datasource/external-data-sources.md)。
 
-對於每個資料來源，您會使用欄位群組來定義要擷取的資訊。欄位群組是可從資料來源擷取的欄位集。請參閱[此頁面](../datasource/field-groups.md)。
+對於每個資料來源，您會使用欄位群組來定義要擷取的資訊。 欄位群組是可從資料來源擷取的欄位集。 請參閱[此頁面](../datasource/field-groups.md)。
 
 以下是主要的資料來源設定步驟：
 
@@ -54,7 +54,7 @@ ht-degree: 70%
 
 1. 在功能表窗格中，選取&#x200B;**[!UICONTROL Admin]**。 在&#x200B;**[!UICONTROL Data sources]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Manage]**。
 
-   畫面隨即顯示資料來源。如需介面的詳細資訊，請參閱[此頁面](../about/user-interface.md)。
+   畫面隨即顯示資料來源。 如需介面的詳細資訊，請參閱[此頁面](../about/user-interface.md)。
 
    ![](../assets/journey18.png)
 
