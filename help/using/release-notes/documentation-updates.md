@@ -89,7 +89,7 @@ ht-degree: 99%
 * 已新增與智慧型服務整合的區段。 [閱讀全文](../ai-services/ai-services-overview.md)
 * 已新增測試輪廓建立的區段。 [閱讀全文](../building-journeys/testing-the-journey.md)
 * 已新增如何在歷程條件或動作中使用 **[!UICONTROL SegmentQualification]** 節點的資訊。 [閱讀全文](../building-journeys/segment-qualification-events.md)
-* 已在 Campaign 交易訊息及事件發佈中新增附註。 請參閱[使用 Adobe Campaign ](../action/working-with-adobe-campaign.md)及[使用 Adobe Campaign 動作](../building-journeys/using-adobe-campaign-actions.md)。
+* 已在 Campaign 交易訊息及事件發佈中新增附註。 請參閱[使用 Adobe Campaign &#x200B;](../action/working-with-adobe-campaign.md)及[使用 Adobe Campaign 動作](../building-journeys/using-adobe-campaign-actions.md)。
 * 已新增對於檢查的資訊，這些檢查會在測試 Campaign Standard 執行個體 URL 時執行。 [閱讀全文](../action/working-with-adobe-campaign.md)
 * 已新增反應事件相容性的資訊，而且會在 AWS 或 Azure 伺服器上託管 Campaign Standard 執行個體。 [閱讀全文](../building-journeys/reaction-events.md)
 * 在使用 Campaign Standard 交易訊息時，已針對設定上限規則的需求新增附註。 [閱讀全文](../action/working-with-adobe-campaign.md)
