@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
+source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 99%
@@ -89,7 +89,7 @@ ht-degree: 99%
 * 已新增與智慧型服務整合的區段。 [閱讀全文](../ai-services/ai-services-overview.md)
 * 已新增測試輪廓建立的區段。 [閱讀全文](../building-journeys/testing-the-journey.md)
 * 已新增如何在歷程條件或動作中使用 **[!UICONTROL SegmentQualification]** 節點的資訊。 [閱讀全文](../building-journeys/segment-qualification-events.md)
-* 已在 Campaign 交易訊息及事件發佈中新增附註。 請參閱[使用 Adobe Campaign &#x200B;](../action/working-with-adobe-campaign.md)及[使用 Adobe Campaign 動作](../building-journeys/using-adobe-campaign-actions.md)。
+* 已在 Campaign 交易訊息及事件發佈中新增附註。 請參閱[使用 Adobe Campaign ](../action/working-with-adobe-campaign.md)及[使用 Adobe Campaign 動作](../building-journeys/using-adobe-campaign-actions.md)。
 * 已新增對於檢查的資訊，這些檢查會在測試 Campaign Standard 執行個體 URL 時執行。 [閱讀全文](../action/working-with-adobe-campaign.md)
 * 已新增反應事件相容性的資訊，而且會在 AWS 或 Azure 伺服器上託管 Campaign Standard 執行個體。 [閱讀全文](../building-journeys/reaction-events.md)
 * 在使用 Campaign Standard 交易訊息時，已針對設定上限規則的需求新增附註。 [閱讀全文](../action/working-with-adobe-campaign.md)
@@ -136,7 +136,7 @@ ht-degree: 99%
 
 * 已更新所有螢幕擷取畫面以反映介面的變更。
 * 已更新測試模式章節。 [瞭解詳情](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=zh-Hant).-->
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * 現在可刪除已停止的歷程。 已更新相關文件頁面。
 * 在歷程中偵測到問題時，現在會顯示兩種顏色。 紅色代表錯誤，橘色代表警告。 [閱讀全文](../about/troubleshooting.md)
 * 已更新進階運算式編輯器章節。 [閱讀全文](../expression/expressionadvanced.md)。
