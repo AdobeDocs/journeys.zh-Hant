@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 >title="關於事件"
 >abstract="事件會連結至人員。 它與人的行為或與人相關的事情有關。 這是 [!DNL Journey Orchestration] 在歷程中會監聽的事件，以便協調下一個最佳動作。"
 
-事件會連結至人員。 它與人的行為相關（例如，某人購買產品、造訪商店、離開網站等等） 或是某人發生的事（例如，某人達到10,000點忠誠點數）。 這是 [!DNL Journey Orchestration] 在歷程中會監聽的事件，以便協調下一個最佳動作。
+事件會連結至人員。 它與人的行為相關（例如，某人購買產品、造訪商店、離開網站等等） 或是某人發生的事 (例如，某人達到 10000 點忠誠點數)。這是 [!DNL Journey Orchestration] 在歷程中會監聽的事件，以便協調下一個最佳動作。
 
 此設定是&#x200B;**強制性**&#x200B;的，因為 [!DNL Journey Orchestration] 的設計旨在監聽事件，且一律會由&#x200B;**技術使用者**&#x200B;執行。
 
