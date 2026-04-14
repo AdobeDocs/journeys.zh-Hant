@@ -9,7 +9,7 @@ level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 9fb1f031df4084b78cfca8a693098a36bfb51435
 workflow-type: ht
-source-wordcount: '206'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 100%
     <div>
     <a href="using/expression/expressionadvanced.md"><strong>建立進階運算式</strong></a>
     </div>
-    <em>瞭解如何運用事件和資料來源的資料來建立複雜的運算式。 </em>
+    <em>瞭解如何運用事件和資料來源的資料來建立複雜的運算式。</em>
     <br>
   </td>
 </tr>
@@ -81,7 +81,7 @@ ht-degree: 100%
 * [Experience Platform 文件](https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html)
 * [即時客戶輪廓文件](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)
 * [Experience Cloud XDM 欄位定義](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)
-* [識別命名空間文件](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)
+* [身分命名空間文件](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)
 * [串流擷取 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant)
 * [Campaign Standard 交易訊息文件](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)
 
