@@ -8,7 +8,7 @@ feature: Journeys
 source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 86%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
    + [版本注意事項](using/release-notes/release-notes.md)
    + {hide-from-toc}[文件更新](using/release-notes/documentation-updates.md)
    + {hide-from-toc}[升級至Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
-+ 從[!DNL Journey Orchestration]開始 {#starting-with-journeys}
++ 從 [!DNL Journey Orchestration] 開始 {#starting-with-journeys}
    + [關於 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [限制](using/about/limitations.md)
    + [開始使用](using/about/get-started.md)
@@ -49,7 +49,7 @@ ht-degree: 86%
    + [關於動作](using/action/action.md)
    + [使用 Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
    + [使用 Adobe Campaign v7/v8](using/action/acc-action.md)
-   + 使用協力廠商系統 {#action-third-party}
+   + 使用第三方系統 {#action-third-party}
       + [關於自訂動作組態](using/action/about-custom-action-configuration.md)
       + [URL 組態](using/action/url-configuration.md)
       + [定義動作參數](using/action/defining-the-message-parameters.md)
@@ -58,7 +58,7 @@ ht-degree: 86%
    + [建立區段](using/segment/creating-a-segment.md)
    + [在條件中使用區段](using/segment/using-a-segment.md)
 + 建立歷程 {#building-journeys}
-   + 關於建立歷程 {#about-journey-building}
+   + 關於歷程建立 {#about-journey-building}
       + [建立歷程](using/building-journeys/journey.md)
       + [使用歷程設計器](using/building-journeys/using-the-journey-designer.md)
       + [變更屬性](using/building-journeys/changing-properties.md)
@@ -86,7 +86,7 @@ ht-degree: 86%
          + [更新輪廓](using/building-journeys/update-profiles.md)
    + [測試歷程](using/building-journeys/testing-the-journey.md)
    + [發佈歷程](using/building-journeys/publishing-the-journey.md)
-   + 與Adobe Experience Platform分享歷程步驟 {#sharing-journey-steps}
+   + 與 Adobe Experience Platform 共用歷程步驟 {#sharing-journey-steps}
       + [歷程步驟分享概觀](using/building-journeys/sharing-overview.md)
       + [步驟事件欄位清單](using/building-journeys/sharing-field-list.md)
       + 舊版步驟事件欄位 {#legacy-step-event-fields}
@@ -188,7 +188,7 @@ ht-degree: 86%
    + [關於歷程報告](using/reporting/about-journey-reports.md)
    + [建立您的歷程報告](using/reporting/creating-your-journey-reports.md)
    + [度量和維度](using/reporting/metrics-and-dimensions.md)
-+ 與智慧型服務整合{#use-case-advanced}
++ 與 Intelligent Services 整合{#use-case-advanced}
    + [關於 AI 整合](using/ai-services/ai-services-overview.md)
    + [善用客戶 AI](using/ai-services/leveraging-customer-ai.md)
 + 使用案例{#use-cases-journeys}
@@ -197,14 +197,14 @@ ht-degree: 86%
       + [設定事件](using/usecase/configuring-the-event.md)
       + [設定資料來源](using/usecase/configuring-the-data-source.md)
       + [建立歷程](using/usecase/simple-uc-building-the-journey.md)
-   + 建立跨頻道歷程{#use-case-advanced}
+   + 建立跨管道歷程{#use-case-advanced}
       + [關於進階使用案例](using/usecase/about-the-advanced-use-case.md)
       + [設定事件](using/usecase/configuring-the-events.md)
       + [設定資料來源](using/usecase/configuring-the-data-sources.md)
       + [建立歷程](using/usecase/building-the-journey.md)
    + [使用 Campaign v7/v8 傳送訊息](using/usecase/campaign-classic-use-case.md)
    + [使用自訂動作以動態方式傳遞集合](using/usecase/collections.md)
-+ 使用API{#working-with-apis}
++ 使用 API{#working-with-apis}
    + [開始使用歷程 API](using/api/journeys-apis.md)
    + [設定 API 上限](using/api/capping.md)
    + [節流 API](using/api/throttling.md)
