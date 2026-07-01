@@ -79,7 +79,7 @@ Adobe Experience Platform 可讓您定義結構描述之間的關係，以便將
 
 >[!NOTE]
 >
->在[Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)中進一步瞭解結構描述關係。
+>在[Experience Platform檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=zh-Hant)中進一步瞭解結構描述關係。
 
 在Journey Orchestration中，您可以善用連結表格中的所有欄位：
 
