@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 1%
+source-wordcount: '786'
+ht-degree: 10%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 ## 利用結構描述關係{#leverage_schema_relationships}
 
-Adobe Experience Platform可讓您定義結構描述之間的關係，以便將一個資料集用作另一個資料集的查詢表。
+Adobe Experience Platform 可讓您定義結構描述之間的關係，以便將一個資料集用作另一個資料集的查詢表。
 
 假設您的品牌資料模型有一個結構描述擷取購買。 您也有產品目錄的結構描述。 您可以擷取購買結構描述中的產品ID，並使用關係從產品目錄中查詢更完整的產品詳細資訊。 舉例來說，這可讓您為所有購買筆記型電腦的客戶建立區段，而不需明確列出所有筆記型電腦ID，或擷取異動系統中的每個單一產品詳細資訊。
 

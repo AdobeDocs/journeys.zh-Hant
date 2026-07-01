@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 4%
+source-wordcount: '1641'
+ht-degree: 10%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 在能夠測試您的歷程之前，您必須解決所有錯誤（如果有的話）。 請參閱[本節](../about/troubleshooting.md#section_h3q_kqk_fhb)。
 
 您可以使用測試設定檔，在發佈歷程之前測試歷程。 這可讓您分析個人在歷程中的流動方式並在發佈前進行疑難排解。
 
-只有測試設定檔才能進入歷程測試模式。 您可以建立新的測試設定檔，或將現有的設定檔轉換為測試設定檔。 請參閱本[章節](../building-journeys/creating-test-profiles.md)。
+只有測試輪廓才能進入旅程測試模式。 您可以建立新的測試設定檔，或將現有的設定檔轉換為測試設定檔。 請參閱本[章節](../building-journeys/creating-test-profiles.md)。
 
 若要使用測試模式，請遵循下列步驟：
 
-1. 測試您的歷程之前，請先確認歷程有效且沒有錯誤。 您將無法啟動含有錯誤的歷程測試。 請參閱[此節](../about/troubleshooting.md#section_h3q_kqk_fhb)。 發生錯誤時，會顯示警告符號。
+1. 測試您的歷程之前，請先確認歷程有效且沒有錯誤。 您將無法啟動含有錯誤的歷程測試。 請參閱[本節](../about/troubleshooting.md#section_h3q_kqk_fhb)。 發生錯誤時，會顯示警告符號。
 
 1. 若要啟動測試模式，請按一下右上角的&#x200B;**[!UICONTROL Test]**&#x200B;切換按鈕。
 
@@ -58,11 +58,11 @@ ht-degree: 4%
 
    ![](../assets/journeyuctest2.png)
 
-1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。當測試得出結果時，您可以發佈您的歷程。 請參閱[此頁面](../building-journeys/publishing-the-journey.md)。
+1. 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。 當測試得出結果時，您可以發佈您的歷程。 請參閱[此頁面](../building-journeys/publishing-the-journey.md)。
 
 ## 重要備註 {#important_notes}
 
-* 提供介面以觸發事件至測試的歷程，但事件也可以由第三方系統(例如Postman)傳送。
+* 提供介面以觸發事件至測試的歷程，但事件也可以由第三方系統（例如Postman）傳送。
 * 只有即時客戶設定檔服務中標示為「測試設定檔」的個人才能進入測試歷程。 請參閱本[章節](../building-journeys/creating-test-profiles.md)。
 * 測試模式僅適用於使用名稱空間的草稿歷程。 測試模式需要檢查進入歷程的人員是否為測試設定檔，因此必須能夠存取Adobe Experience Platform。
 * 在測試工作階段中可以進入歷程的測試設定檔最大數量為100。
@@ -144,9 +144,9 @@ curl -X POST \
 
 >[!NOTE]
 >
->對於預期分項清單的欄位，會顯示下拉式清單。 只要選取其中一個可用值即可。
+>對於預期分項清單的欄位，會顯示下拉式清單。 只要選擇一個可用的值。
 
-如果您的歷程包含多個事件，請使用下拉選單選取一個事件。然後，針對每個事件，設定所傳遞的欄位以及傳送事件的執行。 介面可協助您在事件裝載中傳遞正確的資訊，並確保資訊型別正確無誤。 測試模式會儲存最後用於測試工作階段的引數以供稍後使用。
+如果您的歷程包含多個事件，請使用下拉選單選取一個事件。 然後，對於每個事件，設定傳遞的欄位和事件傳送的執行。 介面可協助您在事件裝載中傳遞正確的資訊，並確保資訊型別正確無誤。 測試模式會儲存最後用於測試工作階段的引數以供稍後使用。
 
 ![](../assets/journeytest4.png)
 
@@ -164,7 +164,7 @@ curl -X POST \
 
 在測試中開啟歷程時，顯示的路徑對應於上次執行的測試。
 
-無論事件是透過介面或從外部觸發(例如使用Postman)，視覺流程都會運作。
+無論事件是透過介面或從外部觸發（例如使用Postman），視覺流程都會運作。
 
 ## 規則型歷程的測試模式 {#test-rule-based}
 
