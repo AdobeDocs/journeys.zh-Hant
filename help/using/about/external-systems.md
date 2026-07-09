@@ -9,8 +9,8 @@ level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 5%
+source-wordcount: '1096'
+ht-degree: 10%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 
@@ -52,7 +52,7 @@ Journey Orchestration執行外部API呼叫時，技術護欄會依照以下方�
 
 上限規則專用於一個端點，但沙箱的所有歷程是全域的。 這表示沙箱的所有歷程會共用限定槽。
 
-例如，假設您已為外部系統定義每秒100次呼叫的上限規則。 10 個不同歷程的自訂動作會呼叫您的系統。 如果某個歷程每秒接聽200次呼叫，就會使用可用的100個位置並捨棄剩餘的100個位置。 由於已超過最大速率，其他 9 個歷程將沒有任何插槽。 此詳細程度有助於保護外部系統免於過載及損毀。
+例如，假設您已為外部系統定義每秒100次呼叫的上限規則。 10 個不同歷程的自訂動作會呼叫您的系統。 如果某個歷程每秒接聽200次呼叫，就會使用可用的100個位置並捨棄剩餘的100個位置。 由於已超過最大速率，其他 9 個歷程將沒有任何插槽。 此顆粒度有助於保護外部系統免於過載及損毀。
 
 若要進一步瞭解上限API以及如何設定上限規則，請參閱[此頁面](../api/capping.md)。
 
