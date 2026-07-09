@@ -73,7 +73,7 @@ ht-degree: 83%
 >
 >不建議使用產生存取權杖的JWT方法。 所有新的整合都必須使用[OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)來建立。 Adobe 也建議您將現有的整合移轉至 OAuth 方法。
 >
->閱讀下列重要檔案：您的應用程式從JWT移轉至OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)的移轉指南，新舊應用程式與OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)的實作指南，使用OAuth伺服器對伺服器認證方法的優點](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>閱讀下列重要檔案：您的應用程式從JWT移轉至OAuth&rbrack;(https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)的移轉指南，新舊應用程式與OAuth&rbrack;(https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)的實作指南，使用OAuth伺服器對伺服器認證方法的優點&rbrack;(https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 若要建立安全的服務對服務 Adobe I/O API 工作階段，對 Adobe 服務的每個請求都必須在授權標題中包含下列資訊。
 
