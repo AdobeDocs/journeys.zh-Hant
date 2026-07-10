@@ -3,7 +3,7 @@ title: 升級至Adobe Journey Optimizer
 description: 瞭解如何升級至Adobe Journey Optimizer
 hide: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
+source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ## 什麼是Adobe Journey Optimizer？
 
-Adobe Journey Optimizer是原生建置在Adobe Experience Platform上的敏捷且可擴充的應用程式，可跨任何應用程式、裝置、畫面或頻道，協調及提供個人化、連線且及時的客戶歷程&#x200B;。
+Adobe Journey Optimizer是內建在Adobe Experience Platform上的敏捷且可擴充的應用程式，可跨任何應用程式、裝置、畫面或頻道，協調及提供個人化、連線且及時的客戶歷程。
 
 ## 什麼是Journey Orchestration？
 
@@ -22,7 +22,7 @@ Journey Orchestration是一項建構在Adobe Experience Platform上的服務，�
 
 ## 為何要改用Adobe Journey Optimizer？
 
-**存取簡化的介面**，其中包含Experience Platform功能，可讓您快速存取歷程、資料集、設定檔、警報等。 您不必再在Adobe Experience Platform和Journey Orchestration之間往返存取結構描述或資料集，一切都可直接從Adobe Journey Optimizer取得。 如需詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html?lang=zh-Hant)。
+**存取簡化的介面**，其中包含Experience Platform功能，可讓您快速存取歷程、資料集、設定檔、警報等。 您不必再在Adobe Experience Platform和Journey Orchestration之間往返存取結構描述或資料集，一切都可直接從Adobe Journey Optimizer取得。 如需詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html)。
 
 <table>
 <tr>
@@ -55,11 +55,8 @@ Journey Orchestration是一項建構在Adobe Experience Platform上的服務，�
 ## 如何升級我的Journey Orchestration環境？
 
 1. 請洽詢您的客戶團隊，以更新您與Adobe的合約。
-
 1. 請等待我們的工程團隊完成變更。
-
 1. 使用Journey Optimizer的產品設定檔更新您的許可權。 請參見此[頁面](https://experienceleague.adobe.com/docs/journey-optimizer/using/administration/ootb-product-profiles.html?lang=zh-Hant)。
-
 1. 您現在可以存取Adobe Journey Optimizer了！
 
 ## 常見問題
@@ -93,8 +90,8 @@ Journey Orchestration是一項建構在Adobe Experience Platform上的服務，�
 
 移至Adobe Journey Optimizer後，您仍可在Adobe Journey Optimizer中設計客戶歷程並讓Adobe Campaign Standard傳送傳遞，以使用Journeys與Adobe Campaign Standard之間的整合。
 
-但由於Adobe Journey Optimizer報告棧疊的運作方式，報告不會結合Journey和Campaign Standard資料。 歷程資訊可在Adobe Journey Optimizer報表中取得，也可在Adobe Campaign Standard中取得傳送資訊。 可以進行Experience Platform的設定，以將Adobe Campaign Standard資料帶回Adobe Experience Platform，使其可供Customer Journey Analytics （[瞭解更多](https://business.adobe.com/tw/products/experience-platform/customer-journey-analytics.html)）或其他第三方報告工具（例如Tableau或PowerBI）使用。
+但由於Adobe Journey Optimizer報告棧疊的運作方式，報告不會結合Journey和Campaign Standard資料。 歷程資訊可在Adobe Journey Optimizer報表中取得，也可在Adobe Campaign Standard中取得傳送資訊。 可以進行Experience Platform的設定，以將Adobe Campaign Standard資料帶回Adobe Experience Platform，使其可供Customer Journey Analytics （[瞭解更多](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)）或其他第三方報告工具（例如Tableau或PowerBI）使用。
 
-使用Adobe Journey Optimizer現成的傳訊功能時，Adobe Journey Optimizer報表的運作最佳化（可在專屬的Adobe Journey Optimizer方案中取得）。 如需如何在歷程畫布中編寫訊息的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html?lang=zh-Hant)。
+使用Adobe Journey Optimizer現成的傳訊功能時，Adobe Journey Optimizer報表的運作最佳化（可在專屬的Adobe Journey Optimizer方案中取得）。 如需如何在歷程畫布中編寫訊息的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html)。
 
 如需詳細資訊，請洽詢您的帳戶團隊。
