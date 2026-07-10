@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 1%
+source-wordcount: '854'
+ht-degree: 7%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 
@@ -35,9 +35,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->請記住，Adobe Experience Platform段是每天計算一次（**批量** 區段）或實時&#x200B;**計算（流式** 區段，使用 Adobe Experience Platform 的高頻Audiences選項）。
+>請記住，Adobe Experience Platform區段每天計算一次（**批次**&#x200B;區段）或即時計算（**串流**&#x200B;區段，使用Adobe Experience Platform的「高頻對象」選項）。
 >
->如果所選區段已流式傳輸，則屬於此區段的個人可能會實時進入旅程。 如果區段為批次，則新符合此區段資格的人可能會在Adobe Experience Platform上執行區段計算時進入歷程。
+>如果選取的區段經過串流處理，屬於此區段的個人可能會即時進入歷程。 如果區段為批次，則新符合此區段資格的人可能會在Adobe Experience Platform上執行區段計算時進入歷程。
 
 
 1. 展開&#x200B;**[!UICONTROL Events]**&#x200B;類別並將&#x200B;**[!UICONTROL Segment qualification]**&#x200B;活動拖放到畫布中。
@@ -64,7 +64,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >請注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**已實現**&#x200B;和&#x200B;**已退出**&#x200B;區段參與狀態。 如需如何評估區段的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results)。
+   >請注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;對應至Adobe Experience Platform中的&#x200B;**已實現**&#x200B;和&#x200B;**已退出**&#x200B;區段參與狀態。 如需如何評估區段的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
 
 1. 選取名稱空間。 只有在將事件定位為歷程的第一步時，才需要此專案。
 
@@ -84,11 +84,11 @@ ht-degree: 1%
 
 包含區段資格事件的新歷程在發佈後10分鐘即可運作。 此時間間隔對應到專用服務的快取重新整理間隔。 因此，您必須等待10分鐘才能使用此歷程。
 
-## 最佳作法 {#best-practices-segments}
+## 最佳做法 {#best-practices-segments}
 
-該 **[!UICONTROL Segment Qualification]** 活動使獲得Adobe Experience Platform區段資格或取消資格的個人能夠立即進入旅程。
+**[!UICONTROL Segment Qualification]**&#x200B;活動可讓在Adobe Experience Platform區段中取得資格或被取消資格的個人在歷程中立即進入。
 
-這些資訊的接收速度很高。 測量顯示每秒接收 10,000 個事件的速度。 因此，您應該確保瞭解入口尖峰可能如何發生、如何避免以及如何讓您的歷程準備好迎接他們。
+此資訊的接收速度很快。 所做的測量顯示速度為每秒接收10,000個事件。 因此，您應該確保瞭解入口尖峰可能如何發生、如何避免以及如何讓您的歷程準備好迎接他們。
 
 ### 批次區段{#batch-speed-segment-qualification}
 
@@ -100,11 +100,11 @@ ht-degree: 1%
 
 針對串流區段使用區段資格時，由於持續評估區段，入口/出口出現大型峰值的風險較低。 然而，如果區段定義導致大量客戶同時符合資格，則也可能出現峰值。
 
-如需串流區段的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=zh-Hant#api)
+如需串流區段的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### 如何避免多載{#overloads-speed-segment-qualification}
 
-以下是將有助於避免讓歷程中所運用的系統(資料來源、自訂動作、Adobe Campaign Standard動作)過載的一些最佳做法。
+以下是將有助於避免讓歷程中所運用的系統（資料來源、自訂動作、Adobe Campaign Standard動作）過載的一些最佳做法。
 
 在&#x200B;**[!UICONTROL Segment Qualification]**&#x200B;活動中，請勿在建立批次區段後立即使用該批次區段。 它會避免第一個計算尖峰。 請注意，如果您即將使用從未計算的區段，歷程畫布中將會出現黃色警告。
 
@@ -112,6 +112,6 @@ ht-degree: 1%
 
 為歷程中使用的資料來源和動作設定上限規則，以避免其過載（請參閱此[區段](../api/capping.md)）。 請注意，上限規則沒有重試。 如果您需要重試，則必須在條件或動作中核取方塊&#x200B;**[!UICONTROL Add an alternative path in case of a timeout or an error]**，以在歷程中使用替代路徑。
 
-在生產旅程中使用區段之前，請始終首先評估每天有資格獲得此區段的人員數量。 若要這麼做，您可以檢查Adobe Experience Platform中的&#x200B;**[!UICONTROL Segments]**&#x200B;區段，並檢視右側的圖表。
+在生產歷程中使用區段之前，請一律先評估每天符合此區段資格的個人數量。 若要這麼做，您可以檢查Adobe Experience Platform中的&#x200B;**[!UICONTROL Segments]**&#x200B;區段，並檢視右側的圖表。
 
 ![](../assets/segment-overload.png)
