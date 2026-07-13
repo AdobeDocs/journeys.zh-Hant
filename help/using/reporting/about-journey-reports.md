@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 1%
+source-wordcount: '796'
+ht-degree: 7%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 
@@ -70,8 +70,7 @@ ht-degree: 1%
 
 ## 歷程摘要範本 {#ootb-template}
 
-報告分為兩個類別：現成可用的範本和自訂報告。
-現成可用的範本&#x200B;**[!UICONTROL Journey summary]**&#x200B;可讓您清楚檢視最重要的追蹤資料。
+報告分為兩個類別：現成可用的範本和自訂報告。現成可用的範本&#x200B;**[!UICONTROL Journey summary]**&#x200B;可讓您清楚檢視最重要的追蹤資料。
 
 ![](../assets/dynamic_report_journey_8.png)
 
