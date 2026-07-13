@@ -3,7 +3,7 @@ title: 升級至Adobe Journey Optimizer
 description: 瞭解如何升級至Adobe Journey Optimizer
 hide: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
+source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ## 什麼是Adobe Journey Optimizer？
 
-Adobe Journey Optimizer是原生建置在Adobe Experience Platform上的敏捷且可擴充的應用程式，可跨任何應用程式、裝置、畫面或頻道，協調及提供個人化、連線且及時的客戶歷程&#x200B;。
+Adobe Journey Optimizer是內建在Adobe Experience Platform上的敏捷且可擴充的應用程式，可跨任何應用程式、裝置、畫面或頻道，協調及提供個人化、連線且及時的客戶歷程。
 
 ## 什麼是Journey Orchestration？
 
@@ -55,11 +55,8 @@ Journey Orchestration是一項建構在Adobe Experience Platform上的服務，�
 ## 如何升級我的Journey Orchestration環境？
 
 1. 請洽詢您的客戶團隊，以更新您與Adobe的合約。
-
 1. 請等待我們的工程團隊完成變更。
-
 1. 使用Journey Optimizer的產品設定檔更新您的許可權。 請參見此[頁面](https://experienceleague.adobe.com/docs/journey-optimizer/using/administration/ootb-product-profiles.html?lang=zh-Hant)。
-
 1. 您現在可以存取Adobe Journey Optimizer了！
 
 ## 常見問題

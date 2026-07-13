@@ -7,17 +7,16 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
+source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1001'
 ht-degree: 100%
 
 ---
 
 # 文件更新
 
-本頁面列出 [!DNL Journey Orchestration] 所有文件更新。
-您也可以參閱[!DNL Journey Orchestration][發行說明](../release-notes/release-notes.md)。
+本頁面列出 [!DNL Journey Orchestration] 所有文件更新。您也可以參閱[!DNL Journey Orchestration][發行說明](../release-notes/release-notes.md)。
 
 ## 2022 年 7 月 {#july-2022}
 
@@ -40,15 +39,10 @@ ht-degree: 100%
 ## 2021 年 9 月
 
 * 已更新下列函式頁面： [sethours](../functions/functionsethours.md)、[getListItem](../functions/functiongetlistitem.md)、[inSegment](../functions/functioninsegment.md)
-
 * 已新增下列函式： [篩選](../functions/functionfilter.md)、[相交](../functions/functionintersect.md)、[toDateOnly](../functions/functiontodateonly.md)
-
 * 已在運算式編輯器文件中新增 dateOnly 日期類型。 [閱讀全文](../expression/data-types.md)
-
 * 新增自訂動作快取持續時間的詳細資料。 [閱讀全文](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-
 * 已新增自訂動作預設連接埠的資訊。 [閱讀全文](../action/url-configuration.md)
-
 * 新增在資料湖中查詢歷程步驟事件的常用範例。 [閱讀全文](../building-journeys/query-examples.md)
 
 ## 2021 年 8 月
