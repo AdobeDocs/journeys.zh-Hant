@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 2%
+source-wordcount: '482'
+ht-degree: 17%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 ## 目的 {#purpose}
@@ -40,8 +40,8 @@ ht-degree: 2%
 
 * 如果此人員不是忠誠會員，我們會傳送電子郵件給他們，以加入忠誠會員資格優惠方案。
 * 如果此人已經是忠誠會員，我們會檢查他是否有訂房：
-   * 如果沒有，我們會以房費傳送推播通知給對方。
-   * 如果他這麼做，我們會傳送歡迎推播通知給他們。 如果他在6小時內進入餐廳，我們會傳送推播通知給他們，餐費可打折。
+  * 如果沒有，我們會以房費傳送推播通知給對方。
+  * 如果他這麼做，我們會傳送歡迎推播通知給他們。 如果他在6小時內進入餐廳，我們會傳送推播通知給他們，餐費可打折。
 
 ![](../assets/journeyuc2_29.png)
 
@@ -57,11 +57,11 @@ ht-degree: 2%
 
 ## 先決條件 {#prerequisites}
 
-針對我們的使用案例，我們已設計三個Adobe Campaign Standard異動訊息範本。 我們正在使用事件異動訊息範本。 請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)。
+針對我們的使用案例，我們已設計三個Adobe Campaign Standard異動訊息範本。 我們正在使用事件異動訊息範本。 請參見此[頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)。
 
 Adobe Campaign Standard已設定為傳送電子郵件和推播通知。
 
-Experience Cloud ID可當作在飯店訂房系統中識別客戶的金鑰。
+Experience Cloud ID可當作識別飯店訂房系統中客戶的金鑰。
 
 當客戶在信標附近偵測到事件時，便會從客戶的行動電話傳送事件。 您需要設計行動應用程式，將事件從客戶的行動電話傳送至Mobile SDK。
 

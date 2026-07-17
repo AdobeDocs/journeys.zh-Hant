@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 12%
+source-wordcount: '497'
+ht-degree: 24%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 在我們的使用案例中，我們希望對訊息使用個人化資料。 我們還需要檢查該人士是否為忠誠會員，且在過去24小時內未聯絡。 此資訊儲存在「即時客戶個人檔案」資料庫中。 **技術使用者**&#x200B;需要設定Adobe Experience Platform資料來源以擷取這些欄位。
@@ -47,7 +47,7 @@ ht-degree: 12%
 
    ![](../assets/journeyuc2_7.png)
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下 **[!UICONTROL Save]**。
 
 我們還需要檢查客人在飯店訂房系統中是否有預訂。 **技術使用者**&#x200B;需要設定第二個資料來源以擷取此欄位。
 
@@ -59,16 +59,16 @@ ht-degree: 12%
 
    >[!CAUTION]
    >
-   >基於安全考量，我們強烈建議使用HTTPS。
+   >基於安全考量，我們強烈建議您使用 HTTPS。
 
-1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。在我們的範例中，我們為型別選擇「基本」，並指定API呼叫的使用者名稱和密碼。
+1. 根據外部服務配置設定身份驗證：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或 **[!UICONTROL API key]**。 在我們的範例中，我們為型別選擇「基本」，並指定API呼叫的使用者名稱和密碼。
 
    ![](../assets/journeyuc2_10.png)
 
 1. 按一下&#x200B;**[!UICONTROL Add a New Field Group]**&#x200B;以定義要擷取的資訊和API引數。 在我們的範例中，只有一個引數(ID)，因此我們需要建立一個包含下列資訊的欄位群組：
 
-   * **[!UICONTROL Method]**：選取 POST 或 GET 方法。在本例中，我們選取 GET 方法。
-   * **[!UICONTROL Response Payload]**：在&#x200B;**[!UICONTROL Payload]**&#x200B;欄位內按一下，並貼上裝載的範例。 確認欄位類型是否正確。每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。在我們的範例中，裝載僅包含預訂狀態：
+   * **[!UICONTROL Method]**：選取 POST 或 GET 方法。 在本例中，我們選取 GET 方法。
+   * **[!UICONTROL Response Payload]**：在&#x200B;**[!UICONTROL Payload]**&#x200B;欄位內按一下，並貼上裝載的範例。 確認欄位類型是否正確。 每次呼叫 API 時，系統都會擷取有效負載範例中包含的所有欄位。 在我們的範例中，裝載僅包含預訂狀態：
 
    ```
    {
@@ -80,6 +80,6 @@ ht-degree: 12%
 
    ![](../assets/journeyuc2_11.png)
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下 **[!UICONTROL Save]**。
 
    資料來源現在已設定完畢，且可供您在歷程中使用。
