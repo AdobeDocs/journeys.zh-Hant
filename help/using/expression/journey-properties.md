@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 9%
+source-wordcount: '642'
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 9%
 >_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
-在進階運算式編輯器中，您會在事件和資料來源類別下方找到&#x200B;**歷程屬性**&#x200B;類別。 此類別包含與特定設定檔的歷程相關的技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程ID或遇到的特定錯誤。
+在進階運算式編輯器中，您會在事件和資料來源類別下方找到&#x200B;**歷程屬性**&#x200B;類別。 此類別包含與特定設定檔的歷程相關的技術欄位。 這是系統從即時歷程擷取的資訊，例如歷程 ID 或遇到的特定錯誤。
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ ht-degree: 9%
 | | organizationId | 組織識別碼 | 品牌組織 |
 | | sandboxName | 沙箱名稱 | 沙箱的名稱 |
 | 身分識別 | profileId | 設定檔識別碼 | 歷程中設定檔的識別碼 |
-| | 名稱空間 | 設定檔身分名稱空間 | 歷程中設定檔的名稱空間（範例：ECID） |
+| | namespace | 設定檔身分名稱空間 | 歷程中設定檔的名稱空間（範例：ECID） |
 | 目前節點 | currentNodeId | 目前節點識別碼 | 目前活動（節點）的識別碼 |
 | | currentNodeName | 目前節點名稱 | 目前活動的名稱（節點） |
 | 上一個節點 | previousNodeId | 上一個節點識別碼 | 上一個活動（節點）的識別碼 |

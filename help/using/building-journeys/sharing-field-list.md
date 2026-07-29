@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: b7568080-b88c-415c-9d3f-cc1361664838
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 16%
+source-wordcount: '360'
+ht-degree: 31%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 步驟事件欄位會依類別組織。
@@ -47,7 +47,7 @@ ht-degree: 16%
 | 版本ID | 字串 | 歷程版本的ID。 此ID代表歷程的身分 |
 | 名稱 | 字串 | 歷程的名稱 |
 | 說明 | 字串 | 歷程描述 |
-| 版本 | 字串 | 版本，表示為`major`.`minor` |
+| version | 字串 | 版本，表示為`major`.`minor` |
 
 ## 設定檔
 
@@ -58,7 +58,7 @@ ht-degree: 16%
 | 欄位名稱 | 類型 | 說明 |
 |---|---|------------|
 | ID | 字串 | 設定檔識別碼會識別歷程中傳送/使用的設定檔。 例如： foo@adobe.com。 |
-| 名稱空間 | 字串 | 此欄位說明歷程中使用的設定檔所參考的名稱空間。 例如：電子郵件、ECID |
+| namespace | 字串 | 此欄位說明歷程中使用的設定檔所參考的名稱空間。 例如：電子郵件、ECID |
 
 ## serviceEvents
 

@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 91%
+source-wordcount: '835'
+ht-degree: 95%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 91%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 節流API可協助您建立、設定和監視節流設定，以限制每秒傳送的事件數。
@@ -48,7 +48,7 @@ ht-degree: 91%
 | [!DNL GET] | /throttlingConfigs/`{uid}` | 擷取節流設定 |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | 刪除節流設定 |
 
-## 節流設定{#configuration}
+## 節流設定 {#configuration}
 
 以下是節流設定的結構。 **name**&#x200B;及&#x200B;**description**&#x200B;屬性為選用。
 
@@ -101,8 +101,8 @@ ht-degree: 91%
 * **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**，「無法取消部署節流設定：發生意外錯誤」
 * **THROTTLING_CONFIG_GET_ERROR: 1460**，「無法取得節流設定：發生意外錯誤」
 * **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**，「無法更新節流設定：執行時版本未處於活動狀態」
-* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**，「無法更新節流設定：發生意外錯誤」 
-* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**，「禁止對節流設定執行操作：非生產沙箱」 
+* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**，「無法更新節流設定：發生意外錯誤」
+* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**，「禁止對節流設定執行操作：非生產沙箱」
 * **THROTTLING_CONFIG_CREATE_ERROR: 1464**，「無法建立節流設定：發生意外錯誤」
 * **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465**，「無法建立節流設定：每個組織僅允許一個設定」
 * **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466**，「無法部署節流設定：已部署」
@@ -150,7 +150,7 @@ ht-degree: 91%
 一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
 * `{JO_HOST}` : [!DNL Journey Orchestration]閘道 URL
 * `{BASE_PATH}`：API 的進入點。 值為「/authoring」
-* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
+* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。 如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
 
 您將在下節找到用於執行使用案例的 Rest API 呼叫排序清單。
 
@@ -198,7 +198,7 @@ ht-degree: 91%
 
 取消部署設定後，可以更新和重新部署設定。 這將建立新的執行階段設定，將在即將執行的動作中考慮該設定。
 
-當更新已部署的設定時，會立即考慮新值。自動調整基礎系統資源。 與取消部署然後重新部署設定相比，這是最佳選擇。
+當更新已部署的設定時，會立即考慮新值。 自動調整基礎系統資源。 與取消部署然後重新部署設定相比，這是最佳選擇。
 
 ## 回應範例 {#responses}
 

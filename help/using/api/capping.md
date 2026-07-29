@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 27%
+source-wordcount: '623'
+ht-degree: 37%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 27%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 上限API可幫助您建立、設定和監控您的上限設定。
@@ -104,7 +104,7 @@ ht-degree: 27%
 
 * **ERR_ENDPOINTCONFIG_100**：設定上限：遺漏或無效的url
 * **ERR_ENDPOINTCONFIG_101**：上限設定：格式錯誤的url
-* **ERR_ENDPOINTCONFIG_102**：上限設定：格式錯誤的url：不允許在host：port中使用url中的wildchar
+* **ERR_ENDPOINTCONFIG_102**：上限設定：格式錯誤的url：主機:port不允許url中的wildchar
 * **ERR_ENDPOINTCONFIG_103**：上限設定：遺失HTTP方法
 * **ERR_ENDPOINTCONFIG_104**：上限設定：未定義任何通話分級
 * **ERR_ENDPOINTCONFIG_107**：上限設定：無效的最大呼叫計數(maxCallsCount)
@@ -128,7 +128,7 @@ ht-degree: 27%
 一旦下載並上傳至 Postman，您需要新增三個變數：`{JO_HOST}`、`{BASE_PATH}`以及`{SANDBOX_NAME}`。
 * `{JO_HOST}` : [!DNL Journey Orchestration]閘道 URL
 * `{BASE_PATH}`：API 的進入點。 值為「/authoring」
-* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
+* `{SANDBOX_NAME}`：標題 **x-sandbox-name** (例如，&#39;prod&#39;)，此名稱對應於將進行 API 操作的沙箱名稱。 如需詳細資訊，請參閱[沙箱概觀](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hant)。
 
 您將在下節找到用於執行使用案例的 Rest API 呼叫排序清單。
 

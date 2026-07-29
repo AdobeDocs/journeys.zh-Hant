@@ -4,8 +4,8 @@ title: 運用疲勞分數
 description: 瞭解如何在歷程中運用疲勞分數
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 4%
+source-wordcount: '262'
+ht-degree: 7%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 
    ![](../assets/journeyuc3_1.png)
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下 **[!UICONTROL Save]**。
 
 ## 建立歷程 {#section_uzm_pyy_wfb}
 
@@ -50,11 +50,11 @@ ht-degree: 4%
 
    ![](../assets/journeyuc2_14.png)
 
-1. 選擇&#x200B;**[!UICONTROL Data Source Condition]**&#x200B;型別，然後按一下&#x200B;**[!UICONTROL Expression]**&#x200B;欄位。
+1. 選擇 **[!UICONTROL Data Source Condition]** 類型，然後按一下 **[!UICONTROL Expression]** 欄位。
 
    ![](../assets/journeyuc3_2.png)
 
-1. 使用簡單運算式編輯器，尋找&#x200B;**[!UICONTROL fatigueLevel]**&#x200B;欄位(_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_)，將其拖曳至右側並建立下列條件： &quot;fatigueLevel equal is &quot;Low&quot;。 按一下「**[!UICONTROL Ok]**」。
+1. 使用簡單運算式編輯器，尋找&#x200B;**[!UICONTROL fatigueLevel]**&#x200B;欄位(_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_)，將其拖曳至右側並建立下列條件： &quot;fatigueLevel equal is &quot;Low&quot;。 按一下 **[!UICONTROL Ok]**。
 
    ![](../assets/journeyuc3_3.png)
 

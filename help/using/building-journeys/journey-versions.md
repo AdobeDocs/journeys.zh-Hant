@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 59%
+source-wordcount: '297'
+ht-degree: 76%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 59%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
-在歷程清單中，所有歷程版本都會連同版本號碼一起顯示。請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。 當您搜尋歷程時，最新版本會在應用程式首次開啟時出現在清單頂端。然後，您可以定義所需的排序，應用程式會將其保留為使用者偏好設定。歷程的版本也會顯示在畫布上方的歷程版本介面頂端。
+在歷程清單中，所有歷程版本都會連同版本號碼一起顯示。 請參閱[此頁面](../building-journeys/using-the-journey-designer.md)。 當您搜尋歷程時，最新版本會在應用程式首次開啟時出現在清單頂端。 然後，您可以定義所需的排序，應用程式會將其保留為使用者偏好設定。 歷程的版本也會顯示在畫布上方的歷程版本介面頂端。
 
 ![](../assets/journeyversions1.png)
 
@@ -46,10 +46,10 @@ ht-degree: 59%
 
    ![](../assets/journeyversions3.png)
 
-從發佈歷程的那一刻起，個人就會開始進入歷程的最新版本。 已進入舊版本的人會保留在舊版本中，直到歷程結束。如果他們稍後重新進入相同的歷程，則會進入最新版本。
+從發佈歷程的那一刻起，個人就會開始進入歷程的最新版本。 已進入舊版本的人會保留在舊版本中，直到歷程結束。 如果他們稍後重新進入相同的歷程，則會進入最新版本。
 
-歷程版本可個別停止。所有版本的歷程都有相同的名稱。
+歷程版本可個別停止。 所有版本的歷程都有相同的名稱。
 
 >[!NOTE]
 >
->當您發佈歷程的新版本時，舊版本會自動結束並切換到&#x200B;**已關閉**&#x200B;狀態。歷程中不會發生任何入口。 即使您停止最新版本，先前版本仍會保持關閉狀態。
+>當您發佈歷程的新版本時，舊版本會自動結束並切換到&#x200B;**已關閉**&#x200B;狀態。 歷程中不會發生任何入口。 即使您停止最新版本，先前版本仍會保持關閉狀態。

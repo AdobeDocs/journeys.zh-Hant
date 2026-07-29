@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 10%
+source-wordcount: '614'
+ht-degree: 11%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 10%
 
 * 欄位以數字字元開頭
 * 欄位以「 — 」字元開頭
-* 欄位包含&#x200B;_a_-_z_、_A_-_Z_、_0_-_9_、_、_-_&#x200B;以外的任何專案
+* 欄位包含&#x200B;_a_-_z_、_A_-_Z_、_0_-_9_、_、_-_以外的任何專案
 
 例如，如果您的欄位是&#x200B;_3h_： _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
@@ -63,9 +63,9 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->欄位型別和預設值必須相同。 例如，@{LobbyBeacon.endUserIDs。_experience.emailid.id， defaultValue ： 2}將無效，因為預設值為整數，而預期值應為字串。
+>欄位型別和預設值必須相同。 例如，@{LobbyBeacon.endUserIDs._experience.emailid.id， defaultValue ： 2}將無效，因為預設值為整數，而預期值應為字串。
 
-範例：
+範例:
 
 ```json
 // for an event 'OrderEvent' having the following payload:

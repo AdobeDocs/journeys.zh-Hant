@@ -5,21 +5,21 @@ description: 進一步瞭解匯入匯出API。
 products: journeys
 source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 17%
+source-wordcount: '1056'
+ht-degree: 21%
 
 ---
 
 
 # 使用匯出 — 匯入API
 
-使用單一API呼叫匯出歷程版本及其所有相關物件（歷程、事件、資料來源、欄位群組、自訂動作）。 匯出產生的裝載可用來輕鬆將歷程匯入另一個環境（執行個體或沙箱）。
+使用單一API呼叫匯出歷程版本及其所有相關物件（歷程、事件、資料來源、欄位群組、自訂動作）。匯出產生的裝載可用來輕鬆將歷程匯入另一個環境（執行個體或沙箱）。
 此功能可讓您跨多個執行個體或多個測試環境工作流程管理您的歷程。
 
 
 ## 資源
 
-Journey Orchestration匯出 — 匯入API在[此處](https://adobedocs.github.io/JourneyAPI/docs/)可用的Swagger檔案中說明。
+在[此處](https://adobedocs.github.io/JourneyAPI/docs/)提供的Swagger檔案中說明Journey Orchestration Export-Import API。
 
 若要搭配您的Journey Orchestration執行個體使用此API，您需要使用AdobeI/O Console。 您可以依照此[Adobe Developer Console快速入門](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md)中的說明開始，然後使用此頁面中的章節。
 
@@ -32,7 +32,7 @@ Journey Orchestration匯出 — 匯入API在[此處](https://adobedocs.github.io
 
 1. 在您的開始環境中建立歷程並輸入引數。 [更多資訊在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=zh-Hant)
 1. 檢查歷程版本是否沒有錯誤。 [更多資訊在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=zh-Hant)
-1. 呼叫&#x200B;**/list/journeys** API以擷取您最新歷程版本的UID歷程和UID。 如有需要，您可以呼叫&#x200B;**/journeys/`{uid}`/latest**&#x200B;來尋找您最新歷程版本的UID。
+1. 呼叫&#x200B;**/list/journeys** API以擷取您最新歷程版本的UID歷程和UID。 如有需要，您可以呼叫&#x200B;**/journeys/`{uid}`/latest**，尋找您最新歷程版本的UID。
 1. 使用您的啟動環境引數（orgID和sandboxName）呼叫&#x200B;**export** API。
 1. 開啟傳回裝載，然後檢查下列專案：
    * 如果您的匯出歷程包含&#x200B;**特定認證**，您需要將這些認證取代為與新環境相對應的認證。
@@ -46,23 +46,20 @@ Journey Orchestration匯出 — 匯入API在[此處](https://adobedocs.github.io
 
 ### 設定 API 存取
 
-Journey Orchestration API存取可透過下列步驟設定。 [Adobe I/O 文件](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)詳細介紹了這些步驟。
+Journey Orchestration API存取權是透過下列步驟設定。 [Adobe I/O 文件](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)詳細介紹了這些步驟。
 
 >[!CAUTION]
 >
 >若要在 Adobe I/O 管理憑證，請確認您在組織擁有<b>系統管理員</b>權限或在 Admin Console 擁有[開發人員帳戶](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)。
 
 1. **請確認您擁有數位憑證**，或視需要建立。 下列步驟需要憑證隨附的公開金鑰與私人金鑰。
-1. 在 Adobe I/O **建立新整合以[!DNL Journey Orchestration]服務**&#x200B;並加以設定。 Journey Orchestration和Adobe Experience Platform需要產品設定檔存取權。 然後，將產生您的憑證 (API 金鑰、用戶端密碼……)。
+1. 在 Adobe I/O **建立新整合以[!DNL Journey Orchestration]服務**&#x200B;並加以設定。 Journey Orchestration和Adobe Experience Platform需要產品設定檔存取權。 然後，將產生您的認證 (API 金鑰、用戶端密碼……)。
 
 >[!CAUTION]
 >
->不建議使用產生存取權杖的JWT方法。 所有新的整合都必須使用[OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hant#select-oauth-server-to-server)來建立。 Adobe也建議您將現有的整合移轉至OAuth方法。
+>不建議使用產生存取權杖的JWT方法。 所有新的整合都必須使用[OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hant#select-oauth-server-to-server)來建立。 Adobe 也建議您將現有的整合移轉至 OAuth 方法。
 >
->閱讀下列重要檔案：
->[您的應用程式從JWT移轉至OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)的移轉指南，
->[新舊應用程式與OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)的實作指南，
->[使用OAuth伺服器對伺服器認證方法的優點](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>閱讀下列重要檔案：>[應用程式從JWT移轉至OAuth的遷移指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)，>[新舊應用程式與OAuth的實作指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)，>[使用OAuth伺服器對伺服器認證方法的優點](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 
 若要建立安全的服務對服務 Adobe I/O API 工作階段，對 Adobe 服務的每個請求都必須在授權標題中包含下列資訊。
@@ -76,7 +73,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;組織>**：這是您的個人組織ID，Adobe會為您每個執行個體提供一個組織ID：
 
-   * &lt;組織> ：您的生產執行個體
+  * &lt;組織> ：您的生產執行個體
 
   若要取得組織 ID 值，請洽詢您的管理員或 Adobe 技術聯絡人。 在授權清單中建立新整合時，您也可以將其擷取至 Adobe I/O (請參閱 [Adobe I/O 文件](https://www.adobe.io/authentication.html))。
 
@@ -88,7 +85,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 ## Export-Import API說明
 
-此API可讓您匯出以其UID識別的歷程版本，以及以其uid識別的所有相關物件（歷程、事件、資料來源、欄位群組、自訂動作）。
+此API可讓您匯出透過其UID識別的歷程版本，以及透過其uid識別的所有相關物件（歷程、事件、資料來源、欄位群組、自訂動作）。
 產生的裝載可用於匯入另一個環境（沙箱或執行個體）中的歷程版本。
 
 | 方法 | 路徑 | 說明 |
@@ -106,9 +103,9 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * 認證不會匯出，且預留位置（即INSERT_SECRET_HERE）會插入回應裝載中。
 在匯出呼叫後，您必須手動插入新認證（與目標環境相對應），才能在目標環境中匯入裝載。
 
-* 下列物件會匯出，但絕不會匯入目標環境中。 這些是由Journey Orchestration自動管理的系統資源。 您不需要取代「INSERT_SECRET_HERE」。
-   * **DataProviders**：「Adobe Campaign Standard資料提供者」(acsDataProvider)和「Experience Platform」(acppsDataProvider)
-   * **欄位群組** (dataEntities)： &quot;ProfileFieldGroup&quot; (acppsDataPack)
+* 下列物件會匯出，但絕不會匯入目標環境中。 這些是Journey Orchestration自動管理的系統資源。 您不需要取代「INSERT_SECRET_HERE」。
+  * **DataProviders**：「Adobe Campaign Standard資料提供者」(acsDataProvider)和「Experience Platform」(acppsDataProvider)
+  * **欄位群組** (dataEntities)： &quot;ProfileFieldGroup&quot; (acppsDataPack)
 
 
 
@@ -116,7 +113,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * 在匯入期間，歷程物件是以新UID和新名稱建立，以確保目標環境（執行個體或沙箱）中的唯一性。
 
-* 如果匯入裝載包含秘密預留位置，則會擲回錯誤。 您必須在POST呼叫以匯入歷程之前取代認證資訊。
+* 如果匯入裝載包含秘密預留位置，則會擲回錯誤。 您必須在POST呼叫之前取代認證資訊，才能匯入歷程。
 
 ## 警告和錯誤
 
@@ -126,4 +123,4 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * 在&#x200B;**匯入時間**，如果裝載修改後無效，或裝載中未妥善定義認證：錯誤400
 
-* 在匯入步驟後，如果事件的XDM結構描述ID在目標環境中無效，則Journey Orchestration應用程式中會出現錯誤。 在這種情況下，無法發佈歷程。
+* 匯入步驟後，如果事件的XDM結構描述ID在目標環境中無效，Journey Orchestration應用程式中會出現錯誤。 在這種情況下，無法發佈歷程。

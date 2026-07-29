@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '776'
 ht-degree: 7%
 
 ---
@@ -70,7 +70,8 @@ ht-degree: 7%
 
 ## 歷程摘要範本 {#ootb-template}
 
-報告分為兩個類別：現成可用的範本和自訂報告。現成可用的範本&#x200B;**[!UICONTROL Journey summary]**&#x200B;可讓您清楚檢視最重要的追蹤資料。
+報告分為兩個類別：現成可用的範本和自訂報告。
+現成可用的範本&#x200B;**[!UICONTROL Journey summary]**&#x200B;可讓您清楚檢視最重要的追蹤資料。
 
 ![](../assets/dynamic_report_journey_8.png)
 
