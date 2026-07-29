@@ -70,4 +70,4 @@ Journey Orchestration步驟事件可以連結到[Adobe Customer Journey Analytic
 
 * Customer Journey Analytics會擷取「歷程步驟事件」資料集。
 * 關聯的「Journey Orchestration的歷程步驟事件結構描述」中的&#x200B;**profileID**&#x200B;欄位定義為身分欄位。 在Customer Journey Analytics中，您可以將此資料集連結至與人員型識別碼具有相同值的任何其他資料集。
-* 如果您想要在Customer Journey Analytics中使用此資料集，如需進行跨管道歷程分析，請參閱此[檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)。
+* 如果您想要在Customer Journey Analytics中使用此資料集，如需進行跨管道歷程分析，請參閱此[檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hant)。

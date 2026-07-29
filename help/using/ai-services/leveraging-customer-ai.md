@@ -24,7 +24,7 @@ ht-degree: 34%
 >_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
-Customer AI是Intelligent Services的一部分。 這有助於預測客戶可能會做什麼。 請參閱[檔案](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html)。
+Customer AI是Intelligent Services的一部分。 這有助於預測客戶可能會做什麼。 請參閱[檔案](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=zh-Hant)。
 
 Customer AI可讓品牌建立流失率或轉換機器學習型分數，這些分數將在Adobe Experience Platform設定檔（即時客戶設定檔）中作為設定檔屬性提供。
 

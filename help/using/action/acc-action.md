@@ -46,7 +46,7 @@ Journey Orchestration 與 Campaign 執行個體之間的連線在佈建時由 Ad
 
 ## 先決條件
 
-在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging)。
+在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=zh-Hant#transactional-messaging)。
 
 您可以依照以下模式，建置與每則訊息相對應的JSON裝載。 之後，當您在Journey Orchestration中設定動作時，就會貼上此裝載（請參閱下文）
 

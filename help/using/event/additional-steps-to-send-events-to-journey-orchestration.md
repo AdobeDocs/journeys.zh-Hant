@@ -101,4 +101,4 @@ ht-degree: 17%
 
 若要方便識別貼上「資料」部分的位置，您可以使用JSON視覺化工具，例如[https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-若要疑難排解串流擷取API，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)。
+若要疑難排解串流擷取API，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant)。

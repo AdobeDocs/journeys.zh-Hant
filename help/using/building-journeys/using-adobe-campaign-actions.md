@@ -55,7 +55,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->對於電子郵件，如果您使用設定檔交易式範本，Campaign Standard會立即處理取消訂閱機制。 您只需在範本中新增&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;內容區塊（[深入瞭解](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)）。 如果您使用事件型範本(rtEvent)，則需要在訊息中新增連結，在URL引數中傳遞人員的電子郵件，並指向取消訂閱的登入頁面。 您需要建立此登入頁面，並確保將人員取消訂閱的決策傳送至Adobe。
+>對於電子郵件，如果您使用設定檔交易式範本，Campaign Standard會立即處理取消訂閱機制。 您只需在範本中新增&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;內容區塊（[深入瞭解](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)）。 如果您使用事件型範本(rtEvent)，則需要在訊息中新增連結，在URL引數中傳遞人員的電子郵件，並指向取消訂閱的登入頁面。 您需要建立此登入頁面，並確保將人員取消訂閱的決策傳送至Adobe。
 
 首先，您需要選擇異動訊息範本。 請參見[此頁面](../building-journeys/about-action-activities.md)。
 

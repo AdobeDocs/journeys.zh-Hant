@@ -42,4 +42,4 @@ ht-degree: 21%
 
 ![](../assets/alpha-event9.png)
 
-如需Adobe Analytics來源聯結器的詳細資訊，請參閱[檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)和[教學課程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)。
+如需Adobe Analytics來源聯結器的詳細資訊，請參閱[檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hant)和[教學課程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant)。
