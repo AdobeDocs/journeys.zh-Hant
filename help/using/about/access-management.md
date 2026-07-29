@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 88%
+source-wordcount: '846'
+ht-degree: 80%
 
 ---
 
@@ -34,32 +34,32 @@ ht-degree: 88%
 若要存取 [!DNL Journey Orchestration]，使用者必須：
 
 * 與 [!DNL Journey Orchestration] 權限相關聯之 [!DNL Journey Orchestration] **[!UICONTROL product profile]** 的一部分。
-* [!DNL Adobe Experience Platform]&#x200B;**[!UICONTROL product profile]** 的一部分。 沒有強制性的權限。 使用者應具有從 [!DNL Journey Orchestration] 介面建立及編輯平台區段的 **[!UICONTROL profile management]** 權限。 如需關於此項目的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hant#adobe-admin-console)。
+* [!DNL Adobe Experience Platform]**[!UICONTROL product profile]** 的一部分。 沒有強制性的權限。 使用者應具有從 [!DNL Journey Orchestration] 介面建立及編輯平台區段的 **[!UICONTROL profile management]** 權限。 如需關於此項目的詳細資訊，請參閱此[頁面](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)。
 
 在Admin Console中，您可以將下列其中一個現成可用的產品設定檔指派給使用者：
 
 * **[!UICONTROL Limited Access User]**：對歷程及報告具有唯讀存取權限的使用者。 此產品設定檔包含下列權限：
-   * 閱讀歷程
-   * 閱讀報告
+  * 閱讀歷程
+  * 閱讀報告
 
 * **[!UICONTROL Administrators]**：具有管理功能表存取權限的使用者，可管理歷程、事件及報告。 此產品設定檔包含下列權限：
-   * 管理歷程
-   * 發佈歷程
-   * 管理事件、資料來源及動作
-   * 管理報告
+  * 管理歷程
+  * 發佈歷程
+  * 管理事件、資料來源及動作
+  * 管理報告
 
   >[!NOTE]
   >
   >**[!UICONTROL Administrators]** 是唯一可在 Adobe Campaign Standard 中建立、編輯及發佈交易訊息（或訊息範本）的產品設定檔。 如果您使用Adobe Campaign Standard在歷程中傳送訊息，則需要此產品設定檔。 請勿在Admin Console中重新命名。
 
 * **[!UICONTROL Standard User]**：具有基本存取權限的使用者，例如歷程管理。 此產品設定檔包含下列權限：
-   * 管理歷程
-   * 發佈歷程
-   * 管理報告
-   * 讀取事件、資料來源及動作
+  * 管理歷程
+  * 發佈歷程
+  * 管理報告
+  * 讀取事件、資料來源及動作
 
-如果現成可用的輪廓權限不足，而無法管理使用者，您也可以建立自己的產品設定檔。
-必須一律將使用者連結至產品設定檔，如此可讓您指派特定的內建權限，例如：
+如果現成可用的設定檔不足以管理使用者，您也可以建立自己的產品設定檔。
+使用者必須一律連結至產品設定檔，如此可讓您指派特定的內建許可權，例如：
 
 * **[!UICONTROL Read journeys]**
 * **[!UICONTROL Read reports]**
@@ -120,8 +120,8 @@ ht-degree: 88%
 
 ## 指派產品設定檔 {#assigning-product-profile}
 
-已將產品設定檔指派給一組使用者，這些使用者在您的組織中會共用相同的權限。
-您可在本區段中找到每個具備指派權限的現成可用產品設定檔清單。
+產品設定檔會指派給一組使用者，這些使用者在您的組織內共用相同的許可權。
+您可在本區段中找到每個具備指派許可權的現成可用產品設定檔清單。
 
 若要指派可供使用者存取 [!DNL Journey Orchestration] 的產品設定檔：
 
@@ -147,10 +147,10 @@ ht-degree: 88%
 
 ## 使用 sandbox {#sandboxes}
 
-[!DNL Journey Orchestration] 可讓您將執行個體分割到名為沙箱的個別虛擬環境中。
-會透過Admin Console中的產品設定檔指派沙箱。 如需如何指派沙箱的詳細資訊，請參閱本[區段](../about/access-management.md#create-product-profile)。
+[!DNL Journey Orchestration]可讓您將執行個體分割到名為沙箱的個別虛擬環境中。
+會透過Admin Console中的產品設定檔指派沙箱。如需如何指派沙箱的詳細資訊，請參閱本[區段](../about/access-management.md#create-product-profile)。
 
-[!DNL Journey Orchestration] 會反映針對指定組織建立的 Adobe Experience Platform 沙箱。
-可從 Adobe Experience Platform 執行個體建立或重設 Adobe Experience Platform sandbox。 請參閱[沙箱使用者指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant)以取得詳細步驟。
+[!DNL Journey Orchestration]會反映針對指定組織建立的Adobe Experience Platform沙箱。
+可從Adobe Experience Platform執行個體建立或重設Adobe Experience Platform沙箱。如需詳細步驟，請參閱[沙箱使用手冊](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hant)。
 
 您可在螢幕左上方找到沙箱切換器控制項。 若要從一個沙箱切換至另一個沙箱，請按一下切換器中目前作用中的沙箱，然後從下拉式清單中選取另一個沙箱。

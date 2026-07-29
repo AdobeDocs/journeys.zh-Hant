@@ -62,6 +62,6 @@ ht-degree: 83%
 
    ![](../assets/journey23.png)
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下 **[!UICONTROL Save]**。
 
    資料來源現在已設定完畢，且可供您在歷程中使用。

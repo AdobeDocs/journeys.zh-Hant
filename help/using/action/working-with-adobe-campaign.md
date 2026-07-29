@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 2%
+source-wordcount: '366'
+ht-degree: 17%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 您可以使用Adobe Campaign Standard的「交易訊息」功能來傳送電子郵件、推播通知和簡訊。
@@ -56,7 +56,7 @@ ht-degree: 2%
    >
    >與此Adobe Campaign Standard例項關聯的組織與Journey Orchestration的組織相同。
 
-設計歷程時，**[!UICONTROL Action]**&#x200B;類別中將提供三個動作： **[!UICONTROL Email]**、**[!UICONTROL Push]**、**[!UICONTROL SMS]** (請參閱[使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-actions.md))。 **回應事件**&#x200B;也可讓您對訊息點按、開啟等做出回應。 （請參閱[回應事件](../building-journeys/reaction-events.md)）。
+設計歷程時，**[!UICONTROL Action]**&#x200B;類別中將提供三個動作： **[!UICONTROL Email]**、**[!UICONTROL Push]**、**[!UICONTROL SMS]** （請參閱[使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-actions.md)）。 **回應事件**&#x200B;也可讓您對訊息點按、開啟等做出回應（請參閱[回應事件](../building-journeys/reaction-events.md)）。
 
 ![](../assets/journey58.png)
 

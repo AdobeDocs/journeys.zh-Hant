@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: '在 '
+title: 在
 description: 瞭解中的函式
 feature: Journeys
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 24%
 
 ---
 
-# 在  {#in}
+# 在 {#in}
 
 檢查第一個引數值是否在清單中。 檢查會透過每個引數值上的「等於」來執行。 如果找到引數值，則傳回true，否則傳回false。
 

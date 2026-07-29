@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 7%
+source-wordcount: '451'
+ht-degree: 18%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 在我們的案例中，每次有人進入瑪爾頓飯店和餐廳時，我們都需要收到一個事件。 **技術使用者**&#x200B;需要設定我們想要系統在歷程中接聽的兩個事件。
@@ -36,7 +36,7 @@ ht-degree: 7%
 
    ![](../assets/journeyuc2_1.png)
 
-1. 接著，我們選取結構描述，並定義此事件預期的裝載。 我們從XDM標準化模型中選取所需的欄位。 我們需要Experience Cloud ID才能在即時客戶設定檔資料庫中識別人員：「endUserIDs > _experience > mcid > id」。
+1. 接著，我們選取結構描述，並定義此事件預期的裝載。 我們從XDM標準化模型中選取所需的欄位。 我們需要Experience Cloud ID來識別即時客戶個人檔案資料庫中的人員：「endUserIDs > _experience > mcid > id」。
 
    我們還需要註冊Token才能傳送推送訊息：「_experience > campaign > message > profile > pushNotificationToken > token」
 
@@ -48,7 +48,7 @@ ht-degree: 7%
    >
    >欄位清單會因結構描述而異。 根據結構描述定義，某些欄位可能是必填欄位並預先選取。
 
-1. 我們需要選擇一個命名空間。根據結構描述屬性，預先選取命名空間。您可以將命名空間保持預選狀態。如需名稱空間的詳細資訊，請參閱[此頁面](../event/selecting-the-namespace.md)。
+1. 我們需要選擇一個命名空間。 根據結構描述屬性，預先選取命名空間。 您可以將命名空間保持預選狀態。 如需名稱空間的詳細資訊，請參閱[此頁面](../event/selecting-the-namespace.md)。
 
    ![](../assets/journeyuc2_4.png)
 
@@ -56,7 +56,7 @@ ht-degree: 7%
 
    ![](../assets/journeyuc2_4bis.png)
 
-1. 按一下「**[!UICONTROL Save]**」。
+1. 按一下 **[!UICONTROL Save]**。
 
 1. 按一下&#x200B;**[!UICONTROL View Payload]**&#x200B;圖示可預覽系統預期的裝載，並與負責事件傳送的人員共用。  需要在Mobile Services管理主控台的回傳中設定此裝載。
 

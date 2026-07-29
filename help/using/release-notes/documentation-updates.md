@@ -9,14 +9,15 @@ hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 100%
+source-wordcount: '985'
+ht-degree: 98%
 
 ---
 
 # 文件更新
 
-本頁面列出 [!DNL Journey Orchestration] 所有文件更新。您也可以參閱[!DNL Journey Orchestration][發行說明](../release-notes/release-notes.md)。
+此頁面列出[!DNL Journey Orchestration]的所有檔案更新。
+您也可以參閱[!DNL Journey Orchestration] [發行說明](../release-notes/release-notes.md)。
 
 ## 2022 年 7 月 {#july-2022}
 
@@ -129,8 +130,8 @@ ht-degree: 100%
 ## 2019 年 12 月 {#december-2019}
 
 * 已更新所有螢幕擷取畫面以反映介面的變更。
-* 已更新測試模式章節。 [閱讀更多](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=zh-Hant).-->
+* 已更新測試模式章節。[瞭解詳情](../building-journeys/testing-the-journey.md)
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * 現在可刪除已停止的歷程。 已更新相關文件頁面。
 * 在歷程中偵測到問題時，現在會顯示兩種顏色。 紅色代表錯誤，橘色代表警告。 [閱讀全文](../about/troubleshooting.md)
 * 已更新進階運算式編輯器章節。 [閱讀全文](../expression/expressionadvanced.md)。

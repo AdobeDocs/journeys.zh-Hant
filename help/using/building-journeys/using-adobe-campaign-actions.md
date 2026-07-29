@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: b2e5c333-d0d8-4fe1-a6b8-5f2e6b3624a4
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 2%
+source-wordcount: '979'
+ht-degree: 11%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->對於電子郵件，如果您使用設定檔交易式範本，Campaign Standard會立即處理取消訂閱機制。 您只需在範本中新增&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;內容區塊（[深入瞭解](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)）。 如果您使用事件型範本(rtEvent)，則需要在訊息中新增連結，在URL引數中傳遞人員的電子郵件，並指向取消訂閱的登入頁面。 您需要建立此登入頁面，並確保將人員取消訂閱的決策傳送至Adobe。
+>對於電子郵件，如果您使用設定檔交易式範本，Campaign Standard會立即處理取消訂閱機制。 您只需在範本中新增&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;內容區塊（[深入瞭解](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)）。 如果您使用事件型範本(rtEvent)，則需要在訊息中新增連結，在URL引數中傳遞人員的電子郵件，並指向取消訂閱的登入頁面。 您需要建立此登入頁面，並確保將人員取消訂閱的決策傳送至Adobe。
 
 首先，您需要選擇異動訊息範本。 請參見[此頁面](../building-journeys/about-action-activities.md)。
 

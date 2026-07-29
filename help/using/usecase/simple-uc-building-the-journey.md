@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 27%
+source-wordcount: '456'
+ht-degree: 45%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 27%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
-**商業使用者**&#x200B;現在可以建立歷程。我們的歷程將僅包含一個包含以下活動的路徑：
+**商業使用者**&#x200B;現在可以建立歷程。 我們的歷程將僅包含一個包含以下活動的路徑：
 
 * 「SpaBeacon」 **[!UICONTROL Event]**：當某人接近spa信標時，系統將收到一個事件，且會為該人開始歷程。
 * **[!UICONTROL Condition]**&#x200B;活動，用於檢查該人員是否為女性
-* **[!UICONTROL Email]**&#x200B;活動(使用Adobe Campaign Standard)
+* **[!UICONTROL Email]**&#x200B;活動（使用Adobe Campaign Standard）
 * **[!UICONTROL End]**&#x200B;活動
 
 >[!NOTE]
@@ -41,7 +41,7 @@ ht-degree: 27%
 
    ![](../assets/journey31.png)
 
-1. 在右側顯示的設定窗格中，編輯歷程的屬性。我們將其命名為「Spa journey」，並將其設定為持續一個月（從12月1日至31日）。
+1. 在右側顯示的設定窗格中，編輯歷程的屬性。 我們將其命名為「Spa journey」，並將其設定為持續一個月（從12月1日至31日）。
 
    ![](../assets/journeyuc1_8.png)
 
@@ -53,7 +53,7 @@ ht-degree: 27%
 
    ![](../assets/journeyuc1_10.png)
 
-1. 選擇 **[!UICONTROL Data Source Condition]** 類型，然後按一下 **[!UICONTROL Expression]** 欄位。您也可以定義條件標籤，此標籤將顯示在畫布的箭頭上。
+1. 選擇 **[!UICONTROL Data Source Condition]** 類型，然後按一下 **[!UICONTROL Expression]** 欄位。 您也可以定義條件標籤，該標籤將顯示在畫布的箭頭上。
 
    ![](../assets/journeyuc1_11.png)
 
@@ -61,7 +61,7 @@ ht-degree: 27%
 
    ![](../assets/journeyuc1_12.png)
 
-1. 拖放&#x200B;**[!UICONTROL Email]**&#x200B;活動並選取您的「Spa折扣」交易式訊息範本。 此範本是使用Adobe Campaign設計的。 請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)。
+1. 拖放&#x200B;**[!UICONTROL Email]**&#x200B;活動並選取您的「Spa折扣」交易式訊息範本。 此範本是使用Adobe Campaign設計的。 請參見此[頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)。
 
    ![](../assets/journeyuc1_13.png)
 
@@ -77,7 +77,7 @@ ht-degree: 27%
 
    ![](../assets/journeyuc1_17.png)
 
-1. 按一下&#x200B;**[!UICONTROL Test]**&#x200B;切換並使用測試設定檔測試您的歷程。 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。如需測試模式的詳細資訊，請參閱[此頁面](../building-journeys/testing-the-journey.md)。
+1. 按一下&#x200B;**[!UICONTROL Test]**&#x200B;切換並使用測試設定檔測試您的歷程。 如果發生任何錯誤，請停用測試模式、修改您的歷程並再次測試。 如需測試模式的詳細資訊，請參閱[此頁面](../building-journeys/testing-the-journey.md)。
 
    ![](../assets/journeyuc1_18bis.png)
 

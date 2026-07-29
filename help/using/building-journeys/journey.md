@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 關於建立歷程
+title: 關於歷程建立
 description: 身為企業使用者，了解如何結合活動、協調和行銷活動，以構建歷程。
 feature: Journeys
 role: User
@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 13%
+source-wordcount: '617'
+ht-degree: 28%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 13%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
-此步驟由&#x200B;**商務使用者**&#x200B;執行。 這是您建立歷程的位置。 結合不同的事件、協調和動作活動，以建置您的多步驟跨管道情境。
+此步驟由&#x200B;**商務使用者**&#x200B;執行。 這是您建立歷程的位置。 結合不同的事件、協調和動作活動，以建立您的多步驟跨管道情境。
 
-歷程介面可讓您輕鬆地將活動從調色盤拖放到畫布中。您也可以在下一個可用步驟中，按兩下活動以將其新增至畫布中。 每個活動在流&#39;b5&#39;7b中有特定的角色和位置。 活動會排序。 活動完成後，流程會繼續並處理下一個活動，依此類推。
+歷程介面可讓您輕鬆地將活動從調色盤拖放到畫布中。 您還可以按兩下活動以在下一步可用時將其新增到畫布中。 每個活動在流&#39;b5&#39;7b中有特定的角色和位置。 活動會排序。 活動完成後，流程會繼續並處理下一個活動，依此類推。
 
 每個歷程只允許一個名稱空間。 當您拖放第一個事件時，具有不同名稱空間的事件將會呈現灰色。 如果第一個事件沒有名稱空間，則具有名稱空間的所有事件都會呈現灰色。 請參閱[此頁面](../event/selecting-the-namespace.md)。 此外，如果歷程具有沒有名稱空間的事件，Adobe Experience Platform欄位群組會呈現灰色。 最後，如果您在同一個歷程中使用數個事件，則需使用相同的名稱空間。
 
@@ -46,7 +46,7 @@ ht-degree: 13%
 
    ![](../assets/journey31.png)
 
-1. 在右側顯示的設定窗格中，編輯歷程的屬性。請參閱[此頁面](../building-journeys/changing-properties.md)。
+1. 在右側顯示的設定窗格中，編輯歷程的屬性。 請參閱[此頁面](../building-journeys/changing-properties.md)。
 
    ![](../assets/journey32.png)
 

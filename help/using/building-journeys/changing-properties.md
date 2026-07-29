@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 2%
+source-wordcount: '616'
+ht-degree: 10%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 按一下右上角的鉛筆圖示以存取歷程的屬性。
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 ## 入口{#entrance}
 
-預設情況下，新歷程允許重新進入。您可以取消勾選「單次」歷程的選項，例如，如果您想要在某人進入商店時提供一次性禮物。 在這種情況下，您不希望客戶能夠重新進入歷程並再次收到選件。
+預設情況下，新歷程允許重新進入。 您可以取消勾選「單次」歷程的選項，例如，如果您想要在某人進入商店時提供一次性禮物。 在這種情況下，您不希望客戶能夠重新進入歷程並再次收到選件。
 
 歷程「結束」時，其狀態會是&#x200B;**[!UICONTROL Closed (no entrance)]**。 歷程將停止讓新個人進入歷程。 已在歷程中的人員將正常完成歷程。
 

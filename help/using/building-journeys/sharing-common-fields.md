@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 0%
+source-wordcount: '635'
+ht-degree: 8%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 此Mixin將由journeyStepEvent和journeyStepProfileEvent共用。
 
 這些是[!DNL Journey Orchestration]傳送至Adobe Experience Platform的常見XDM欄位。 歷程中處理的每個步驟都會傳送通用欄位。 自訂動作和增強功能會使用更具體的欄位。
 
-其中一些欄位僅適用於特定處理模式（動作執行、資料擷取等），以限制事件大小。
+其中一些欄位僅適用於特定處理模式（動作執行、資料擷取等） 以限制事件大小。
 
 ## 入口
 

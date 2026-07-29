@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 2%
+source-wordcount: '381'
+ht-degree: 18%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 索引鍵是欄位或欄位組合是事件裝載資料的一部分，可讓系統識別與事件相關聯的人員。 例如，索引鍵可以是Experience Cloud ID、CRM ID或電子郵件地址。
@@ -44,7 +44,7 @@ ht-degree: 2%
 
    ![](../assets/journey20.png)
 
-收到事件時，機碼的值將可讓系統識別與事件相關聯的人員。 金鑰已關聯至名稱空間（請參閱[此頁面](../event/selecting-the-namespace.md)），金鑰可用來在Adobe Experience Platform上執行查詢。 請參閱[此頁面](../building-journeys/about-orchestration-activities.md)。
-金鑰也可用來檢查個人是否在歷程中。 事實上，一個人在同一歷程中不能位於兩個不同的位置。 因此，系統不允許相同的金鑰（例如金鑰CRMID=3224）位於相同歷程中的不同位置。
+收到事件時，機碼的值將可讓系統識別與事件相關聯的人員。金鑰已關聯至名稱空間（請參閱[此頁面](../event/selecting-the-namespace.md)），金鑰可用來在Adobe Experience Platform上執行查詢。請參閱[此頁面](../building-journeys/about-orchestration-activities.md)。
+金鑰也可用來檢查個人是否在歷程中。事實上，一個人在同一歷程中不能位於兩個不同的位置。因此，系統不允許相同的金鑰（例如金鑰CRMID=3224）位於相同歷程中的不同位置。
 
 如果您想要執行其他操作，也可以存取進階運算式函式(**[!UICONTROL Advanced mode]**)。 這些函式可讓您控制用於執行特定查詢的值，例如變更格式、執行欄位串連，僅考慮欄位的一部分（例如10個第一個字元）。 請參閱[此頁面](../expression/expressionadvanced.md)。

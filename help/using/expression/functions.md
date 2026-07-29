@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 函式
+title: 函數
 description: 瞭解函式
 feature: Journeys
 role: Developer
@@ -8,12 +8,12 @@ level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '231'
 ht-degree: 77%
 
 ---
 
-# 函式 {#concept_p1r_qj5_dgb}
+# 函數 {#concept_p1r_qj5_dgb}
 
 
 >[!CAUTION]
@@ -26,7 +26,7 @@ ht-degree: 77%
 
 函式可以有不同的簽章（不同的有序引數集）。 函式簽章可以有0-N個運算式做為排序引數。
 
-`<function name>`(`<expression as param 1>`， `<expression as param 2>`， ... ，`<expression as param N>`)
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
 每個函式都有特定的傳回型別。
 

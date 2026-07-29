@@ -9,8 +9,8 @@ level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 9154a81a257f51820e71334880e58b56ec39676e
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 100%
+source-wordcount: '265'
+ht-degree: 98%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 100%
 
 ## 開始使用
 
-* **[何謂 Journey Orchestration？](using/about/about-journey-orchestration.md)**<br/>
-進一步瞭解 Journey Orchestration。
+* **[什麼是Journey Orchestration？](using/about/about-journey-orchestration.md)**<br/>
+進一步瞭解Journey Orchestration。
 
 * **[建立您的第一個歷程](using/about/get-started.md)**<br/>
 探索設定 Journey Orchestration 的主要步驟，並建立您的第一個歷程。
@@ -68,7 +68,7 @@ ht-degree: 100%
     <div>
     <a href="using/expression/expressionadvanced.md"><strong>建立進階運算式</strong></a>
     </div>
-    <em>瞭解如何運用事件和資料來源的資料來建立複雜的運算式。</em>
+    <em>瞭解如何運用事件和資料來源的資料來建立複雜的運算式。 </em>
     <br>
   </td>
 </tr>

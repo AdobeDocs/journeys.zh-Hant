@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '719'
 ht-degree: 12%
 
 ---
@@ -90,7 +90,7 @@ JSON格式：數字
 
 JSON格式：數字
 
-序列化格式：使用「。」 作為小數分隔符號。
+序列化格式：使用&#39;.&#39;作為小數分隔符號。
 
 **常值表示**
 
@@ -172,7 +172,7 @@ JSON格式：字串。
 
 序列化格式： ISO-8601延伸位移日期 — 時間格式。
 
-它會使用DateTimeFormatter ISO_LOCAL_DATE_TIME將值還原序列化及序列化。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME")
+它會使用DateTimeFormatter ISO_LOCAL_DATE_TIME將值還原序列化及序列化。 [了解更多](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME」)
 
 **常值表示**
 

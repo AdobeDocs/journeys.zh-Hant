@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 2%
+source-wordcount: '475'
+ht-degree: 13%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home)。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 
@@ -44,11 +44,11 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->無論反應事件是部署在Adobe Campaign Standard還是AWS伺服器上，它都可以與Azure搭配使用。
+>無論反應事件是部署在Adobe Campaign Standard還是AWS伺服器上，它都可以與Azure搭配運作。
 >
 >反應事件無法追蹤發生在不同歷程的電子郵件、簡訊或推播動作。
 >
->反應事件追蹤「已追蹤」型別連結的點按（請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html?lang=zh-Hant#about-tracked-urls)）。 未考慮取消訂閱和映象頁面連結。
+>反應事件追蹤「已追蹤」型別連結的點按（請參閱此[頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)）。 未考慮取消訂閱和映象頁面連結。
 
 >[!IMPORTANT]
 >

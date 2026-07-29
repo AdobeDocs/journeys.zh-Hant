@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 5%
+source-wordcount: '748'
+ht-degree: 13%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 
@@ -82,8 +82,8 @@ ht-degree: 5%
 
    ![](../assets/jump2.png)
 
-1. 在&#x200B;**目標歷程**&#x200B;欄位內按一下。
-清單會顯示草稿、即時或測試模式中的所有歷程版本。 使用不同名稱空間或以&#x200B;**區段資格**&#x200B;事件開頭的歷程無法使用。 也會篩選掉會建立回圈模式的目標歷程。
+1. 在&#x200B;**目標歷程**欄位內按一下。
+清單會顯示草稿、即時或測試模式中的所有歷程版本。使用不同名稱空間或以**區段資格**&#x200B;事件開頭的歷程無法使用。也會篩選掉會建立回圈模式的目標歷程。
 
    ![](../assets/jump3.png)
 
@@ -92,7 +92,7 @@ ht-degree: 5%
    >您可以按一下右側的&#x200B;**開啟目標歷程**&#x200B;圖示，在新的索引標籤中開啟目標歷程。
 
 1. 選取您要跳至的目標歷程。
-**第一個事件**&#x200B;欄位已預先填入目標歷程第一個事件的名稱。 如果您的目標歷程包含多個事件，**[!UICONTROL Jump]**&#x200B;僅允許在第一個事件中使用。
+**第一個事件**&#x200B;欄位已預先填入目標歷程第一個事件的名稱。如果您的目標歷程包含多個事件，**[!UICONTROL Jump]**&#x200B;僅允許在第一個事件中使用。
 
    ![](../assets/jump4.png)
 

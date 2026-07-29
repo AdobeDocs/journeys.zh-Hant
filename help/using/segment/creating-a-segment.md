@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 9%
+source-wordcount: '192'
+ht-degree: 42%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 9%
 
 >[!CAUTION]
 >
->**正在尋找Adobe Journey Optimizer**？ 如需Journey Optimizer檔案，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+>**正在尋找 Adobe Journey Optimizer**？ 按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/ajo-home){target="_blank"}以取得 Journey Optimizer 文件。
 >
 >
->_本檔案參考已由Journey Optimizer取代的舊版Journey Orchestration資料。 如果您對Journey Orchestration或Journey Optimizer的存取權有任何疑問，請聯絡您的帳戶團隊。_
+>_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
 您可以使用[Adobe Experience Platform劃分服務](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hant)來建立區段，或直接在[!DNL Journey Orchestration]中存取及建立區段。
 
-1. 在頂端功能表中，按一下 **[!UICONTROL Segments]** 索引標籤。隨即顯示Adobe Experience Platform區段清單。 您可以在清單中搜尋特定區段。
+1. 在頂端功能表中，按一下 **[!UICONTROL Segments]** 索引標籤。 隨即顯示Adobe Experience Platform區段清單。 您可以在清單中搜尋特定區段。
 
    ![](../assets/segment1.png)
 

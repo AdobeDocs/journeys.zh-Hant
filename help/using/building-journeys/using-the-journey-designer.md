@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 9%
+source-wordcount: '1397'
+ht-degree: 10%
 
 ---
 
@@ -118,10 +118,10 @@ ht-degree: 9%
 以下是複製/貼上活動的步驟：
 
 1. 開啟歷程。
-1. 在按一下滑鼠的同時移動滑鼠，選取您要複製的活動。 您也可以在按下&#x200B;**Ctrl/Command**&#x200B;鍵的同時按一下每個活動。 如果要選取所有活動，請使用&#x200B;**Ctrl/Command + A**。
+1. 在按一下滑鼠的同時移動滑鼠，選取您要複製的活動。您也可以在按下&#x200B;**Ctrl/Command**&#x200B;鍵的同時按一下每個活動。如果要選取所有活動，請使用&#x200B;**Ctrl/Command + A**。
    ![](../assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的&#x200B;**複製**&#x200B;圖示。
+如果您只想複製一個活動，可以按一下該活動，並使用活動設定窗格左上角的**複製**圖示。
    ![](../assets/copy-paste2.png)
-1. 在任何歷程中，按下&#x200B;**Ctrl/Command + V**&#x200B;貼上活動而不將其連結到現有節點。 貼上的活動會以相同順序放置。 貼上活動後，活動會維持選取狀態，以便您輕鬆移動。 您也可以將游標放在空的預留位置上，然後按一下&#x200B;**Ctrl/Command + V**。貼上的活動將連結至節點。
+1. 在任何歷程中，按下&#x200B;**Ctrl/Command + V**&#x200B;貼上活動而不將其連結到現有節點。貼上的活動會以相同順序放置。貼上活動後，活動會維持選取狀態，以便您輕鬆移動。您也可以將游標放在空的預留位置上，然後按一下&#x200B;**Ctrl/Command + V**。貼上的活動將連結至節點。
    ![](../assets/copy-paste3.png)

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 6%
+source-wordcount: '202'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 6%
 * 已實現：實體正在進入區段。
 * 已退出：實體正在退出區段。
 
-只有具有&#x200B;**已實現**&#x200B;和&#x200B;**現有**&#x200B;區段參與狀態的個人才會被視為區段的成員。 如需如何評估區段的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=zh-Hant#interpret-segment-results)。
+只有具有&#x200B;**已實現**&#x200B;和&#x200B;**現有**&#x200B;區段參與狀態的個人才會被視為區段的成員。 如需如何評估區段的詳細資訊，請參閱[Segmentation Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
 
 `IF inSegment('segmentName') == true`表示您擁有segmentMembership且狀態為entered/existing。
 

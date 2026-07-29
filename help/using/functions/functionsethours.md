@@ -8,7 +8,7 @@ level: Experienced
 exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '106'
 ht-degree: 9%
 
 ---
@@ -51,4 +51,4 @@ ht-degree: 9%
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-傳回明天晚上8:XY，XY是目前時間評估的分鐘數。 如果評估發生在上午2:45，則傳回的時間將會是晚上8:45。
+傳回明天晚上8:XY，XY是目前時間評估的分鐘數。 如果評估在凌晨2:45進行，則傳回時間將會是晚上8:45。

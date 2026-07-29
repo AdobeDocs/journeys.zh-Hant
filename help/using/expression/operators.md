@@ -8,8 +8,8 @@ level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 15%
+source-wordcount: '514'
+ht-degree: 16%
 
 ---
 
@@ -44,8 +44,8 @@ ht-degree: 15%
 ## 重要備註{#important-notes}
 
 * 使用乘法(`*`)時，兩個作業欄位必須具有相同的型別，可以是整數或小數。 範例：
-   * 下列範例是正確的： `3.0 * 4.0`
-   * `3 * 4.0`將導致錯誤
+  * 下列範例是正確的： `3.0 * 4.0`
+  * `3 * 4.0`將導致錯誤
 
 ## 邏輯  {#logical}
 
@@ -175,7 +175,7 @@ not 3.15 < 1
 "foo" == "bar"
 ```
 
-### ！=
+### !=
 
 
 
