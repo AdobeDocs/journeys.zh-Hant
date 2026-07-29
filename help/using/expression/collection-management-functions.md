@@ -171,8 +171,8 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]**&#x200B;僅可在操控事件集合和&#x200B;**currentDataPackField**時使用
-處理資料來源集合時>。處理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**&#x200B;的集合時，我們在集合的每個元素上逐一進行>回圈。**[!UICONTROL currentEventField]**&#x200B;和&#x200B;**currentDataPackField**
+>**[!UICONTROL currentEventField]**&#x200B;僅可在操控事件集合和&#x200B;**currentDataPackField**&#x200B;時使用
+>處理資料來源集合時>。處理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**&#x200B;的集合時，我們在集合的每個元素上逐一進行>回圈。**[!UICONTROL currentEventField]**&#x200B;和&#x200B;**currentDataPackField**
 >對應到正在回圈的元素。
 
 **函式「first(`<condition>`)」和「last(`<condition>`)」**
@@ -221,7 +221,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函式&quot;at(`<index>`)&quot;**
 
-**[!UICONTROL at]**函式可讓您根據索引來參照集合中的特定專案。
+**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。
 索引0是集合的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_
