@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 100%
-
 ---
-
 # 一般原則 {#concept_gfj_fqt_52b}
 
 
@@ -36,7 +46,7 @@ ht-degree: 100%
 
 事件設定可讓您定義 [!DNL Journey Orchestration] 會接收以作為事件的資訊。 您可以使用數個事件（在歷程的不同步驟中），而數個歷程則可以使用同一個事件。
 
-如果您編輯草稿或即時歷程中使用的事件，則只能變更名稱和說明，或是新增有效負載欄位。 我們對草稿或即時歷程版本有嚴格限制，以免中斷歷程。
+如果您編輯草稿或即時歷程中使用的事件，則只能變更名稱和說明，或是新增有效負載欄位。 我們嚴格限制對草稿或即時歷程的編輯，以免中斷歷程。
 
 您可以定義兩種事件：
 
@@ -44,10 +54,10 @@ ht-degree: 100%
 
   >[!CAUTION]
   >
-  >已為規則型事件定義上限規則。 對於指定組織 (ORG) ，這會將歷程可處理的合格事件數限制為每秒 5000。 它對應於 Journey Orchestration SLA。 請參閱此[頁面](https://helpx.adobe.com/tw/legal/product-descriptions/journey-orchestration.html)。
+  >已為規則型事件定義頻率上限規則。 對於指定組織 (ORG) ，這會將歷程可處理的合格事件數限制為每秒 5000。 它對應於 Journey Orchestration SLA。 請參閱此[頁面](https://helpx.adobe.com/tw/legal/product-descriptions/journey-orchestration.html)。
 
 * **系統產生的** 事件：這些事件需要 eventID。 建立事件時，會自動產生此 eventID 欄位。 推播事件的系統不應產生 ID，而應傳遞有效裝載預覽中可用的 ID。
 
-Journey Orchestration 需要將事件串流或批次傳入 Adobe Experience Platform。 此資料不一定需要前往即時輪廓。 如果您想要在個別歷程中使用事件進行細分或查詢，建議您為輪廓啟用資料集。
+歷程協調需要將事件串流或批次傳入 Adobe Experience Platform。 此資料不一定需要傳送至即時輪廓。 如果您想要在個別歷程中使用事件進行細分或查詢，建議您為輪廓啟用資料集。
 
 若要瞭解如何建立事件，請參閱此[頁面](../event/about-creating.md)。

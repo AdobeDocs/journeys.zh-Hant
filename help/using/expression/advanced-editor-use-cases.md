@@ -6,13 +6,23 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 10%
-
 ---
-
 # 進階運算式範例
 
 
@@ -156,4 +166,4 @@ substr(
 
 說明：此範例使用`substr`和`lastIndexOf`函式，移除在行動應用程式啟動事件中傳遞之CRM ID所括的大括弧。
 
-如需如何使用進階運算式編輯器的詳細資訊，請觀看[此影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html?lang=zh-Hant)。
+如需如何使用進階運算式編輯器的詳細資訊，請觀看[此影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。

@@ -7,13 +7,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 95%
-
 ---
-
 # 使用節流 API
 
 
@@ -76,7 +86,7 @@ ht-degree: 95%
 
 ## 錯誤
 
-建立或更新設定時，流程會驗證指定的設定，並傳回以其唯一 ID 識別的驗證狀態，其中一項為：
+建立或更新設定時，流程會驗證指定的設定，並傳回以其唯一識別碼識別的驗證狀態，其中一項為：
 
 ```
 "ok" or "error"
@@ -194,11 +204,11 @@ ht-degree: 95%
 
 ## 在執行階段層級設定生命週期 {#config}
 
-當取消部署設定時，會在執行階段層級將其標示為非活動狀態，且 24 小時內會繼續處理擱置事件。 然後，在執行階段服務將其刪除。
+當取消部署設定時，會在執行階段層級將其標示為非活動狀態，且 24 小時內會繼續處理待處理事件。 然後，在執行階段服務將其刪除。
 
 取消部署設定後，可以更新和重新部署設定。 這將建立新的執行階段設定，將在即將執行的動作中考慮該設定。
 
-當更新已部署的設定時，會立即考慮新值。 自動調整基礎系統資源。 與取消部署然後重新部署設定相比，這是最佳選擇。
+當更新已部署的設定時，新值會立即生效。 基礎系統資源會自動進行調整。 與取消部署然後重新部署設定相比，這是最佳選擇。
 
 ## 回應範例 {#responses}
 

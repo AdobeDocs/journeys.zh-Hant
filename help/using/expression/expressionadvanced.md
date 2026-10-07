@@ -6,13 +6,23 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 80%
-
+source-wordcount: '601'
+ht-degree: 84%
 ---
-
 # 關於進階運算式編輯器 {#concept_uyj_trt_52b}
 
 
@@ -24,8 +34,8 @@ ht-degree: 80%
 >_本文件指的是已由 Journey Optimizer 取代的舊版 Journey Orchestration 資料。 如果您對 Journey Orchestration 或 Journey Optimizer 的存取權有任何疑問，請聯絡您的帳戶團隊。_
 
 
-使用進階運算式編輯器，在介面的各種畫面中建置進階運算式。例如，您可以在設定和使用歷程以及定義資料來源條件時，建立運算式。
-此外，您每次需要定義需要特定資料處理的動作引數時，都可以使用它。您可以善用來自事件的資料或是從資料來源擷取的其他資訊。在歷程中，顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。
+使用進階運算式編輯器在介面的不同畫面中建置進階運算式。 例如，您可以在設定和使用歷程時以及定義資料來源條件時建置運算式。
+此外，您每次必須定義需要特定資料處理的動作參數時，都可以使用它。 您可以善用來自事件的資料或是從資料來源擷取的其他資訊。 在歷程中，顯示的事件欄位清單會與情境相關，而且會根據歷程中新增的事件而有所不同。
 
 進階運算式編輯器提供一組內建函式和運算子，讓您得以控制值並定義特別符合您需求的運算式。 進階運算式編輯器也可讓您定義外部資料來源參數的值、控制對應欄位和集合，例如體驗事件。
 
@@ -45,7 +55,7 @@ _進階運算式編輯器介面_
 >
 >可在簡單或進階運算式編輯器中定義條件。 它們一律會傳回布林值類型。
 >
->藉由選取欄位或透過進階運算式編輯器，以定義動作參數。 他們會根據其運算式傳回特定資料類型。
+>可藉由選取欄位或透過進階運算式編輯器來定義動作參數。 他們會根據其運算式傳回特定資料類型。
 
 ## 存取進階運算式編輯器 {#section_fdz_4nj_cjb}
 
@@ -88,4 +98,4 @@ _進階運算式編輯器介面_
 
 ![](../assets/journeyuc2_19.png)
 
-對於更複雜的使用案例，如果您想將資料來源的參數包含在主運算式中，則可使用 &quot;params&quot; 關鍵字來定義其值。 請參閱[此頁面](../expression/field-references.md)。
+對於更複雜的使用案例，如果您想將資料來源的參數包含在主運算式中，則可使用「params」關鍵字來定義其值。 請參閱[此頁面](../expression/field-references.md)。

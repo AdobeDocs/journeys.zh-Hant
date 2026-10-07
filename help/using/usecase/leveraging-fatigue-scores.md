@@ -2,13 +2,14 @@
 product: adobe campaign
 title: 運用疲勞分數
 description: 瞭解如何在歷程中運用疲勞分數
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 7%
-
 ---
-
 
 # 善用歷程AI {#concept_dsh_1ry_wfb}
 
@@ -16,7 +17,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->預測性疲勞分數功能僅適用於使用[Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=zh-Hant)的客戶。
+>預測性疲勞分數功能僅適用於使用[Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html)的客戶。
 
 ## 設定事件 {#section_ptb_ws1_ffb}
 
@@ -36,7 +37,7 @@ ht-degree: 7%
 
    ![](../assets/journeyuc3_1.png)
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下「**[!UICONTROL Save]**」。
 
 ## 建立歷程 {#section_uzm_pyy_wfb}
 
@@ -54,7 +55,7 @@ ht-degree: 7%
 
    ![](../assets/journeyuc3_2.png)
 
-1. 使用簡單運算式編輯器，尋找&#x200B;**[!UICONTROL fatigueLevel]**&#x200B;欄位(_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_)，將其拖曳至右側並建立下列條件： &quot;fatigueLevel equal is &quot;Low&quot;。 按一下 **[!UICONTROL Ok]**。
+1. 使用簡單運算式編輯器，尋找&#x200B;**[!UICONTROL fatigueLevel]**&#x200B;欄位(_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_)，將其拖曳至右側並建立下列條件： &quot;fatigueLevel equal is &quot;Low&quot;。 按一下「**[!UICONTROL Ok]**」。
 
    ![](../assets/journeyuc3_3.png)
 

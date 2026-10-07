@@ -6,13 +6,23 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 21%
-
 ---
-
 # 一般性 {#concept_rcy_qj5_dgb}
 
 
@@ -28,7 +38,7 @@ ht-degree: 21%
 
 括弧可用來讓複雜的運算式更容易閱讀。 _（&lt;運算式>）_&#x200B;相當於&#x200B;_&lt;運算式>_。 括弧也可用來定義評估順序和關聯性。
 
-運算式將由左至右評估。 必須套用算術運運算元的關聯性：乘法和除法優先於加法和減法。 為了強制特定順序，必須加入括弧以分隔操作。 例如:
+運算式將由左至右評估。 必須套用算術運運算元的關聯性：乘法和除法優先於加法和減法。 為了強制特定順序，必須加入括弧以分隔操作。 例如：
 
 <!--```5 + 2 * 10 = 25, and (5 + 2) * 10 = 70```-->
 

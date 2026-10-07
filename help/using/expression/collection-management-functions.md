@@ -6,7 +6,19 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: c80acc261853108edccb40d120c8fe16023770e8
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 3%
@@ -170,7 +182,7 @@ The result will be:
 >[!NOTE]
 >
 >**[!UICONTROL currentEventField]**&#x200B;僅在操控事件集合和&#x200B;**currentDataPackField時可用**
->操控資料來源集合時。 處理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**&#x200B;的集合時，我們
+>操控資料來源集合時。 處理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**的集合時，我們
 >逐一在集合的每個元素上回圈。 **[!UICONTROL currentEventField]**&#x200B;和&#x200B;**currentDataPackField**
 >與正在循環的元素相對應。
 
@@ -220,7 +232,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函式&quot;at(`<index>`)&quot;**
 
-**[!UICONTROL at]**&#x200B;函式可讓您根據索引來參照集合中的特定專案。
+**[!UICONTROL at]**函式可讓您根據索引來參照集合中的特定專案。
 索引0是集合的第一個索引。
 
 _`<listExpression>`.at(`<index>`)_

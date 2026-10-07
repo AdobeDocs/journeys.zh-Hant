@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 21%
-
 ---
-
 # 使用 Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
 
@@ -46,7 +56,7 @@ Journey Orchestration 與 Campaign 執行個體之間的連線在佈建時由 Ad
 
 ## 先決條件
 
-在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=zh-Hant#transactional-messaging)。
+在Campaign中，您需要建立並發佈交易式訊息及其相關事件。 請參閱[Adobe Campaign檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging)。
 
 您可以依照以下模式，建置與每則訊息相對應的JSON裝載。 之後，當您在Journey Orchestration中設定動作時，就會貼上此裝載（請參閱下文）
 

@@ -1,20 +1,30 @@
 ---
 keywords: Journeys；家庭；熱門主題
 product: adobe campaign
-title: Journey Orchestration 產品文件
+title: 歷程協調產品文件
 description: 請依照我們的 Adobe Journey Orchestration 指南，取得實施和建立歷程的簡單作法指示。
 feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 9154a81a257f51820e71334880e58b56ec39676e
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 98%
-
+source-wordcount: '270'
+ht-degree: 100%
 ---
-
-# Journey Orchestration 指南 {#journeys-documentation}
+# 歷程協調指南 {#journeys-documentation}
 
 >[!CAUTION]
 >
@@ -25,8 +35,8 @@ ht-degree: 98%
 
 ## 開始使用
 
-* **[什麼是Journey Orchestration？](using/about/about-journey-orchestration.md)**<br/>
-進一步瞭解Journey Orchestration。
+* **[何謂 Journey Orchestration？](using/about/about-journey-orchestration.md)**<br/>
+進一步瞭解歷程協調。
 
 * **[建立您的第一個歷程](using/about/get-started.md)**<br/>
 探索設定 Journey Orchestration 的主要步驟，並建立您的第一個歷程。
@@ -68,7 +78,7 @@ ht-degree: 98%
     <div>
     <a href="using/expression/expressionadvanced.md"><strong>建立進階運算式</strong></a>
     </div>
-    <em>瞭解如何運用事件和資料來源的資料來建立複雜的運算式。 </em>
+    <em>瞭解如何運用事件和資料來源的資料來建立複雜的運算式。</em>
     <br>
   </td>
 </tr>
@@ -76,11 +86,11 @@ ht-degree: 98%
 
 ## 其他資源
 
-* [Journey Orchestration 產品頁面](https://www.adobe.com/tw/experience-platform/journey-orchestration.html)
+* [歷程協調產品頁面](https://www.adobe.com/tw/experience-platform/journey-orchestration.html)
 * [Experience Platform 文件](https://www.adobe.com/tw/experience-platform/documentation-and-developer-resources.html)
 * [即時客戶輪廓文件](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)
 * [Experience Cloud XDM 欄位定義](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant)
-* [身分命名空間文件](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)
+* [身分識別命名空間文件](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)
 * [串流擷取 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hant)
 * [Campaign Standard 交易訊息文件](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)
 

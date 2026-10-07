@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 83%
-
 ---
-
 # 關於資料來源 {#concept_s1s_dqt_52b}
 
 
@@ -37,12 +47,12 @@ ht-degree: 83%
 * [自訂等待定義](../building-journeys/wait-activity.md#custom)
 * [時區定義](../building-journeys/timezone-management.md)
 
-如果您的歷程僅運用來自事件裝載的本機資料，則不需要進行此設定。 例如，如果您的歷程是由事件組成，之後僅會使用來自事件資料的電子郵件活動，則不需要設定資料來源。
+如果您的歷程僅善用來自事件承載的本機資料，則不需要進行此設定。 例如，如果您的歷程由事件和僅使用事件資料的電子郵件活動組成，則不需要設定資料來源。
 
 資料來源有兩種類型：
 
-* 預先設定的 Adobe Experience Platform 資料來源可定義「即時客戶輪廓服務」的連線， 這是內建的資料來源。 請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)。
-* 外部資料來源可讓您定義外部系統的連線， 這些是您可以建立的資料來源。 請參閱[此頁面](../datasource/external-data-sources.md)。
+* 預先設定的 Adobe Experience Platform 資料來源可定義「即時客戶輪廓」的連線。 這是內建的資料來源。 請參閱[此頁面](../datasource/adobe-experience-platform-data-source.md)。
+* 外部資料來源可讓您定義與外部系統的連線。 這些是您可以建立的資料來源。 請參閱[此頁面](../datasource/external-data-sources.md)。
 
 對於每個資料來源，您會使用欄位群組來定義要擷取的資訊。 欄位群組是可從資料來源擷取的欄位集。 請參閱[此頁面](../datasource/field-groups.md)。
 
@@ -62,6 +72,6 @@ ht-degree: 83%
 
    ![](../assets/journey23.png)
 
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下「**[!UICONTROL Save]**」。
 
    資料來源現在已設定完畢，且可供您在歷程中使用。

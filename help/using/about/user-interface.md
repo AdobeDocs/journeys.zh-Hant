@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 87%
-
 ---
-
 # 使用者介面{#concept_rcq_lqt_52b}
 
 
@@ -78,9 +88,9 @@ ht-degree: 87%
 
 ## 瀏覽Adobe Experience Platform欄位 {#friendly-names-display}
 
-定義[事件有效負載](../event/defining-the-payload-fields.md)、[欄位群組有效負載](../datasource/field-groups.md)，以及在[運算式編輯器](../expression/expressionadvanced.md)中選取欄位時，除了欄位名稱外，還會顯示顯示名稱。 此資訊會從「Experience 資料模型」的結構定義中擷取。
+定義[事件有效負載](../event/defining-the-payload-fields.md)、[欄位群組有效負載](../datasource/field-groups.md)，以及在[運算式編輯器](../expression/expressionadvanced.md)中選取欄位時，除了欄位名稱外，還會顯示顯示名稱。 此資訊會從「體驗資料模型」的結構描述定義中擷取。
 
-如果在設定結構時提供了&quot;xdm:alternateDisplayInfo&quot;之類的描述元，則好記的名稱會取代顯示名稱。 它在使用「eVars」和一般欄位時特別有用。您可以透過 API 呼叫來設定好記名稱描述因子。 如需詳細資訊，請參閱 [Schema Registry 開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)。
+如果在設定結構時提供了&quot;xdm:alternateDisplayInfo&quot;之類的描述元，則好記的名稱會取代顯示名稱。 它在使用「eVars」和一般欄位時特別有用。您可以透過 API 呼叫來設定易記名稱描述項。 如需詳細資訊，請參閱 [Schema Registry 開發人員指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hant)。
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -108,7 +118,7 @@ Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提�
 | 在使用者介面元素、區段和功能表群組之間向後移動 | Shift + Tab 鍵 |
 | 在區段內移動並將焦點設定為個別元素 | 箭頭 |
 | 選取或清除焦點中的元素 | 輸入或空格鍵 |
-| 取消選取、折疊面板或關閉對話方塊 | Esc 鍵 |
+| 取消選取、收合面板或關閉對話方塊 | Esc 鍵 |
 
 [在Adobe Experience Platform檔案中進一步瞭解](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hant){target="_blank"}。
 

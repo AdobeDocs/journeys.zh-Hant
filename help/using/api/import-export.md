@@ -3,17 +3,18 @@ product: adobe campaign
 title: 匯入匯出API說明
 description: 進一步瞭解匯入匯出API。
 products: journeys
-source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 21%
-
+source-wordcount: '1162'
+ht-degree: 19%
 ---
-
 
 # 使用匯出 — 匯入API
 
-使用單一API呼叫匯出歷程版本及其所有相關物件（歷程、事件、資料來源、欄位群組、自訂動作）。匯出產生的裝載可用來輕鬆將歷程匯入另一個環境（執行個體或沙箱）。
+使用單一API呼叫匯出歷程版本及其所有相關物件（歷程、事件、資料來源、欄位群組、自訂動作）。 匯出產生的裝載可用來輕鬆將歷程匯入另一個環境（執行個體或沙箱）。
 此功能可讓您跨多個執行個體或多個測試環境工作流程管理您的歷程。
 
 
@@ -30,16 +31,16 @@ ht-degree: 21%
 
 我們建議遵循下列步驟，在不同環境中匯出和匯入您的歷程：
 
-1. 在您的開始環境中建立歷程並輸入引數。 [更多資訊在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=zh-Hant)
-1. 檢查歷程版本是否沒有錯誤。 [更多資訊在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=zh-Hant)
+1. 在您的開始環境中建立歷程並輸入引數。 [更多資訊在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. 檢查歷程版本是否沒有錯誤。 [更多資訊在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
 1. 呼叫&#x200B;**/list/journeys** API以擷取您最新歷程版本的UID歷程和UID。 如有需要，您可以呼叫&#x200B;**/journeys/`{uid}`/latest**，尋找您最新歷程版本的UID。
 1. 使用您的啟動環境引數（orgID和sandboxName）呼叫&#x200B;**export** API。
 1. 開啟傳回裝載，然後檢查下列專案：
    * 如果您的匯出歷程包含&#x200B;**特定認證**，您需要將這些認證取代為與新環境相對應的認證。
-   * 如果您的匯出歷程包含指向&#x200B;**XDM結構描述**&#x200B;的&#x200B;**事件**，且如果ID值不同，則需要在xdmEntity節點中手動更新結構描述ID參考，並使用新環境的結構描述ID。 每個事件都需要進行此更新。 [更多資訊在此](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=zh-Hant)
+   * 如果您的匯出歷程包含指向&#x200B;**XDM結構描述**&#x200B;的&#x200B;**事件**，且如果ID值不同，則需要在xdmEntity節點中手動更新結構描述ID參考，並使用新環境的結構描述ID。 每個事件都需要進行此更新。 [更多資訊在此](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * 如果您的歷程包含電子郵件、簡訊或推播動作，如果目標環境中的名稱與開始環境中的名稱不同，您可能需要更新範本名稱或行動應用程式名稱。
 1. 使用您的目標環境引數（orgID和sandboxName）呼叫&#x200B;**Import** API。 請注意，您可以視需要多次呼叫匯入API。 每次呼叫匯入API時，都會產生歷程中包含之每個物件的UUID和名稱。
-1. 匯入歷程後，您可以在Journey Orchestration應用程式中發佈歷程。 更多資訊[在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=zh-Hant)
+1. 匯入歷程後，您可以在Journey Orchestration應用程式中發佈歷程。 更多資訊[在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## 驗證
@@ -57,9 +58,12 @@ Journey Orchestration API存取權是透過下列步驟設定。 [Adobe I/O 文�
 
 >[!CAUTION]
 >
->不建議使用產生存取權杖的JWT方法。 所有新的整合都必須使用[OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hant#select-oauth-server-to-server)來建立。 Adobe 也建議您將現有的整合移轉至 OAuth 方法。
+>不建議使用產生存取權杖的JWT方法。 所有新的整合都必須使用[OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)來建立。 Adobe 也建議您將現有的整合移轉至 OAuth 方法。
 >
->閱讀下列重要檔案：>[應用程式從JWT移轉至OAuth的遷移指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)，>[新舊應用程式與OAuth的實作指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)，>[使用OAuth伺服器對伺服器認證方法的優點](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>閱讀下列重要檔案：
+>[您的應用程式從JWT移轉至OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)的移轉指南，
+>[新舊應用程式與OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)的實作指南，
+>[使用OAuth伺服器對伺服器認證方法的優點](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 
 若要建立安全的服務對服務 Adobe I/O API 工作階段，對 Adobe 服務的每個請求都必須在授權標題中包含下列資訊。

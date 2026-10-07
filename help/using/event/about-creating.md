@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 63%
-
+source-wordcount: '602'
+ht-degree: 60%
 ---
-
 # 建立新事件 {#section_tbk_5qt_pgb}
 
 
@@ -55,7 +65,7 @@ ht-degree: 63%
    >
    >當您選取&#x200B;**[!UICONTROL System Generated]**&#x200B;型別時，只有具有eventID型別mixin的結構描述才可使用。 當您選取&#x200B;**[!UICONTROL Rule Based]**&#x200B;型別時，所有體驗事件結構描述都可使用。
 
-1. 對於規則型事件，請在&#x200B;**[!UICONTROL Event ID condition]**&#x200B;欄位內按一下。使用簡單運算式編輯器，定義系統將使用的條件，以識別將觸發您歷程的事件。
+1. 對於規則型事件，請在&#x200B;**[!UICONTROL Event ID condition]**欄位內按一下。 使用簡單運算式編輯器，定義系統將使用的條件，以識別將觸發您歷程的事件。
    ![](../assets/alpha-event6.png)
 
    在我們的範例中，我們根據設定檔的城市來撰寫條件。 這表示每當系統收到符合此條件（**[!UICONTROL City]**&#x200B;欄位和&#x200B;**[!UICONTROL Paris]**&#x200B;值）的事件時，都會將其傳遞至Journey Orchestration。
@@ -66,8 +76,8 @@ ht-degree: 63%
 
 1. 新增命名空間。 此步驟為選填，但建議您新增命名空間，以便運用儲存在「即時客戶輪廓服務」的資訊。 它會定義事件具備的金鑰類型。 請參閱[此頁面](../event/selecting-the-namespace.md)。
 1. 定義金鑰：從您的有效負載欄位選擇一個欄位，或是定義一個公式以識別與事件相關聯的人員。 如果您選取命名空間，系統便會自動設定此金鑰（但您仍可加以編輯）。 事實上，[!DNL Journey Orchestration] 會挑選應該與命名空間對應的金鑰（例如，如果您選取電子郵件命名空間，系統便會選取電子郵件金鑰）。 請參閱[此頁面](../event/defining-the-event-key.md)。
-1. 按一下 **[!UICONTROL Save]**。
+1. 按一下「**[!UICONTROL Save]**」。
 
    ![](../assets/journey7.png)
 
-   條件現在已設定完畢，且準備好放入歷程中。 若要接收事件，則需要完成其他設定步驟。 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   事件現在已設定完畢，且準備好放入歷程中。 若要接收事件，則需要完成其他設定步驟。 請參閱[此頁面](../event/additional-steps-to-send-events-to-journey-orchestration.md)。

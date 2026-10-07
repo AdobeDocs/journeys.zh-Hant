@@ -7,13 +7,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 86%
-
+source-wordcount: '925'
+ht-degree: 83%
 ---
-
 # 開始使用歷程 API
 
 
@@ -48,13 +58,13 @@ ht-degree: 86%
 
 [此處](https://adobedocs.github.io/JourneyAPI/docs/)的 Swagger 檔案也描述了這兩個 API。
 
-## 資料來源和自訂動作容量 {#capacity}
+## 資料來源和自訂動作產能 {#capacity}
 
 對於&#x200B;**外部資料來源**，每秒的呼叫數上限為 15。 如果超過此限制，系統會根據正在使用的 API 將其他呼叫捨棄或排入佇列。 可以透過聯絡 Adobe 將端點加入允許清單，以提高這項針對私人外部資料來源的限制，但此選項不適用於公開外部資料來源。 * [了解如何設定資料來源](../datasource/about-data-sources.md)。
 
 >[!NOTE]
 >
->如果資料來源使用的自訂驗證與用於資料來源的端點不同，則需聯絡 Adobe，以將該端點加入允許清單。
+>如果資料來源使用的自訂驗證所用的端點與資料來源所用的端點不同，則需聯絡 Adobe，以將該端點也加入允許清單。
 
 對於&#x200B;**自訂動作**，您需要評估外部 API 的容量。 例如，如果 Journey Optimizer 每秒傳送 1000 次呼叫，而您的系統每秒只支援 100 次呼叫，則您需要定義上限或節流設定，以使系統不會飽和。 [了解如何設定動作](../action/action.md)
 
@@ -71,9 +81,12 @@ ht-degree: 86%
 
 >[!CAUTION]
 >
->不建議使用產生存取權杖的JWT方法。 所有新的整合都必須使用[OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hant#select-oauth-server-to-server)來建立。 Adobe 也建議您將現有的整合移轉至 OAuth 方法。
+>不建議使用產生存取權杖的JWT方法。 所有新的整合都必須使用[OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)來建立。 Adobe 也建議您將現有的整合移轉至 OAuth 方法。
 >
->閱讀下列重要檔案：>[應用程式從JWT移轉至OAuth的遷移指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)，>[新舊應用程式與OAuth的實作指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)，>[使用OAuth伺服器對伺服器認證方法的優點](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>閱讀下列重要檔案：
+>[您的應用程式從JWT移轉至OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)的移轉指南，
+>[新舊應用程式與OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)的實作指南，
+>[使用OAuth伺服器對伺服器認證方法的優點](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 若要建立安全的服務對服務 Adobe I/O API 工作階段，對 Adobe 服務的每個請求都必須在授權標題中包含下列資訊。
 

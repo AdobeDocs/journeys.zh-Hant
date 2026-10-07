@@ -7,17 +7,27 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 98%
-
+source-wordcount: '1001'
+ht-degree: 100%
 ---
-
 # 文件更新
 
-此頁面列出[!DNL Journey Orchestration]的所有檔案更新。
-您也可以參閱[!DNL Journey Orchestration] [發行說明](../release-notes/release-notes.md)。
+本頁面列出 [!DNL Journey Orchestration] 所有文件更新。
+您也可以參閱[!DNL Journey Orchestration][發行說明](../release-notes/release-notes.md)。
 
 ## 2022 年 7 月 {#july-2022}
 
@@ -73,33 +83,33 @@ ht-degree: 98%
 
 * 已新增關於如何排序以及選擇要在區段清單中顯示欄的資訊。 [閱讀全文](../building-journeys/segment-qualification-events.md)
 * 已新增關於在選取區段後如何複製區段名稱及 ID 的資訊。 [閱讀全文](../building-journeys/segment-qualification-events.md)
-* 已在不同頁面上協調 Experience Platform 的發生次數。
+* 已在不同頁面上統一 Experience Platform 的發生次數。
 
 ## 2020 年 7 月 {#july-2020}
 
-* 以針對每種類型的事件，將事件活動區段重新組織到專屬子區段。 [閱讀全文](../building-journeys/event-activities.md)
+* 事件活動區段已重新整理為依各種事件類型劃分的專屬子區段。 [閱讀全文](../building-journeys/event-activities.md)
 * 已新增最佳做法，以避免細分資格篩選超載。 [閱讀全文](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * 已新增附註，說明在動作或條件發生錯誤後，如何讓歷程繼續。 [閱讀全文](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 已新增 Alpha 功能的新章節，這些功能會在有限的客戶群中進行測試。
-* 已新增與智慧型服務整合的區段。 [閱讀全文](../ai-services/ai-services-overview.md)
+* 已新增與 Intelligent Services 整合的區段。 [閱讀全文](../ai-services/ai-services-overview.md)
 * 已新增測試輪廓建立的區段。 [閱讀全文](../building-journeys/testing-the-journey.md)
 * 已新增如何在歷程條件或動作中使用 **[!UICONTROL SegmentQualification]** 節點的資訊。 [閱讀全文](../building-journeys/segment-qualification-events.md)
-* 已在 Campaign 交易訊息及事件發佈中新增附註。 請參閱[使用 Adobe Campaign &#x200B;](../action/working-with-adobe-campaign.md)及[使用 Adobe Campaign 動作](../building-journeys/using-adobe-campaign-actions.md)。
+* 已在 Campaign 交易型訊息及事件發佈中新增附註。 請參閱[使用 Adobe Campaign ](../action/working-with-adobe-campaign.md)及[使用 Adobe Campaign 動作](../building-journeys/using-adobe-campaign-actions.md)。
 * 已新增對於檢查的資訊，這些檢查會在測試 Campaign Standard 執行個體 URL 時執行。 [閱讀全文](../action/working-with-adobe-campaign.md)
-* 已新增反應事件相容性的資訊，而且會在 AWS 或 Azure 伺服器上託管 Campaign Standard 執行個體。 [閱讀全文](../building-journeys/reaction-events.md)
+* 已新增關於反應事件與託管於 AWS 或 Azure 伺服器上的 Campaign Standard 執行個體相容性的資訊。 [閱讀全文](../building-journeys/reaction-events.md)
 * 在使用 Campaign Standard 交易訊息時，已針對設定上限規則的需求新增附註。 [閱讀全文](../action/working-with-adobe-campaign.md)
 * 使用測試模式觸發事件時，已針對產生真實事件新增附註。 [閱讀全文](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2020 年 6 月 {#june-2020}
 
-* 已新增如何針對自訂驗證資料來源變更權杖的快取期間的資訊。 [閱讀全文](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* 已新增如何針對自訂驗證資料來源變更權杖的快取持續時間的資訊。 [閱讀全文](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * 以更新螢幕擷取畫面及文字，以反映重新命名 **[!UICONTROL Finished]** 歷程狀態（其已變更為 **[!UICONTROL Closed (no entrance)]**)。
 * 已新增如何為介面定義語言的資訊。 [閱讀全文](../about/user-interface.md)
 * 個人歷程的狀態清單已移至[測試模式記錄](../building-journeys/testing-the-journey.md#viewing_logs)區段。
 
 ## 2020 年 4 月 {#april-2020}
 
-* 已新增體驗事件結構描述的新區段，以協助使用者設定其第一個事件。 [閱讀全文](../event/experience-event-schema.md)
+* 已新增體驗事件結構描述定義的新區段，以協助使用者設定其第一個事件。 [閱讀全文](../event/experience-event-schema.md)
 * [!DNL Journey Orchestration]文件的首頁已經更新，且包含其他實用連結。 [閱讀全文](../../journey-orchestration-home.md)
 
 ## 2020 年 3 月 {#march-2020}
@@ -130,8 +140,8 @@ ht-degree: 98%
 ## 2019 年 12 月 {#december-2019}
 
 * 已更新所有螢幕擷取畫面以反映介面的變更。
-* 已更新測試模式章節。[瞭解詳情](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=zh-Hant).-->
+* 已更新測試模式章節。 [閱讀更多](../building-journeys/testing-the-journey.md)
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * 現在可刪除已停止的歷程。 已更新相關文件頁面。
 * 在歷程中偵測到問題時，現在會顯示兩種顏色。 紅色代表錯誤，橘色代表警告。 [閱讀全文](../about/troubleshooting.md)
 * 已更新進階運算式編輯器章節。 [閱讀全文](../expression/expressionadvanced.md)。
