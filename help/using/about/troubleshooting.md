@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 85%
-
 ---
-
 # 疑難排解{#concept_nlv_bcv_2fb}
 
 
@@ -41,7 +51,7 @@ ht-degree: 85%
 
 在 **[!UICONTROL Test]** 切換開關及 **[!UICONTROL Publish]** 按鈕旁邊，會顯示警告符號。 此警告符號會顯示系統偵測到的錯誤，而且可防止測試模式啟動或歷程發佈。 在大多數情況下，系統偵測到的錯誤會連結到活動上的可見錯誤，但有時候會連結到其他問題。 在這種情況下，您可以顯示這些問題，嘗試識別用於說明錯誤的問題。 如果您無法識別問題，可以複製詳細資料並傳送給管理員或支援人員。 請注意，會封鎖測試的錯誤和封鎖發佈的錯誤是類似的。
 
-系統偵測到兩種問題：錯誤及警告。 錯誤會封鎖發佈及測試啟動。 警告指出未封鎖測試啟動或發佈的潛在問題。 您會看到問題的說明，以及類型 ERR_XXX_XXX 的問題日誌 ID。 這將有助於技術支援人員找出問題。
+系統偵測到兩種問題：錯誤及警告。 錯誤會封鎖發佈及測試啟動。 警告指出不會封鎖測試啟用或發佈的潛在問題。 您會看到問題的說明，以及類型 ERR_XXX_XXX 的問題日誌 ID。 這將有助於技術支援人員找出問題。
 
 **[!UICONTROL Test]** 切換開關及 **[!UICONTROL Publish]** 按鈕旁邊的符號上可能會顯示兩種不同的顏色。 出現錯誤時，符號會以紅色顯示。 若出現警告，則會顯示為橘色。
 
@@ -55,7 +65,7 @@ ht-degree: 85%
 
 歷程的起點永遠是一個事件。 您可以使用 Postman 等工具執行測試。
 
-您可以檢查您透過這些工具傳送的 API 呼叫是否都已正確傳送。 如果您收到錯誤，則表示您的呼叫發生問題。 再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。 您可以諮詢管理員哪個是要點擊的正確 URL。
+您可以檢查您透過這些工具傳送的 API 呼叫是否已正確傳送。 如果您收到錯誤，則表示您的呼叫發生問題。 再次檢查有效負載、標題（特別是組織 Id）和目的地 URL。 您可以諮詢管理員哪個是要點擊的正確 URL。
 
 不會直接將事件從來源推播至 [!DNL Journey Orchestration]。 事實上，[!DNL Journey Orchestration]會仰賴Adobe Experience Platform的串流獲取API。 因此，如果發生事件相關問題，您可以參閱[此頁面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hant)，以疑難排解串流獲取API。
 
@@ -68,7 +78,7 @@ ht-degree: 85%
 以下是管理員應留意的一些事項：
 
 * 您確定您預期會發生傳入事件的歷程處於測試模式或是即時狀態？
-* 在從有效負載預覽複製有效負載之前，您是否已儲存事件？
+* 在從承載預覽複製承載之前，您是否已儲存事件？
 * 您的事件有效負載是否包含事件 ID？
 * 您是否點按了正確的 URL？
 * 您是否依照串流獲取 API 有效負載結構，而在事件設定窗格中使用有效負載結構預覽？ 請參閱[此頁面](../event/previewing-the-payload.md)。
@@ -86,7 +96,7 @@ ht-degree: 85%
 以下是一些要檢查的事項：
 
 * 是否是因為某個條件排除此人？ 例如，條件是 &quot;gender = male&quot;，但人員是女性。 如果條件並非太複雜，則可由業務使用者執行此檢查。
-* 是否是因為呼叫資料來源未回應？ 當歷程處於測試模式時，可在測試模式日誌中看到此資訊。 當歷程為即時狀態時，管理員可測試直接呼叫資料來源並檢查收到的答案。 管理員也可以複製歷程並進行測試。
+* 是否是因為呼叫資料來源未回應？ 當歷程處於測試模式時，可在測試模式日誌中看到此資訊。 當歷程為啟用狀態時，管理員可測試直接呼叫資料來源並檢查收到的答案。 管理員也可以複製歷程並進行測試。
 
 ## 正在檢查是否成功傳送訊息{#section_qb1_yzs_dgb}
 

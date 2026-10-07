@@ -1,18 +1,28 @@
 ---
 product: adobe campaign
-title: 關於 Journey Orchestration
-description: 進一步瞭解 Journey Orchestration
+title: 關於歷程協調
+description: 進一步瞭解歷程協調
 feature: Journeys
 role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
-
 ---
-
 # 關於 [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
 
@@ -30,7 +40,7 @@ ht-degree: 100%
 
 [!DNL Journey Orchestration] 能以事件中的情境資料、Adobe Experience Platform 的資訊或來自第三方 API 服務的資料，進行即時協調。 如果您使用第三方系統來傳送訊息，則可設定自訂動作。 如果您有 Adobe Campaign Standard，則可使用 Adobe Campaign Standard 的[「交易訊息」功能](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hant)來傳送電子郵件、推播通知和簡訊。
 
-在事件設定索引標籤中，**技術使用者**&#x200B;會設定歷程中預期的事件。 會依照 Adobe Experience Data Model (XDM)，對傳入事件的資料進行標準化。 事件來自串流獲取 API，適用於驗證和未驗證的事件（例如 Adobe Mobile SDK 事件）。
+在事件設定索引標籤中，**技術使用者**&#x200B;會設定歷程中預期的事件。 會依照 Adobe 體驗資料模型 (XDM)，對傳入事件的資料進行標準化。 事件來自串流攝取 API，適用於驗證和未驗證的事件 (例如 Adobe Mobile SDK 事件)。
 
 在資料來源設定索引標籤中，**技術使用者**&#x200B;會設定：
 

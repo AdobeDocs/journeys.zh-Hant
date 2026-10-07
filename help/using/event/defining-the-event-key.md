@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 18%
-
+source-wordcount: '445'
+ht-degree: 16%
 ---
-
 # 定義事件鍵 {#concept_ond_hqt_52b}
 
 
@@ -44,7 +54,7 @@ ht-degree: 18%
 
    ![](../assets/journey20.png)
 
-收到事件時，機碼的值將可讓系統識別與事件相關聯的人員。金鑰已關聯至名稱空間（請參閱[此頁面](../event/selecting-the-namespace.md)），金鑰可用來在Adobe Experience Platform上執行查詢。請參閱[此頁面](../building-journeys/about-orchestration-activities.md)。
-金鑰也可用來檢查個人是否在歷程中。事實上，一個人在同一歷程中不能位於兩個不同的位置。因此，系統不允許相同的金鑰（例如金鑰CRMID=3224）位於相同歷程中的不同位置。
+收到事件時，機碼的值將可讓系統識別與事件相關聯的人員。 金鑰已關聯至名稱空間（請參閱[此頁面](../event/selecting-the-namespace.md)），金鑰可用來在Adobe Experience Platform上執行查詢。 請參閱[此頁面](../building-journeys/about-orchestration-activities.md)。
+金鑰也可用來檢查個人是否在歷程中。 事實上，一個人在同一歷程中不能位於兩個不同的位置。 因此，系統不允許相同的金鑰（例如金鑰CRMID=3224）位於相同歷程中的不同位置。
 
 如果您想要執行其他操作，也可以存取進階運算式函式(**[!UICONTROL Advanced mode]**)。 這些函式可讓您控制用於執行特定查詢的值，例如變更格式、執行欄位串連，僅考慮欄位的一部分（例如10個第一個字元）。 請參閱[此頁面](../expression/expressionadvanced.md)。

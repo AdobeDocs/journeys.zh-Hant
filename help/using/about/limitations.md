@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 54%
-
+source-wordcount: '637'
+ht-degree: 60%
 ---
-
 # 限制 {#limitations}
 
 
@@ -34,8 +44,8 @@ ht-degree: 54%
 
 ## 一般動作限制
 
-* 如果出現錯誤，將系統地執行三次重試。您無法根據收到的錯誤訊息調整重試次數。 
-* 內建&#x200B;**回應**&#x200B;事件可讓您對開箱即用的動作做出回應（請參閱此[頁面](../building-journeys/reaction-events.md)）。如果您想要對透過自訂動作傳送的訊息做出反應，則需要設定專用事件。 
+* 如果出現錯誤，將系統地執行三次重試。 您無法根據收到的錯誤訊息調整重試次數。 
+* 內建&#x200B;**回應**&#x200B;事件可讓您對開箱即用的動作做出回應（請參閱此[頁面](../building-journeys/reaction-events.md)）。 如果要對透過自訂動作傳送的訊息做出反應，則需設定專用事件。 
 
 ## 歷程版本限制 {#journey-versions-limitations}
 
@@ -46,26 +56,26 @@ ht-degree: 54%
 
 ## 細分資格篩選 {#segment-qualification}
 
-* 由於輸送量限制，**區段資格**&#x200B;活動不能與Adobe Campaign Standard異動訊息結合使用。請參閱[Adobe Campaign Standard產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)。 
+* 由於輸送量限制，**區段資格**&#x200B;活動不能與Adobe Campaign Standard異動訊息結合使用。 請參閱[Adobe Campaign Standard產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)。 
  
 
 ## 自訂動作限制
 
 * 自訂動作 URL 不支援動態參數。 
 * 僅支援POST和PUT呼叫方法。 
-* 查詢引數或標題的名稱不得以「。」或「$」開頭。 
+* 查詢參數或標題的名稱不得以「.」開頭 或「$」。 
 * 不允許IP位址。 
-* 不允許內部Adobe位址(.adobe.)。
+* 內部Adobe位址(.adobe.) 是不允許的。
  
 
 ## Adobe Campaign動作限制
 
-* 對於特定執行個體，Adobe Campaign Standard交易式訊息每小時最大規模為50,000則訊息。請參閱[Adobe Campaign Standard產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)。 
+* 對於特定執行個體，Adobe Campaign Standard交易式訊息每小時最大規模為50,000則訊息。 請參閱[Adobe Campaign Standard產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/campaign-standard.html)。 
  
 
 ## 事件限制
 
-* 對於系統產生的事件，必須先在Journey Orchestration中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程ID。 此協調流程ID必須附加至傳入Adobe Experience Platform的串流裝載。此限制不適用於規則型事件。
+* 對於系統產生的事件，必須先在Journey Orchestration中設定用於啟動客戶歷程的串流資料，才能取得唯一的協調流程ID。 此協調流程 ID 必須附加至傳入 Adobe Experience Platform 的串流裝載。 此限制不適用於規則型事件。
  
 
 ## 資料來源限制
@@ -80,6 +90,6 @@ ht-degree: 54%
 
 您可以從以下兩種解決方案中選擇一種：
 
-* 在第一個事件後新增等待活動，為 Adobe Experience Platform 提供執行擷取至輪廓服務所需的時間。
+* 在第一個事件後新增等待活動，為 Adobe Experience Platform 提供執行攝取至輪廓服務所需的時間。
 
 * 設定不會立即運用輪廓的歷程。 例如，如果歷程的設計是要確認帳戶的建立，則體驗事件可能包含傳送第一個確認訊息（名字、姓氏、電子郵件地址等）所需的資訊。

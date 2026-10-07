@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1390'
 ht-degree: 91%
-
 ---
-
 # 外部資料來源 {#concept_t2s_kqt_52b}
 
 
@@ -93,7 +103,7 @@ ht-degree: 91%
 
 ![](../assets/journey29.png)
 
-按一下 **[!UICONTROL Save]**。
+按一下「**[!UICONTROL Save]**」。
 
 資料來源現在已設定完畢，且可供您在歷程中使用，例如在您的條件或個人化電子郵件中。 如果溫度超過 30°C，您可以決定傳送特定通訊。
 
@@ -102,11 +112,11 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="關於自訂驗證"
->abstract="自訂驗證模式會用於複雜驗證，以呼叫 OAuth2 這類 API 封裝通訊協定。 動作執行是兩個步驟的流程。 首先，系統會執行端點呼叫以產生存取權杖。 接著，存取權杖會插入到動作的 HTTP 要求中。"
+>abstract="自訂驗證模式會用於複雜驗證，以呼叫 OAuth2 這類 API 封裝通訊協定。 動作執行是兩個步驟的流程。 首先，系統會執行端點呼叫以產生存取權杖。 接著，存取權杖會插入到動作的 HTTP 請求中。"
 
 此驗證模式會用於複雜驗證，常用來呼叫 OAuth2 這類 API 封裝通訊協定，以擷取要插入到動作之實際 HTTP 要求中的存取權杖。
 
-當您設定自訂驗證時，可以按一下下方的按鈕，以檢查自訂驗證有效負載是否已正確設定。
+當您設定自訂驗證時，可以按一下下方的按鈕，以檢查自訂驗證承載是否已正確設定。
 
 ![](../assets/journey29-bis.png)
 
@@ -116,26 +126,26 @@ ht-degree: 91%
 
 使用此驗證的話，動作執行會是兩個步驟的流程：
 
-1. 呼叫端點以產生存取權仗。
+1. 呼叫端點以產生存取權杖。
 1. 以正確的方式插入存取權仗來呼叫 REST API。
 
 此驗證分為兩個部分。
 
-要呼叫的端點定義，用於產生存取權仗：
+要呼叫的端點定義，用於產生存取權杖：
 
 * 端點：用於產生端點的 URL
 * 端點上的 HTTP 要求方法（GET 或 POST）
-* 標題：在此呼叫中插入做為標題的金鑰/值配對 (若有需要)
+* 標頭：在此呼叫中插入做為標頭的金鑰/值配對 (若有需要)
 * 正文：說明方法為 POST 時呼叫的正文。 我們支援有限的正文結構，如 bodyParams (金鑰/值配對) 中所定義。 bodyType 說明了呼叫內正文的格式和編碼：
   * &#39;form&#39;：表示內容類型將會是 application/x-www-form-urlencoded（字元集 UTF-8），而金鑰/值配對將會序列化為：key1=value1&amp;key2=value2&amp;...
   * &#39;json&#39;：表示內容類型將會是 application/json（字元集 UTF-8），而金鑰/值配對將會序列化為 JSON 物件，如下所示：_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 存取權杖插入動作之 HTTP 要求必須採用的方法定義：
 
-* authorizationType：定義如何將產生的存取權杖插入到動作的 HTTP 要求。 可能的值包括：
+* authorizationType：定義如何將產生的存取權杖插入到動作的 HTTP 請求。 可能的值包括：
 
   * bearer：表示存取權杖必須插入到「授權」標題，例如：_Authorization: Bearer &lt;access token>_
-  * header：表示存取權杖必須插入為標題，而標題的名稱會用屬性 tokenTarget 定義。 舉例來說，若 tokenTarget 是 myHeader，則存取權杖會插入為標題，如下所示：_myHeader: &lt;access token>_
+  * header：表示存取權杖必須插入為標頭，而標頭的名稱會用屬性 tokenTarget 定義。 舉例來說，若 tokenTarget 是 myHeader，則存取權杖會插入為標題，如下所示：_myHeader: &lt;access token>_
   * queryParam：表示存取權杖必須插入為 queryParam，而查詢參數的名稱會由屬性 tokenTarget 定義。 舉例來說，若 tokenTarget 是 myQueryParam，則動作呼叫的 URL 將會是：_&lt;url>?myQueryParam=&lt;access token>_
 
 * tokenInResponse：表示如何從驗證呼叫中擷取存取權杖。 此屬性可以是：
@@ -167,7 +177,7 @@ ht-degree: 91%
 }
 ```
 
-您可以針對自訂驗證資料來源變更權杖之快取期間的資訊。 以下是自訂驗證有效負載的範例。 會在　&quot;cacheDuration&quot;　參數中定義快取期間。 其會指定快取中產生權杖的保留期間。 單位可能是毫秒、秒、分鐘、小時、天、月、年。
+您可以針對自訂驗證資料來源變更權杖的快取持續時間。 以下是自訂驗證承載的範例。 快取持續時間會在 &quot;cacheDuration&quot; 參數中定義。 其會指定快取中產生權杖的保留期間。 單位可能是毫秒、秒、分鐘、小時、天、月、年。
 
 ```
 "authentication": {

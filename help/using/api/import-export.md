@@ -3,17 +3,18 @@ product: adobe campaign
 title: 匯入匯出API說明
 description: 進一步瞭解匯入匯出API。
 products: journeys
-source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 21%
-
+source-wordcount: '1162'
+ht-degree: 19%
 ---
-
 
 # 使用匯出 — 匯入API
 
-使用單一API呼叫匯出歷程版本及其所有相關物件（歷程、事件、資料來源、欄位群組、自訂動作）。匯出產生的裝載可用來輕鬆將歷程匯入另一個環境（執行個體或沙箱）。
+使用單一API呼叫匯出歷程版本及其所有相關物件（歷程、事件、資料來源、欄位群組、自訂動作）。 匯出產生的裝載可用來輕鬆將歷程匯入另一個環境（執行個體或沙箱）。
 此功能可讓您跨多個執行個體或多個測試環境工作流程管理您的歷程。
 
 
@@ -59,7 +60,10 @@ Journey Orchestration API存取權是透過下列步驟設定。 [Adobe I/O 文�
 >
 >不建議使用產生存取權杖的JWT方法。 所有新的整合都必須使用[OAuth伺服器對伺服器驗證方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hant#select-oauth-server-to-server)來建立。 Adobe 也建議您將現有的整合移轉至 OAuth 方法。
 >
->閱讀下列重要檔案：>[應用程式從JWT移轉至OAuth的遷移指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)，>[新舊應用程式與OAuth的實作指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)，>[使用OAuth伺服器對伺服器認證方法的優點](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>閱讀下列重要檔案：
+>[您的應用程式從JWT移轉至OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)的移轉指南，
+>[新舊應用程式與OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)的實作指南，
+>[使用OAuth伺服器對伺服器認證方法的優點](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 
 若要建立安全的服務對服務 Adobe I/O API 工作階段，對 Adobe 服務的每個請求都必須在授權標題中包含下列資訊。

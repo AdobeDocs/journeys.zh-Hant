@@ -1,18 +1,28 @@
 ---
 product: adobe campaign
 title: 開始使用
-description: 探索設定 Journey Orchestration 的主要步驟，並建置您的第一個歷程。
+description: 探索設定歷程協調的主要步驟，並建置您的第一個歷程。
 feature: Journeys
 role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
-
 ---
-
 # 開始使用{#concept_y4b_4qt_52b}
 
 
@@ -58,7 +68,7 @@ ht-degree: 100%
 
 1. **設計您的歷程**
 
-   結合不同的事件、協調和動作活動，以建立您的多步驟跨管道情境。 此步驟由&#x200B;**業務使用者**&#x200B;執行。
+   結合不同的事件、協調流程和動作活動，以建立您的多步驟跨管道情境。 此步驟由&#x200B;**業務使用者**&#x200B;執行。
 
    如需詳細資訊，請參閱[此頁面](../building-journeys/journey.md)。
 
